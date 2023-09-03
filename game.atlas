@@ -2292,6 +2292,27 @@ NationIcons/The Borderless Realm
   orig: 100, 100
   offset: 0, 0
   index: -1
+TechIcons/Carpentry
+  rotate: false
+  xy: 400, 900
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Woodblock Printing
+  rotate: false
+  xy: 500, 900
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Official Time System
+  rotate: false
+  xy: 600, 900
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 
 game3.png
 size: 352,36
