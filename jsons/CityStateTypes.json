@@ -1,0 +1,55 @@
+[
+    {
+        "name": "Cultured",
+        "friendBonusUniques": [
+            "[+3 Culture] <before the [Edo period]>",
+            "[+6 Culture] <starting from the [Edo period]> <before the [Meiji era]>",
+            "[+13 Culture] <starting from the [Meiji era]>"
+        ],
+        "allyBonusUniques": [
+            "[+6 Culture] <before the [Edo period]>",
+            "[+12 Culture] <starting from the [Edo period]> <before the [Meiji era]>",
+            "[+26 Culture] <starting from the [Meiji era]>"
+        ],
+        "color": [139, 96, 255]
+    },
+    {
+        "name": "Maritime",
+        "friendBonusUniques": ["[+2 Food] [in capital]"],
+        "allyBonusUniques": ["[+2 Food] [in capital]", "[+1 Food] [in all cities]"],
+        "color": [56, 255, 112]
+    },
+    {
+        "name": "Mercantile",
+        "friendBonusUniques": [
+            "[+2 Happiness] <before the [Edo period]>",
+            "[+3 Happiness] <starting from the [Edo period]>"
+        ],
+        "allyBonusUniques": [
+            "[+2 Happiness] <before the [Edo period]>",
+            "[+3 Happiness] <starting from the [Edo period]>",
+            "Provides a unique luxury"
+        ],
+        "color": [255, 216, 0]
+    },
+    {
+        "name": "Militaristic",
+        "friendBonusUniques": ["Provides military units every ≈[20] turns"],
+        "allyBonusUniques": ["Provides military units every ≈[17] turns"],
+        "color": [255, 0, 0]
+    },
+    {
+        "name": "Religious",
+        "friendBonusUniques":  [
+            "[+3 Faith] <before the [Edo period]>",
+            "[+6 Faith] <starting from the [Edo period]> <before the [Meiji era]>",
+            "[+13 Faith] <starting from the [Meiji era]>"
+        ],
+        "allyBonusUniques":  [
+            "[+6 Faith] <before the [Edo period]>",
+            "[+12 Faith] <starting from the [Edo period]> <before the [Meiji era]>",
+            "[+26 Faith] <starting from the [Meiji era]>"
+        ],
+        "color": [255, 255, 255]
+    }
+]

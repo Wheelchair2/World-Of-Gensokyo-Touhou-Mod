@@ -1,0 +1,97 @@
+[
+    // Source: the fandom, so take these with a grain of salt
+    // I also did some testing in the official version, but by far not all
+
+    {
+        "name": "Youkai Expansion Project",
+        "researchAgreementCost": 150,
+        "startingSettlerCount": 1, // These values should not include the values given in Difficulties.json
+        "startingWorkerCount": 0,
+        "startingMilitaryUnitCount": 1,
+        "startingMilitaryUnit": "Warrior",
+        "settlerPopulation": 1,
+        "baseUnitBuyCost": 200,
+        "embarkDefense": 11,
+        "startPercent": 0,
+        "citySound": "cityAncient",
+        "iconRGB": [1, 85, 0]
+    },
+    {
+        "name": "Edo period",
+        "researchAgreementCost": 150,
+        "startingSettlerCount": 1, // These values should not include the values given in Difficulties.json
+        "startingWorkerCount": 0,
+        "startingMilitaryUnitCount": 1,
+        "startingMilitaryUnit": "Ashigaru Infantry",
+        "startingGold": 50,
+        "settlerPopulation": 1,
+        "baseUnitBuyCost": 200,
+        "embarkDefense": 14,
+        "startPercent": 0,
+        "citySound": "cityMedieval",
+        "iconRGB": [255, 87, 35]
+    },
+    {
+        "name": "Meiji era",
+        "researchAgreementCost": 150,
+        "startingSettlerCount": 1,
+        "startingWorkerCount": 0,
+        "startingMilitaryUnitCount": 3,
+        "startingMilitaryUnit": "Imperial Ashigaru",
+        "startingGold": 100,
+        "startingCulture": 100,
+        "settlerPopulation": 1,
+        "settlerBuildings": ["Monument", "Granary", "Library", "Aqueduct", "Barracks","Lighthouse","Market","Workshop","Amphitheater", "Barracks", "Rice Wine", "Paper Maker","Onsen"]
+        "startingObsoleteWonders": ["The Great Library", "Hieda Temple School", "Komakusa Gambling Den", "Barrels Of Alcohol", "Geidontei Bar", "The Great Lighthouse", "Kappa Stronghold", "Cirno's Freezing Hot Spring", "Hot Spring Town"],
+        "baseUnitBuyCost": 300,
+        "embarkDefense": 21,
+        "startPercent": 10,
+        "citySound": "cityRenaissance",
+        "iconRGB": [233, 31, 99]
+    },
+    {
+        "name": "Modern era",
+        "researchAgreementCost": 400,
+        "startingSettlerCount": 3,
+        "startingWorkerCount": 2,
+        "startingMilitaryUnitCount": 5,
+        "startingMilitaryUnit": "Imperial Ashigaru",
+        "startingGold": 200,
+        "startingCulture": 500,
+        "settlerPopulation": 4,
+        "settlerBuildings": ["Monument", "Granary", "Library", "Aqueduct", "Barracks","Lighthouse","Market","Workshop","Amphitheater", "Barracks", "Rice Wine", "Paper Maker","Onsen"]
+        "startingObsoleteWonders": ["The Great Library", "Hieda Temple School", "Komakusa Gambling Den", "Barrels Of Alcohol", "Geidontei Bar", "The Great Lighthouse", "Kappa Stronghold", "Cirno's Freezing Hot Spring", "Hot Spring Town"],
+        "baseUnitBuyCost": 800,
+        "embarkDefense": 16,
+        "startPercent": 65,
+        "citySound": "cityRenaissance",
+        "iconRGB": [0, 150, 136],
+        "uniques": [
+            "May buy [Great Prophet] units for [200] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([100])",
+            "Every major Civilization gains a spy once a civilization enters this era"
+        ]
+    },
+    {
+        "name": "Present era",
+        "researchAgreementCost": 400,
+        "startingSettlerCount": 3,
+        "startingWorkerCount": 3,
+        "startingMilitaryUnitCount": 5,
+        "startingMilitaryUnit": "Royal Ashigaru",
+        "startingGold": 400,
+        "startingCulture": 600,
+        "settlerPopulation": 5,
+        "settlerBuildings": ["Monument", "Granary", "Library", "Aqueduct", "Barracks","Lighthouse","Market","Workshop","Amphitheater", "Barracks", "Rice Wine", "Paper Maker","Onsen","University"],
+        "startingObsoleteWonders": ["The Great Library", "Hieda Temple School", "Komakusa Gambling Den", "Barrels Of Alcohol", "Geidontei Bar", "The Great Lighthouse", "Kappa Stronghold", "Cirno's Freezing Hot Spring", "Hot Spring Town", "Great Wall", "Phantom Ship Harbor", "Blessing Of Winter", "Omaikane's Device", "The Heart Sutra", "Secret Hermit World", "Grimoire Of Youkais"],
+        "baseUnitBuyCost": 1000,
+        "embarkDefense": 26,
+        "startPercent": 80,
+
+        "citySound": "cityRenaissance",
+        "iconRGB": [76, 176, 81],
+        "uniques": [
+            "May buy [Great Prophet] units for [300] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([100])",
+            "Every major Civilization gains a spy once a civilization enters this era"
+        ]
+    }
+]

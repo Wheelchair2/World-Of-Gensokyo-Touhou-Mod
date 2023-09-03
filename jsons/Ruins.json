@@ -1,0 +1,47 @@
+[
+    {
+        "name": "who could've stolen these?",
+        "notification": "We have found stolen artifacts in the ruins! (+20 culture)",
+        "uniques": ["Gain [20] [Culture]"],
+        "color": "#cf8ff7"
+    },
+    {
+        "name": "a retired miner",
+        "notification": "An old man happened to be a [Worker] and he wants to prove you his worth!",
+        "uniques": ["Free [Worker] found in the ruins"],
+        "excludedDifficulties": ["Hard","Lunatic"]
+    },
+    {
+        "name": "a retired soldier",
+        "notification": "An old man happened to be a [Warrior] and he wants to prove you his worth!",
+        "uniques": ["Free [Warrior] found in the ruins"],
+        "excludedDifficulties": ["Hard","Lunatic"]
+    },
+    {
+        "name": "your exploring unit receives training by Kasen",
+        "notification": "Kasen trained us her ways of combat!",
+        "uniques": ["This Unit gains [30] XP"]
+    },
+    {
+        "name": "missing dumplings",
+        "notification": "Yuyuko rewards us for finding her missing dumplings!",
+        "uniques": ["Gain [50]-[100] [Gold]"],
+        "color": "#ffeb7f"
+    },
+    {
+        "name": "what's in the book?",
+        "notification": "We have stumbled upon one of Patchouli's books and learned [techName]!",
+        "uniques": ["[1] free random researchable Tech(s) from the [Edo period]"],
+		"color": "#7f7fff"
+    },
+    {
+        "name": "whose sword is this?",
+        "notification": "Our unit finds a sword hidden in the ruins!",
+        "uniques": ["This Unit upgrades for free including special upgrades"]
+    },
+    {
+        "name": "reveal nearby Barbarian camps",
+        "notification": "Mystia told us about scary ghosts in the area!",
+        "uniques": ["Reveal up to [All] [Barbarian encampment] within a [10] tile radius"]
+    },
+]

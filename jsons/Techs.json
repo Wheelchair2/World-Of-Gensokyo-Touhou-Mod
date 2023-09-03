@@ -1,0 +1,751 @@
+[
+	{
+		"columnNumber": 0,
+		"era": "Youkai Expansion Project",
+		"techCost": 20,
+		"buildingCost": 40,
+        "wonderCost": 50,
+		"techs": [
+			{
+				"name": "Things To Know",
+				"row": 6,
+				"quote": "'A cage, like for a bird or an insect, can't function if it's completely sealed off. You need at least the air to pass through. Without the sun, the flowers wouldn't bloom. Similarly, without new wind and sun constantly entering Gensokyo, the place would simply die off. Closing off Gensokyo means no longer accepting things. Do you really think Gensokyo could survive without visitors bringing in new ideas?' ? Hecatia Lapislazuli",
+				"uniques": ["Starting tech", "Military units suffers from -50% Strength before the discovery of Professional Army", "-1 Movement for Water units when moving in Ocean tiles before the discovery of Navigation", "Hope you enjoy the mod!"]
+			}
+		]
+	},
+	{
+		"columnNumber": 1,
+		"era": "Youkai Expansion Project",
+		"techCost": 9,
+		"buildingCost": 75,
+		"wonderCost": 185,
+		"techs": [
+			{
+				"name": "Scientific Knowledge",
+				"row": 5,
+				"prerequisites": ["Things To Know"],
+				"quote": "The Touhou Project series while being primarily based on the religion known as Shinto it is not unusual to see many functions of the Touhou world to rely on modern science (Gendaikagaku)."
+			}
+		]
+	},
+	{
+		"columnNumber": 2,
+		"era": "Youkai Expansion Project",
+		"techCost": 40,
+		"buildingCost": 75,
+		"wonderCost": 185,
+		"techs": [
+			{
+				"name": "Education",
+				"row": 10,
+				"prerequisites": ["Scientific Knowledge"],
+				"quote": "Thanks for attending Cirno's perfect math class."
+			},
+			{
+				"name": "Calendar",
+				"row": 8,
+				"prerequisites": ["Scientific Knowledge"],
+				"quote": "'Remembering the melancholy of human existence. Even ghosts stray from the path of righteousness.' - Yuyuko Saigyouji."
+			},
+			{
+				"name": "Paid Service",
+				"row": 6,
+				"prerequisites": ["Scientific Knowledge"],
+				"quote": "Even Mystia's Izakaya doesn't have this."
+			},
+			{
+				"name": "Authority",
+				"row": 4,
+				"prerequisites": ["Scientific Knowledge"],
+				"quote": "'I'll tell you a secret. My weakness is... nothing.' - Yukari Yakumo."
+			},
+			{
+				"name": "Agriculture",
+				"cost": 20,
+				"row": 2,
+				"prerequisites": ["Scientific Knowledge"],
+				"quote": "Youkais can't plant, can they? Or can they?"
+			}
+		]
+	},
+	{
+		"columnNumber": 3,
+		"era": "Youkai Expansion Project",
+		"techCost": 105,
+		"buildingCost": 100,
+		"wonderCost": 185,
+		"techs": [
+			{
+			
+				"name": "Sailing",
+				"cost": 60,
+				"row": 2,
+				"prerequisites": ["Agriculture"],
+				"quote": "Apparently, there is no sea in Gensokyo.",
+				"uniques": ["Enables embarkation for land units"]
+			},
+			{
+			
+				"name": "Fermented Alcohol",
+				"cost": 60,
+				"row": 3,
+				"prerequisites": ["Agriculture"],
+				"quote": "She didn't spill a drop of her sake."
+			},
+			{
+				"name": "Iron Working",
+				"row": 4,
+				"prerequisites": ["Agriculture"],
+				"quote": "'You might be trying to get experience points, but you'll just be wasting time in the end.' - Parsee-chan."
+			},
+			{
+				"name": "State Government",
+				"row": 6,
+				"prerequisites": ["Authority"],
+				"quote": "'Shooting, cutting, stabbing, hitting, killing...It's all useless against me.' - Yukari Yakumo; not only is she not scared of physics, but of logic as well."
+			},
+			{
+				"name": "Professional Army",
+				"row": 7,
+				"prerequisites": ["Paid Service"],
+				"quote": "'That aura I feel from you... Could you be a wolf spirit? To think that a wolf would be smart enough to rely on a living human...' - Mayumi Joutouguu."
+			},
+			{
+				"name": "Diplomacy",
+				"row": 9,
+				"prerequisites": ["Calendar"],
+				"quote": "'pls rember that wen u feel scare or frigten never forget ttimes wen u feeled happy. wen day is dark alway rember happy day' - A quote in that will surely make your day."
+				"uniques": ["Enables Open Borders agreements", "Enables Research agreements"]
+			},
+			{
+				"name": "Currency",
+				"row": 10,
+				"prerequisites": ["Education"],
+				"quote": "'You foul barbarian... How long are you going to believe that you can use violence to hold dominion over objects? Possession of an object can only be controlled by the god of the markets. As long as they possess something, none can escape from the hands of God! The market has been opened! Let us return all things to nothing!' - Chimata Tenkyuu."
+			}
+		]
+	},
+	{
+		"columnNumber": 4,
+		"era": "Youkai Expansion Project",
+		"techCost": 275,
+		"buildingCost": 125,
+		"wonderCost": 250,
+		"techs": [
+			{
+				"name": "Hot Spring",
+				"cost": 175,
+				"row": 3,
+				"prerequisites": ["Fermented Alcohol", "Sailing"],
+				"quote": "In Japan, onsen are hot springs and the bathing facilities, something like you would think of pools."
+			},
+			{
+				"name": "Metal Casting",
+				"row": 4,
+				"prerequisites": ["Iron Working"],
+				"quote": "The Scarlet Devil Mansion is explosive."
+			},
+			{
+				"name": "Gunpowder",
+				"row": 5,
+				"prerequisites": ["State Government", "Professional Army"],
+				"quote": "Remember, Alice puts gunpowder inside her dolls."
+			},
+			{
+				"name": "Shield Wall",
+				"cost": 175,
+				"row": 7,
+				"prerequisites": ["Professional Army"],
+				"quote": "Fujiwara no Mokou is a princess from the Fujiwara Clan.",
+				"uniques": ["[+50]% Strength <when defending> <for [Melee] units> <when adjacent to a [Melee] unit>"]
+			},
+			{
+				"name": "Festivals",
+				"cost": 175,
+				"row": 8,
+				"prerequisites": ["Diplomacy"],
+				"quote": "'I've been watching all of you this whole time. You all responded to my 'foregathering ability' without noticing, and came to these feasts. Do you know what this means? It means none of you can defeat me.' - Suika Ibuki.",
+			},
+			{
+				"name": "Printing",
+				"cost": 175,
+				"row": 9,
+				"prerequisites": ["Diplomacy"],
+				"quote": "'You don't seem related to the incident, so without further ado, allow me to blow you into the next week!' - Aya Shameimaru to Eternity Larva.",
+				"uniques": ["May buy [Mercenary] units with [Gold] for [2] times their normal Production cost"]
+			},
+			{
+				"name": "Trade",
+				"cost": 175,
+				"row": 10,
+				"prerequisites": ["Diplomacy", "Currency"],
+				"uniques": ["Enables conversion of city production to [Gold]", "Roads connect tiles across rivers"],
+				"quote": "'The Ability Cards? I don't just 'know' about them. I created them, as a matter of fact!' - Megumu Iizunamaru."
+			}
+		]
+	},
+	{
+		"columnNumber": 5,
+		"era": "Edo period",
+		"techCost": 485,
+		"buildingCost": 160,
+		"wonderCost": 400,
+		"techs": [
+			{
+				"name": "Yama's Permission",
+				"cost": 3200,
+				"row": 1,
+				"quote": "And so, the gates to magic and divinity was opened."
+				"uniques": ["Access to Magic and Religion tech tree", "Discover [Research For Magic]", "Discover [Religion]"]
+			},
+			{
+				"name": "Navigation",
+				"row": 9,
+				"prerequisites": ["Printing","Trade"],
+				"uniques": ["Enables [Embarked] units to enter ocean tiles"],
+				"quote": "'Wakasagi' is a fish native in northern Japan, Hime is a suffix that means 'princess.' That would mean, Wakasagihime's name is literally 'fish princess.'"
+			},
+			{
+				"name": "Maintained Society",
+				"row": 8,
+				"prerequisites": ["Shield Wall", "Festivals", "Gunpowder", "Metal Casting"],
+				"quote": "Crow Tengu (karasu-tengu), the 'nimble information corps,' are similar to anthropomorphic crows with a humanoid body structure. Since they're responsible for writing and distributing newspapers, they're the only type of tengu that ventures to the foothills.",
+				"uniques": ["Improves movement speed on roads", "[50]% City Strength from defensive buildings", "Enables Defensive Pacts"]
+			},
+			{
+				"name": "Mathematics",
+				"row": 10,
+				"prerequisites": ["Trade"],
+				"quote": "Teacher Keine will be proud."
+				"uniques": ["Enables conversion of city production to [Science]", "[+1] Range <for [Archery] units>", "[+1] Range <for [Ranged Gunpowder] units>", "Roads connect tiles across rivers"]
+			},
+			{
+				"name": "Religion",
+				"row": 6,
+				"quote": "There are three main religions in Gensokyo: Buddhism, Taoism, Shintoism."
+				"uniques": [
+				"Only available <for [Hakurei Faction]>",
+				"Only available <for [Moriya Faction]>",
+				"Only available <for [Myouren Faction]>",
+				"Only available <for [Senkai]>",
+				"Only available <for [Land Of The Corpses]>"
+				]
+			},
+			{
+				"name": "Research For Magic",
+				"row": 3,
+				"quote": "'It ain't magic if it ain't flashy! Danmaku's all about firepower!' - Marisa Kirisame."
+				"uniques": [
+				"Only available <for [Ordinary Magicians]>",
+				"Only available <for [Land Of The Corpses]>",
+				"Only available <for [The Unified Doll Front]>"
+				]
+			}
+		]
+	},
+	{
+		"columnNumber": 6,
+		"era": "Edo period",
+		"techCost": 105,
+		"buildingCost": 75,
+		"wonderCost": 185,
+		"techs": [
+			{
+				"name": "Rituals",
+				"row": 7,
+				"prerequisites": ["Religion"],
+				"quote": "'Out of the generations of shrine maidens, her sense of danger is the most lacking and she has meager training, yet her power is considerable.' - Hieda no Akyuu, referring to Reimu Hakurei."
+			},
+			{
+				"name": "Religious Doctrine",
+				"row": 6,
+				"prerequisites": ["Religion"],
+				"quote": "''An echo spirit, huh? So all you do is parrot things back?' Marisa once said, urging Kyouko to reply; who then replied with, 'That is all I do, so don't tease me about it.'"
+			},
+			{
+				"name": "Simple Alchemy",
+				"row": 4,
+				"prerequisites": ["Research For Magic"],
+				"quote": "According to Rinnosuke Morichika, Marisa was inspired to use star-themed magic after a meteor shower viewing party around the year 2001. "
+			},
+			{
+				"name": "Forbidden Sorcery",
+				"row": 2,
+				"prerequisites": ["Research For Magic"],
+				"quote": "'Oh well, it doesn't matter if you really are youkai or not. I have the grimoire you're looking for. I am the magician you're looking for. Whether you are youkai or not. YOU ARE MY ENEMIES!' - Alice Margatroid to the Three Fairies of Light."
+			},
+			{
+				"name": "Politics",
+				"cost": 780,
+				"row": 8,
+				"prerequisites": ["Maintained Society"],
+				"quote": "White Wolf Tengu (hakurou tengu) are the 'mountain's defense force,' responsible for keeping out intruders. They're known as avid players of shogi"
+			},
+			{
+				"name": "Compass",
+				"cost": 780,
+				"row": 9,
+				"prerequisites": ["Navigation", "Mathematics"],
+				"uniques": ["[+1] Movement <for [Embarked] units>"]
+				"quote": "There is a ship-sinking youkai in Gensokyo, be careful of her."
+			},
+			{
+				"name": "Physics",
+				"cost": 780,
+				"row": 10,
+				"prerequisites": ["Mathematics"],
+				"quote": "Satori is a type of mountain-dwelling youkai in Japanese folklore that is known to live within the mountains of Hida and Mino (today's Gifu Prefecture).",
+				"uniques": ["[+1] Range <for [Siege] units>"]
+			}
+		]
+	},
+	{
+		"columnNumber": 7,
+		"era": "Edo period",
+		"techCost": 275,
+		"buildingCost": 75,
+		"wonderCost": 185,
+		"techs": [
+			{
+				"name": "Cultural Preservation",
+				"row": 6,
+				"prerequisites": ["Religious Doctrine"],
+				"quote": "'I've been waiting. You've got some guts, challenging me on the night of the full moon.' - Keine Kamishirasawa."
+			},
+			{
+				"name": "Brewing Mastery",
+				"row": 4,
+				"prerequisites": ["Simple Alchemy"],
+				"quote": "In Imperishable Night, Marisa survives looking at the full moon, which should drive normal humans insane. When Alice asks if she's alright, she says that it's alright since she's insane to begin with."
+			},
+			{
+				"name": "Advanced Magic",
+				"row": 3,
+				"prerequisites": ["Forbidden Sorcery"],
+				"quote": "Sunny Milk mentions that she's looking for a magician with a grimoire that 'shines wonderfully with all the seven colors of the light.'"
+			},
+			{
+				"name": "Mysterious Knowledge",
+				"row": 1,
+				"prerequisites": ["Forbidden Sorcery"],
+				"quote": "Koakuma & Daiyousei's names were created by the community.",
+				"uniques": ["[-20]% tile improvement construction time"]
+			},
+			{
+				"name": "Shogunate",
+				"cost": 1150,
+				"row": 8,
+				"prerequisites": ["Politics"],
+				"quote": "The shogunate was the hereditary military dictatorship of Japan (1192?1867). Obviously, it doesn't canocally exist in Gensokyo."
+			},
+			{
+				"name": "Law And Order",
+				"cost": 1150,
+				"row": 9,
+				"prerequisites": ["Compass"],
+				"quote": "There is only black and white."
+			},
+			{
+				"name": "Chemistry",
+				"cost": 1150,
+				"row": 10,
+				"prerequisites": ["Physics"],
+				"quote": "Science is Elegant."
+			}
+		]
+	},
+	{
+		"columnNumber": 8,
+		"era": "Edo period",
+		"techCost": 480,
+		"buildingCost": 160,
+		"wonderCost": 400,
+		"techs": [
+			{
+				"name": "Divine Punishment",
+				"row": 7,
+				"prerequisites": ["Cultural Preservation","Rituals"],
+				"quote": "'Conviction! Conviction! Conviction!' - Eiki Shiki. Of course, she didn't say that in canon."
+				"uniques": ["[+33]% Strength <for [Monk] units> <vs [Spirit] units>", "[+33]% Strength <for [Hermit] units> <vs [Spirit] units>"]
+			},
+			{
+				"name": "Magical Science",
+				"row": 4,
+				"prerequisites": ["Brewing Mastery"],
+				"quote": "The actual name of Renko and Merry's club is 'The Hifuu Club', not 'Ghostly Field Club'"
+			},
+			{
+				"name": "Access To Dark Magic",
+				"row": 3,
+				"prerequisites": ["Advanced Magic"],
+				"quote": "'Sonanoka?' - Rumia.",
+				"uniques": ["New [Military] units start with [15] Experience [in all cities]"]
+			},
+			{
+				"name": "Self-Discovery",
+				"row": 1,
+				"prerequisites": ["Mysterious Knowledge"]
+				"quote": "'Bet you'd be stronger if you tore those restrictive clothes.' - Marisa Kirisame, out of context."
+				"uniques": ["Free Social Policy"]
+			},
+			{
+				"name": "Law Enforcement",
+				"cost": 1600,
+				"row": 9,
+				"prerequisites": ["Shogunate", "Law And Order"],
+				"quote": "Dansu no chansu ni pankuna ranbu de anta no mausu wa anguri 'nan chi ~yuu fanki' (nan chi ~yuu fanki!)"
+			},
+			{
+				"name": "Fertilizer",
+				"cost": 1600,
+				"row": 10,
+				"prerequisites": ["Chemistry"],
+				"quote": "You're not gonna use animal feces as fertilizer, are you?"
+			}
+		]
+	},
+	{
+		"columnNumber": 9,
+		"era": "Edo period",
+		"techCost": 780,
+		"buildingCost": 200,
+		"wonderCost": 400,
+		"techs": [
+			{
+				"name": "National Faith",
+				"row": 7,
+				"prerequisites": ["Divine Punishment"],
+				"quote": "'Humans haven't changed since my days in the temple. How weak and rash you are!' - Byakuren Hijiri to Reimu Hakurei.",
+				"uniques": ["[+25]% Spread Religion Strength <for [Missionary] units>", "[+25]% Spread Religion Strength <for [Great Prophet] units>"]
+			},
+			{
+				"name": "Philosophy",
+				"row": 6,
+				"prerequisites": ["Divine Punishment"],
+				"quote": "'Did you know why rare ingredients taste better? This is because humans taste not with their tounges, but their minds' - Sakuya Izayoi.",
+				"uniques": ["[+50]% Golden Age length"]
+			},
+			{
+				"name": "Limitless Learning",
+				"row": 4,
+				"prerequisites": ["Magical Science"],
+				"quote": "Sumireko is cute. Did you expected a Touhou quote or something?"
+				"uniques": ["[+25]% XP gained from combat <for units without [Martial Arts]> <before adopting [Military Tradition]> <before the [Meiji era]>"]
+			},
+			{
+				"name": "Field Of Summoning",
+				"row": 3,
+				"prerequisites": ["Access To Dark Magic"],
+				"quote": "Yoshika Miyako once said, 'Gyaa waarr hauur zoaahhh."
+			},
+			{
+				"name": "Psychological Warfare",
+				"row": 2,
+				"prerequisites": ["Access To Dark Magic"],
+				"quote": "I was about to put Satori's quote here, but then I realised that there is a more valuable information for you to hear: Satori is cute."
+				"uniques": ["No movement cost to pillage"]
+			},
+			{
+				"name": "Arts And Sculpture",
+				"cost": 2350,
+				"row": 10,
+				"prerequisites": ["Fertilizer"],
+				"quote": "The Kamakura Period is considered a high point in the history of the Japanese art."
+			},
+			{
+				"name": "Economics",
+				"cost": 2350,
+				"row": 9,
+				"prerequisites": ["Law Enforcement"],
+				"quote": "There is a youkai with the ability to stack rocks perfectly."
+			}
+		]
+	},
+	{
+		"columnNumber": 10,
+		"era": "Meiji era",
+		"techCost": 780,
+		"buildingCost": 200,
+		"wonderCost": 500,
+		"techs": [
+			{
+				"name": "Technology Limit",
+				"cost": 3100,
+				"row": 9,
+				"prerequisites": ["Economics", "Arts And Sculpture"],
+				"quote": "Yukari probably kept humans from technologically advancing in Gensokyo.",
+				"uniques": ["[+150]% Strength  <for [Magician] units>", "[+150]% Strength  <for [Dark Magician] units>", "[+150]% Strength  <for [Summon] units>", "[+150]% Strength  <for [Monk] units>", "[+150]% Strength  <for [Hermit] units>"]
+			},
+			{
+				"name": "Full Conversion",
+				"row": 6,
+				"prerequisites": ["National Faith", "Philosophy"],
+				"quote": "Religion plays a major role in Gensokyo, as Gods literally exist in the Touhou series."
+				"uniques": ["[+50]% Natural religion spread [in all non-occupied cities]", "[+50]% Natural religion spread [in City-State cities] <before adopting [Religious Unity]>"]
+			},
+			/*
+			{
+				"name": "Magic Tree Extension",
+				"row": 3,
+				"prerequisites": ["Psychological Warfare", "Field Of Summoning", "Limitless Learning"],
+				"quote": "Yoshika Miyako once said, 'Gyaa waarr hauur zoaahhh."
+			},
+			*/
+		]
+	},
+	{
+		"columnNumber": 11,
+		"era": "Meiji era",
+		"techCost": 4100,
+		"buildingCost": 300,
+        "wonderCost": 750,
+		"techs": [
+		/*
+			{
+				"name": "Areal Warfare",
+				"row": 2,
+				"prerequisites": ["Technology Limit", "Full Conversion", "Magic Tree Extension"]
+				"quote": "Touhou Fact: Hina doesn't directly bring misfortune; she absorbs misfortune from her surroundings. It's just that those who get caught in the cross-fire of her absorption get hit with a quick wave of misfortune."
+			},
+			*/
+			{
+				"name": "Logistics",
+				"row": 6,
+				"prerequisites": ["Technology Limit"],
+				"quote": "Yukari probably kept humans from technologically advancing in Gensokyo."
+			},
+			{
+				"name": "Steel",
+				"row": 8,
+				"prerequisites": ["Technology Limit"],
+				"quote": "Religion plays a major role in Gensokyo, as Gods literally exist in the Touhou series.",
+				"uniques": ["[+33]% Strength <for [Armor] units> <when defending>", "[+50]% Strength <for [Ashigaru] units> <when attacking>"]
+			},
+			{
+				"name": "Civil Service",
+				"row": 10,
+				"prerequisites": ["Technology Limit"],
+				"quote": "Reimu actually wants peace between both humans and youkai. Miko confirms this by reading her desires."
+			},
+		]
+	},
+	{
+		"columnNumber": 12,
+		"era": "Meiji era",
+		"techCost": 5100,
+		"buildingCost": 350,
+		"wonderCost": 900,
+		"techs": [
+			{
+				"name": "Public Education",
+				"row": 10,
+				"prerequisites": ["Civil Service"],
+				"quote": "Yukari probably kept humans from technologically advancing in Gensokyo."
+			},
+			{
+				"name": "Metallurgy",
+				"row": 8,
+				"prerequisites": ["Steel"],
+				"quote": "Yukari probably kept humans from technologically advancing in Gensokyo."
+				"uniques": ["[25]% City Strength from defensive buildings"]
+			},
+			{
+				"name": "Military Predominance",
+				"row": 6,
+				"prerequisites": ["Logistics"],
+				"quote": "Religion plays a major role in Gensokyo, as Gods literally exist in the Touhou series.",
+				"uniques": ["[+1] Movement <for [Mounted] units>"]
+			},
+			{
+				"name": "Naval Warfare",
+				"row": 4,
+				"prerequisites": ["Logistics"],
+				"quote": "Religion plays a major role in Gensokyo, as Gods literally exist in the Touhou series.",
+				"uniques": ["[+1] Movement <for [{Military} {Water}] units>", "[+1] Movement <for [Embarked] units>"]
+			}
+		]
+	},
+	{
+		"columnNumber": 13,
+		"era": "Meiji era",
+		"techCost": 6400,
+		"buildingCost": 500,
+		"wonderCost": 1060,
+		"techs": [
+			{
+				"name": "Woodblock Printing",
+				"row": 10,
+				"prerequisites": ["Public Education"],
+				"quote": "Japanese carpentry was developed more than a millennium ago through Chinese architectural influences from the 12th century. Although, that probably wasn't the case in Gensokyo."
+			},
+			{
+				"name": "Machinery",
+				"row": 8,
+				"prerequisites": ["Metallurgy", "Public Education"],
+				"quote": "Religion plays a major role in Gensokyo, as Gods literally exist in the Touhou series."
+			},
+			{
+				"name": "Vassal States",
+				"row": 6,
+				"prerequisites": ["Military Predominance"],
+				"quote": "Religion plays a major role in Gensokyo, as Gods literally exist in the Touhou series."
+				"uniques": ["[+50]% [Gold] [in puppeted cities]", "[+50]% [Culture] [in puppeted cities]", "[+50]% [Science] [in puppeted cities]"]
+			},
+			{
+				"name": "Official Navy",
+				"row": 4,
+				"prerequisites": ["Naval Warfare"],
+				"quote": "Religion plays a major role in Gensokyo, as Gods literally exist in the Touhou series.",
+				"uniques": ["[+50]% XP gained from combat <for [{Military} {Water}] units>"]
+			}
+		]
+	},
+	{
+		"columnNumber": 14,
+		"era": "Meiji era",
+		"techCost": 7700,
+		"buildingCost": 500,
+		"wonderCost": 1250,
+		"techs": [
+			{
+				"name": "Carpentry",
+				"row": 10,
+				"prerequisites": ["Woodblock Printing"],
+				"quote": "Yukari probably kept humans from technologically advancing in Gensokyo."
+			},
+			{
+				"name": "Lantern Clock",
+				"row": 8,
+				"prerequisites": ["Machinery"],
+				"quote": "Religion plays a major role in Gensokyo, as Gods literally exist in the Touhou series.",
+				"uniques": ["[+1 Production] [in all cities]"]
+			},
+			{
+				"name": "Nobility",
+				"row": 6,
+				"prerequisites": ["Vassal States"],
+				"quote": "Religion plays a major role in Gensokyo, as Gods literally exist in the Touhou series."
+			},
+			{
+				"name": "Literature",
+				"row": 4,
+				"prerequisites": ["Official Navy"],
+				"quote": "Religion plays a major role in Gensokyo, as Gods literally exist in the Touhou series."
+			}
+		]
+	},
+	{
+		"columnNumber": 15,
+		"era": "Modern era",
+		"techCost": 8800,
+		"buildingCost": 750,
+		"wonderCost": 1250,
+		"techs": [
+			{
+				"name": "Outside World Awareness",
+				"row": 10,
+				"prerequisites": ["Carpentry"],
+				"quote": "The Great Hakurei Barrier is the barrier that hides Gensokyo away from the Outside World, and which allows youkai to survive within even when outside humans no longer believe in them.",
+				"uniques": ["Reveals the entire map"]
+			},
+			{
+				"name": "Architecture",
+				"row": 8,
+				"prerequisites": ["Lantern Clock", "Carpentry"],
+				"quote": "It is unknown when, how, or why the mansion was originally constructed, but Remilia Scarlet has been its mistress for about 500 years, and Flandre Scarlet has been in the basement for about 495 years."
+			},
+			{
+				"name": "Espionage",
+				"row": 6,
+				"prerequisites": ["Nobility"],
+				"quote": "What's this thin book?"
+			},
+			{
+				"name": "Peace To Gensokyo",
+				"row": 4,
+				"prerequisites": ["Literature"],
+				"quote": "A gentle pat should do the trick."
+			}
+		]
+	},
+	{
+		"columnNumber": 16,
+		"era": "Modern era",
+		"techCost": 9500,
+		"buildingCost": 750,
+		"wonderCost": 1250,
+		"techs": [
+			{
+				"name": "Forgotten Items",
+				"row": 10,
+				"prerequisites": ["Outside World Awareness"],
+				"quote": "Some items from the 'outside world' randomly appears in Gensokyo, as they were forgotten. So that's where the TV remote went..."
+			},
+			{
+				"name": "Modern Knowledge",
+				"row": 8,
+				"prerequisites": ["Outside World Awareness", "Architecture"],
+				"quote": "What's this thin book?"
+			},
+			{
+				"name": "Military Science",
+				"row": 6,
+				"prerequisites": ["Espionage"],
+				"quote": "."
+			},
+			{
+				"name": "Historic Preservation",
+				"row": 4,
+				"prerequisites": ["Peace To Gensokyo"],
+				"quote": "A gentle pat should do the trick."
+			}
+		]
+	},
+	{
+		"columnNumber": 17,
+		"era": "Present era",
+		"techCost": 10000,
+		"buildingCost": 750,
+		"wonderCost": 1250,
+		"techs": [
+			{
+				"name": "Medicine",
+				"row": 10,
+				"prerequisites": ["Forgotten Items", "Modern Knowledge"],
+				"quote": ".",
+				"uniques": ["[+30]% Strength <when defending> <for [Military] units> <when adjacent to a [Field Medic] unit>"]
+			},
+			{
+				"name": "Exclusive Electricity",
+				"row": 8,
+				"prerequisites": ["Modern Knowledge"],
+				"quote": "There are still electricity in Gensokyo, you know.",
+				"uniques": ["[+50]% Production towards any buildings that already exist in the Capital"]
+			},
+			{
+				"name": "Scientific Theory",
+				"row": 6,
+				"prerequisites": ["Historic Preservation", "Military Science"],
+				"quote": "For the crime of creating the Hourai Elixir, Kaguya Houraisan and Eirin Yagokoro were exiled to Earth, where they came to live in the Bamboo Forest of the Lost.",
+				"uniques": ["[+50]% [Science] from every [Buildings]"]
+			}
+		]
+	},
+	{
+		"columnNumber": 18,
+		"era": "Present era",
+		"techCost": 12000,
+		"buildingCost": 750,
+		"wonderCost": 1250,
+		"techs": [
+			{
+				"name": "ZUN's Perfect Beer",
+				"row": 8,
+				"prerequisites": ["Medicine","Scientific Theory","Exclusive Electricity"],
+				"quote": "And then, EOSD is born."
+				"uniques": ["Is the perfect beer even possible?", "Can be continually researched"]
+			}
+		]
+	}
+]
