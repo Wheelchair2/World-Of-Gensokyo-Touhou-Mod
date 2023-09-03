@@ -1,2 +1,2 @@
-- **@ichiko_hanaji** - Since I took many of this artist's artwork, I might as well credit him. Thank the artist for his awesome 2hu silhouette art.
-- **ptliem007** - Thanks
+- **@ichiko_hanaji** - since I took many of this artist's artwork, I might as well credit him. Thank the artist for his awesome 2hu silhouette art.
+- **ptliem007** - thanks to this fellow modder for bringing in PC Civ-5 Touhou mods, some of my works are inspired by him.
