@@ -331,7 +331,7 @@
 		"outerColor": [255,255,169],
 		"innerColor": [115,66,65],
 		"uniqueName": "Constant War",
-		"uniques": ["Starts with [Fermented Alcohol]", "Rebel units may spawn <when below [5] Happiness>", "[All] units gain the [Youkai] promotion", "[All] units gain the [Oni] promotion", "Great General provides double combat bonus", "[Great General] is earned [+50]% faster", "Earn [100]% of killed [Military] unit's [Strength] as [Culture] <during the [Youkai Expansion Project]>"],
+		"uniques": ["Starts with [Fermented Alcohol]", "Rebel units may spawn <when below [5] Happiness>", "[All] units gain the [Youkai] promotion", "[All] units gain the [Oni] promotion", "Great General provides double combat bonus", "[Great General] is earned [+50]% faster", "Earn [30]% of killed [Military] unit's [Strength] as [Culture] <during the [Youkai Expansion Project]>"],
 		"cities": ["Bushidōkoku", "Kenkoku", "Kenseikuni", "Tatsumaki no Kuni", "Kōyōdō", "Heishi no Tani", "Katanaishi", "Yoroi no Sato", "Kachūsha", "Shinkenshi"]
 	},
 	{
