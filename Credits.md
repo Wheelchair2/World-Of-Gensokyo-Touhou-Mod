@@ -1,1 +1,1 @@
-- Ichi
+- **@ichiko_hanaji** since I took many of this artist's 2hu silhouette arts, I might as well credit him
