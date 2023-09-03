@@ -7,7 +7,6 @@ Apparently, this mod was made entirely with a phone, and since that it is, it wi
 However, this mod already took like 5 months to reach this point and I'm only getting less and less free time, that's why I uploaded it now.
 
 That's it for the lore. You can visit my thread for the discussion of this mod in the official Unciv discord server.
-
 Have a great day
 
 **Touhou Project is a Japanese bullet-hell shoot 'em up video game created by Jun'ya "ZUN" Ōta, the developer is member of Team Shanghai Alice.**
