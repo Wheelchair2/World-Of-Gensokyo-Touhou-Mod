@@ -1,1 +1,1 @@
-- **@ichiko_hanaji** since I took many of this artist's 2hu silhouette arts, I might as well credit him
+- **@ichiko_hanaji** since I took many of this artist's artwork, I might as well credit him. Thank the artist for his 2hu silhouette art.
