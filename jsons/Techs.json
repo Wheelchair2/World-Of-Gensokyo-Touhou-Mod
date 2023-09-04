@@ -387,7 +387,7 @@
 				"row": 1,
 				"prerequisites": ["Mysterious Knowledge"]
 				"quote": "'Bet you'd be stronger if you tore those restrictive clothes.' - Marisa Kirisame, out of context."
-				"uniques": ["Free Social Policy"]
+				"uniques": ["Free Great Person <if no other Civilization has researched this>"]
 			},
 			{
 				"name": "Law Enforcement",
@@ -443,8 +443,8 @@
 				"name": "Psychological Warfare",
 				"row": 2,
 				"prerequisites": ["Access To Dark Magic"],
-				"quote": "I was about to put Satori's quote here, but then I realised that there is a more valuable information for you to hear: Satori is cute."
-				"uniques": ["No movement cost to pillage"]
+				"quote": "I was about to put Satori's quote here, but then I realised that there is a more valuable information for you to hear: Satori is cute.",
+				"uniques": ["Great General provides double combat bonus <during a Golden Age>", "[-40]% Golden Age length"]
 			},
 			{
 				"name": "Arts And Sculpture",
