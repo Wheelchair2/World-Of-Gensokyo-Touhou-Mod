@@ -2187,14 +2187,14 @@ BuildingIcons/Grimoire Of Youkais
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Heart Sutra
+BuildingIcons/The Heart Sutra
   rotate: false
   xy: 900, 800
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Secret Hermit Mountain
+BuildingIcons/Secret Hermit World
   rotate: false
   xy: 1000, 800
   size: 100, 100
