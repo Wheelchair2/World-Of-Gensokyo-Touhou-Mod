@@ -36,7 +36,7 @@
 		"uniqueTo": "Fated Land"
 		"cost": 185,
 		"isNationalWonder": true,
-		"uniques": ["[-30]% tile improvement construction time"]
+		"uniques": ["Special Wonder", "[-30]% tile improvement construction time"]
 		"greatPersonPoints": {"Great Engineer": 1},
 		"quote": "Many fairies are employed by Remilia Scarlet as Fairy Maids in order to clean the mansion, and they're overseen by the head maid, Sakuya Izayoi."
 	},
@@ -46,7 +46,7 @@
 		"cost": 185,
 		"isNationalWonder": true,
 		"greatPersonPoints": {"Great Engineer": 1},
-        "uniques": ["[+15]% Strength <for [All] units> <vs cities> <when attacking>"]
+        "uniques": ["Special Wonder", "[+15]% Strength <for [All] units> <vs cities> <when attacking>"]
 		"quote": "This is where Flandre Scarlet was locked up for 495 years."
 	},
 	{
@@ -56,7 +56,7 @@
 		"production": 5,
 		"isNationalWonder": true,
 		"greatPersonPoints": {"Great Engineer": 1},
-        "uniques": ["Must have an owned [Youkai Mountain] within [3] tiles"],
+        "uniques": ["Special Wonder", "Must have an owned [Youkai Mountain] within [3] tiles"],
 		"quote": "Utsuho Reiuji can be found here to power it and Rin Kaenbyou carts corpses into the Furnace to keep it running."
 	},
 	{
@@ -64,7 +64,8 @@
 		"uniqueTo": "Eientei",
 		"isNationalWonder": true,
 		"cost": 225,
-		"uniques": ["[-100]% maintenance costs <in this city>"]
+		"uniques": ["Special Wonder", "[-100]% maintenance costs <in this city> <during We Love The King Day>"],
+		"quote": "Every month on the night of the full moon, the residents of Eientei hold a Moon Festival (Reigetsusai), offering mochi with medicinal herbs pounded into them."
 	},
 	{
 		"name": "Fairy Tree House",
@@ -72,7 +73,7 @@
 		"cost": 225,
 		"isNationalWonder": true,
 		"greatPersonPoints": {"Great Merchant": 1},
-        "uniques": ["[+10]% Strength <for [Fairy] units> <when fighting in [Forest] tiles>", "[+10]% Strength <for [Fairy] units> <when fighting in [Jungle] tiles>"]
+        "uniques": ["Special Wonder", "[+10]% Strength <for [Fairy] units> <when fighting in [Forest] tiles>", "[+10]% Strength <for [Fairy] units> <when fighting in [Jungle] tiles>"]
 		"quote": "'Sangetsusei' is a wordplay, which loosely means 'sun, moon, stars'; Three Fairies of Light"
 	},
 	{
@@ -81,7 +82,7 @@
 		"cost": 225,
 		"isNationalWonder": true,
 		"greatPersonPoints": {"Great Artist": 1},
-        "uniques": ["[+15]% Strength <for units with [Divine Blessing]> <when defending>"]
+        "uniques": ["Special Wonder", "[+15]% Strength <for units with [Divine Blessing]> <when defending>"]
 		"quote": "Okina can create doors on the back of anything, even living beings. The back doors act like portals and allow her to travel wherever she wishes, or to send something to somewhere else."
 	},
 	{
@@ -90,7 +91,7 @@
 		"cost": 225,
 		"isNationalWonder": true,
 		"greatPersonPoints": {"Great Artist": 1},
-        "uniques": ["[+60]% Strength <for units without [Anti-Youkai]> <vs [Youkai] units>"]
+        "uniques": ["Special Wonder", "[+60]% Strength <for units without [Anti-Youkai]> <vs [Youkai] units>"]
 		"quote": "Reimu Hakurei is the main protagonist of the Touhou Project series along with the deuteragonist, Marisa Kirisame. As the shrine maiden of the Hakurei Shrine, she manages the Hakurei Border of Gensokyo and exterminates troublesome youkai."
 	},
 	{
@@ -99,7 +100,7 @@
 		"cost": 225,
 		"isNationalWonder": true,
 		"greatPersonPoints": {"Great Artist": 1},
-        "uniques": ["[+3 Culture] <during the [Youkai Expansion Project]>",
+        "uniques": ["Special Wonder", "[+3 Culture] <during the [Youkai Expansion Project]>",
         "[+4 Culture] <during the [Edo period]>",
         "[+6 Culture] <during the [Meiji era]>",
         "[+8 Culture] <during the [Modern era]>",
@@ -113,7 +114,7 @@
 		"cost": 75,
 		"isNationalWonder": true,
 		"greatPersonPoints": {"Great Engineer": 1},
-        //"uniques": ["Free [Rumia] appears"]
+        //"uniques": ["Special Wonder", "Free [Rumia] appears"]
 		"quote": "She seems like to fly around aimlessly during the day and the night, sometimes bumping into trees since she is less capable of seeing obstacles through her veil of darkness."
 	},
 	*/
@@ -123,7 +124,7 @@
 		"cost": 225,
 		"isNationalWonder": true,
 		"greatPersonPoints": {"Great Artist": 1},
-        "uniques": ["[-50]% Production when constructing [Land] units [in all cities]"],
+        "uniques": ["Special Wonder", "[-50]% Production when constructing [Land] units [in all cities]"],
 		"quote": "She refined her Taoist beliefs and techniques for many years, though apparently many of the things she did toward this end were somewhat taboo, including gaining an unaging body, and she ended up being feared by the common people."
 	},
 	{
@@ -133,22 +134,23 @@
 		"science": 1,
 		"isNationalWonder": true,
 		"greatPersonPoints": {"Great Scientist": 1},
-        "uniques": ["[+1 Happiness] [in all cities connected to capital]", "[+1 Science] [in all cities connected to capital]"]
+        "uniques": ["Special Wonder", "[+1 Happiness] [in all cities connected to capital]", "[+1 Science] [in all cities connected to capital]"]
 		"quote": "'You don't seem related to the incident, so without further ado, allow me to blow you into the next week!' - Aya Shameimaru."
 	},
 	{
 		"name": "Divine Services",
 		"uniqueTo": "Moriya Faction",
 		"cost": 225,
-		"happiness": 10,
+		"happiness": 6,
 		"isNationalWonder": true,
 		"greatPersonPoints": {"Great Artist": 1},
+		"unique": ["Special Wonder"],
 		"quote": "Suwako is the original god of the Moriya Shrine. Officially the shrine now belongs to Kanako Yasaka, but in Suwako's words she handles most of the divine services while Kanako handles the 'sales.'"
 	},
 	{
 		"name": "New Palanquin Ship",
 		"uniqueTo": "Myouren Faction",
-		"uniques": ["[+50]% Strength for cities <when defending>"],
+		"uniques": ["Special Wonder", "[+50]% Strength for cities <when defending>"],
 		"cost": 225,
 		"isNationalWonder": true,
 		"greatPersonPoints": {"Great Engineer": 1},
@@ -160,7 +162,7 @@
 		"cost": 225,
 		"isNationalWonder": true,
 		"greatPersonPoints": {"Great Engineer": 1},
-		"uniques": ["[+15]% Strength <for [Oni] units>", "[+15]% Production when constructing [Military] units [in this city]"]
+		"uniques": ["Special Wonder", "[+15]% Strength <for [Oni] units>", "[+15]% Production when constructing [Military] units [in this city]"]
 		"quote": "The Old Capital is a large village in Old Hell, deep within the Underworld. It is situated between the Deep Road to Hell, guarded by Parsee Mizuhashi, and the Palace of the Earth Spirits, where the sisters Satori Komeiji and Koishi Komeiji live."
 	},
 	{
@@ -168,7 +170,7 @@
 		"uniqueTo": "Ordinary Magicians",
 		"cost": 185,
 		"isNationalWonder": true,
-		"uniques": ["[+1 Culture] from every [Forest]", "[+1 Production, +1 Science] from every [Jungle]"]
+		"uniques": ["Special Wonder", "[+1 Culture] from every [Forest]", "[+1 Production, +1 Science] from every [Jungle]"]
 		"greatPersonPoints": {"Great Scientist": 1},
 		"quote": "Marisa Kirisame is infamous for being stubborn, however, her trait of being hardworking makes her charming and likeable."
 	},
@@ -178,7 +180,7 @@
 		"cost": 185,
 		"faith": 2,
 		"isNationalWonder": true,
-		"uniques": ["Earn [50]% of killed [Military] unit's [Strength] as [Faith]"]
+		"uniques": ["Special Wonder", "Earn [50]% of killed [Military] unit's [Strength] as [Faith]"]
 		"greatPersonPoints": {"Great Engineer": 1},
 		"quote": "Further inside lies the Divine Spirit Mausoleum (Shinreibyō), in which the tomb of Toyosatomimi no Miko is located, but it's presumed that the temple was later re-located to Senkai."
 	},
@@ -187,7 +189,7 @@
 		"uniqueTo": "Tengu Union",
 		"cost": 125,
 		"isNationalWonder": true,
-		"uniques": ["[+15]% Strength <for [Beast] units> <when fighting in [Friendly Land] tiles>"]
+		"uniques": ["Special Wonder", "[+15]% Strength <for [Beast] units> <when fighting in [Friendly Land] tiles>"]
 		"greatPersonPoints": {"Great Merchant": 1},
 		"quote": "Tengu reside in Youkai Mountain and seem territorial of humans and other youkai trespassing within their home."
 	},
@@ -196,7 +198,7 @@
 		"uniqueTo": "The Netherworld",
 		"cost": 185,
 		"isNationalWonder": true,
-		"uniques": ["Must have an owned [Saigyou Ayakashi] within [2] tiles", "[+6 Culture] from [Saigyou Ayakashi] tiles [in this city]"]
+		"uniques": ["Special Wonder", "Must have an owned [Saigyou Ayakashi] within [2] tiles", "[+6 Culture] from [Saigyou Ayakashi] tiles [in this city]"]
 		"greatPersonPoints": {"Great Artist": 1},
 		"quote": "'At any rate, with just a little more spring, the Saigyou Ayakashi will soon reach full bloom. The small trace of spring that you've brought here... will give us the last step needed.' - Youmu Konpaku."
 	},
@@ -205,7 +207,7 @@
 		"uniqueTo": "The Borderless Realm",
 		"cost": 185,
 		"isNationalWonder": true,
-		"uniques": ["[-25]% Culture cost of natural border growth [in all cities]"]
+		"uniques": ["Special Wonder", "[-25]% Culture cost of natural border growth [in all cities]"]
 		"greatPersonPoints": {"Great Merchant": 1},
 		"quote": "Tengu reside in Youkai Mountain and seem territorial of humans and other youkai trespassing within their home."
 	},
@@ -215,17 +217,16 @@
 		"cost": 185,
 		"production": 2,
 		"isNationalWonder": true,
-		"uniques": ["[+15]% Production when constructing [Land] units [in all cities]"]
+		"uniques": ["Special Wonder", "[+15]% Production when constructing [Land] units [in all cities]"]
 		"greatPersonPoints": {"Great Engineer": 1},
 		"quote": "Alice Margatroid is known primarily for her skillful manipulation of many miniature dolls, most notably Shanghai and Hourai."
 	},
 	{
 		"name": "Celestial Heritage",
 		"uniqueTo": "Bhavaagra",
-		"cost": 185,
-		"happiness": 5,
+		"cost": 125,
 		"isNationalWonder": true,
-		"uniques": ["[+50]% Golden Age length"]
+		"uniques": ["Special Wonder", "[+50]% Golden Age length"]
 		"greatPersonPoints": {"Great Artist": 1},
 		"quote": "Tenshi's weapons include innumerable danmaku keystones of various sizes and her shape-shifting sword, the Sword of Hisou."
 	},
@@ -235,7 +236,7 @@
 		"uniqueTo": "Shining Needle Castle",
 		"greatPersonPoints": {"Great Merchant": 1},
 		"isNationalWonder": true,
-		"uniques": ["[Gold] cost of purchasing [All] buildings [-80]% <for [5] turns>", "[Gold] cost of purchasing [All] units [-100]% <for [3] turns>"]
+		"uniques": ["Special Wonder", "[Gold] cost of purchasing [All] buildings [-80]% <for [1] turns>", "[Gold] cost of purchasing [All] units [-80]% <for [1] turns>"]
 		"quote": "Shinmyoumaru is a descendant of Issun-Boushi, a legendary oni-slayer who managed to obtain from them a treasure called the Miracle Mallet."
 	},
 	{
@@ -243,7 +244,7 @@
 		"uniqueTo": "Mermaids Of The Lake",
 		"cost": 225,
 		"isNationalWonder": true,
-		"uniques": ["[+15]% Strength <for [Mermaid] units> <when fighting in [Water] tiles>"]
+		"uniques": ["Special Wonder", "[+15]% Strength <for [Mermaid] units> <when fighting in [Water] tiles>"]
 		"greatPersonPoints": {"Great Engineer": 1},
 		"quote": "Eastern dragons are said to have one reversed scale under their chins that greatly enrages them when it is touched. The Japanese phrase 'to touch someone's reversed scale,' meaning 'to incur the wrath of a superior', is derived from this."
 	},
