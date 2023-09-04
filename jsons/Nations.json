@@ -14,7 +14,7 @@
 		"name": "Bhavaagra",
 		"leaderName": "Hinanawi Tenshi",
 		"adjective": ["Celestial"],
-		"preferredVictoryType": "Domination",
+		"preferredVictoryType": "Diplomacy",
 		"startIntroPart1": ".",
 		"startIntroPart2": ".",
 		"attacked": ".",
@@ -33,7 +33,7 @@
 		"name": "Chireiden",
 		"leaderName": "Satori Komeiji",
 		"adjective": ["Satori"],
-		"preferredVictoryType": "Domination",
+		"preferredVictoryType": "Scientific",
 
 		"startIntroPart1": "I am Satori Komeiji, Mistress of the Palace of the Earth Spirits, Chireiden. I am able to read minds, as a 'satori.' Your IP Address is 150.248.18.82, and you live at... just kidding.",
 		"startIntroPart2": "May you help the satori race prosper!",
@@ -55,7 +55,7 @@
 		"leaderName": "Kaguya Houraisan",
 		"startBias": ["Bamboo Forest"]
 		"adjective": ["Lunarian"],
-		"preferredVictoryType": "Domination",
+		"preferredVictoryType": "Neutral",
 		"startIntroPart1": ".",
 		"startIntroPart2": ".",
 		"declaringWar": ".",
@@ -95,7 +95,7 @@
 		"name": "Fated Land",
 		"leaderName": "Remilia Scarlet",
 		"adjective": ["Vampire"],
-		"preferredVictoryType": "Domination",
+		"preferredVictoryType": "Diplomacy",
 		"startIntroPart1": "Welcome to the illustrious domain of my faction, where elegance, opulence, and absolute splendor reign supreme."
 		"startIntroPart2": "Let us not speak of my dear sister's pitiful attempt at rebelling against my authority. Her feeble faction may exist, but it pales in comparison to the magnificence of... E-eh? She still loves me?! Then why don't she come back home already! That attitude of hers, hmph!",
 		"attacked": "To dare tarnish the divinity of the Scarlet name with the audacity of an attack, how bold of you.",
@@ -134,7 +134,7 @@
 		"leaderName": "Reimu",
 		"adjective": ["Maiden"],
 		"startBias": ["Hill"],
-		"preferredVictoryType": "Cultural",
+		"preferredVictoryType": "Diplomacy",
 		"startIntroPart1": "I am the shrine maiden of the Hakurei Shrine, Reimu Hakurei. Do you want some tea?",
 		"startIntroPart2": "You happened to be the incarnation of the Hakurei God. Your shrine maiden, Reimu Hakurei, will serve you in your youkai-extermination from now on.",
 		"declaringWar": "You're a youkai, aren't you? Prepare to be exterminated!",
@@ -155,7 +155,7 @@
 		"name": "Human Village",
 		"leaderName": "Keine Kamishirasawa",
 		"adjective": ["Human"],
-		"preferredVictoryType": "Diplomacy",
+		"preferredVictoryType": "Cultural",
 		"startIntroPart1": "."
 		"startIntroPart2": ".",
 		"attacked": ".",
@@ -175,7 +175,7 @@
 		"name": "Kurai Sekai",
 		"leaderName": "Rumia",
 		"adjective": ["Dark Youkai"],
-		"preferredVictoryType": "Domination",
+		"preferredVictoryType": "Cultural",
 		"startIntroPart1": "Let me introduce you to a land full of darkness and monsters!",
 		"startIntroPart2": "Hold my hand and let's explore this amazing realm together!",
 		"declaringWar": "So-na-no-ka, ne?",
@@ -236,7 +236,7 @@
 		"leaderName": "Megumu Iizumaru",
 		"startBias": ["Youkai Mountain"]
 		"adjective": ["Tengu"],
-		"preferredVictoryType": "Domination",
+		"preferredVictoryType": "Scientific",
 		"startIntroPart1": "."
 		"startIntroPart2": ".",
 		"attacked": ".",
@@ -255,7 +255,7 @@
 		"name": "Mermaids Of The Lake",
 		"leaderName": "Wakasagihime",
 		"adjective": ["Mermaid"],
-		"preferredVictoryType": "Domination",
+		"preferredVictoryType": "Neutral",
 		"startIntroPart1": ".",
 		"startIntroPart2": ".",
 		"attacked": ".",
@@ -275,7 +275,7 @@
 		"leaderName": "Kanako Yasaka",
 		"startBias": ["Hill", "Youkai Mountain"]
 		"adjective": ["Maiden"],
-		"preferredVictoryType": "Cultural",
+		"preferredVictoryType": "Diplomacy",
 		"startIntroPart1": "."
 		"startIntroPart2": ".",
 		"attacked": ".",
@@ -338,7 +338,7 @@
 		"name": "Ordinary Magicians",
 		"leaderName": "Marisa Kirisame",
 		"adjective": ["Magician"],
-		"preferredVictoryType": "Science",
+		"preferredVictoryType": "Scientific",
 		"startIntroPart1": "."
 		"startIntroPart2": ".",
 		"attacked": ".",
@@ -393,7 +393,7 @@
 		"outerColor": [245,84,109],
 		"innerColor": [89,19,112],
 		"uniqueName": "Seija's Revolution Plan",
-		"uniques": ["[All] units gain the [Youkai] promotion", "[+50]% [Gold] [in puppeted cities]", "[+50]% [Culture] [in puppeted cities]", "[+50]% [Science] [in puppeted cities]"],
+		"uniques": ["[All] units gain the [Youkai] promotion", "[+50]% [Gold] [in puppeted cities] <before the [Meiji era]>", "[+50]% [Culture] [in puppeted cities] <before the [Meiji era]>", "[+50]% [Science] [in puppeted cities] <before the [Meiji era]>"],
 		"cities": ["Yamagakure", "Mizuhara", "Koganeishi", "Hoshimori", "Hayatsuki", "Hisamegawa", "Inariyama", "Fuyutsuki", "Tsukiyomi", "Aokigahara"]
 	},
 	{
@@ -401,7 +401,7 @@
 		"leaderName": "Tenma",
 		"startBias": ["Youkai Forest"]
 		"adjective": ["Tengu"],
-		"preferredVictoryType": "Domination",
+		"preferredVictoryType": "Neutral",
 		"startIntroPart1": ".",
 		"startIntroPart2": ".",
 		"attacked": ".",
@@ -420,7 +420,7 @@
 		"name": "The Borderless Realm",
 		"leaderName": "Yukari Yakumo",
 		"adjective": ["Youkai"],
-		"preferredVictoryType": "Culture",
+		"preferredVictoryType": "Cultural",
 
 		"startIntroPart1": "Welcome to The Realm Without Boundaries, overseen by Yukari Yakumo, where reality and fantasy entwine.",
 		"startIntroPart2": "In this mystical land, boundaries bend to her will, creating a tapestry of wonder. What wonder will you present?",
@@ -442,7 +442,7 @@
 		"leaderName": "Yuyuko Saigyouji",
 		"startBias": ["Saigyou Ayakashi"]
 		"adjective": ["Ghost"],
-		"preferredVictoryType": "Domination",
+		"preferredVictoryType": "Cultural",
 		"startIntroPart1": "."
 		"startIntroPart2": ".",
 		"attacked": ".",
@@ -462,7 +462,7 @@
 		"leaderName": "Alice Margatroid",
 		"startBias": ["Forest"],
 		"adjective": ["Doll"],
-		"preferredVictoryType": "Science",
+		"preferredVictoryType": "Scientific",
 		"startIntroPart1": "The clicking of gears harmonizes with the tender souls of the dolls who call it home.",
 		"startIntroPart2": "Within their delicate frames resides a profound essence, breathing life into the very fabric of our realm. Doesn't that sound so lovely?",
 		"attacked": "The audacity!",
