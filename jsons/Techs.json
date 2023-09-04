@@ -417,7 +417,7 @@
 				"row": 7,
 				"prerequisites": ["Divine Punishment"],
 				"quote": "'Humans haven't changed since my days in the temple. How weak and rash you are!' - Byakuren Hijiri to Reimu Hakurei.",
-				"uniques": ["[+25]% Spread Religion Strength <for [Missionary] units>", "[+25]% Spread Religion Strength <for [Great Prophet] units>"]
+				"uniques": ["[+33]% Strength <for [Monk] units> <vs [Corpse] units>", "[+33]% Strength <for [Monk] units> <vs [Fairy] units>", "[+33]% Strength <for [Hermit] units> <vs [Corpse] units>", "[+33]% Strength <for [Hermit] units> <vs [Fairy] units>"]
 			},
 			{
 				"name": "Philosophy",
@@ -482,7 +482,7 @@
 				"row": 6,
 				"prerequisites": ["National Faith", "Philosophy"],
 				"quote": "Religion plays a major role in Gensokyo, as Gods literally exist in the Touhou series."
-				"uniques": ["[+50]% Natural religion spread [in all non-occupied cities]", "[+50]% Natural religion spread [in City-State cities] <before adopting [Religious Unity]>"]
+				"uniques": ["[+20]% Natural religion spread [in City-State cities] <before adopting [Religious Unity]>"]
 			},
 			/*
 			{
@@ -590,14 +590,14 @@
 				"row": 7,
 				"prerequisites": ["Military Predominance"],
 				"quote": "Religion plays a major role in Gensokyo, as Gods literally exist in the Touhou series."
-				"uniques": ["[+50]% [Gold] [in puppeted cities]", "[+50]% [Culture] [in puppeted cities]", "[+50]% [Science] [in puppeted cities]"]
+				"uniques": ["[+30]% [Gold] [in puppeted cities]", "[+30]% [Culture] [in puppeted cities]", "[+30]% [Science] [in puppeted cities]"]
 			},
 			{
 				"name": "Official Navy",
 				"row": 5,
 				"prerequisites": ["Naval Warfare"],
 				"quote": "Religion plays a major role in Gensokyo, as Gods literally exist in the Touhou series.",
-				"uniques": ["[+50]% XP gained from combat <for [{Military} {Water}] units>"]
+				"uniques": ["[+25]% XP gained from combat <for [{Military} {Water}] units> <before adopting [Military Tradition]>"]
 			}
 		]
 	},
