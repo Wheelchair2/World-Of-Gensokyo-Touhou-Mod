@@ -95,7 +95,7 @@ NationIcons/Red Myouren Faction
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Wicked Taoism
+BuildingIcons/Cultivation Practices
   rotate: false
   xy: 1300, 0
   size: 100, 100
@@ -2309,6 +2309,20 @@ TechIcons/Woodblock Printing
 BuildingIcons/Official Time System
   rotate: false
   xy: 600, 900
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Wicked Taoism
+  rotate: false
+  xy: 700, 900
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Kuekegen
+  rotate: false
+  xy: 800, 900
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
