@@ -423,8 +423,7 @@
 				"name": "Philosophy",
 				"row": 6,
 				"prerequisites": ["Divine Punishment"],
-				"quote": "'Did you know why rare ingredients taste better? This is because humans taste not with their tounges, but their minds' - Sakuya Izayoi.",
-				"uniques": ["[+50]% Golden Age length"]
+				"quote": "'Did you know why rare ingredients taste better? This is because humans taste not with their tounges, but their minds' - Sakuya Izayoi."
 			},
 			{
 				"name": "Limitless Learning",
@@ -481,8 +480,8 @@
 				"name": "Full Conversion",
 				"row": 6,
 				"prerequisites": ["National Faith", "Philosophy"],
-				"quote": "Religion plays a major role in Gensokyo, as Gods literally exist in the Touhou series."
-				"uniques": ["[+20]% Natural religion spread [in City-State cities] <before adopting [Religious Unity]>"]
+				"quote": "Religion plays a major role in Gensokyo, as Gods literally exist in the Touhou series.",
+				"uniques": ["[+50]% Golden Age length <if no other Civilization has researched this>"]
 			},
 			/*
 			{
