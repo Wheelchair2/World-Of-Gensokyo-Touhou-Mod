@@ -417,13 +417,14 @@
 				"row": 7,
 				"prerequisites": ["Divine Punishment"],
 				"quote": "'Humans haven't changed since my days in the temple. How weak and rash you are!' - Byakuren Hijiri to Reimu Hakurei.",
-				"uniques": ["[+33]% Strength <for [Monk] units> <vs [Corpse] units>", "[+33]% Strength <for [Monk] units> <vs [Fairy] units>", "[+33]% Strength <for [Hermit] units> <vs [Corpse] units>", "[+33]% Strength <for [Hermit] units> <vs [Fairy] units>"]
+				"uniques": ["[+33]% Strength <for [Monk] units> <vs [Fairy] units>", "[+33]% Strength <for [Hermit] units> <vs [Fairy] units>"]
 			},
 			{
 				"name": "Philosophy",
 				"row": 6,
 				"prerequisites": ["Divine Punishment"],
-				"quote": "'Did you know why rare ingredients taste better? This is because humans taste not with their tounges, but their minds' - Sakuya Izayoi."
+				"quote": "'Did you know why rare ingredients taste better? This is because humans taste not with their tounges, but their minds' - Sakuya Izayoi.",
+				"uniques": ["[+33]% Strength <for [Monk] units> <vs [Corpse] units>", "[+33]% Strength <for [Hermit] units> <vs [Corpse] units>"]
 			},
 			{
 				"name": "Limitless Learning",
