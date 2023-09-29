@@ -200,15 +200,17 @@
 
 	{
 		"name": "Bamboo Garden",
+		"terrainsCanBeBuiltOn": ["Bamboo Forest"],
 		"turnsToBuild": 6,
 		"happiness": 1,
-		"uniques": ["Consumes [1] [Wonder Slot]","Can only be built on [Bamboo Forest] tiles","[+1 Happiness] for each adjacent [city center]","Gives a defensive bonus of [50]%"],
+		"uniques": ["Consumes [1] [Wonder Slot]","[+1 Happiness] for each adjacent [city center]","Gives a defensive bonus of [50]%"],
 	},
 	{
 		"name": "Ninja's House",
+		"terrainsCanBeBuiltOn": ["Bamboo Forest"],
 		"turnsToBuild": 6,
 		"production": 1,
-		"uniques": ["Consumes [1] [Wonder Slot]","Can only be built on [Bamboo Forest] tiles","Gives a defensive bonus of [175]%"],
+		"uniques": ["Consumes [1] [Wonder Slot]","Gives a defensive bonus of [175]%"],
 	},
 
 
