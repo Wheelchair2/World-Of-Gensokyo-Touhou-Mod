@@ -196,6 +196,21 @@
         "civilopediaText": [{"text":"Repairs a pillaged Improvement or Route"}]
     },
 
+    // Natural Wonders Improvements
+
+	{
+		"name": "Bamboo Garden",
+		"turnsToBuild": 6,
+		"happiness": 1,
+		"uniques": ["Consumes [1] [Wonder Slot]","Can only be built on [Bamboo Forest] tiles","[+1 Happiness] for each adjacent [city center]","Gives a defensive bonus of [50]%"],
+	},
+	{
+		"name": "Ninja's House",
+		"turnsToBuild": 6,
+		"production": 1,
+		"uniques": ["Consumes [1] [Wonder Slot]","Can only be built on [Bamboo Forest] tiles","Gives a defensive bonus of [175]%"],
+	},
+
 
     // Great Person improvements
 	{
