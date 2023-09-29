@@ -203,7 +203,7 @@
 		"terrainsCanBeBuiltOn": ["Bamboo Forest"],
 		"turnsToBuild": 6,
 		"happiness": 1,
-		"uniques": ["Consumes [1] [Wonder Slot]","[+1 Happiness] for each adjacent [city center]","Gives a defensive bonus of [50]%"],
+		"uniques": ["Consumes [1] [Wonder Slot]","[+1 Happiness] for each adjacent [City center]","Gives a defensive bonus of [50]%"],
 	},
 	{
 		"name": "Ninja's House",
