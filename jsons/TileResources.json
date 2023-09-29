@@ -207,6 +207,12 @@
 		"majorDepositAmount": {"sparse": 2, "default": 4, "abundant": 4},
 		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3}
 	},
+	{
+		"name": "Wonder Slot",
+		"resourceType": "Strategic",
+		"happiness": 1,
+		"uniques": ["Cannot be traded","Not shown on world screen"],
+	},
 	
 	// Luxury resources
 	{
