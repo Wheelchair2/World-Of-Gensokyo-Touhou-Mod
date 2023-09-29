@@ -2529,3 +2529,23 @@ TileSets/FantasyHex/Tiles/Makai
   orig: 32, 36
   offset: 0, 0
   index: -1
+
+game5.png
+size: 2000,300
+format: RGBA8888
+filter: MipMapLinearLinear,MipMapLinearLinear
+repeat: none
+TileSets/FantasyHex/Tiles/Ninja's House
+  rotate: false
+  xy: 640, 0
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Bamboo Garden
+  rotate: false
+  xy: 608, 0
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
