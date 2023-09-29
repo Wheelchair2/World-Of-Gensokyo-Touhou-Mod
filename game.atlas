@@ -2542,7 +2542,7 @@ TileSets/FantasyHex/Tiles/Plains+Bamboo Forest+Ninja's House
   orig: 32, 32
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Bamboo Garden
+TileSets/FantasyHex/Tiles/Plains+Bamboo Forest+Bamboo Garden
   rotate: false
   xy: 608, 0
   size: 32, 32
