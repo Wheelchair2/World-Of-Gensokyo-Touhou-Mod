@@ -2531,7 +2531,7 @@ TileSets/FantasyHex/Tiles/Makai
   index: -1
 
 game5.png
-size: 2000,300
+size: 352,36
 format: RGBA8888
 filter: MipMapLinearLinear,MipMapLinearLinear
 repeat: none
