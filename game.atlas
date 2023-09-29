@@ -2535,7 +2535,7 @@ size: 352,36
 format: RGBA8888
 filter: MipMapLinearLinear,MipMapLinearLinear
 repeat: none
-TileSets/FantasyHex/Tiles/Bamboo Forest+Ninja's House
+TileSets/FantasyHex/Tiles/Plains+Bamboo Forest+Ninja's House
   rotate: false
   xy: 640, 0
   size: 32, 32
