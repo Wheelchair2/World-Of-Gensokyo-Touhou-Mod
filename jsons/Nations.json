@@ -89,7 +89,8 @@
 		"innerColor": [255,255,255],
 		"uniqueName": "The Great Fairy Wars",
 		"uniques": ["Fairy units heals every turn even while performing an action, but receive -1 Sight penalty", "[All] units gain the [Fairy] promotion", "[Land] units gain the [Winged] promotion"]
-		"cities": ["Cirnopolis", "Bakai", "Perfect Town", "Daiyouville", "Ninth City", "Bakaville", "Kitchen", "New Cirnopolis", "Calculator City"]
+		"cities": ["Cirnopolis", "Bakai", "Perfect Town", "Daiyouville", "Ninth City", "Bakaville", "Kitchen", "New Cirnopolis", "Calculator City"],
+		"style": "fairy",
 	},
 	{
 		"name": "Fated Land",
