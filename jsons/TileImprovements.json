@@ -211,12 +211,6 @@
 		"turnsToBuild": 6,
 		"production": 1,
 		"uniques": ["Consumes [1] [Wonder Slot]","Gives a defensive bonus of [175]%"],
-		"civilopediaText": [
-			{
-				"extraImage": "TileSets/FantasyHex/Tiles/Ninja's House",
-				"imageSize": 192,
-			}
-		]
 	},
 
 
