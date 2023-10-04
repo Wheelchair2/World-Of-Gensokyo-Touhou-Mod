@@ -207,10 +207,11 @@
 		"majorDepositAmount": {"sparse": 2, "default": 4, "abundant": 4},
 		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3}
 	},
+	
+	// Other resources
 	{
-		"name": "Wonder Slot",
+		"name": "Wonder Slot", // For Natural Wonders Improvement
 		"resourceType": "Strategic",
-		"happiness": 1,
 		"uniques": ["Cannot be traded","Not shown on world screen"],
 	},
 	
