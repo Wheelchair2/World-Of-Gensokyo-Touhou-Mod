@@ -2556,3 +2556,30 @@ TileSets/FantasyHex/Tiles/Citadel
   orig: 32, 32
   offset: 0, 0
   index: -1
+
+game6.png
+size: 300,100
+format: RGBA8888
+filter: MipMapLinearLinear,MipMapLinearLinear
+repeat: none
+ResourceIcons/Wonder Slot
+  rotate: false
+  xy: 0, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Ninja's House
+  rotate: false
+  xy: 100, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Bamboo Garden
+  rotate: false
+  xy: 200, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
