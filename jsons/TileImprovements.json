@@ -196,6 +196,23 @@
         "civilopediaText": [{"text":"Repairs a pillaged Improvement or Route"}]
     },
 
+    // Natural Wonders Improvements
+
+	{
+		"name": "Bamboo Garden", // IDK why these two Improvements can't place with Map Editor.
+		"terrainsCanBeBuiltOn": ["Bamboo Forest"],
+		"turnsToBuild": 6,
+		"happiness": 1,
+		"uniques": ["Consumes [1] [Wonder Slot]","[+1 Happiness] for each adjacent [City center]","[+10 Gold] <during a Golden Age>"],
+	},
+	{
+		"name": "Ninja's House",
+		"terrainsCanBeBuiltOn": ["Bamboo Forest"],
+		"turnsToBuild": 6,
+		"production": 1,
+		"uniques": ["Consumes [1] [Wonder Slot]","Gives a defensive bonus of [175]%"],
+	},
+
 
     // Great Person improvements
 	{

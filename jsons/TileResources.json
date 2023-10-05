@@ -208,6 +208,13 @@
 		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3}
 	},
 	
+	// Other resources
+	{
+		"name": "Wonder Slot", // For Natural Wonders Improvement
+		"resourceType": "Strategic",
+		"uniques": ["Cannot be traded","Not shown on world screen"],
+	},
+	
 	// Luxury resources
 	{
 		"name": "Furs",
