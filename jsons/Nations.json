@@ -148,7 +148,7 @@
 		"outerColor": [255,255,255],
 		"innerColor": [255,0,0],
 		"uniqueName": "Lineage Of Shrine Maidens",
-		"uniques": ["Starts with [Religion]", "Starts with [Rituals]",  "[All] units gain the [Human Race] promotion", "[+55]% Great Person generation [in all cities]"]
+		"uniques": ["Starts with [Religion]", "Starts with [Rituals]",  "[All] units gain the [Human Race] promotion", "[+55]% Great Person generation [in all cities]","Yin-Yang Orb Card"]
 		"favoredReligion": "Shrine Shinto",
 		"cities": ["Kamigakure", "Hachimori", "Yūgen no Kuni", "Shinseikoku", "Kazanami", "Isagiyama", "Miyamizu", "Yōkaino", "Harunoshima", "Fushimori"]
 	}
@@ -351,7 +351,7 @@
 		"outerColor": [0,0,0],
 		"innerColor": [255,255,255],
 		"uniqueName": "Master Spark",
-		"uniques": ["[All] units gain the [Human Race] promotion", "Starts with [Research For Magic]", "Starts with [Simple Alchemy]", "[+50]% Strength <for [{Human} {Magician}] units>"],
+		"uniques": ["[All] units gain the [Human Race] promotion", "Starts with [Research For Magic]", "Starts with [Simple Alchemy]", "[+50]% Strength <for [{Human} {Magician}] units>","Mini-Hakkero Card"],
 		"cities": ["Arcanopolis", "Mystoria", "Sorceron", "Enchantia", "Maginium", "Spellhaven", "Wizard's Reach", "Enigmaire", "Conjuria", "Manaheim"]
 	},
 	{
