@@ -11,10 +11,10 @@
 		"culture": 1,
 		"cityStrength": 2,
 		"cost": 1,
-		"uniques": ["Indicates the capital city","Gain a free [Free Wonder Slot] [in all cities]"]
+		"uniques": ["Indicates the capital city"]
 	},
 	{
-		"name": "Free Wonder Slot",
+		"name": "System",
 		"cost": 1,
 		"uniques": ["Unsellable","Unbuildable","Provides [1] [Wonder Slot] <in cities with at least [5] [Population]>"],
 	},
