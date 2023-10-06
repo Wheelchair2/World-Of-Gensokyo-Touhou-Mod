@@ -214,7 +214,22 @@
 		"resourceType": "Strategic",
 		"uniques": ["Cannot be traded","Not shown on world screen"],
 	},
-	
+	// Ability Cards
+	{
+		"name": "Blank Card",
+		"resourceType": "Luxury",
+		"uniques": ["Not shown on world screen"]
+	},
+	{
+		"name": "Ability Card 2",
+		"resourceType": "Luxury",
+		"uniques": ["Not shown on world screen"]
+	},
+	{
+		"name": "Ability Card 3",
+		"resourceType": "Luxury",
+		"uniques": ["Not shown on world screen"]
+	},
 	// Luxury resources
 	{
 		"name": "Furs",
