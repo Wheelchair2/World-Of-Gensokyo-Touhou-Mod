@@ -16,7 +16,17 @@
 	{
 		"name": "System",
 		"cost": 1,
-		"uniques": ["Unsellable","Unbuildable","Provides [1] [Wonder Slot] <in cities with at least [5] [Population]>"],
+		"uniques": ["Unsellable","Unbuildable","Provides [1] [Wonder Slot] <in cities with at least [5] [Population]>",
+		"[+5]% [Gold] [in this city] <with [Card]>",
+		"<with [Card]>",
+		"<with [Card]>",
+		"<with [Card]>",
+		"<with [Card]>",
+		"<with [Card]>",
+		"<with [Card]>",
+		"<with [Card]>",
+		"<with [Card]>",
+		"<with [Card]>"],
 	},
 	{
 		"name": "Monument",
@@ -36,6 +46,13 @@
 	},
 	
 	//Nation Specific Wonders
+	{
+		"name": "Card Market",
+		"isNationalWonder": true,
+		"gold": 2,
+		"uniqueTo": "",
+		"uniques": ["Provides [1] [] <with [33]% chance>"],
+	},
 	{
 		"name": "Scarlet Devil Mansion",
 		"uniqueTo": "Fated Land"
