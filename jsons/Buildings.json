@@ -50,21 +50,26 @@
 	{
 		"name": "Card Market",
 		"isNationalWonder": true,
-		"gold": 2,
+		"cost": 185,
+		"gold": 1,
+		"faith": 1,
 		"uniqueTo": "",
-		"uniques": ["Cost increases by [15] per owned city",
-		"Creates a [] improvement on a specific tile",
+		"uniques": ["Special Wonder","Cost increases by [50] per owned city",
+		"Creates a [Trading post] improvement on a specific tile",
 		"Doubles Gold given to enemy if city is captured",
+		"Provides [1] [Blank Card] <with [100]% chance> <during a Golden Age>",
 		"Provides [1] [Ability Card 1] <with [10]% chance>",
-		"Provides [1] [Ability Card 2] <with [10]% chance>",
-		"Provides [1] [Ability Card 3] <with [10]% chance>",
-		"Provides [1] [Ability Card 4] <with [10]% chance>",
-		"Provides [1] [Ability Card 5] <with [10]% chance>",
-		"Provides [1] [Ability Card 6] <with [10]% chance>",
-		"Provides [1] [Ability Card 7] <with [10]% chance>",
-		"Provides [1] [Ability Card 8] <with [10]% chance>",
-		"Provides [1] [Ability Card 9] <with [10]% chance>",
-		"Provides [1] [Ability Card 10] <with [10]% chance>"],
+		"Provides [1] [Ability Card 2] <with [11]% chance>",
+		"Provides [1] [Ability Card 3] <with [9]% chance>",
+		"Provides [1] [Ability Card 4] <with [12]% chance>",
+		"Provides [1] [Ability Card 5] <with [13]% chance>",
+		"Provides [1] [Ability Card 6] <with [8]% chance>",
+		"Provides [1] [Ability Card 7] <with [14]% chance>",
+		"Provides [1] [Ability Card 8] <with [7]% chance>",
+		"Provides [1] [Ability Card 9] <with [15]% chance>",
+		"Provides [1] [Ability Card 10] <with [6]% chance>"],
+		"greatPersonPoints": {"Great Marchant": 1},
+		"quote": "Possession of an object can only be controlled by the god of the markets. As long as they possess something, none can escape from the hands of God! - Chimata Tenkyuu",
 	},
 	*/
 	{
@@ -82,7 +87,7 @@
 		"cost": 185,
 		"isNationalWonder": true,
 		"greatPersonPoints": {"Great Engineer": 1},
-        "uniques": ["Special Wonder", "[+15]% Strength <for [All] units> <vs cities> <when attacking>"]
+        "uniques": ["Special Wonder", "[+15]% Strength <for [All] units> <vs cities> <when attacking> <for [495] turns>"]
 		"quote": "This is where Flandre Scarlet was locked up for 495 years."
 	},
 	{
