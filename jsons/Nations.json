@@ -88,7 +88,7 @@
 		"outerColor": [72,156,184],
 		"innerColor": [255,255,255],
 		"uniqueName": "The Great Fairy Wars",
-		"uniques": ["Fairy units heals every turn even while performing an action, but receive -1 Sight penalty", "[All] units gain the [Fairy] promotion", "[Land] units gain the [Winged] promotion"]
+		"uniques": ["Fairy units heals every turn even while performing an action, but receive -1 Sight penalty", "[All] units gain the [Fairy] promotion", "[Land] units gain the [Winged] promotion","Provides [1] [Ice Fairy Card]"]
 		"cities": ["Cirnopolis", "Bakai", "Perfect Town", "Daiyouville", "Ninth City", "Bakaville", "Kitchen", "New Cirnopolis", "Calculator City"],
 		"style": "fairy"
 	},
@@ -108,7 +108,7 @@
 		"outerColor": [240,240,240],
 		"innerColor": [55,26,106],
 		"uniqueName": "Diligent Fairy Maids",
-		"uniques": ["[All] units gain the [Youkai] promotion", "[Land] units gain the [Vampire] promotion", "[+25]% Production when constructing [All] wonders [in all cities]", "[-50]% maintenance costs"]
+		"uniques": ["[All] units gain the [Youkai] promotion", "[Land] units gain the [Vampire] promotion", "[+25]% Production when constructing [All] wonders [in all cities]", "[-50]% maintenance costs","Provides [1] [Vampire Fang Card]"]
 		"cities": ["Transylvania","ScarletBourne","Vermillion Peaks","Crimsonhurst","Carmesia","Garnetshire","Burgundy Citadel","Sangria Hollow","Scarletspire","Scarletara"]
 	},
 	{
@@ -127,7 +127,7 @@
 		"outerColor": [225,225,141],
 		"innerColor": [119,1,0],
 		"uniqueName": "Complete Destruction",
-		"uniques": ["[All] units gain the [Youkai] promotion", "[Land] units gain the [Vampire] promotion", "Damage is ignored when determining unit Strength", "Cities are razed [2] times as fast"],
+		"uniques": ["[All] units gain the [Youkai] promotion", "[Land] units gain the [Vampire] promotion", "Damage is ignored when determining unit Strength", "Cities are razed [2] times as fast","Provides [1] [Beauty of Destruction Card]"],
 		"cities": ["Sanguinaria", "Nocturnia", "Umbraheim", "Cimmeria", "Bloodhaven", "Stygianberg", "Nyxmark", "Valerianth", "Crimsonshire", "Vladonia"]
 	},
 	{
@@ -249,7 +249,7 @@
 		"outerColor": [255,255,255],
 		"innerColor": [0,0,0],
 		"uniqueName": "Deal With The Marketplace God",
-		"uniques": ["[All] units gain the [Youkai] promotion", "[Land] units gain the [Winged] promotion", "[+1] Movement <for [Winged] units>", "Starts with [Currency]", "[+2 Gold, +1 Food, +1 Production] from every [Trading post] <before the [Meiji era]>", "Cannot build [Mounted] units"]
+		"uniques": ["[All] units gain the [Youkai] promotion", "[Land] units gain the [Winged] promotion", "[+1] Movement <for [Winged] units>", "Starts with [Currency]", "[+2 Gold, +1 Food, +1 Production] from every [Trading post] <before the [Meiji era]>", "Cannot build [Mounted] units","Provides [1] [Great Tengu's Barley Rice Card]"]
 		"cities": ["Tsubasakoku", "Hagoromo no Sato", "Harukaze-mura", "Tenbin no Toshi", "Suzaku no Sora", "Hanebito", "Kumo no Machi", "Aoiwashi", "Hiryu no Sato", "Hayabusa-ga-Oka"]
 	},
 	{
