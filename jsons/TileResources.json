@@ -298,7 +298,7 @@
 	{
 		"name": "Drunkenly Whimsical Ibuki Gourd Card",
 		"resourceType": "Luxury",
-		"uniques": ["Not shown on world screen","[+5]% Strength <for [All] units> <for [30] turns> <with [Drunkenly Whimsical Ibuki Gourd Card]>"]
+		"uniques": ["Not shown on world screen","[-1] Sight <when below [0] Happiness>","[+7]% Strength <while the empire is happy> <for [All] units> <with [Drunkenly Whimsical Ibuki Gourd Card]>"]
 	},
 	{
 		"name": "Smelt's Scales Card",
