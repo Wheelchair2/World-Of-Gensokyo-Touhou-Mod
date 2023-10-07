@@ -820,7 +820,7 @@
 	},
 	{
 		"name": "Great Tengu's Barley Rice Card",
-		"unitTypes": ["Land"],
+		"unitTypes": ["Sword","Gunpowder","Mounted","Scout","Siege","Archery","Ranged Gunpowder","Armored","Melee Water","Ranged Water"],
  		"uniques": ["Can move immediately once bought <for [All] units> <with [Great Tengu's Barley Rice Card]>"]
 	},
 	{
@@ -830,7 +830,7 @@
 	},
 	{
 		"name": "Smelt's Scales Card",
-		"unitTypes": ["Land"],
+		"unitTypes": ["Sword","Gunpowder","Mounted","Scout","Siege","Archery","Ranged Gunpowder","Armored","Melee Water","Ranged Water"],
 		"uniques": ["May attack when embarked <for [Melee] units> <with [Smelt's Scales Card]>"]
 	},
 	{
