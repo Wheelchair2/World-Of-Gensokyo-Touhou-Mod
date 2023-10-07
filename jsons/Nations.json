@@ -26,7 +26,7 @@
 		"outerColor": [255,255,255],
 		"innerColor": [0,38,255],
 		"uniqueName": "Manipulation Of Earthquakes",
-		"uniques": ["[All] units gain the [Celestial] promotion", "No defensive terrain penalty <for [All] units>", "[+2 Gold] from every [Keystone] <during a Golden Age>"]
+		"uniques": ["[All] units gain the [Celestial] promotion", "No defensive terrain penalty <for [All] units>", "[+2 Gold] from every [Keystone] <during a Golden Age>","Provides [1] [Keystone of Endurance Card]"]
 		"cities": ["Tenkai City", "Shinden-Cho", "Kamiyama", "Hoshizora", "Yukikami", "Amaterasu", "Kaguya-Shima", "Soraoka", "Mizuhan", "Tengoku no Machi"]
 	},
 	{
@@ -374,7 +374,7 @@
 		"City-State Influence recovers at twice the normal rate",
 		"City-State territory always counts as friendly territory",
 		"[-30]% City-State Influence degradation",
-		"Resting point for Influence with City-States is increased by [10]"],
+		"Resting point for Influence with City-States is increased by [10]","Provides [1] [Esteemed Authority Card]"],
 		"favoredReligion": "Taoism",
 		"cities": ["Chenming", "Huashan", "Lingyin", "Qingcheng", "Wudang", "Xuanwu", "Ziran", "Daziran", "Taiji", "Xiaoyao"]
 	},
@@ -435,7 +435,7 @@
 		"outerColor": [40,0,92],
 		"innerColor": [213,210,242],
 		"uniqueName": "Manipulation Of Boundaries",
-		"uniques": ["Land Units can teleport (paradrop) up to 4 tiles when inside friendly territory, if the unit hasn't done any other actions yet; however, Land units are more expensive to produce", "[All] units gain the [Youkai] promotion", "[Land] units gain the [Phantasm] promotion", "[-60]% Production when constructing [Land] units [in all cities]"],
+		"uniques": ["Land Units can teleport (paradrop) up to 4 tiles when inside friendly territory, if the unit hasn't done any other actions yet; however, Land units are more expensive to produce", "[All] units gain the [Youkai] promotion", "[Land] units gain the [Phantasm] promotion", "[-60]% Production when constructing [Land] units [in all cities]","Provides [1] [Screen Border Card]"],
 		"cities": ["Hakumori","Kasenba","Mizukawa","Soraheim","Yumegawa","Kagetsu","Tsukimori","Kiriwara","Hanamachi","Enishi"]
 	},
 	{
