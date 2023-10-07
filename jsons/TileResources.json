@@ -258,7 +258,7 @@
 	{
 		"name": "Screen Border Card",
 		"resourceType": "Luxury",
-		"uniques": ["Not shown on world screen","[All] units gain the [Screen Border Card] promotion <with [Screen Border Card]>"]
+		"uniques": ["Not shown on world screen","[Scout] units gain the [Screen Border Card] promotion <with [Screen Border Card]>"]
 	},
 	{
 		"name": "Miracle Mallet Card",
@@ -304,6 +304,10 @@
 		"name": "Smelt's Scales Card",
 		"resourceType": "Luxury",
 		"uniques": ["Not shown on world screen","[All] units gain the [Smelt's Scales Card] promotion <with [Smelt's Scales Card]>"]
+	},
+	{
+		"name": "Pebble Hat Card",
+		"uniques": ["[Scout] units gain the [Pebble Hat Card] promotion <with [Pebble Hat Card]>"],
 	},
 	// Luxury resources
 	{
