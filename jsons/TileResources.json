@@ -221,12 +221,57 @@
 		"uniques": ["Not shown on world screen"]
 	},
 	{
-		"name": "Ability Card 2",
+		"name": "Yin-Yang Orb Card",
 		"resourceType": "Luxury",
 		"uniques": ["Not shown on world screen"]
 	},
 	{
-		"name": "Ability Card 3",
+		"name": "Mini-Hakkero Card",
+		"resourceType": "Luxury",
+		"uniques": ["Not shown on world screen"]
+	},
+	{
+		"name": "Shanghai Doll Card",
+		"resourceType": "Luxury",
+		"uniques": ["Not shown on world screen"]
+	},
+	{
+		"name": "Back Door Card",
+		"resourceType": "Luxury",
+		"uniques": ["Not shown on world screen"]
+	},
+	{
+		"name": "Offerings to a Sacred Mountain Card",
+		"resourceType": "Luxury",
+		"uniques": ["Not shown on world screen"]
+	},
+	{
+		"name": "Card",
+		"resourceType": "Luxury",
+		"uniques": ["Not shown on world screen"]
+	},
+	{
+		"name": "Card",
+		"resourceType": "Luxury",
+		"uniques": ["Not shown on world screen"]
+	},
+	{
+		"name": "Card",
+		"resourceType": "Luxury",
+		"uniques": ["Not shown on world screen"]
+	},
+	{
+		"name": "Card",
+		"resourceType": "Luxury",
+		"uniques": ["Not shown on world screen"]
+	},
+	{
+		"name": "Card",
+		"resourceType": "Luxury",
+		"uniques": ["Not shown on world screen"]
+	},
+	{
+		"name": "Card",
 		"resourceType": "Luxury",
 		"uniques": ["Not shown on world screen"]
 	},
