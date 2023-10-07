@@ -825,12 +825,12 @@
 	},
 	{
 		"name": "Ice Fairy Card",
-		"unitTypes": ["Land"],
+		"unitTypes": ["Sword","Gunpowder","Mounted","Scout","Siege","Archery","Ranged Gunpowder","Armored","Melee Water","Ranged Water"],
 		"uniques": ["Can enter ice tiles <for [All] units> <with [Ice Fairy Card]>"]
 	},
 	{
 		"name": "Smelt's Scales Card",
-		"unitTypes": ["Melee"],
+		"unitTypes": ["Land"],
 		"uniques": ["May attack when embarked <for [Melee] units> <with [Smelt's Scales Card]>"]
 	},
 	{
