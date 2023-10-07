@@ -308,7 +308,7 @@
 	{
 		"name": "Pebble Hat Card",
 		"resourceType": "Luxury",
-		"uniques": ["Not shown on world screen"],
+		"uniques": ["Not shown on world screen","[Scout] units gain the [Pebble Hat Card] promotion <with [Pebble Hat Card]>"],
 	},
 	// Luxury resources
 	{
