@@ -246,6 +246,31 @@
 		"uniques": ["Not shown on world screen"]
 	},
 	{
+		"name": "Sutra of Dharmatic Power Card",
+		"resourceType": "Luxury",
+		"uniques": ["Not shown on world screen"]
+	},
+	{
+		"name": "Danmaku Ghost Card",
+		"resourceType": "Luxury",
+		"uniques": ["Not shown on world screen"]
+	},
+	{
+		"name": "Screen Border Card",
+		"resourceType": "Luxury",
+		"uniques": ["Not shown on world screen"]
+	},
+	{
+		"name": "Miracle Mallet Card",
+		"resourceType": "Luxury",
+		"uniques": ["Not shown on world screen"]
+	},
+	{
+		"name": "Keystone of Endurance Card",
+		"resourceType": "Luxury",
+		"uniques": ["Not shown on world screen"]
+	},
+	{
 		"name": "Card",
 		"resourceType": "Luxury",
 		"uniques": ["Not shown on world screen"]
