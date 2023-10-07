@@ -218,7 +218,7 @@
 	{
 		"name": "Blank Card",
 		"resourceType": "Luxury",
-		"uniques": ["Not shown on world screen","[+2]% Strength <for [All] units> <with [Yin-Yang Orb Card]>",
+		"uniques": ["Not shown on world screen",
 		"[+5]% Strength <for [Siege] units> <with [Mini-Hakkero Card]>",
 		"[1] free [Worker] units appear <with [Shanghai Doll Card]>",
 		"[+7]% Strength <when defending> <when adjacent to a [{Friendly} {Military}] unit> <for [Military] units> <with [Back Door Card]>",
@@ -239,7 +239,7 @@
 	{
 		"name": "Yin-Yang Orb Card",
 		"resourceType": "Luxury",
-		"uniques": ["Not shown on world screen"]
+		"uniques": ["Not shown on world screen","[+2]% Strength <for [All] units> <with [Yin-Yang Orb Card]>"]
 	},
 	{
 		"name": "Mini-Hakkero Card",
