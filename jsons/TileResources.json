@@ -307,6 +307,7 @@
 	},
 	{
 		"name": "Pebble Hat Card",
+		"resourceType": "Luxury",
 		"uniques": ["Not shown on world screen"],
 	},
 	// Luxury resources
