@@ -820,12 +820,12 @@
 	},
 	{
 		"name": "Great Tengu's Barley Rice Card",
-		"unitTypes": ["All"],
+		"unitTypes": ["Land"],
  		"uniques": ["Can move immediately once bought <for [All] units> <with [Great Tengu's Barley Rice Card]>"]
 	},
 	{
 		"name": "Ice Fairy Card",
-		"unitTypes": ["All"],
+		"unitTypes": ["Land"],
 		"uniques": ["Can enter ice tiles <for [All] units> <with [Ice Fairy Card]>"]
 	},
 	{
