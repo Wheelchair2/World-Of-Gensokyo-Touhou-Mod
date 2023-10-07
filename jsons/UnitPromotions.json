@@ -812,4 +812,12 @@
 		"name": "[Royal Cavalry] ability",
         "uniques": ["[+100]% Strength <when attacking>"]
 	},
+	// Ability Card Uniques
+	{
+		"name": "Screen Border Card",
+		"uniques": ["May Paradrop up to [100] tiles from inside friendly territory <for [Scout] units> <with [Screen Border Card]>"]
+	},
+	{
+		
+	},
 ]
