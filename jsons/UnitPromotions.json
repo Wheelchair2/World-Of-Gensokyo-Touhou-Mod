@@ -831,6 +831,6 @@
 	},
 	{
 		"name": "Pebble Hat Card",
-		"uniques": ["Invisible to others <for [Scout] Units> <when at war> <with [Pebble Hat Card]>"]
+		"uniques": ["Invisible to others <for [Scout] units> <when at war> <with [Pebble Hat Card]>"]
 	},
 ]
