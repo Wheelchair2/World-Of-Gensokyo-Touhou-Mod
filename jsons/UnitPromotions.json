@@ -829,4 +829,8 @@
 		"name": "Smelt's Scales Card",
 		"uniques": ["May attack when embarked <for [Melee] units> <with [Smelt's Scales Card]>"]
 	},
+	{
+		"name": "Pebble Hat Card",
+		"uniques": ["Invisible to others <for [Scout] Units> <when at war> <with [Pebble Hat Card]>"]
+	},
 ]
