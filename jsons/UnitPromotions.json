@@ -818,6 +818,15 @@
 		"uniques": ["May Paradrop up to [100] tiles from inside friendly territory <for [Scout] units> <with [Screen Border Card]>"]
 	},
 	{
-		
+		"name": "Great Tengu's Barley Rice Card",
+ 		"uniques": ["Can move immediately once bought <for [All] units> <with [Great Tengu's Barley Rice Card]>"]
+	},
+	{
+		"name": "Ice Fairy Card",
+		"uniques": ["Can enter ice tiles <for [All] units> <with [Ice Fairy Card]>"]
+	},
+	{
+		"name": "Smelt's Scales Card",
+		"uniques": ["May attack when embarked <for [Melee] units> <with [Smelt's Scales Card]>"]
 	},
 ]
