@@ -271,22 +271,27 @@
 		"uniques": ["Not shown on world screen"]
 	},
 	{
-		"name": "Card",
+		"name": "Esteemed Authority Card",
 		"resourceType": "Luxury",
 		"uniques": ["Not shown on world screen"]
 	},
 	{
-		"name": "Card",
+		"name": "Vampire Fang Card",
 		"resourceType": "Luxury",
 		"uniques": ["Not shown on world screen"]
 	},
 	{
-		"name": "Card",
+		"name": "Great Tengu's Barley Rice Card",
 		"resourceType": "Luxury",
 		"uniques": ["Not shown on world screen"]
 	},
 	{
-		"name": "Card",
+		"name": "Ice Fairy Card",
+		"resourceType": "Luxury",
+		"uniques": ["Not shown on world screen"]
+	},
+	{
+		"name": "Beauty of Destruction Card",
 		"resourceType": "Luxury",
 		"uniques": ["Not shown on world screen"]
 	},
