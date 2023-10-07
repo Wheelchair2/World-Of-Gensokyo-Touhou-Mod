@@ -47,7 +47,7 @@
 		"outerColor": [252,225,254],
 		"innerColor": [19,81,92],
 		"uniqueName": "Mind-Reading Satori Race",
-		"uniques": ["[Land] units gain the [Satori Race] promotion", "[All] units gain the [Youkai] promotion"],
+		"uniques": ["[Land] units gain the [Satori Race] promotion", "[All] units gain the [Youkai] promotion","Provides [1] [Pebble Hat Card]"],
 		"cities": ["Palace Of The Earth Spirits","Stabiae","Chanchan","Bannack","Consonno","Florida Lost City","Kolmanskop","Trellech","Humberstone","Akrotiri","Taxila","Pyramiden","Merv","Cahokia,","Mologa","Neversink","Hallsands","Lukangol"]
 	},
 	{
