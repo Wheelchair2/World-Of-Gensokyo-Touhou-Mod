@@ -209,7 +209,7 @@
 		"outerColor": [193,117,50],
 		"innerColor": [255,241,141],
 		"uniqueName": "Secret God",
-		"uniques": ["[All] units gain the [Divine Blessing] promotion", "[+20]% Strength <for units with [Divine Blessing]>", "What makes this promotion special is that there are no units who can counter it"]
+		"uniques": ["[All] units gain the [Divine Blessing] promotion", "[+20]% Strength <for units with [Divine Blessing]>", "What makes this promotion special is that there are no units who can counter it","Provides [1] [Back Door Card]"]
 		"cities": ["Matara-kyo", "Jinzen City", "Kamimachi", "Takamoriya", "Kanazakura", "Yumegiri", "Matsuribayashi", "Jinmachi", "Mikumari", "Matara no Sato"]
 	},
 	{
@@ -288,7 +288,7 @@
 		"outerColor": [255,255,255],
 		"innerColor": [19,147,19],
 		"uniqueName": "Mountain Of Faith",
-		"uniques": ["Starts with [Religion]", "[All] units gain the [Human Race] promotion", "[100]% of excess happiness converted to [Faith]",
+		"uniques": ["Starts with [Religion]", "[All] units gain the [Human Race] promotion", "[100]% of excess happiness converted to [Faith]","Provides [1] [Offerings to a Sacred Mountain Card]",
 		 "[55]% of excess happiness converted to [Gold]",
 		"[+50]% maintenance costs",
 		"[-100]% [Gold] [in all cities] <when below [3] Happiness>"],
@@ -311,7 +311,7 @@
 		"outerColor": [55,40,76],
 		"innerColor": [255,255,255],
 		"uniqueName": "Peaceful Principles",
-		"uniques": ["Starts with [Religion]", "[All] units gain the [Youkai] promotion", "[-100]% Unhappiness from [Population] [in all non-occupied cities]"],
+		"uniques": ["Starts with [Religion]", "[All] units gain the [Youkai] promotion", "[-100]% Unhappiness from [Population] [in all non-occupied cities]","Provides [1] [Sutra of Dharmatic Power Card]"],
 		"favoredReligion": "Buddhism",
 		"cities": ["Minoriya", "Mizuhanashi", "Fujimori", "Shinju no Tani", "Arashiyama", "Kiyomizu", "Hayabusa no Sato", "Shizukesa", "Kokoroyoi", "Asamurasaki"]
 	},
@@ -455,7 +455,7 @@
 		"outerColor": [256,221,259],
 		"innerColor": [99,13,160],
 		"uniqueName": "Manager Of The Afterlife Realm",
-		"uniques": ["Spirit units can cross impassable tiles, Ignore terrain cost, and Ignore Zone of Control; but have -33% Strength penalty when attacking", "[All] units gain the [Youkai] promotion", "[Land] units gain the [Spirit] promotion"],
+		"uniques": ["Spirit units can cross impassable tiles, Ignore terrain cost, and Ignore Zone of Control; but have -33% Strength penalty when attacking", "[All] units gain the [Youkai] promotion", "[Land] units gain the [Spirit] promotion","Provides [1] [Danmaku Ghost Card]"],
 		"cities": ["Hakugyokurou", "Banshōkyō", "Kaidan City", "Yūrei Kōen", "Onryōmura", "Bakemono no Toshi", "Kokoro no Yami", "Reikonokuni", "Obakezaka", "Ayashiki Machi"]
 	},
 	{
@@ -475,7 +475,7 @@
 		"outerColor": [229,236,162],
 		"innerColor": [50,53,108],
 		"uniqueName": "Doll's Judgement",
-		"uniques": ["Starts with [Research For Magic]", "Starts with [Forbidden Sorcery]", "[All] units gain the [Youkai] promotion", "[Land] units gain the [Doll Construct] promotion", "[+2 Production, -2 Gold] from every [Doll Lumber House]", "[+1 Production] from every [Doll Lumber House] <after discovering [Machinery]>"],
+		"uniques": ["Starts with [Research For Magic]", "Starts with [Forbidden Sorcery]", "[All] units gain the [Youkai] promotion", "[Land] units gain the [Doll Construct] promotion", "[+2 Production, -2 Gold] from every [Doll Lumber House]", "[+1 Production] from every [Doll Lumber House] <after discovering [Machinery]>","Provides [1] [Shanghai Doll Card]"],
 		"cities": ["Alice's House","Dollhaven","Gearshire","Artisan's Reach","Whimsyville","Stitchborough","Wondermere","Mechanica","Puppetsburg","Imagiopia"]
 	},
 	// City-States sorted by cityStateType, name
