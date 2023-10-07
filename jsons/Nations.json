@@ -268,7 +268,7 @@
 		"outerColor": [67,180,116],
 		"innerColor": [5,47,78],
 		"uniqueName": "Mermaid Of The Uncharted Land",
-		"uniques": ["Mermaid units posses certain advantages and disadvantages; in summary: Mermaid units move faster on Water and fresh water tiles, but slower on dry land, except when near the Coast", "Enables embarkation for land units <starting from the [Youkai Expansion Project]>", "Enables [All] units to enter ocean tiles <starting from the [Youkai Expansion Project]>", "[All] units gain the [Youkai] promotion", "[Land] units gain the [Mermaid] promotion", "Cannot build [Mounted] units"]
+		"uniques": ["Mermaid units posses certain advantages and disadvantages; in summary: Mermaid units move faster on Water and fresh water tiles, but slower on dry land, except when near the Coast", "Enables embarkation for land units <starting from the [Youkai Expansion Project]>", "Enables [All] units to enter ocean tiles <starting from the [Youkai Expansion Project]>", "[All] units gain the [Youkai] promotion", "[Land] units gain the [Mermaid] promotion", "Cannot build [Mounted] units","Provides [1] [Smelt's Scales Card]"]
 		"cities": ["Sushiyama", "Maguroshima", "Unazuki", "Taihoku", "Hamachiya", "Kanpachibu", "Suzukiya", "Sabaoka", "Katsuocho", "Iwashio"]
 	},
 	{
@@ -332,7 +332,7 @@
 		"outerColor": [255,255,169],
 		"innerColor": [115,66,65],
 		"uniqueName": "Constant War",
-		"uniques": ["Starts with [Fermented Alcohol]", "Rebel units may spawn <when below [5] Happiness>", "[All] units gain the [Youkai] promotion", "[All] units gain the [Oni] promotion", "Great General provides double combat bonus", "[Great General] is earned [+50]% faster", "Earn [30]% of killed [Military] unit's [Strength] as [Culture] <during the [Youkai Expansion Project]>"],
+		"uniques": ["Starts with [Fermented Alcohol]", "Rebel units may spawn <when below [5] Happiness>", "[All] units gain the [Youkai] promotion", "[All] units gain the [Oni] promotion", "Great General provides double combat bonus", "[Great General] is earned [+50]% faster", "Earn [30]% of killed [Military] unit's [Strength] as [Culture] <during the [Youkai Expansion Project]>","Provides [1] [Drunkenly Whimsical Ibuki Gourd Card]"],
 		"cities": ["Bushidōkoku", "Kenkoku", "Kenseikuni", "Tatsumaki no Kuni", "Kōyōdō", "Heishi no Tani", "Katanaishi", "Yoroi no Sato", "Kachūsha", "Shinkenshi"]
 	},
 	{
