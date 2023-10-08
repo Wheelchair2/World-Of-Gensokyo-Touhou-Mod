@@ -833,4 +833,8 @@
 		"name": "Pebble Hat Card",
 		"uniques": ["Invisible to others <for [Scout] units> <when at war> <with [Pebble Hat Card]>"]
 	},
+	{
+		"name": "",
+		"uniques": ["Destroys tile improvements when attacking <with [33]% chance> <for [Siege] units> <when at war> <with [Pebble Hat Card]>"]
+	},
 ]
