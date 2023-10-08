@@ -223,12 +223,12 @@
 	{
 		"name": "Yin-Yang Orb Card",
 		"resourceType": "Luxury",
-		"uniques": ["Not shown on world screen","[+2]% Strength <for [All] units> <with [Yin-Yang Orb Card]>"]
+		"uniques": ["Not shown on world screen","[+8]% Strength <for [All] units> <with [Yin-Yang Orb Card]>"]
 	},
 	{
 		"name": "Mini-Hakkero Card",
 		"resourceType": "Luxury",
-		"uniques": ["Not shown on world screen","[+5]% Strength <for [Siege] units> <with [Mini-Hakkero Card]>"]
+		"uniques": ["Not shown on world screen","[+12]% Strength <for [Siege] units> <with [Mini-Hakkero Card]>"]
 	},
 	{
 		"name": "Shanghai Doll Card",
@@ -238,7 +238,7 @@
 	{
 		"name": "Back Door Card",
 		"resourceType": "Luxury",
-		"uniques": ["Not shown on world screen","[+7]% Strength <when defending> <when adjacent to a [{Friendly} {Military}] unit> <for [Military] units> <with [Back Door Card]>"]
+		"uniques": ["Not shown on world screen","[+15]% Strength <when defending> <when adjacent to a [{Friendly} {Military}] unit> <for [Military] units> <with [Back Door Card]>"]
 	},
 	{
 		"name": "Offerings to a Sacred Mountain Card",
@@ -268,17 +268,17 @@
 	{
 		"name": "Keystone of Endurance Card",
 		"resourceType": "Luxury",
-		"uniques": ["Not shown on world screen","[+5]% Strength <when defending> <for [Military] units> <with [Keystone of Endurance Card]>"]
+		"uniques": ["Not shown on world screen","[+12]% Strength <when defending> <for [Military] units> <with [Keystone of Endurance Card]>"]
 	},
 	{
 		"name": "Esteemed Authority Card",
 		"resourceType": "Luxury",
-		"uniques": ["Not shown on world screen","[+25]% Strength <for [Military] units> <vs [Barbarian] units> <with [Esteemed Authority Card]>"]
+		"uniques": ["Not shown on world screen","[+40]% Strength <for [Military] units> <vs [Barbarian] units> <with [Esteemed Authority Card]>"]
 	},
 	{
 		"name": "Vampire Fang Card",
 		"resourceType": "Luxury",
-		"uniques": ["Not shown on world screen","[+5]% Strength <for [Melee] units> <with [Vampire Fang Card]>"]
+		"uniques": ["Not shown on world screen","[+12]% Strength <for [Melee] units> <with [Vampire Fang Card]>"]
 	},
 	{
 		"name": "Great Tengu's Barley Rice Card",
@@ -298,7 +298,7 @@
 	{
 		"name": "Drunkenly Whimsical Ibuki Gourd Card",
 		"resourceType": "Luxury",
-		"uniques": ["Not shown on world screen","[-1] Sight <when below [0] Happiness>","[+7]% Strength <while the empire is happy> <for [All] units> <with [Drunkenly Whimsical Ibuki Gourd Card]>"]
+		"uniques": ["Not shown on world screen","[-1] Sight <when below [0] Happiness>","[+15]% Strength <while the empire is happy> <for [All] units> <with [Drunkenly Whimsical Ibuki Gourd Card]>"]
 	},
 	{
 		"name": "Smelt's Scales Card",
