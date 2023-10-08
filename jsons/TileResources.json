@@ -293,7 +293,7 @@
 	{
 		"name": "Beauty of Destruction Card",
 		"resourceType": "Luxury",
-		"uniques": ["Not shown on world screen","[Siege] units gain the [Beauty of Destruction Card] promotion <with [Beauty of Destruction Card]>","[+10]% Strength <vs cities> <for [All] units> <with [Beauty of Destruction Card]>"]
+		"uniques": ["Not shown on world screen","[Siege] units gain the [Beauty of Destruction Card] promotion <with [Beauty of Destruction Card]>","[+20]% Strength <vs cities> <for [All] units> <with [Beauty of Destruction Card]>"]
 	},
 	{
 		"name": "Drunkenly Whimsical Ibuki Gourd Card",
