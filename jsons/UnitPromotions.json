@@ -834,7 +834,7 @@
 		"uniques": ["Invisible to others <for [Scout] units> <when at war> <with [Pebble Hat Card]>"]
 	},
 	{
-		"name": "",
-		"uniques": ["Destroys tile improvements when attacking <with [33]% chance> <for [Siege] units> <when at war> <with [Pebble Hat Card]>"]
+		"name": "Beauty of Destruction Card",
+		"uniques": ["Destroys tile improvements when attacking <with [33]% chance> <for [Siege] units> <when at war> <with [Beauty of Destruction Card]>"]
 	},
 ]
