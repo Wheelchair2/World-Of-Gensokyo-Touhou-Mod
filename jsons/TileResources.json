@@ -248,7 +248,7 @@
 	{
 		"name": "Sutra of Dharmatic Power Card",
 		"resourceType": "Luxury",
-		"uniques": ["Not shown on world screen","[+33]% Strength <when attacking> <when below [10] HP> <with [Sutra of Dharmatic Power Card]>"]
+		"uniques": ["Not shown on world screen","[+33]% Strength <when attacking> <when below [30] HP> <with [Sutra of Dharmatic Power Card]>"]
 	},
 	{
 		"name": "Danmaku Ghost Card",
