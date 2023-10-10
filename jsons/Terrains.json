@@ -406,7 +406,7 @@
 		"overrideStats": true,
 		"occursOn": ["Plains", "Grassland", "Hill"],
 		"turnsInto": "Plains",
-		"unbuildable": true,
+		//"unbuildable": true,
 		"uniques": ["Tile provides yield without assigned population"],
 		"weight": 5
 	},
