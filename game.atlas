@@ -921,9 +921,23 @@ ReligionIcons/Shrine Shinto
   orig: 100, 100
   offset: 0, 0
   index: -1
+ResourceIcons/Mini-Hakkero Card
+  rotate: false
+  xy: 1192, 1164
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 ResourceIcons/Wonder Slot
   rotate: false
   xy: 1300, 300
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Yin-Yang Orb Card
+  rotate: false
+  xy: 1300, 1920
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
