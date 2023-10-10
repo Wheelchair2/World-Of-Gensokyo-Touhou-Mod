@@ -435,7 +435,7 @@
 		"outerColor": [40,0,92],
 		"innerColor": [213,210,242],
 		"uniqueName": "Manipulation Of Boundaries",
-		"uniques": ["Land Units can teleport (paradrop) up to 4 tiles when inside friendly territory, if the unit hasn't done any other actions yet; however, Land units are more expensive to produce", "[All] units gain the [Youkai] promotion", "[Land] units gain the [Phantasm] promotion", "[-60]% Production when constructing [Land] units [in all cities]","Provides [1] [Screen Border Card]"],
+		"uniques": ["Land Units can teleport (paradrop) up to 4 tiles when inside friendly territory, if the unit hasn't done any other actions yet; however, Land units are more expensive to produce", "[All] units gain the [Youkai] promotion", "[Land] units gain the [Phantasm] promotion <for units without [Screen Border Card]>", "[-60]% Production when constructing [Land] units [in all cities]","Provides [1] [Screen Border Card]"],
 		"cities": ["Hakumori","Kasenba","Mizukawa","Soraheim","Yumegawa","Kagetsu","Tsukimori","Kiriwara","Hanamachi","Enishi"]
 	},
 	{
