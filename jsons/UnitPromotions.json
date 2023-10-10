@@ -86,7 +86,7 @@
 	},
 	{
 		"name": "Phantasm"
-		"uniques": ["May Paradrop up to [4] tiles from inside friendly territory <if it hasn't used other actions yet> <for [{Sword} {Gunpowder} {Mounted} {Siege} {Archery} {Ranged Gunpowder} {Armored}] units>"]
+		"uniques": ["May Paradrop up to [4] tiles from inside friendly territory <if it hasn't used other actions yet> <for [Sword] units> <for [Gunpowder] units> <for [Mounted] units> <for [Siege] units> <for [Archery] units> <for [Ranged Gunpowder] units> <for [Armored] units>"]
 	},
     {
 		"name": "Martial Arts",
