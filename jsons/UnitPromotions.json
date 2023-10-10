@@ -815,7 +815,7 @@
 	// Ability Card Uniques
 	{
 		"name": "Screen Border Card",
-		"uniques": ["May Paradrop up to [100] tiles from inside friendly territory <if this unit hasn't used other actions yet> <for [Scout] units> <with [Screen Border Card]>"]
+		"uniques": ["May Paradrop up to [100] tiles from inside friendly territory <for [Scout] units> <with [Screen Border Card]>"]
 	},
 	{
 		"name": "Great Tengu's Barley Rice Card",
