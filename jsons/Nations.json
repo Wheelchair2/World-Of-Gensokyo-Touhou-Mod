@@ -171,7 +171,6 @@
 		"uniques": ["Starts with [Agriculture]", "Starts with [Scientific Knowledge]", "[All] units gain the [Human Race] promotion"],
 		"cities": ["Kyoto", "Osaka", "Sapporo", "Yokohama", "Hiroshima", "Kobe", "Nagoya", "Fukuoka", "Sendai", "Nagasaki"]
 	},
-	/*
 	{
 		"name": "Kurai Sekai",
 		"leaderName": "Rumia",
@@ -192,7 +191,6 @@
 		"uniques": ["[All] units gain the [Youkai] promotion", "[All] units gain the [Dark Youkai] promotion", "Gain access to Rumia as a unit!"],
 		"cities": ["Hōreisou", "Yami no Machi", "Kurayami City", "Kagegakure", "Ayakashi Town", "Ankokuji", "Yūrei District", "Yabai Yokochō", "Shin'en no Toshi", "Kakuranochō"]
 	},
-	*/
 	{
 		"name": "Land Of The Back Doors",
 		"leaderName": "Okina Matara",
@@ -435,7 +433,7 @@
 		"outerColor": [40,0,92],
 		"innerColor": [213,210,242],
 		"uniqueName": "Manipulation Of Boundaries",
-		"uniques": ["Land Units can teleport (paradrop) up to 4 tiles when inside friendly territory, if the unit hasn't done any other actions yet; however, Land units are more expensive to produce", "[All] units gain the [Youkai] promotion", "[Land] units gain the [Phantasm] promotion <for [Land] units> <for units without [Screen Border Card]>", "[-60]% Production when constructing [Land] units [in all cities]","Provides [1] [Screen Border Card]"],
+		"uniques": ["Land Units can teleport (paradrop) up to 4 tiles when inside friendly territory, if the unit hasn't done any other actions yet; however, Land units are more expensive to produce", "[All] units gain the [Youkai] promotion", "[Land] units gain the [Phantasm] promotion", "[-60]% Production when constructing [Land] units [in all cities]","Provides [1] [Screen Border Card]"],
 		"cities": ["Hakumori","Kasenba","Mizukawa","Soraheim","Yumegawa","Kagetsu","Tsukimori","Kiriwara","Hanamachi","Enishi"]
 	},
 	{
