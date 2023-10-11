@@ -2383,6 +2383,20 @@ ResourceIcons/Pebble Hat Card
   orig: 100, 100
   offset: 0, 0
   index: -1
+ResourceIcons/Miracle Mallet Card
+  rotate: false
+  xy: 0, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Offerings to a Sacred Mountain Card
+  rotate: false
+  xy: 0, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 ResourceIcons/Ice Fairy Card
   rotate: false
   xy: 0, 0
