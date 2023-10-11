@@ -2446,13 +2446,6 @@ ResourceIcons/Smelt's Scales Card
   orig: 100, 100
   offset: 0, 0
   index: -1
-ResourceIcons/Sacred Mountain Card
-  rotate: false
-  xy: 0, 0
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
 ResourceIcons/Sutra of Dharmatic Power Card
   rotate: false
   xy: 0, 0
@@ -2496,6 +2489,13 @@ ResourceIcons/Danmaku Ghost Card
   offset: 0, 0
   index: -1
 ResourceIcons/Shanghai Doll Card
+  rotate: false
+  xy: 0, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PromotionIcons/Pebble Hat Card
   rotate: false
   xy: 0, 0
   size: 100, 100
