@@ -217,14 +217,13 @@
 	// Ability Cards
 	{
 		"name": "Blank Card",
-		"faith": 1,
-		"resourceType": "Strategic",
+		"resourceType": "Luxury",
 		"uniques": ["An Ability Card with nothing written on it...Let's trade this and relinquish ownership of the opponent's card!","Resources for trading","Not shown on world screen"]
 	},
 	{
 		"name": "Yin-Yang Orb Card",
 		"resourceType": "Luxury",
-		"uniques": ["Reimu Hakurei's ability to shoot homing bullets at enemies. A useful card that can beef up your attack power in a simple way.","Not shown on world screen","[+8]% Strength <for [All] units> <with [Yin-Yang Orb Card]>"]
+		"uniques": ["Not shown on world screen","[+8]% Strength <for [All] units> <with [Yin-Yang Orb Card]>"]
 	},
 	{
 		"name": "Mini-Hakkero Card",
