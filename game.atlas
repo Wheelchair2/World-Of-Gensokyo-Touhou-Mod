@@ -2495,7 +2495,42 @@ ResourceIcons/Shanghai Doll Card
   orig: 100, 100
   offset: 0, 0
   index: -1
-PromotionIcons/Pebble Hat Card
+UnitPromotionIcons/Pebble Hat Card
+  rotate: false
+  xy: 100, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Ice Fairy Card
+  rotate: false
+  xy: 100, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Beauty of Destruction Card
+  rotate: false
+  xy: 100, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Great Tengu's Barley Rice Card
+  rotate: false
+  xy: 100, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Smelt's Scales Card
+  rotate: false
+  xy: 100, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Screen Border Card
   rotate: false
   xy: 100, 0
   size: 100, 100
