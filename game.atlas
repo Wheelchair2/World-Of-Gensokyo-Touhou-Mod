@@ -2358,13 +2358,13 @@ UnitPromotionIcons/Youkai
   index: -1
 
 game2.png
-size: 100, 100
+size: 300, 100
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
 ResourceIcons/Blank Card
   rotate: false
-  xy: 0, 0
+  xy: 200, 0
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -2497,7 +2497,7 @@ ResourceIcons/Shanghai Doll Card
   index: -1
 PromotionIcons/Pebble Hat Card
   rotate: false
-  xy: 0, 0
+  xy: 100, 0
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
