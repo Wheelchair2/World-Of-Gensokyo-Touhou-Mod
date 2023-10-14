@@ -2564,3 +2564,23 @@ TileSets/FantasyHex/Tiles/Grassland+Chikushokai+Reichoen
   orig: 32, 38
   offset: 0, 0
   index: -1
+
+game010.png
+size: 200, 100
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+ImprovementIcons/Friendship With Wild Beasts
+  rotate: false
+  xy: 0, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Reichoen
+  rotate: false
+  xy: 100, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
