@@ -384,6 +384,18 @@
 		"uniques": ["Tile provides yield without assigned population"],
 		"weight": 10
 	},
+	{
+		"name": "Chikushokai",
+		"type": "NaturalWonder",
+		"defenceBonus": 0.50,
+		"movementCost": 2,
+		"overrideStats": true,
+		"occursOn": ["Plains", "Grassland", "Hill"],
+		"turnsInto": "Grassland",
+		"unbuildable": true,
+		"uniques": ["Tile provides yield without assigned population"],
+		"weight": 1
+	},
     {
 		"name": "Giant Toad's Pond",
 		"type": "NaturalWonder",
