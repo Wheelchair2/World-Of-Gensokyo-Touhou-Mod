@@ -19,9 +19,10 @@
         "May buy [Mercenary] units with [Gold] for [2] times their normal Production cost",
         
         //Specific Uniques
+				/* still needs some testing
         "[-3] Movement <for [Winged] units> <when adjacent to a [Bird Net] unit>",
         "[-3] Movement <for [Mermaid] units> <when adjacent to a [Mermaid Net] unit>"
-        
+       */
         
         // Sashimi chan
     ]
