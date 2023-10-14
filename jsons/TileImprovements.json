@@ -212,6 +212,18 @@
 		"production": 1,
 		"uniques": ["Consumes [1] [Wonder Slot]","Gives a defensive bonus of [175]%"],
 	},
+	{
+		"name": "Friendship With Wild Beasts",
+		"terrainsCanBeBuiltOn": ["Chikushokai"],
+		"turnsToBuild": 9,
+		"uniques": ["Increases the military importance of Chikushokai. In conclusion, diplomacy is nothing more than a meeting of interests.","Consumes [1] [Wonder Slot]","[+5 Culture] <when at war>","Gives a defensive bonus of [50]%","Adjacent enemy units ending their turn take [15] damage"],
+	},
+	{
+		"name": "Reichoen",
+		"terrainsCanBeBuiltOn": ["Chikushokai"],
+		"turnsToBuild": 9,
+		"uniques": ["Human spirits are always gives you a bonus. Human spirits are handy and weakest, so it's useful as a labor.","Consumes [1] [Wonder Slot]","[+5 Production, +5 Gold] <when not at war>","[+2 Faith] <after founding a Pantheon>","[+3 Faith, -5 Production] <when not at war> <after founding a Pantheon>"],
+	},
 
 
     // Great Person improvements
