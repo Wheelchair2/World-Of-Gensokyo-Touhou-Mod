@@ -16,7 +16,7 @@
 	{
 		"name": "System",
 		"cost": 1,
-		"uniques": ["Unsellable","Unbuildable","Provides [1] [Wonder Slot] <in cities with at least [12] [Population]>"],
+		"uniques": ["Unsellable","Unbuildable","Provides [1] [Wonder Slot] <in cities with at least [1] [Population]>"],
 	},
 	{
 		"name": "Monument",
