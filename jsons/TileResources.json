@@ -288,7 +288,7 @@
 	{
 		"name": "Ice Fairy Card",
 		"resourceType": "Luxury",
-		"uniques": ["Not shown on world screen","[All] units gain the [Ice Fairy Card] promotion <with [Ice Fairy Card]>"]
+		"uniques": ["Not shown on world screen","[All] units gain the [Ice Fairy Card] promotion <with [Ice Fairy Card]>","[+35]% Strength <when defending> <for [Military] units> <in [Snow] tiles>","[+15]% Strength <when defending> <for [Military] units> <in [Tundra] tiles>","[+5]% Strength <when defending> <for [Military] units> <in [Hill] tiles>"]
 	},
 	{
 		"name": "Beauty of Destruction Card",
