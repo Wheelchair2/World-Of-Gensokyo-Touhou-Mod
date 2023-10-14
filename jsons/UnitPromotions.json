@@ -6,7 +6,7 @@
 		"unitTypes": ["Sword","Gunpowder","Mounted","Scout","Siege","Archery","Ranged Gunpowder","Armored","Melee Water","Ranged Water","Submarine"],
         "row": 0,
         "column": 0
-	},
+	}, 
     
     // Unorganized Unique Promotions
 	
@@ -123,13 +123,12 @@
 		"name": "Fire Arts",
 		"uniques": ["[-15]% Strength for enemy [Military] units in adjacent [All] tiles", "Destroys tile improvements when attacking <with [25]% chance>"]
 	},
-	/*
-	{
-		"name": "Wu Xing Elements",
-		"uniques": ["
-		
-	},
-	*/
+	
+	//{
+	//	"name": "Wu Xing Elements",
+	//	"uniques": ["
+	//},
+	
 	{
 		"name": "Devouring Anything",
 		"uniques": ["Heals this unit by [30] HP <upon defeating a [Military] unit>"]
