@@ -11,12 +11,12 @@
 		"culture": 1,
 		"cityStrength": 2,
 		"cost": 1,
-		"uniques": ["Indicates the capital city","Gain a free [Free Wonder Slot] [in all cities]"]
+		"uniques": ["Indicates the capital city"]
 	},
 	{
-		"name": "Free Wonder Slot",
+		"name": "System",
 		"cost": 1,
-		"uniques": ["Unsellable","Unbuildable","Provides [1] [Wonder Slot] <in cities with at least [5] [Population]>"],
+		"uniques": ["Unsellable","Unbuildable","Provides [1] [Wonder Slot] <in cities with at least [12] [Population]>"],
 	},
 	{
 		"name": "Monument",
@@ -36,6 +36,23 @@
 	},
 	
 	//Nation Specific Wonders
+	/*
+	{
+		"name": "Card Market",
+		"isNationalWonder": true,
+		"cost": 185,
+		"gold": 4,
+		"faith": 1,
+		"uniqueTo": "",
+		"uniques": ["Special Wonder","Cost increases by [50] per owned city",
+		"Creates a [Trading post] improvement on a specific tile",
+		"Doubles Gold given to enemy if city is captured",
+		"Provides [1] [Blank Card] <with [12]% chance> <during a Golden Age>",
+		"Provides [1] [Blank Card]","Gain [-20]-[-100] [Gold]"]
+		"greatPersonPoints": {"Great Marchant": 1},
+		"quote": "Possession of an object can only be controlled by the god of the markets. As long as they possess something, none can escape from the hands of God! - Chimata Tenkyuu",
+	},
+	*/
 	{
 		"name": "Scarlet Devil Mansion",
 		"uniqueTo": "Fated Land"
@@ -51,7 +68,7 @@
 		"cost": 185,
 		"isNationalWonder": true,
 		"greatPersonPoints": {"Great Engineer": 1},
-        "uniques": ["Special Wonder", "[+15]% Strength <for [All] units> <vs cities> <when attacking>"]
+        "uniques": ["Special Wonder", "[+15]% Strength <for [All] units> <vs cities> <when attacking> <for [495] turns>"]
 		"quote": "This is where Flandre Scarlet was locked up for 495 years."
 	},
 	{

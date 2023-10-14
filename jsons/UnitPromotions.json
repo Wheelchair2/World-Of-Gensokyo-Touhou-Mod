@@ -1,5 +1,4 @@
 [
-
 	{
 		"name": "Heal Instantly",
 		"uniques": ["Heal this unit by [50] HP", "Doing so will consume this opportunity to choose a Promotion"],
@@ -87,7 +86,7 @@
 	},
 	{
 		"name": "Phantasm"
-		"uniques": ["May Paradrop up to [4] tiles from inside friendly territory <if it hasn't used other actions yet>"]
+		"uniques": ["May Paradrop up to [4] tiles from inside friendly territory <if it hasn't used other actions yet> <for units without [Screen Border Card]>"]
 	},
     {
 		"name": "Martial Arts",
@@ -811,5 +810,30 @@
     {
 		"name": "[Royal Cavalry] ability",
         "uniques": ["[+100]% Strength <when attacking>"]
+	},
+	// Ability Card Uniques
+	{
+		"name": "Screen Border Card",
+		"uniques": ["May Paradrop up to [100] tiles from inside friendly territory <if it hasn't used other actions yet> <for [Scout] units> <with [Screen Border Card]>"]
+	},
+	{
+		"name": "Great Tengu's Barley Rice Card",
+ 		"uniques": ["Can move immediately once bought <for [All] units> <with [Great Tengu's Barley Rice Card]>"]
+	},
+	{
+		"name": "Ice Fairy Card",
+		"uniques": ["Can enter ice tiles <for [All] units> <with [Ice Fairy Card]>"]
+	},
+	{
+		"name": "Smelt's Scales Card",
+		"uniques": ["May attack when embarked <for [Melee] units> <with [Smelt's Scales Card]>"]
+	},
+	{
+		"name": "Pebble Hat Card",
+		"uniques": ["Invisible to others <for [Scout] units> <when at war> <with [Pebble Hat Card]>"]
+	},
+	{
+		"name": "Beauty of Destruction Card",
+		"uniques": ["Destroys tile improvements when attacking <with [33]% chance> <for [Siege] units> <when at war> <with [Beauty of Destruction Card]>"]
 	},
 ]

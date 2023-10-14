@@ -212,9 +212,104 @@
 	{
 		"name": "Wonder Slot", // For Natural Wonders Improvement
 		"resourceType": "Strategic",
-		"uniques": ["Cannot be traded","Not shown on world screen"],
+		"uniques": ["Cannot be traded"],
 	},
-	
+	// Ability Cards
+	{
+		"name": "Blank Card",
+		"resourceType": "Luxury",
+		"uniques": ["An Ability Card with nothing written on it...Let's trade this and relinquish ownership of the opponent's card!","Resources for trading","Not shown on world screen"]
+	},
+	{
+		"name": "Yin-Yang Orb Card",
+		"resourceType": "Luxury",
+		"uniques": ["Not shown on world screen","[+8]% Strength <for [All] units> <with [Yin-Yang Orb Card]>"]
+	},
+	{
+		"name": "Mini-Hakkero Card",
+		"resourceType": "Luxury",
+		"uniques": ["Not shown on world screen","[+12]% Strength <for [Siege] units> <with [Mini-Hakkero Card]>"]
+	},
+	{
+		"name": "Shanghai Doll Card",
+		"resourceType": "Luxury",
+		"uniques": ["Not shown on world screen","[1] free [Worker] units appear <with [Shanghai Doll Card]>"]
+	},
+	{
+		"name": "Back Door Card",
+		"resourceType": "Luxury",
+		"uniques": ["Not shown on world screen","[+15]% Strength <when defending> <when adjacent to a [{Friendly} {Military}] unit> <for [Military] units> <with [Back Door Card]>"]
+	},
+	{
+		"name": "Offerings to a Sacred Mountain Card",
+		"resourceType": "Luxury",
+		"uniques": ["Not shown on world screen","[+1 Gold] from [Mountain] tiles [in all cities]","[+1] Sight <for [Scout] units> <with [Offerings to a Sacred Mountain Card]>"]
+	},
+	{
+		"name": "Sutra of Dharmatic Power Card",
+		"resourceType": "Luxury",
+		"uniques": ["Not shown on world screen","[+33]% Strength <when attacking> <when below [30] HP> <with [Sutra of Dharmatic Power Card]>"]
+	},
+	{
+		"name": "Danmaku Ghost Card",
+		"resourceType": "Luxury",
+		"uniques": ["Not shown on world screen","Damage is ignored when determining unit Strength <for [All] units> <with [Danmaku Ghost Card]>"]
+	},
+	{
+		"name": "Screen Border Card",
+		"resourceType": "Luxury",
+		"uniques": ["Not shown on world screen","[Scout] units gain the [Screen Border Card] promotion <with [Screen Border Card]>"]
+	},
+	{
+		"name": "Miracle Mallet Card",
+		"resourceType": "Luxury",
+		"uniques": ["Not shown on world screen","Earn [15]% of killed [{Enemy} {Military}] unit's [Strength] as [Gold] <for [All] units> <with [Miracle Mallet Card]>"]
+	},
+	{
+		"name": "Keystone of Endurance Card",
+		"resourceType": "Luxury",
+		"uniques": ["Not shown on world screen","[+12]% Strength <when defending> <for [Military] units> <with [Keystone of Endurance Card]>"]
+	},
+	{
+		"name": "Esteemed Authority Card",
+		"resourceType": "Luxury",
+		"uniques": ["Not shown on world screen","[+40]% Strength <for [Military] units> <vs [Barbarian] units> <with [Esteemed Authority Card]>"]
+	},
+	{
+		"name": "Vampire Fang Card",
+		"resourceType": "Luxury",
+		"uniques": ["Not shown on world screen","[+12]% Strength <for [Melee] units> <with [Vampire Fang Card]>"]
+	},
+	{
+		"name": "Great Tengu's Barley Rice Card",
+		"resourceType": "Luxury",
+		"uniques": ["Not shown on world screen","[All] units gain the [Great Tengu's Barley Rice Card] promotion <with [Great Tengu's Barley Rice Card]>"]
+	},
+	{
+		"name": "Ice Fairy Card",
+		"resourceType": "Luxury",
+		"uniques": ["Not shown on world screen","[All] units gain the [Ice Fairy Card] promotion <with [Ice Fairy Card]>","[+35]% Strength <when defending> <for [Military] units> <in [Snow] tiles>","[+15]% Strength <when defending> <for [Military] units> <in [Tundra] tiles>","[+5]% Strength <when defending> <for [Military] units> <in [Hill] tiles>"]
+	},
+	{
+		"name": "Beauty of Destruction Card",
+		"resourceType": "Luxury",
+		"uniques": ["Not shown on world screen","[Siege] units gain the [Beauty of Destruction Card] promotion <with [Beauty of Destruction Card]>","[+20]% Strength <vs cities> <for [All] units> <with [Beauty of Destruction Card]>"]
+	},
+	{
+		"name": "Drunkenly Whimsical Ibuki Gourd Card",
+		"resourceType": "Luxury",
+		"uniques": ["Not shown on world screen","[-1] Sight <when below [0] Happiness>","[+15]% Strength <while the empire is happy> <for [All] units> <with [Drunkenly Whimsical Ibuki Gourd Card]>"]
+	},
+	{
+		"name": "Smelt's Scales Card",
+		"resourceType": "Luxury",
+		"uniques": ["Not shown on world screen","[All] units gain the [Smelt's Scales Card] promotion <with [Smelt's Scales Card]>"]
+	},
+	{
+		"name": "Pebble Hat Card",
+		"resourceType": "Luxury",
+		"uniques": ["Not shown on world screen","[Scout] units gain the [Pebble Hat Card] promotion <with [Pebble Hat Card]>"],
+	},
 	// Luxury resources
 	{
 		"name": "Furs",
