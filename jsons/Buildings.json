@@ -36,23 +36,6 @@
 	},
 	
 	//Nation Specific Wonders
-	/*
-	{
-		"name": "Card Market",
-		"isNationalWonder": true,
-		"cost": 185,
-		"gold": 4,
-		"faith": 1,
-		"uniqueTo": "",
-		"uniques": ["Special Wonder","Cost increases by [50] per owned city",
-		"Creates a [Trading post] improvement on a specific tile",
-		"Doubles Gold given to enemy if city is captured",
-		"Provides [1] [Blank Card] <with [12]% chance> <during a Golden Age>",
-		"Provides [1] [Blank Card]","Gain [-20]-[-100] [Gold]"]
-		"greatPersonPoints": {"Great Marchant": 1},
-		"quote": "Possession of an object can only be controlled by the god of the markets. As long as they possess something, none can escape from the hands of God! - Chimata Tenkyuu",
-	},
-	*/
 	{
 		"name": "Scarlet Devil Mansion",
 		"uniqueTo": "Fated Land"
@@ -73,7 +56,7 @@
 	},
 	{
 		"name": "Okuu's Nuclear Reactor",
-		"uniqueTo": "Chireiden",
+		"uniqueTo": "Chireiden Sovereignty",
 		"cost": 185,
 		"production": 5,
 		"isNationalWonder": true,
@@ -83,10 +66,10 @@
 	},
 	{
 		"name": "House Of Eternity",
-		"uniqueTo": "Eientei",
+		"uniqueTo": "Eientei Residents",
 		"isNationalWonder": true,
 		"cost": 225,
-		"uniques": ["Special Wonder", "[-100]% maintenance costs <in this city> <during We Love The King Day>"],
+		"uniques": ["Special Wonder", "[-100]% maintenance costs <in this city>"],
 		"quote": "Every month on the night of the full moon, the residents of Eientei hold a Moon Festival (Reigetsusai), offering mochi with medicinal herbs pounded into them."
 	},
 	{
@@ -113,7 +96,7 @@
 		"cost": 225,
 		"isNationalWonder": true,
 		"greatPersonPoints": {"Great Artist": 1},
-        "uniques": ["Special Wonder", "[+60]% Strength <for units without [Anti-Youkai]> <vs [Youkai] units>"]
+        "uniques": ["Special Wonder", "[+60]% Strength <for [Human] units> <for units without [Anti-Youkai]> <vs [Youkai] units>"]
 		"quote": "Reimu Hakurei is the main protagonist of the Touhou Project series along with the deuteragonist, Marisa Kirisame. As the shrine maiden of the Hakurei Shrine, she manages the Hakurei Border of Gensokyo and exterminates troublesome youkai."
 	},
 	{
@@ -132,11 +115,11 @@
 	/*
 	{ // For Rumia
 		"name": "Dark Moon Shrine",
-		"uniqueTo": "Kurai Sekai",
+		"uniqueTo": "Domain Of Darkness",
 		"cost": 75,
 		"isNationalWonder": true,
 		"greatPersonPoints": {"Great Engineer": 1},
-        //"uniques": ["Special Wonder", "Free [Rumia] appears"]
+		//"uniques": ["Special Wonder", "Free [Rumia] appears"]
 		"quote": "She seems like to fly around aimlessly during the day and the night, sometimes bumping into trees since she is less capable of seeing obstacles through her veil of darkness."
 	},
 	*/
@@ -198,7 +181,7 @@
 	},
 	{
 		"name": "Great Mausoleum",
-		"uniqueTo": "Senkai",
+		"uniqueTo": "Senkai Principality",
 		"cost": 185,
 		"faith": 2,
 		"isNationalWonder": true,
@@ -270,7 +253,34 @@
 		"greatPersonPoints": {"Great Engineer": 1},
 		"quote": "Eastern dragons are said to have one reversed scale under their chins that greatly enrages them when it is touched. The Japanese phrase 'to touch someone's reversed scale,' meaning 'to incur the wrath of a superior', is derived from this."
 	},
+	{
+		"name": "Card Market",
+		"uniqueTo": "Rainbow Realm",
+		"isNationalWonder": true,
+		"cost": 185,
+		"gold": 4,
+		"faith": 1,
+		"uniques": ["Special Wonder","Cost increases by [50] per owned city",
+		"Creates a [Trading post] improvement on a specific tile",
+		"Doubles Gold given to enemy if city is captured",
+		"Provides [1] [Blank Card] <with [12]% chance> <during a Golden Age>",
+		"Provides [1] [Blank Card]","Gain [-20]-[-100] [Gold]"]
+		"greatPersonPoints": {"Great Merchant": 1},
+		"quote": "Possession of an object can only be controlled by the god of the markets. As long as they possess something, none can escape from the hands of God! - Chimata Tenkyuu",
+	},
 	
+	/*
+	{
+		"name": "Scarlet Magic Library",
+		"uniqueTo": "Pristine Intellect",
+		"cost": 225,
+		"isNationalWonder": true,
+		"science": 6,
+		"greatPersonPoints": {"Great Scientist": 1},
+		"uniques": ["Special Wonder", "Discover [Research For Magic]", "[+15]% Strength <for [Magician] units>", "[+15]% Strength <for [Dark Magician] units>"],
+		"quote": "'Let's see... How to take out the black thing in front of me without having to do anything...' - Patchouli to Marisa."
+	},
+	*/
 	
 	// Normal Buildings And Wonders
 	
@@ -394,7 +404,7 @@
 		"hurryCostModifier": 25,
 		"uniques": ["Remove extra unhappiness from annexed cities",
 			"Can only be built [in annexed cities]"],
-		"requiredTech": "Diplomacy"
+		"requiredTech": "Negotiations"
 	},
 	{
 		"name": "Shining Needle Sword",
@@ -405,7 +415,7 @@
 		"hurryCostModifier": 25,
 		"uniques": ["Remove extra unhappiness from annexed cities",
 			"Can only be built [in annexed cities]"],
-		"requiredTech": "Diplomacy"
+		"requiredTech": "Negotiations"
 	},
 	{
 		"name": "Water Mill",
@@ -422,7 +432,7 @@
 		"maintenance": 2,
 		"hurryCostModifier": 25,
 		"uniques": ["[+1 Production] from [Water resource] tiles [in this city]",
-			"Connects trade routes over water","Must be next to [Coast]"],
+			"Connects Trade routes over water","Must be next to [Coast]"],
 		"requiredTech": "Compass"
 	},
 	{
@@ -575,7 +585,7 @@
 		"culture": 1,
 		"isWonder": true,
 		"uniques": ["[+25]% [Gold] from Trade Routes"],
-		"requiredTech": "Trade",
+		"requiredTech": "Improved Trade",
 		"quote": "It's also referred to as the Inverted Castle, though it's unknown whether this is a proper name for the castle or just an informal description of it. It is the home of Shinmyoumaru Sukuna."
 	},
 	{
@@ -790,7 +800,7 @@
 		"requiredBuilding": "Harbor",
 		"uniques": ["[+1 Production, +1 Gold] from [Water resource] tiles [in this city]",
 			"Must be next to [Coast]", "[+15]% Production when constructing [Water] units [in this city]"],
-		"requiredTech": "Logistics"
+		"requiredTech": "Military Logistics"
 	},
 	{
 		"name": "Military Academy",
@@ -868,7 +878,7 @@
 		"specialistSlots": {"Artist": 2},
 		"requiredBuilding": "Tea House",
 		"maintenance": 3,
-		"requiredTech": "Historic Preservation",
+		"requiredTech": "History Preservation",
 		"uniques": ["Destroyed when the city is captured"]
 	},
 	{
@@ -912,7 +922,7 @@
 		"cityHealth": 50,
 		"hurryCostModifier": 25,
 		"requiredBuilding": "Arsenal",
-		"requiredTech": "Logistics",
+		"requiredTech": "Military Logistics",
 		"uniques": ["Destroyed when the city is captured"]
 	},
 	{
@@ -1004,7 +1014,7 @@
 		"isWonder": true,
 		"greatPersonPoints": {"Great Artist": 2},
 		"uniques": ["[-20]% Culture cost of adopting new Policies"],
-		"requiredTech": "Historic Preservation",
+		"requiredTech": "History Preservation",
 		"quote": "Mayohiga (Lost House) is a lost village somewhere around the Great Hakurei Barrier. It is abandoned by humans, but is home to many cats that Chen has brought there."
 	},
 	{
@@ -1058,6 +1068,21 @@
 			"[+2 Food] from [Wheat] tiles [in this city]"],
 		"requiredTech": "Civil Service"
 		"requiredNearbyImprovedResources": ["Wheat"]
+	},
+	{
+		"name": "Card Market",
+		"uniqueTo": "Rainbow Realm",
+		"isNationalWonder": true,
+		"cost": 185,
+		"gold": 4,
+		"faith": 1,
+		"uniques": ["Special Wonder","Cost increases by [50] per owned city",
+		"Creates a [Trading post] improvement on a specific tile",
+		"Doubles Gold given to enemy if city is captured",
+		"Provides [1] [Blank Card] <with [12]% chance> <during a Golden Age>",
+		"Provides [1] [Blank Card]","Gain [-20]-[-100] [Gold]"]
+		"greatPersonPoints": {"Great Marchant": 1},
+		"quote": "Possession of an object can only be controlled by the god of the markets. As long as they possess something, none can escape from the hands of God! - Chimata Tenkyuu",
 	},
 	/*
 	{
@@ -1138,7 +1163,7 @@
 	{
 		"name": "Taoist Temple",
 		"replaces": "Major Religions In Gensokyo",
-		"uniqueTo": "Senkai",
+		"uniqueTo": "Senkai Principality",
 		"faith": 1,
 		"cost": 1,
 		"uniques": ["Automatically built in all cities where it is buildable", 
@@ -1171,7 +1196,7 @@
 		"hurryCostModifier": 12,
 		"faith": 1,
 		"maintenance": 1,
-		"uniques": ["Can only be built [in all cities in which the majority religion is a major religion]", "Gain enough Faith for a Pantheon <once> <if [Major Religions In Gensokyo] is constructed>", "Hidden when religion is disabled"]
+		"uniques": ["Gain enough Faith for a Pantheon <once> <if [Major Religions In Gensokyo] is constructed>", "Hidden when religion is disabled"]
 	},
 	{
 		"name": "Temple",
@@ -1179,21 +1204,21 @@
 		"cost": 100,
 		"maintenance": 2,
 		"requiredBuilding": "Shrine",
-		"uniques": ["Destroyed when the city is captured"]
+		"uniques": ["Destroyed when the city is captured"],
+		"requiredTech": "Calendar"
 	},
 	{
 		"name": "Buddhist Monastery",
-		"uniqueTo": "Myouren Temple",
+		"uniqueTo": "Myouren Faction",
 		"replaces": "Temple",
 		"faith": 5,
 		"cost": 150,
 		"maintenance": 2,
-		"requiredTech": "Religion",
 		"requiredBuilding": "Shrine",
 		"uniques": ["Destroyed when the city is captured", "[+15]% Strength <for [Monk] units>"]
 	},
 	{
-		"name": "Omaikane's Device",
+		"name": "Omoikane's Device",
 		"culture": 1,
 		"isWonder": true,
 		"greatPersonPoints": {"Great Scientist": 1},
@@ -1209,6 +1234,15 @@
 		"uniques": ["Only available <if [Major Religions In Gensokyo] is constructed>", "Requires a [Temple] in all cities", "Cost increases by [30] per owned city",
 			"[+100]% Natural religion spread [in this city]", "Hidden when religion is disabled", "Can only be built [in holy cities]"],
 		"requiredTech": "National Faith",
+		"isNationalWonder": true
+	},
+	{
+		"name": "Grand Shrine",
+		"cost": 125,
+		"culture": 3,
+		"uniques": ["Only available <if [Major Religions In Gensokyo] is constructed>", "Requires a [Shrine] in all cities", "Cost increases by [30] per owned city",
+			"[+30]% [Faith] [in all cities] <while the empire is happy>", "Hidden when religion is disabled", "Can only be built [in holy cities]"],
+		"requiredTech": "Philosophy",
 		"isNationalWonder": true
 	},
 	{
@@ -1241,7 +1275,7 @@
 		"faith": 4,
 		"happiness": 5,
 		"quotes": "The Sutra famously states, 'Form is emptiness (śūnyatā), emptiness is form.' It is a condensed exposé on the Buddhist Mahayana teaching of the Two Truths doctrine, which says that ultimately all phenomena are Śūnyatā (emptiness).",
-		"requiredTech": "Cultural Preservation"
+		"requiredTech": "Culture Preservation"
 	},
 	{
 		"name": "Secret Hermit World",
@@ -1249,7 +1283,7 @@
 		"culture": 3,
 		"uniques": ["[5] free [Mountain Hermit] units appear"]
 		"quotes": "Senkai (hermit world) is a sealed secret world suited for hermits, which even Gensokyo did not know of before the events of Ten Desires.",
-		"requiredTech": "Cultural Preservation"
+		"requiredTech": "Culture Preservation"
 	},
 	{
 		"name": "Spiritual Home",
@@ -1260,15 +1294,14 @@
 		"uniques": ["Hidden when religion is disabled", "Destroyed when the city is captured"]
 	},
 	{
-		"name": "Grand Shrine",
-		"cost": 125,
+		"name": "Hall Of Idols",
 		"culture": 1,
 		"faith": 3,
 		"uniques": ["Only available <if [Major Religions In Gensokyo] is constructed>", "Requires a [Shrine] in all cities", "Cost increases by [30] per owned city", "Hidden when religion is disabled",
-		"Gain a free [Torii Gate] [in this city]",
-			"[Missionary] units built [in this city] can [Spread Religion] [1] extra times", "[Great Prophet] units built [in this city] can [Spread Religion] [1] extra times", "Can only be built [in holy cities]"],
-		"requiredTech": "Philosophy",
-		"isNationalWonder": true
+			"Gain a free [Torii Gate] [in this city]",
+			"All newly-trained [Missionary] units [in this city] receive the [Devout] promotion", "All newly-trained [Great Prophet] units [in this city] receive the [Devout] promotion", "Can only be built [in holy cities]"],
+		"requiredTech": "Full Conversion",
+		"isWonder": true
 	},
 	
 	/*{ EXPERIMENTAL
@@ -1278,7 +1311,7 @@
 		"culture": 3,
 		"uniques": ["Must be next to [Mountain]", "[5] free [Mountain Hermit] units appear"]
 		"quotes": "Senkai (hermit world) is a sealed secret world suited for hermits, which even Gensokyo did not know of before the events of Ten Desires."
-		"requiredTech": "Cultural Preservation"
+		"requiredTech": "Culture Preservation"
 	},*/
 	
 	
