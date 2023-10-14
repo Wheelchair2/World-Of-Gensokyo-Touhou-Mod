@@ -30,7 +30,7 @@
 		"cities": ["Tenkai City", "Shinden-Cho", "Kamiyama", "Hoshizora", "Yukikami", "Amaterasu", "Kaguya-Shima", "Soraoka", "Mizuhan", "Tengoku no Machi"]
 	},
 	{
-		"name": "Chireiden",
+		"name": "Chireiden Sovereignty",
 		"leaderName": "Satori Komeiji",
 		"adjective": ["Satori"],
 		"preferredVictoryType": "Scientific",
@@ -50,8 +50,30 @@
 		"uniques": ["[Land] units gain the [Satori Race] promotion", "[All] units gain the [Youkai] promotion","Provides [1] [Pebble Hat Card]"],
 		"cities": ["Palace Of The Earth Spirits","Stabiae","Chanchan","Bannack","Consonno","Florida Lost City","Kolmanskop","Trellech","Humberstone","Akrotiri","Taxila","Pyramiden","Merv","Cahokia,","Mologa","Neversink","Hallsands","Lukangol"]
 	},
+	/*
 	{
-		"name": "Eientei",
+		"name": "Domain Of Darkness",
+		"leaderName": "Rumia",
+		"adjective": ["Dark Youkai"],
+		"preferredVictoryType": "Cultural",
+		"startIntroPart1": "Let me introduce you to a land full of darkness and monsters!",
+		"startIntroPart2": "Hold my hand and let's explore this amazing realm together!",
+		"declaringWar": "So-na-no-ka, ne?",
+		"attacked": "Sonanoka.",
+		"defeated": "Sonanoka...",
+		"introduction": "Sonanoka!",
+		"neutralHello": "Sonanoka~",
+		"hateHello": "Sonanoka.",
+		"tradeRequest": "Sonanoka?",
+		"outerColor": [0,0,0],
+		"innerColor": [255,144,164],
+		"uniqueName": "Manipulation Of Darkness",
+		"uniques": ["[All] units gain the [Youkai] promotion", "[All] units gain the [Dark Youkai] promotion", "Gain access to Rumia as a unit!"],
+		"cities": ["Hōreisou", "Yami no Machi", "Kurayami City", "Kagegakure", "Ayakashi Town", "Ankokuji", "Yūrei District", "Yabai Yokochō", "Shin'en no Toshi", "Kakuranochō"]
+	},
+	*/
+	{
+		"name": "Eientei Residents",
 		"leaderName": "Kaguya Houraisan",
 		"startBias": ["Bamboo Forest"]
 		"adjective": ["Lunarian"],
@@ -171,28 +193,6 @@
 		"uniques": ["Starts with [Agriculture]", "Starts with [Scientific Knowledge]", "[All] units gain the [Human Race] promotion"],
 		"cities": ["Kyoto", "Osaka", "Sapporo", "Yokohama", "Hiroshima", "Kobe", "Nagoya", "Fukuoka", "Sendai", "Nagasaki"]
 	},
-	/*
-	{
-		"name": "Kurai Sekai",
-		"leaderName": "Rumia",
-		"adjective": ["Dark Youkai"],
-		"preferredVictoryType": "Cultural",
-		"startIntroPart1": "Let me introduce you to a land full of darkness and monsters!",
-		"startIntroPart2": "Hold my hand and let's explore this amazing realm together!",
-		"declaringWar": "So-na-no-ka, ne?",
-		"attacked": "Sonanoka.",
-		"defeated": "Sonanoka...",
-		"introduction": "Sonanoka!",
-		"neutralHello": "Sonanoka~",
-		"hateHello": "Sonanoka.",
-		"tradeRequest": "Sonanoka?",
-		"outerColor": [0,0,0],
-		"innerColor": [255,144,164],
-		"uniqueName": "Manipulation Of Darkness",
-		"uniques": ["[All] units gain the [Youkai] promotion", "[All] units gain the [Dark Youkai] promotion", "Gain access to Rumia as a unit!"],
-		"cities": ["Hōreisou", "Yami no Machi", "Kurayami City", "Kagegakure", "Ayakashi Town", "Ankokuji", "Yūrei District", "Yabai Yokochō", "Shin'en no Toshi", "Kakuranochō"]
-	},
-	*/
 	{
 		"name": "Land Of The Back Doors",
 		"leaderName": "Okina Matara",
@@ -228,7 +228,7 @@
 		"outerColor": [23,0,55],
 		"innerColor": [226,206,205],
 		"uniqueName": "Romantic Death",
-		"uniques": ["Corpse units may capture killed Land units; have a bonus of +25% Strength when fighting against Human enemies; but can only heal by pillaging", "Starts with [Research For Magic]", "Starts with [Religion]", "[All] units gain the [Youkai] promotion", "[Land] units gain the [Corpse] promotion"],
+		"uniques": ["Corpse units may capture killed Human units; have a bonus of +25% Strength when fighting against Human enemies; but can only heal by pillaging", "Starts with [Research For Magic]", "Starts with [Religion]", "[All] units gain the [Youkai] promotion", "[Land] units gain the [Corpse] promotion"],
 		"favoredReligion": "Ancient Taoism",
 		"cities": ["Shiryokuni", "Yomigaeru no Kuni", "Kakuriyō", "Anamaryū", "Okurimono", "Kagegoku", "Reikoku no Kuni", "Gekkōsha", "Yūkaijin", "Shiryouzan"]
 	},
@@ -355,7 +355,28 @@
 		"cities": ["Arcanopolis", "Mystoria", "Sorceron", "Enchantia", "Maginium", "Spellhaven", "Wizard's Reach", "Enigmaire", "Conjuria", "Manaheim"]
 	},
 	{
-		"name": "Senkai",
+		"name": "Rainbow Realm",
+		"leaderName": "Chimata Tenkyuu",
+		"adjective": ["Marketeers"],
+		"preferredVictoryType": "Cultural",
+		"startIntroPart1": "."
+		"startIntroPart2": ".",
+		"attacked": ".",
+		"defeated": ".",
+		"introduction": ".",
+		"neutralHello": "?",
+		"hateHello": "."
+		"tradeRequest": ".",
+		"outerColor": [38,37,103],
+		"innerColor": [129,201,230],
+		"uniqueName": "God Of Special Events",
+		"uniques": ["Starts with [Festivals]", "[All] units gain the [Divine Blessing] promotion", "[+10]% Strength <for units with [Divine Blessing]> <when fighting in [Friendly Land] tiles", "[+1 Gold] per [2] population [in all cities]", "Free [Relinquisher Of Land] appears <upon declaring friendship>", "Provides [2] [Blank Card]"],
+		"cities": [
+		"Kinshicho", "Fuyukoku", "Yuumeizan", "Shokaishi", "Keizaihama", "Kouritsucho", "Zenzenji", "Rinenmura", "Zaiseicho", "Kakushinku"
+		]
+	},
+	{
+		"name": "Senkai Principality",
 		"leaderName": "Toyosatomimi no Miko",
 		"adjective": ["Hermit"],
 		"preferredVictoryType": "Cultural",
