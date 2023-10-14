@@ -1077,6 +1077,17 @@
 		],
 		"movement": 3
 	},
+// Special Nation Unique Units
+	
+	{
+		"name": "Relinquisher Of Land",
+		"uniqueTo": "Rainbow Realm",
+		"unitType": "Civilian",
+		"uniques": [
+            "Can instantly construct a [Relinquished Land Ownership] improvement <by consuming this unit>",
+            "Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
 	
 	//Barbarian units
 	{
