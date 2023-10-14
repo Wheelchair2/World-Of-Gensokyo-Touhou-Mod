@@ -1,7 +1,31 @@
 [
-    "Shrine Shinto",
-    "Sect Shinto",
-    "Taoism",
-    "Ancient Taoism",
-    "Buddhism",
+		//Major religions in Gensokyo
+		"Shrine Shinto",
+		"Sect Shinto",
+		"Taoism",
+		"Ancient Taoism",
+		"Buddhism",
+
+		//Extra religions
+		/* these are all based on Japanese mythology, and there are 20 of them */
+		"Amaterasuism",
+		"Amanohara",
+		"Bosatsugawa",
+		"Dragonzen",
+		"Fujinno",
+		"Hanyo-kyo",
+		"Kaminarudo",
+		"Kasumigami",
+		"Kaze no Michi",
+		"Kitsunne-kai",
+		"Minamo no Seishin",
+		"Mizuhana",
+		"Raijinryu",
+		"Takaragawa",
+		"Tengu-taiken",
+		"Tsukuyomitsu",
+		"Yamainu-teki",
+		"Yokaimon",
+		"Yukionna-kai",
+		"Yureishin",
 ]
