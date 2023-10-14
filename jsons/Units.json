@@ -91,7 +91,7 @@
 		"upgradesTo": "Recruit",
 		"attackSound": "nonmetalhit",
 	},
-	
+	/*
 	//Hourai Immortals
 	{
 		"name": "Resurrected Fallen",
@@ -104,7 +104,7 @@
 		"promotions": ["Second Life"],
 		"uniques": ["Won't be resurrected again", "Cannot be purchased", "Unbuildable", "Never appears as a Barbarian unit"]
 	},
-	
+	*/
 	//First Part
 	{
 		"name": "Physician",
