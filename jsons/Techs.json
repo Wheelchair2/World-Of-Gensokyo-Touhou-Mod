@@ -376,7 +376,7 @@
 				"quote": "The actual name of Renko and Merry's club is 'The Hifuu Club', not 'Ghostly Field Club'"
 			},
 			{
-				"name": "Access To Dark Magic",
+				"name": "Dark Magic",
 				"row": 3,
 				"prerequisites": ["Advanced Magic"],
 				"quote": "'Sonanoka?' - Rumia.",
@@ -436,13 +436,13 @@
 			{
 				"name": "Field Of Summoning",
 				"row": 3,
-				"prerequisites": ["Access To Dark Magic"],
+				"prerequisites": ["Dark Magic"],
 				"quote": "Yoshika Miyako once said, 'Gyaa waarr hauur zoaahhh."
 			},
 			{
 				"name": "Psychological Warfare",
 				"row": 2,
-				"prerequisites": ["Access To Dark Magic"],
+				"prerequisites": ["Dark Magic"],
 				"quote": "I was about to put Satori's quote here, but then I realised that there is a more valuable information for you to hear: Satori is cute.",
 				"uniques": ["Great General provides double combat bonus <during a Golden Age>", "[-40]% Golden Age length"]
 			},
@@ -510,7 +510,7 @@
 			},
 			*/
 			{
-				"name": "Logistics",
+				"name": "Military Logistics",
 				"row": 7,
 				"prerequisites": ["Technology Limit"],
 				"quote": "Yukari probably kept humans from technologically advancing in Gensokyo."
@@ -553,14 +553,14 @@
 			{
 				"name": "Military Predominance",
 				"row": 7,
-				"prerequisites": ["Logistics"],
+				"prerequisites": ["Military Logistics"],
 				"quote": "Religion plays a major role in Gensokyo, as Gods literally exist in the Touhou series.",
 				"uniques": ["[+1] Movement <for [Mounted] units>"]
 			},
 			{
 				"name": "Naval Warfare",
 				"row": 5,
-				"prerequisites": ["Logistics"],
+				"prerequisites": ["Military Logistics"],
 				"quote": "Religion plays a major role in Gensokyo, as Gods literally exist in the Touhou series.",
 				"uniques": ["[+1] Movement <for [{Military} {Water}] units>", "[+1] Movement <for [Embarked] units>"]
 			}
