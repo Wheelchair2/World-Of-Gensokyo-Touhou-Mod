@@ -1,139 +1,290 @@
 [
+
 	{
 		"name": "Heal Instantly",
 		"uniques": ["Heal this unit by [50] HP", "Doing so will consume this opportunity to choose a Promotion"],
 		"unitTypes": ["Sword","Gunpowder","Mounted","Scout","Siege","Archery","Ranged Gunpowder","Armored","Melee Water","Ranged Water","Submarine"],
         "row": 0,
         "column": 0
-    },
-    {
+	},
+    
+    // Unorganized Unique Promotions
+	
+	/*
+	// New Promotions
+	{
+		"name": "Bridge Guard",
+		"uniques": ["This unit loses half of its HP whenever it leaves the bridge", "Heal this unit by [-50] HP <upon ending a turn in a [Foreign Land] tile>", "[+15]% Strength <when fighting in [Friendly Land] tiles>"]
+	},
+	{
+		"name": "Copying Other's Abilities",
+		"uniques": [
+			"Basically copies Special Abilities and all respective promotions for whether this unit is Land or Water, and Ranged or Melee",
+			"This Unit gains the [Fire Arts] promotion <upon defeating a [Fire Arts] unit>",
+			"This Unit gains the [Unidentifiable] promotion <upon defeating a [Unidentifiable] unit>",
+			"This Unit gains the [Devouring Anything] promotion <upon defeating a [Devouring Anything] unit>",
+			"This Unit gains the [Martial Arts] promotion <upon defeating a [Martial Arts] unit>",
+			"This Unit gains the [Absorbing Misfortune] promotion <upon defeating a [Absorbing Misfortune] unit>",
+			"This Unit gains the [Wise Hermit] promotion <upon defeating a [Wise Hermit] unit>",
+			"------------------",
+			"This Unit gains the [Accuracy I] promotion <upon defeating a [Accuracy I] unit> <for [{Land} {Ranged}] units>",
+			"This Unit gains the [Accuracy II] promotion <upon defeating a [Accuracy II] unit> <for [{Land} {Ranged}] units>",
+			"This Unit gains the [Accuracy III] promotion <upon defeating a [Accuracy III] unit> <for [{Land} {Ranged}] units>",
+			"This Unit gains the [Barrage I] promotion <upon defeating a [Barrage I] unit> <for [{Land} {Ranged}] units>",
+			"This Unit gains the [Barrage II] promotion <upon defeating a [Barrage II] unit> <for [{Land} {Ranged}] units>",
+			"This Unit gains the [Barrage III] promotion <upon defeating a [Barrage III] unit> <for [{Land} {Ranged}] units>",
+			"This Unit gains the [Shock I] promotion <upon defeating a [Shock I] unit> <for [{Land} {Melee}] units>",
+			"This Unit gains the [Shock II] promotion <upon defeating a [Shock II] unit> <for [{Land} {Melee}] units>",
+			"This Unit gains the [Shock III] promotion <upon defeating a [Shock III] unit> <for [{Land} {Melee}] units>",
+			"This Unit gains the [Drill I] promotion <upon defeating a [Drill I] unit> <for [{Land} {Melee}] units>",
+			"This Unit gains the [Drill II] promotion <upon defeating a [Drill II] unit> <for [{Land} {Melee}] units>",
+			"This Unit gains the [Drill III] promotion <upon defeating a [Drill III] unit> <for [{Land} {Melee}] units>",
+			"This Unit gains the [Scouting I] promotion <upon defeating a [Scouting I] unit> <for [Scout] units>",
+			"This Unit gains the [Scouting II] promotion <upon defeating a [Scouting II] unit> <for [Scout] units>",
+			"This Unit gains the [Scouting III] promotion <upon defeating a [Scouting III] unit> <for [Scout] units>",
+			"This Unit gains the [Survivalism I] promotion <upon defeating a [Survivalism I] unit> <for [Scout] units>",
+			"This Unit gains the [Survivalism II] promotion <upon defeating a [Survivalism II] unit> <for [Scout] units>",
+			"This Unit gains the [Survivalism III] promotion <upon defeating a [Survivalism III] unit> <for [Scout] units>",
+			"This Unit gains the [Boarding Party I] promotion <upon defeating a [Boarding Party I] unit> <for [{Melee} {Water}] units>",
+			"This Unit gains the [Boarding Party II] promotion <upon defeating a [Boarding Party II] unit> <for [{Melee} {Water}] units>",
+			"This Unit gains the [Boarding Party III] promotion <upon defeating a [Boarding Party III] unit> <for [{Melee} {Water}] units>",
+			"This Unit gains the [Coastal Raider I] promotion <upon defeating a [Coastal Raider I] unit> <for [{Melee} {Water}] units>",
+			"This Unit gains the [Coastal Raider II] promotion <upon defeating a [Coastal Raider II] unit> <for [{Melee} {Water}] units>",
+			"This Unit gains the [Coastal Raider III] promotion <upon defeating a [Coastal Raider III] unit> <for [{Melee} {Water}] units>",
+			"This Unit gains the [Targeting I] promotion <upon defeating a [Targeting I] unit> <for [{Ranged} {Water}] units>",
+			"This Unit gains the [Targeting II] promotion <upon defeating a [Targeting II] unit> <for [{Ranged} {Water}] units>",
+			"This Unit gains the [Targeting III] promotion <upon defeating a [Targeting III] unit> <for [{Ranged} {Water}] units>",
+			"This Unit gains the [Bombardment I] promotion <upon defeating a [Bombardment I] unit> <for [{Ranged} {Water}] units>",
+			"This Unit gains the [Bombardment II] promotion <upon defeating a [Bombardment II] unit> <for [{Ranged} {Water}] units>",
+			"This Unit gains the [Bombardment III] promotion <upon defeating a [Bombardment III] unit> <for [{Ranged} {Water}] units>",
+			"This Unit gains the [Cover I] promotion <upon defeating a [Cover I] unit> <for [Land] units>",
+			"This Unit gains the [Cover II] promotion <upon defeating a [Cover II] unit> <for [Land] units>",
+			"This Unit gains the [Formation I] promotion <upon defeating a [Formation I] unit> <for [{Land} {Melee}] units>",
+			"This Unit gains the [Formation II] promotion <upon defeating a [Formation II] unit> <for [{Land} {Melee}] units>",
+			"This Unit gains the [Medic] promotion <upon defeating a [Medic] unit> <for [{Land} {Melee}] units>",
+			"This Unit gains the [Medic II] promotion <upon defeating a [Medic II] unit> <for [{Land} {Melee}] units>",
+			"This Unit gains the [Anti-Armor I] promotion <upon defeating a [Anti-Armor I] unit> <for [{Land} {Ranged}] units>",
+			"This Unit gains the [Anti-Armor II] promotion <upon defeating a [Anti-Armor II] unit> <for [{Land} {Ranged}] units>",
+			"This Unit gains the [Armor Plating I] promotion <upon defeating a [Armor Plating I] unit> <for [{Land} {Melee}] units>",
+			"This Unit gains the [Armor Plating II] promotion <upon defeating a [Armor Plating II] unit> <for [{Land} {Melee}] units>",
+			"This Unit gains the [Armor Plating III] promotion <upon defeating a [Armor Plating III] unit> <for [{Land} {Melee}] units>",
+			"This Unit gains the [Ambush I] promotion <upon defeating a [Ambush I] unit> <for [{Land} {Melee}] units>",
+			"This Unit gains the [Ambush II] promotion <upon defeating a [Ambush II] unit> <for [{Land} {Melee}] units>",
+			"------------------",
+			"This Unit gains the [Volley] promotion <upon defeating a [Volley] unit> <for [{Land} {Ranged}] units>",
+			"This Unit gains the [Extended Range] promotion <upon defeating a [Extended Range] unit> <for [{Land} {Ranged}] units>",
+			"This Unit gains the [Indirect Fire] promotion <upon defeating a [Indirect Fire] unit> <for [{Land} {Ranged}] units>",
+			"This Unit gains the [Charge] promotion <upon defeating a [Charge] unit> <for [{Land} {Melee}] units>",
+			"This Unit gains the [Besiege] promotion <upon defeating a [Besiege] unit> <for [{Land} {Melee}] units>",
+			"This Unit gains the [Blitz] promotion <upon defeating a [Blitz] unit> <for [{Land} {Melee}] units>",
+			"This Unit gains the [Woodsman] promotion <upon defeating a [Woodsman] unit> <for [{Land} {Melee}] units>",
+			"This Unit gains the [Amphibious] promotion <upon defeating a [Amphibious] unit> <for [{Land} {Melee}] units>",
+			"This Unit gains the [Landing Party] promotion <upon defeating a [Landing Party] unit> <for [{Melee} {Water}] units>",
+			"This Unit gains the [Supply] promotion <upon defeating a [Supply] unit> <for [{Melee} {Water}] units>",
+			"This Unit gains the [March] promotion <upon defeating a [March] unit> <for [{Land} {Melee}] units>",
+			"This Unit gains the [Sentry] promotion <upon defeating a [Sentry] unit> <for [{Land} {Melee}] units>",
+			"This Unit gains the [Logistics] promotion <upon defeating a [Logistics] unit> <for [{Land} {Ranged}] units>",
+			"------------------",
+			"This Unit gains the [[Royal Ashigaru] ability] promotion <upon defeating a [[Royal Ashigaru] ability] unit> <for [{Land} {Melee}] units>",
+			"This Unit gains the [[Royal Samurai] ability] promotion <upon defeating a [[Royal Samurai] ability] unit> <for [{Land} {Melee}] units>",
+			"This Unit gains the [[Royal Cavalry] ability] promotion <upon defeating a [[Royal Cavalry] ability] unit> <for [{Land} {Melee}] units>"
+			]
+			
+	},
+	{ 
+		"name": "Hourai Immortal",
+		"uniques": ["Free [Resurrected Fallen] appears <upon being defeated>"]
+	},
+	{
+		"name": "Second Life",
+	"uniques": ["[-15]% Strength"]
+	},
+	{
+		"name": "Poltergeist",
+		"uniques": ["Ignores terrain cost", "Can pass through impassable tiles", "Ignores Zone of Control", "[-50]% Strength <when attacking>"]
+	},
+	{
+		"name": "Backdoor Of Life",
+		"uniques": ["Can see invisible [All] units", "[+5]% Strength <when adjacent to a [Youkai] unit>", "[+5]% Strength <when adjacent to a [Kappa] unit>", "[+5]% Strength <when adjacent to a [Fairy] unit>", "[+5]% Strength <when adjacent to a [Spirit] unit>", "[+5]% Strength <when adjacent to a [Human] unit>"]
+	},
+	{
+		"name": "Pure Hatred",
+		"uniques": ["[+50]% Strength <vs [Lunarian] units>"]
+	},
+	{
+		"name": "Impure",
+		"uniques": ["[-30]% Strength for enemy [Lunarian] units in adjacent [All] tiles"]
+	},
+	{
+		"name": "Wise Hermit",
+		"uniques": ["May capture killed [Beast] units"]
+	},
+	{
+		"name": "Fire Arts",
+		"uniques": ["[-15]% Strength for enemy [Military] units in adjacent [All] tiles", "Destroys tile improvements when attacking <with [25]% chance>"]
+	},
+	/*
+	{
+		"name": "Wu Xing Elements",
+		"uniques": ["
+		
+	},
+	*/
+	{
+		"name": "Devouring Anything",
+		"uniques": ["Heals this unit by [30] HP <upon defeating a [Military] unit>"]
+	},
+	{
+		"name": "Absorbing Misfortune",
+		"uniques": ["[-50]% Strength", "[-25]% Strength for enemy [Military] units in adjacent [All] tiles"]
+	},
+	{
+		"name": "Idol Creature",
+		"uniques": ["Heal this unit by [15] HP <upon ending a turn in a [Friendly Land] tile>"]
+	},
+	{
+		"name": "Unidentifiable",
+		"uniques": ["Invisible to non-adjacent enemy units"]
+	},
+	*/
+	
+	{
 		"name": "Fairy",
 		"uniques": ["Fairy", "Unit will heal every turn, even if it performs an action", "[-1] Sight"]
 	},
-    {
+	{
 		"name": "Winged",
 		"uniques": ["Winged", "Can move after attacking", "Can pass through impassable tiles", "[-50]% Strength <when defending>"]
 	},
-    {
+	{
 		"name": "Corpse",
-		"uniques": ["May capture killed [Land] units", "Can only heal by pillaging", "[+25]% Strength <vs [Human] units>"]
+		"uniques": ["May capture killed [Human] units", "Can only heal by pillaging", "[+25]% Strength <vs [Human] units>"]
 	},
-    {
+	{
 		"name": "Vampire",
 		"uniques": ["Heals [15] damage if it kills a unit"]
 	},
-    {
+	{
 		"name": "Satori Race",
-		"uniques": ["Access to special promotions"]
-	},
-    {
-		"name": "Divine Blessing",
-        "uniques": ["Divine Blessing"]
-	},
-    {
-		"name": "Spirit",
-        "uniques": ["Ignores terrain cost", "Can pass through impassable tiles", "Ignores Zone of Control", "[-33]% Strength <when attacking>"]
-	},
-    {
-		"name": "Beast",
-        "uniques": ["Beast", "[+5] HP when healing"]
-	},
-    {
-		"name": "Doll Construct",
-        "uniques": ["Doll construct", "[-50]% Strength <when defending> <before discovering [Self-Discovery]>", "[+2] HP when healing <after discovering [Self-Discovery]>"]
-	},
-    {
-		"name": "Lunarian",
-        "uniques": ["Lunarian"]
-	},
-    {
-		"name": "Celestial",
-        "uniques": ["Celestial"]
-	},
-    {
-		"name": "Dark Youkai",
-        "uniques": ["Invisible to non-adjacent units"]
-	},
-    {
-		"name": "Bird Net",
-        "uniques": ["Slows down adjacent Winged units (-2 Movement)"]
-	},
-    {
-		"name": "Mermaid Net",
-        "uniques": ["Slows down adjacent Mermaid units (-2 Movement)"]
-	},
-    {
-		"name": "Willpower",
-        "uniques": ["Willpower"]
-	},
-    {
-		"name": "Human Race",
-        "uniques": ["Human", "[-50]% Strength", "[-15]% Strength <when adjacent to a [Oni] unit>"]
-	},
-    {
-		"name": "Youkai",
-        "uniques": ["Youkai"]
-	},
-    {
-		"name": "Oni",
-        "uniques": ["Oni", "[+20]% Strength"]
+		"uniques": ["[-15]% Strength for enemy [Military] units in adjacent [All] tiles"],
+        "column": 27,
+        "row": 4
 	},
 	{
 		"name": "Stab Third Eye",
 		"prerequisites": ["Satori Race"],
-		"uniques": ["Invisible to non-adjacent units", "[-2] Range <for [Ranged] units>", "[-50]% Strength <when defending>", "[+55]% to Flank Attack bonuses", "[+55]% Strength <vs [Wounded] units>"],
-        "unitTypes": ["Sword", "Ranged", "Archery", "Gunpowder", "Mounted", "Armored", "Siege","Archery","Ranged Gunpowder","Scout"]
+		"uniques": ["Only available <for units with [Satori Race]>", "Invisible to non-adjacent units", "[-2] Range <for [Ranged] units>", "[-50]% Strength <when defending>", "[+55]% to Flank Attack bonuses", "[+55]% Strength <vs [Wounded] units>"],
+		"unitTypes": ["Sword", "Ranged", "Archery", "Gunpowder", "Mounted", "Armored", "Siege","Archery","Ranged Gunpowder","Scout"],
+		"column": 28,
+		"row": 4
+	},
+	{
+		"name": "Divine Blessing",
+ 		"uniques": ["Divine Blessing"]
+	},
+	{
+		"name": "Spirit",
+ 		"uniques": ["Ignores terrain cost", "Can pass through impassable tiles", "Ignores Zone of Control", "[-33]% Strength <when attacking>"]
+	},
+	{
+		"name": "Animal Spirit",
+ 		"uniques": ["Spirit", "Ignores Zone of Control"]
+	},
+	{
+		"name": "Beast",
+ 		"uniques": ["Beast", "[+5] HP when healing"]
+	},
+	{
+		"name": "Doll Construct",
+ 		"uniques": ["Doll construct", "[-50]% Strength <when defending> <before discovering [Self-Discovery]>", "[+2] HP when healing <after discovering [Self-Discovery]>"]
+	},
+	{
+		"name": "Lunarian",
+ 		"uniques": ["Lunarian"]
+	},
+	{
+		"name": "Celestial",
+ 		"uniques": ["Celestial"]
+	},
+	{
+		"name": "Dark Youkai",
+ 		"uniques": ["Invisible to non-adjacent units"]
+	},
+	{
+		"name": "Bird Net",
+ 		"uniques": ["Slows down adjacent Winged units (-2 Movement)"]
+	},
+	{
+		"name": "Mermaid Net",
+ 		"uniques": ["Slows down adjacent Mermaid units (-2 Movement)"]
+	},
+	{
+		"name": "Willpower",
+ 		"uniques": ["Willpower"]
+	},
+	{
+		"name": "Human Race",
+ 		"uniques": ["Human", "[-50]% Strength", "[-15]% Strength <when adjacent to a [Oni] unit>"]
+	},
+	{
+		"name": "Youkai",
+ 		"uniques": ["Youkai"]
+	},
+	{
+		"name": "Oni",
+ 		"uniques": ["Oni", "[+20]% Strength"]
 	},
 	{
 		"name": "Phantasm"
-		"uniques": ["May Paradrop up to [4] tiles from inside friendly territory <if it hasn't used other actions yet> <for units without [Screen Border Card]>"]
+		"uniques": ["May Paradrop up to [4] tiles from inside friendly territory <if it hasn't used other actions yet>"],
+        "prerequisites": ["Stab Third Eye"]
 	},
-    {
+	{
 		"name": "Martial Arts",
-        "uniques": ["[50]% XP gained from combat"]
+ 		"uniques": ["[50]% XP gained from combat"]
 	},
-    {
+	{
 		"name": "Kappa",
-        "uniques": ["Kappa"]
+ 		"uniques": ["Kappa"]
 	},
-    {
+	{
 		"name": "Mermaid",
-        "uniques": ["Mermaid", "[-1] Movement", "[+1] Movement <in [Fresh water] tiles>", "[+1] Movement <within [1] tiles of a [Coast]>", "[+1] Movement <in [Water] tiles>", "Eliminates combat penalty for attacking over a river", "Eliminates combat penalty for attacking across a coast", "May travel on Water tiles without embarking"]
+ 		"uniques": ["Mermaid", "[-1] Movement", "[+1] Movement <in [Fresh water] tiles>", "[+1] Movement <within [1] tiles of a [Coast]>", "[+1] Movement <in [Water] tiles>", "Eliminates combat penalty for attacking over a river", "Eliminates combat penalty for attacking across a coast", "May travel on Water tiles without embarking"]
 	},
-    {
+	{
 		"name": "Kitsune",
-        "uniques": ["Ignores terrain cost", "[+1] Movement"]
+ 		"uniques": ["Ignores terrain cost", "[+1] Movement"]
 	},
     
     
     //Counter Promotions
-    {
+	{
 		"name": "Anti-Youkai",
-        "uniques": ["[+15]% Strength <vs [Youkai] units>", "[+50]% Strength <vs [Youkai] units> <for units with [Human Race]>", "Can only attack [Youkai] units"]
+ 		"uniques": ["[+15]% Strength <vs [Youkai] units>", "[+50]% Strength <vs [Youkai] units> <for units with [Human Race]>", "Can only attack [Youkai] units"]
 	},
-    {
+	{
 		"name": "Anti-Human",
-        "uniques": ["[+15]% Strength <vs [Human Race] units>", "Can only attack [Human] units", "Heals [12] damage if it kills a unit"]
+ 		"uniques": ["[+15]% Strength <vs [Human Race] units>", "Can only attack [Human] units", "Heals [12] damage if it kills a unit"]
 	},
-    {
+	{
 		"name": "Anti-Vampire",
-        "uniques": ["[+10]% Strength <vs [Vampire] units>", "[+20]% Strength <vs [Vampire] units> <with [Silver]>"]
+ 		"uniques": ["[+10]% Strength <vs [Vampire] units>", "[+20]% Strength <vs [Vampire] units> <with [Silver]>"]
 	},
-    {
+	{
 		"name": "Anti-Oni",
-        "uniques": ["[+20]% Strength <vs [Oni] units>"]
+ 		"uniques": ["[+20]% Strength <vs [Oni] units>"]
 	},
-    {
+	{
 		"name": "Anti-Mermaid",
-        "uniques": ["[+20]% Strength <vs [Mermaid] units>"]
+ 		"uniques": ["[+20]% Strength <vs [Mermaid] units>"]
 	},
-    {
+	{
 		"name": "Hunter",
-        "uniques": ["[+20]% Strength <vs [Beast] units>"]
+ 		"uniques": ["[+20]% Strength <vs [Beast] units>"]
 	},
-    {
+	{
 		"name": "Sniper",
-        "uniques": ["[+20]% Strength <vs [Winged] units> <when attacking>"]
+ 		"uniques": ["[+20]% Strength <vs [Winged] units> <when attacking>"]
 	},
     
 
@@ -144,7 +295,7 @@
 		"unitTypes": ["Siege","Archery","Ranged Gunpowder", "Ranged Sorcery"],
         "column": 1,
         "row": 1
-    },
+	},
 	{
 		"name": "Accuracy II",
 		"prerequisites": ["Accuracy I"],
@@ -152,7 +303,7 @@
 		"unitTypes": ["Siege","Archery","Ranged Gunpowder","Ranged Sorcery"],
         "column": 1,
         "row": 2
-    },
+	},
 	{
 		"name": "Accuracy III",
 		"prerequisites": ["Accuracy II"],
@@ -160,8 +311,7 @@
 		"unitTypes": ["Siege","Archery","Ranged Gunpowder","Ranged Sorcery"],
         "column": 1,
         "row": 3
-    },
-
+	},
 	{
 		"name": "Barrage I",
 		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles> <when attacking>"],
@@ -745,7 +895,7 @@
         "column": 24,
         "row": 9
 	},
-    {
+	{
 		"name": "Armor Plating III",
 		"prerequisites": ["Armor Plating II"],
 		"uniques": ["[+5]% Strength <when defending>", "If this unit has Armor:", "[+10]% Strength <for [Armor] units> <when defending>"],
@@ -753,14 +903,14 @@
         "column": 24,
         "row": 10
 	},
-    {
+	{
 		"name": "Ambush I",
 		"uniques": ["[+50]% Strength <vs [Ranged] units> <when attacking>"],
 		"unitTypes": ["Sword","Gunpowder","Fighter","Bomber", "Mounted", "Melee Sorcery"],
         "column": 24,
         "row": 11
 	},
-    {
+	{
 		"name": "Ambush II",
         "prerequisites": ["Ambush I"],
 		"uniques": ["[+50]% Strength <vs [Ranged] units> <when attacking>"],
@@ -795,22 +945,29 @@
         "row": 3
 	},
     // Special Promotions
-    {
-		"name": "Rejuvenation", // only for Units that have been close to Natural Wonder Fountain of Youth
+	
+	{
+		"name": "Devout", //New update promotion
+ 		"uniques": ["Can Spread Religion <[1] additional time(s)>"]
+	},
+	
+	{
+		"name": "Rejuvenation", // only for Units that have been close to Natural Wonder Fountain of Youth (Misty Lake in this mod)
 		"uniques": ["All healing effects doubled"]
 	},
-    {
+	{
 		"name": "[Royal Ashigaru] ability",
-        "uniques": ["[+100]% Strength <vs [Mounted] units>"]
+		"uniques": ["[+100]% Strength <vs [Mounted] units>"]
 	},
-    {
+	{
 		"name": "[Royal Samurai] ability",
-        "uniques": ["[+50]% Strength <when defending>"]
+		"uniques": ["[+50]% Strength <when defending>"]
 	},
-    {
+	{
 		"name": "[Royal Cavalry] ability",
-        "uniques": ["[+100]% Strength <when attacking>"]
-	},
+		"uniques": ["[+100]% Strength <when attacking>"]
+	}
+	
 	// Ability Card Uniques
 	{
 		"name": "Screen Border Card",
@@ -835,5 +992,5 @@
 	{
 		"name": "Beauty of Destruction Card",
 		"uniques": ["Destroys tile improvements when attacking <with [33]% chance> <for [Siege] units> <when at war> <with [Beauty of Destruction Card]>"]
-	},
+	}
 ]
