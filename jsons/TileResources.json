@@ -263,7 +263,7 @@
 	{
 		"name": "Miracle Mallet Card",
 		"resourceType": "Luxury",
-		"uniques": ["Not shown on world screen","Earn [15]% of killed [{Enemy} {Military}] unit's [Strength] as [Gold] <for [All] units> <with [Miracle Mallet Card]>"]
+		"uniques": ["Not shown on world screen","Earn [15]% of killed [Military] unit's [Strength] as [Gold] <for [All] units> <with [Miracle Mallet Card]>"]
 	},
 	{
 		"name": "Keystone of Endurance Card",
