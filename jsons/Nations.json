@@ -370,7 +370,7 @@
 		"outerColor": [38,37,103],
 		"innerColor": [129,201,230],
 		"uniqueName": "God Of Special Events",
-		"uniques": ["Starts with [Festivals]", "[All] units gain the [Divine Blessing] promotion", "[+10]% Strength <for units with [Divine Blessing]> <when fighting in [Friendly Land] tiles", "[+1 Gold] per [2] population [in all cities]", "Free [Relinquisher Of Land] appears <upon declaring friendship>", "Provides [2] [Blank Card]"],
+		"uniques": ["Starts with [Festivals]", "[All] units gain the [Divine Blessing] promotion", "[+10]% Strength <for units with [Divine Blessing]> <when fighting in [Friendly Land] tiles>", "[+1 Gold] per [2] population [in all cities]", "Free [Relinquisher Of Land] appears <upon declaring friendship>", "Provides [2] [Blank Card]"],
 		"cities": [
 		"Kinshicho", "Fuyukoku", "Yuumeizan", "Shokaishi", "Keizaihama", "Kouritsucho", "Zenzenji", "Rinenmura", "Zaiseicho", "Kakushinku"
 		]
