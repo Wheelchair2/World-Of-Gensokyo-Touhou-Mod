@@ -1069,34 +1069,6 @@
 		"requiredTech": "Civil Service"
 		"requiredNearbyImprovedResources": ["Wheat"]
 	},
-	{
-		"name": "Card Market",
-		"uniqueTo": "Rainbow Realm",
-		"isNationalWonder": true,
-		"cost": 185,
-		"gold": 4,
-		"faith": 1,
-		"uniques": ["Special Wonder","Cost increases by [50] per owned city",
-		"Creates a [Trading post] improvement on a specific tile",
-		"Doubles Gold given to enemy if city is captured",
-		"Provides [1] [Blank Card] <with [12]% chance> <during a Golden Age>",
-		"Provides [1] [Blank Card]","Gain [-20]-[-100] [Gold]"]
-		"greatPersonPoints": {"Great Marchant": 1},
-		"quote": "Possession of an object can only be controlled by the god of the markets. As long as they possess something, none can escape from the hands of God! - Chimata Tenkyuu",
-	},
-	/*
-	{
-		"name": "Scarlet Magic Library",
-		"isWonder": true,
-		"culture": 1,
-		"greatPersonPoints": {"Great Merchant": 1},
-		"uniques": ["[
-		"requiredTech": "Telecommunications",
-		"quote": "'Nothing travels faster than light with the possible exception of bad news, which obeys its own special rules.' - Douglas Adams"
-	},
-	*/
-	
-	
 	
 	
 	
