@@ -35,7 +35,7 @@
 		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Forest","Jungle","Flood plains"],
 		"gold": 1,
 		"turnsToBuild": 7,
-		"techRequired": "Trade",
+		"techRequired": "Improved Trade",
 		"uniques": ["[+1 Gold] <after discovering [Economics]>", "Pillaging this improvement yields approximately [+20 Gold]"],
 		"shortcutKey": "T"
 	},
@@ -117,7 +117,7 @@
 		"name": "Road",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"turnsToBuild": 4,
-		"techRequired": "Diplomacy",
+		"techRequired": "Negotiations",
 		"uniques": ["Can be built outside your borders", "Costs [1] [Gold] per turn"],
 		"shortcutKey": "R",
         "civilopediaText": [
@@ -195,11 +195,11 @@
         "uniques": ["Unbuildable"],
         "civilopediaText": [{"text":"Repairs a pillaged Improvement or Route"}]
     },
-
-    // Natural Wonders Improvements
+	
+	 // Natural Wonders Improvements
 
 	{
-		"name": "Bamboo Garden", // IDK why these two Improvements can't place with Map Editor.
+		"name": "Bamboo Garden", // IDK why these two Improvements can't place with Map Editor. //Maybe because they require the Wonder Slot resource??
 		"terrainsCanBeBuiltOn": ["Bamboo Forest"],
 		"turnsToBuild": 6,
 		"happiness": 1,
@@ -222,7 +222,7 @@
 		"name": "Reichoen",
 		"terrainsCanBeBuiltOn": ["Chikushokai"],
 		"turnsToBuild": 9,
-		"uniques": ["Human spirits are always gives you a bonus. Human spirits are handy and weakest, so it's useful as a labor.","Consumes [1] [Wonder Slot]","[+5 Production, +5 Gold] <when not at war>","[+2 Faith] <after founding a Pantheon>","[+3 Faith, -5 Production] <when not at war> <after founding a Pantheon>"],
+		"uniques": ["Human spirits are always gives you a bonus. Human spirits are handy and weakest, so it's useful as a labor.","Consumes [1] [Wonder Slot]","[+5 Production, +5 Gold] <when not at war>","[+2 Faith] <after founding a Pantheon>","[+3 Faith, -5 Production] <when not at war> <after founding a Pantheon>"], //Terrain stats can't be negative, the "-5 Production" currently won't do any effect
 	},
 
 
@@ -279,7 +279,7 @@
 		"turnsToBuild": 7,
         "uniques": ["Pillaging this improvement yields approximately [+18 Gold]"],
 	},
-    	{
+  {
     
     	"name": "Keystone",
 		"uniqueTo": "Bhavaagra",
@@ -289,18 +289,6 @@
         "gold": 1,
 		"turnsToBuild": 8,
         "uniques": ["Pillaging this improvement yields approximately [+25 Gold]"],
-	},
-{
-		"name": "Relinquished Land Ownership",
-		"uniqueTo": "Rainbow Realm",
-		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Forest","Jungle","Flood plains"],
-		"gold": 6,
-		"turnsToBuild": 8,
-		"uniques": [
-			"Can be built just outside your borders",
-			"Constructing it will take over the tiles around it and assign them to your closest city",
-			"Pillaging this improvement yields approximately [+70 Gold]"
-		]
 	},
     /*
 	{
@@ -317,6 +305,19 @@
 		"shortcutKey": "F"
 	},
     */
+	
+	{
+		"name": "Relinquished Land Ownership",
+		"uniqueTo": "Rainbow Realm",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Forest","Jungle","Flood plains"],
+		"gold": 6,
+		"turnsToBuild": 8,
+		"uniques": [
+			"Can be built just outside your borders",
+			"Constructing it will take over the tiles around it and assign them to your closest city",
+			"Pillaging this improvement yields approximately [+70 Gold]"
+		]
+	},
 	
 
 	// Unbuildable improvements
