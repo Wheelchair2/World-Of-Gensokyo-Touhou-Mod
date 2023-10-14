@@ -193,7 +193,7 @@ BuildingIcons/Fortress
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Free Wonder Slot
+BuildingIcons/System
   rotate: false
   xy: 220, 840
   size: 100, 100
@@ -1362,14 +1362,14 @@ TileSets/FantasyHex/Tiles/Bamboo Forest
   orig: 32, 32
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Bamboo Forest+Bamboo Garden
+TileSets/FantasyHex/Tiles/Plains+Bamboo Forest+Bamboo Garden
   rotate: false
   xy: 1948, 1988
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Bamboo Forest+Ninja's House
+TileSets/FantasyHex/Tiles/Plains+Bamboo Forest+Ninja's House
   rotate: false
   xy: 1408, 260
   size: 32, 32
@@ -2535,5 +2535,32 @@ UnitPromotionIcons/Screen Border Card
   xy: 100, 0
   size: 100, 100
   orig: 100, 100
+  offset: 0, 0
+  index: -1
+
+game514.png
+size: 2048, 2048
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+TileSets/FantasyHex/Tiles/Chikushokai
+  rotate: false
+  xy: 476, 980
+  size: 32, 38
+  orig: 32, 38
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Grassland+Chikushokai+Friendship With Wild Beasts
+  rotate: false
+  xy: 526, 980
+  size: 32, 38
+  orig: 32, 38
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Grassland+Chikushokai+Reichoen
+  rotate: false
+  xy: 576, 980
+  size: 32, 38
+  orig: 32, 38
   offset: 0, 0
   index: -1
