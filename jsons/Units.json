@@ -500,7 +500,7 @@
 		"movement": 2,
 		"strength": 34,
 		"cost": 225,
-		"requiredTech": "Logistics",
+		"requiredTech": "Military Logistics",
 		"obsoleteTech": "Military Science",
 		"upgradesTo": "Royal Ashigaru",
 		"attackSound": "metalhit",
@@ -848,7 +848,7 @@
 		"movement": 2,
 		"strength": 15,
 		"cost": 120,
-		"requiredTech": "Access To Dark Magic",
+		"requiredTech": "Dark Magic",
 		"obsoleteTech": "Technology Limit",
 		"attackSound": "nonmetalhit",
 		"uniques": ["Dark Magician", "Youkai", "[+10] HP when healing", "Becomes obsolete at Technology Limit", "Never appears as a Barbarian unit"]
