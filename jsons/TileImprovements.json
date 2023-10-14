@@ -279,7 +279,7 @@
 		"turnsToBuild": 7,
         "uniques": ["Pillaging this improvement yields approximately [+18 Gold]"],
 	},
-    {
+    	{
     
     	"name": "Keystone",
 		"uniqueTo": "Bhavaagra",
@@ -289,6 +289,18 @@
         "gold": 1,
 		"turnsToBuild": 8,
         "uniques": ["Pillaging this improvement yields approximately [+25 Gold]"],
+	},
+{
+		"name": "Relinquished Land Ownership",
+		"uniqueTo": "Rainbow Realm",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Forest","Jungle","Flood plains"],
+		"gold": 6,
+		"turnsToBuild": 8,
+		"uniques": [
+			"Can be built just outside your borders",
+			"Constructing it will take over the tiles around it and assign them to your closest city",
+			"Pillaging this improvement yields approximately [+70 Gold]"
+		]
 	},
     /*
 	{
