@@ -968,7 +968,7 @@
 		"uniques": ["[+100]% Strength <when attacking>"]
 	}
 	
-	/*
+	
 	// Ability Card Uniques
 	{
 		"name": "Screen Border Card",
@@ -994,5 +994,5 @@
 		"name": "Beauty of Destruction Card",
 		"uniques": ["Destroys tile improvements when attacking <with [33]% chance> <for [Siege] units> <when at war> <with [Beauty of Destruction Card]>"]
 	}
-	*/
+	
 ]
