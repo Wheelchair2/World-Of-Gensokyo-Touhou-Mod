@@ -260,7 +260,7 @@
     //Counter Promotions
 	{
 		"name": "Anti-Youkai",
- 		"uniques": ["[+15]% Strength <vs [Youkai] units>", "[+50]% Strength <vs [Youkai] units> <for units with [Human Race]>"]
+ 		"uniques": ["[+15]% Strength <vs [Youkai] units>", "[+50]% Strength <vs [Youkai] units> <for units with [Human Race]> <starting from the [Edo period]>"]
 	},
 	{
 		"name": "Anti-Human",
