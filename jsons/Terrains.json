@@ -370,7 +370,7 @@
 		"occursOn": ["Plains", "Grassland", "Hill"],
 		"turnsInto": "Plains",
 		"unbuildable": true,
-		"uniques": ["Units ending their turn on this terrain take [15] damage <for [Military] units>", "Rough terrain"],
+		"uniques": ["Units ending their turn on this terrain take [15] damage, "Rough terrain"], //<for [Military] units> doesn't work for the terrain damage unique
 		"weight": 5
 	},
 	{
