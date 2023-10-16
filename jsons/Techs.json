@@ -50,6 +50,7 @@
 			},
 			{
 				"name": "Paid Service",
+				"cost": 15,
 				"row": 7,
 				"prerequisites": ["Scientific Knowledge"],
 				"quote": "Even Mystia's Izakaya doesn't have this."
@@ -62,7 +63,7 @@
 			},
 			{
 				"name": "Agriculture",
-				"cost": 20,
+				"cost": 30,
 				"row": 3,
 				"prerequisites": ["Scientific Knowledge"],
 				"quote": "Youkais can't plant, can they? Or can they?"
@@ -107,6 +108,7 @@
 			},
 			{
 				"name": "Professional Army",
+				"cost": 25,
 				"row": 8,
 				"prerequisites": ["Paid Service"],
 				"quote": "'That aura I feel from you... Could you be a wolf spirit? To think that a wolf would be smart enough to rely on a living human...' - Mayumi Joutouguu."
@@ -247,7 +249,7 @@
 	{
 		"columnNumber": 6,
 		"era": "Edo period",
-		"techCost": 105,
+		"techCost": 120,
 		"buildingCost": 75,
 		"wonderCost": 185,
 		"techs": [
@@ -303,7 +305,7 @@
 	{
 		"columnNumber": 7,
 		"era": "Edo period",
-		"techCost": 275,
+		"techCost": 260,
 		"buildingCost": 75,
 		"wonderCost": 185,
 		"techs": [
@@ -358,7 +360,7 @@
 	{
 		"columnNumber": 8,
 		"era": "Edo period",
-		"techCost": 480,
+		"techCost": 450,
 		"buildingCost": 160,
 		"wonderCost": 250,
 		"techs": [
