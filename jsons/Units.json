@@ -175,7 +175,7 @@
 		"obsoleteTech": "Professional Army",
 		"upgradesTo": "Vampire Hunter",
 		"promotions": ["Anti-Youkai"],
-		"uniques": ["Never appears as a Barbarian unit"],
+		"uniques": ["Can only attack [Youkai] units", "Never appears as a Barbarian unit"],
 		"attackSound": "nonmetalhit",
 	},
 	{ //Human Village unique
@@ -190,7 +190,7 @@
 		"obsoleteTech": "Professional Army",
 		"requiredTech": "Paid Service",
 		"promotions": ["Anti-Youkai"],
-		"uniques": ["[+25]% Strength <when fighting in [Friendly Land] tiles>", "Never appears as a Barbarian unit"]
+		"uniques": ["Can only attack [Youkai] units", "[+25]% Strength <when fighting in [Friendly Land] tiles>", "Never appears as a Barbarian unit"]
 	},
 	{
 		"name": "Patrol",
@@ -244,7 +244,7 @@
 		"obsoleteTech": "Shogunate",
 		"requiredTech": "Professional Army",
 		"promotions": ["Anti-Youkai", "Anti-Vampire"]
-		"uniques": ["Never appears as a Barbarian unit"],
+		"uniques": ["Can only attack [Youkai] units", "Never appears as a Barbarian unit"],
 		"attackSound": "metalhit"
 	},
 	{
@@ -327,7 +327,7 @@
 		"obsoleteTech": "Technology Limit",
 		"attackSound": "metalhit",
 		"promotions": ["Anti-Youkai"],
-        "uniques": ["Armor", "Becomes obsolete at Technology Limit", "Never appears as a Barbarian unit"]
+        "uniques": ["Armor", "Can only attack [Youkai] units", "Becomes obsolete at Technology Limit", "Never appears as a Barbarian unit"]
 	},
 	{
 		"name": "Yumi Samurai",
