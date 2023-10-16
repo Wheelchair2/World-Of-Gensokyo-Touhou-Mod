@@ -147,6 +147,7 @@
 	},
 	*/
 	
+	// Old Promotions
 	{
 		"name": "Fairy",
 		"uniques": ["Fairy", "Unit will heal every turn, even if it performs an action", "[-1] Sight"]
@@ -259,15 +260,15 @@
     //Counter Promotions
 	{
 		"name": "Anti-Youkai",
- 		"uniques": ["[+15]% Strength <vs [Youkai] units>", "[+50]% Strength <vs [Youkai] units> <for units with [Human Race]>", "Can only attack [Youkai] units"]
+ 		"uniques": ["[+15]% Strength <vs [Youkai] units>", "[+50]% Strength <vs [Youkai] units> <for units with [Human Race]> <after the [Youkai Expansion Project]>"]
 	},
 	{
 		"name": "Anti-Human",
- 		"uniques": ["[+15]% Strength <vs [Human Race] units>", "Can only attack [Human] units", "Heals [12] damage if it kills a unit"]
+ 		"uniques": ["[+15]% Strength <vs [Human Race] units>", "Heal this unit by [20] HP <upon defeating a [Human] unit>"]
 	},
 	{
 		"name": "Anti-Vampire",
- 		"uniques": ["[+10]% Strength <vs [Vampire] units>", "[+20]% Strength <vs [Vampire] units> <with [Silver]>"]
+ 		"uniques": ["[+5]% Strength <vs [Vampire] units>", "[+15]% Strength <vs [Vampire] units> <with [Silver]>"]
 	},
 	{
 		"name": "Anti-Oni",
@@ -967,6 +968,7 @@
 		"uniques": ["[+100]% Strength <when attacking>"]
 	}
 	
+	/*
 	// Ability Card Uniques
 	{
 		"name": "Screen Border Card",
@@ -992,4 +994,5 @@
 		"name": "Beauty of Destruction Card",
 		"uniques": ["Destroys tile improvements when attacking <with [33]% chance> <for [Siege] units> <when at war> <with [Beauty of Destruction Card]>"]
 	}
+	*/
 ]
