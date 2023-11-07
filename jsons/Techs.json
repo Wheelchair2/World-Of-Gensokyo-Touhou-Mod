@@ -160,7 +160,7 @@
 				"row": 8,
 				"prerequisites": ["Professional Army"],
 				"quote": "Fujiwara no Mokou is a princess from the Fujiwara Clan.",
-				"uniques": ["[+50]% Strength <when defending> <for [Melee] units> <when adjacent to a [Melee] unit>"]
+				"uniques": ["[+50]% Strength <vs [Ranged] units> <when defending> <for [Melee] units> <when adjacent to a [Melee] unit>"]
 			},
 			{
 				"name": "Festivals",
