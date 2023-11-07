@@ -374,7 +374,7 @@
 		"requiredTech": "Gunpowder",
 		"obsoleteTech": "Maintained Society",
 		"upgradesTo": "Odzutsu",
-		"uniques": ["[+400]% Strength <vs cities> <when attacking>", "Rough terrain penalty", "[+300]% Strength <vs [Armor] units>", "[-1] Sight", "Never appears as a Barbarian unit"],
+		"uniques": ["[+300]% Strength <vs cities> <when attacking>", "Rough terrain penalty", "[+150]% Strength <vs [Armor] units>", "[-1] Sight", "Never appears as a Barbarian unit"],
 		"attackSound": "shot"
 	},
 	{
