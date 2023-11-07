@@ -311,7 +311,6 @@
 		"uniqueTo": "Rainbow Realm",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"gold": 6,
-		"turnsToBuild": 8,
 		"uniques": [
 			"Great Improvement",
 			"Can be built just outside your borders",
