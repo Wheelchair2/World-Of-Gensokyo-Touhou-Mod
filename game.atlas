@@ -2727,9 +2727,9 @@ TileSets/FantasyHex/Tiles/Grassland+Chikushokai+Reichoen
   index: -1
 TileSets/HexaRealm/Tiles/Saigyou Ayakashi
   rotate: false
-  xy: 980, 1551
-  size: 64, 106
-  orig: 64, 106
+  xy: 980, 1561
+  size: 64, 96
+  orig: 64, 96
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/City center
