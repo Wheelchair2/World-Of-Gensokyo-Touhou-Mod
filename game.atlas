@@ -193,7 +193,7 @@ BuildingIcons/Fortress
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Free Wonder Slot
+BuildingIcons/System
   rotate: false
   xy: 220, 1608
   size: 100, 100
