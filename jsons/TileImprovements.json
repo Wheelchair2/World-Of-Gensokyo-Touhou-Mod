@@ -309,7 +309,7 @@
 	{
 		"name": "Relinquished Land Ownership",
 		"uniqueTo": "Rainbow Realm",
-		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Forest","Jungle","Flood plains"],
+		"terrainsCanBeBuiltOn": ["Land"],
 		"gold": 6,
 		"uniques": [
 			"Great Improvement",
