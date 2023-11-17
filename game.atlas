@@ -2699,7 +2699,7 @@ UnitPromotionIcons/Screen Border Card
   offset: 0, 0
   index: -1
 
-game514.png
+game3.png
 size: 2048, 2048
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
@@ -2723,6 +2723,13 @@ TileSets/FantasyHex/Tiles/Grassland+Chikushokai+Reichoen
   xy: 576, 980
   size: 32, 38
   orig: 32, 38
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Saigyou Ayakashi
+  rotate: false
+  xy: 980, 1601
+  size: 64, 56
+  orig: 64, 56
   offset: 0, 0
   index: -1
 
