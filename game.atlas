@@ -2732,6 +2732,167 @@ TileSets/HexaRealm/Tiles/Saigyou Ayakashi
   orig: 64, 56
   offset: 0, 0
   index: -1
+TileSets/HexaRealm/Tiles/City center
+  rotate: false
+  xy: 880, 1601
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/City center-Hakurei Faction
+  rotate: false
+  xy: 780, 1601
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/City center-Moriya Faction
+  rotate: false
+  xy: 780, 1601
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Misty Lake
+  rotate: false
+  xy: 780, 1701
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Forest Of Magic
+  rotate: false
+  xy: 680, 1701
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Youkai Forest
+  rotate: false
+  xy: 880, 1701
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Nameless Hill
+  rotate: false
+  xy: 680, 1501
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Giant Toad's Pond
+  rotate: false
+  xy: 780, 1501
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Youkai Mountain
+  rotate: false
+  xy: 980, 1501
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/City center-Senkai
+  rotate: false
+  xy: 1080, 1501
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/City center-Myouren Faction
+  rotate: false
+  xy: 1080, 1501
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Doll Lumber House
+  rotate: false
+  xy: 1080, 1401
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Garden Of The Sun
+  rotate: false
+  xy: 980, 1401
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Makai
+  rotate: false
+  xy: 780, 1401
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Barricades
+  rotate: false
+  xy: 680, 1401
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Citadel
+  rotate: false
+  xy: 680, 1301
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Plains+Bamboo Forest+Ninja's House
+  rotate: false
+  xy: 880, 1301
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Bamboo Forest
+  rotate: false
+  xy: 980, 1301
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Grassland+Chikushokai+Friendship With Wild Beasts
+  rotate: false
+  xy: 1080, 1201
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Grassland+Chikushokai+Reichoen
+  rotate: false
+  xy: 1080, 1101
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Chikushokai
+  rotate: false
+  xy: 980, 1201
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Plains+Bamboo Forest+Bamboo Garden
+  rotate: false
+  xy: 880, 1201
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Keystone
+  rotate: false
+  xy: 580, 1201
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
 
 game010.png
 size: 200, 100
