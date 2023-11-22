@@ -255,6 +255,7 @@
 		"cost": 100,
 		"obsolteTech": "Iron Working",
 		"requiredTech": "Professional Army",
+		"upgradesTo": "Samurai Cavalry",
 		"requiredResource": "Horses",
 		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "[+100]% Strength <vs [Ranged] units> <when attacking>", "Never appears as a Barbarian unit"],
 		"hurryCostModifier": 20,
