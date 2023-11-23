@@ -31,7 +31,7 @@
 	{
 		"name": "Prince",
 		// I'm doing that because Prince always set as normal difficulty in Unciv. Previously it always started with Easy when I didn't setting difficulty.
-		// don't worry, It will renamed to 'Normal' in language setting
+		// don't worry, It will renamed to 'Normal' in language setting. However, makes hesitation. because the current game that in progress on normal difficult will crash.
 		"baseHappiness": 9,
 		"extraHappinessPerLuxury": 0,
 		"researchCostModifier": 1,
