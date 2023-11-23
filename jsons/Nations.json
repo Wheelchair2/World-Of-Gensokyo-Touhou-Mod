@@ -11,6 +11,33 @@
     */
     
 	{
+		"name": "Rainbow Silkroad",
+		"leaderName": "Chimata Tenkyuu",
+		"adjective": ["Marketeers"],
+		"preferredVictoryType": "Cultural",
+		"startIntroPart1": "."
+		"startIntroPart2": ".",
+		"attacked": ".",
+		"defeated": ".",
+		"introduction": ".",
+		"neutralHello": "?",
+		"hateHello": "."
+		"tradeRequest": ".",
+		"outerColor": [244,244,244],
+		"innerColor": [123,0,206],
+		"uniqueName": "God Of Special Events",
+		"uniques": ["Starts with [Festivals]",
+				"[All] units gain the [Divine Blessing] promotion",
+				"[+10]% Strength <for units with [Divine Blessing]> <when fighting in [Friendly Land] tiles>",
+				"[+1 Gold] per [2] population [in all cities]",
+				"Free [Relinquisher Of Land] appears <upon declaring friendship>",
+				"Provides [2] [Blank Card]"
+				],
+		"cities": [
+		"Kinshicho", "Fuyukoku", "Yuumeizan", "Shokaishi", "Keizaihama", "Kouritsucho", "Zenzenji", "Rinenmura", "Zaiseicho", "Kakushinku"
+		]
+	},
+	{
 		"name": "Bhavaagra",
 		"leaderName": "Hinanawi Tenshi",
 		"adjective": ["Celestial"],
@@ -353,33 +380,6 @@
 		"uniqueName": "Master Spark",
 		"uniques": ["[All] units gain the [Human Race] promotion", "Starts with [Research For Magic]", "Starts with [Simple Alchemy]", "[+50]% Strength <for [{Human} {Magician}] units>","Provides [1] [Mini-Hakkero Card]"],
 		"cities": ["Arcanopolis", "Mystoria", "Sorceron", "Enchantia", "Maginium", "Spellhaven", "Wizard's Reach", "Enigmaire", "Conjuria", "Manaheim"]
-	},
-	{
-		"name": "Rainbow Silkroad",
-		"leaderName": "Chimata Tenkyuu",
-		"adjective": ["Marketeers"],
-		"preferredVictoryType": "Cultural",
-		"startIntroPart1": "."
-		"startIntroPart2": ".",
-		"attacked": ".",
-		"defeated": ".",
-		"introduction": ".",
-		"neutralHello": "?",
-		"hateHello": "."
-		"tradeRequest": ".",
-		"outerColor": [244,244,244],
-		"innerColor": [123,0,206],
-		"uniqueName": "God Of Special Events",
-		"uniques": ["Starts with [Festivals]",
-				"[All] units gain the [Divine Blessing] promotion",
-				"[+10]% Strength <for units with [Divine Blessing]> <when fighting in [Friendly Land] tiles>",
-				"[+1 Gold] per [2] population [in all cities]",
-				"Free [Relinquisher Of Land] appears <upon declaring friendship>",
-				"Provides [2] [Blank Card]"
-				],
-		"cities": [
-		"Kinshicho", "Fuyukoku", "Yuumeizan", "Shokaishi", "Keizaihama", "Kouritsucho", "Zenzenji", "Rinenmura", "Zaiseicho", "Kakushinku"
-		]
 	},
 	{
 		"name": "Senkai Principality",
