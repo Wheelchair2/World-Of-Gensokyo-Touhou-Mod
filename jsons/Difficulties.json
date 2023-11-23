@@ -29,7 +29,9 @@
 		"clearBarbarianCampReward": 50
 	},
 	{
-		"name": "Normal",
+		"name": "Prince",
+		// I'm doing that because Prince always set as normal difficulty in Unciv. Previously it always started with Easy when I didn't setting difficulty.
+		// don't worry, It will renamed to 'Normal' in language setting
 		"baseHappiness": 9,
 		"extraHappinessPerLuxury": 0,
 		"researchCostModifier": 1,
