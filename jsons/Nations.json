@@ -355,7 +355,7 @@
 		"cities": ["Arcanopolis", "Mystoria", "Sorceron", "Enchantia", "Maginium", "Spellhaven", "Wizard's Reach", "Enigmaire", "Conjuria", "Manaheim"]
 	},
 	{
-		"name": "Rainbow Realm",
+		"name": "Rainbow Silkroad",
 		"leaderName": "Chimata Tenkyuu",
 		"adjective": ["Marketeers"],
 		"preferredVictoryType": "Cultural",
@@ -441,8 +441,8 @@
 		"outerColor": [105,0,0],
 		"innerColor": [255,255,255],
 		"uniqueName": "Caste System",
-		"uniques": ["[All] units gain the [Youkai] promotion", "[{Melee} {Land}] units gain the [Beast] promotion", "[{Ranged} {Land}] units gain the [Winged] promotion", "[+1] Movement <for [Winged] units>", "[+10]% Strength <for [Beast] units>", "[+1 Production, -1 Happiness] per [2] population [in all cities]", "[-1 Happiness] per [3] population [in all cities]", "Cannot build [Mounted] units"]
-		"cities": ["Matara-kyo", "Jinzen City", "Kamimachi", "Takamoriya", "Kanazakura", "Yumegiri", "Matsuribayashi", "Jinmachi", "Mikumari", "Matara no Sato"]
+		"uniques": ["[All] units gain the [Youkai] promotion", "[{Melee} {Land}] units gain the [Beast] promotion", "[{Ranged} {Land}] units gain the [Winged] promotion", "[+1] Movement <for [Winged] units>", "[+10]% Strength <for [Beast] units>", "[+1 Production, -1 Happiness] per [2] population [in all cities]", "[-1 Happiness] per [3] population [in all cities]", "Cannot build [Mounted] units"],
+		"cities": ["Tengugawa", "Youkai-machi", "Amanozakura", "Raijindai", "Fujinshou", "Sokai-kyo", "Yamabushinaka", "Karasutani", "Houyama", "Kamitengu-no-mori"]
 	},
 	{
 		"name": "The Borderless Realm",
