@@ -2830,14 +2830,14 @@ TileSets/HexaRealm/Tiles/City center-Myouren Faction
   orig: 64, 96
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Tiles/Doll Lumber House1
+TileSets/HexaRealm/Tiles/Doll Lumber House2
   rotate: false
   xy: 1080, 1361
   size: 64, 96
   orig: 64, 96
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Tiles/Doll Lumber House2
+TileSets/HexaRealm/Tiles/Doll Lumber House
   rotate: false
   xy: 1180, 1361
   size: 64, 96
