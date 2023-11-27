@@ -268,8 +268,10 @@
 		"Doubles Gold given to enemy if city is captured <when below [701] [Gold] (modified by game speed)> <hidden from users>"
 		// hell idea: It more near to Unconnected Marketeers?
 		// "Remove [Card Market] [in this city]",
-		// "Sell [All] buildings [in all cities]",
-		// "Free Technology <if [World Wonder] is constructed>"
+		// "Sell [All] buildings [in this city]",
+		// "Gain [1000] [Faith]",
+		// "Only available <in cities with a [World Wonder]>",
+		// "Consumes [1] [Blank Card]"
 		],
 		"greatPersonPoints": {"Great Merchant": 1},
 		"quote": "Possession of an object can only be controlled by the god of the markets. As long as they possess something, none can escape from the hands of God! - Chimata Tenkyuu",
