@@ -2719,6 +2719,20 @@ ImprovementIcons/Relinquished Land Ownership
   orig: 100, 100
   offset: 0, 0
   index: -1
+BuildingIcons/Card Market
+  rotate: false
+  xy: 300, 100
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Relinquisher Of Land
+  rotate: false
+  xy: 300, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 
 game3.png
 size: 2048, 2048
