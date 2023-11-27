@@ -435,7 +435,8 @@
 		"occursOn": ["Plains", "Grassland", "Hill"],
 		"turnsInto": "Grassland",
 		"unbuildable": true,
-		"uniques": ["Tile provides yield without assigned population"],
+		"uniques": ["The Animal Realm(Chikushokai), where survival of the fittest is the one and only law. Economic success reigns supreme, and individual thought isn't valued one bit. Personal feelings are nothing but an obstruction in such a streamlined society. It's one nightmare vision of urban society, where talk of 'self-responsiblity' runs rampant.-Zun",
+			"Tile provides +5 Production and +5 Gold without assigned population","Tile provides yield without assigned population <hidden from users>"],
 		"weight": 1
 	}
 ]
