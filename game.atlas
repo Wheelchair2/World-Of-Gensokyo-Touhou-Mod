@@ -2937,7 +2937,7 @@ TileSets/HexaRealm/Tiles/Grassland+Chikushokai+Reichoen
   index: -1
 TileSets/HexaRealm/Tiles/City center-Beneath The Rainbow
   rotate: false
-  xy: 1080, 1061
+  xy: 980, 1061
   size: 64, 96
   orig: 64, 96
   offset: 0, 0
