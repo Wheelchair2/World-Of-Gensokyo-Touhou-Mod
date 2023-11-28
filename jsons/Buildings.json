@@ -149,7 +149,7 @@
 		"happiness": 6,
 		"isNationalWonder": true,
 		"greatPersonPoints": {"Great Artist": 1},
-		"unique": ["Special Wonder"],
+		"uniques": ["Special Wonder"],
 		"quote": "Suwako is the original god of the Moriya Shrine. Officially the shrine now belongs to Kanako Yasaka, but in Suwako's words she handles most of the divine services while Kanako handles the 'sales.'"
 	},
 	{
