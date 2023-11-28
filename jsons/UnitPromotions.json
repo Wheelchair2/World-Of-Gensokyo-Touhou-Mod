@@ -972,27 +972,33 @@
 	// Ability Card Uniques
 	{
 		"name": "Screen Border Card",
-		"uniques": ["May Paradrop up to [100] tiles from inside friendly territory <if it hasn't used other actions yet> <for [Scout] units> <with [Screen Border Card]>"]
+		"uniques": ["Yukari Yakumo's ability to let you freely warp between map edges for Scout. It will activates when you have this card.",
+			"May Paradrop up to [100] tiles from inside friendly territory <if it hasn't used other actions yet> <for [Scout] units> <with [Screen Border Card]> <hidden from users>"]
 	},
 	{
 		"name": "Great Tengu's Barley Rice Card",
- 		"uniques": ["Can move immediately once bought <for [All] units> <with [Great Tengu's Barley Rice Card]>"]
+ 		"uniques": ["Megumu Iizunamaru's ability that gives movepoints for just bought units when you have this card. Why are you collecting Power after setting foot on the mountain? You should pack tons of food to begin with, and then set out.",
+			"Can move immediately once bought <hidden from users> <for [All] units> <with [Great Tengu's Barley Rice Card]>"]
 	},
 	{
 		"name": "Ice Fairy Card",
-		"uniques": ["Can enter ice tiles <for [All] units> <with [Ice Fairy Card]>"]
+		"uniques": ["Ice fairies are useful when unit in cold regions. Gives little Defence bonus in Cold Regions, And Can enter ice tiles for navy and embarking units when you have Ice Fairy Card.",
+			"Can enter ice tiles <with [Ice Fairy Card]> <hidden from users>",
+		"[+15]% Strength <in [Snow] tiles> <when defending> <with [Ice Fairy Card]> <hidden from users>","[+10]% Strength <in [{Tundra} {non-[Forest]} {non-[Hill]}] tiles> <with [Ice Fairy Card]> <when defending> <hidden from users>"]
 	},
 	{
 		"name": "Smelt's Scales Card",
-		"uniques": ["May attack when embarked <for [Melee] units> <with [Smelt's Scales Card]>"]
+		"uniques": ["Enable attack for Embarking units when you have Smelt's Scales Card.","May attack when embarked <for [Melee] units> <hidden from users> <with [Smelt's Scales Card]>"]
 	},
 	{
 		"name": "Pebble Hat Card",
-		"uniques": ["Invisible to others <for [Scout] units> <when at war> <with [Pebble Hat Card]>"]
+		"uniques": ["Koishi Komeiji's ability to prevent you from crashing into enemies when you have Pebble Hat Card. No one will notice that Scout is there..",
+			"Ignores Zone of Control <with [Pebble Hat Card]> <hidden from users>","Invisible to others <for [Scout] units> <hidden from users> <when at war> <with [Pebble Hat Card]>"]
 	},
 	{
 		"name": "Beauty of Destruction Card",
-		"uniques": ["Destroys tile improvements when attacking <with [33]% chance> <for [Siege] units> <when at war> <with [Beauty of Destruction Card]>"]
+		"uniques": ["Flan's ability to destroy Improved tiles with your Siege Unit when you have Beauty of Destruction Card. There are many Fortress in enemy territory? What a dumb is it. Why don't they know at it can be destroyed easily?",
+			"Destroys tile improvements when attacking <hidden from users> <for [Siege] units> <when at war> <hidden from users> <with [Beauty of Destruction Card]>"]
 	}
 	
 ]

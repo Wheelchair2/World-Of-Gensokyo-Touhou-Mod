@@ -732,7 +732,7 @@ NationIcons/Chireiden Sovereignty
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/Chmata 1 White Card
+NationIcons/Beneath The Rainbow
   rotate: false
   xy: 4, 1832
   size: 200, 200
@@ -2698,6 +2698,41 @@ UnitPromotionIcons/Screen Border Card
   orig: 100, 100
   offset: 0, 0
   index: -1
+ImprovementIcons/Friendship With Wild Beasts
+  rotate: false
+  xy: 0, 100
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Reichoen
+  rotate: false
+  xy: 100, 100
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Relinquished Land Ownership
+  rotate: false
+  xy: 200, 100
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Card Market
+  rotate: false
+  xy: 300, 100
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Relinquisher Of Land
+  rotate: false
+  xy: 300, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 
 game3.png
 size: 2048, 2048
@@ -2809,9 +2844,23 @@ TileSets/HexaRealm/Tiles/City center-Myouren Faction
   orig: 64, 96
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Tiles/Doll Lumber House
+TileSets/HexaRealm/Tiles/Doll Lumber House2
   rotate: false
   xy: 1080, 1361
+  size: 64, 96
+  orig: 64, 96
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Doll Lumber House
+  rotate: false
+  xy: 1180, 1361
+  size: 64, 96
+  orig: 64, 96
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Relinquished Land Ownership
+  rotate: false
+  xy: 1180, 1461
   size: 64, 96
   orig: 64, 96
   offset: 0, 0
@@ -2844,6 +2893,20 @@ TileSets/HexaRealm/Tiles/Citadel
   orig: 64, 96
   offset: 0, 0
   index: -1
+TileSets/HexaRealm/Tiles/City center-Fated Land
+  rotate: false
+  xy: 580, 1261
+  size: 64, 96
+  orig: 64, 96
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/City center-Fraternal Empire
+  rotate: false
+  xy: 580, 1261
+  size: 64, 96
+  orig: 64, 96
+  offset: 0, 0
+  index: -1
 TileSets/HexaRealm/Tiles/Plains+Bamboo Forest+Ninja's House
   rotate: false
   xy: 880, 1261
@@ -2872,6 +2935,13 @@ TileSets/HexaRealm/Tiles/Grassland+Chikushokai+Reichoen
   orig: 64, 96
   offset: 0, 0
   index: -1
+TileSets/HexaRealm/Tiles/City center-(Keiki Haniyasushin's Nation)
+  rotate: false
+  xy: 980, 1068
+  size: 64, 96
+  orig: 64, 96
+  offset: 0, 0
+  index: -1
 TileSets/HexaRealm/Tiles/Chikushokai
   rotate: false
   xy: 980, 1161
@@ -2891,25 +2961,5 @@ TileSets/HexaRealm/Tiles/Keystone
   xy: 580, 1161
   size: 64, 96
   orig: 64, 96
-  offset: 0, 0
-  index: -1
-
-game010.png
-size: 200, 100
-format: RGBA8888
-filter: MipMapLinearLinear, MipMapLinearLinear
-repeat: none
-ImprovementIcons/Friendship With Wild Beasts
-  rotate: false
-  xy: 0, 0
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ImprovementIcons/Reichoen
-  rotate: false
-  xy: 100, 0
-  size: 100, 100
-  orig: 100, 100
   offset: 0, 0
   index: -1

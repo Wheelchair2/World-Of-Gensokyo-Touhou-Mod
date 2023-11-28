@@ -233,7 +233,7 @@
 	{
 		"name": "Shanghai Doll Card",
 		"resourceType": "Luxury",
-		"uniques": ["Not shown on world screen","[1] free [Worker] units appear <with [Shanghai Doll Card]>"]
+		"uniques": ["Not shown on world screen","[1] free [Worker] units appear <with [Shanghai Doll Card]>","[Worker] units gain the [Doll Construct] promotion <with [Shanghai Doll Card]>"]
 	},
 	{
 		"name": "Back Door Card",
