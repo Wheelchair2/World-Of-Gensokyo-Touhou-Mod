@@ -41,7 +41,7 @@
 		"uniqueTo": "Fated Land"
 		"cost": 185,
 		"isNationalWonder": true,
-		"uniques": ["Special Wonder", "[-30]% tile improvement construction time"]
+		"uniques": ["Special Wonder", "[-30]% construction time for [All] improvements"]
 		"greatPersonPoints": {"Great Engineer": 1},
 		"quote": "Many fairies are employed by Remilia Scarlet as Fairy Maids in order to clean the mansion, and they're overseen by the head maid, Sakuya Izayoi."
 	},
