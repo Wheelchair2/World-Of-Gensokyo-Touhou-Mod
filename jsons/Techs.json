@@ -332,7 +332,7 @@
 				"row": 1,
 				"prerequisites": ["Forbidden Sorcery"],
 				"quote": "Koakuma & Daiyousei's names were created by the community.",
-				"uniques": ["[-20]% tile improvement construction time"]
+				"uniques": ["[-20]% construction time for [All] improvements"]
 			},
 			{
 				"name": "Shogunate",
