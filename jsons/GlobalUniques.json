@@ -13,7 +13,7 @@
         "[-1] Sight <for [Embarked] units>",
         
         "[-50]% Strength <for [Military] units> <vs [Military] units> <before discovering [Professional Army]>",
-        "[-1] Movement <for [Water] units> <in [Ocean] tiles> <before discovering [Naval Warfare]>",
+        "[-1] Movement <for [Water] units> <in [Ocean] tiles> <before discovering [Navigation]>",
         "Cannot build [Ingredient] units <in cities without a [Perfect Beer Program]>",
         
         "May buy [Mercenary] units with [Gold] for [2] times their normal Production cost",
