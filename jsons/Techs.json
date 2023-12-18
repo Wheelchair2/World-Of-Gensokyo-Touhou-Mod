@@ -10,7 +10,7 @@
 				"name": "Things To Know",
 				"row": 7,
 				"quote": "'A cage, like for a bird or an insect, can't function if it's completely sealed off. You need at least the air to pass through. Without the sun, the flowers wouldn't bloom. Similarly, without new wind and sun constantly entering Gensokyo, the place would simply die off. Closing off Gensokyo means no longer accepting things. Do you really think Gensokyo could survive without visitors bringing in new ideas?' ? Hecatia Lapislazuli",
-			"uniques": ["Starting tech", "Military units suffers from -50% Strength before the discovery of Professional Army", "-1 Movement for Water units when moving in Ocean tiles before the discovery of Navigation"]
+			"uniques": ["Starting tech", "Military units suffers from -50% Strength before the discovery of Professional Army", "-1 Movement for Water units when moving in Ocean tiles before the discovery of Navigation", "You will gain 1 [Wonder Slot] for every city you have that has at least 5 population, this can mostly be used to construct improvements on Natural Wonders"]
 			//"Be wary of Chimata's nation, Land Of Wealth, she can construct an improvement that will completely take away your Gold tile yields within 3 tiles away of it" (no longer applicable)
 			}
 		]
