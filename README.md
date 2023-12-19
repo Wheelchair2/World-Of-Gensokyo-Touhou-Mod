@@ -1,5 +1,5 @@
 # World-Of-Gensokyo-Touhou-Mod
-This is as a fan-made mod from the Touhou Project series, taking place in a fantasy world called 'Gensokyo,' where basically from yōkai to Gods of Japanese mythology exists.
+*This is as a fan-made mod from the Touhou Project series, taking place in a fantasy world called 'Gensokyo,' where basically from yōkai to Gods of Japanese mythology exists.*
 
 There are still a lot of ~~touhou moes~~ totally necessary things to add and change, because the mod isn't really properly playtested yet (somehow). However, the mod is developing pretty rapidly thanks to the helpful contribution for the mod. After all, anybody can do anything if it's for cute anime gir-
 
