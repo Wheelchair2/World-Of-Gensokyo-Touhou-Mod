@@ -1,3056 +1,959 @@
+[
+	//Spectator
+	{
+		"name": "Spectator",
+		"outerColor": [255,255,255]
+//		"innerColor": [255,255,255]
+	},
+    
+    /*
+    Some nations doesn't have dialogues yet
+    */
+    
+	{
+		"name": "Beneath The Rainbow",
+		"leaderName": "Chimata Tenkyuu",
+		"adjective": ["Marketeers"],
+		"preferredVictoryType": "Cultural",
+		"startIntroPart1": "."
+		"startIntroPart2": ".",
+		"attacked": ".",
+		"defeated": ".",
+		"introduction": ".",
+		"neutralHello": "?",
+		"hateHello": "."
+		"tradeRequest": ".",
+		"outerColor": [244,244,244],
+		"innerColor": [123,0,206],
+		"uniqueName": "God Of Special Events",
+		"uniques": ["Starts with [Festivals]",
+				"[All] units gain the [Divine Blessing] promotion",
+				"[+10]% Strength <for units with [Divine Blessing]> <when fighting in [Friendly Land] tiles>",
+				"[+1 Gold] per [2] population [in all cities]",
+				"Free [Relinquisher Of Land] appears <upon declaring friendship>",
+				"Provides [2] [Blank Card]"
+				],
+		"cities": [
+		"Kinshicho", "Fuyukoku", "Yuumeizan", "Shokaishi", "Keizaihama", "Kouritsucho", "Zenzenji", "Rinenmura", "Zaiseicho", "Kakushinku"
+		]
+	},
+	{
+		"name": "Bhavaagra",
+		"leaderName": "Hinanawi Tenshi",
+		"adjective": ["Celestial"],
+		"preferredVictoryType": "Diplomacy",
+		"startIntroPart1": ".",
+		"startIntroPart2": ".",
+		"attacked": ".",
+		"defeated": ".",
+		"introduction": ".",
+		"neutralHello": "?",
+		"hateHello": "."
+		"tradeRequest": ".",
+		"outerColor": [255,255,255],
+		"innerColor": [0,38,255],
+		"uniqueName": "Manipulation Of Earthquakes",
+		"uniques": ["[All] units gain the [Celestial] promotion", "No defensive terrain penalty <for [All] units>", "[+2 Gold] from every [Keystone] <during a Golden Age>","Provides [1] [Keystone Of Endurance Card]"]
+		"cities": ["Tenkai City", "Shinden-Cho", "Kamiyama", "Hoshizora", "Yukikami", "Amaterasu", "Kaguya-Shima", "Soraoka", "Mizuhan", "Tengoku no Machi"]
+	},
+	{
+		"name": "Chireiden Sovereignty",
+		"leaderName": "Satori Komeiji",
+		"adjective": ["Satori"],
+		"preferredVictoryType": "Scientific",
 
-game.png
-size: 2048, 2048
-format: RGBA8888
-filter: MipMapLinearLinear, MipMapLinearLinear
-repeat: none
-BuildingIcons/Abandoned Mansion
-  rotate: false
-  xy: 412, 246
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Barn
-  rotate: false
-  xy: 836, 496
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Barrels Of Alcohol
-  rotate: false
-  xy: 736, 280
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Blast Furnace
-  rotate: false
-  xy: 844, 64
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Blessing Of Winter
-  rotate: false
-  xy: 820, 1528
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Buddhist Center
-  rotate: false
-  xy: 820, 1204
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Buddhist Monastery
-  rotate: false
-  xy: 820, 1096
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Bunbunmaru Newspaper
-  rotate: false
-  xy: 820, 988
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Byakuren's Way Of Peace
-  rotate: false
-  xy: 820, 880
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Canal Of Willows
-  rotate: false
-  xy: 886, 772
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Card Market
-  rotate: false
-  xy: 952, 448
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Celestial Heritage
-  rotate: false
-  xy: 952, 16
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Cemented Walls
-  rotate: false
-  xy: 928, 1528
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Charity House
-  rotate: false
-  xy: 928, 1420
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Cirno's Freezing Hot Spring
-  rotate: false
-  xy: 928, 1204
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/City Hall
-  rotate: false
-  xy: 928, 1096
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Civil Code
-  rotate: false
-  xy: 928, 988
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Concealing Four Seasons
-  rotate: false
-  xy: 994, 772
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Cotton Farm
-  rotate: false
-  xy: 1052, 556
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Council Of Sages
-  rotate: false
-  xy: 1060, 448
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Cultivation Practices
-  rotate: false
-  xy: 1060, 340
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Divine Services
-  rotate: false
-  xy: 1036, 1312
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Doll Manufactory
-  rotate: false
-  xy: 1036, 988
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Donation Box
-  rotate: false
-  xy: 1036, 880
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Experiment Room
-  rotate: false
-  xy: 1144, 1528
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Fairy Tree House
-  rotate: false
-  xy: 1144, 1204
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Fortifications
-  rotate: false
-  xy: 1276, 124
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Fortress
-  rotate: false
-  xy: 1276, 16
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Free Wonder Slot
-  rotate: false
-  xy: 1252, 1528
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Furniture Shop
-  rotate: false
-  xy: 1252, 1204
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Geidontei Bar
-  rotate: false
-  xy: 1252, 1096
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Grand Shrine
-  rotate: false
-  xy: 1252, 988
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Great Mausoleum
-  rotate: false
-  xy: 1252, 880
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Grimoire Of Youkais
-  rotate: false
-  xy: 1376, 556
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Hakurei Shrine
-  rotate: false
-  xy: 1384, 232
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Hall Of Idols
-  rotate: false
-  xy: 1384, 124
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Hieda House
-  rotate: false
-  xy: 1360, 1420
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Hieda Temple School
-  rotate: false
-  xy: 1360, 1312
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/High Walls
-  rotate: false
-  xy: 1360, 1204
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Hot Spring Town
-  rotate: false
-  xy: 1426, 772
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/House Of Eternity
-  rotate: false
-  xy: 1426, 664
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Ingredients Store
-  rotate: false
-  xy: 1468, 1312
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Iron Manufactory
-  rotate: false
-  xy: 1468, 1204
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Izakaya Restaurant
-  rotate: false
-  xy: 1468, 1096
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Jewelry Shop
-  rotate: false
-  xy: 1468, 988
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Kappa Stronghold
-  rotate: false
-  xy: 1534, 772
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Kiln
-  rotate: false
-  xy: 1600, 448
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Kirisame Magic Shop
-  rotate: false
-  xy: 1600, 340
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Komainu Statue
-  rotate: false
-  xy: 1600, 16
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Komakusa Gambling Den
-  rotate: false
-  xy: 1576, 1528
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Kourindou Store
-  rotate: false
-  xy: 1576, 1420
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Legal System
-  rotate: false
-  xy: 1642, 664
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Magic Cauldron
-  rotate: false
-  xy: 1708, 232
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Major Religions In Gensokyo
-  rotate: false
-  xy: 1808, 1528
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Mayohiga
-  rotate: false
-  xy: 1808, 1420
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Meiling's Training Center
-  rotate: false
-  xy: 1684, 1312
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Military Base
-  rotate: false
-  xy: 1750, 772
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Miracle Mallet
-  rotate: false
-  xy: 1816, 340
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Moriya Shrine
-  rotate: false
-  xy: 1816, 16
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Myouren Temple
-  rotate: false
-  xy: 1792, 1204
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/New Palanquin Ship
-  rotate: false
-  xy: 1916, 556
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Nihonshu Sake
-  rotate: false
-  xy: 1900, 1096
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ImprovementIcons/Bamboo Garden
-  rotate: false
-  xy: 736, 388
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ImprovementIcons/Barricades
-  rotate: false
-  xy: 736, 172
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ImprovementIcons/Doll Lumber House
-  rotate: false
-  xy: 1036, 1096
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ImprovementIcons/Friendship With Wild Beasts
-  rotate: false
-  xy: 1252, 1420
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ImprovementIcons/Keystone
-  rotate: false
-  xy: 1592, 556
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ImprovementIcons/Ninja's House
-  rotate: false
-  xy: 1900, 880
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-LeaderIcons/Alice Margatroid
-  rotate: false
-  xy: 4, 1636
-  size: 400, 400
-  orig: 400, 400
-  offset: 0, 0
-  index: -1
-LeaderIcons/Flandre Scarlet
-  rotate: false
-  xy: 4, 1228
-  size: 400, 400
-  orig: 400, 400
-  offset: 0, 0
-  index: -1
-LeaderIcons/Kaguya Houraisan
-  rotate: false
-  xy: 4, 820
-  size: 400, 400
-  orig: 400, 400
-  offset: 0, 0
-  index: -1
-LeaderIcons/Kanako Yasaka
-  rotate: false
-  xy: 4, 412
-  size: 400, 400
-  orig: 400, 400
-  offset: 0, 0
-  index: -1
-LeaderIcons/Okina Matara
-  rotate: false
-  xy: 4, 4
-  size: 400, 400
-  orig: 400, 400
-  offset: 0, 0
-  index: -1
-LeaderIcons/Reimu
-  rotate: false
-  xy: 412, 1636
-  size: 400, 400
-  orig: 400, 400
-  offset: 0, 0
-  index: -1
-LeaderIcons/Remilia Scarlet
-  rotate: false
-  xy: 820, 1636
-  size: 400, 400
-  orig: 400, 400
-  offset: 0, 0
-  index: -1
-LeaderIcons/Suika Ibuki
-  rotate: false
-  xy: 1228, 1636
-  size: 400, 400
-  orig: 400, 400
-  offset: 0, 0
-  index: -1
-LeaderIcons/Wakasagihime
-  rotate: false
-  xy: 1636, 1636
-  size: 400, 400
-  orig: 400, 400
-  offset: 0, 0
-  index: -1
-LeaderIcons/Yukari Yakumo
-  rotate: false
-  xy: 412, 1228
-  size: 400, 400
-  orig: 400, 400
-  offset: 0, 0
-  index: -1
-LeaderIcons/Yuyuko Saigyouji
-  rotate: false
-  xy: 412, 820
-  size: 400, 400
-  orig: 400, 400
-  offset: 0, 0
-  index: -1
-NationIcons/Beneath The Rainbow
-  rotate: false
-  xy: 412, 354
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
-NationIcons/Bhavaagra
-  rotate: false
-  xy: 844, 388
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-NationIcons/Chireiden Sovereignty
-  rotate: false
-  xy: 928, 1312
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-NationIcons/Eientei Residents
-  rotate: false
-  xy: 1160, 556
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-NationIcons/Fairy Alliance
-  rotate: false
-  xy: 1144, 1312
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-NationIcons/Fated Kingdom
-  rotate: false
-  xy: 1144, 1096
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-NationIcons/Fraternal Empire
-  rotate: false
-  xy: 412, 562
-  size: 250, 250
-  orig: 250, 250
-  offset: 0, 0
-  index: -1
-NationIcons/Hakurei Faction
-  rotate: false
-  xy: 1384, 340
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-NationIcons/Human Village
-  rotate: false
-  xy: 1492, 448
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-NationIcons/Land Of The Backdoors
-  rotate: false
-  xy: 1576, 1312
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-NationIcons/Land Of The Corpses
-  rotate: false
-  xy: 1576, 1204
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-NationIcons/Land Of The Crow Tengus
-  rotate: false
-  xy: 1576, 1096
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-NationIcons/Mermaids Of The Lake
-  rotate: false
-  xy: 1684, 988
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-NationIcons/Moriya Faction
-  rotate: false
-  xy: 1816, 124
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-NationIcons/Myouren Faction
-  rotate: false
-  xy: 1916, 1204
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-PolicyIcons/Military Security
-  rotate: false
-  xy: 1816, 448
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-PolicyIcons/National Doctrine
-  rotate: false
-  xy: 1792, 988
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ReligionIcons/Amanohara
-  rotate: false
-  xy: 412, 30
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ReligionIcons/Amaterasuism
-  rotate: false
-  xy: 412, 30
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ReligionIcons/Bosatsugawa
-  rotate: false
-  xy: 412, 30
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ReligionIcons/Dragonzen
-  rotate: false
-  xy: 412, 30
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ReligionIcons/Fujinno
-  rotate: false
-  xy: 412, 30
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ReligionIcons/Hanyo-kyo
-  rotate: false
-  xy: 412, 30
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ReligionIcons/Kaminarudo
-  rotate: false
-  xy: 412, 30
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ReligionIcons/Kasumigami
-  rotate: false
-  xy: 412, 30
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ReligionIcons/Kaze no Michi
-  rotate: false
-  xy: 412, 30
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ReligionIcons/Kitsunne-kai
-  rotate: false
-  xy: 412, 30
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ReligionIcons/Minamo no Seishin
-  rotate: false
-  xy: 412, 30
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ReligionIcons/Mizuhana
-  rotate: false
-  xy: 412, 30
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ReligionIcons/Raijinryu
-  rotate: false
-  xy: 412, 30
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ReligionIcons/Takaragawa
-  rotate: false
-  xy: 412, 30
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ReligionIcons/Tengu-taiken
-  rotate: false
-  xy: 412, 30
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ReligionIcons/Tsukuyomitsu
-  rotate: false
-  xy: 412, 30
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ReligionIcons/Yamainu-teki
-  rotate: false
-  xy: 412, 30
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ReligionIcons/Yokaimon
-  rotate: false
-  xy: 412, 30
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ReligionIcons/Yukionna-kai
-  rotate: false
-  xy: 412, 30
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ReligionIcons/Yureishin
-  rotate: false
-  xy: 412, 30
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ReligionIcons/Ancient Taoism
-  rotate: false
-  xy: 520, 246
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ResourceIcons/Backdoor Card
-  rotate: false
-  xy: 628, 22
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ResourceIcons/Beauty Of Destruction Card
-  rotate: false
-  xy: 628, 22
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ResourceIcons/Danmaku Ghost Card
-  rotate: false
-  xy: 628, 22
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ResourceIcons/Drunkenly Whimsical Ibuki Gourd Card
-  rotate: false
-  xy: 628, 22
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ResourceIcons/Esteemed Authority Card
-  rotate: false
-  xy: 628, 22
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ResourceIcons/Great Tengu's Barley Rice Card
-  rotate: false
-  xy: 628, 22
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ResourceIcons/Ice Fairy Card
-  rotate: false
-  xy: 628, 22
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ResourceIcons/Keystone Of Endurance Card
-  rotate: false
-  xy: 628, 22
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ResourceIcons/Mini-Hakkero Card
-  rotate: false
-  xy: 628, 22
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ResourceIcons/Miracle Mallet Card
-  rotate: false
-  xy: 628, 22
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ResourceIcons/Offerings To A Sacred Mountain Card
-  rotate: false
-  xy: 628, 22
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ResourceIcons/Pebble Hat Card
-  rotate: false
-  xy: 628, 22
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ResourceIcons/Screen Border Card
-  rotate: false
-  xy: 628, 22
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ResourceIcons/Shanghai Doll Card
-  rotate: false
-  xy: 628, 22
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ResourceIcons/Smelt's Scales Card
-  rotate: false
-  xy: 628, 22
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ResourceIcons/Sutra Of Dharmatic Power Card
-  rotate: false
-  xy: 628, 22
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ResourceIcons/Vampire Fang Card
-  rotate: false
-  xy: 628, 22
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ResourceIcons/Yin-Yang Orb Card
-  rotate: false
-  xy: 628, 22
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ResourceIcons/Blank Card
-  rotate: false
-  xy: 844, 172
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TechIcons/Advanced Magic
-  rotate: false
-  xy: 412, 138
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TechIcons/Arts And Sculpture
-  rotate: false
-  xy: 728, 496
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TechIcons/Authority
-  rotate: false
-  xy: 628, 130
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TechIcons/Brewing Mastery
-  rotate: false
-  xy: 820, 1312
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TechIcons/Carpentry
-  rotate: false
-  xy: 952, 340
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TechIcons/Culture Preservation
-  rotate: false
-  xy: 1060, 232
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TechIcons/Dark Magic
-  rotate: false
-  xy: 1060, 124
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TechIcons/Divine Punishment
-  rotate: false
-  xy: 1036, 1420
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TechIcons/Espionage
-  rotate: false
-  xy: 1168, 124
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TechIcons/Exclusive Electricity
-  rotate: false
-  xy: 1168, 16
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TechIcons/Fermented Alcohol
-  rotate: false
-  xy: 1144, 988
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TechIcons/Festivals
-  rotate: false
-  xy: 1144, 880
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TechIcons/Field Of Summoning
-  rotate: false
-  xy: 1210, 664
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TechIcons/Forage Crops Utilization
-  rotate: false
-  xy: 1276, 448
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TechIcons/Forbidden Sorcery
-  rotate: false
-  xy: 1276, 340
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TechIcons/Forgotten Items
-  rotate: false
-  xy: 1276, 232
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TechIcons/Full Conversion
-  rotate: false
-  xy: 1252, 1312
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TechIcons/Heavy Plough
-  rotate: false
-  xy: 1360, 1528
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TechIcons/History Preservation
-  rotate: false
-  xy: 1360, 1096
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TechIcons/Hot Spring
-  rotate: false
-  xy: 1360, 880
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TechIcons/Improved Trade
-  rotate: false
-  xy: 1468, 1420
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TechIcons/Lantern Clock
-  rotate: false
-  xy: 1576, 988
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TechIcons/Law And Order
-  rotate: false
-  xy: 1576, 880
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TechIcons/Law Enforcement
-  rotate: false
-  xy: 1642, 772
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TechIcons/Limitless Learning
-  rotate: false
-  xy: 1700, 556
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TechIcons/Literature
-  rotate: false
-  xy: 1708, 448
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TechIcons/Magical Science
-  rotate: false
-  xy: 1708, 124
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TechIcons/Maintained Society
-  rotate: false
-  xy: 1708, 16
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TechIcons/Medicine
-  rotate: false
-  xy: 1684, 1420
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TechIcons/Metal Farming Tools
-  rotate: false
-  xy: 1684, 880
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TechIcons/Military Logistics
-  rotate: false
-  xy: 1750, 664
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TechIcons/Military Predominance
-  rotate: false
-  xy: 1808, 556
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TechIcons/Modern Knowledge
-  rotate: false
-  xy: 1816, 232
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TechIcons/Multicropping System
-  rotate: false
-  xy: 1916, 1312
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TechIcons/Mysterious Knowledge
-  rotate: false
-  xy: 1792, 1096
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TechIcons/National Faith
-  rotate: false
-  xy: 1792, 880
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TechIcons/Naval Warfare
-  rotate: false
-  xy: 1858, 772
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TechIcons/Negotiations
-  rotate: false
-  xy: 1858, 664
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TechIcons/Nobility
-  rotate: false
-  xy: 1924, 448
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TechIcons/Official Navy
-  rotate: false
-  xy: 1924, 16
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Artillery
-  rotate: false
-  xy: 628, 346
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Ashigaru Infantry
-  rotate: false
-  xy: 778, 712
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Ashigaru Pikeman
-  rotate: false
-  xy: 778, 604
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Ashigaru Spearman
-  rotate: false
-  xy: 628, 238
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Boarding Ship
-  rotate: false
-  xy: 820, 1420
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Cannon Ship
-  rotate: false
-  xy: 886, 664
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Cavalry
-  rotate: false
-  xy: 952, 232
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Combatant
-  rotate: false
-  xy: 928, 880
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Dream Spirit
-  rotate: false
-  xy: 1102, 772
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Earthbound Ghost
-  rotate: false
-  xy: 1102, 664
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Elemental Sorcerer
-  rotate: false
-  xy: 1168, 448
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Elite Samurai
-  rotate: false
-  xy: 1168, 340
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Esoterica Practitioner
-  rotate: false
-  xy: 1168, 232
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Field Medic
-  rotate: false
-  xy: 1210, 772
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Fire Spellcaster
-  rotate: false
-  xy: 1268, 556
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Great Wolf
-  rotate: false
-  xy: 1318, 772
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Great Wolf Summon
-  rotate: false
-  xy: 1318, 772
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Great Yamabushi
-  rotate: false
-  xy: 1318, 664
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Gunboat
-  rotate: false
-  xy: 1384, 448
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Hand Cannon
-  rotate: false
-  xy: 1384, 16
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Hokan
-  rotate: false
-  xy: 1360, 988
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Imperial Ashigaru
-  rotate: false
-  xy: 1492, 232
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Imperial Cavalry
-  rotate: false
-  xy: 1492, 124
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Imperial Samurai
-  rotate: false
-  xy: 1492, 16
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Imperial Sohei
-  rotate: false
-  xy: 1468, 1528
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Keukegen
-  rotate: false
-  xy: 1534, 664
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Kitsune Summon
-  rotate: false
-  xy: 1600, 124
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Marksman
-  rotate: false
-  xy: 1684, 1528
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Mountain Hermit
-  rotate: false
-  xy: 1916, 1420
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Musketmen Fleet
-  rotate: false
-  xy: 1792, 1312
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Ninja
-  rotate: false
-  xy: 1900, 988
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Noble Cavalry
-  rotate: false
-  xy: 1924, 340
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Noble Samurai
-  rotate: false
-  xy: 1924, 232
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Odzutsu
-  rotate: false
-  xy: 1924, 124
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Anti-Human
-  rotate: false
-  xy: 620, 454
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Anti-Mermaid
-  rotate: false
-  xy: 670, 712
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Anti-Oni
-  rotate: false
-  xy: 670, 604
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Anti-Vampire
-  rotate: false
-  xy: 520, 138
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Anti-Youkai
-  rotate: false
-  xy: 520, 30
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Beast
-  rotate: false
-  xy: 736, 64
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Bird Net
-  rotate: false
-  xy: 844, 280
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Card - Beauty Of Destruction
-  rotate: false
-  xy: 944, 556
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Card - Great Tengu's Barley Rice
-  rotate: false
-  xy: 944, 556
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Card - Ice Fairy
-  rotate: false
-  xy: 944, 556
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Card - Pebble Hat
-  rotate: false
-  xy: 944, 556
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Card - Screen Border
-  rotate: false
-  xy: 944, 556
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Card - Smelt's Scales
-  rotate: false
-  xy: 944, 556
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Celestial
-  rotate: false
-  xy: 952, 124
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Corpse
-  rotate: false
-  xy: 994, 664
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Dark Youkai
-  rotate: false
-  xy: 1060, 16
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Divine Blessing
-  rotate: false
-  xy: 1036, 1528
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Doll Construct
-  rotate: false
-  xy: 1036, 1204
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Fairy
-  rotate: false
-  xy: 1144, 1420
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Human Race
-  rotate: false
-  xy: 1484, 556
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Hunter
-  rotate: false
-  xy: 1492, 340
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Kappa
-  rotate: false
-  xy: 1468, 880
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Kitsune
-  rotate: false
-  xy: 1600, 232
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Lunarian
-  rotate: false
-  xy: 1708, 340
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Martial Arts
-  rotate: false
-  xy: 1916, 1528
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Mermaid
-  rotate: false
-  xy: 1684, 1204
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Mermaid Net
-  rotate: false
-  xy: 1684, 1096
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
+		"startIntroPart1": "I am Satori Komeiji, Mistress of the Palace of the Earth Spirits, Chireiden. I am able to read minds, as a 'satori.' Your IP Address is 150.248.18.82, and you live at... just kidding.",
+		"startIntroPart2": "May you help the satori race prosper!",
+		"declaringWar": "Rin would like to take your corpse.",
+		"attacked": "Just as I expected...",
+		"defeated": "So this is the fate of the satori race, after all...",
+		"introduction": "Nice to meet you, my future rival.",
+		"neutralHello": "Okuu! Bring some tea for our guest.",
+		"hateHello": "Just to remind you, I can read what you're thinking.",
+		"tradeRequest": "I know you won't accept; however, I am going to kick your balls if so.",
+		"outerColor": [252,225,254],
+		"innerColor": [19,81,92],
+		"uniqueName": "Mind-Reading Satori Race",
+		"uniques": ["Comment [The Satori Race can read the minds of their opponents, and inclict a -15% Strength debuff to adjacent enemy Military units. They can also stab their own third eye and in exchange for some various effects.]",
+	"Comment [------------------]",
+	"[Land] units gain the [Satori Race] promotion", "[All] units gain the [Youkai] promotion","Provides [1] [Pebble Hat Card]"
+	],
+		"cities": ["Palace Of The Earth Spirits","Stabiae","Chanchan","Bannack","Consonno","Florida Lost City","Kolmanskop","Trellech","Humberstone","Akrotiri","Taxila","Pyramiden","Merv","Cahokia,","Mologa","Neversink","Hallsands","Lukangol"]
+	},
+	/*
+	{
+		"name": "Domain Of Darkness",
+		"leaderName": "Rumia",
+		"adjective": ["Dark Youkai"],
+		"preferredVictoryType": "Cultural",
+		"startIntroPart1": "Let me introduce you to a land full of darkness and monsters!",
+		"startIntroPart2": "Hold my hand and let's explore this amazing realm together!",
+		"declaringWar": "So-na-no-ka, ne?",
+		"attacked": "Sonanoka.",
+		"defeated": "Sonanoka...",
+		"introduction": "Sonanoka!",
+		"neutralHello": "Sonanoka~",
+		"hateHello": "Sonanoka.",
+		"tradeRequest": "Sonanoka?",
+		"outerColor": [0,0,0],
+		"innerColor": [255,144,164],
+		"uniqueName": "Manipulation Of Darkness",
+		"uniques": ["[All] units gain the [Youkai] promotion", "[All] units gain the [Dark Youkai] promotion", "Gain access to Rumia as a unit!"],
+		"cities": ["Hōreisou", "Yami no Machi", "Kurayami City", "Kagegakure", "Ayakashi Town", "Ankokuji", "Yūrei District", "Yabai Yokochō", "Shin'en no Toshi", "Kakuranochō"]
+	},
+	*/
+	{
+		"name": "Eientei Residents",
+		"leaderName": "Kaguya Houraisan",
+		"startBias": ["Bamboo Forest"]
+		"adjective": ["Lunarian"],
+		"preferredVictoryType": "Neutral",
+		"startIntroPart1": ".",
+		"startIntroPart2": ".",
+		"declaringWar": ".",
+		"attacked": ".",
+		"defeated": "...",
+		"introduction": "!",
+		"neutralHello": "~",
+		"hateHello": ".",
+		"tradeRequest": "?",
+		"outerColor": [0,0,0],
+		"innerColor": [242,199,242],
+		"uniqueName": "Manipulation Of Eternity",
+		"uniques": ["[All] units gain the [Lunarian] promotion", "[+15]% Production when constructing [All] buildings [in all cities]", "[-50]% maintenance costs", "[-20]% construction time for [All] improvements"], 
+		"cities": ["Mugenkyo", "Eien no Machi", "Shintenkoku", "Kuon no Toshi", "Toki no Sato", "Kaseki no Machi", "Mugenkai", "Tokoyo City", "Fushi no Kuni", "Kujikujo"]
+	},
+	/*
+	{
+		"name": "Fairies Of Spring",
+		"leaderName": "Lily White",
+		"adjective": ["Spring Fairy"],
+		"preferredVictoryType": "Diplomatic",
+		"startIntroPart1": "It's spring!",
+		"startIntroPart2": ".",
+		"attacked": ".",
+		"defeated": ".",
+		"introduction": ".",
+		"neutralHello": ".",
+		"hateHello": "."
+		"tradeRequest": ".",
+		"outerColor": [142,139,96],
+		"innerColor": [255,255,255],
+		"uniqueName": "It's Spring!",
+		"uniques": ["Comment [Fairy units heals every turn even while performing an action, but receive -1 Sight penalty]",
+		"Comment [------------------]",
+		"[All] units gain the [Fairy] promotion",
+		"[Land] units gain the [Winged] promotion"
+		],
+		"cities": ["Haru-machi", "Hana-toshi", "Sakura-shi", "Shinryoku-machi", "Hidamari-shi", "Ume-to", "Asagiri-shi", "Kusabana-machi", "Sakuradai-shi", "Ondan-shi"],
+		"style": "fairy"
+	},
+	*/
+	{
+		"name": "Fairy Alliance",
+		"leaderName": "Cirno",
+		"startBias": ["Misty Lake"],
+		"adjective": ["Baka"],
+		"preferredVictoryType": "Domination",
+		"startIntroPart1": "Introducing Cirno, the all-powerful, strongest ice fairy who serves as the leader of the Fairy Alliance. Nestled in a land of ice and frost, her nation embodies a carefree and playful... playful...."
+		"startIntroPart2": "C-Cirno-chan! I think the script you copied from ChatGPT was left incomplete! Eh?! It continues on the back of the page?!"
+		"attacked": ".",
+		"defeated": ".",
+		"introduction": ".",
+		"neutralHello": ".",
+		"hateHello": "."
+		"tradeRequest": ".",
+		"outerColor": [72,156,184],
+		"innerColor": [255,255,255],
+		"uniqueName": "Perfect Freeze!",
+		"uniques": ["Comment [Fairy units heals every turn even while performing an action, but receive -1 Sight penalty]",
+		"Comment [------------------]",
+		"[All] units gain the [Fairy] promotion", "[Land] units gain the [Winged] promotion",
+		"[+15]% Strength <for [Fairy] units>", "Provides [1] [Ice Fairy Card]"
+		]
+		"cities": ["Cirnopolis", "Bakai", "Perfect Town", "Daiyouville", "Ninth City", "Bakaville", "Kitchen", "New Cirnopolis", "Calculator City"],
+		"style": "fairy"
+	},
+	{
+		"name": "Fated Kingdom",
+		"leaderName": "Remilia Scarlet",
+		"adjective": ["Vampire"],
+		"preferredVictoryType": "Diplomacy",
+		"startIntroPart1": "Welcome to the illustrious domain of my faction, where elegance, opulence, and absolute splendor reign supreme."
+		"startIntroPart2": "Let us not speak of my dear sister's pitiful attempt at rebelling against my authority. Her feeble faction may exist, but it pales in comparison to the magnificence of... E-eh? She still loves me?! Then why don't she come back home already! That attitude of hers, hmph!",
+		"attacked": "To dare tarnish the divinity of the Scarlet name with the audacity of an attack, how bold of you.",
+		"defeated": "The winds of fate have turned against me, casting a dark shadow over my once glorious nation. Yet, do not mistake this setback for defeat. Baka!",
+		"introduction": "The pinnacle of sophistication and the embodiment of greatness await you in your humble admiration towards my charisma. Fufufu~",
+		"neutralHello": "Sakuya! Prepare some tea for our lovely guest.",
+		"hateHello": "You shall rue the day you dared challenge the might of the Scarlet Throne.",
+		"tradeRequest": ".",
+		"outerColor": [240,240,240],
+		"innerColor": [55,26,106],
+		"uniqueName": "Diligent Fairy Maids",
+		"uniques": ["Comment [Vampires would suck the blood out of anyone, and can heal 15 damage upon killing a unit]",
+		"Comment [------------------]",
+		"[All] units gain the [Youkai] promotion", "[Land] units gain the [Vampire] promotion", "[+25]% Production when constructing [All] wonders [in all cities]", "[-50]% maintenance costs","Provides [1] [Vampire Fang Card]"],
+		"cities": ["Transylvania","ScarletBourne","Vermillion Peaks","Crimsonhurst","Carmesia","Garnetshire","Burgundy Citadel","Sangria Hollow","Scarletspire","Scarletara"]
+	},
+	{
+		"name": "Fraternal Empire",
+		"leaderName": "Flandre Scarlet",
+		"adjective": ["Vampire"],
+		"preferredVictoryType": "Domination",
+		"startIntroPart1": "."
+		"startIntroPart2": ".",
+		"attacked": ".",
+		"defeated": ".",
+		"introduction": ".",
+		"neutralHello": "?",
+		"hateHello": "."
+		"tradeRequest": ".",
+		"outerColor": [225,225,141],
+		"innerColor": [119,1,0],
+		"uniqueName": "Complete Destruction",
+		"uniques": ["Comment [Vampires would suck the blood out of anyone, and can heal 15 damage upon killing a unit]",
+		"Comment [------------------]",
+		"[All] units gain the [Youkai] promotion", "[Land] units gain the [Vampire] promotion", "Damage is ignored when determining unit Strength", "Cities are razed [2] times as fast","Provides [1] [Beauty Of Destruction Card]"],
+		"cities": ["Sanguinaria", "Nocturnia", "Umbraheim", "Cimmeria", "Bloodhaven", "Stygianberg", "Nyxmark", "Valerianth", "Crimsonshire", "Vladonia"]
+	},
+	{
+		"name": "Hakurei Faction",
+		"leaderName": "Reimu",
+		"adjective": ["Maiden"],
+		"startBias": ["Hill"],
+		"preferredVictoryType": "Diplomacy",
+		"startIntroPart1": "I am the shrine maiden of the Hakurei Shrine, Reimu Hakurei. Do you want some tea?",
+		"startIntroPart2": "You happened to be the incarnation of the Hakurei God. Your shrine maiden, Reimu Hakurei, will serve you in your youkai-extermination from now on.",
+		"declaringWar": "You're a youkai, aren't you? Prepare to be exterminated!",
+		"attacked": "Hey, at least take off your shoes before you step on the shrine!",
+		"defeated": "Alright, I lose.",
+		"introduction": "I am Reimu Hakurei, do you want some tea?",
+		"neutralHello": "Do you want to help me clean the shrine?",
+		"hateHello": "Hmph!",
+		"tradeRequest": "Please, donate to the shrine!",
+		"outerColor": [255,255,255],
+		"innerColor": [255,0,0],
+		"uniqueName": "Lineage Of Shrine Maidens",
+		"uniques": ["Starts with [Religion]", "Starts with [Rituals]",  "[All] units gain the [Human Race] promotion", "[+55]% Great Person generation [in all cities]","Provides [1] [Yin-Yang Orb Card]"]
+		"favoredReligion": "Shrine Shinto",
+		"cities": ["Kamigakure", "Hachimori", "Yūgen no Kuni", "Shinseikoku", "Kazanami", "Isagiyama", "Miyamizu", "Yōkaino", "Harunoshima", "Fushimori"]
+	}
+    {
+		"name": "Human Village",
+		"leaderName": "Keine Kamishirasawa",
+		"adjective": ["Human"],
+		"preferredVictoryType": "Cultural",
+		"startIntroPart1": "."
+		"startIntroPart2": ".",
+		"attacked": ".",
+		"defeated": ".",
+		"introduction": ".",
+		"neutralHello": "?",
+		"hateHello": "."
+		"tradeRequest": ".",
+		"outerColor": [37,9,86],
+		"innerColor": [250,228,255],
+		"uniqueName": "Pity of the Hakutaku",
+		"uniques": ["Starts with [Agriculture]", "Starts with [Scientific Knowledge]", "[All] units gain the [Human Race] promotion"],
+		"cities": ["Kyoto", "Osaka", "Sapporo", "Yokohama", "Hiroshima", "Kobe", "Nagoya", "Fukuoka", "Sendai", "Nagasaki"]
+	},
+	{
+		"name": "Land Of The Backdoors",
+		"leaderName": "Okina Matara",
+		"adjective": ["Matara Follower"],
+		"preferredVictoryType": "Domination",
+		"startIntroPart1": ".",
+		"startIntroPart2": ".",
+		"attacked": ".",
+		"defeated": ".",
+		"introduction": ".",
+		"neutralHello": "?",
+		"hateHello": "."
+		"tradeRequest": ".",
+		"outerColor": [193,117,50],
+		"innerColor": [255,241,141],
+		"uniqueName": "Secret God",
+		"uniques": ["[All] units gain the [Divine Blessing] promotion", "[+20]% Strength <for units with [Divine Blessing]>", "Comment [What makes this promotion special is that there are no units who can counter it]","Provides [1] [Backdoor Card]"]
+		"cities": ["Matara-kyo", "Jinzen City", "Kamimachi", "Takamoriya", "Kanazakura", "Yumegiri", "Matsuribayashi", "Jinmachi", "Mikumari", "Matara no Sato"]
+	},
+	{
+		"name": "Land Of The Corpses",
+		"leaderName": "Seiga Kaku",
+		"adjective": ["Corpse"],
+		"preferredVictoryType": "Domination",
+		"startIntroPart1": "."
+		"startIntroPart2": ".",
+		"attacked": ".",
+		"defeated": ".",
+		"introduction": ".",
+		"neutralHello": "?",
+		"hateHello": "."
+		"tradeRequest": ".",
+		"outerColor": [23,0,55],
+		"innerColor": [226,206,205],
+		"uniqueName": "Romantic Death",
+		"uniques": ["Comment [Corpse units may capture killed Human units; have a bonus of +25% Strength when fighting against Human enemies; but can only heal by pillaging]",
+	"Comment [------------------]",
+	"Starts with [Research For Magic]", "Starts with [Religion]", "[All] units gain the [Youkai] promotion", "[Land] units gain the [Corpse] promotion"],
+		"favoredReligion": "Ancient Taoism",
+		"cities": ["Shiryokuni", "Yomigaeru no Kuni", "Kakuriyō", "Anamaryū", "Okurimono", "Kagegoku", "Reikoku no Kuni", "Gekkōsha", "Yūkaijin", "Shiryouzan"]
+	},
+	{
+		"name": "Land Of The Crow Tengus",
+		"leaderName": "Megumu Iizumaru",
+		"startBias": ["Youkai Mountain"]
+		"adjective": ["Tengu"],
+		"preferredVictoryType": "Scientific",
+		"startIntroPart1": "."
+		"startIntroPart2": ".",
+		"attacked": ".",
+		"defeated": ".",
+		"introduction": ".",
+		"neutralHello": "?",
+		"hateHello": "."
+		"tradeRequest": ".",
+		"outerColor": [255,255,255],
+		"innerColor": [0,0,0],
+		"uniqueName": "Deal With The Marketplace God",
+		"uniques": ["[All] units gain the [Youkai] promotion", "[Land] units gain the [Winged] promotion", "[+1] Movement <for [Winged] units>", "Starts with [Currency]", "[+2 Gold, +1 Food, +1 Production] from every [Trading post] <before the [Meiji era]>", "Cannot build [Mounted] units","Provides [1] [Great Tengu's Barley Rice Card]"]
+		"cities": ["Tsubasakoku", "Hagoromo no Sato", "Harukaze-mura", "Tenbin no Toshi", "Suzaku no Sora", "Hanebito", "Kumo no Machi", "Aoiwashi", "Hiryu no Sato", "Hayabusa-ga-Oka"]
+	},
+	{
+		"name": "Mermaids Of The Lake",
+		"leaderName": "Wakasagihime",
+		"adjective": ["Mermaid"],
+		"preferredVictoryType": "Neutral",
+		"startIntroPart1": ".",
+		"startIntroPart2": ".",
+		"attacked": ".",
+		"defeated": ".",
+		"introduction": ".",
+		"neutralHello": "?",
+		"hateHello": "."
+		"tradeRequest": ".",
+		"outerColor": [67,180,116],
+		"innerColor": [5,47,78],
+		"uniqueName": "Mermaid Of The Uncharted Land",
+		"uniques": ["Comment [Mermaid units posses certain advantages and disadvantages; in summary: Mermaid units move faster on Water and fresh water tiles, but slower on dry land, except when near the Coast]",
+	"Comment [------------------]",
+	"Enables embarkation for land units <starting from the [Youkai Expansion Project]>", "Enables [All] units to enter ocean tiles <starting from the [Youkai Expansion Project]>", "[All] units gain the [Youkai] promotion", "[Land] units gain the [Mermaid] promotion", "Cannot build [Mounted] units","Provides [1] [Smelt's Scales Card]"]
+		"cities": ["Sushiyama", "Maguroshima", "Unazuki", "Taihoku", "Hamachiya", "Kanpachibu", "Suzukiya", "Sabaoka", "Katsuocho", "Iwashio"]
+	},
+	{
+		"name": "Moriya Faction",
+		"leaderName": "Kanako Yasaka",
+		"startBias": ["Hill", "Youkai Mountain"]
+		"adjective": ["Maiden"],
+		"preferredVictoryType": "Diplomacy",
+		"startIntroPart1": "."
+		"startIntroPart2": ".",
+		"attacked": ".",
+		"defeated": ".",
+		"introduction": ".",
+		"neutralHello": "?",
+		"hateHello": "."
+		"tradeRequest": ".",
+		"outerColor": [255,255,255],
+		"innerColor": [19,147,19],
+		"uniqueName": "Mountain Of Faith",
+		"uniques": ["Starts with [Religion]", "[All] units gain the [Human Race] promotion", "[100]% of excess happiness converted to [Faith]","Provides [1] [Offerings To A Sacred Mountain Card]",
+		 "[55]% of excess happiness converted to [Gold]",
+		"[+50]% maintenance costs",
+		"[-100]% [Gold] [in all cities] <when below [3] Happiness>"],
+		"favoredReligion": "Sect Shinto",
+		"cities": ["Hinomori", "Takarashima", "Kasai no Kuni", "Yume no Sakura", "Kōgetsu", "Ryuunokuni", "Isanokuni", "Hoshizora", "Kachidoki", "Yamabuki"]
+	},
+	{
+		"name": "Myouren Faction",
+		"leaderName": "Byakuren Hijiri",
+		"adjective": ["Monk"],
+		"preferredVictoryType": "Diplomacy",
+		"startIntroPart1": "."
+		"startIntroPart2": ".",
+		"attacked": ".",
+		"defeated": ".",
+		"introduction": ".",
+		"neutralHello": "?",
+		"hateHello": "."
+		"tradeRequest": ".",
+		"outerColor": [55,40,76],
+		"innerColor": [255,255,255],
+		"uniqueName": "Peaceful Principles",
+		"uniques": ["Starts with [Religion]", "[All] units gain the [Youkai] promotion", "[-100]% Unhappiness from [Population] [in all non-occupied cities]","Provides [1] [Sutra Of Dharmatic Power Card]"],
+		"favoredReligion": "Buddhism",
+		"cities": ["Minoriya", "Mizuhanashi", "Fujimori", "Shinju no Tani", "Arashiyama", "Kiyomizu", "Hayabusa no Sato", "Shizukesa", "Kokoroyoi", "Asamurasaki"]
+	},
+	{
+		"name": "Oni Clans",
+		"leaderName": "Suika Ibuki",
+		"startBias": ["Youkai Mountain"]
+		"adjective": ["Oni"],
+		"preferredVictoryType": "Domination",
+		"startIntroPart1": "."
+		"startIntroPart2": ".",
+		"attacked": ".",
+		"defeated": ".",
+		"introduction": ".",
+		"neutralHello": "?",
+		"hateHello": "."
+		"tradeRequest": ".",
+		"outerColor": [255,255,169],
+		"innerColor": [115,66,65],
+		"uniqueName": "Constant War",
+		"uniques": ["Starts with [Fermented Alcohol]", "Rebel units may spawn <when below [5] Happiness>", "[All] units gain the [Youkai] promotion", "[All] units gain the [Oni] promotion", "Great General provides double combat bonus", "[Great General] is earned [+50]% faster", "Earn [30]% of killed [Military] unit's [Strength] as [Culture] <during the [Youkai Expansion Project]>","Provides [1] [Drunkenly Whimsical Ibuki Gourd Card]"],
+		"cities": ["Bushidōkoku", "Kenkoku", "Kenseikuni", "Tatsumaki no Kuni", "Kōyōdō", "Heishi no Tani", "Katanaishi", "Yoroi no Sato", "Kachūsha", "Shinkenshi"]
+	},
+	{
+		"name": "Ordinary Magicians",
+		"leaderName": "Marisa Kirisame",
+		"adjective": ["Magician"],
+		"preferredVictoryType": "Scientific",
+		"startIntroPart1": "."
+		"startIntroPart2": ".",
+		"attacked": ".",
+		"defeated": ".",
+		"introduction": ".",
+		"neutralHello": "?",
+		"hateHello": "."
+		"tradeRequest": ".",
+		"outerColor": [0,0,0],
+		"innerColor": [255,255,255],
+		"uniqueName": "Master Spark",
+		"uniques": ["[All] units gain the [Human Race] promotion", "Starts with [Research For Magic]", "Starts with [Simple Alchemy]", "[+50]% Strength <for [{Human} {Magician}] units>","Provides [1] [Mini-Hakkero Card]"],
+		"cities": ["Arcanopolis", "Mystoria", "Sorceron", "Enchantia", "Maginium", "Spellhaven", "Wizard's Reach", "Enigmaire", "Conjuria", "Manaheim"]
+	},
+	{
+		"name": "Senkai Principality",
+		"leaderName": "Toyosatomimi no Miko",
+		"adjective": ["Hermit"],
+		"preferredVictoryType": "Cultural",
+		"startIntroPart1": "."
+		"startIntroPart2": ".",
+		"attacked": ".",
+		"defeated": ".",
+		"introduction": ".",
+		"neutralHello": "?",
+		"hateHello": "."
+		"tradeRequest": ".",
+		"outerColor": [187,164,141],
+		"innerColor": [64,32,115],
+		"uniqueName": "Ten Desires",
+		"uniques": ["Starts with [Religion]", "[All] units gain the [Youkai] promotion",
+		"City-State Influence recovers at twice the normal rate",
+		"City-State territory always counts as friendly territory",
+		"[-30]% City-State Influence degradation",
+		"Resting point for Influence with City-States is increased by [10]","Provides [1] [Esteemed Authority Card]"],
+		"favoredReligion": "Taoism",
+		"cities": ["Chenming", "Huashan", "Lingyin", "Qingcheng", "Wudang", "Xuanwu", "Ziran", "Daziran", "Taiji", "Xiaoyao"]
+	},
+	{
+		"name": "Shining Needle Castle",
+		"leaderName": "Shinmyoumaru Sukuna",
+		"adjective": ["Inchling"],
+		"preferredVictoryType": "Domination",
+		"startIntroPart1": ".",
+		"startIntroPart2": ".",
+		"attacked": ".",
+		"defeated": ".",
+		"introduction": ".",
+		"neutralHello": "?",
+		"hateHello": "."
+		"tradeRequest": ".",
+		"outerColor": [245,84,109],
+		"innerColor": [89,19,112],
+		"uniqueName": "Seija's Revolution Plan",
+		"uniques": ["[All] units gain the [Youkai] promotion", "[+50]% [Gold] [in puppeted cities] <before the [Meiji era]>", "[+50]% [Culture] [in puppeted cities] <before the [Meiji era]>", "[+50]% [Science] [in puppeted cities] <before the [Meiji era]>"],
+		"cities": ["Yamagakure", "Mizuhara", "Koganeishi", "Hoshimori", "Hayatsuki", "Hisamegawa", "Inariyama", "Fuyutsuki", "Tsukiyomi", "Aokigahara"]
+	},
+	{
+		"name": "Tengu Union",
+		"leaderName": "Tenma",
+		"startBias": ["Youkai Forest"]
+		"adjective": ["Tengu"],
+		"preferredVictoryType": "Neutral",
+		"startIntroPart1": ".",
+		"startIntroPart2": ".",
+		"attacked": ".",
+		"defeated": ".",
+		"introduction": ".",
+		"neutralHello": "?",
+		"hateHello": "."
+		"tradeRequest": ".",
+		"outerColor": [105,0,0],
+		"innerColor": [255,255,255],
+		"uniqueName": "Caste System",
+		"uniques": ["[All] units gain the [Youkai] promotion", "[{Melee} {Land}] units gain the [Beast] promotion", "[{Ranged} {Land}] units gain the [Winged] promotion", "[+1] Movement <for [Winged] units>", "[+10]% Strength <for [Beast] units>", "[+1 Production, -1 Happiness] per [2] population [in all cities]", "[-1 Happiness] per [3] population [in all cities]", "Cannot build [Mounted] units"],
+		"cities": ["Tengugawa", "Youkai-machi", "Amanozakura", "Raijindai", "Fujinshou", "Sokai-kyo", "Yamabushinaka", "Karasutani", "Houyama", "Kamitengu-no-mori"]
+	},
+	{
+		"name": "The Borderless Realm",
+		"leaderName": "Yukari Yakumo",
+		"adjective": ["Youkai"],
+		"preferredVictoryType": "Cultural",
 
-game2.png
-size: 2048, 1024
-format: RGBA8888
-filter: MipMapLinearLinear, MipMapLinearLinear
-repeat: none
-BuildingIcons/Official Time System
-  rotate: false
-  xy: 4, 908
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Okuu's Nuclear Reactor
-  rotate: false
-  xy: 4, 800
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Old Capital
-  rotate: false
-  xy: 112, 908
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Omoikane's Device
-  rotate: false
-  xy: 4, 692
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Onsen
-  rotate: false
-  xy: 4, 584
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Perfect Beer Program
-  rotate: false
-  xy: 4, 368
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Perfect Cherry Blossom
-  rotate: false
-  xy: 112, 476
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Phantom Ship Harbor
-  rotate: false
-  xy: 328, 692
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Potion Maker
-  rotate: false
-  xy: 112, 368
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Protected Territory
-  rotate: false
-  xy: 436, 692
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Puppet Theatre
-  rotate: false
-  xy: 4, 152
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Purification Rod
-  rotate: false
-  xy: 112, 260
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Rice Field
-  rotate: false
-  xy: 220, 260
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Rice Wine
-  rotate: false
-  xy: 328, 368
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Scarlet Basement
-  rotate: false
-  xy: 544, 476
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Scarlet Devil Mansion
-  rotate: false
-  xy: 652, 584
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Sculpture
-  rotate: false
-  xy: 868, 800
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Secret Hermit World
-  rotate: false
-  xy: 976, 908
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Shining Needle Sword
-  rotate: false
-  xy: 328, 44
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Spiritual Home
-  rotate: false
-  xy: 544, 152
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Steel Factory
-  rotate: false
-  xy: 976, 584
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Storehouse
-  rotate: false
-  xy: 1084, 692
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Suzunaan
-  rotate: false
-  xy: 1192, 800
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Taoist Mausoleum
-  rotate: false
-  xy: 652, 152
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Taoist Temple
-  rotate: false
-  xy: 760, 260
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Tea Ceremony
-  rotate: false
-  xy: 868, 368
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Tea House
-  rotate: false
-  xy: 976, 476
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/The Heart Sutra
-  rotate: false
-  xy: 760, 152
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Torii Gate
-  rotate: false
-  xy: 1408, 800
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Town Square
-  rotate: false
-  xy: 868, 152
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Twilight Bar Room
-  rotate: false
-  xy: 1084, 368
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Underground Geyser Center
-  rotate: false
-  xy: 1300, 584
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Wicked Taoism
-  rotate: false
-  xy: 1624, 800
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Winery
-  rotate: false
-  xy: 1084, 152
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Wrath Of The Superior
-  rotate: false
-  xy: 1516, 584
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Yakumo Residence
-  rotate: false
-  xy: 1624, 692
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ImprovementIcons/Reichoen
-  rotate: false
-  xy: 436, 584
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ImprovementIcons/Relinquished Land Ownership
-  rotate: false
-  xy: 760, 908
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-NationIcons/Oni Clans
-  rotate: false
-  xy: 220, 908
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-NationIcons/Ordinary Magicians
-  rotate: false
-  xy: 220, 800
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-NationIcons/Senkai Principality
-  rotate: false
-  xy: 544, 368
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-NationIcons/Shining Needle Castle
-  rotate: false
-  xy: 1084, 908
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-NationIcons/Tengu Union
-  rotate: false
-  xy: 1192, 692
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-NationIcons/The Borderless Realm
-  rotate: false
-  xy: 1408, 908
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-NationIcons/The Netherworld
-  rotate: false
-  xy: 868, 260
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-NationIcons/The Unified Doll Front
-  rotate: false
-  xy: 1192, 584
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-PolicyIcons/Parliament
-  rotate: false
-  xy: 220, 692
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-PolicyIcons/Totalitarianism
-  rotate: false
-  xy: 1516, 908
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ReligionIcons/Sect Shinto
-  rotate: false
-  xy: 220, 44
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ReligionIcons/Shrine Shinto
-  rotate: false
-  xy: 652, 368
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ResourceIcons/Wonder Slot
-  rotate: false
-  xy: 1300, 368
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TechIcons/Outside World Awareness
-  rotate: false
-  xy: 328, 908
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TechIcons/Paid Service
-  rotate: false
-  xy: 4, 476
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TechIcons/Peace To Gensokyo
-  rotate: false
-  xy: 436, 908
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TechIcons/Philosophy
-  rotate: false
-  xy: 436, 800
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TechIcons/Politics
-  rotate: false
-  xy: 4, 260
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TechIcons/Printing
-  rotate: false
-  xy: 220, 476
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TechIcons/Professional Army
-  rotate: false
-  xy: 328, 584
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TechIcons/Psychological Warfare
-  rotate: false
-  xy: 544, 800
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TechIcons/Public Education
-  rotate: false
-  xy: 652, 908
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TechIcons/Religion
-  rotate: false
-  xy: 544, 692
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TechIcons/Religious Doctrine
-  rotate: false
-  xy: 652, 800
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TechIcons/Research For Magic
-  rotate: false
-  xy: 112, 152
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TechIcons/Rituals
-  rotate: false
-  xy: 436, 476
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TechIcons/Scientific Knowledge
-  rotate: false
-  xy: 760, 692
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TechIcons/Self-Discovery
-  rotate: false
-  xy: 328, 152
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TechIcons/Shield Wall
-  rotate: false
-  xy: 976, 800
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TechIcons/Shogunate
-  rotate: false
-  xy: 544, 260
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TechIcons/Simple Alchemy
-  rotate: false
-  xy: 868, 584
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TechIcons/State Government
-  rotate: false
-  xy: 868, 476
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TechIcons/Technology Limit
-  rotate: false
-  xy: 1084, 584
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TechIcons/Things To Know
-  rotate: false
-  xy: 1300, 692
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TechIcons/Vassal States
-  rotate: false
-  xy: 1624, 908
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TechIcons/Woodblock Printing
-  rotate: false
-  xy: 1408, 476
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TechIcons/Yama's Permission
-  rotate: false
-  xy: 1732, 800
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TechIcons/ZUN's Perfect Beer
-  rotate: false
-  xy: 1840, 800
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Tiles/Bamboo Forest
-  rotate: false
-  xy: 4, 4
-  size: 32, 32
-  orig: 32, 32
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Tiles/Bamboo Forest+Bamboo Garden
-  rotate: false
-  xy: 1948, 976
-  size: 32, 32
-  orig: 32, 32
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Tiles/Bamboo Forest+Ninja's House
-  rotate: false
-  xy: 1192, 112
-  size: 32, 32
-  orig: 32, 32
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Tiles/Barricades
-  rotate: false
-  xy: 1300, 224
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Tiles/Citadel
-  rotate: false
-  xy: 1408, 328
-  size: 32, 32
-  orig: 32, 32
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Tiles/City center-Edo period
-  rotate: false
-  xy: 1516, 436
-  size: 32, 32
-  orig: 32, 32
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Tiles/City center-Meiji era
-  rotate: false
-  xy: 1516, 436
-  size: 32, 32
-  orig: 32, 32
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Tiles/City center-Modern era
-  rotate: false
-  xy: 1516, 436
-  size: 32, 32
-  orig: 32, 32
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Tiles/City center-Present era
-  rotate: false
-  xy: 1516, 436
-  size: 32, 32
-  orig: 32, 32
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Tiles/City center-Youkai Expansion Project
-  rotate: false
-  xy: 1516, 436
-  size: 32, 32
-  orig: 32, 32
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Tiles/Forest Of Magic
-  rotate: false
-  xy: 1624, 544
-  size: 32, 32
-  orig: 32, 32
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Tiles/Garden Of The Sun
-  rotate: false
-  xy: 1732, 652
-  size: 32, 32
-  orig: 32, 32
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Tiles/Giant Toad's Pond
-  rotate: false
-  xy: 1840, 760
-  size: 32, 32
-  orig: 32, 32
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Tiles/Grassland+Forest+Barricades
-  rotate: false
-  xy: 44, 4
-  size: 32, 32
-  orig: 32, 32
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Tiles/Grassland+Forest+Doll Lumber House
-  rotate: false
-  xy: 1948, 937
-  size: 32, 31
-  orig: 32, 31
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Tiles/Grassland+Hill+Forest+Doll Lumber House
-  rotate: false
-  xy: 1988, 980
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Tiles/Grassland+Jungle+Barricades
-  rotate: false
-  xy: 1192, 72
-  size: 32, 32
-  orig: 32, 32
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Tiles/Keystone
-  rotate: false
-  xy: 1232, 112
-  size: 32, 32
-  orig: 32, 32
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Tiles/Makai
-  rotate: false
-  xy: 1300, 180
-  size: 32, 36
-  orig: 32, 36
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Tiles/Misty Lake
-  rotate: false
-  xy: 1340, 224
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Tiles/Nameless Hill
-  rotate: false
-  xy: 1408, 288
-  size: 32, 32
-  orig: 32, 32
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Tiles/Plains+Forest+Barricades
-  rotate: false
-  xy: 1448, 328
-  size: 32, 32
-  orig: 32, 32
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Tiles/Plains+Forest+Doll Lumber House
-  rotate: false
-  xy: 1516, 397
-  size: 32, 31
-  orig: 32, 31
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Tiles/Plains+Hill+Forest+Doll Lumber House
-  rotate: false
-  xy: 1556, 440
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Tiles/Plains+Jungle+Barricades
-  rotate: false
-  xy: 1624, 504
-  size: 32, 32
-  orig: 32, 32
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Tiles/Saigyou Ayakashi
-  rotate: false
-  xy: 1664, 540
-  size: 32, 36
-  orig: 32, 36
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Tiles/Tundra+Forest+Barricades
-  rotate: false
-  xy: 1732, 612
-  size: 32, 32
-  orig: 32, 32
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Tiles/Tundra+Forest+Doll Lumber House
-  rotate: false
-  xy: 1772, 653
-  size: 32, 31
-  orig: 32, 31
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Tiles/Tundra+Hill+Forest+Doll Lumber House
-  rotate: false
-  xy: 1840, 721
-  size: 32, 31
-  orig: 32, 31
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Tiles/Youkai Forest
-  rotate: false
-  xy: 1880, 760
-  size: 32, 32
-  orig: 32, 32
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Tiles/Youkai Mountain
-  rotate: false
-  xy: 1948, 893
-  size: 32, 36
-  orig: 32, 36
-  offset: 0, 0
-  index: -1
-UnitActionIcons/Paradrop
-  rotate: false
-  xy: 112, 584
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Ordinary Magician
-  rotate: false
-  xy: 112, 692
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Patrol
-  rotate: false
-  xy: 328, 800
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Physician
-  rotate: false
-  xy: 544, 908
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Ramming Vessel
-  rotate: false
-  xy: 220, 368
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Recruit
-  rotate: false
-  xy: 328, 476
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Relinquisher Of Land
-  rotate: false
-  xy: 4, 44
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Ronin
-  rotate: false
-  xy: 544, 584
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Royal Ashigaru
-  rotate: false
-  xy: 652, 692
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Royal Cavalry
-  rotate: false
-  xy: 760, 800
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Royal Guard
-  rotate: false
-  xy: 868, 908
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Royal Samurai
-  rotate: false
-  xy: 112, 44
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Samurai
-  rotate: false
-  xy: 220, 152
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Samurai Cavalry
-  rotate: false
-  xy: 328, 260
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Senjutsu Practitioner
-  rotate: false
-  xy: 436, 260
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Serviceman
-  rotate: false
-  xy: 652, 476
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Shadow Ninja
-  rotate: false
-  xy: 760, 584
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Sharpshooter
-  rotate: false
-  xy: 868, 692
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Ship-Sinking Mermaid
-  rotate: false
-  xy: 436, 152
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Shuten Doji Summon
-  rotate: false
-  xy: 760, 476
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Sohei Soldier
-  rotate: false
-  xy: 1084, 800
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Solitary Saint
-  rotate: false
-  xy: 1192, 908
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Spy
-  rotate: false
-  xy: 652, 260
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Tamed Beast
-  rotate: false
-  xy: 1300, 908
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Tanegashima
-  rotate: false
-  xy: 544, 44
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/The Biggest Dumpling
-  rotate: false
-  xy: 1300, 800
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/The Greatest Dango
-  rotate: false
-  xy: 652, 44
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/The Softest Rice Ball
-  rotate: false
-  xy: 976, 368
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/The Tastiest Sashimi
-  rotate: false
-  xy: 1084, 476
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Totsunyuukan
-  rotate: false
-  xy: 760, 44
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Tree Dweller
-  rotate: false
-  xy: 976, 260
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Undercover
-  rotate: false
-  xy: 1192, 476
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Vampire Hunter
-  rotate: false
-  xy: 1516, 800
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Vengeful Spirit
-  rotate: false
-  xy: 868, 44
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Veteran Ronin
-  rotate: false
-  xy: 976, 152
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/War Vessel
-  rotate: false
-  xy: 1084, 260
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Warrior
-  rotate: false
-  xy: 1192, 368
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Warrior Monk
-  rotate: false
-  xy: 1300, 476
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Warship
-  rotate: false
-  xy: 1408, 584
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Water Spellcaster
-  rotate: false
-  xy: 1516, 692
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Wild Beast
-  rotate: false
-  xy: 1732, 908
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Youjutsu Master
-  rotate: false
-  xy: 1840, 908
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Youjutsu Practitioner
-  rotate: false
-  xy: 1084, 44
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Youkai Hunter
-  rotate: false
-  xy: 1300, 260
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Youkai Patrol
-  rotate: false
-  xy: 1408, 368
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Youkai Slayer
-  rotate: false
-  xy: 1516, 476
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Yume no Seirei
-  rotate: false
-  xy: 1624, 584
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Yumi Samurai
-  rotate: false
-  xy: 1732, 692
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Oni
-  rotate: false
-  xy: 112, 800
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Phantasm
-  rotate: false
-  xy: 220, 584
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Satori Race
-  rotate: false
-  xy: 436, 368
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Sniper
-  rotate: false
-  xy: 976, 692
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Spirit
-  rotate: false
-  xy: 436, 44
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Stab Third Eye
-  rotate: false
-  xy: 760, 368
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Vampire
-  rotate: false
-  xy: 1408, 692
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Willpower
-  rotate: false
-  xy: 976, 44
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Winged
-  rotate: false
-  xy: 1192, 260
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Youkai
-  rotate: false
-  xy: 1192, 152
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
+		"startIntroPart1": "Welcome to The Realm Without Boundaries, overseen by Yukari Yakumo, where reality and fantasy entwine.",
+		"startIntroPart2": "In this mystical land, boundaries bend to her will, creating a tapestry of wonder. What wonder will you present?",
+		"declaringWar": "Our borders will be one, doesn't that sound so wonderful?",
+		"attacked": "Did you forget that I am the mistress of boundaries?",
+		"defeated": "The threads of fate may have unraveled, but I shall weave them anew.",
+		"introduction": "Welcome to a world of enchantment and boundless possibilities.",
+		"neutralHello": "Hm? What's the matter?",
+		"hateHello": "Be careful, our discussions may mirror the delicate balance of our relationship.",
+		"tradeRequest": "Let us forge a deal that transcends boundaries!",
+		"outerColor": [40,0,92],
+		"innerColor": [213,210,242],
+		"uniqueName": "Manipulation Of Boundaries",
+		"uniques": ["Comment [Yukari, the Youkai of Boundaries, can open gaps that rips through dimensions, which can act as portals for her subjects. Land Units can teleport (paradrop) up to 4 tiles when inside friendly territory, if the unit hasn't done any other actions yet; however, Military Land units are more expensive to produce]",
+		"Comment [------------------]",
+		"[All] units gain the [Youkai] promotion", "[Land] units gain the [Phantasm] promotion", "[-30]% Production when constructing [{Military} {Land}] units [in all cities]","Provides [1] [Screen Border Card]"],
+		"cities": ["Hakumori","Kasenba","Mizukawa","Soraheim","Yumegawa","Kagetsu","Tsukimori","Kiriwara","Hanamachi","Enishi"]
+	},
+	{
+		"name": "The Netherworld",
+		"leaderName": "Yuyuko Saigyouji",
+		"startBias": ["Saigyou Ayakashi"]
+		"adjective": ["Ghost"],
+		"preferredVictoryType": "Cultural",
+		"startIntroPart1": "."
+		"startIntroPart2": ".",
+		"attacked": ".",
+		"defeated": ".",
+		"introduction": ".",
+		"neutralHello": "?",
+		"hateHello": "."
+		"tradeRequest": ".",
+		"outerColor": [256,221,259],
+		"innerColor": [99,13,160],
+		"uniqueName": "Manager Of The Afterlife Realm",
+		"uniques": ["Comment [Spirit units can cross impassable tiles, Ignore terrain cost, and Ignore Zone of Control; but have -33% Strength penalty when attacking]",
+		"Comment [------------------]",
+		"[All] units gain the [Youkai] promotion", "[Land] units gain the [Spirit] promotion","Provides [1] [Danmaku Ghost Card]"],
+		"cities": ["Hakugyokurou", "Banshōkyō", "Kaidan City", "Yūrei Kōen", "Onryōmura", "Bakemono no Toshi", "Kokoro no Yami", "Reikonokuni", "Obakezaka", "Ayashiki Machi"]
+	},
+	{
+		"name": "The Unified Doll Front",
+		"leaderName": "Alice Margatroid",
+		"startBias": ["Forest"],
+		"adjective": ["Doll"],
+		"preferredVictoryType": "Scientific",
+		"startIntroPart1": "The clicking of gears harmonizes with the tender souls of the dolls who call it home.",
+		"startIntroPart2": "Within their delicate frames resides a profound essence, breathing life into the very fabric of our realm. Doesn't that sound so lovely?",
+		"attacked": "The audacity!",
+		"defeated": "As the somber notes of defeat resonate through the air, I must acknowledge the threads of fate that have unraveled.",
+		"introduction": "Welcome to the whimsical nation of The United Doll Front, where dolls find their voice and purpose.",
+		"neutralHello": "Do you like my introduction?",
+		"hateHello": "Know this: the dolls of my nation are not mere playthings; they possess a strength and resilience that will shatter the hopes of those who dare to assail us.",
+		"tradeRequest": "I extend a warm invitation to explore the wonders of my dolls' realm.",
+		"outerColor": [229,236,162],
+		"innerColor": [50,53,108],
+		"uniqueName": "Doll's Judgement",
+		"uniques": ["Starts with [Research For Magic]", "Starts with [Forbidden Sorcery]", "[All] units gain the [Youkai] promotion", "[Land] units gain the [Doll Construct] promotion", "[+2 Production, -2 Gold] from every [Doll Lumber House]", "[+1 Production] from every [Doll Lumber House] <after discovering [Machinery]>","Provides [1] [Shanghai Doll Card]"],
+		"cities": ["Alice's House","Dollhaven","Gearshire","Artisan's Reach","Whimsyville","Stitchborough","Wondermere","Mechanica","Puppetsburg","Imagiopia"]
+	},
+	// City-States sorted by cityStateType, name
+	{
+		"name": "Izanaginooka",
+		"adjective": ["Izan"],
+		"cityStateType": "Cultured",
 
-game3.png
-size: 2048, 2048
-format: RGBA8888
-filter: MipMapLinearLinear, MipMapLinearLinear
-repeat: none
-TileSets/FantasyHex/Tiles/Chikushokai
-  rotate: false
-  xy: 476, 980
-  size: 32, 38
-  orig: 32, 38
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Tiles/Grassland+Chikushokai+Friendship With Wild Beasts
-  rotate: false
-  xy: 526, 980
-  size: 32, 38
-  orig: 32, 38
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Tiles/Grassland+Chikushokai+Reichoen
-  rotate: false
-  xy: 576, 980
-  size: 32, 38
-  orig: 32, 38
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Saigyou Ayakashi
-  rotate: false
-  xy: 980, 1561
-  size: 64, 96
-  orig: 64, 96
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/City center
-  rotate: false
-  xy: 880, 1561
-  size: 64, 96
-  orig: 64, 96
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/City center-Hakurei Faction
-  rotate: false
-  xy: 780, 1561
-  size: 64, 96
-  orig: 64, 96
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/City center-Moriya Faction
-  rotate: false
-  xy: 780, 1561
-  size: 64, 96
-  orig: 64, 96
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Misty Lake
-  rotate: false
-  xy: 780, 1661
-  size: 64, 96
-  orig: 64, 96
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Forest Of Magic
-  rotate: false
-  xy: 680, 1661
-  size: 64, 96
-  orig: 64, 96
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Youkai Forest
-  rotate: false
-  xy: 880, 1661
-  size: 64, 96
-  orig: 64, 96
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Nameless Hill
-  rotate: false
-  xy: 680, 1461
-  size: 64, 96
-  orig: 64, 96
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Giant Toad's Pond
-  rotate: false
-  xy: 780, 1461
-  size: 64, 96
-  orig: 64, 96
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Youkai Mountain
-  rotate: false
-  xy: 980, 1461
-  size: 64, 96
-  orig: 64, 96
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/City center-Senkai
-  rotate: false
-  xy: 1080, 1461
-  size: 64, 96
-  orig: 64, 96
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/City center-Myouren Faction
-  rotate: false
-  xy: 1080, 1461
-  size: 64, 96
-  orig: 64, 96
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Doll Lumber House2
-  rotate: false
-  xy: 1080, 1361
-  size: 64, 96
-  orig: 64, 96
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Doll Lumber House
-  rotate: false
-  xy: 1180, 1361
-  size: 64, 96
-  orig: 64, 96
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Relinquished Land Ownership
-  rotate: false
-  xy: 1180, 1461
-  size: 64, 96
-  orig: 64, 96
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Garden Of The Sun
-  rotate: false
-  xy: 980, 1361
-  size: 64, 96
-  orig: 64, 96
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Makai
-  rotate: false
-  xy: 780, 1361
-  size: 64, 96
-  orig: 64, 96
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Barricades
-  rotate: false
-  xy: 680, 1361
-  size: 64, 96
-  orig: 64, 96
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Citadel
-  rotate: false
-  xy: 680, 1261
-  size: 64, 96
-  orig: 64, 96
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/City center-Fated Land
-  rotate: false
-  xy: 580, 1261
-  size: 64, 96
-  orig: 64, 96
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/City center-Fraternal Empire
-  rotate: false
-  xy: 580, 1261
-  size: 64, 96
-  orig: 64, 96
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Plains+Bamboo Forest+Ninja's House
-  rotate: false
-  xy: 880, 1261
-  size: 64, 96
-  orig: 64, 96
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Bamboo Forest
-  rotate: false
-  xy: 980, 1261
-  size: 64, 96
-  orig: 64, 96
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Grassland+Chikushokai+Friendship With Wild Beasts
-  rotate: false
-  xy: 1080, 1161
-  size: 64, 96
-  orig: 64, 96
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Grassland+Chikushokai+Reichoen
-  rotate: false
-  xy: 1080, 1061
-  size: 64, 96
-  orig: 64, 96
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/City center-(Keiki Haniyasushin's Nation)
-  rotate: false
-  xy: 980, 1068
-  size: 64, 96
-  orig: 64, 96
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Chikushokai
-  rotate: false
-  xy: 980, 1161
-  size: 64, 96
-  orig: 64, 96
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Plains+Bamboo Forest+Bamboo Garden
-  rotate: false
-  xy: 880, 1161
-  size: 64, 96
-  orig: 64, 96
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Keystone
-  rotate: false
-  xy: 580, 1161
-  size: 64, 96
-  orig: 64, 96
-  offset: 0, 0
-  index: -1
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "I guess you weren't here for the sprouts after all...",
+		"outerColor": [0, 0, 0],
+		"innerColor": [153,255,51],
+		"cities": ["Izanaginooka"]
+	},
+	{
+		"name": "Tsukuyomihara",
+		"adjective": ["Tsukuyoan"],
+		"cityStateType": "Cultured",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "And so the flower of Florence falls to barbaric hands...",
+		"outerColor": [0, 0, 0],
+		"innerColor": [62,197,252],
+		"cities": ["Tsukuyomihara"]
+	},
+	{
+		"name": "Amaterasu City",
+		"adjective": ["Amaterasuan"],
+		"cityStateType": "Cultured",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "So this is how it feels to die...",
+		"outerColor": [0, 0, 0],
+        "innerColor": [51,51,255],
+		"cities": ["Amaterasu City"]
+	},
+	{
+		"name": "Fujinomori",
+		"adjective": ["Fujinomorin"],
+		"cityStateType": "Cultured",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "Unacceptable!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [168,38,102],
+		"cities": ["Fujinomori"]
+	},
+	{
+		"name": "Susanoo Bay",
+		"adjective": ["Susanoo"],
+		"cityStateType": "Cultured",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "Today, the Malay people obey you, but do not think this is over...",
+		"outerColor": [0, 0, 0],
+		"innerColor": [0,102,102],
+		"cities": ["Susanoo Bay"]
+	},
+	{
+		"name": "Raijin Heights",
+		"adjective": ["Rainin"],
+		"cityStateType": "Cultured",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "Perhaps now we will find peace in death...",
+		"outerColor": [0, 0, 0],
+		"innerColor": [204,102,0],
+		"cities": ["Raijin Heights"]
+	},
+	{
+		"name": "Benzaiten Village",
+		"adjective": ["Benzaitan"],
+		"cityStateType": "Cultured",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "You fiend! History shall remember this!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [185,132,66],
+		"cities": ["Benzaiten Village"]
+	},
+	{
+		"name": "Kagutsuchi Falls",
+		"adjective": ["Kagutsuchin"],
+		"cityStateType": "Cultured",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We were too weak to protect ourselves...",
+		"outerColor": [0, 0, 0],
+		"innerColor": [51,102,0],
+		"cities": ["Kagutsuchi Falls"]
+	},
+
+	{
+		"name": "Inari Town",
+		"adjective": ["Inarian"],
+		"cityStateType": "Maritime",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "I have failed. May you, at least, know compassion towards our people.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [255,153,153],
+		"cities": ["Inari Town"]
+	},
+	{
+		"name": "Yuki-Onna Haven",
+		"adjective": ["Yuki-Onna"],
+		"cityStateType": "Maritime",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "The day of judgement has come to us. But rest assured, the same will go for you!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [255,178,102],
+		"cities": ["Yuki-Onna Haven"]
+	},
+	{
+		"name": "Kijin Harbor",
+		"adjective": ["Kijin"],
+		"cityStateType": "Maritime",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "Ah, Gods! Why have you forsaken us?",
+		"outerColor": [0, 0, 0],
+		"innerColor": [96,96,96],
+		"cities": ["Kijin Harbor"]
+	},
+	{
+		"name": "Suijin Springs",
+		"adjective": ["Suijin"],
+		"cityStateType": "Maritime",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "Congratulations, conqueror. This tribe serves you now.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [224,224,224],
+		"cities": ["Suijin Springs"]
+	},
+	{
+		"name": "Ryujin Citadel",
+		"adjective": ["Ryujin"],
+		"cityStateType": "Maritime",
+		"startBias": ["Coast"],
+
+		"declaringWar": "I have to do this, for the sake of progress if nothing else. You must be opposed!",
+		"attacked": "You can see how fruitless this will be for you... right?",
+		"defeated": "May God grant me these last wishes - peace and prosperity for Brazil.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [211, 220, 103],
+		"cities": ["Ryujin Citadel"]
+	},
+	{
+		"name": "Hachiman Gate",
+		"adjective": ["Hachiman"],
+		"cityStateType": "Maritime",
+
+		"declaringWar": "After thorough deliberation, Australia finds itself at a crossroads. Prepare yourself, for war is upon us.",
+		"attacked": "We will mobilize every means of resistance to stop this transgression against our nation!",
+		"defeated": "The principles for which we have fought will survive longer than any nation you could ever build.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [255,204,204],
+		"cities": ["Hachiman Gate"]
+	},
+	{
+		"name": "Kappa's Crossing",
+		"adjective": ["Kappa"],
+		"cityStateType": "Maritime",
+		"startBias": ["Coast"],
+
+		"declaringWar": "I will enjoy hearing your last breath as you witness the destruction of your realm!",
+		"attacked": "Why do we fight? Because the Kappa are the smartest. Now, witness the power of the Kappa!",
+		"defeated": "What treachery has struck us? No, what evil?",
+		"outerColor": [0, 0, 0],
+		"innerColor": [255,69,0],
+		"cities": ["Kappa's Crossing"]
+	},
+	{
+		"name": "Ashinagatenchi",
+		"adjective": ["Ashinagan"],
+		"cityStateType": "Maritime",
+
+		"declaringWar": "In responding to the unstinting malignancy that has heretofore defined your relationship with the youkai, we can have no recourse but war!",
+		"attacked": "As we can reach no peaceful resolution with you, the youkai must turn, with reluctance, to war.",
+		"defeated": "I regret not defending my country to the last, although it was not of use.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [0,255,128],
+		"cities": ["Ashinagatenchi"]
+	},
+	{
+		"name": "Yama no Ichi",
+		"adjective": ["Yama Follower"],
+		"cityStateType": "Maritime",
+		"startBias": ["Coast"],
+
+		"declaringWar": "You have revealed your purposes a bit too early, my friend...",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "A wrong calculation, on my part.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [153,204,255],
+		"cities": ["Yama no Ichi"]
+	},
+
+	{
+		"name": "Komainu Heights",
+		"adjective": ["Komainu"],
+		"cityStateType": "Mercantile",
+		"startBias": ["Coast"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "They will write songs of this.... pray that they shall be in your favor.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [194,97,255],
+		"cities": ["Komainu Heights"]
+	},
+	{
+		"name": "Jorogumo Village",
+		"adjective": ["Jorogumo"],
+		"cityStateType": "Mercantile",
+		"startBias": ["Coast"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "How barbaric. Those who live by the sword shall perish by the sword.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [45,255,86],
+		"cities": ["Jorogumo Village"]
+	},
+	{
+		"name": "Kathmandu",
+		"adjective": ["Kathmandu"],
+		"cityStateType": "Mercantile",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We... defeated? No... we had so much work to do!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [151,125,0],
+		"cities": ["Kathmandu"]
+	},
+	{
+		"name": "Kitsune Hollow",
+		"adjective": ["Kitsune"],
+		"cityStateType": "Mercantile",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "Perhaps, in another world, we could have been friends...",
+		"outerColor": [0, 0, 0],
+		"innerColor": [255,255,0],
+		"cities": ["Kitsune Hollow"]
+	},
+	{
+		"name": "Uchide no Kozuchi City",
+		"adjective": ["Uchide"],
+		"cityStateType": "Mercantile",
+		"startBias": ["Coast"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [255,97,255],
+		"cities": ["Uchide no Kozuchi City"]
+	},
+	{
+		"name": "Shachihoko Bay",
+		"adjective": ["Shachin"],
+		"cityStateType": "Mercantile",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "May the Heavens forgive you for inflicting this humiliation to our people.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [255,153,255],
+		"cities": ["Shachihoko Bay"]
+	},
+
+	{
+		"name": "Shishigami Grove",
+		"adjective": ["Shishigami"],
+		"cityStateType": "Militaristic",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "How could we fall to the likes of you?!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [152,0,241],
+		"cities": ["Shishigami Grove"]
+	},
+	{
+		"name": "Kurozuka Gorge",
+		"adjective": ["Kurozukan"],
+		"cityStateType": "Militaristic",
+
+		"declaringWar": "Let's have a nice little War, shall we?",
+		"attacked": "If you need your nose bloodied, we'll happily serve.",
+		"defeated": "The serbian guerilla will never stop haunting you!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [211,180,113],
+		"cities": ["Kurozuka Gorge"]
+	},
+	{
+		"name": "Omizutori Haven",
+		"adjective": ["Omizutori"],
+		"cityStateType": "Militaristic",
+
+		"declaringWar": "War lingers in our hearts. Why carry on with a false peace?",
+		"attacked": "You gormless radger! You'll dine on your own teeth before you set foot in Ireland!",
+		"defeated": "A lonely wind blows through the highlands today. A dirge for Ireland. Can you hear it?",
+		"outerColor": [0, 0, 0],
+		"innerColor": [211,180,113],
+		"cities": ["Omizutori Haven"]
+	},
+	{
+		"name": "Tanuki Borough",
+		"adjective": ["Tanuki"],
+		"cityStateType": "Militaristic",
+
+		"declaringWar": "You shall stain this land no longer with your vileness! To arms, my countrymen - we ride to war!",
+		"attacked": "Traitorous man! The Celtic peoples will not stand for such wanton abuse and slander - I shall have your head!",
+		"defeated": "Vile ruler, know that you 'won' this war in name only!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [0,102,102],
+		"cities": ["Tanuki Borough"]
+	},
+	{
+		"name": "Karasu Castle",
+		"adjective": ["Karasu"],
+		"cityStateType": "Militaristic",
+
+		"declaringWar": "Do you really think you can walk over us so easily? I will not let it happen. Not to Karasu - not to my people!",
+		"attacked": "We are no strangers to war. You have strayed from the right path, and now we will correct it.",
+		"defeated": "You are nothing but a glorified barbarian. Cruel, and ruthless.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [255,128,0],
+		"cities": ["Karasu Castle"]
+	},
+	{
+		"name": "Okuninushi Hamlet",
+		"adjective": ["Okininushi"],
+		"cityStateType": "Militaristic",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "What a fine battle! Okinushi is willing to serve you!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [250,128,114],
+		"cities": ["Okuninushi Hamlet"]
+	},
+	{
+		"name": "Yukiwarashi Springs",
+		"adjective": ["Yukiwarashi"],
+		"cityStateType": "Militaristic",
+
+		"declaringWar": "We don't like your face. To arms!",
+		"attacked": "You will see you have just bitten off more than you can chew.",
+		"defeated": "This ship may sink, but our spirits will linger.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [0,102,102],
+		"cities": ["Yukiwarashi Springs"]
+	},
+
+	{
+		"name": "Kintaro Valley",
+		"adjective": ["Kintaro"],
+		"cityStateType": "Religious",
+
+		"declaringWar": "I didn't want to do this. We declare war.",
+		"attacked": "I will fear no evil!",
+		"defeated": "This is unfortunate.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [255,255,255],
+		"cities": ["Kintaro Valley"]
+	},
+	{
+		"name": "Gozu-Tenno Citadel",
+		"adjective": ["Gozu-Tenno"],
+		"cityStateType": "Religious",
+
+		"declaringWar": "We have wanted this for a LONG time. War it shall be.",
+		"attacked": "Very well, we will kick you back to the ancient era!",
+		"defeated": "This isn't how it is supposed to be!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [203, 253, 232],
+		"cities": ["Gozu-Tenno Citadel"]
+	},
+
+
+
+	//Barbarian
+	{
+		"name": "Barbarians",
+		"outerColor": [0,0,0],
+        "innerColor": [185,12,12],
+		"uniques": ["Can only heal by pillaging", "[All] units gain the [Youkai] promotion"]
+	}
+
+]
