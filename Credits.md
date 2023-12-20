@@ -2,7 +2,7 @@
 - [ptliem007](https://github.com/ptliem007) - thanks to this fellow modder for bringing in PC Civ-5 Touhou mods, my work is inspired by him.
 - [hachchch](https://github.com/hachchch) - thanks to him for helping with the mod, he's literally carrying it lol.
 
-**Credit to illustrations used in Leader Portraits (Artists and links to their profiles or the source artwork):**
+**Credits for the illustrations used in Leader Portraits (Links to the Artist's profile or the source artwork):**
 Alice Margatroid - [Kosu](https://www.pixiv.net/en/users/5626224)
 Flandre Scarlet - [tamagogayu1998](https://danbooru.donmai.us/posts/6730380)
 Remilia Scarlet - [deal360acv](https://danbooru.donmai.us/posts/6364379?q=remilia_scarlet+order%3Ascore+rating%3Ageneral)
