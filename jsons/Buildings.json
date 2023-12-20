@@ -695,7 +695,8 @@
 		"replaces": "Circus",
 		"happiness": 2,
 		"hurryCostModifier": 25,
-		"maintenance": 2
+		"maintenance": 2,
+		"requiredTech": "Festivals"
 	},
 	{
 		"name": "Castle",
