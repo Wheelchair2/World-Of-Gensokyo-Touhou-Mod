@@ -1,6 +1,7 @@
 - **@ichiko_hanaji** - since I took many of this artist's artwork, I might as well credit him. Thank the artist for his awesome 2hu silhouette art.
 - [ptliem007](https://github.com/ptliem007) - thanks to this fellow modder for bringing in PC Civ-5 Touhou mods, my work is inspired by him.
 - [hachchch](https://github.com/hachchch) - thanks to him for helping with the mod, he's literally carrying it lol.
+- [rafael-m](https://danbooru.donmai.us/posts?tags=rafael-m&z=1) - artist and source link of the preview image used
 
 **Credits for the illustrations used in Leader Portraits (Links to the Artist's profile or the source artwork):**
 - Alice Margatroid: [Kosu](https://www.pixiv.net/en/users/5626224)
