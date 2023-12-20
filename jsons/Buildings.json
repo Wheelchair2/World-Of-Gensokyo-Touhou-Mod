@@ -1284,16 +1284,6 @@
 		"requiredTech": "Full Conversion",
 		"isWonder": true
 	},
-	{
-		"name": "Hall Of Idols",
-		"culture": 1,
-		"faith": 3,
-		"uniques": ["Only available <if [Major Religions In Gensokyo] is constructed>", "Requires a [Shrine] in all cities", "Hidden when religion is disabled",
-			"Gain a free [Torii Gate] [in this city]",
-			"All newly-trained [Missionary] units [in this city] receive the [Devout] promotion", "All newly-trained [Great Prophet] units [in this city] receive the [Devout] promotion", "Can only be built [in holy cities]"],
-		"requiredTech": "Full Conversion",
-		"isWonder": true
-	},
 	
 	/*{ EXPERIMENTAL
 		"name": "Secret Hermit World",
