@@ -38,7 +38,7 @@
 	//Nation Specific Wonders
 	{
 		"name": "Scarlet Devil Mansion",
-		"uniqueTo": "Fated Land"
+		"uniqueTo": "Fated Kingdom"
 		"cost": 185,
 		"isNationalWonder": true,
 		"uniques": ["Special Wonder", "[-30]% construction time for [All] improvements"]
@@ -83,7 +83,7 @@
 	},
 	{
 		"name": "Concealing Four Seasons",
-		"uniqueTo": "Land Of The Back Doors",
+		"uniqueTo": "Land Of The Backdoors",
 		"cost": 225,
 		"isNationalWonder": true,
 		"greatPersonPoints": {"Great Artist": 1},
@@ -262,7 +262,7 @@
 		"faith": 1,
 		"uniques": ["Special Wonder","Cost increases by [95] per owned city",
 		"Creates a [Trading post] improvement on a specific tile <after discovering [Improved Trade]>",
-		"When your Gold is below 700(note:modified by game speed), the number of blank cards will be doubled and the maintenance cost of Road will be zero. However, Doubles Gold given to enemy if city is captured. Protect the Commerce Prosperity!",
+		"Comment [When your Gold is below 700(note:modified by game speed), the number of blank cards will be doubled and the maintenance cost of Road will be zero. However, Doubles Gold given to enemy if city is captured. Protect the Commerce Prosperity!]",
 		"No Maintenance costs for improvements in [Road] tiles <when below [701] [Gold] (modified by game speed)> <hidden from users>",
 		"Double quantity of [Blank Card] produced <when below [701] [Gold] (modified by game speed)> <hidden from users>",
 		"Doubles Gold given to enemy if city is captured <when below [701] [Gold] (modified by game speed)> <hidden from users>"
@@ -685,7 +685,7 @@
 	{
 		"name": "Meiling's Training Center",
 		"isWonder": true,
-		"uniques": ["All newly-trained [non-air] units [in this city] receive the [Martial Arts] promotion", "(Learning Martial Arts gives your unit +50% XP gain from combat)"],
+		"uniques": ["All newly-trained [non-air] units [in this city] receive the [Martial Arts] promotion", "Comment [(Learning [Martial Arts] gives your unit +50% XP gain from combat)]"],
 		"requiredTech": "Iron Working"
 	},
 	{
@@ -1238,7 +1238,7 @@
 		"name": "Charity House",
 		"hurryCostModifier": 10,
 		"maintenance": 2,
-		"uniques": ["[+1 Food] from every [Faith] building <in this city>", "Destroyed when the city is captured"],
+		"food": 2,
 		"requiredTech": "Rituals"
 	},
 	{
@@ -1277,7 +1277,17 @@
 		"name": "Hall Of Idols",
 		"culture": 1,
 		"faith": 3,
-		"uniques": ["Only available <if [Major Religions In Gensokyo] is constructed>", "Requires a [Shrine] in all cities", "Cost increases by [30] per owned city", "Hidden when religion is disabled",
+		"uniques": ["Only available <if [Major Religions In Gensokyo] is constructed>", "Requires a [Shrine] in all cities", "Hidden when religion is disabled",
+			"Gain a free [Torii Gate] [in this city]",
+			"All newly-trained [Missionary] units [in this city] receive the [Devout] promotion", "All newly-trained [Great Prophet] units [in this city] receive the [Devout] promotion", "Can only be built [in holy cities]"],
+		"requiredTech": "Full Conversion",
+		"isWonder": true
+	},
+	{
+		"name": "Hall Of Idols",
+		"culture": 1,
+		"faith": 3,
+		"uniques": ["Only available <if [Major Religions In Gensokyo] is constructed>", "Requires a [Shrine] in all cities", "Hidden when religion is disabled",
 			"Gain a free [Torii Gate] [in this city]",
 			"All newly-trained [Missionary] units [in this city] receive the [Devout] promotion", "All newly-trained [Great Prophet] units [in this city] receive the [Devout] promotion", "Can only be built [in holy cities]"],
 		"requiredTech": "Full Conversion",
@@ -1369,7 +1379,7 @@
 		"name": "Perfect Beer Program",
 		"cost": 1500,
 		"isNationalWonder": true,
-		"uniques": ["Enables construction of The Perfect Beer's Ingredients", "Triggers a global alert upon completion",
+		"uniques": ["Comment [Enables construction of The Perfect Beer's Ingredients]", "Triggers a global alert upon completion",
 			"Hidden when [Scientific] Victory is disabled", "Cannot be hurried"],
 		"requiredTech": "ZUN's Perfect Beer"
 	},
