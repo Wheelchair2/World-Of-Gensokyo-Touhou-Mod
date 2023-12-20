@@ -1,914 +1,120 @@
 [
-	//Spectator
 	{
-		"name": "Spectator",
-		"outerColor": [255,255,255]
-//		"innerColor": [255,255,255]
-	},
-    
-    /*
-    Some nations doesn't have dialogues yet
-    */
-    
-	{
-		"name": "Beneath The Rainbow",
-		"leaderName": "Chimata Tenkyuu",
-		"adjective": ["Marketeers"],
-		"preferredVictoryType": "Cultural",
-		"startIntroPart1": "."
-		"startIntroPart2": ".",
-		"attacked": ".",
-		"defeated": ".",
-		"introduction": ".",
-		"neutralHello": "?",
-		"hateHello": "."
-		"tradeRequest": ".",
-		"outerColor": [244,244,244],
-		"innerColor": [123,0,206],
-		"uniqueName": "God Of Special Events",
-		"uniques": ["Starts with [Festivals]",
-				"[All] units gain the [Divine Blessing] promotion",
-				"[+10]% Strength <for units with [Divine Blessing]> <when fighting in [Friendly Land] tiles>",
-				"[+1 Gold] per [2] population [in all cities]",
-				"Free [Relinquisher Of Land] appears <upon declaring friendship>",
-				"Provides [2] [Blank Card]"
-				],
-		"cities": [
-		"Kinshicho", "Fuyukoku", "Yuumeizan", "Shokaishi", "Keizaihama", "Kouritsucho", "Zenzenji", "Rinenmura", "Zaiseicho", "Kakushinku"
-		]
+		"name": "Easy",
+		"baseHappiness": 15,
+		"extraHappinessPerLuxury": 1,
+		"researchCostModifier": 0.8,
+		"unitCostModifier": 0.6,
+		"unitSupplyBase": 10,
+		"unitSupplyPerCity": 3,
+		"buildingCostModifier": 0.5,
+		"policyCostModifier": 0.5,
+		"unhappinessModifier": 0.4,
+		"barbarianBonus": 0.75,
+		"barbarianSpawnDelay": 8,
+		"playerBonusStartingUnits": [], // Note that the units from Eras.json are added to this pool. This should only contain bonus starting units.
+		"aiCityGrowthModifier": 1.6, // that is to say it'll take them 1.6 times as long to grow the city
+		"aiUnitCostModifier": 1.75,
+		"aiBuildingCostModifier": 1.6,
+		"aiWonderCostModifier": 1.6,
+		"aiBuildingMaintenanceModifier": 1,
+		"aiUnitMaintenanceModifier": 1,
+		"aiUnitSupplyModifier": 0,
+		"aiFreeTechs": [],
+		"aiMajorCivBonusStartingUnits": ["Era Starting Unit"],
+		"aiCityStateBonusStartingUnits": [],
+		"aiUnhappinessModifier": 1,
+		"aisExchangeTechs": false,
+		"turnBarbariansCanEnterPlayerTiles": 10000,
+		"clearBarbarianCampReward": 50
 	},
 	{
-		"name": "Bhavaagra",
-		"leaderName": "Hinanawi Tenshi",
-		"adjective": ["Celestial"],
-		"preferredVictoryType": "Diplomacy",
-		"startIntroPart1": ".",
-		"startIntroPart2": ".",
-		"attacked": ".",
-		"defeated": ".",
-		"introduction": ".",
-		"neutralHello": "?",
-		"hateHello": "."
-		"tradeRequest": ".",
-		"outerColor": [255,255,255],
-		"innerColor": [0,38,255],
-		"uniqueName": "Manipulation Of Earthquakes",
-		"uniques": ["[All] units gain the [Celestial] promotion", "No defensive terrain penalty <for [All] units>", "[+2 Gold] from every [Keystone] <during a Golden Age>","Provides [1] [Keystone of Endurance Card]"]
-		"cities": ["Tenkai City", "Shinden-Cho", "Kamiyama", "Hoshizora", "Yukikami", "Amaterasu", "Kaguya-Shima", "Soraoka", "Mizuhan", "Tengoku no Machi"]
+		"name": "Prince",
+		// I'm doing that because Prince always set as normal difficulty in Unciv. Previously it always started with Easy when I didn't setting difficulty.
+		// don't worry, It will renamed to 'Normal' in language setting. However, only one thing makes hesitation. because the current game that in progress on normal difficult will crash.
+		"baseHappiness": 9,
+		"extraHappinessPerLuxury": 0,
+		"researchCostModifier": 1,
+		"unitCostModifier": 1,
+		"unitSupplyBase": 5,
+		"unitSupplyPerCity": 2,
+		"buildingCostModifier": 1,
+		"policyCostModifier": 1,
+		"unhappinessModifier": 1,
+		"barbarianBonus": 0.33,
+		"barbarianSpawnDelay": 0,
+		"playerBonusStartingUnits": [],
+		"aiCityGrowthModifier": 1,
+		"aiUnitCostModifier": 1,
+		"aiBuildingCostModifier": 1,
+		"aiWonderCostModifier": 1,
+		"aiBuildingMaintenanceModifier": 1,
+		"aiUnitMaintenanceModifier": 0.85,
+		"aiUnitSupplyModifier": 0.2,
+		"aiFreeTechs": [],
+		"aiMajorCivBonusStartingUnits": ["Era Starting Unit", "Era Starting Unit"],
+		"aiCityStateBonusStartingUnits": [],
+		"aiUnhappinessModifier": 1,
+		"aisExchangeTechs": true,
+		"turnBarbariansCanEnterPlayerTiles": 0,
+		"clearBarbarianCampReward": 25
 	},
 	{
-		"name": "Chireiden Sovereignty",
-		"leaderName": "Satori Komeiji",
-		"adjective": ["Satori"],
-		"preferredVictoryType": "Scientific",
-
-		"startIntroPart1": "I am Satori Komeiji, Mistress of the Palace of the Earth Spirits, Chireiden. I am able to read minds, as a 'satori.' Your IP Address is 150.248.18.82, and you live at... just kidding.",
-		"startIntroPart2": "May you help the satori race prosper!",
-		"declaringWar": "Rin would like to take your corpse.",
-		"attacked": "Just as I expected...",
-		"defeated": "So this is the fate of the satori race, after all...",
-		"introduction": "Nice to meet you, my future rival.",
-		"neutralHello": "Okuu! Bring some tea for our guest.",
-		"hateHello": "Just to remind you, I can read what you're thinking.",
-		"tradeRequest": "I know you won't accept; however, I am going to kick your balls if so.",
-		"outerColor": [252,225,254],
-		"innerColor": [19,81,92],
-		"uniqueName": "Mind-Reading Satori Race",
-		"uniques": ["[Land] units gain the [Satori Race] promotion", "[All] units gain the [Youkai] promotion","Provides [1] [Pebble Hat Card]"],
-		"cities": ["Palace Of The Earth Spirits","Stabiae","Chanchan","Bannack","Consonno","Florida Lost City","Kolmanskop","Trellech","Humberstone","Akrotiri","Taxila","Pyramiden","Merv","Cahokia,","Mologa","Neversink","Hallsands","Lukangol"]
+		"name": "Hard",
+		"baseHappiness": 9,
+		"extraHappinessPerLuxury": 0,
+		"researchCostModifier": 1.1,
+		"unitCostModifier": 1,
+		"unitSupplyBase": 5,
+		"unitSupplyPerCity": 2,
+		"buildingCostModifier": 1,
+		"policyCostModifier": 1,
+		"unhappinessModifier": 1,
+		"barbarianBonus": 0.2,
+		"barbarianSpawnDelay": 0,
+		"playerBonusStartingUnits": [],
+		"aiCityGrowthModifier": 0.85,
+		"aiUnitCostModifier": 0.7,
+		"aiBuildingCostModifier": 0.8,
+		"aiWonderCostModifier": 1,
+		"aiBuildingMaintenanceModifier": 0.8,
+		"aiUnitMaintenanceModifier": 0.75,
+		"aiUnitSupplyModifier": 0.3,
+		"aiFreeTechs": ["Scientific Knowledge","Agriculture","Education"],
+		"aiMajorCivBonusStartingUnits": ["Era Starting Unit", "Era Starting Unit", "Worker", "Worker", "Scout"],
+		"aiCityStateBonusStartingUnits": [],
+		"aiUnhappinessModifier": 0.85,
+		"aisExchangeTechs": true,
+		"turnBarbariansCanEnterPlayerTiles": 0,
+		"clearBarbarianCampReward": 25
 	},
-	/*
-	{
-		"name": "Domain Of Darkness",
-		"leaderName": "Rumia",
-		"adjective": ["Dark Youkai"],
-		"preferredVictoryType": "Cultural",
-		"startIntroPart1": "Let me introduce you to a land full of darkness and monsters!",
-		"startIntroPart2": "Hold my hand and let's explore this amazing realm together!",
-		"declaringWar": "So-na-no-ka, ne?",
-		"attacked": "Sonanoka.",
-		"defeated": "Sonanoka...",
-		"introduction": "Sonanoka!",
-		"neutralHello": "Sonanoka~",
-		"hateHello": "Sonanoka.",
-		"tradeRequest": "Sonanoka?",
-		"outerColor": [0,0,0],
-		"innerColor": [255,144,164],
-		"uniqueName": "Manipulation Of Darkness",
-		"uniques": ["[All] units gain the [Youkai] promotion", "[All] units gain the [Dark Youkai] promotion", "Gain access to Rumia as a unit!"],
-		"cities": ["Hōreisou", "Yami no Machi", "Kurayami City", "Kagegakure", "Ayakashi Town", "Ankokuji", "Yūrei District", "Yabai Yokochō", "Shin'en no Toshi", "Kakuranochō"]
-	},
-	*/
-	{
-		"name": "Eientei Residents",
-		"leaderName": "Kaguya Houraisan",
-		"startBias": ["Bamboo Forest"]
-		"adjective": ["Lunarian"],
-		"preferredVictoryType": "Neutral",
-		"startIntroPart1": ".",
-		"startIntroPart2": ".",
-		"declaringWar": ".",
-		"attacked": ".",
-		"defeated": "...",
-		"introduction": "!",
-		"neutralHello": "~",
-		"hateHello": ".",
-		"tradeRequest": "?",
-		"outerColor": [0,0,0],
-		"innerColor": [242,199,242],
-		"uniqueName": "Manipulation Of Eternity",
-		"uniques": ["[All] units gain the [Lunarian] promotion", "[-50]% maintenance costs"], 
-		"cities": ["Mugenkyo", "Eien no Machi", "Shintenkoku", "Kuon no Toshi", "Toki no Sato", "Kaseki no Machi", "Mugenkai", "Tokoyo City", "Fushi no Kuni", "Kujikujo"]
-	},
-	{
-		"name": "Fairy Alliance",
-		"leaderName": "Cirno",
-		"startBias": ["Misty Lake"],
-		"adjective": ["Baka"],
-		"preferredVictoryType": "Domination",
-		"startIntroPart1": "Introducing Cirno, the all-powerful, strongest ice fairy who serves as the leader of the Fairy Alliance. Nestled in a land of ice and frost, her nation embodies a carefree and playful... playful...."
-		"startIntroPart2": "C-Cirno-chan! I think the script you copied from ChatGPT was left incomplete! Eh?! It continues on the back of the page?!"
-		"attacked": ".",
-		"defeated": ".",
-		"introduction": ".",
-		"neutralHello": ".",
-		"hateHello": "."
-		"tradeRequest": ".",
-		"outerColor": [72,156,184],
-		"innerColor": [255,255,255],
-		"uniqueName": "The Great Fairy Wars",
-		"uniques": ["Fairy units heals every turn even while performing an action, but receive -1 Sight penalty", "[All] units gain the [Fairy] promotion", "[Land] units gain the [Winged] promotion","Provides [1] [Ice Fairy Card]"]
-		"cities": ["Cirnopolis", "Bakai", "Perfect Town", "Daiyouville", "Ninth City", "Bakaville", "Kitchen", "New Cirnopolis", "Calculator City"],
-		"style": "fairy"
-	},
-	{
-		"name": "Fated Land",
-		"leaderName": "Remilia Scarlet",
-		"adjective": ["Vampire"],
-		"preferredVictoryType": "Diplomacy",
-		"startIntroPart1": "Welcome to the illustrious domain of my faction, where elegance, opulence, and absolute splendor reign supreme."
-		"startIntroPart2": "Let us not speak of my dear sister's pitiful attempt at rebelling against my authority. Her feeble faction may exist, but it pales in comparison to the magnificence of... E-eh? She still loves me?! Then why don't she come back home already! That attitude of hers, hmph!",
-		"attacked": "To dare tarnish the divinity of the Scarlet name with the audacity of an attack, how bold of you.",
-		"defeated": "The winds of fate have turned against me, casting a dark shadow over my once glorious nation. Yet, do not mistake this setback for defeat. Baka!",
-		"introduction": "The pinnacle of sophistication and the embodiment of greatness await you in your humble admiration towards my charisma. Fufufu~",
-		"neutralHello": "Sakuya! Prepare some tea for our lovely guest.",
-		"hateHello": "You shall rue the day you dared challenge the might of the Scarlet Throne.",
-		"tradeRequest": ".",
-		"outerColor": [240,240,240],
-		"innerColor": [55,26,106],
-		"uniqueName": "Diligent Fairy Maids",
-		"uniques": ["[All] units gain the [Youkai] promotion", "[Land] units gain the [Vampire] promotion", "[+25]% Production when constructing [All] wonders [in all cities]", "[-50]% maintenance costs","Provides [1] [Vampire Fang Card]"]
-		"cities": ["Transylvania","ScarletBourne","Vermillion Peaks","Crimsonhurst","Carmesia","Garnetshire","Burgundy Citadel","Sangria Hollow","Scarletspire","Scarletara"]
-	},
-	{
-		"name": "Fraternal Empire",
-		"leaderName": "Flandre Scarlet",
-		"adjective": ["Vampire"],
-		"preferredVictoryType": "Domination",
-		"startIntroPart1": "."
-		"startIntroPart2": ".",
-		"attacked": ".",
-		"defeated": ".",
-		"introduction": ".",
-		"neutralHello": "?",
-		"hateHello": "."
-		"tradeRequest": ".",
-		"outerColor": [225,225,141],
-		"innerColor": [119,1,0],
-		"uniqueName": "Complete Destruction",
-		"uniques": ["[All] units gain the [Youkai] promotion", "[Land] units gain the [Vampire] promotion", "Damage is ignored when determining unit Strength", "Cities are razed [2] times as fast","Provides [1] [Beauty of Destruction Card]"],
-		"cities": ["Sanguinaria", "Nocturnia", "Umbraheim", "Cimmeria", "Bloodhaven", "Stygianberg", "Nyxmark", "Valerianth", "Crimsonshire", "Vladonia"]
-	},
-	{
-		"name": "Hakurei Faction",
-		"leaderName": "Reimu",
-		"adjective": ["Maiden"],
-		"startBias": ["Hill"],
-		"preferredVictoryType": "Diplomacy",
-		"startIntroPart1": "I am the shrine maiden of the Hakurei Shrine, Reimu Hakurei. Do you want some tea?",
-		"startIntroPart2": "You happened to be the incarnation of the Hakurei God. Your shrine maiden, Reimu Hakurei, will serve you in your youkai-extermination from now on.",
-		"declaringWar": "You're a youkai, aren't you? Prepare to be exterminated!",
-		"attacked": "Hey, at least take off your shoes before you step on the shrine!",
-		"defeated": "Alright, I lose.",
-		"introduction": "I am Reimu Hakurei, do you want some tea?",
-		"neutralHello": "Do you want to help me clean the shrine?",
-		"hateHello": "Hmph!",
-		"tradeRequest": "Please, donate to the shrine!",
-		"outerColor": [255,255,255],
-		"innerColor": [255,0,0],
-		"uniqueName": "Lineage Of Shrine Maidens",
-		"uniques": ["Starts with [Religion]", "Starts with [Rituals]",  "[All] units gain the [Human Race] promotion", "[+55]% Great Person generation [in all cities]","Provides [1] [Yin-Yang Orb Card]"]
-		"favoredReligion": "Shrine Shinto",
-		"cities": ["Kamigakure", "Hachimori", "Yūgen no Kuni", "Shinseikoku", "Kazanami", "Isagiyama", "Miyamizu", "Yōkaino", "Harunoshima", "Fushimori"]
-	}
     {
-		"name": "Human Village",
-		"leaderName": "Keine Kamishirasawa",
-		"adjective": ["Human"],
-		"preferredVictoryType": "Cultural",
-		"startIntroPart1": "."
-		"startIntroPart2": ".",
-		"attacked": ".",
-		"defeated": ".",
-		"introduction": ".",
-		"neutralHello": "?",
-		"hateHello": "."
-		"tradeRequest": ".",
-		"outerColor": [37,9,86],
-		"innerColor": [250,228,255],
-		"uniqueName": "Pity of the Hakutaku",
-		"uniques": ["Starts with [Agriculture]", "Starts with [Scientific Knowledge]", "[All] units gain the [Human Race] promotion"],
-		"cities": ["Kyoto", "Osaka", "Sapporo", "Yokohama", "Hiroshima", "Kobe", "Nagoya", "Fukuoka", "Sendai", "Nagasaki"]
-	},
-	{
-		"name": "Land Of The Back Doors",
-		"leaderName": "Okina Matara",
-		"adjective": ["Matara Follower"],
-		"preferredVictoryType": "Domination",
-		"startIntroPart1": ".",
-		"startIntroPart2": ".",
-		"attacked": ".",
-		"defeated": ".",
-		"introduction": ".",
-		"neutralHello": "?",
-		"hateHello": "."
-		"tradeRequest": ".",
-		"outerColor": [193,117,50],
-		"innerColor": [255,241,141],
-		"uniqueName": "Secret God",
-		"uniques": ["[All] units gain the [Divine Blessing] promotion", "[+20]% Strength <for units with [Divine Blessing]>", "What makes this promotion special is that there are no units who can counter it","Provides [1] [Back Door Card]"]
-		"cities": ["Matara-kyo", "Jinzen City", "Kamimachi", "Takamoriya", "Kanazakura", "Yumegiri", "Matsuribayashi", "Jinmachi", "Mikumari", "Matara no Sato"]
-	},
-	{
-		"name": "Land Of The Corpses",
-		"leaderName": "Seiga Kaku",
-		"adjective": ["Corpse"],
-		"preferredVictoryType": "Domination",
-		"startIntroPart1": "."
-		"startIntroPart2": ".",
-		"attacked": ".",
-		"defeated": ".",
-		"introduction": ".",
-		"neutralHello": "?",
-		"hateHello": "."
-		"tradeRequest": ".",
-		"outerColor": [23,0,55],
-		"innerColor": [226,206,205],
-		"uniqueName": "Romantic Death",
-		"uniques": ["Corpse units may capture killed Human units; have a bonus of +25% Strength when fighting against Human enemies; but can only heal by pillaging", "Starts with [Research For Magic]", "Starts with [Religion]", "[All] units gain the [Youkai] promotion", "[Land] units gain the [Corpse] promotion"],
-		"favoredReligion": "Ancient Taoism",
-		"cities": ["Shiryokuni", "Yomigaeru no Kuni", "Kakuriyō", "Anamaryū", "Okurimono", "Kagegoku", "Reikoku no Kuni", "Gekkōsha", "Yūkaijin", "Shiryouzan"]
-	},
-	{
-		"name": "Land Of The Crow Tengus",
-		"leaderName": "Megumu Iizumaru",
-		"startBias": ["Youkai Mountain"]
-		"adjective": ["Tengu"],
-		"preferredVictoryType": "Scientific",
-		"startIntroPart1": "."
-		"startIntroPart2": ".",
-		"attacked": ".",
-		"defeated": ".",
-		"introduction": ".",
-		"neutralHello": "?",
-		"hateHello": "."
-		"tradeRequest": ".",
-		"outerColor": [255,255,255],
-		"innerColor": [0,0,0],
-		"uniqueName": "Deal With The Marketplace God",
-		"uniques": ["[All] units gain the [Youkai] promotion", "[Land] units gain the [Winged] promotion", "[+1] Movement <for [Winged] units>", "Starts with [Currency]", "[+2 Gold, +1 Food, +1 Production] from every [Trading post] <before the [Meiji era]>", "Cannot build [Mounted] units","Provides [1] [Great Tengu's Barley Rice Card]"]
-		"cities": ["Tsubasakoku", "Hagoromo no Sato", "Harukaze-mura", "Tenbin no Toshi", "Suzaku no Sora", "Hanebito", "Kumo no Machi", "Aoiwashi", "Hiryu no Sato", "Hayabusa-ga-Oka"]
-	},
-	{
-		"name": "Mermaids Of The Lake",
-		"leaderName": "Wakasagihime",
-		"adjective": ["Mermaid"],
-		"preferredVictoryType": "Neutral",
-		"startIntroPart1": ".",
-		"startIntroPart2": ".",
-		"attacked": ".",
-		"defeated": ".",
-		"introduction": ".",
-		"neutralHello": "?",
-		"hateHello": "."
-		"tradeRequest": ".",
-		"outerColor": [67,180,116],
-		"innerColor": [5,47,78],
-		"uniqueName": "Mermaid Of The Uncharted Land",
-		"uniques": ["Mermaid units posses certain advantages and disadvantages; in summary: Mermaid units move faster on Water and fresh water tiles, but slower on dry land, except when near the Coast", "Enables embarkation for land units <starting from the [Youkai Expansion Project]>", "Enables [All] units to enter ocean tiles <starting from the [Youkai Expansion Project]>", "[All] units gain the [Youkai] promotion", "[Land] units gain the [Mermaid] promotion", "Cannot build [Mounted] units","Provides [1] [Smelt's Scales Card]"]
-		"cities": ["Sushiyama", "Maguroshima", "Unazuki", "Taihoku", "Hamachiya", "Kanpachibu", "Suzukiya", "Sabaoka", "Katsuocho", "Iwashio"]
-	},
-	{
-		"name": "Moriya Faction",
-		"leaderName": "Kanako Yasaka",
-		"startBias": ["Hill", "Youkai Mountain"]
-		"adjective": ["Maiden"],
-		"preferredVictoryType": "Diplomacy",
-		"startIntroPart1": "."
-		"startIntroPart2": ".",
-		"attacked": ".",
-		"defeated": ".",
-		"introduction": ".",
-		"neutralHello": "?",
-		"hateHello": "."
-		"tradeRequest": ".",
-		"outerColor": [255,255,255],
-		"innerColor": [19,147,19],
-		"uniqueName": "Mountain Of Faith",
-		"uniques": ["Starts with [Religion]", "[All] units gain the [Human Race] promotion", "[100]% of excess happiness converted to [Faith]","Provides [1] [Offerings to a Sacred Mountain Card]",
-		 "[55]% of excess happiness converted to [Gold]",
-		"[+50]% maintenance costs",
-		"[-100]% [Gold] [in all cities] <when below [3] Happiness>"],
-		"favoredReligion": "Sect Shinto",
-		"cities": ["Hinomori", "Takarashima", "Kasai no Kuni", "Yume no Sakura", "Kōgetsu", "Ryuunokuni", "Isanokuni", "Hoshizora", "Kachidoki", "Yamabuki"]
-	},
-	{
-		"name": "Myouren Faction",
-		"leaderName": "Byakuren Hijiri",
-		"adjective": ["Monk"],
-		"preferredVictoryType": "Diplomacy",
-		"startIntroPart1": "."
-		"startIntroPart2": ".",
-		"attacked": ".",
-		"defeated": ".",
-		"introduction": ".",
-		"neutralHello": "?",
-		"hateHello": "."
-		"tradeRequest": ".",
-		"outerColor": [55,40,76],
-		"innerColor": [255,255,255],
-		"uniqueName": "Peaceful Principles",
-		"uniques": ["Starts with [Religion]", "[All] units gain the [Youkai] promotion", "[-100]% Unhappiness from [Population] [in all non-occupied cities]","Provides [1] [Sutra of Dharmatic Power Card]"],
-		"favoredReligion": "Buddhism",
-		"cities": ["Minoriya", "Mizuhanashi", "Fujimori", "Shinju no Tani", "Arashiyama", "Kiyomizu", "Hayabusa no Sato", "Shizukesa", "Kokoroyoi", "Asamurasaki"]
-	},
-	{
-		"name": "Oni Clans",
-		"leaderName": "Suika Ibuki",
-		"startBias": ["Youkai Mountain"]
-		"adjective": ["Oni"],
-		"preferredVictoryType": "Domination",
-		"startIntroPart1": "."
-		"startIntroPart2": ".",
-		"attacked": ".",
-		"defeated": ".",
-		"introduction": ".",
-		"neutralHello": "?",
-		"hateHello": "."
-		"tradeRequest": ".",
-		"outerColor": [255,255,169],
-		"innerColor": [115,66,65],
-		"uniqueName": "Constant War",
-		"uniques": ["Starts with [Fermented Alcohol]", "Rebel units may spawn <when below [5] Happiness>", "[All] units gain the [Youkai] promotion", "[All] units gain the [Oni] promotion", "Great General provides double combat bonus", "[Great General] is earned [+50]% faster", "Earn [30]% of killed [Military] unit's [Strength] as [Culture] <during the [Youkai Expansion Project]>","Provides [1] [Drunkenly Whimsical Ibuki Gourd Card]"],
-		"cities": ["Bushidōkoku", "Kenkoku", "Kenseikuni", "Tatsumaki no Kuni", "Kōyōdō", "Heishi no Tani", "Katanaishi", "Yoroi no Sato", "Kachūsha", "Shinkenshi"]
-	},
-	{
-		"name": "Ordinary Magicians",
-		"leaderName": "Marisa Kirisame",
-		"adjective": ["Magician"],
-		"preferredVictoryType": "Scientific",
-		"startIntroPart1": "."
-		"startIntroPart2": ".",
-		"attacked": ".",
-		"defeated": ".",
-		"introduction": ".",
-		"neutralHello": "?",
-		"hateHello": "."
-		"tradeRequest": ".",
-		"outerColor": [0,0,0],
-		"innerColor": [255,255,255],
-		"uniqueName": "Master Spark",
-		"uniques": ["[All] units gain the [Human Race] promotion", "Starts with [Research For Magic]", "Starts with [Simple Alchemy]", "[+50]% Strength <for [{Human} {Magician}] units>","Provides [1] [Mini-Hakkero Card]"],
-		"cities": ["Arcanopolis", "Mystoria", "Sorceron", "Enchantia", "Maginium", "Spellhaven", "Wizard's Reach", "Enigmaire", "Conjuria", "Manaheim"]
-	},
-	{
-		"name": "Senkai Principality",
-		"leaderName": "Toyosatomimi no Miko",
-		"adjective": ["Hermit"],
-		"preferredVictoryType": "Cultural",
-		"startIntroPart1": "."
-		"startIntroPart2": ".",
-		"attacked": ".",
-		"defeated": ".",
-		"introduction": ".",
-		"neutralHello": "?",
-		"hateHello": "."
-		"tradeRequest": ".",
-		"outerColor": [187,164,141],
-		"innerColor": [64,32,115],
-		"uniqueName": "Ten Desires",
-		"uniques": ["Starts with [Religion]", "[All] units gain the [Youkai] promotion",
-		"City-State Influence recovers at twice the normal rate",
-		"City-State territory always counts as friendly territory",
-		"[-30]% City-State Influence degradation",
-		"Resting point for Influence with City-States is increased by [10]","Provides [1] [Esteemed Authority Card]"],
-		"favoredReligion": "Taoism",
-		"cities": ["Chenming", "Huashan", "Lingyin", "Qingcheng", "Wudang", "Xuanwu", "Ziran", "Daziran", "Taiji", "Xiaoyao"]
-	},
-	{
-		"name": "Shining Needle Castle",
-		"leaderName": "Shinmyoumaru Sukuna",
-		"adjective": ["Inchling"],
-		"preferredVictoryType": "Domination",
-		"startIntroPart1": ".",
-		"startIntroPart2": ".",
-		"attacked": ".",
-		"defeated": ".",
-		"introduction": ".",
-		"neutralHello": "?",
-		"hateHello": "."
-		"tradeRequest": ".",
-		"outerColor": [245,84,109],
-		"innerColor": [89,19,112],
-		"uniqueName": "Seija's Revolution Plan",
-		"uniques": ["[All] units gain the [Youkai] promotion", "[+50]% [Gold] [in puppeted cities] <before the [Meiji era]>", "[+50]% [Culture] [in puppeted cities] <before the [Meiji era]>", "[+50]% [Science] [in puppeted cities] <before the [Meiji era]>"],
-		"cities": ["Yamagakure", "Mizuhara", "Koganeishi", "Hoshimori", "Hayatsuki", "Hisamegawa", "Inariyama", "Fuyutsuki", "Tsukiyomi", "Aokigahara"]
-	},
-	{
-		"name": "Tengu Union",
-		"leaderName": "Tenma",
-		"startBias": ["Youkai Forest"]
-		"adjective": ["Tengu"],
-		"preferredVictoryType": "Neutral",
-		"startIntroPart1": ".",
-		"startIntroPart2": ".",
-		"attacked": ".",
-		"defeated": ".",
-		"introduction": ".",
-		"neutralHello": "?",
-		"hateHello": "."
-		"tradeRequest": ".",
-		"outerColor": [105,0,0],
-		"innerColor": [255,255,255],
-		"uniqueName": "Caste System",
-		"uniques": ["[All] units gain the [Youkai] promotion", "[{Melee} {Land}] units gain the [Beast] promotion", "[{Ranged} {Land}] units gain the [Winged] promotion", "[+1] Movement <for [Winged] units>", "[+10]% Strength <for [Beast] units>", "[+1 Production, -1 Happiness] per [2] population [in all cities]", "[-1 Happiness] per [3] population [in all cities]", "Cannot build [Mounted] units"],
-		"cities": ["Tengugawa", "Youkai-machi", "Amanozakura", "Raijindai", "Fujinshou", "Sokai-kyo", "Yamabushinaka", "Karasutani", "Houyama", "Kamitengu-no-mori"]
-	},
-	{
-		"name": "The Borderless Realm",
-		"leaderName": "Yukari Yakumo",
-		"adjective": ["Youkai"],
-		"preferredVictoryType": "Cultural",
-
-		"startIntroPart1": "Welcome to The Realm Without Boundaries, overseen by Yukari Yakumo, where reality and fantasy entwine.",
-		"startIntroPart2": "In this mystical land, boundaries bend to her will, creating a tapestry of wonder. What wonder will you present?",
-		"declaringWar": "Our borders will be one, doesn't that sound so wonderful?",
-		"attacked": "Did you forget that I am the mistress of boundaries?",
-		"defeated": "The threads of fate may have unraveled, but I shall weave them anew.",
-		"introduction": "Welcome to a world of enchantment and boundless possibilities.",
-		"neutralHello": "Hm? What's the matter?",
-		"hateHello": "Be careful, our discussions may mirror the delicate balance of our relationship.",
-		"tradeRequest": "Let us forge a deal that transcends boundaries!",
-		"outerColor": [40,0,92],
-		"innerColor": [213,210,242],
-		"uniqueName": "Manipulation Of Boundaries",
-		"uniques": ["Land Units can teleport (paradrop) up to 4 tiles when inside friendly territory, if the unit hasn't done any other actions yet; however, Military Land units are more expensive to produce", "[All] units gain the [Youkai] promotion", "[Land] units gain the [Phantasm] promotion", "[-30]% Production when constructing [{Military} {Land}] units [in all cities]","Provides [1] [Screen Border Card]"],
-		"cities": ["Hakumori","Kasenba","Mizukawa","Soraheim","Yumegawa","Kagetsu","Tsukimori","Kiriwara","Hanamachi","Enishi"]
-	},
-	{
-		"name": "The Netherworld",
-		"leaderName": "Yuyuko Saigyouji",
-		"startBias": ["Saigyou Ayakashi"]
-		"adjective": ["Ghost"],
-		"preferredVictoryType": "Cultural",
-		"startIntroPart1": "."
-		"startIntroPart2": ".",
-		"attacked": ".",
-		"defeated": ".",
-		"introduction": ".",
-		"neutralHello": "?",
-		"hateHello": "."
-		"tradeRequest": ".",
-		"outerColor": [256,221,259],
-		"innerColor": [99,13,160],
-		"uniqueName": "Manager Of The Afterlife Realm",
-		"uniques": ["Spirit units can cross impassable tiles, Ignore terrain cost, and Ignore Zone of Control; but have -33% Strength penalty when attacking", "[All] units gain the [Youkai] promotion", "[Land] units gain the [Spirit] promotion","Provides [1] [Danmaku Ghost Card]"],
-		"cities": ["Hakugyokurou", "Banshōkyō", "Kaidan City", "Yūrei Kōen", "Onryōmura", "Bakemono no Toshi", "Kokoro no Yami", "Reikonokuni", "Obakezaka", "Ayashiki Machi"]
-	},
-	{
-		"name": "The Unified Doll Front",
-		"leaderName": "Alice Margatroid",
-		"startBias": ["Forest"],
-		"adjective": ["Doll"],
-		"preferredVictoryType": "Scientific",
-		"startIntroPart1": "The clicking of gears harmonizes with the tender souls of the dolls who call it home.",
-		"startIntroPart2": "Within their delicate frames resides a profound essence, breathing life into the very fabric of our realm. Doesn't that sound so lovely?",
-		"attacked": "The audacity!",
-		"defeated": "As the somber notes of defeat resonate through the air, I must acknowledge the threads of fate that have unraveled.",
-		"introduction": "Welcome to the whimsical nation of The United Doll Front, where dolls find their voice and purpose.",
-		"neutralHello": "Do you like my introduction?",
-		"hateHello": "Know this: the dolls of my nation are not mere playthings; they possess a strength and resilience that will shatter the hopes of those who dare to assail us.",
-		"tradeRequest": "I extend a warm invitation to explore the wonders of my dolls' realm.",
-		"outerColor": [229,236,162],
-		"innerColor": [50,53,108],
-		"uniqueName": "Doll's Judgement",
-		"uniques": ["Starts with [Research For Magic]", "Starts with [Forbidden Sorcery]", "[All] units gain the [Youkai] promotion", "[Land] units gain the [Doll Construct] promotion", "[+2 Production, -2 Gold] from every [Doll Lumber House]", "[+1 Production] from every [Doll Lumber House] <after discovering [Machinery]>","Provides [1] [Shanghai Doll Card]"],
-		"cities": ["Alice's House","Dollhaven","Gearshire","Artisan's Reach","Whimsyville","Stitchborough","Wondermere","Mechanica","Puppetsburg","Imagiopia"]
-	},
-	// City-States sorted by cityStateType, name
-	{
-		"name": "Izanaginooka",
-		"adjective": ["Izan"],
-		"cityStateType": "Cultured",
-
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "I guess you weren't here for the sprouts after all...",
-		"outerColor": [0, 0, 0],
-		"innerColor": [153,255,51],
-		"cities": ["Izanaginooka"]
-	},
-	{
-		"name": "Tsukuyomihara",
-		"adjective": ["Tsukuyoan"],
-		"cityStateType": "Cultured",
-
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "And so the flower of Florence falls to barbaric hands...",
-		"outerColor": [0, 0, 0],
-		"innerColor": [62,197,252],
-		"cities": ["Tsukuyomihara"]
-	},
-	{
-		"name": "Amaterasu City",
-		"adjective": ["Amaterasuan"],
-		"cityStateType": "Cultured",
-
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "So this is how it feels to die...",
-		"outerColor": [0, 0, 0],
-        "innerColor": [51,51,255],
-		"cities": ["Amaterasu City"]
-	},
-	{
-		"name": "Fujinomori",
-		"adjective": ["Fujinomorin"],
-		"cityStateType": "Cultured",
-
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "Unacceptable!",
-		"outerColor": [0, 0, 0],
-		"innerColor": [168,38,102],
-		"cities": ["Fujinomori"]
-	},
-	{
-		"name": "Susanoo Bay",
-		"adjective": ["Susanoo"],
-		"cityStateType": "Cultured",
-
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "Today, the Malay people obey you, but do not think this is over...",
-		"outerColor": [0, 0, 0],
-		"innerColor": [0,102,102],
-		"cities": ["Susanoo Bay"]
-	},
-	{
-		"name": "Raijin Heights",
-		"adjective": ["Rainin"],
-		"cityStateType": "Cultured",
-
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "Perhaps now we will find peace in death...",
-		"outerColor": [0, 0, 0],
-		"innerColor": [204,102,0],
-		"cities": ["Raijin Heights"]
-	},
-	{
-		"name": "Benzaiten Village",
-		"adjective": ["Benzaitan"],
-		"cityStateType": "Cultured",
-
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "You fiend! History shall remember this!",
-		"outerColor": [0, 0, 0],
-		"innerColor": [185,132,66],
-		"cities": ["Benzaiten Village"]
-	},
-	{
-		"name": "Kagutsuchi Falls",
-		"adjective": ["Kagutsuchin"],
-		"cityStateType": "Cultured",
-
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "We were too weak to protect ourselves...",
-		"outerColor": [0, 0, 0],
-		"innerColor": [51,102,0],
-		"cities": ["Kagutsuchi Falls"]
-	},
-
-	{
-		"name": "Inari Town",
-		"adjective": ["Inarian"],
-		"cityStateType": "Maritime",
-
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "I have failed. May you, at least, know compassion towards our people.",
-		"outerColor": [0, 0, 0],
-		"innerColor": [255,153,153],
-		"cities": ["Inari Town"]
-	},
-	{
-		"name": "Yuki-Onna Haven",
-		"adjective": ["Yuki-Onna"],
-		"cityStateType": "Maritime",
-
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "The day of judgement has come to us. But rest assured, the same will go for you!",
-		"outerColor": [0, 0, 0],
-		"innerColor": [255,178,102],
-		"cities": ["Yuki-Onna Haven"]
-	},
-	{
-		"name": "Kijin Harbor",
-		"adjective": ["Kijin"],
-		"cityStateType": "Maritime",
-
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "Ah, Gods! Why have you forsaken us?",
-		"outerColor": [0, 0, 0],
-		"innerColor": [96,96,96],
-		"cities": ["Kijin Harbor"]
-	},
-	{
-		"name": "Suijin Springs",
-		"adjective": ["Suijin"],
-		"cityStateType": "Maritime",
-
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "Congratulations, conqueror. This tribe serves you now.",
-		"outerColor": [0, 0, 0],
-		"innerColor": [224,224,224],
-		"cities": ["Suijin Springs"]
-	},
-	{
-		"name": "Ryujin Citadel",
-		"adjective": ["Ryujin"],
-		"cityStateType": "Maritime",
-		"startBias": ["Coast"],
-
-		"declaringWar": "I have to do this, for the sake of progress if nothing else. You must be opposed!",
-		"attacked": "You can see how fruitless this will be for you... right?",
-		"defeated": "May God grant me these last wishes - peace and prosperity for Brazil.",
-		"outerColor": [0, 0, 0],
-		"innerColor": [211, 220, 103],
-		"cities": ["Ryujin Citadel"]
-	},
-	{
-		"name": "Hachiman Gate",
-		"adjective": ["Hachiman"],
-		"cityStateType": "Maritime",
-
-		"declaringWar": "After thorough deliberation, Australia finds itself at a crossroads. Prepare yourself, for war is upon us.",
-		"attacked": "We will mobilize every means of resistance to stop this transgression against our nation!",
-		"defeated": "The principles for which we have fought will survive longer than any nation you could ever build.",
-		"outerColor": [0, 0, 0],
-		"innerColor": [255,204,204],
-		"cities": ["Hachiman Gate"]
-	},
-	{
-		"name": "Kappa's Crossing",
-		"adjective": ["Kappa"],
-		"cityStateType": "Maritime",
-		"startBias": ["Coast"],
-
-		"declaringWar": "I will enjoy hearing your last breath as you witness the destruction of your realm!",
-		"attacked": "Why do we fight? Because the Kappa are the smartest. Now, witness the power of the Kappa!",
-		"defeated": "What treachery has struck us? No, what evil?",
-		"outerColor": [0, 0, 0],
-		"innerColor": [255,69,0],
-		"cities": ["Kappa's Crossing"]
-	},
-	{
-		"name": "Ashinagatenchi",
-		"adjective": ["Ashinagan"],
-		"cityStateType": "Maritime",
-
-		"declaringWar": "In responding to the unstinting malignancy that has heretofore defined your relationship with the youkai, we can have no recourse but war!",
-		"attacked": "As we can reach no peaceful resolution with you, the youkai must turn, with reluctance, to war.",
-		"defeated": "I regret not defending my country to the last, although it was not of use.",
-		"outerColor": [0, 0, 0],
-		"innerColor": [0,255,128],
-		"cities": ["Ashinagatenchi"]
-	},
-	{
-		"name": "Yama no Ichi",
-		"adjective": ["Yama Follower"],
-		"cityStateType": "Maritime",
-		"startBias": ["Coast"],
-
-		"declaringWar": "You have revealed your purposes a bit too early, my friend...",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "A wrong calculation, on my part.",
-		"outerColor": [0, 0, 0],
-		"innerColor": [153,204,255],
-		"cities": ["Yama no Ichi"]
-	},
-
-	{
-		"name": "Komainu Heights",
-		"adjective": ["Komainu"],
-		"cityStateType": "Mercantile",
-		"startBias": ["Coast"],
-
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "They will write songs of this.... pray that they shall be in your favor.",
-		"outerColor": [0, 0, 0],
-		"innerColor": [194,97,255],
-		"cities": ["Komainu Heights"]
-	},
-	{
-		"name": "Jorogumo Village",
-		"adjective": ["Jorogumo"],
-		"cityStateType": "Mercantile",
-		"startBias": ["Coast"],
-
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "How barbaric. Those who live by the sword shall perish by the sword.",
-		"outerColor": [0, 0, 0],
-		"innerColor": [45,255,86],
-		"cities": ["Jorogumo Village"]
-	},
-	{
-		"name": "Kathmandu",
-		"adjective": ["Kathmandu"],
-		"cityStateType": "Mercantile",
-
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "We... defeated? No... we had so much work to do!",
-		"outerColor": [0, 0, 0],
-		"innerColor": [151,125,0],
-		"cities": ["Kathmandu"]
-	},
-	{
-		"name": "Kitsune Hollow",
-		"adjective": ["Kitsune"],
-		"cityStateType": "Mercantile",
-
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "Perhaps, in another world, we could have been friends...",
-		"outerColor": [0, 0, 0],
-		"innerColor": [255,255,0],
-		"cities": ["Kitsune Hollow"]
-	},
-	{
-		"name": "Uchide no Kozuchi City",
-		"adjective": ["Uchide"],
-		"cityStateType": "Mercantile",
-		"startBias": ["Coast"],
-
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "We never fully trusted you from the start.",
-		"outerColor": [0, 0, 0],
-		"innerColor": [255,97,255],
-		"cities": ["Uchide no Kozuchi City"]
-	},
-	{
-		"name": "Shachihoko Bay",
-		"adjective": ["Shachin"],
-		"cityStateType": "Mercantile",
-
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "May the Heavens forgive you for inflicting this humiliation to our people.",
-		"outerColor": [0, 0, 0],
-		"innerColor": [255,153,255],
-		"cities": ["Shachihoko Bay"]
-	},
-
-	{
-		"name": "Shishigami Grove",
-		"adjective": ["Shishigami"],
-		"cityStateType": "Militaristic",
-
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "How could we fall to the likes of you?!",
-		"outerColor": [0, 0, 0],
-		"innerColor": [152,0,241],
-		"cities": ["Shishigami Grove"]
-	},
-	{
-		"name": "Kurozuka Gorge",
-		"adjective": ["Kurozukan"],
-		"cityStateType": "Militaristic",
-
-		"declaringWar": "Let's have a nice little War, shall we?",
-		"attacked": "If you need your nose bloodied, we'll happily serve.",
-		"defeated": "The serbian guerilla will never stop haunting you!",
-		"outerColor": [0, 0, 0],
-		"innerColor": [211,180,113],
-		"cities": ["Kurozuka Gorge"]
-	},
-	{
-		"name": "Omizutori Haven",
-		"adjective": ["Omizutori"],
-		"cityStateType": "Militaristic",
-
-		"declaringWar": "War lingers in our hearts. Why carry on with a false peace?",
-		"attacked": "You gormless radger! You'll dine on your own teeth before you set foot in Ireland!",
-		"defeated": "A lonely wind blows through the highlands today. A dirge for Ireland. Can you hear it?",
-		"outerColor": [0, 0, 0],
-		"innerColor": [211,180,113],
-		"cities": ["Omizutori Haven"]
-	},
-	{
-		"name": "Tanuki Borough",
-		"adjective": ["Tanuki"],
-		"cityStateType": "Militaristic",
-
-		"declaringWar": "You shall stain this land no longer with your vileness! To arms, my countrymen - we ride to war!",
-		"attacked": "Traitorous man! The Celtic peoples will not stand for such wanton abuse and slander - I shall have your head!",
-		"defeated": "Vile ruler, know that you 'won' this war in name only!",
-		"outerColor": [0, 0, 0],
-		"innerColor": [0,102,102],
-		"cities": ["Tanuki Borough"]
-	},
-	{
-		"name": "Karasu Castle",
-		"adjective": ["Karasu"],
-		"cityStateType": "Militaristic",
-
-		"declaringWar": "Do you really think you can walk over us so easily? I will not let it happen. Not to Karasu - not to my people!",
-		"attacked": "We are no strangers to war. You have strayed from the right path, and now we will correct it.",
-		"defeated": "You are nothing but a glorified barbarian. Cruel, and ruthless.",
-		"outerColor": [0, 0, 0],
-		"innerColor": [255,128,0],
-		"cities": ["Karasu Castle"]
-	},
-	{
-		"name": "Okuninushi Hamlet",
-		"adjective": ["Okininushi"],
-		"cityStateType": "Militaristic",
-
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "What a fine battle! Okinushi is willing to serve you!",
-		"outerColor": [0, 0, 0],
-		"innerColor": [250,128,114],
-		"cities": ["Okuninushi Hamlet"]
-	},
-	{
-		"name": "Yukiwarashi Springs",
-		"adjective": ["Yukiwarashi"],
-		"cityStateType": "Militaristic",
-
-		"declaringWar": "We don't like your face. To arms!",
-		"attacked": "You will see you have just bitten off more than you can chew.",
-		"defeated": "This ship may sink, but our spirits will linger.",
-		"outerColor": [0, 0, 0],
-		"innerColor": [0,102,102],
-		"cities": ["Yukiwarashi Springs"]
-	},
-
-	{
-		"name": "Kintaro Valley",
-		"adjective": ["Kintaro"],
-		"cityStateType": "Religious",
-
-		"declaringWar": "I didn't want to do this. We declare war.",
-		"attacked": "I will fear no evil!",
-		"defeated": "This is unfortunate.",
-		"outerColor": [0, 0, 0],
-		"innerColor": [255,255,255],
-		"cities": ["Kintaro Valley"]
-	},
-	{
-		"name": "Gozu-Tenno Citadel",
-		"adjective": ["Gozu-Tenno"],
-		"cityStateType": "Religious",
-
-		"declaringWar": "We have wanted this for a LONG time. War it shall be.",
-		"attacked": "Very well, we will kick you back to the ancient era!",
-		"defeated": "This isn't how it is supposed to be!",
-		"outerColor": [0, 0, 0],
-		"innerColor": [203, 253, 232],
-		"cities": ["Gozu-Tenno Citadel"]
-	},
-
-
-
-	//Barbarian
-	{
-		"name": "Barbarians",
-		"outerColor": [0,0,0],
-        "innerColor": [185,12,12],
-		"uniques": ["Can only heal by pillaging", "[All] units gain the [Youkai] promotion"]
+		"name": "Lunatic",
+		"baseHappiness": 8,
+		"extraHappinessPerLuxury": 0,
+		"researchCostModifier": 1.2,
+		"unitCostModifier": 1.3,
+		"unitSupplyBase": 5,
+		"unitSupplyPerCity": 2,
+		"buildingCostModifier": 1.3,
+		"policyCostModifier": 1.3,
+		"unhappinessModifier": 1.3,
+		"barbarianBonus": 0,
+		"barbarianSpawnDelay": 0,
+		"playerBonusStartingUnits": [],
+		"aiCityGrowthModifier": 0.6,
+		"aiUnitCostModifier": 0.5,
+		"aiBuildingCostModifier": 0.5,
+		"aiWonderCostModifier": 1,
+		"aiBuildingMaintenanceModifier": 0.5,
+		"aiUnitMaintenanceModifier": 0.5,
+		"aiUnitSupplyModifier": 0.5,
+		"aiFreeTechs": ["Scientific Knowledge","Agriculture","Education","Paid Service","Authority"],
+		"aiMajorCivBonusStartingUnits": ["Settler", "Scout", "Worker", "Worker", "Worker", "Scout", "Era Starting Unit", "Era Starting Unit", "Era Starting Unit"],
+		"aiCityStateBonusStartingUnits": [],
+		"aiUnhappinessModifier": 0.6,
+		"aisExchangeTechs": true,
+		"turnBarbariansCanEnterPlayerTiles": 0,
+		"clearBarbarianCampReward": 25
 	}
-
 ]
