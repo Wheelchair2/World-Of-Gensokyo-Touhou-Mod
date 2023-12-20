@@ -34,7 +34,7 @@
 		"unitType": "Civilian",
 		"obsoleteTech": "Technology Limit",
 		"movement": 2,
-		"uniques": ["Becomes obsolete at Technology Limit", "Can transform to [Military Camp]", "Can transform to [Watchtower]", "This unit can transform into two Building units: Military Camp which grants +15% Strength bonus to nearby Friendly units, while Watchtower can attack Enemy units in its range; cannot move as a building"],
+		"uniques": ["Comment [Becomes obsolete at [Technology Limit]]", "Can transform to [Military Camp]", "Can transform to [Watchtower]", "This unit can transform into two Building units: Military Camp which grants +15% Strength bonus to nearby Friendly units, while Watchtower can attack Enemy units in its range; cannot move as a building"],
 	},
     {
 		"name": "Military Camp",
@@ -328,7 +328,7 @@
 		"obsoleteTech": "Technology Limit",
 		"attackSound": "metalhit",
 		"promotions": ["Anti-Youkai"],
-        "uniques": ["Armor", "Can only attack [Youkai] units", "Becomes obsolete at Technology Limit", "Never appears as a Barbarian unit"]
+        "uniques": ["Armor", "Can only attack [Youkai] units", "Comment [Becomes obsolete at [Technology Limit]]", "Never appears as a Barbarian unit"]
 	},
 	{
 		"name": "Yumi Samurai",
@@ -804,7 +804,7 @@
 		"obsoleteTech": "Technology Limit",
 		"attackSound": "throw",
 		"promotions": ["Extended Range"],
-		"uniques": ["Magician", "Becomes obsolete at Technology Limit", "Never appears as a Barbarian unit"]
+		"uniques": ["Magician", "Comment [Becomes obsolete at [Technology Limit]]", "Never appears as a Barbarian unit"]
 	},
 	{
 		"name": "Senjutsu Practitioner",
@@ -816,7 +816,7 @@
 		"requiredTech": "Magical Science",
 		"obsoleteTech": "Technology Limit",
 		"attackSound": "throw",
-		"uniques": ["Magician", "Can move after attacking", "May Paradrop up to [5] tiles from inside friendly territory", "Becomes obsolete at Technology Limit", "Never appears as a Barbarian unit"]
+		"uniques": ["Magician", "Can move after attacking", "May Paradrop up to [5] tiles from inside friendly territory", "Comment [Becomes obsolete at [Technology Limit]]", "Never appears as a Barbarian unit"]
 	},
 	{
 		"name": "Esoterica Practitioner",
@@ -829,7 +829,7 @@
 		"requiredTech": "Limitless Learning",
 		"obsoleteTech": "Technology Limit",
 		"attackSound": "throw",
-		"uniques": ["Magician", "[+300]% Strength <vs [City] units>", "Becomes obsolete at Technology Limit", "Never appears as a Barbarian unit"]
+		"uniques": ["Magician", "[+300]% Strength <vs [City] units>", "Comment [Becomes obsolete at [Technology Limit]]", "Never appears as a Barbarian unit"]
 	},
 	
 	
@@ -867,7 +867,7 @@
 		"requiredTech": "Dark Magic",
 		"obsoleteTech": "Technology Limit",
 		"attackSound": "nonmetalhit",
-		"uniques": ["Dark Magician", "Youkai", "[+10] HP when healing", "Becomes obsolete at Technology Limit", "Never appears as a Barbarian unit"]
+		"uniques": ["Dark Magician", "Youkai", "[+10] HP when healing", "Comment [Becomes obsolete at [Technology Limit]]", "Never appears as a Barbarian unit"]
 	},
 	{
 		"name": "Yume no Seirei",
@@ -878,7 +878,7 @@
 		"requiredTech": "Psychological Warfare",
 		"obsoleteTech": "Technology Limit",
 		"attackSound": "nonmetalhit",
-		"uniques": ["Dark Magician", "Youkai", "[-33]% Strength for enemy [Military] units in adjacent [All] tiles", "Becomes obsolete at Technology Limit", "Never appears as a Barbarian unit"]
+		"uniques": ["Dark Magician", "Youkai", "[-33]% Strength for enemy [Military] units in adjacent [All] tiles", "Comment [Becomes obsolete at [Technology Limit]]", "Never appears as a Barbarian unit"]
 	},
 	{
 		"name": "Keukegen",
@@ -887,7 +887,7 @@
 		"cost": 150,
 		"requiredTech": "Psychological Warfare",
 		"obsoleteTech": "Technology Limit",
-		"uniques": ["Youkai", "[-33]% Strength for enemy [Military] units in adjacent [All] tiles", "Becomes obsolete at Technology Limit", "Never appears as a Barbarian unit"]
+		"uniques": ["Youkai", "[-33]% Strength for enemy [Military] units in adjacent [All] tiles", "Comment [Becomes obsolete at [Technology Limit]]", "Never appears as a Barbarian unit"]
 	},
 	{
 		"name": "Shuten Doji Summon",
@@ -899,7 +899,7 @@
 		"obsoleteTech": "Technology Limit",
 		"attackSound": "nonmetalhit",
 		"promotions": ["Oni", "Youkai"]
-		"uniques": ["Summon", "Becomes obsolete at Technology Limit", "Never appears as a Barbarian unit"]
+		"uniques": ["Summon", "Comment [Becomes obsolete at [Technology Limit]]", "Never appears as a Barbarian unit"]
 	},
 	{
 		"name": "Great Wolf Summon",
@@ -910,8 +910,8 @@
 		"requiredTech": "Field Of Summoning",
 		"obsoleteTech": "Technology Limit",
 		"attackSound": "nonmetalhit",
-		"promotions": ["Beast", "Youkai"]
-		"uniques": ["Summon", "Becomes obsolete at Technology Limit", "Never appears as a Barbarian unit"]
+		"promotions": ["Beast", "Youkai"],
+		"uniques": ["Summon", "Comment [Becomes obsolete at [Technology Limit]]", "Never appears as a Barbarian unit"]
 	},
 	{
 		"name": "Kitsune Summon",
@@ -923,11 +923,25 @@
 		"requiredTech": "Field Of Summoning",
 		"obsoleteTech": "Technology Limit",
 		"attackSound": "nonmetalhit",
-		"promotions": ["Kitsune", "Youkai"]
-		"uniques": ["Summon", "Becomes obsolete at Technology Limit", "Never appears as a Barbarian unit"]
+		"promotions": ["Kitsune", "Youkai"],
+		"uniques": ["Summon", "Comment [Becomes obsolete at [Technology Limit]]", "Never appears as a Barbarian unit"]
 	},
 	
-	
+	//Self Discovery Special:
+	/*
+	{
+		"name": "Kitsune Summon",
+		"unitType": "Ranged Sorcery",
+		"movement": 2,
+		"strength": 17,
+		"cost": 160,
+		"requiredTech": "Field Of Summoning",
+		"obsoleteTech": "Technology Limit",
+		"attackSound": "nonmetalhit",
+		"promotions": ["Kitsune", "Youkai"],
+		"uniques": ["Summon", "Comment [Becomes obsolete at [Technology Limit]]", "Never appears as a Barbarian unit"]
+	},
+	*/
 	
 	//////////////
 	
@@ -937,8 +951,8 @@
 		"name": "Warrior Monk",
 		"unitType": "Sword",
 		"movement": 2,
-		"strength": 11,
-		"cost": 56,
+		"strength": 17,
+		"cost": 90,
 		"requiredTech": "Religious Doctrine",
 		"obsoleteTech": "Divine Punishment",
 		"upgradesTo": "Sohei Soldier",
@@ -950,8 +964,8 @@
 		"name": "Mountain Hermit",
 		"unitType": "Sword",
 		"movement": 2,
-		"strength": 12,
-		"cost": 65,
+		"strength": 18,
+		"cost": 100,
 		"requiredTech": "Religious Doctrine",
 		"obsoleteTech": "Divine Punishment",
 		"upgradesTo": "Solitary Saint",
@@ -963,8 +977,8 @@
 		"name": "Sohei Soldier",
 		"unitType": "Sword",
 		"movement": 2,
-		"strength": 14,
-		"cost": 75,
+		"strength": 19,
+		"cost": 120,
 		"requiredTech": "Divine Punishment",
 		"obsoleteTech": "Full Conversion",
 		"upgradesTo": "Imperial Sohei",
@@ -976,8 +990,8 @@
 		"name": "Solitary Saint",
 		"unitType": "Sword",
 		"movement": 2,
-		"strength": 15,
-		"cost": 85,
+		"strength": 20,
+		"cost": 135,
 		"requiredTech": "Divine Punishment",
 		"obsoleteTech": "Full Conversion",
 		"upgradesTo": "Great Yamabushi",
@@ -989,25 +1003,25 @@
 		"name": "Imperial Sohei",
 		"unitType": "Sword",
 		"movement": 2,
-		"strength": 17,
-		"cost": 185,
+		"strength": 27,
+		"cost": 160,
 		"requiredTech": "Full Conversion",
 		"obsoleteTech": "Technology Limit",
 		"attackSound": "nonmetalhit",
 		"promotions": ["Anti-Youkai", "Martial Arts"],
-		"uniques": ["Monk", "Becomes obsolete at Technology Limit", "Never appears as a Barbarian unit"]
+		"uniques": ["Monk", "Comment [Becomes obsolete at [Technology Limit]]", "Never appears as a Barbarian unit"]
 	},
 	{
 		"name": "Great Yamabushi",
 		"unitType": "Sword",
 		"movement": 2,
-		"strength": 18,
-		"cost": 185,
+		"strength": 28,
+		"cost": 175,
 		"requiredTech": "Full Conversion",
 		"obsoleteTech": "Technology Limit",
 		"attackSound": "nonmetalhit",
 		"promotions": ["Anti-Youkai", "Anti-Oni"],
-		"uniques": ["Hermit", "Becomes obsolete at Technology Limit", "Never appears as a Barbarian unit"]
+		"uniques": ["Hermit", "Comment [Becomes obsolete at [Technology Limit]]", "Never appears as a Barbarian unit"]
 	},
 	
 	/* Great Persons */
