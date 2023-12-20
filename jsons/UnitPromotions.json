@@ -224,7 +224,7 @@
 	},
 	{
 		"name": "Human Race",
- 		"uniques": ["Human", "[-50]% Strength", "[-15]% Strength <when adjacent to a [Oni] unit>"]
+ 		"uniques": ["Human", "[-50]% Strength", "[-15]% Strength <when adjacent to a [Oni] unit>", "Comment [Humans have an immunity from the youkais during the Youkai Expansion Project, which will neutralize their -50% Strength debuff with a temporary +50% Strength bonus]"]
 	},
 	{
 		"name": "Youkai",
@@ -970,35 +970,38 @@
 	
 	
 	// Ability Card Uniques
+	// I don't see the reason why their uniques should be hidden, such a thing should be displayed you know
 	{
-		"name": "Screen Border Card",
-		"uniques": ["Yukari Yakumo's ability to let you freely warp between map edges for Scout. It will activates when you have this card.",
-			"May Paradrop up to [100] tiles from inside friendly territory <if it hasn't used other actions yet> <for [Scout] units> <with [Screen Border Card]> <hidden from users>"]
+		"name": "Card - Screen Border",
+		"uniques": ["Comment [Yukari Yakumo's ability to let you freely warp between map edges for Scout. It will activates when you have this card.]",
+			"May Paradrop up to [100] tiles from inside friendly territory <if it hasn't used other actions yet> <for [Scout] units> <with [Screen Border Card]>"
+			]
 	},
 	{
-		"name": "Great Tengu's Barley Rice Card",
- 		"uniques": ["Megumu Iizunamaru's ability that gives movepoints for just bought units when you have this card. Why are you collecting Power after setting foot on the mountain? You should pack tons of food to begin with, and then set out.",
-			"Can move immediately once bought <hidden from users> <for [All] units> <with [Great Tengu's Barley Rice Card]>"]
+		"name": "Card - Great Tengu's Barley Rice",
+ 		"uniques": ["Comment [Megumu Iizunamaru's ability that gives movepoints for just bought units when you have this card. Why are you collecting Power after setting foot on the mountain? You should pack tons of food to begin with, and then set out.]",
+			"Can move immediately once bought <for [All] units> <with [Great Tengu's Barley Rice Card]>"]
 	},
+	/* Apprently, I am already adding this to Cirno as a nation unique, so this would have to go
 	{
-		"name": "Ice Fairy Card",
-		"uniques": ["Ice fairies are useful when unit in cold regions. Gives little Defence bonus in Cold Regions, And Can enter ice tiles for navy and embarking units when you have Ice Fairy Card.",
+		"name": "Card - Ice Fairy",
+		"uniques": ["Comment [Ice fairies are useful when unit in cold regions. Gives little Defence bonus in Cold Regions, And Can enter ice tiles for navy and embarking units when you have Ice Fairy Card.]",
 			"Can enter ice tiles <with [Ice Fairy Card]> <hidden from users>",
-		"[+15]% Strength <in [Snow] tiles> <when defending> <with [Ice Fairy Card]> <hidden from users>","[+10]% Strength <in [{Tundra} {non-[Forest]} {non-[Hill]}] tiles> <with [Ice Fairy Card]> <when defending> <hidden from users>"]
+		"[+10]% Strength <in [Snow] tiles> <when defending> <with [Ice Fairy Card]>","[+10]% Strength <in [{Tundra} {non-[Forest]} {non-[Hill]}] tiles> <with [Ice Fairy Card]> <when defending>"]
+	},
+	*/
+	{
+		"name": "Card - Smelt's Scales",
+		"uniques": ["Comment [Enable attack for Embarking units when you have Smelt's Scales Card.]", "May attack when embarked <for [Melee] units> <with [Smelt's Scales Card]>"]
 	},
 	{
-		"name": "Smelt's Scales Card",
-		"uniques": ["Enable attack for Embarking units when you have Smelt's Scales Card.","May attack when embarked <for [Melee] units> <hidden from users> <with [Smelt's Scales Card]>"]
+		"name": "Card - Pebble Hat",
+		"uniques": ["Comment [Koishi Komeiji's ability to prevent your enemies from seeing your Scouts, unless nearby.]", "Invisible to non-adjacent units <for [Scout] units> <when at war> <with [Pebble Hat Card]>"]
 	},
 	{
-		"name": "Pebble Hat Card",
-		"uniques": ["Koishi Komeiji's ability to prevent you from crashing into enemies when you have Pebble Hat Card. No one will notice that Scout is there..",
-			"Ignores Zone of Control <with [Pebble Hat Card]> <hidden from users>","Invisible to others <for [Scout] units> <hidden from users> <when at war> <with [Pebble Hat Card]>"]
-	},
-	{
-		"name": "Beauty of Destruction Card",
-		"uniques": ["Flan's ability to destroy Improved tiles with your Siege Unit when you have Beauty of Destruction Card. There are many Fortress in enemy territory? What a dumb is it. Why don't they know at it can be destroyed easily?",
-			"Destroys tile improvements when attacking <hidden from users> <for [Siege] units> <when at war> <hidden from users> <with [Beauty of Destruction Card]>"]
+		"name": "Card - Beauty Of Destruction",
+		"uniques": ["Comment [Flan's ability to destroy Improved tiles with your Siege Unit when you have Beauty of Destruction Card. There are many Fortress in enemy territory? What a dumb is it. Why don't they know at it can be destroyed easily?]",
+			"Destroys tile improvements when attacking <for [Siege] units> <when at war> <with [Beauty Of Destruction Card]>"]
 	}
 	
 ]
