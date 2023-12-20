@@ -196,7 +196,7 @@
 	},
 	{
 		"name": "Doll Construct",
- 		"uniques": ["Doll construct", "[-50]% Strength <when defending> <before discovering [Self-Discovery]>", "[+2] HP when healing <after discovering [Self-Discovery]>"]
+ 		"uniques": ["Doll construct", "[-50]% Strength <when defending> <before discovering [Self-Discovery]>", "[-25]% Strength <when defending> <after discovering [Self-Discovery]>", "[+2] HP when healing <after discovering [Self-Discovery]>"]
 	},
 	{
 		"name": "Lunarian",
