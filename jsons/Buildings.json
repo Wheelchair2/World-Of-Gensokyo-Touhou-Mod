@@ -696,7 +696,8 @@
 		"happiness": 2,
 		"hurryCostModifier": 25,
 		"maintenance": 2,
-		"requiredTech": "Festivals"
+		"requiredTech": "Festivals",
+		"uniques": ["New [Military] units start with [15] Experience [in this city]", "Destroyed when the city is captured"]
 	},
 	{
 		"name": "Castle",
