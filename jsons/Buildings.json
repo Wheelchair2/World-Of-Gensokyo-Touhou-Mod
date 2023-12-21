@@ -364,7 +364,7 @@
 		"isWonder": true,
 		"greatPersonPoints": {"Great Artist": 1},
 		"requiredTech": "Calendar"
-		"quotes": "Keine is loyal to her duties to the Human Village, both as a schoolteacher and as its guardian."
+		"quote": "Keine is loyal to her duties to the Human Village, both as a schoolteacher and as its guardian."
 	},
 	{
 		"name": "Fortifications",
@@ -1240,6 +1240,7 @@
 		"hurryCostModifier": 10,
 		"maintenance": 2,
 		"food": 2,
+		"happiness": 1,
 		"requiredTech": "Rituals"
 	},
 	{
@@ -1255,7 +1256,7 @@
 		"isWonder": true,
 		"faith": 4,
 		"happiness": 5,
-		"quotes": "The Sutra famously states, 'Form is emptiness (śūnyatā), emptiness is form.' It is a condensed exposé on the Buddhist Mahayana teaching of the Two Truths doctrine, which says that ultimately all phenomena are Śūnyatā (emptiness).",
+		"quote": "The Sutra famously states, 'Form is emptiness (śūnyatā), emptiness is form.' It is a condensed exposé on the Buddhist Mahayana teaching of the Two Truths doctrine, which says that ultimately all phenomena are Śūnyatā (emptiness).",
 		"requiredTech": "Culture Preservation"
 	},
 	{
@@ -1263,7 +1264,7 @@
 		"isWonder": true,
 		"culture": 3,
 		"uniques": ["[5] free [Mountain Hermit] units appear"]
-		"quotes": "Senkai (hermit world) is a sealed secret world suited for hermits, which even Gensokyo did not know of before the events of Ten Desires.",
+		"quote": "Senkai (hermit world) is a sealed secret world suited for hermits, which even Gensokyo did not know of before the events of Ten Desires.",
 		"requiredTech": "Culture Preservation"
 	},
 	{
@@ -1282,7 +1283,22 @@
 			"Gain a free [Torii Gate] [in this city]",
 			"All newly-trained [Missionary] units [in this city] receive the [Devout] promotion", "All newly-trained [Great Prophet] units [in this city] receive the [Devout] promotion", "Can only be built [in holy cities]"],
 		"requiredTech": "Full Conversion",
-		"isWonder": true
+		"isWonder": true,
+		"quote": "The highest deity in Japanese mythology is Amaterasu, the Sun Goddess"
+	},
+	{
+		"name": "Fodder Manufactory",
+		"maintenance": 3,
+		"uniques": ["[+2 Food] from [Pasture] tiles [in this city]"],
+		"requiredTech": "Forage Crops Utilization",
+	},
+	{
+		"name": "Statue Of The Chicken Goddess",
+		"culture": 3,
+		"uniques": ["[+30]% Yield from every [Pasture]"],
+		"requiredTech": "Heavy Plough",
+		"isWonder": true,
+		"quote": "Niwatari Kutaka is the God of Chickens, assigned to be the guardian of Hell by the Yama. It is told that she can cure throat illnesses. But then, for what reason did she get assigned to such responsibility...?"
 	},
 	
 	/*{ EXPERIMENTAL
@@ -1291,7 +1307,7 @@
 		"isWonder": true,
 		"culture": 3,
 		"uniques": ["Must be next to [Mountain]", "[5] free [Mountain Hermit] units appear"]
-		"quotes": "Senkai (hermit world) is a sealed secret world suited for hermits, which even Gensokyo did not know of before the events of Ten Desires."
+		"quote": "Senkai (hermit world) is a sealed secret world suited for hermits, which even Gensokyo did not know of before the events of Ten Desires."
 		"requiredTech": "Culture Preservation"
 	},*/
 	
