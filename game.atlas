@@ -3054,3 +3054,23 @@ TileSets/HexaRealm/Tiles/Keystone
   orig: 64, 96
   offset: 0, 0
   index: -1
+
+game5.png
+size: 200,100
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+BuildingIcons/Fodder Manufactory
+  rotate: false
+  xy: 0, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Statue Of The Chicken Goddess
+  rotate: false
+  xy: 100, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
