@@ -1,10 +1,10 @@
 {
 	"ruleVariants": {
-		"Plains+Forest+Doll Lumber House": ["Plains","ForestPUp","Doll Lumber House","ForestPLow"],
-		"Plains+Hill+Forest+Doll Lumber House": ["Plains+Hill","ForestPHUp","Doll Lumber House","ForestPHLow"],
-		"Grassland+Forest+Doll Lumber House": ["Grassland","ForestGUp","Doll Lumber House","ForestGLow"],
-		"Grassland+Hill+Forest+Doll Lumber House": ["Grassland+Hill","ForestGHUp","Doll Lumber House","ForestGHLow"],
-    "Tundra+Forest+Doll Lumber House": ["Tundra","ForestTUp","Doll Lumber House","ForestTLow"],
-		"Tundra+Hill+Forest+Doll Lumber House": ["Tundra+Hill","ForestTHUp","Doll Lumber House","ForestTHLow"],
+		"Plains+Forest+Doll Lumber House": ["Plains","ForestPUp","ForestPLow","Doll Lumber House"],
+		"Plains+Hill+Forest+Doll Lumber House": ["Plains+Hill","ForestPHUp","ForestPHLow","Doll Lumber House"],
+		"Grassland+Forest+Doll Lumber House": ["Grassland","ForestGUp","ForestGLow","Doll Lumber House"],
+		"Grassland+Hill+Forest+Doll Lumber House": ["Grassland+Hill","ForestGHUp","ForestGHLow","Doll Lumber House"],
+    "Tundra+Forest+Doll Lumber House": ["Tundra","ForestTUp","ForestTLow","Doll Lumber House"],
+		"Tundra+Hill+Forest+Doll Lumber House": ["Tundra+Hill","ForestTHUp","ForestTHLow","Doll Lumber House"],
 	}
 }
