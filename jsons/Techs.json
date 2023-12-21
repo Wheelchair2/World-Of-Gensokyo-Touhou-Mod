@@ -493,7 +493,7 @@
 				"prerequisites": ["Multicropping System"],
 				"uniques": ["[+2 Food] from every [{unimproved} {Grassland}]",
                 "[+2 Food] from every [{unimproved} {Plains}]",
-                "[+2 Food] from every [Pasture]"
+                "[+2 Food] from every [{unimproved} {Tundra}]"
                 ],
 				"quote": "The blessings of the field pave the way to richness of the heart."
 			},
