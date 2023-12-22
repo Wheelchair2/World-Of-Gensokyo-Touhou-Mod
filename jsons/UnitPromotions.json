@@ -1,1360 +1,1007 @@
 [
-	/* Youkai Expansion Project */
-	/* Most of these are unfathomably unorganized */
-	
-	//Always available
-	{
-		"name": "Worker",
-		"unitType": "Civilian",
-		"movement": 2,
-		"uniques": ["Can build [Land] improvements on tiles", "Automation is a primary action"],
-		"cost": 70
-	},
-	{
-		"name": "Work Boats",
-		"unitType": "Civilian Water",
-		"movement": 4,
-		"cost": 30,
-		"requiredTech": "Sailing",
-		"uniques": ["Cannot enter ocean tiles <before discovering [Navigation]>", "May create improvements on water resources",
-            "Uncapturable", "Automation is a primary action"]
-	},
-	{
-		"name": "Settler",
-		"unitType": "Civilian",
-		"movement": 2,
-		"cost": 110,
-		"uniques": ["Founds a new city <by consuming this unit>", "Excess Food converted to Production when under construction"]
-		"hurryCostModifier": 15
-	},
-    /*
-    {
-		"name": "Builder",
-		"cost": 90,
-		"unitType": "Civilian",
-		"obsoleteTech": "Technology Limit",
-		"movement": 2,
-		"uniques": ["Comment [Becomes obsolete at [Technology Limit]]", "Can transform to [Military Camp]", "Can transform to [Watchtower]", "This unit can transform into two Building units: Military Camp which grants +15% Strength bonus to nearby Friendly units, while Watchtower can attack Enemy units in its range; cannot move as a building"],
-	},
-    {
-		"name": "Military Camp",
-		"unitType": "Building",
-		"movement": 1,
-        "promotions": ["Sentry"],
-		"uniques": ["Cannot move", "All adjacent units heal [6] HP when healing", "Uncapturable", "Unbuildable", "Cannot be purchased", "[+15]% Strength bonus for [Military] units within [4] tiles", "Can see over obstacles", "Never appears as a Barbarian unit"]
-		"cost": 60
-	},
-    {
-		"name": "Watchtower",
-		"unitType": "Building",
-        "range": 2,
-		"movement": 1,
-		"strength": 15,
-        "rangedStrength": 7,
-		"cost": 60,
-		"attackSound": "arrow",
-        "promotions": ["Sentry"],
-        "uniques": ["Cannot move", "[+50]% Strength <after discovering [State Government]>", "[+50]% Strength <after discovering [Politics]>", "Unbuildable", "Cannot be purchased", "Can see over obstacles", "Never appears as a Barbarian unit"]
-	},
-    */
-	{
-		"name": "Scout",
-		"unitType": "Scout",
-		"movement": 3,
-		"strength": 5,
-		"cost": 25,
-		"obsoleteTech": "Paid Service",
-		"upgradesTo": "Patrol",
-		"attackSound": "nonmetalhit",
-		"uniques": ["Never appears as a Barbarian unit"]
-	},
-    { //Baka unique
-		"name": "Tree Dweller",
-        "uniqueTo": "Fairy Alliance",
-        "replaces": "Scout",
-		"unitType": "Scout",
-		"movement": 3,
-		"strength": 5,
-		"cost": 30,
-		"obsoleteTech": "Paid Service",
-		"upgradesTo": "Patrol",
-		"attackSound": "nonmetalhit",
-		"uniques": ["Never appears as a Barbarian unit", "Double movement in [Forest]", "Double movement in [Jungle]"]
-	},
-	{
-		"name": "Warrior",
-		"unitType": "Sword",
-		"movement": 2,
-		"strength": 7,
-		"cost": 40,
-		"obsoleteTech": "Paid Service",
-		"upgradesTo": "Recruit",
-		"attackSound": "nonmetalhit",
-	},
-	/*
-	//Hourai Immortals
-	{
-		"name": "Resurrected Fallen",
-		"unitType": "Sword",
-		"movement": 2,
-		"strength": 4,
-		"cost": 1,
-		"upgradesTo": "Warrior",
-		"attackSound": "nonmetalhit",
-		"promotions": ["Second Life"],
-		"uniques": ["Won't be resurrected again", "Cannot be purchased", "Unbuildable", "Never appears as a Barbarian unit"]
-	},
-	*/
-	//First Part
-	{
-		"name": "Physician",
-		"unitType": "Civilian",
-		"movement": 2,
-		"cost": 90,
-		"obsoleteTech": "Civil Service",
-		"requiredTech": "Negotiations",
-		"upgradesTo": "Field Medic",
-		"attackSound": "nonmetalhit",
-		"uniques": ["All adjacent units heal [3] HP when healing"]
-	},
-	{
-		"name": "Horseman",
-		"unitType": "Mounted",
-		"movement": 4,
-		"strength": 12,
-		"cost": 65,
-		"requiredTech": "Authority",
-		"obsoleteTech": "Professional Army",
-		"upgradesTo": "Cavalry",
-		"requiredResource": "Horses",
-		"uniques": ["Can move after attacking","No defensive terrain bonus", "[-33]% Strength <vs cities> <when attacking>", "[+100]% Strength <vs [Ranged] units> <when attacking>"],
-		"attackSound": "horse"
-	},
-	{
-		"name": "Archer",
-		"unitType": "Archery",
-		"movement": 2,
-		"strength": 5,
-		"rangedStrength": 6,
-		"cost": 30,
-		"obsoleteTech": "Paid Service",
-		"upgradesTo": "Longbowman",
-		"uniques": ["[-50]% Strength <vs cities> <when attacking>"],
-		"attackSound": "arrow"
-	},
-	{
-		"name": "Recruit",
-		"unitType": "Sword",
-		"movement": 2,
-		"strength": 8,
-		"cost": 30,
-		"obsoleteTech": "Professional Army",
-		"requiredTech": "Paid Service",
-		"upgradesTo": "Ashigaru Spearman",
-		"attackSound": "nonmetalhit"
-	},
-	{
-		"name": "Combatant",
-		"unitType": "Sword",
-		"movement": 2,
-		"strength": 11,
-		"cost": 56,
-		"obsoleteTech": "Professional Army",
-		"requiredTech": "Paid Service",
-		"upgradesTo": "Ashigaru Spearman",
-		"attackSound": "nonmetalhit",
-		"uniques": ["[+55]% Strength <vs [Mounted] units>", "Never appears as a Barbarian unit"]
-	},
-	{ //Human Village unique
-		"name": "Youkai Hunter",
-		"uniqueTo": "Human Village",
-		"unitType": "Sword",
-		"movement": 3,
-		"strength": 11,
-		"cost": 56,
-		"obsoleteTech": "Professional Army",
-		"upgradesTo": "Vampire Hunter",
-		"promotions": ["Anti-Youkai"],
-		"uniques": ["Can only attack [Youkai] units", "Never appears as a Barbarian unit"],
-		"attackSound": "nonmetalhit",
-	},
-	{ //Human Village unique
-		"name": "Youkai Patrol",
-		"replaces": "Patrol",
-		"uniqueTo": "Human Village",
-		"unitType": "Scout",
-		"movement": 3,
-		"strength": 14,
-		"cost": 75,
-		"attackSound": "nonmetalhit",
-		"obsoleteTech": "Professional Army",
-		"requiredTech": "Paid Service",
-		"promotions": ["Anti-Youkai"],
-		"uniques": ["Can only attack [Youkai] units", "[+25]% Strength <when fighting in [Friendly Land] tiles>", "Never appears as a Barbarian unit"]
-	},
-	{
-		"name": "Patrol",
-		"unitType": "Scout",
-		"movement": 3,
-		"strength": 11,
-		"cost": 56,
-		"attackSound": "nonmetalhit",
-		"requiredTech": "Paid Service",
-		"obsoleteTech": "Law Enforcement",
-		"upgradesTo": "Undercover",
-		"uniques": ["Never appears as a Barbarian unit"]
-	},
-	{
-		"name": "Longbowman",
-		"unitType": "Archery",
-		"movement": 2,
-		"strength": 7,
-		"rangedStrength": 11,
-		"cost": 75,
-		"obsoleteTech": "Gunpowder"
-		"requiredTech": "Paid Service",
-		"upgradesTo": "Yumi Samurai",
-		"promotions": ["Extended Range"]
-		"uniques": ["[-100]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
-		"attackSound": "arrow"
-	},
-
-	
-	//Second Part
-	/* Professional Army */
-	{
-		"name": "Ashigaru Spearman",
-		"unitType": "Sword",
-		"movement": 2,
-		"strength": 14,
-		"cost": 75,
-		"obsoleteTech": "Metal Casting",
-		"requiredTech": "Professional Army",
-		"upgradesTo": "Ashigaru Pikeman",
-		"uniques": ["Ashigaru", "[+55]% Strength <vs [Mounted] units>"],
-		"attackSound": "metalhit"
-	},
-	{ //Human Village unique
-		"name": "Vampire Hunter",
-		"uniqueTo": "Human Village",
-		"unitType": "Sword",
-		"movement": 2,
-		"strength": 17,
-		"cost": 90,
-		"obsoleteTech": "Shogunate",
-		"requiredTech": "Professional Army",
-		"promotions": ["Anti-Youkai", "Anti-Vampire"]
-		"uniques": ["Can only attack [Youkai] units", "Never appears as a Barbarian unit"],
-		"attackSound": "metalhit"
-	},
-	{
-		"name": "Cavalry",
-		"unitType": "Mounted",
-		"movement": 4,
-		"strength": 17,
-		"cost": 100,
-		"obsolteTech": "Iron Working",
-		"requiredTech": "Professional Army",
-		"upgradesTo": "Samurai Cavalry",
-		"requiredResource": "Horses",
-		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "[+100]% Strength <vs [Ranged] units> <when attacking>", "Never appears as a Barbarian unit"],
-		"hurryCostModifier": 20,
-		"attackSound": "horse"
-	},
-	
-	
-	//Upper (Iron Working)
-	{
-		"name": "Ashigaru Pikeman",
-		"unitType": "Sword",
-		"movement": 2,
-		"strength": 17,
-		"cost": 80,
-		"obsoleteTech": "Politics",
-		"requiredTech": "Metal Casting",
-		"attackSound": "metalhit",
-		"upgradesTo": "Ashigaru Infantry",
-        "uniques": ["Ashigaru", "[+55]% Strength <vs [Mounted] units>", "Never appears as a Barbarian unit"]
-	},
-	{
-		"name": "Samurai",
-		"unitType": "Sword",
-		"movement": 2,
-		"strength": 17,
-		"cost": 90,
-		"obsoleteTech": "Metal Casting",
-		"requiredResource": "Iron",
-		"requiredTech": "Iron Working",
-		"upgradesTo": "Elite Samurai",
-		"attackSound": "metalhit",
-        "uniques": ["Armor", "Never appears as a Barbarian unit", "[+25]% Strength <vs [Ashigaru] units>"]
-	},
-	{
-		"name": "Samurai Cavalry",
-		"unitType": "Mounted",
-		"movement": 4,
-		"strength": 21,
-		"cost": 120,
-		"requiredTech": "Metal Casting",
-		"obsoleteTech": "Shogunate",
-		"upgradesTo": "Noble Cavalry",
-		"requiredResource": "Horses",
-		"attackSound": "metalhit",
-        "uniques": ["Armor", "Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "[+100]% Strength <vs [Ranged] units> <when attacking>", "Never appears as a Barbarian unit"]
-	},
-	
 
 	{
-		"name": "Elite Samurai",
-		"unitType": "Sword",
-		"movement": 2,
-		"strength": 19,
-		"cost": 120,
-		"obsoleteTech": "Shogunate",
-		"requiredTech": "Metal Casting",
-		"upgradesTo": "Noble Samurai",
-		"requiredResource": "Iron",
-		"attackSound": "metalhit",
-        "uniques": ["Armor", "[+25]% Strength <vs [Ashigaru] units>", "Never appears as a Barbarian unit"]
-	},
-	{ //Human Village unique
-		"name": "Youkai Slayer",
-		"uniqueTo": "Human Village",
-		"unitType": "Sword",
-		"movement": 2,
-		"strength": 22,
-		"cost": 150,
-		"requiredTech": "Gunpowder",
-		"obsoleteTech": "Technology Limit",
-		"attackSound": "metalhit",
-		"promotions": ["Anti-Youkai"],
-        "uniques": ["Armor", "Can only attack [Youkai] units", "Comment [Becomes obsolete at [Technology Limit]]", "Never appears as a Barbarian unit"]
-	},
-	{
-		"name": "Yumi Samurai",
-		"unitType": "Archery",
-		"movement": 2,
-		"strength": 17,
-		"rangedStrength": 15,
-		"cost": 120,
-		"obsoleteTech": "Law Enforcement",
-		"requiredTech": "Gunpowder",
-		"upgradesTo": "Sharpshooter",
-		"attackSound": "arrow",
-		"uniques": ["Armor", "[-100]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"]
-	},
-	{ //Human Village unique
-		"name": "Tanegashima",
-		"replaces": "Yumi Samurai",
-		"uniqueTo": "Human Village",
-		"unitType": "Ranged Gunpowder",
-		"movement": 2,
-		"strength": 11,
-		"rangedStrength": 8,
-		"cost": 150,
-		"requiredTech": "Gunpowder",
-		"attackSound": "shot",
-		"uniques": ["[+200]% Strength <when attacking> <when adjacent to a [Tanegashima] unit>", "[+50]% Strength <vs [Armor] units> <when attacking>", "[-100]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"]
-	},
-	{
-		"name": "Field Medic",
-		"unitType": "Civilian",
-		"movement": 3,
-		"cost": 480,
-		"requiredTech": "Civil Service",
-		"attackSound": "nonmetalhit",
-		"uniques": ["All adjacent units heal [10] HP when healing"]
-	},
-	{
-		"name": "Hand Cannon",
-		"unitType": "Siege",
-		"movement": 2,
-		"strength": 14,
-		"rangedStrength": 8,
-		"cost": 120,
-		"requiredTech": "Gunpowder",
-		"obsoleteTech": "Maintained Society",
-		"upgradesTo": "Odzutsu",
-		"uniques": ["[+300]% Strength <vs cities> <when attacking>", "Rough terrain penalty", "[+150]% Strength <vs [Armor] units>", "[-1] Sight", "Never appears as a Barbarian unit"],
-		"attackSound": "shot"
-	},
-	{
-		"name": "Undercover",
-		"unitType": "Scout",
-		"movement": 4,
-		"strength": 16,
-		"cost": 200,
-		"attackSound": "metalhit",
-		"requiredTech": "Law Enforcement",
-		"obsoleteTech": "Espionage",
-		"upgradesTo": "Spy",
-		"uniques": ["Invisible to others", "Can see invisible [Scout] units", "Can only attack [Scout] units", "Never appears as a Barbarian unit"]
-	},
-	{
-		"name": "Ashigaru Infantry",
-		"unitType": "Sword",
-		"movement": 2,
-		"strength": 27,
-		"cost": 150,
-		"upgradesTo": "Imperial Ashigaru",
-		"requiredTech": "Politics",
-		"obsoleteTech": "Military Logistics",
-		"attackSound": "metalhit",
-        "uniques": ["Ashigaru", "[+55]% Strength <vs [Mounted] units>", "Never appears as a Barbarian unit"]
-	},
-	{
-		"name": "Noble Samurai",
-		"unitType": "Sword",
-		"movement": 2,
-		"strength": 27,
-		"cost": 170,
-		"upgradesTo": "Imperial Samurai",
-		"requiredTech": "Shogunate",
-		"obsoleteTech": "Military Predominance",
-		"requiredResource": "Iron",
-		"attackSound": "metalhit",
-        "uniques": ["Armor", "[+25]% Strength <vs [Ashigaru] units>", "Never appears as a Barbarian unit"]
-	},
-	{
-		"name": "Noble Cavalry",
-		"unitType": "Mounted",
-		"movement": 4,
-		"strength": 34,
-		"cost": 200,
-		"upgradesTo": "Imperial Cavalry",
-		"requiredTech": "Shogunate",
-		"obsoleteTech": "Military Predominance",
-		"requiredResource": "Horses",
-		"attackSound": "metalhit",
-        "uniques": ["Armor", "Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "[+100]% Strength <vs [Ranged] units> <when attacking>", "Never appears as a Barbarian unit"]
-	},
-	{
-		"name": "Sharpshooter",
-		"unitType": "Ranged Gunpowder",
-		"movement": 2,
-		"strength": 13,
-		"rangedStrength": 21,
-		"cost": 185,
-		"requiredTech": "Law Enforcement",
-		"obsoleteTech": "Nobility",
-		"upgradesTo": "Marksman",
-		"promotions": ["Extended Range"]
-		"attackSound": "shot",
-		"uniques": ["[+50]% Strength <vs [Armor] units> <when attacking>", "[-100]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"]
-	},
+		"name": "Heal Instantly",
+		"uniques": ["Heal this unit by [50] HP", "Doing so will consume this opportunity to choose a Promotion"],
+		"unitTypes": ["Sword","Gunpowder","Mounted","Scout","Siege","Archery","Ranged Gunpowder","Armored","Melee Water","Ranged Water","Submarine"],
+        "row": 0,
+        "column": 0
+	}, 
+    
+    // Unorganized Unique Promotions
 	
-	
-	/* Meiji Era onwards (not usually followed) */
-	{
-		"name": "Imperial Ashigaru",
-		"unitType": "Sword",
-		"movement": 2,
-		"strength": 34,
-		"cost": 225,
-		"requiredTech": "Military Logistics",
-		"obsoleteTech": "Military Science",
-		"upgradesTo": "Royal Ashigaru",
-		"attackSound": "metalhit",
-        "uniques": ["Ashigaru", "[+55]% Strength <vs [Mounted] units>", "Never appears as a Barbarian unit"]
-	},
-	{
-		"name": "Imperial Samurai",
-		"unitType": "Sword",
-		"movement": 2,
-		"strength": 34,
-		"cost": 225,
-		"requiredTech": "Military Predominance",
-		"obsoleteTech": "Military Science",
-		"upgradesTo": "Royal Samurai",
-		"requiredResource": "Iron",
-		"attackSound": "metalhit",
-        "uniques": ["Armor", "[+25]% Strength <vs [Ashigaru] units>", "Never appears as a Barbarian unit"]
-	},
-	{
-		"name": "Imperial Cavalry",
-		"unitType": "Mounted",
-		"movement": 4,
-		"strength": 40,
-		"cost": 320,
-		"requiredTech": "Military Predominance",
-		"obsoleteTech": "Military Science",
-		"upgradesTo": "Royal Cavalry",
-		"requiredResource": "Horses",
-		"attackSound": "metalhit",
-        "uniques": ["Armor", "Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "[+100]% Strength <vs [Ranged] units> <when attacking>", "Never appears as a Barbarian unit"]
-	},
-	{
-		"name": "Marksman",
-		"unitType": "Ranged Gunpowder",
-		"movement": 2,
-		"strength": 14,
-		"rangedStrength": 28,
-		"cost": 375,
-		"requiredTech": "Nobility",
-		"promotions": ["Extended Range"],
-		"attackSound": "shot",
-		"uniques": ["[+50]% Strength <vs [Armor] units> <when attacking>", "[-100]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"]
-	},
-	{
-		"name": "Royal Ashigaru",
-		"unitType": "Sword",
-		"movement": 2,
-		"strength": 60,
-		"cost": 425,
-		"requiredTech": "Military Science",
-		"attackSound": "metalhit",
-		"promotions": ["[Royal Ashigaru] ability"],
-        "uniques": ["Ashigaru", "[+55]% Strength <vs [Mounted] units>", "Never appears as a Barbarian unit"]
-	},
-	{
-		"name": "Royal Samurai",
-		"unitType": "Sword",
-		"movement": 2,
-		"strength": 60,
-		"cost": 480,
-		"requiredTech": "Military Science",
-		"requiredResource": "Iron",
-		"attackSound": "metalhit",
-		"promotions": ["[Royal Samurai] ability"],
-        "uniques": ["Armor", "[+25]% Strength <vs [Ashigaru] units>", "Never appears as a Barbarian unit"]
-	},
-	{
-		"name": "Royal Cavalry",
-		"unitType": "Mounted",
-		"movement": 4,
-		"strength": 75,
-		"cost": 550,
-		"requiredTech": "Military Science",
-		"requiredResource": "Horses",
-		"attackSound": "metalhit",
-		"promotions": ["[Royal Cavalry] ability"],
-        "uniques": ["Armor", "Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "[+100]% Strength <vs [Ranged] units> <when attacking>", "Never appears as a Barbarian unit"]
-	},
-	{
-		"name": "Spy",
-		"unitType": "Scout",
-		"movement": 4,
-		"strength": 50,
-		"cost": 375,
-		"requiredTech": "Espionage",
-		"attackSound": "metalhit",
-        "uniques": ["Invisible to others", "Can see invisible [Scout] units", "Can only attack [Scout] units", "May enter foreign tiles without open borders", "Never appears as a Barbarian unit"]
-	},
-	
-	
-	
-	//Siege units
-	{
-		"name": "Battering Ram",
-		"unitType": "Sword",
-		"movement": 1,
-		"strength": 17,
-		"cost": 85,
-		"obsoleteTech": "Gunpowder",
-		"requiredTech": "State Government",
-		"promotions": ["Cover I"]
-		"uniques": ["Siege", "[+1] Movement <when adjacent to a [Melee] unit>", "[+50]% Strength <vs cities>", "Can only attack [City] units", "Never appears as a Barbarian unit"],
-		"attackSound": "metalhit"
-	},
-	
-	{
-		"name": "Odzutsu",
-		"unitType": "Siege",
-		"movement": 1,
-		"strength": 17,
-		"rangedStrength": 18,
-		"cost": 125,
-		"obsoleteTech": "Law Enforcement",
-		"requiredTech": "Maintained Society",
-		"upgradesTo": "Cannon",
-		"uniques": ["[+100]% Strength <vs cities> <when attacking>", "Must set up to ranged attack", "[-1] Sight", "Never appears as a Barbarian unit"],
-		"attackSound": "cannon"
-	},
-	{
-		"name": "Cannon",
-		"unitType": "Siege",
-		"movement": 1,
-		"strength": 21,
-		"rangedStrength": 28,
-		"cost": 225,
-		"obsoleteTech": "Nobility",
-		"requiredTech": "Law Enforcement",
-		"upgradesTo": "Artillery",
-		"uniques": ["[+100]% Strength <vs cities> <when attacking>", "Must set up to ranged attack", "[-1] Sight", "Never appears as a Barbarian unit"],
-		"attackSound": "cannon"
-	},
-	{
-		"name": "Artillery",
-		"unitType": "Siege",
-		"movement": 1,
-		"strength": 23,
-		"rangedStrength": 34,
-		"cost": 425,
-		"requiredTech": "Nobility",
-		"uniques": ["[+100]% Strength <vs cities> <when attacking>", "Must set up to ranged attack", "[-1] Sight", "Never appears as a Barbarian unit"],
-		"attackSound": "cannon"
-	},
-	
-	// Military Water Units
-	{
-		"name": "Trireme",
-		"unitType": "Melee Water",
-		"movement": 4,
-		"strength": 16,
-		"cost": 45,
-		"requiredTech": "Sailing",
-		"uniques": ["Cannot enter ocean tiles", "Never appears as a Barbarian unit"],
-		"upgradesTo": "Boarding Ship",
-		"obsoleteTech": "Navigation",
-		"attackSound": "nonmetalhit"
-	},
-	{  // Mermaid
-		"name": "Ship-Sinking Mermaid",
-		"uniqueTo": "Mermaids Of The Lake",
-		"replaces": "Trireme",
-		"unitType": "Melee Water",
-		"movement": 4,
-		"strength": 10,
-		"cost": 45,
-		"requiredTech": "Sailing",
-		"uniques": ["[+100]% Strength <vs [{Military} {Water}] units>", "Never appears as a Barbarian unit"],
-		"upgradesTo": "Boarding Ship",
-		"obsoleteTech": "Navigation",
-		"attackSound": "nonmetalhit"
-	},
-	{
-		"name": "War Vessel",
-		"unitType": "Ranged Water",
-		"movement": 4,
-		"strength": 15,
-		"rangedStrength": 18,
-		"cost": 100,
-		"requiredTech": "Gunpowder",
-		"uniques": ["Cannot enter ocean tiles", "Never appears as a Barbarian unit"],
-		"upgradesTo": "Warship",
-		"obsoleteTech": "Compass",
-		"attackSound": "arrow"
-	},
-	{ //Human Village unique
-		"name": "Musketmen Fleet",
-		"uniqueTo": "Human Village",
-		"replaces": "War Vessel",
-		"unitType": "Ranged Water",
-		"movement": 2,
-		"strength": 15,
-		"rangedStrength": 13,
-		"cost": 125,
-		"requiredTech": "Gunpowder",
-		"uniques": ["Cannot enter ocean tiles", "[+150]% Strength <vs [{Military} {Water}] units> <when adjacent to a [Musketmen Fleet] unit> <when attacking>"],
-		"upgradesTo": "Gunboat",
-		"obsoleteTech": "Compass",
-		"attackSound": "shot"
-	},
-	{
-		"name": "Boarding Ship",
-		"unitType": "Melee Water",
-		"movement": 4,
-		"strength": 24,
-		"cost": 150,
-		"requiredTech": "Navigation",
-		"obsoleteTech": "Naval Warfare",
-		"upgradesTo": "Ramming Vessel",
-		"uniques": ["[+50]% Strength <vs [{Military} {Water}] units> <when attacking>", "May capture killed [Water] units"],
-		"hurryCostModifier": 20,
-		"attackSound": "nonmetalhit"
-	},
-	{
-		"name": "Warship",
-		"unitType": "Ranged Water",
-		"movement": 3,
-		"strength": 21,
-		"rangedStrength": 14,
-		"cost": 185,
-		"requiredTech": "Compass",
-		"obsoleteTech": "Naval Warfare",
-		"upgradesTo": "Cannon Ship",
-		"uniques": ["[+100]% Strength <vs [{Military} {Water}] units> <when attacking>"]
-		"hurryCostModifier": 24,
-		"attackSound": "arrow"
-	},
-	{ //Human Village unique
-		"name": "Gunboat",
-		"uniqueTo": "Human Village",
-		"replaces": "Warship",
-		"unitType": "Ranged Water",
-		"movement": 4,
-		"strength": 17,
-		"rangedStrength": 24,
-		"cost": 155,
-		"requiredTech": "Compass",
-		"obsoleteTech": "Naval Warfare",
-		"uniques": ["[+100]% Strength <vs [{Military} {Water}] units> <when attacking>"]
-		"hurryCostModifier": 20,
-		"attackSound": "shot"
-	},
-	{
-		"name": "Ramming Vessel",
-		"unitType": "Melee Water",
-		"movement": 4,
-		"strength": 34,
-		"cost": 200,
-		"requiredTech": "Naval Warfare",
-		"obsoleteTech": "Official Navy",
-		"upgradesTo": "Hokan",
-		"uniques": ["[+50]% Strength <vs [{Military} {Water}] units> <when attacking>", "May capture killed [Water] units"],
-		"hurryCostModifier": 25,
-		"attackSound": "nonmetalhit"
-	},
-	{
-		"name": "Cannon Ship",
-		"unitType": "Ranged Water",
-		"movement": 3,
-		"strength": 34,
-		"rangedStrength": 24,
-		"cost": 325,
-		"requiredTech": "Naval Warfare",
-		"obsoleteTech": "Official Navy",
-		"uniques": ["[+100]% Strength <vs [{Military} {Water}] units> <when attacking>"],
-		"upgradesTo": "Totsunyuukan",
-		"hurryCostModifier": 35,
-		"attackSound": "cannon"
-	},
-	{
-		"name": "Hokan",
-		"unitType": "Melee Water",
-		"movement": 4,
-		"strength": 48,
-		"cost": 425,
-		"requiredTech": "Official Navy",
-		"uniques": ["[+100]% Strength <vs [{Military} {Water}] units> <when attacking>", "May capture killed [Water] units"],
-		"hurryCostModifier": 30,
-		"attackSound": "nonmetalhit"
-	},
-	{
-		"name": "Totsunyuukan",
-		"unitType": "Ranged Water",
-		"movement": 3,
-		"strength": 48,
-		"rangedStrength": 28,
-		"cost": 550,
-		"requiredTech": "Official Navy",
-		"uniques": ["[+100]% Strength <vs [{Military} {Water}] units> <when attacking>"],
-		"hurryCostModifier": 35,
-		"attackSound": "cannon"
-	},
-	
-	
-	
-	
-	
-	
-	
-	////////////////
-	
-	
-	/* Magic Tree Units Lower */
-	{
-		"name": "Ordinary Magician",
-		"unitType": "Ranged Sorcery",
-		"movement": 2,
-		"strength": 11,
-		"rangedStrength": 7,
-		"cost": 56,
-		"requiredTech": "Simple Alchemy",
-		"obsoleteTech": "Magical Science",
-		"upgradesTo": "Senjutsu Practitioner",
-		"attackSound": "throw",
-		"uniques": ["Magician", "Never appears as a Barbarian unit"]
-	},
-	{
-		"name": "Fire Spellcaster",
-		"unitType": "Ranged Sorcery",
-		"movement": 2,
-		"strength": 7,
-		"rangedStrength": 15,
-		"cost": 65,
-		"requiredTech": "Brewing Mastery",
-		"obsoleteTech": "Magical Science",
-		"upgradesTo": "Elemental Sorcerer",
-		"attackSound": "throw",
-		"uniques": ["Magician", "Never appears as a Barbarian unit"]
-	},
-	{
-		"name": "Water Spellcaster",
-		"unitType": "Ranged Sorcery",
-		"movement": 4,
-		"strength": 14,
-		"rangedStrength": 7,
-		"cost": 60,
-		"requiredTech": "Brewing Mastery",
-		"obsoleteTech": "Magical Science",
-		"upgradesTo": "Elemental Sorcerer",
-		"attackSound": "throw",
-		"uniques": ["Magician", "Never appears as a Barbarian unit"]
-	},
-	{
-		"name": "Elemental Sorcerer",
-		"unitType": "Ranged Sorcery",
-		"range": 2,
-		"movement": 2,
-		"strength": 11,
-		"rangedStrength": 15,
-		"cost": 125,
-		"requiredTech": "Magical Science",
-		"obsoleteTech": "Technology Limit",
-		"attackSound": "throw",
-		"promotions": ["Extended Range"],
-		"uniques": ["Magician", "Comment [Becomes obsolete at [Technology Limit]]", "Never appears as a Barbarian unit"]
-	},
-	{
-		"name": "Senjutsu Practitioner",
-		"unitType": "Ranged Sorcery",
-		"movement": 2,
-		"strength": 17,
-		"rangedStrength": 11,
-		"cost": 160,
-		"requiredTech": "Magical Science",
-		"obsoleteTech": "Technology Limit",
-		"attackSound": "throw",
-		"uniques": ["Magician", "Can move after attacking", "May Paradrop up to [5] tiles from inside friendly territory", "Comment [Becomes obsolete at [Technology Limit]]", "Never appears as a Barbarian unit"]
-	},
-	{
-		"name": "Esoterica Practitioner",
-		"unitType": "Ranged Sorcery",
-		"range": 3,
-		"movement": 2,
-		"strength": 11,
-		"rangedStrength": 14,
-		"cost": 185,
-		"requiredTech": "Limitless Learning",
-		"obsoleteTech": "Technology Limit",
-		"attackSound": "throw",
-		"uniques": ["Magician", "[+300]% Strength <vs [City] units>", "Comment [Becomes obsolete at [Technology Limit]]", "Never appears as a Barbarian unit"]
-	},
-	
-	
-	/* Magic Tree Units Upper */
-	{
-		"name": "Youjutsu Practitioner",
-		"unitType": "Melee Sorcery",
-		"movement": 2,
-		"strength": 11,
-		"cost": 56,
-		"requiredTech": "Forbidden Sorcery",
-		"obsoleteTech": "Dark Magic",
-		"upgradesTo": "Youjutsu Master",
-		"attackSound": "nonmetalhit",
-		"uniques": ["Dark Magician", "Youkai", "[+5] HP when healing", "Never appears as a Barbarian unit"]
-	},
-	{
-		"name": "Dream Spirit",
-		"unitType": "Melee Sorcery",
-		"movement": 2,
-		"strength": 11,
-		"cost": 60,
-		"requiredTech": "Advanced Magic",
-		"obsoleteTech": "Psychological Warfare",
-		"upgradesTo": "Yume no Seirei",
-		"attackSound": "nonmetalhit",
-		"uniques": ["Dark Magician", "Youkai", "[-15]% Strength for enemy [Military] units in adjacent [All] tiles", "Never appears as a Barbarian unit"]
-	},
-	{
-		"name": "Youjutsu Master",
-		"unitType": "Melee Sorcery",
-		"movement": 2,
-		"strength": 15,
-		"cost": 120,
-		"requiredTech": "Dark Magic",
-		"obsoleteTech": "Technology Limit",
-		"attackSound": "nonmetalhit",
-		"uniques": ["Dark Magician", "Youkai", "[+10] HP when healing", "Comment [Becomes obsolete at [Technology Limit]]", "Never appears as a Barbarian unit"]
-	},
-	{
-		"name": "Yume no Seirei",
-		"unitType": "Melee Sorcery",
-		"movement": 2,
-		"strength": 14,
-		"cost": 185,
-		"requiredTech": "Psychological Warfare",
-		"obsoleteTech": "Technology Limit",
-		"attackSound": "nonmetalhit",
-		"uniques": ["Dark Magician", "Youkai", "[-33]% Strength for enemy [Military] units in adjacent [All] tiles", "Comment [Becomes obsolete at [Technology Limit]]", "Never appears as a Barbarian unit"]
-	},
-	{
-		"name": "Keukegen",
-		"unitType": "Civilian",
-		"movement": 2,
-		"cost": 150,
-		"requiredTech": "Psychological Warfare",
-		"obsoleteTech": "Technology Limit",
-		"uniques": ["Youkai", "[-33]% Strength for enemy [Military] units in adjacent [All] tiles", "Comment [Becomes obsolete at [Technology Limit]]", "Never appears as a Barbarian unit"]
-	},
-	{
-		"name": "Shuten Doji Summon",
-		"unitType": "Sword",
-		"movement": 2,
-		"strength": 18,
-		"cost": 185,
-		"requiredTech": "Field Of Summoning",
-		"obsoleteTech": "Technology Limit",
-		"attackSound": "nonmetalhit",
-		"promotions": ["Oni", "Youkai"]
-		"uniques": ["Summon", "Comment [Becomes obsolete at [Technology Limit]]", "Never appears as a Barbarian unit"]
-	},
-	{
-		"name": "Great Wolf Summon",
-		"unitType": "Sword",
-		"movement": 4,
-		"strength": 17,
-		"cost": 185,
-		"requiredTech": "Field Of Summoning",
-		"obsoleteTech": "Technology Limit",
-		"attackSound": "nonmetalhit",
-		"promotions": ["Beast", "Youkai"],
-		"uniques": ["Summon", "Comment [Becomes obsolete at [Technology Limit]]", "Never appears as a Barbarian unit"]
-	},
-	{
-		"name": "Kitsune Summon",
-		"unitType": "Ranged Sorcery",
-		"movement": 2,
-		"rangedStrength": 11,
-		"strength": 15,
-		"cost": 160,
-		"requiredTech": "Field Of Summoning",
-		"obsoleteTech": "Technology Limit",
-		"attackSound": "nonmetalhit",
-		"promotions": ["Kitsune", "Youkai"],
-		"uniques": ["Summon", "Comment [Becomes obsolete at [Technology Limit]]", "Never appears as a Barbarian unit"]
-	},
-	
-	//Self Discovery Special:
 	/*
+	// New Promotions
 	{
-		"name": "Kitsune Summon",
-		"unitType": "Ranged Sorcery",
-		"movement": 2,
-		"strength": 17,
-		"cost": 160,
-		"requiredTech": "Field Of Summoning",
-		"obsoleteTech": "Technology Limit",
-		"attackSound": "nonmetalhit",
-		"promotions": ["Kitsune", "Youkai"],
-		"uniques": ["Summon", "Comment [Becomes obsolete at [Technology Limit]]", "Never appears as a Barbarian unit"]
+		"name": "Bridge Guard",
+		"uniques": ["This unit loses half of its HP whenever it leaves the bridge", "Heal this unit by [-50] HP <upon ending a turn in a [Foreign Land] tile>", "[+15]% Strength <when fighting in [Friendly Land] tiles>"]
+	},
+	{
+		"name": "Copying Other's Abilities",
+		"uniques": [
+			"Basically copies Special Abilities and all respective promotions for whether this unit is Land or Water, and Ranged or Melee",
+			"This Unit gains the [Fire Arts] promotion <upon defeating a [Fire Arts] unit>",
+			"This Unit gains the [Unidentifiable] promotion <upon defeating a [Unidentifiable] unit>",
+			"This Unit gains the [Devouring Anything] promotion <upon defeating a [Devouring Anything] unit>",
+			"This Unit gains the [Martial Arts] promotion <upon defeating a [Martial Arts] unit>",
+			"This Unit gains the [Absorbing Misfortune] promotion <upon defeating a [Absorbing Misfortune] unit>",
+			"This Unit gains the [Wise Hermit] promotion <upon defeating a [Wise Hermit] unit>",
+			"------------------",
+			"This Unit gains the [Accuracy I] promotion <upon defeating a [Accuracy I] unit> <for [{Land} {Ranged}] units>",
+			"This Unit gains the [Accuracy II] promotion <upon defeating a [Accuracy II] unit> <for [{Land} {Ranged}] units>",
+			"This Unit gains the [Accuracy III] promotion <upon defeating a [Accuracy III] unit> <for [{Land} {Ranged}] units>",
+			"This Unit gains the [Barrage I] promotion <upon defeating a [Barrage I] unit> <for [{Land} {Ranged}] units>",
+			"This Unit gains the [Barrage II] promotion <upon defeating a [Barrage II] unit> <for [{Land} {Ranged}] units>",
+			"This Unit gains the [Barrage III] promotion <upon defeating a [Barrage III] unit> <for [{Land} {Ranged}] units>",
+			"This Unit gains the [Shock I] promotion <upon defeating a [Shock I] unit> <for [{Land} {Melee}] units>",
+			"This Unit gains the [Shock II] promotion <upon defeating a [Shock II] unit> <for [{Land} {Melee}] units>",
+			"This Unit gains the [Shock III] promotion <upon defeating a [Shock III] unit> <for [{Land} {Melee}] units>",
+			"This Unit gains the [Drill I] promotion <upon defeating a [Drill I] unit> <for [{Land} {Melee}] units>",
+			"This Unit gains the [Drill II] promotion <upon defeating a [Drill II] unit> <for [{Land} {Melee}] units>",
+			"This Unit gains the [Drill III] promotion <upon defeating a [Drill III] unit> <for [{Land} {Melee}] units>",
+			"This Unit gains the [Scouting I] promotion <upon defeating a [Scouting I] unit> <for [Scout] units>",
+			"This Unit gains the [Scouting II] promotion <upon defeating a [Scouting II] unit> <for [Scout] units>",
+			"This Unit gains the [Scouting III] promotion <upon defeating a [Scouting III] unit> <for [Scout] units>",
+			"This Unit gains the [Survivalism I] promotion <upon defeating a [Survivalism I] unit> <for [Scout] units>",
+			"This Unit gains the [Survivalism II] promotion <upon defeating a [Survivalism II] unit> <for [Scout] units>",
+			"This Unit gains the [Survivalism III] promotion <upon defeating a [Survivalism III] unit> <for [Scout] units>",
+			"This Unit gains the [Boarding Party I] promotion <upon defeating a [Boarding Party I] unit> <for [{Melee} {Water}] units>",
+			"This Unit gains the [Boarding Party II] promotion <upon defeating a [Boarding Party II] unit> <for [{Melee} {Water}] units>",
+			"This Unit gains the [Boarding Party III] promotion <upon defeating a [Boarding Party III] unit> <for [{Melee} {Water}] units>",
+			"This Unit gains the [Coastal Raider I] promotion <upon defeating a [Coastal Raider I] unit> <for [{Melee} {Water}] units>",
+			"This Unit gains the [Coastal Raider II] promotion <upon defeating a [Coastal Raider II] unit> <for [{Melee} {Water}] units>",
+			"This Unit gains the [Coastal Raider III] promotion <upon defeating a [Coastal Raider III] unit> <for [{Melee} {Water}] units>",
+			"This Unit gains the [Targeting I] promotion <upon defeating a [Targeting I] unit> <for [{Ranged} {Water}] units>",
+			"This Unit gains the [Targeting II] promotion <upon defeating a [Targeting II] unit> <for [{Ranged} {Water}] units>",
+			"This Unit gains the [Targeting III] promotion <upon defeating a [Targeting III] unit> <for [{Ranged} {Water}] units>",
+			"This Unit gains the [Bombardment I] promotion <upon defeating a [Bombardment I] unit> <for [{Ranged} {Water}] units>",
+			"This Unit gains the [Bombardment II] promotion <upon defeating a [Bombardment II] unit> <for [{Ranged} {Water}] units>",
+			"This Unit gains the [Bombardment III] promotion <upon defeating a [Bombardment III] unit> <for [{Ranged} {Water}] units>",
+			"This Unit gains the [Cover I] promotion <upon defeating a [Cover I] unit> <for [Land] units>",
+			"This Unit gains the [Cover II] promotion <upon defeating a [Cover II] unit> <for [Land] units>",
+			"This Unit gains the [Formation I] promotion <upon defeating a [Formation I] unit> <for [{Land} {Melee}] units>",
+			"This Unit gains the [Formation II] promotion <upon defeating a [Formation II] unit> <for [{Land} {Melee}] units>",
+			"This Unit gains the [Medic] promotion <upon defeating a [Medic] unit> <for [{Land} {Melee}] units>",
+			"This Unit gains the [Medic II] promotion <upon defeating a [Medic II] unit> <for [{Land} {Melee}] units>",
+			"This Unit gains the [Anti-Armor I] promotion <upon defeating a [Anti-Armor I] unit> <for [{Land} {Ranged}] units>",
+			"This Unit gains the [Anti-Armor II] promotion <upon defeating a [Anti-Armor II] unit> <for [{Land} {Ranged}] units>",
+			"This Unit gains the [Armor Plating I] promotion <upon defeating a [Armor Plating I] unit> <for [{Land} {Melee}] units>",
+			"This Unit gains the [Armor Plating II] promotion <upon defeating a [Armor Plating II] unit> <for [{Land} {Melee}] units>",
+			"This Unit gains the [Armor Plating III] promotion <upon defeating a [Armor Plating III] unit> <for [{Land} {Melee}] units>",
+			"This Unit gains the [Ambush I] promotion <upon defeating a [Ambush I] unit> <for [{Land} {Melee}] units>",
+			"This Unit gains the [Ambush II] promotion <upon defeating a [Ambush II] unit> <for [{Land} {Melee}] units>",
+			"------------------",
+			"This Unit gains the [Volley] promotion <upon defeating a [Volley] unit> <for [{Land} {Ranged}] units>",
+			"This Unit gains the [Extended Range] promotion <upon defeating a [Extended Range] unit> <for [{Land} {Ranged}] units>",
+			"This Unit gains the [Indirect Fire] promotion <upon defeating a [Indirect Fire] unit> <for [{Land} {Ranged}] units>",
+			"This Unit gains the [Charge] promotion <upon defeating a [Charge] unit> <for [{Land} {Melee}] units>",
+			"This Unit gains the [Besiege] promotion <upon defeating a [Besiege] unit> <for [{Land} {Melee}] units>",
+			"This Unit gains the [Blitz] promotion <upon defeating a [Blitz] unit> <for [{Land} {Melee}] units>",
+			"This Unit gains the [Woodsman] promotion <upon defeating a [Woodsman] unit> <for [{Land} {Melee}] units>",
+			"This Unit gains the [Amphibious] promotion <upon defeating a [Amphibious] unit> <for [{Land} {Melee}] units>",
+			"This Unit gains the [Landing Party] promotion <upon defeating a [Landing Party] unit> <for [{Melee} {Water}] units>",
+			"This Unit gains the [Supply] promotion <upon defeating a [Supply] unit> <for [{Melee} {Water}] units>",
+			"This Unit gains the [March] promotion <upon defeating a [March] unit> <for [{Land} {Melee}] units>",
+			"This Unit gains the [Sentry] promotion <upon defeating a [Sentry] unit> <for [{Land} {Melee}] units>",
+			"This Unit gains the [Logistics] promotion <upon defeating a [Logistics] unit> <for [{Land} {Ranged}] units>",
+			"------------------",
+			"This Unit gains the [[Royal Ashigaru] ability] promotion <upon defeating a [[Royal Ashigaru] ability] unit> <for [{Land} {Melee}] units>",
+			"This Unit gains the [[Royal Samurai] ability] promotion <upon defeating a [[Royal Samurai] ability] unit> <for [{Land} {Melee}] units>",
+			"This Unit gains the [[Royal Cavalry] ability] promotion <upon defeating a [[Royal Cavalry] ability] unit> <for [{Land} {Melee}] units>"
+			]
+			
+	},
+	{ 
+		"name": "Hourai Immortal",
+		"uniques": ["Free [Resurrected Fallen] appears <upon being defeated>"]
+	},
+	{
+		"name": "Second Life",
+	"uniques": ["[-15]% Strength"]
+	},
+	{
+		"name": "Poltergeist",
+		"uniques": ["Ignores terrain cost", "Can pass through impassable tiles", "Ignores Zone of Control", "[-50]% Strength <when attacking>"]
+	},
+	{
+		"name": "Backdoor Of Life",
+		"uniques": ["Can see invisible [All] units", "[+5]% Strength <when adjacent to a [Youkai] unit>", "[+5]% Strength <when adjacent to a [Kappa] unit>", "[+5]% Strength <when adjacent to a [Fairy] unit>", "[+5]% Strength <when adjacent to a [Spirit] unit>", "[+5]% Strength <when adjacent to a [Human] unit>"]
+	},
+	{
+		"name": "Pure Hatred",
+		"uniques": ["[+50]% Strength <vs [Lunarian] units>"]
+	},
+	{
+		"name": "Impure",
+		"uniques": ["[-30]% Strength for enemy [Lunarian] units in adjacent [All] tiles"]
+	},
+	{
+		"name": "Wise Hermit",
+		"uniques": ["May capture killed [Beast] units"]
+	},
+	{
+		"name": "Fire Arts",
+		"uniques": ["[-15]% Strength for enemy [Military] units in adjacent [All] tiles", "Destroys tile improvements when attacking <with [25]% chance>"]
+	},
+	
+	//{
+	//	"name": "Wu Xing Elements",
+	//	"uniques": ["
+	//},
+	
+	{
+		"name": "Devouring Anything",
+		"uniques": ["Heals this unit by [30] HP <upon defeating a [Military] unit>"]
+	},
+	{
+		"name": "Absorbing Misfortune",
+		"uniques": ["[-50]% Strength", "[-25]% Strength for enemy [Military] units in adjacent [All] tiles"]
+	},
+	{
+		"name": "Idol Creature",
+		"uniques": ["Heal this unit by [15] HP <upon ending a turn in a [Friendly Land] tile>"]
+	},
+	{
+		"name": "Unidentifiable",
+		"uniques": ["Invisible to non-adjacent enemy units"]
 	},
 	*/
 	
-	//////////////
-	
-	
-	/* Religion Tree units */
+	// Old Promotions
 	{
-		"name": "Warrior Monk",
-		"unitType": "Sword",
-		"movement": 2,
-		"strength": 17,
-		"cost": 90,
-		"requiredTech": "Religious Doctrine",
-		"obsoleteTech": "Divine Punishment",
-		"upgradesTo": "Sohei Soldier",
-		"attackSound": "nonmetalhit",
-		"promotions": ["Anti-Youkai", "Martial Arts"],
-		"uniques": ["Monk", "Never appears as a Barbarian unit"]
+		"name": "Fairy",
+		"uniques": ["Fairy", "Unit will heal every turn, even if it performs an action", "[-1] Sight"]
 	},
 	{
-		"name": "Mountain Hermit",
-		"unitType": "Sword",
-		"movement": 2,
-		"strength": 18,
-		"cost": 100,
-		"requiredTech": "Religious Doctrine",
-		"obsoleteTech": "Divine Punishment",
-		"upgradesTo": "Solitary Saint",
-		"attackSound": "nonmetalhit",
-		"promotions": ["Anti-Youkai", "Anti-Oni"],
-		"uniques": ["Hermit", "Never appears as a Barbarian unit"]
+		"name": "Winged",
+		"uniques": ["Winged", "Can move after attacking", "Can pass through impassable tiles", "[-50]% Strength <when defending>"]
 	},
 	{
-		"name": "Sohei Soldier",
-		"unitType": "Sword",
-		"movement": 2,
-		"strength": 19,
-		"cost": 120,
-		"requiredTech": "Divine Punishment",
-		"obsoleteTech": "Full Conversion",
-		"upgradesTo": "Imperial Sohei",
-		"attackSound": "nonmetalhit",
-		"promotions": ["Anti-Youkai", "Martial Arts"],
-		"uniques": ["Monk", "Never appears as a Barbarian unit"]
+		"name": "Corpse",
+		"uniques": ["May capture killed [Human] units", "Can only heal by pillaging", "[+25]% Strength <vs [Human] units>"]
 	},
 	{
-		"name": "Solitary Saint",
-		"unitType": "Sword",
-		"movement": 2,
-		"strength": 20,
-		"cost": 135,
-		"requiredTech": "Divine Punishment",
-		"obsoleteTech": "Full Conversion",
-		"upgradesTo": "Great Yamabushi",
-		"attackSound": "nonmetalhit",
-		"promotions": ["Anti-Youkai", "Anti-Oni"],
-		"uniques": ["Hermit", "Never appears as a Barbarian unit"]
+		"name": "Vampire",
+		"uniques": ["Heals [15] damage if it kills a unit"]
 	},
 	{
-		"name": "Imperial Sohei",
-		"unitType": "Sword",
-		"movement": 2,
-		"strength": 27,
-		"cost": 160,
-		"requiredTech": "Full Conversion",
-		"obsoleteTech": "Technology Limit",
-		"attackSound": "nonmetalhit",
-		"promotions": ["Anti-Youkai", "Martial Arts"],
-		"uniques": ["Monk", "Comment [Becomes obsolete at [Technology Limit]]", "Never appears as a Barbarian unit"]
+		"name": "Satori Race",
+		"uniques": ["[-15]% Strength for enemy [Military] units in adjacent [All] tiles"],
+        "column": 27,
+        "row": 4
 	},
 	{
-		"name": "Great Yamabushi",
-		"unitType": "Sword",
-		"movement": 2,
-		"strength": 28,
-		"cost": 175,
-		"requiredTech": "Full Conversion",
-		"obsoleteTech": "Technology Limit",
-		"attackSound": "nonmetalhit",
-		"promotions": ["Anti-Youkai", "Anti-Oni"],
-		"uniques": ["Hermit", "Comment [Becomes obsolete at [Technology Limit]]", "Never appears as a Barbarian unit"]
-	},
-	
-	/* Great Persons */
-	
-	
-	{
-		"name": "Great Artist",
-		"unitType": "Civilian",
-		"uniques": [
-            "Empire enters a [8]-turn Golden Age <by consuming this unit>",
-            "Can instantly construct a [Landmark] improvement <by consuming this unit>",
-            "Great Person - [Culture]", "Unbuildable", "Uncapturable"],
-		"movement": 2
+		"name": "Stab Third Eye",
+		"prerequisites": ["Satori Race"],
+		"uniques": ["Only available <for units with [Satori Race]>", "Invisible to non-adjacent units", "[-2] Range <for [Ranged] units>", "[-50]% Strength <when defending>", "[+55]% to Flank Attack bonuses", "[+55]% Strength <vs [Wounded] units>"],
+		"unitTypes": ["Sword", "Ranged", "Archery", "Gunpowder", "Mounted", "Armored", "Siege","Archery","Ranged Gunpowder","Scout"],
+		"column": 28,
+		"row": 4
 	},
 	{
-		"name": "Great Scientist",
-		"unitType": "Civilian",
-		"uniques": [
-            "Can hurry technology research",
-            "Can instantly construct a [Academy] improvement <by consuming this unit>",
-            "Great Person - [Science]", "Unbuildable", "Uncapturable"],
-		"movement": 2
+		"name": "Divine Blessing",
+ 		"uniques": ["Divine Blessing"]
 	},
 	{
-		"name": "Great Merchant",
-		"unitType": "Civilian",
-		"uniques": ["Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence",
-            "Can instantly construct a [Customs house] improvement <by consuming this unit>",
-			"Great Person - [Gold]", "Unbuildable", "Uncapturable"],
-		"movement": 2
+		"name": "Spirit",
+ 		"uniques": ["Ignores terrain cost", "Can pass through impassable tiles", "Ignores Zone of Control", "[-33]% Strength <when attacking>"]
 	},
 	{
-		"name": "Great Engineer",
-		"unitType": "Civilian",
-		"uniques": ["Can speed up construction of a building",
-            "Can instantly construct a [Manufactory] improvement <by consuming this unit>",
-            "Great Person - [Production]", "Unbuildable", "Uncapturable"],
-		"movement": 2
+		"name": "Animal Spirit",
+ 		"uniques": ["Spirit", "Ignores Zone of Control"]
 	},
 	{
-		"name": "Great Prophet",
-		"unitType": "Civilian",
-		"uniques": [
-			"Can instantly construct a [Holy site] improvement <by consuming this unit> <if it hasn't used other actions yet>",
-            "Can Spread Religion <for [2] movement> <[4] times> <after which this unit is consumed>",
-			"Removes other religions when spreading religion",
-            "May found a religion <by consuming this unit> <if it hasn't used other actions yet>",
-            "May enhance a religion <by consuming this unit>  <if it hasn't used other actions yet>",
-			"May enter foreign tiles without open borders", "[-1] Sight", "Great Person - [Faith]",
-			"Unbuildable", "Religious Unit", "Hidden when religion is disabled",
-			"Takes your religion over the one in their birth city"
-			],
-		"movement": 2,
-		"religiousStrength": 1000
+		"name": "Beast",
+ 		"uniques": ["Beast", "[+5] HP when healing"]
 	},
 	{
-		"name": "Great General",
-		"unitType": "Civilian",
-		"uniques": [
-            "Empire enters a [8]-turn Golden Age <by consuming this unit>",
-            "[+15]% Strength bonus for [Military] units within [2] tiles",
-            "Can instantly construct a [Citadel] improvement <by consuming this unit>",
-			"Great Person - [War]", "Unbuildable", "Uncapturable"],
-		"movement": 2
+		"name": "Doll Construct",
+ 		"uniques": ["Doll construct", "[-50]% Strength <when defending> <before discovering [Self-Discovery]>", "[-30]% Strength <when defending> <after discovering [Self-Discovery]>", "[+5] HP when healing <in [Doll Lumber House] tiles>"]
 	},
-	
-	// Special Nation Unique Units
-	
 	{
-		"name": "Relinquisher Of Land",
-		"uniqueTo": "Rainbow Realm",
-		"unitType": "Civilian",
-		"uniques": [
-            "Can instantly construct a [Relinquished Land Ownership] improvement <by consuming this unit>",
-            "Unbuildable", "Uncapturable"],
-		"movement": 2
+		"name": "Lunarian",
+ 		"uniques": ["Lunarian"]
 	},
-	
-	
-	
-	/* Religious units */
+	{
+		"name": "Celestial",
+ 		"uniques": ["Celestial"]
+	},
+	{
+		"name": "Dark Youkai",
+ 		"uniques": ["Invisible to non-adjacent units"]
+	},
+	{
+		"name": "Bird Net",
+ 		"uniques": ["Slows down adjacent Winged units (-2 Movement)"]
+	},
+	{
+		"name": "Mermaid Net",
+ 		"uniques": ["Slows down adjacent Mermaid units (-2 Movement)"]
+	},
+	{
+		"name": "Willpower",
+ 		"uniques": ["Willpower"]
+	},
+	{
+		"name": "Human Race",
+ 		"uniques": ["Human", "[-50]% Strength", "[-15]% Strength <when adjacent to a [Oni] unit>", "Comment [Humans have an immunity from the youkais during the Youkai Expansion Project, which will neutralize their -50% Strength debuff with a temporary +50% Strength bonus]"]
+	},
+	{
+		"name": "Youkai",
+ 		"uniques": ["Youkai"]
+	},
+	{
+		"name": "Oni",
+ 		"uniques": ["Oni", "[+20]% Strength"]
+	},
+	{
+		"name": "Phantasm"
+		"uniques": ["May Paradrop up to [4] tiles from inside friendly territory <if it hasn't used other actions yet>"],
+        "prerequisites": ["Stab Third Eye"]
+	},
+	{
+		"name": "Martial Arts",
+ 		"uniques": ["[50]% XP gained from combat"]
+	},
+	{
+		"name": "Kappa",
+ 		"uniques": ["Kappa"]
+	},
+	{
+		"name": "Mermaid",
+ 		"uniques": ["Mermaid", "[-1] Movement", "[+1] Movement <in [Fresh water] tiles>", "[+1] Movement <within [1] tiles of a [Coast]>", "[+1] Movement <in [Water] tiles>", "Eliminates combat penalty for attacking over a river", "Eliminates combat penalty for attacking across a coast", "May travel on Water tiles without embarking"]
+	},
+	{
+		"name": "Kitsune",
+ 		"uniques": ["Ignores terrain cost", "[+1] Movement"]
+	},
+    
+    
+    //Counter Promotions
+	{
+		"name": "Anti-Youkai",
+ 		"uniques": ["[+15]% Strength <vs [Youkai] units>", "[+50]% Strength <vs [Youkai] units> <for units with [Human Race]> <starting from the [Edo period]>"]
+	},
+	{
+		"name": "Anti-Human",
+ 		"uniques": ["[+15]% Strength <vs [Human Race] units>", "Heal this unit by [20] HP <upon defeating a [Human] unit>"]
+	},
+	{
+		"name": "Anti-Vampire",
+ 		"uniques": ["[+5]% Strength <vs [Vampire] units>", "[+15]% Strength <vs [Vampire] units> <with [Silver]>"]
+	},
+	{
+		"name": "Anti-Oni",
+ 		"uniques": ["[+20]% Strength <vs [Oni] units>"]
+	},
+	{
+		"name": "Anti-Mermaid",
+ 		"uniques": ["[+20]% Strength <vs [Mermaid] units>"]
+	},
+	{
+		"name": "Hunter",
+ 		"uniques": ["[+20]% Strength <vs [Beast] units>"]
+	},
+	{
+		"name": "Sniper",
+ 		"uniques": ["[+20]% Strength <vs [Winged] units> <when attacking>"]
+	},
+    
+
+	// Ranged+Siege+Ranged Sorcery
+	{
+		"name": "Accuracy I",
+		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
+		"unitTypes": ["Siege","Archery","Ranged Gunpowder", "Ranged Sorcery"],
+        "column": 1,
+        "row": 1
+	},
+	{
+		"name": "Accuracy II",
+		"prerequisites": ["Accuracy I"],
+		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
+		"unitTypes": ["Siege","Archery","Ranged Gunpowder","Ranged Sorcery"],
+        "column": 1,
+        "row": 2
+	},
+	{
+		"name": "Accuracy III",
+		"prerequisites": ["Accuracy II"],
+		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
+		"unitTypes": ["Siege","Archery","Ranged Gunpowder","Ranged Sorcery"],
+        "column": 1,
+        "row": 3
+	},
+	{
+		"name": "Barrage I",
+		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles> <when attacking>"],
+		"unitTypes": ["Siege","Archery","Ranged Gunpowder","Ranged Sorcery"],
+        "column": 2,
+        "row": 1
+	},
+	{
+		"name": "Barrage II",
+		"prerequisites": ["Barrage I"],
+		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles> <when attacking>"],
+		"unitTypes": ["Siege","Archery","Ranged Gunpowder","Ranged Sorcery"],
+        "column": 2,
+        "row": 2
+	},
+	{
+		"name": "Barrage III",
+		"prerequisites": ["Barrage II"],
+		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles> <when attacking>"],
+		"unitTypes": ["Siege","Archery","Ranged Gunpowder","Ranged Sorcery"],
+        "column": 2,
+        "row": 3
+	},
 
 	{
-		"name": "Missionary",
-		"unitType": "Civilian",
-		"uniques": [
-		 "Can Spread Religion <for [4] movement> <[2] times> <after which this unit is consumed>",
-            "May enter foreign tiles without open borders, but loses [250] religious strength each turn it ends there",
-			"Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]",
-			"[-1] Sight", "Unbuildable", "Religious Unit", "Hidden when religion is disabled"
-			],
-		"movement": 4,
-		"religiousStrength": 1000
+		"name": "Volley",
+		"prerequisites": ["Accuracy I","Barrage I"],
+		"uniques": ["[+50]% Strength <vs cities>"],
+		"unitTypes": ["Archery", "Ranged Gunpowder", "Siege", "Ranged Sorcery"],
+        "column": 3,
+        "row": 1
 	},
 	{
-		"name": "Inquisitor",
-		"unitType": "Civilian",
-		"uniques": [
-		"Prevents spreading of religion to the city it is next to",
-			"Can remove other religions from cities <in [Friendly] tiles> <once> <after which this unit is consumed>",
-            "Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]",
-			"[+1] Sight", "Hidden when religion is disabled", "Unbuildable", "Religious Unit"
-		],
-		"movement": 3
-	},
-	
-	//Barbarian units
-	{
-		"name": "Wild Beast",
-		"uniqueTo": "Barbarians",
-		"replaces": "Warrior",
-		"unitType": "Sword",
-		"movement": 4,
-		"strength": 7,
-		"promotions": ["Beast"]
-		"obsoleteTech": "Paid Service",
-		"upgradesTo": "Tamed Beast",
-		"cost": 55,
-		"attackSound": "sword"
+		"name": "Extended Range",
+		"prerequisites": ["Accuracy III","Barrage III","Targeting II","Bombardment II", "Wolfpack II"],
+		"uniques": ["[+1] Range"],
+		"unitTypes": ["Archery","Ranged Gunpowder","Siege","Ranged Water","Submarine","Ranged Sorcery"],
+        "column": 3,
+        "row": 3
 	},
 	{
-		"name": "Vengeful Spirit",
-		"uniqueTo": "Barbarians",
-		"replaces": "Archer",
-		"unitType": "Ranged Sorcery",
-		"range": 2,
-		"movement": 2,
-		"strength": 7,
-		"rangedStrength": 5,
-		"cost": 40,
-		"attackSound": "nonmetalhit"
-		"promotions": ["Spirit"]
-		"uniques": ["Ignores Zone of Control"]
+		"name": "Indirect Fire",
+		"prerequisites": ["Accuracy III", "Barrage III", "Bombardment II", "Targeting II"],
+		"uniques": ["Ranged attacks may be performed over obstacles"],
+		"unitTypes": ["Archery","Ranged Gunpowder","Siege","Ranged Water","Ranged Sorcery"],
+        "column": 3,
+        "row": 4
 	},
-	{
-		"name": "Tamed Beast",
-		"uniqueTo": "Barbarians",
-		"replaces": "Recruit",
-		"unitType": "Sword",
-		"movement": 4,
-		"strength": 11,
-		"cost": 75,
-		"promotions": ["Beast"],
-		"obsoleteTech": "Professional Army",
-		"requiredTech": "Paid Service",
-		"upgradesTo": "Great Wolf",
-		"attackSound": "nonmetalhit"
-	},
-	{
-		"name": "Great Wolf",
-		"uniqueTo": "Barbarians",
-		"replaces": "Ashigaru Spearman",
-		"unitType": "Sword",
-		"movement": 4,
-		"strength": 17,
-		"cost": 120,
-		"requiredTech": "Professional Army",
-		"attackSound": "nonmetalhit",
-		"promotions": ["Beast"]
-	},
-	{
-		"name": "Earthbound Ghost",
-		"uniqueTo": "Barbarians",
-		"replaces": "Longbowman",
-		"unitType": "Ranged Sorcery",
-		"range": 2,
-		"movement": 2,
-		"strength": 7,
-		"rangedStrength": 11,
-		"cost": 85,
-		"attackSound": "nonmetalhit"
-		"promotions": ["Spirit"]
-		"uniques": ["Ignores Zone of Control"]
-	},
-	{
-		"name": "Galley",
-		"unitType": "Melee Water",
-		"uniqueTo": "Barbarians",
-		"replaces": "Trireme",
-		"movement": 3,
-		"strength": 14,
-		"cost": 40,
-		"uniques": ["Cannot enter ocean tiles"],
-		"attackSound": "nonmetalhit"
-	},
-	
-	
-	
-	
-	
-	
-	
-	/* Mercenaries */
-	{
-		"name": "Serviceman",
-		"unitType": "Sword",
-		"movement": 2,
-		"strength": 14,
-		"cost": 160,
-		"obsoleteTech": "Literature"
-		"requiredTech": "Printing",
-		"upgradesTo": "Royal Guard",
-		"attackSound": "metalhit",
-        "uniques": ["Mercenary", "Unbuildable"]
-	},
-	{
-		"name": "Ninja",
-		"unitType": "Sword",
-		"movement": 2,
-		"strength": 16,
-		"cost": 320,
-		"obsoleteTech": "Literature"
-		"requiredTech": "Printing",
-		"upgradesTo": "Shadow Ninja",
-		"attackSound": "metalhit",
-        "uniques": ["Mercenary", "[+1] Movement", "Can see invisible [Scout] units", "Unbuildable"]
-	},
-	{
-		"name": "Ronin",
-		"unitType": "Sword",
-		"movement": 2,
-		"strength": 24,
-		"cost": 640,
-		"obsoleteTech": "Literature"
-		"requiredTech": "Printing",
-		"upgradesTo": "Veteran Ronin",
-		"attackSound": "metalhit",
-        "uniques": ["Mercenary", "[1] additional attacks per turn", "Unbuildable"]
-	},
-	{
-		"name": "Royal Guard",
-		"unitType": "Sword",
-		"movement": 2,
-		"strength": 34,
-		"cost": 500,
-		"requiredTech": "Literature",
-		"attackSound": "metalhit",
-        "uniques": ["Mercenary", "Armor", "Unbuildable"]
-	},
-	{
-		"name": "Shadow Ninja",
-		"unitType": "Sword",
-		"movement": 2,
-		"strength": 60,
-		"cost": 950,
-		"requiredTech": "Literature",
-		"attackSound": "metalhit",
-        "uniques": ["Mercenary", "[+2] Movement", "Can see invisible [Scout] units", "Can move after attacking", "Ignores Zone of Control", "Unbuildable"]
-	},
-	{
-		"name": "Veteran Ronin",
-		"unitType": "Sword",
-		"movement": 2,
-		"strength": 70,
-		"cost": 1200,
-		"requiredTech": "Literature",
-		"attackSound": "metalhit",
-        "uniques": ["Mercenary", "[2] additional attacks per turn", "Unbuildable"]
-	},
-	
-	/* Spaceship Parts */
 
-	// Must be transported to the Capital for launch.
-	// Can be destroyed by any hostile military unit walking in their tile.
+	// Melee, Mounted+Armor+Melee Sorcery
 	{
-		"name": "The Greatest Dango",
-		"unitType": "Civilian",
-		"movement": 2,
-		"cost": 900,
-		"requiredTech": "ZUN's Perfect Beer",
-		"uniques": ["Ingredient", "Cannot be purchased", "Only available <if [Perfect Beer Program] is constructed>", "Uncapturable", "Can be added to [Perfect Beer's Ingredients] in the Capital", "Limited to [1] per Civilization"]
+		"name": "Shock I",
+		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>"],
+		"unitTypes": ["Sword","Gunpowder","Mounted","Armored","Melee Sorcery"],
+        "column": 4,
+        "row": 1
 	},
 	{
-		"name": "The Biggest Dumpling",
-		"unitType": "Civilian",
-		"movement": 2,
-		"cost": 900,
-		"requiredTech": "ZUN's Perfect Beer",
-		"uniques": ["Ingredient", "Cannot be purchased", "Only available <if [Perfect Beer Program] is constructed>", "Uncapturable", "Can be added to [Perfect Beer's Ingredients] in the Capital", "Limited to [1] per Civilization"]
+		"name": "Shock II",
+		"prerequisites": ["Shock I"],
+		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>"],
+		"unitTypes": ["Sword","Gunpowder","Mounted","Armored","Melee Sorcery"],
+        "column": 4,
+        "row": 2
 	},
 	{
-		"name": "The Softest Rice Ball",
-		"unitType": "Civilian",
-		"movement": 2,
-		"cost": 900,
-		"requiredTech": "ZUN's Perfect Beer",
-		"uniques": ["Ingredient", "Cannot be purchased", "Only available <if [Perfect Beer Program] is constructed>", "Uncapturable", "Can be added to [Perfect Beer's Ingredients] in the Capital", "Limited to [1] per Civilization"]
+		"name": "Shock III",
+		"prerequisites": ["Shock II"],
+		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>"],
+		"unitTypes": ["Sword","Gunpowder","Mounted","Armored","Melee Sorcery"],
+        "column": 4,
+        "row": 3
+	},
+
+	{
+		"name": "Drill I",
+		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>"],
+		"unitTypes": ["Sword","Gunpowder","Mounted","Armored","Melee Sorcery"],
+        "column": 5,
+        "row": 1
 	},
 	{
-		"name": "The Tastiest Sashimi",
-		"unitType": "Civilian",
-		"movement": 2,
-		"cost": 900,
-		"requiredTech": "ZUN's Perfect Beer",
-		"uniques": ["Ingredient", "Cannot be purchased", "Only available <if [Perfect Beer Program] is constructed>", "Uncapturable", "Can be added to [Perfect Beer's Ingredients] in the Capital", "Limited to [1] per Civilization"]
+		"name": "Drill II",
+		"prerequisites": ["Drill I"],
+		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>"],
+		"unitTypes": ["Sword","Gunpowder","Mounted","Armored","Melee Sorcery"],
+        "column": 5,
+        "row": 2
+	},
+	{
+		"name": "Drill III",
+		"prerequisites": ["Drill II"],
+		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>"],
+		"unitTypes": ["Sword","Gunpowder","Mounted","Armored","Melee Sorcery"],
+        "column": 5,
+        "row": 3
+	},
+	{
+		"name": "Charge",
+		"prerequisites": ["Shock II","Drill II"],
+		"uniques": ["[+33]% Strength <vs [Wounded] units>"],
+		"unitTypes": ["Mounted","Armored"],
+        "column": 6,
+        "row": 2
+	},
+	{
+		"name": "Besiege", // Not called "Siege" in order to not conflict with siege type units for translations
+		"prerequisites": ["Shock II","Drill II"],
+		"uniques": ["[+50]% Strength <vs cities>"],
+		"unitTypes": ["Sword","Gunpowder","Melee Sorcery"],
+        "column": 6,
+        "row": 3
+	},
+	{
+		"name": "Formation I",
+		"prerequisites": ["Shock II","Drill II"], // G&K also has Accuracy II & Barrage II as possible prerequisites for this, but I couldn't find a source for the unittypes
+		"uniques": ["[+33]% Strength <vs [Mounted] units>"],
+		"unitTypes": ["Sword","Gunpowder","Mounted","Melee Sorcery"],
+        "column": 7,
+        "row": 2
+	},
+	{
+		"name": "Formation II",
+		"prerequisites": ["Formation I"],
+		"uniques": ["[+33]% Strength <vs [Mounted] units>"],
+		"unitTypes": ["Sword","Gunpowder","Mounted","Melee Sorcery"],
+        "column": 7,
+        "row": 3
+	},
+
+	{
+		"name": "Blitz",
+		"prerequisites": ["Shock III","Drill III"],
+		"uniques": ["[1] additional attacks per turn"],
+		"unitTypes": ["Sword","Gunpowder","Mounted","Armored","Melee Sorcery"],
+        "column": 6,
+        "row": 4
+	},
+	{
+		"name": "Woodsman",
+		"prerequisites": ["Shock III","Drill III"],
+		"uniques": ["Double movement in [Forest]","Double movement in [Jungle]"],
+		"unitTypes": ["Sword","Gunpowder","Melee Sorcery"],
+        "column": 6,
+        "row": 5
+	},
+	{
+		"name": "Amphibious",
+		"prerequisites": ["Shock I", "Drill I"],
+		"uniques": ["Eliminates combat penalty for attacking over a river", "Eliminates combat penalty for attacking across a coast"],
+		"unitTypes": ["Sword","Gunpowder","Melee Sorcery"],
+        "column": 6,
+        "row": 1
+	},
+	{
+		"name": "Medic",
+		"prerequisites": ["Shock I", "Drill I", "Scouting II", "Survivalism II"],
+		"uniques": ["All adjacent units heal [+5] HP when healing"],
+		"unitTypes": ["Sword","Gunpowder","Mounted","Scout","Melee Sorcery"],
+        "column": 10, // after scout base
+        "row": 1
+	},
+	{
+		"name": "Medic II",
+		"prerequisites": ["Medic"],
+		"uniques": ["[+5] HP when healing <in [Foreign Land] tiles>", "All adjacent units heal [+5] HP when healing"],
+		"unitTypes": ["Sword","Gunpowder","Mounted","Scout", "Melee Sorcery"],
+        "column": 10,
+        "row": 2
+	},
+
+	// Scout
+	{
+		"name": "Scouting I",
+		"uniques": ["[+1] Sight"],
+		"unitTypes": ["Scout"],
+        "column": 8,
+        "row": 1
+	},
+	{
+		"name": "Scouting II",
+		"prerequisites": ["Scouting I"],
+		"uniques": ["[+1] Sight"],
+		"unitTypes": ["Scout"],
+        "column": 8,
+        "row": 2
+	},
+	{
+		"name": "Scouting III",
+		"prerequisites": ["Scouting II"],
+		"uniques": ["[+1] Movement"],
+		"unitTypes": ["Scout"],
+        "column": 8,
+        "row": 3
+	},
+	{
+		"name": "Survivalism I",
+		"uniques": ["[+5] HP when healing <in [Foreign Land] tiles>", "[+25]% Strength <when defending>"],
+		"unitTypes": ["Scout"],
+        "column": 9,
+        "row": 1
+	},
+	{
+		"name": "Survivalism II",
+		"prerequisites": ["Survivalism I"],
+		"uniques": ["[+5] HP when healing <in [Foreign Land] tiles>", "[+25]% Strength <when defending>"],
+		"unitTypes": ["Scout"],
+        "column": 9,
+        "row": 2
+	},
+	{
+		"name": "Survivalism III",
+		"prerequisites": ["Survivalism II"],
+		"uniques": ["Unit will heal every turn, even if it performs an action", "May withdraw before melee ([75]%)"], // This number is not based on any source
+		"unitTypes": ["Scout"],
+        "column": 9,
+        "row": 3
+	},
+
+
+	// Water melee
+	{
+		"name": "Boarding Party I",
+		"uniques": ["[+15]% Strength <vs [Water] units>"],
+		"unitTypes": ["Melee Water"],
+        "column": 11,
+        "row": 1
+	},
+	{
+		"name": "Boarding Party II",
+		"prerequisites": ["Boarding Party I"],
+		"uniques": ["[+15]% Strength <vs [Water] units>"],
+		"unitTypes": ["Melee Water"],
+        "column": 11,
+        "row": 2
+	},
+	{
+		"name": "Boarding Party III",
+		"prerequisites": ["Boarding Party II"],
+		"uniques": ["[+15]% Strength <vs [Water] units>"],
+		"unitTypes": ["Melee Water"],
+        "column": 11,
+        "row": 3
+	},
+
+	{
+		"name": "Coastal Raider I",
+		"uniques": ["[+20]% Strength <vs cities>", "Earn [33]% of the damage done to [City] units as [Gold]"],
+		"unitTypes": ["Melee Water"],
+        "column": 12,
+        "row": 1
+	},
+	{
+		"name": "Coastal Raider II",
+		"prerequisites": ["Coastal Raider I"],
+		"uniques": ["[+20]% Strength <vs cities>", "Earn [33]% of the damage done to [City] units as [Gold]"],
+		"unitTypes": ["Melee Water"],
+        "column": 12,
+        "row": 2
+	},
+	{
+		"name": "Coastal Raider III",
+		"prerequisites": ["Coastal Raider II"],
+		"uniques": ["[+20]% Strength <vs cities>", "Earn [33]% of the damage done to [City] units as [Gold]"],
+		"unitTypes": ["Melee Water"],
+        "column": 12,
+        "row": 3
+	},
+	{
+		"name": "Landing Party",
+		"uniques": ["Eliminates combat penalty for attacking across a coast"],
+		"unitTypes": ["Melee Water"],
+        "column": 12,
+        "row": 5
+	},
+
+	// Water Ranged
+	{
+		"name": "Targeting I",
+		"uniques": ["[+15]% Strength <vs [Water] units>"],
+		"unitTypes": ["Ranged Water"],
+        "column": 13,
+        "row": 1
+	},
+	{
+		"name": "Targeting II",
+		"prerequisites": ["Targeting I"],
+		"uniques": ["[+15]% Strength <vs [Water] units>"],
+		"unitTypes": ["Ranged Water"],
+        "column": 13,
+        "row": 2
+	},
+	{
+		"name": "Targeting III",
+		"prerequisites": ["Targeting II"],
+		"uniques": ["[+15]% Strength <vs [Water] units>"],
+		"unitTypes": ["Ranged Water"],
+        "column": 13,
+        "row": 3
+	},
+
+	// Submarine
+	{
+		"name": "Wolfpack I",
+		"uniques": ["[+25]% Strength <when attacking>"],
+		"unitTypes": ["Submarine"],
+        "column": 14,
+        "row": 1
+	},
+	{
+		"name": "Wolfpack II",
+		"prerequisites": ["Wolfpack I"],
+		"uniques": ["[+25]% Strength <when attacking>"],
+		"unitTypes": ["Submarine"],
+        "column": 14,
+        "row": 2
+	},
+	{
+		"name": "Wolfpack III",
+		"prerequisites": ["Wolfpack II"],
+		"uniques": ["[+25]% Strength <when attacking>"],
+		"unitTypes": ["Submarine"],
+        "column": 14,
+        "row": 3
+	},
+
+	// Aircraft Carrier
+	{
+		"name": "Flight Deck I",
+		"uniques": ["Can carry [1] extra [Aircraft] units"],
+		"unitTypes": ["Aircraft Carrier"],
+        "column": 16,
+        "row": 1
+	},
+	{
+		"name": "Flight Deck II",
+		"prerequisites": ["Flight Deck I"],
+		"uniques": ["Can carry [1] extra [Aircraft] units"],
+		"unitTypes": ["Aircraft Carrier"],
+        "column": 16,
+        "row": 2
+	},
+	{
+		"name": "Flight Deck III",
+		"prerequisites": ["Flight Deck II"],
+		"uniques": ["Can carry [1] extra [Aircraft] units"],
+		"unitTypes": ["Aircraft Carrier"],
+        "column": 16,
+        "row": 3
+	},
+
+	// Mixed Water
+	{
+		"name" : "Supply",
+		"prerequisites": ["Bombardment III", "Targeting III", "Boarding Party III", "Coastal Raider III"],
+		"uniques": ["May heal outside of friendly territory", "[+15] HP when healing <in [Foreign Land] tiles>"],
+		"unitTypes": ["Melee Water", "Ranged Water"],
+        "column": 16,
+        "row": 4
+	},
+
+	// Bomber
+	{
+		"name": "Siege I",
+		"uniques": ["[+33]% Strength <vs cities>"],
+		"unitTypes": ["Bomber"],
+        "column": 17,
+        "row": 1
+	},
+	{
+		"name": "Siege II",
+		"prerequisites": ["Siege I"],
+		"uniques": ["[+33]% Strength <vs cities>"],
+		"unitTypes": ["Bomber"],
+        "column": 17,
+        "row": 2
+	},
+	{
+		"name": "Siege III",
+		"prerequisites": ["Siege II"],
+		"uniques": ["[+34]% Strength <vs cities>"],
+		"unitTypes": ["Bomber"],
+        "column": 17,
+        "row": 3
+	},
+	{
+		"name": "Evasion",
+		"prerequisites": ["Siege II", "Bombardment II"],
+		"uniques": ["Damage taken from interception reduced by [50]%"],
+		"unitTypes": ["Bomber"],
+        "column": 17,
+        "row": 4
+	},
+
+	// Aircraft
+	{
+		"name": "Interception I",
+		"uniques": ["[+33]% Damage when intercepting"],
+		"unitTypes": ["Fighter"],
+        "column": 18,
+        "row": 1
+	},
+	{
+		"name": "Interception II",
+		"prerequisites": ["Interception I"],
+		"uniques": ["[+33]% Damage when intercepting"],
+		"unitTypes": ["Fighter"],
+        "column": 18,
+        "row": 2
+	},
+	{
+		"name": "Interception III",
+		"prerequisites": ["Interception II"],
+		"uniques": ["[+34]% Damage when intercepting"],
+		"unitTypes": ["Fighter"],
+        "column": 18,
+        "row": 3
+	},
+	{
+		"name": "Dogfighting I",
+		"uniques": ["[+33]% Strength when performing Air Sweep"],
+		"unitTypes": ["Fighter"],
+        "column": 19,
+        "row": 1
+	},
+	{
+		"name": "Dogfighting II",
+		"prerequisites": ["Dogfighting I"],
+		"uniques": ["[+33]% Strength when performing Air Sweep"],
+		"unitTypes": ["Fighter"],
+        "column": 19,
+        "row": 2
+	},
+	{
+		"name": "Dogfighting III",
+		"prerequisites": ["Dogfighting II"],
+		"uniques": ["[+34]% Strength when performing Air Sweep"],
+		"unitTypes": ["Fighter"],
+        "column": 19,
+        "row": 3
+	},
+	{
+		"name": "Air Targeting I",
+		"prerequisites": ["Interception I","Siege I","Bombardment I","Dogfighting I"],
+		"uniques": ["[+33]% Strength <vs [Water] units>"],
+		"unitTypes": ["Fighter","Bomber"],
+        "column": 20,
+        "row": 1
+	},
+	{
+		"name": "Air Targeting II",
+		"prerequisites": ["Air Targeting I"],
+		"uniques": ["[+33]% Strength <vs [Water] units>"],
+		"unitTypes": ["Fighter","Bomber"],
+        "column": 20,
+        "row": 2
+	},
+
+	{
+		"name": "Sortie",
+		"prerequisites": ["Interception II", "Dogfighting II"],
+		"uniques": ["[1] extra interceptions may be made per turn"],
+		"unitTypes": ["Fighter"],
+        "column": 21,
+        "row": 2
+	},
+
+	{
+		"name": "Operational Range",
+		"prerequisites": ["Interception I", "Dogfighting I", "Siege I", "Bombardment I"],
+		"uniques": ["[+2] Range"],
+		"unitTypes": ["Fighter","Bomber"],
+        "column": 21,
+        "row": 1
+	},
+	{
+		"name": "Air Repair",
+		"prerequisites": ["Interception II", "Dogfighting II", "Siege II", "Bombardment II", "Mobility II", "Anti-Armor II"],
+		"uniques": ["Unit will heal every turn, even if it performs an action"],
+		"unitTypes": ["Fighter", "Bomber", "Helicopter"],
+        "column": 21,
+        "row": 3
+	},
+
+	// Helicopter
+	{
+		"name": "Mobility I",
+		"uniques": ["[+1] Movement"],
+		"unitTypes": ["Helicopter"],
+        "column": 22,
+        "row": 1
+	},
+	{
+		"name": "Mobility II",
+		"prerequisites": ["Mobility I"],
+		"uniques": ["[+1] Movement"],
+		"unitTypes": ["Helicopter"],
+        "column": 22,
+        "row": 2
+	},
+	{
+		"name": "Anti-Armor I",
+		"uniques": ["[+50]% Strength <vs [Armor] units>"],
+		"unitTypes": ["Ranged Gunpowder"],
+        "column": 23,
+        "row": 1
+	},
+	{
+		"name": "Anti-Armor II",
+		"prerequisites": ["Anti-Armor I"],
+		"uniques": ["[+50]% Strength <vs [Armor] units>"],
+		"unitTypes": ["Ranged Gunpowder"],
+        "column": 23,
+        "row": 2
+	},
+
+	// Mixed
+	{
+		"name": "Cover I",
+		"uniques": ["[+33]% Strength <vs [Ranged] units> <when defending>"],
+		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Siege","Ranged Sorcery", "Melee Sorcery"],
+        "column": 24,
+        "row": 1
+	},
+	{
+		"name": "Cover II",
+		"prerequisites": ["Cover I"],
+		"uniques": ["[+33]% Strength <vs [Ranged] units> <when defending>"],
+		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Siege","Ranged Sorcery", "Melee Sorcery"],
+        "column": 24,
+        "row": 2
+	},
+
+	{
+		"name": "March",
+		"prerequisites": ["Accuracy II","Barrage II","Shock III","Drill III"],
+		"uniques": ["Unit will heal every turn, even if it performs an action"],
+		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Siege","Mounted","Ranged Sorcery", "Melee Sorcery"],
+        "column": 10,
+        "row": 3
+	},
+	{
+		"name": "Mobility",
+		"prerequisites": ["Shock II","Drill II","Targeting I",
+			"Bombardment I","Boarding Party I", "Coastal Raider I", "Wolfpack I"],
+		"uniques": ["[+1] Movement"],
+		"unitTypes": ["Mounted","Melee Water","Ranged Water","Armored","Submarine", "Melee Sorcery"],
+        "column": 24,
+        "row": 3
+	},
+	{
+		"name": "Sentry",
+		"prerequisites": ["Accuracy I","Barrage I","Shock II","Drill II","Bombardment I","Targeting I","Boarding Party I","Coastal Raider I"],
+		"uniques": ["[+1] Sight"],
+		"unitTypes": ["Sword","Gunpowder","Mounted","Ranged Water","Armored","Melee Water", "Melee Sorcery"],
+        "column": 24,
+        "row": 4
+	},
+	{
+		"name": "Logistics",
+		"prerequisites": ["Accuracy III","Barrage III","Targeting III", "Wolfpack III",
+			"Bombardment III", "Coastal Raider III","Boarding Party III","Siege III", "Mobility II", "Anti-Armor II"],
+		"uniques": ["[1] additional attacks per turn", "Can move after attacking"],
+		"unitTypes": ["Archery","Ranged Gunpowder","Siege","Melee Water","Ranged Water","Submarine","Fighter","Bomber","Helicopter","Ranged Sorcery"],
+        "column": 25,
+        "row": 2
+	},
+
+	{
+		"name": "Armor Plating I",
+		"uniques": ["[+5]% Strength <when defending>", "If this unit has Armor:", "[+10]% Strength <for [Armor] units> <when defending>"],
+		"unitTypes": ["Sword","Gunpowder","Fighter","Bomber", "Mounted","Melee Sorcery"],
+        "column": 24,
+        "row": 8
+	},
+	{
+		"name": "Armor Plating II",
+		"prerequisites": ["Armor Plating I"],
+		"uniques": ["[+5]% Strength <when defending>", "If this unit has Armor:", "[+10]% Strength <for [Armor] units> <when defending>"],
+		"unitTypes": ["Sword","Gunpowder","Fighter","Bomber","Mounted", "Melee Sorcery"],
+        "column": 24,
+        "row": 9
+	},
+	{
+		"name": "Armor Plating III",
+		"prerequisites": ["Armor Plating II"],
+		"uniques": ["[+5]% Strength <when defending>", "If this unit has Armor:", "[+10]% Strength <for [Armor] units> <when defending>"],
+		"unitTypes": ["Sword","Gunpowder","Fighter","Bomber", "Mounted", "Melee Sorcery"],
+        "column": 24,
+        "row": 10
+	},
+	{
+		"name": "Ambush I",
+		"uniques": ["[+50]% Strength <vs [Ranged] units> <when attacking>"],
+		"unitTypes": ["Sword","Gunpowder","Fighter","Bomber", "Mounted", "Melee Sorcery"],
+        "column": 24,
+        "row": 11
+	},
+	{
+		"name": "Ambush II",
+        "prerequisites": ["Ambush I"],
+		"uniques": ["[+50]% Strength <vs [Ranged] units> <when attacking>"],
+		"unitTypes": ["Sword","Gunpowder","Fighter","Bomber", "Mounted", "Melee Sorcery"],
+        "column": 24,
+        "row": 12
+	},
+
+
+	// Water ranged and air units
+	{
+		"name": "Bombardment I",
+		"uniques": ["[+33]% Strength <vs [Land] units>"],
+		"unitTypes": ["Ranged Water","Fighter","Bomber"],
+        "column": 26,
+        "row": 1
+	},
+	{
+		"name": "Bombardment II",
+		"prerequisites": ["Bombardment I"],
+		"uniques": ["[+33]% Strength <vs [Land] units>"],
+		"unitTypes": ["Ranged Water","Fighter","Bomber"],
+        "column": 26,
+        "row": 2
+	},
+	{
+		"name": "Bombardment III",
+		"prerequisites": ["Bombardment II"],
+		"uniques": ["[+34]% Strength <vs [Land] units>"],
+		"unitTypes": ["Ranged Water","Fighter","Bomber"],
+        "column": 26,
+        "row": 3
+	},
+    // Special Promotions
+	
+	{
+		"name": "Devout", //New update promotion
+ 		"uniques": ["Can Spread Religion <[1] additional time(s)>"]
 	},
 	
-	// contemplating if I should add these
-	/*
 	{
-		"name": "Guardsman",
-		"unitType": "Sword",
-		"movement": 2,
-		"strength": 11,
-		"cost": 75,
-		"requiredTech": "Authority",
-		"obsoleteTech": "Maintained Society",
-		"upgradesTo": "Palace Guard",
-		"uniques": ["Cannot attack", "[-1] Movement <in [Foreign Land] tiles>", "[-20]% Strength <vs [Ranged] units> <when defending>", "Never appears as a Barbarian unit"],
-		"attackSound": "nonmetalhit"
+		"name": "Rejuvenation", // only for Units that have been close to Natural Wonder Fountain of Youth (Misty Lake in this mod)
+		"uniques": ["All healing effects doubled"]
 	},
 	{
-		"name": "Palace Guard",
-		"unitType": "Sword",
-		"movement": 2,
-		"strength": 29,
-		"cost": 185,
-		"requiredTech": "Maintained Society",
-		"obsoleteTech": "Nobility",
-		"upgradesTo": "Emperor's Guard",
-		"uniques": ["Armor", "Cannot attack", "[-1] Movement <in [Foreign Land] tiles>", "[-20]% Strength <vs [Ranged] units> <when defending>", "Never appears as a Barbarian unit"],
-		"attackSound": "nonmetalhit"
+		"name": "[Royal Ashigaru] ability",
+		"uniques": ["[+100]% Strength <vs [Mounted] units>"]
 	},
 	{
-		"name": "Emperor's Guard",
-		"unitType": "Sword",
-		"movement": 2,
-		"strength": 65,
-		"cost": 600,
-		"requiredTech": "Nobility",
-		"uniques": ["Armor", "Cannot attack", "[-1] Movement <in [Foreign Land] tiles>", "[-20]% Strength <vs [Ranged] units> <when defending>", "Never appears as a Barbarian unit"],
-		"attackSound": "nonmetalhit"
+		"name": "[Royal Samurai] ability",
+		"uniques": ["[+50]% Strength <when defending>"]
+	},
+	{
+		"name": "[Royal Cavalry] ability",
+		"uniques": ["[+100]% Strength <when attacking>"]
+	}
+	
+	
+	// Ability Card Uniques
+	// I don't see the reason why their uniques should be hidden, such a thing should be displayed you know
+	{
+		"name": "Card - Screen Border",
+		"uniques": ["Comment [Yukari Yakumo's ability to let you freely warp between map edges for Scout. It will activates when you have this card.]",
+			"May Paradrop up to [100] tiles from inside friendly territory <if it hasn't used other actions yet> <for [Scout] units> <with [Screen Border Card]>"
+			]
+	},
+	{
+		"name": "Card - Great Tengu's Barley Rice",
+ 		"uniques": ["Comment [Megumu Iizunamaru's ability that gives movepoints for just bought units when you have this card. Why are you collecting Power after setting foot on the mountain? You should pack tons of food to begin with, and then set out.]",
+			"Can move immediately once bought <for [All] units> <with [Great Tengu's Barley Rice Card]>"]
+	},
+	/* Apprently, I am already adding this to Cirno as a nation unique, so this would have to go
+	{
+		"name": "Card - Ice Fairy",
+		"uniques": ["Comment [Ice fairies are useful when unit in cold regions. Gives little Defence bonus in Cold Regions, And Can enter ice tiles for navy and embarking units when you have Ice Fairy Card.]",
+			"Can enter ice tiles <with [Ice Fairy Card]> <hidden from users>",
+		"[+10]% Strength <in [Snow] tiles> <when defending> <with [Ice Fairy Card]>","[+10]% Strength <in [{Tundra} {non-[Forest]} {non-[Hill]}] tiles> <with [Ice Fairy Card]> <when defending>"]
 	},
 	*/
+	{
+		"name": "Card - Smelt's Scales",
+		"uniques": ["Comment [Enable attack for Embarking units when you have Smelt's Scales Card.]", "May attack when embarked <for [Melee] units> <with [Smelt's Scales Card]>"]
+	},
+	{
+		"name": "Card - Pebble Hat",
+		"uniques": ["Comment [Koishi Komeiji's ability to prevent your enemies from seeing your Scouts, unless nearby.]", "Invisible to non-adjacent units <for [Scout] units> <when at war> <with [Pebble Hat Card]>"]
+	},
+	{
+		"name": "Card - Beauty Of Destruction",
+		"uniques": ["Comment [Flan's ability to destroy Improved tiles with your Siege Unit when you have Beauty of Destruction Card. There are many Fortress in enemy territory? What a dumb is it. Why don't they know at it can be destroyed easily?]",
+			"Destroys tile improvements when attacking <for [Siege] units> <when at war> <with [Beauty Of Destruction Card]>"]
+	}
 	
 ]
