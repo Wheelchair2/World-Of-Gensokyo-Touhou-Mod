@@ -2984,7 +2984,7 @@ TileSets/HexaRealm/Tiles/Citadel
   orig: 64, 96
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Tiles/City center-Fated Land
+TileSets/HexaRealm/Tiles/City center-Fated Kingdom
   rotate: false
   xy: 580, 1261
   size: 64, 96
