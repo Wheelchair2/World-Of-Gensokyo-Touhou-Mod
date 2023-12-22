@@ -144,7 +144,7 @@
 		"name": "Remove Forest",
 		"turnsToBuild": 4,
 		"techRequired": "Scientific Knowledge",
-		"uniques": ["Can be built outside your borders"],
+		"uniques": ["Excluded from map editor <hidden from users>","Can be built outside your borders"],
 		"shortcutKey": "X",
         "civilopediaText": [{"text":"Provides a one-time Production bonus depending on distance to the closest city once finished"}]
 	},
@@ -152,21 +152,21 @@
 		"name": "Remove Jungle",
 		"turnsToBuild": 7,
 		"techRequired": "Scientific Knowledge",
-		"uniques": ["Can be built outside your borders"],
+		"uniques": ["Excluded from map editor <hidden from users>","Can be built outside your borders"],
 		"shortcutKey": "X"
 	},
 	{
 		"name": "Remove Fallout",
 		"turnsToBuild": 2,
 		// Has no tech requirements as it can always be built
-		"uniques": ["Can be built outside your borders"],
+		"uniques": ["Excluded from map editor <hidden from users>","Can be built outside your borders"],
 		"shortcutKey": "X"
 	},
 	{
 		"name": "Remove Marsh",
 		"turnsToBuild": 6,
 		"techRequired": "Scientific Knowledge",
-		"uniques": ["Can be built outside your borders"],
+		"uniques": ["Excluded from map editor <hidden from users>","Can be built outside your borders"],
 		"shortcutKey": "X"
 	},
 
@@ -174,16 +174,16 @@
 	{
 		"name": "Remove Road",
 		"turnsToBuild": 2,
-		"uniques": ["Can be built outside your borders"]
+		"uniques": ["Excluded from map editor <hidden from users>","Can be built outside your borders"]
 	},
 	{
 		"name": "Remove Railroad",
 		"turnsToBuild": 2,
-		"uniques": ["Can be built outside your borders"]
+		"uniques": ["Excluded from map editor <hidden from users>","Can be built outside your borders"]
 	},
 	{
 		"name": "Cancel improvement order",
-		"uniques": ["Can be built outside your borders"],
+		"uniques": ["Excluded from map editor <hidden from users>","Can be built outside your borders"],
 		"shortcutKey": "."
 	},
     // Purely for turnsToBuild and civilopediaText. Unbuildable so it doesn't show in ImprovementPicker
@@ -192,7 +192,7 @@
         "terrainsCanBeBuiltOn": ["Land"],
         "turnsToBuild": 2,
         "shortcutKey": "E",
-        "uniques": ["Unbuildable"],
+        "uniques": ["Excluded from map editor <hidden from users>","Unbuildable"],
         "civilopediaText": [{"text":"Repairs a pillaged Improvement or Route"}]
     },
 	
@@ -204,26 +204,26 @@
 		"turnsToBuild": 6,
 		"happiness": 2
         "culture": 4,
-		"uniques": ["Consumes [1] [Wonder Slot]", "[+5 Gold] <during a Golden Age>"],
+		"uniques": ["Excluded from map editor <hidden from users>","Consumes [1] [Wonder Slot]", "[+5 Gold] <during a Golden Age>"],
 	},
 	{
 		"name": "Ninja's House",
 		"terrainsCanBeBuiltOn": ["Bamboo Forest"],
 		"turnsToBuild": 6,
 		"production": 3,
-		"uniques": ["Consumes [1] [Wonder Slot]","Gives a defensive bonus of [175]%"],
+		"uniques": ["Excluded from map editor <hidden from users>","Consumes [1] [Wonder Slot]","Gives a defensive bonus of [175]%"],
 	},
 	{
 		"name": "Friendship With Wild Beasts",
 		"terrainsCanBeBuiltOn": ["Chikushokai"],
 		"turnsToBuild": 9,
-		"uniques": ["Comment [Increases the military importance of Chikushokai. In conclusion, diplomacy is nothing more than a meeting of interests.]", "Consumes [1] [Wonder Slot]","[+5 Production, +5 Gold] <when at war>","Gives a defensive bonus of [50]%","Adjacent enemy units ending their turn take [20] damage"],
+		"uniques": ["Excluded from map editor <hidden from users>","Comment [Increases the military importance of Chikushokai. In conclusion, diplomacy is nothing more than a meeting of interests.]", "Consumes [1] [Wonder Slot]","[+5 Production, +5 Gold] <when at war>","Gives a defensive bonus of [50]%","Adjacent enemy units ending their turn take [20] damage"],
 	},
 	{
 		"name": "Reichoen",
 		"terrainsCanBeBuiltOn": ["Chikushokai"],
 		"turnsToBuild": 9,
-		"uniques": ["Comment [Human spirits are always gives you a bonus. Human spirits are handy and weakest, so it's useful as a labor.]","Consumes [1] [Wonder Slot]","[+5 Production, +5 Gold] <when not at war>","[+2 Faith] <after founding a Pantheon>","[+3 Faith, -5 Production] <when not at war> <after founding a religion>"], //Terrain stats can't be negative, the "-5 Production" currently won't do any effect
+		"uniques": ["Excluded from map editor <hidden from users>","Comment [Human spirits are always gives you a bonus. Human spirits are handy and weakest, so it's useful as a labor.]","Consumes [1] [Wonder Slot]","[+5 Production, +5 Gold] <when not at war>","[+2 Faith] <after founding a Pantheon>","[+3 Faith, -5 Production] <when not at war> <after founding a religion>"], //Terrain stats can't be negative, the "-5 Production" currently won't do any effect
 	},
 
 
@@ -336,7 +336,7 @@
 	{
 		"name": "City center",
 		"terrainsCanBeBuiltOn": ["Land"],
-		"uniques": ["Ensures a minimum tile yield of [+2 Food, +1 Production]",
+		"uniques": ["Excluded from map editor <hidden from users>","Ensures a minimum tile yield of [+2 Food, +1 Production]",
             "Unpillagable", "Irremovable", "Unbuildable"],
         "civilopediaText": [
 			{"text":"Marks the center of a city"},
