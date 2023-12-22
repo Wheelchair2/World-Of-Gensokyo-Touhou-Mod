@@ -132,7 +132,7 @@
 		"terrainsCanBeBuiltOn": ["Land"],
 		"turnsToBuild": 4,
 		//"techRequired": "Railroads",
-		"uniques": ["Can be built outside your borders", "Costs [2] [Gold] per turn"],
+		"uniques": ["Cannot be built on [All] tiles", "Can be built outside your borders", "Costs [2] [Gold] per turn"],
 		"shortcutKey": "R",
         "civilopediaText": [{"text":"Reduces movement cost to ⅒ if the other tile also has a Railroad"}]
 	},
