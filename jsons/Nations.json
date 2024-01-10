@@ -419,7 +419,7 @@
 		"outerColor": [0,0,0],
 		"innerColor": [255,255,255],
 		"uniqueName": "Master Spark",
-		"uniques": ["[All] units gain the [Human Race] promotion", "Starts with [Research For Magic]", "Starts with [Simple Alchemy]", "[+50]% Strength <for [{Human} {Magician}] units>","Provides [1] [Mini-Hakkero Card]"],
+		"uniques": ["[All] units gain the [Human Race] promotion", "Starts with [Research For Magic]", "Starts with [Simple Alchemy]", "[+15]% Strength <for [{Human} {Magician}] units> <during the [Youkai Expansion Project Era]>", "[+55]% Strength <for [{Human} {Magician}] units> <starting from the [Edo period]>", "Provides [1] [Mini-Hakkero Card]"],
 		"cities": ["Arcanopolis", "Mystoria", "Sorceron", "Enchantia", "Maginium", "Spellhaven", "Wizard's Reach", "Enigmaire", "Conjuria", "Manaheim"]
 	},
 	{
