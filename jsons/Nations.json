@@ -502,7 +502,7 @@
 		"outerColor": [40,0,92],
 		"innerColor": [213,210,242],
 		"uniqueName": "Manipulation Of Boundaries",
-		"uniques": ["Comment [Yukari, the Youkai of Boundaries, can open gaps that rips through dimensions, which can act as portals for her subjects. Land Units can teleport (paradrop) up to 4 tiles when inside friendly territory, if the unit hasn't done any other actions yet; however, Military Land units are more expensive to produce]",
+		"uniques": ["Comment [Yukari, the Youkai of Boundaries, can open gaps that rips through dimensions, which can act as portals for her subjects. Land Units can teleport (paradrop) up to 4 tiles when inside friendly territory, if the unit hasn't done any other actions yet. However, Military Land units are more expensive to produce]",
 		"Comment [------------------]",
 		"[All] units gain the [Youkai] promotion", "[Land] units gain the [Phantasm] promotion", "[-25]% Production when constructing [{Military} {Land}] units [in all cities]", "[-25]% Culture cost of natural border growth [in all cities]", "Provides [1] [Screen Border Card]"],
 		"cities": ["Hakumori","Kasenba","Mizukawa","Soraheim","Yumegawa","Kagetsu","Tsukimori","Kiriwara","Hanamachi","Enishi"]
