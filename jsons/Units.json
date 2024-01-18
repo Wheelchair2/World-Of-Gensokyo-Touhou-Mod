@@ -369,13 +369,13 @@
 		"name": "Hand Cannon",
 		"unitType": "Siege",
 		"movement": 2,
-		"strength": 14,
-		"rangedStrength": 8,
+		"strength": 8,
+		"rangedStrength": 10,
 		"cost": 120,
 		"requiredTech": "Gunpowder",
 		"obsoleteTech": "Maintained Society",
 		"upgradesTo": "Odzutsu",
-		"uniques": ["[+300]% Strength <vs cities> <when attacking>", "Rough terrain penalty", "[+150]% Strength <vs [Armor] units>", "[-1] Sight", "Never appears as a Barbarian unit"],
+		"uniques": ["[+200]% Strength <vs cities> <when attacking>", "[+150]% Strength <vs [Armor] units>", "[-1] Sight", "Never appears as a Barbarian unit"],
 		"attackSound": "shot"
 	},
 	{
@@ -560,38 +560,39 @@
 	{
 		"name": "Odzutsu",
 		"unitType": "Siege",
-		"movement": 1,
-		"strength": 17,
-		"rangedStrength": 18,
+		"movement": 2,
+		"strength": 12,
+		"rangedStrength": 15,
 		"cost": 125,
 		"obsoleteTech": "Law Enforcement",
 		"requiredTech": "Maintained Society",
 		"upgradesTo": "Cannon",
-		"uniques": ["[+100]% Strength <vs cities> <when attacking>", "Must set up to ranged attack", "[-1] Sight", "Never appears as a Barbarian unit"],
+		"uniques": ["[+200]% Strength <vs cities> <when attacking>", "Must set up to ranged attack", "[-1] Sight", "Never appears as a Barbarian unit"],
 		"attackSound": "cannon"
 	},
 	{
 		"name": "Cannon",
 		"unitType": "Siege",
-		"movement": 1,
-		"strength": 21,
-		"rangedStrength": 28,
+		"movement": 2,
+		"strength": 17,
+		"rangedStrength": 21,
 		"cost": 225,
 		"obsoleteTech": "Nobility",
 		"requiredTech": "Law Enforcement",
 		"upgradesTo": "Artillery",
-		"uniques": ["[+100]% Strength <vs cities> <when attacking>", "Must set up to ranged attack", "[-1] Sight", "Never appears as a Barbarian unit"],
+		"uniques": ["[+200]% Strength <vs cities> <when attacking>", "Must set up to ranged attack", "[-1] Sight", "Never appears as a Barbarian unit"],
 		"attackSound": "cannon"
 	},
 	{
 		"name": "Artillery",
 		"unitType": "Siege",
-		"movement": 1,
-		"strength": 23,
-		"rangedStrength": 34,
+		"movement": 2,
+		"strength": 45,
+		"rangedStrength": 60,
 		"cost": 425,
 		"requiredTech": "Nobility",
-		"uniques": ["[+100]% Strength <vs cities> <when attacking>", "Must set up to ranged attack", "[-1] Sight", "Never appears as a Barbarian unit"],
+		"uniques": ["[+200]% Strength <vs cities> <when attacking>", "Must set up to ranged attack", "[-1] Sight", "Never appears as a Barbarian unit"],
+		"promotions": ["Extended Range"]
 		"attackSound": "cannon"
 	},
 	
@@ -824,12 +825,12 @@
 		"range": 3,
 		"movement": 2,
 		"strength": 11,
-		"rangedStrength": 14,
+		"rangedStrength": 8,
 		"cost": 185,
 		"requiredTech": "Limitless Learning",
 		"obsoleteTech": "Technology Limit",
 		"attackSound": "throw",
-		"uniques": ["Magician", "[+300]% Strength <vs [City] units>", "Comment [Becomes obsolete at [Technology Limit]]", "Never appears as a Barbarian unit"]
+		"uniques": ["Magician", "[+200]% Strength <vs [City] units>", "Comment [Becomes obsolete at [Technology Limit]]", "Never appears as a Barbarian unit"]
 	},
 	
 	
