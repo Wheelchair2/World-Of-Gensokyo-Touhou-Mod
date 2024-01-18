@@ -2,7 +2,6 @@
     "name": "Global uniques",
     "uniques": [
         "Gain a free [System] [in all cities]",
-        "[-3 Happiness]",
         "[+5 Production, +5 Gold] from [Chikushokai] tiles [in all cities] <when at war>",
         "[-75]% growth [in all cities] <when between [-10] and [0] Happiness>",
         "Nullifies Growth [in all cities] <when below [-10] Happiness>",
