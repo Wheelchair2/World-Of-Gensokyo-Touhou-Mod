@@ -201,9 +201,9 @@
 	{
 		"name": "Perfect Cherry Blossom",
 		"uniqueTo": "The Netherworld",
-		"cost": 185,
+		"cost": 125,
 		"isNationalWonder": true,
-		"uniques": ["Special Wonder", "Must have an owned [Saigyou Ayakashi] within [2] tiles", "[+6 Culture] from [Saigyou Ayakashi] tiles [in this city]"]
+		"uniques": ["Special Wonder", "Must have an owned [Saigyou Ayakashi] within [2] tiles", "[+25]% Strength <for [All] units>", "[+6 Culture] from [Saigyou Ayakashi] tiles [in this city]"]
 		"greatPersonPoints": {"Great Artist": 1},
 		"quote": "'At any rate, with just a little more spring, the Saigyou Ayakashi will soon reach full bloom. The small trace of spring that you've brought here... will give us the last step needed.' - Youmu Konpaku."
 	},
@@ -212,7 +212,7 @@
 		"uniqueTo": "The Borderless Realm",
 		"cost": 185,
 		"isNationalWonder": true,
-		"uniques": ["Special Wonder", "[-25]% Culture cost of natural border growth [in all cities]"]
+		"uniques": ["Special Wonder", "[-100]% Culture cost of natural border growth [in this city]"]
 		"greatPersonPoints": {"Great Merchant": 1},
 		"quote": "Tengu reside in Youkai Mountain and seem territorial of humans and other youkai trespassing within their home."
 	},
@@ -276,7 +276,15 @@
 		"greatPersonPoints": {"Great Merchant": 1},
 		"quote": "Possession of an object can only be controlled by the god of the markets. As long as they possess something, none can escape from the hands of God! - Chimata Tenkyuu",
 	},
-	
+	{
+		"name": "Warmth of Spring",
+		"uniqueTo": "Fairies Of Spring",
+		"cost": 185,
+		"isNationalWonder": true,
+		"greatPersonPoints": {"Great Artist": 1},
+		"uniques": ["Special Wonder", "[+1 Production] from every [Open terrain]"],
+		"quote": "'IIIIITT'S SPRIIIIIINGG!!!' - Lily White."
+	},
 	/*
 	{
 		"name": "Scarlet Magic Library",
@@ -378,7 +386,7 @@
 		"name": "Walls",
 		"cost": 75,
 		"cityStrength": 5,
-		"cityHealth": 25,
+		"cityHealth": 50,
 		"hurryCostModifier": 25,
 		"requiredTech": "State Government",
 		"requiredBuilding": "Fortifications",
@@ -386,9 +394,10 @@
 	},
 	{
 		"name": "Cemented Walls",
+		"cost": 40,
 		"uniqueTo": "Human Village",
 		"replaces": "Walls",
-		"cityStrength": 5,
+		"cityStrength": 7,
 		"cityHealth": 50,
 		"hurryCostModifier": 25,
 		"requiredTech": "State Government",
@@ -622,6 +631,7 @@
 	{
 		"name": "Kiln",
 		"maintenance": 3,
+		"production": 2,
 		"hurryCostModifier": 25,
 		"uniques": ["Provides [2] [Iron]"],
 		"requiredTech": "Iron Working"
@@ -711,8 +721,8 @@
 	{
 		"name": "Fortress",
 		"cost": 160,
-		"cityStrength": 15,
-		"cityHealth": 50,
+		"cityStrength": 10,
+		"cityHealth": 25,
 		"hurryCostModifier": 20,
 		"requiredTech": "Politics",
 		"requiredBuilding": "Castle",
@@ -721,7 +731,7 @@
 	{
 		"name": "High Walls",
 		"cost": 200,
-		"cityHealth": 150,
+		"cityHealth": 50,
 		"hurryCostModifier": 20,
 		"requiredTech": "Shogunate",
 		"requiredBuilding": "Walls",
@@ -917,19 +927,18 @@
 	{
 		"name": "Arsenal",
 		"cost": 250,
-		"cityStrength": 15,
+		"cityStrength": 9,
 		"cityHealth": 25,
 		"hurryCostModifier": 25,
 		"requiredBuilding": "Fortress",
 		"requiredTech": "Law Enforcement",
-		"requiredBuilding": "Fortress",
 		"uniques": ["Destroyed when the city is captured"]
 	},
 	{
 		"name": "Military Base",
 		"cost": 500,
-		"cityStrength": 15,
-		"cityHealth": 50,
+		"cityStrength": 12,
+		"cityHealth": 25,
 		"hurryCostModifier": 25,
 		"requiredBuilding": "Arsenal",
 		"requiredTech": "Military Logistics",
