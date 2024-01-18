@@ -145,6 +145,11 @@
 		"name": "Unidentifiable",
 		"uniques": ["Invisible to non-adjacent enemy units"]
 	},
+	
+	{
+		"name": "Animal Spirit",
+ 		"uniques": ["Spirit", "Ignores Zone of Control"]
+	},
 	*/
 	
 	// Old Promotions
@@ -187,24 +192,20 @@
  		"uniques": ["Ignores terrain cost", "Can pass through impassable tiles", "Ignores Zone of Control", "[-33]% Strength <when attacking>"]
 	},
 	{
-		"name": "Animal Spirit",
- 		"uniques": ["Spirit", "Ignores Zone of Control"]
-	},
-	{
 		"name": "Beast",
  		"uniques": ["Beast", "[+5] HP when healing"]
 	},
 	{
 		"name": "Doll Construct",
- 		"uniques": ["Doll construct", "[-50]% Strength <when defending> <before discovering [Self-Discovery]>", "[-30]% Strength <when defending> <after discovering [Self-Discovery]>", "[+5] HP when healing <in [Doll Lumber House] tiles>"]
+ 		"uniques": ["[-50]% Strength <when defending> <before discovering [Self-Discovery]>", "[-30]% Strength <when defending> <after discovering [Self-Discovery]>", "[+5] HP when healing <in [Doll Lumber House] tiles>"]
 	},
 	{
 		"name": "Lunarian",
- 		"uniques": ["Lunarian"]
+ 		//"uniques": ["Lunarian"]
 	},
 	{
 		"name": "Celestial",
- 		"uniques": ["Celestial"]
+ 		//"uniques": ["Celestial"]
 	},
 	{
 		"name": "Dark Youkai",
@@ -212,15 +213,15 @@
 	},
 	{
 		"name": "Bird Net",
- 		"uniques": ["Slows down adjacent Winged units (-2 Movement)"]
+ 		"uniques": ["Comment [Slows down adjacent Winged units (-2 Movement)]"]
 	},
 	{
 		"name": "Mermaid Net",
- 		"uniques": ["Slows down adjacent Mermaid units (-2 Movement)"]
+ 		"uniques": ["Comment [Slows down adjacent Mermaid units (-2 Movement)]"]
 	},
 	{
 		"name": "Willpower",
- 		"uniques": ["Willpower"]
+ 		//"uniques": ["Willpower"]
 	},
 	{
 		"name": "Human Race",
@@ -228,16 +229,15 @@
 	},
 	{
 		"name": "Youkai",
- 		"uniques": ["Youkai"]
+ 		//"uniques": ["Youkai"]
 	},
 	{
 		"name": "Oni",
- 		"uniques": ["Oni", "[+20]% Strength"]
+ 		"uniques": ["[+20]% Strength"]
 	},
 	{
 		"name": "Phantasm"
 		"uniques": ["May Paradrop up to [4] tiles from inside friendly territory <if it hasn't used other actions yet>"],
-        "prerequisites": ["Stab Third Eye"]
 	},
 	{
 		"name": "Martial Arts",
@@ -245,11 +245,11 @@
 	},
 	{
 		"name": "Kappa",
- 		"uniques": ["Kappa"]
+ 		//"uniques": ["Kappa"]
 	},
 	{
 		"name": "Mermaid",
- 		"uniques": ["Mermaid", "[-1] Movement", "[+1] Movement <in [Fresh water] tiles>", "[+1] Movement <within [1] tiles of a [Coast]>", "[+1] Movement <in [Water] tiles>", "Eliminates combat penalty for attacking over a river", "Eliminates combat penalty for attacking across a coast", "May travel on Water tiles without embarking"]
+ 		"uniques": ["[-1] Movement", "[+1] Movement <in [Fresh water] tiles>", "[+1] Movement <within [1] tiles of a [Coast]>", "[+1] Movement <in [Water] tiles>", "Eliminates combat penalty for attacking over a river", "Eliminates combat penalty for attacking across a coast", "May travel on Water tiles without embarking"]
 	},
 	{
 		"name": "Kitsune",
@@ -882,7 +882,7 @@
 
 	{
 		"name": "Armor Plating I",
-		"uniques": ["[+5]% Strength <when defending>", "If this unit has Armor:", "[+10]% Strength <for [Armor] units> <when defending>"],
+		"uniques": ["[+5]% Strength <when defending>", "Comment [If this unit has Armor:]", "[+10]% Strength <for [Armor] units> <when defending>"],
 		"unitTypes": ["Sword","Gunpowder","Fighter","Bomber", "Mounted","Melee Sorcery"],
         "column": 24,
         "row": 8
@@ -890,7 +890,7 @@
 	{
 		"name": "Armor Plating II",
 		"prerequisites": ["Armor Plating I"],
-		"uniques": ["[+5]% Strength <when defending>", "If this unit has Armor:", "[+10]% Strength <for [Armor] units> <when defending>"],
+		"uniques": ["[+5]% Strength <when defending>", "Comment [If this unit has Armor:]", "[+10]% Strength <for [Armor] units> <when defending>"],
 		"unitTypes": ["Sword","Gunpowder","Fighter","Bomber","Mounted", "Melee Sorcery"],
         "column": 24,
         "row": 9
@@ -898,7 +898,7 @@
 	{
 		"name": "Armor Plating III",
 		"prerequisites": ["Armor Plating II"],
-		"uniques": ["[+5]% Strength <when defending>", "If this unit has Armor:", "[+10]% Strength <for [Armor] units> <when defending>"],
+		"uniques": ["[+5]% Strength <when defending>", "Comment [If this unit has Armor:]", "[+10]% Strength <for [Armor] units> <when defending>"],
 		"unitTypes": ["Sword","Gunpowder","Fighter","Bomber", "Mounted", "Melee Sorcery"],
         "column": 24,
         "row": 10
@@ -982,12 +982,13 @@
  		"uniques": ["Comment [Megumu Iizunamaru's ability that gives movepoints for just bought units when you have this card. Why are you collecting Power after setting foot on the mountain? You should pack tons of food to begin with, and then set out.]",
 			"Can move immediately once bought <for [All] units> <with [Great Tengu's Barley Rice Card]>"]
 	},
-	/* Apprently, I am already adding this to Cirno as a nation unique, so this would have to go
+	/*Apparently I changed the Ice Fairy Card unique and it does not need this promotion anymore, so this would have to go
 	{
 		"name": "Card - Ice Fairy",
 		"uniques": ["Comment [Ice fairies are useful when unit in cold regions. Gives little Defence bonus in Cold Regions, And Can enter ice tiles for navy and embarking units when you have Ice Fairy Card.]",
-			"Can enter ice tiles <with [Ice Fairy Card]> <hidden from users>",
-		"[+10]% Strength <in [Snow] tiles> <when defending> <with [Ice Fairy Card]>","[+10]% Strength <in [{Tundra} {non-[Forest]} {non-[Hill]}] tiles> <with [Ice Fairy Card]> <when defending>"]
+			"Can enter ice tiles <with [Ice Fairy Card]>",
+			"[+5]% Strength <in [Snow] tiles> <when defending> <with [Ice Fairy Card]>","[+5]% Strength <in [{Tundra} {non-[Forest]} {non-[Hill]}] tiles> <with [Ice Fairy Card]> <when defending>"
+			]
 	},
 	*/
 	{
