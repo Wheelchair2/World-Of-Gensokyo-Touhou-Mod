@@ -218,97 +218,97 @@
 	{
 		"name": "Blank Card",
 		"resourceType": "Luxury",
-		"uniques": ["Excluded from map editor <hidden from users>","Comment [An Ability Card with nothing written on it...Let's trade this and relinquish ownership of the opponent's card!]","Comment [Resource for trading]","Cannot be traded <for [non-[Beneath The Rainbow]]>"]
+		"uniques": ["Comment [An Ability Card with nothing written on it...Let's trade this and relinquish ownership of the opponent's card!]","Comment [Resource for trading]","Not shown on world screen"]
 	},
 	{
 		"name": "Yin-Yang Orb Card",
 		"resourceType": "Luxury",
-		"uniques": ["Excluded from map editor <hidden from users>","[+8]% Strength <for [All] units> <with [Yin-Yang Orb Card]>"]
+		"uniques": ["Not shown on world screen","[+8]% Strength <for [All] units> <with [Yin-Yang Orb Card]>"]
 	},
 	{
 		"name": "Mini-Hakkero Card",
 		"resourceType": "Luxury",
-		"uniques": ["Excluded from map editor <hidden from users>","[+12]% Strength <for [Siege] units> <with [Mini-Hakkero Card]>"]
+		"uniques": ["Not shown on world screen","[+12]% Strength <for [Siege] units> <with [Mini-Hakkero Card]>"]
 	},
 	{
 		"name": "Shanghai Doll Card",
 		"resourceType": "Luxury",
-		"uniques": ["Excluded from map editor <hidden from users>","[1] free [Worker] units appear <with [Shanghai Doll Card]>","[Worker] units gain the [Doll Construct] promotion <with [Shanghai Doll Card]>"]
+		"uniques": ["Not shown on world screen","[1] free [Worker] units appear <with [Shanghai Doll Card]>","[Worker] units gain the [Doll Construct] promotion <with [Shanghai Doll Card]>"]
 	},
 	{
 		"name": "Backdoor Card",
 		"resourceType": "Luxury",
-		"uniques": ["Excluded from map editor <hidden from users>","[+15]% Strength <when defending> <when adjacent to a [{Friendly} {Military}] unit> <for [Military] units> <with [Backdoor Card]>"]
+		"uniques": ["Not shown on world screen","[+15]% Strength <when defending> <when adjacent to a [{Friendly} {Military}] unit> <for [Military] units> <with [Backdoor Card]>"]
 	},
 	{
 		"name": "Offerings To A Sacred Mountain Card",
 		"resourceType": "Luxury",
-		"uniques": ["Excluded from map editor <hidden from users>","[+1 Gold] from [Mountain] tiles [in all cities]","[+1] Sight <for [Scout] units> <with [Offerings To A Sacred Mountain Card]>"]
+		"uniques": ["Not shown on world screen","[+1 Gold] from [Mountain] tiles [in all cities]","[+1] Sight <for [Scout] units> <with [Offerings To A Sacred Mountain Card]>"]
 	},
 	{
 		"name": "Sutra Of Dharmatic Power Card",
 		"resourceType": "Luxury",
-		"uniques": ["Excluded from map editor <hidden from users>","[+33]% Strength <when attacking> <when below [30] HP> <with [Sutra Of Dharmatic Power Card]>"]
+		"uniques": ["Not shown on world screen","[+33]% Strength <when attacking> <when below [30] HP> <with [Sutra Of Dharmatic Power Card]>"]
 	},
 	{
 		"name": "Danmaku Ghost Card",
 		"resourceType": "Luxury",
-		"uniques": ["Excluded from map editor <hidden from users>","Damage is ignored when determining unit Strength <for [All] units> <with [Danmaku Ghost Card]>"]
+		"uniques": ["Not shown on world screen","Damage is ignored when determining unit Strength <for [All] units> <with [Danmaku Ghost Card]>"]
 	},
 	{
 		"name": "Screen Border Card",
 		"resourceType": "Luxury",
-		"uniques": ["Excluded from map editor <hidden from users>","[All] units gain the [Card - Screen Border] promotion <with [Screen Border Card]>"]
+		"uniques": ["Not shown on world screen","[All] units gain the [Card - Screen Border] promotion <with [Screen Border Card]>"]
 	},
 	{
 		"name": "Miracle Mallet Card",
 		"resourceType": "Luxury",
-		"uniques": ["Excluded from map editor <hidden from users>","Earn [15]% of killed [Military] unit's [Strength] as [Gold] <for [All] units> <with [Miracle Mallet Card]>"]
+		"uniques": ["Not shown on world screen","Earn [15]% of killed [Military] unit's [Strength] as [Gold] <for [All] units> <with [Miracle Mallet Card]>"]
 	},
 	{
 		"name": "Keystone Of Endurance Card",
 		"resourceType": "Luxury",
-		"uniques": ["Excluded from map editor <hidden from users>","[+12]% Strength <when defending> <for [Military] units> <with [Keystone Of Endurance Card]>"]
+		"uniques": ["Not shown on world screen","[+12]% Strength <when defending> <for [Military] units> <with [Keystone Of Endurance Card]>"]
 	},
 	{
 		"name": "Esteemed Authority Card",
 		"resourceType": "Luxury",
-		"uniques": ["Excluded from map editor <hidden from users>","[+40]% Strength <for [Military] units> <vs [Barbarian] units> <with [Esteemed Authority Card]>"]
+		"uniques": ["Not shown on world screen","[+40]% Strength <for [Military] units> <vs [Barbarian] units> <with [Esteemed Authority Card]>"]
 	},
 	{
 		"name": "Vampire Fang Card",
 		"resourceType": "Luxury",
-		"uniques": ["Excluded from map editor <hidden from users>","[+12]% Strength <for [Melee] units> <with [Vampire Fang Card]>"]
+		"uniques": ["Not shown on world screen","[+12]% Strength <for [Melee] units> <with [Vampire Fang Card]>"]
 	},
 	{
 		"name": "Great Tengu's Barley Rice Card",
 		"resourceType": "Luxury",
-		"uniques": ["Excluded from map editor <hidden from users>","[All] units gain the [Card - Great Tengu's Barley Rice] promotion <with [Great Tengu's Barley Rice Card]>"]
+		"uniques": ["Not shown on world screen","[All] units gain the [Card - Great Tengu's Barley Rice] promotion <with [Great Tengu's Barley Rice Card]>"]
 	},
 	{
 		"name": "Ice Fairy Card",
 		"resourceType": "Luxury",
-		"uniques": ["Excluded from map editor <hidden from users>", "[+15]% Strength <when defending> <for [Military] units> <in [Snow] tiles>","[+10]% Strength <when defending> <for [Military] units> <in [Tundra] tiles>"]
+		"uniques": ["Not shown on world screen", "[+15]% Strength <when defending> <for [Military] units> <in [Snow] tiles>","[+10]% Strength <when defending> <for [Military] units> <in [Tundra] tiles>"]
 	},
 	{
 		"name": "Beauty Of Destruction Card",
 		"resourceType": "Luxury",
-		"uniques": ["Excluded from map editor <hidden from users>","[Siege] units gain the [Card - Beauty Of Destruction] promotion <with [Beauty Of Destruction Card]>","[+20]% Strength <vs cities> <for [All] units> <with [Beauty Of Destruction Card]>"]
+		"uniques": ["Not shown on world screen","[Siege] units gain the [Card - Beauty Of Destruction] promotion <with [Beauty Of Destruction Card]>","[+20]% Strength <vs cities> <for [All] units> <with [Beauty Of Destruction Card]>"]
 	},
 	{
 		"name": "Drunkenly Whimsical Ibuki Gourd Card",
 		"resourceType": "Luxury",
-		"uniques": ["Excluded from map editor <hidden from users>","[-1] Sight <when below [0] Happiness>","[+15]% Strength <while the empire is happy> <for [All] units> <with [Drunkenly Whimsical Ibuki Gourd Card]>"]
+		"uniques": ["Not shown on world screen","[-1] Sight <when below [0] Happiness>","[+15]% Strength <while the empire is happy> <for [All] units> <with [Drunkenly Whimsical Ibuki Gourd Card]>"]
 	},
 	{
 		"name": "Smelt's Scales Card",
 		"resourceType": "Luxury",
-		"uniques": ["Excluded from map editor <hidden from users>","[All] units gain the [Card - Smelt's Scales] promotion <with [Smelt's Scales Card]>"]
+		"uniques": ["Not shown on world screen","[All] units gain the [Card - Smelt's Scales] promotion <with [Smelt's Scales Card]>"]
 	},
 	{
 		"name": "Pebble Hat Card",
 		"resourceType": "Luxury",
-		"uniques": ["Excluded from map editor <hidden from users>","[Scout] units gain the [Card - Pebble Hat] promotion <with [Pebble Hat Card]>"],
+		"uniques": ["Not shown on world screen","[Scout] units gain the [Card - Pebble Hat] promotion <with [Pebble Hat Card]>"],
 	},
 	// Luxury resources
 	{
