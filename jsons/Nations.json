@@ -39,7 +39,7 @@
 	},
 	{
 		"name": "Bhavaagra",
-		"leaderName": "Hinanawi Tenshi",
+		"leaderName": "Tenshi Hinanawi",
 		"adjective": ["Celestial"],
 		"preferredVictoryType": "Diplomacy",
 		"startIntroPart1": ".",
@@ -99,7 +99,7 @@
 		"innerColor": [255,144,164],
 		"uniqueName": "Manipulation Of Darkness",
 		"uniques": ["[All] units gain the [Youkai] promotion", "[All] units gain the [Dark Youkai] promotion", "Gain access to Rumia as a unit!"],
-		"cities": ["Hōreisou", "Yami no Machi", "Kurayami City", "Kagegakure", "Ayakashi Town", "Ankokuji", "Yūrei District", "Yabai Yokochō", "Shin'en no Toshi", "Kakuranochō"]
+		"cities": ["Houreisou", "Yami no Machi", "Kurayami City", "Kagegakure", "Ayakashi Town", "Ankokuji", "Yuurei District", "Yabai Yokochou", "Shin'en no Toshi", "Kakuranochou"]
 	},
 	*/
 	{
@@ -123,7 +123,6 @@
 		"uniques": ["[All] units gain the [Lunarian] promotion", "[+15]% Production when constructing [All] buildings [in all cities]", "[-50]% maintenance costs", "[-20]% construction time for [All] improvements"], 
 		"cities": ["Mugenkyo", "Eien no Machi", "Shintenkoku", "Kuon no Toshi", "Toki no Sato", "Kaseki no Machi", "Mugenkai", "Tokoyo City", "Fushi no Kuni", "Kujikujo"]
 	},
-	/*
 	{
 		"name": "Fairies Of Spring",
 		"leaderName": "Lily White",
@@ -133,8 +132,8 @@
 		"startIntroPart2": ".",
 		"attacked": ".",
 		"defeated": ".",
-		"introduction": ".",
-		"neutralHello": ".",
+		"introduction": ".It's spring!",
+		"neutralHello": "Is it spring yet?",
 		"hateHello": "."
 		"tradeRequest": ".",
 		"outerColor": [142,139,96],
@@ -148,7 +147,6 @@
 		"cities": ["Haru-machi", "Hana-toshi", "Sakura-shi", "Shinryoku-machi", "Hidamari-shi", "Ume-to", "Asagiri-shi", "Kusabana-machi", "Sakuradai-shi", "Ondan-shi"],
 		"style": "fairy"
 	},
-	*/
 	{
 		"name": "Fairy Alliance",
 		"leaderName": "Cirno",
@@ -236,7 +234,7 @@
 		"uniqueName": "Lineage Of Shrine Maidens",
 		"uniques": ["Starts with [Religion]", "Starts with [Rituals]",  "[All] units gain the [Human Race] promotion", "[+55]% Great Person generation [in all cities]","Provides [1] [Yin-Yang Orb Card]"]
 		"favoredReligion": "Shrine Shinto",
-		"cities": ["Kamigakure", "Hachimori", "Yūgen no Kuni", "Shinseikoku", "Kazanami", "Isagiyama", "Miyamizu", "Yōkaino", "Harunoshima", "Fushimori"]
+		"cities": ["Kamigakure", "Hachimori", "Yuugen no Kuni", "Shinseikoku", "Kazanami", "Isagiyama", "Miyamizu", "Youkaino", "Harunoshima", "Fushimori"]
 	}
     {
 		"name": "Human Village",
@@ -296,7 +294,7 @@
 	"Comment [------------------]",
 	"Starts with [Research For Magic]", "Starts with [Religion]", "[All] units gain the [Youkai] promotion", "[Land] units gain the [Corpse] promotion"],
 		"favoredReligion": "Ancient Taoism",
-		"cities": ["Shiryokuni", "Yomigaeru no Kuni", "Kakuriyō", "Anamaryū", "Okurimono", "Kagegoku", "Reikoku no Kuni", "Gekkōsha", "Yūkaijin", "Shiryouzan"]
+		"cities": ["Shiryokuni", "Yomigaeru no Kuni", "Kakuriyou", "Anamaryuu", "Okurimono", "Kagegoku", "Reikoku no Kuni", "Gekkousha", "Yuukaijin", "Shiryouzan"]
 	},
 	{
 		"name": "Land Of The Crow Tengus",
@@ -361,7 +359,7 @@
 		"[+50]% maintenance costs",
 		"[-100]% [Gold] [in all cities] <when below [3] Happiness>"],
 		"favoredReligion": "Sect Shinto",
-		"cities": ["Hinomori", "Takarashima", "Kasai no Kuni", "Yume no Sakura", "Kōgetsu", "Ryuunokuni", "Isanokuni", "Hoshizora", "Kachidoki", "Yamabuki"]
+		"cities": ["Hinomori", "Takarashima", "Kasai no Kuni", "Yume no Sakura", "Kougetsu", "Ryuunokuni", "Isanokuni", "Hoshizora", "Kachidoki", "Yamabuki"]
 	},
 	{
 		"name": "Myouren Faction",
@@ -401,7 +399,7 @@
 		"innerColor": [115,66,65],
 		"uniqueName": "Constant War",
 		"uniques": ["Starts with [Fermented Alcohol]", "Rebel units may spawn <when below [5] Happiness>", "[All] units gain the [Youkai] promotion", "[All] units gain the [Oni] promotion", "Great General provides double combat bonus", "[Great General] is earned [+50]% faster", "Earn [30]% of killed [Military] unit's [Strength] as [Culture] <during the [Youkai Expansion Project]>","Provides [1] [Drunkenly Whimsical Ibuki Gourd Card]"],
-		"cities": ["Bushidōkoku", "Kenkoku", "Kenseikuni", "Tatsumaki no Kuni", "Kōyōdō", "Heishi no Tani", "Katanaishi", "Yoroi no Sato", "Kachūsha", "Shinkenshi"]
+		"cities": ["Bushidoukoku", "Kenkoku", "Kenseikuni", "Tatsumaki no Kuni", "Kouyoudou", "Heishi no Tani", "Katanaishi", "Yoroi no Sato", "Kachuusha", "Shinkenshi"]
 	},
 	{
 		"name": "Ordinary Magicians",
@@ -528,7 +526,7 @@
 		"uniques": ["Comment [Spirit units can cross impassable tiles, Ignore terrain cost, and Ignore Zone of Control; but have -33% Strength penalty when attacking]",
 		"Comment [------------------]",
 		"[All] units gain the [Youkai] promotion", "[Land] units gain the [Spirit] promotion","Provides [1] [Danmaku Ghost Card]"],
-		"cities": ["Hakugyokurou", "Banshōkyō", "Kaidan City", "Yūrei Kōen", "Onryōmura", "Bakemono no Toshi", "Kokoro no Yami", "Reikonokuni", "Obakezaka", "Ayashiki Machi"]
+		"cities": ["Hakugyokurou", "Banshoukyou", "Kaidan City", "Yuurei Kouen", "Onryoumura", "Bakemono no Toshi", "Kokoro no Yami", "Reikonokuni", "Obakezaka", "Ayashiki Machi"]
 	},
 	{
 		"name": "The Unified Doll Front",
