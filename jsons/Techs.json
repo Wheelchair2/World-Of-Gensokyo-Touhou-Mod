@@ -294,7 +294,7 @@
 				"name": "Metal Farming Tools",
 				"row": 5,
 				"prerequisites": ["Hot Spring","Metal Casting"],
-				"uniques": ["[+30]% construction time for [Farm] improvements"],
+				"uniques": ["[-30]% construction time for [Farm] improvements"],
 				"quote": "Blessings of the countryside, gifts from the earth."
 			},
 			{
