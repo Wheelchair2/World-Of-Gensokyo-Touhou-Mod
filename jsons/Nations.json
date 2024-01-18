@@ -132,7 +132,7 @@
 		"startIntroPart2": ".",
 		"attacked": ".",
 		"defeated": ".",
-		"introduction": ".It's spring!",
+		"introduction": "It's spring!",
 		"neutralHello": "Is it spring yet?",
 		"hateHello": "."
 		"tradeRequest": ".",
@@ -142,7 +142,8 @@
 		"uniques": ["Comment [Fairy units heals every turn even while performing an action, but receive -1 Sight penalty]",
 		"Comment [------------------]",
 		"[All] units gain the [Fairy] promotion",
-		"[Land] units gain the [Winged] promotion"
+		"[Land] units gain the [Winged] promotion",
+		"[+1] Sight <for [Fairy] units>"
 		],
 		"cities": ["Haru-machi", "Hana-toshi", "Sakura-shi", "Shinryoku-machi", "Hidamari-shi", "Ume-to", "Asagiri-shi", "Kusabana-machi", "Sakuradai-shi", "Ondan-shi"],
 		"style": "fairy"
@@ -503,7 +504,7 @@
 		"uniqueName": "Manipulation Of Boundaries",
 		"uniques": ["Comment [Yukari, the Youkai of Boundaries, can open gaps that rips through dimensions, which can act as portals for her subjects. Land Units can teleport (paradrop) up to 4 tiles when inside friendly territory, if the unit hasn't done any other actions yet; however, Military Land units are more expensive to produce]",
 		"Comment [------------------]",
-		"[All] units gain the [Youkai] promotion", "[Land] units gain the [Phantasm] promotion", "[-30]% Production when constructing [{Military} {Land}] units [in all cities]","Provides [1] [Screen Border Card]"],
+		"[All] units gain the [Youkai] promotion", "[Land] units gain the [Phantasm] promotion", "[-25]% Production when constructing [{Military} {Land}] units [in all cities]", "[-25]% Culture cost of natural border growth [in all cities]", "Provides [1] [Screen Border Card]"],
 		"cities": ["Hakumori","Kasenba","Mizukawa","Soraheim","Yumegawa","Kagetsu","Tsukimori","Kiriwara","Hanamachi","Enishi"]
 	},
 	{
@@ -525,7 +526,7 @@
 		"uniqueName": "Manager Of The Afterlife Realm",
 		"uniques": ["Comment [Spirit units can cross impassable tiles, Ignore terrain cost, and Ignore Zone of Control; but have -33% Strength penalty when attacking]",
 		"Comment [------------------]",
-		"[All] units gain the [Youkai] promotion", "[Land] units gain the [Spirit] promotion","Provides [1] [Danmaku Ghost Card]"],
+		"[All] units gain the [Youkai] promotion", "[Land] units gain the [Spirit] promotion","Provides [1] [Danmaku Ghost Card]"],  
 		"cities": ["Hakugyokurou", "Banshoukyou", "Kaidan City", "Yuurei Kouen", "Onryoumura", "Bakemono no Toshi", "Kokoro no Yami", "Reikonokuni", "Obakezaka", "Ayashiki Machi"]
 	},
 	{
