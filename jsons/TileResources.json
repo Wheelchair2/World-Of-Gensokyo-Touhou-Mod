@@ -1,613 +1,352 @@
-[	
-	// Bonus resources
+[
+
 	{
-		"name": "Cattle",
-		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Grassland"],
+		"name": "Farm",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Flood plains"],
 		"food": 1,
-		"improvement": "Pasture",
-		"improvementStats": {"production": 1},
-		"uniques": ["Generated on every [18] tiles <in [Featureless] [Grassland] tiles>",
-					"Generated on every [22] tiles <in [Featureless] [Grassland] tiles> <in [Hill] Regions>"]
+		"turnsToBuild": 7,
+		"techRequired": "Agriculture",
+		"uniques": ["Can also be built on tiles adjacent to fresh water",
+			"[+1 Food] from [Fresh water] tiles <after discovering [State Government]>",
+			"[+1 Food] from [non-fresh water] tiles <after discovering [Fertilizer]>",
+            "Pillaging this improvement yields approximately [+18 Gold]"],
+		"shortcutKey": "F"
 	},
 	{
-		"name": "Sheep",
-		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Hill"],
-		"food": 1,
-		"improvement": "Pasture",
-		"improvementStats": {"food": 1},
-		"uniques": ["Generated on every [13] tiles <in [Hill] tiles> <in tiles without [Forest]> <in tiles without [Jungle]>",
-					"Generated on every [10] tiles <in [Hill] tiles> <in tiles without [Forest]> <in tiles without [Jungle]> <in tiles without [Fresh Water]> <in [Hill] Regions>"]
-	},
-	{
-		"name": "Deer",
-		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Forest","Tundra"], // Tundra only if lowland
-		"food": 1,
-		"improvement": "Camp",
-		"improvementStats": {"production": 1},
-		"uniques": ["Generated on every [8] tiles <in [Tundra] [Forest] tiles>",
-					"Generated on every [12] tiles <in [Featureless] [Tundra] tiles>",
-					"Generated on every [25] tiles <in [Plains] [Forest] tiles> <in tiles without [Hill]>",
-					"Generated on every [25] tiles <in [Grassland] [Forest] tiles> <in tiles without [Hill]>",
-					"Generated on every [16] tiles <in [Featureless] [Tundra] tiles> <in [Hill] Regions>",
-					"Generated on every [28] tiles <in [Forest] tiles> <in [Hill] Regions>"]
-	},
-	{
-		"name": "Bananas",
-		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Jungle"],
-		"food": 1,
-		"improvement": "Plantation",
-		"improvementStats": {"food": 2,"production": -1,"gold": -1},
-		"uniques": ["Generated on every [14] tiles <in [Jungle] tiles>",
-					"Generated on every [16] tiles <in [Jungle] tiles> <in [Hill] Regions>"]
-	},
-	{
-		"name": "Wheat",
-		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Plains","Flood plains","Desert"], // Desert only if fresh water
-		"food": 1,
-		"improvement": "Farm",
-		"uniques": ["Generated on every [27] tiles <in [Featureless] [Plains] tiles>",
-					"Generated on every [10] tiles <in [Desert] [Fresh Water] tiles> <in tiles without [Hill]>",
-					"Generated on every [20] tiles <in [Featureless] [Plains] tiles> <in [Hill] Regions>",
-					"Generated on every [20] tiles <in [Fresh Water] [Desert] tiles> <in tiles without [Hill]> <in [Hill] Regions>"]
-	},
-	{
-		"name": "Stone",
-		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Grassland","Desert","Tundra"],
+		"name": "Lumber mill",
+		"terrainsCanBeBuiltOn": ["Forest"],
 		"production": 1,
-		"improvement": "Quarry",
-		"improvementStats": {"production": 1},
-		"uniques": ["Generated on every [20] tiles <in [Featureless] [Grassland] tiles> <in tiles without [Fresh Water]>",
-					"Generated on every [15] tiles <in [Featureless] [Tundra] tiles>",
-					"Generated on every [19] tiles <in [Featureless] [Desert] tiles>"]
+		"turnsToBuild": 7,
+		"techRequired": "Authority",
+		"uniques": ["[+1 Production] <after discovering [Carpentry]>", "Pillaging this improvement yields approximately [+10 Gold]"],
+		"shortcutKey": "L"
 	},
 	{
-		"name": "Fish",
-		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Coast"],
-		"food": 1,
-		"improvement": "Fishing Boats",
-		"uniques": ["Generated on every [10] tiles <in [Featureless] [Coast] tiles>"]
+		"name": "Mine",
+		"terrainsCanBeBuiltOn": ["Hill"],
+		"production": 1,
+		"turnsToBuild": 7,
+		"techRequired": "Education",
+		"uniques": ["[+1 Production] <after discovering [Chemistry]>", "Pillaging this improvement yields approximately [+20 Gold]"],
+		"shortcutKey": "M"
 	},
-	/*
 	{
-		"name": "Bison",
-		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Plains","Grassland"],
-		"food": 1,
-		"improvement": "Camp",
-		"improvementStats": {"production": 1}
+		"name": "Trading post",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Forest","Jungle","Flood plains"],
+		"gold": 1,
+		"turnsToBuild": 7,
+		"techRequired": "Improved Trade",
+		"uniques": ["[+1 Gold] <after discovering [Economics]>", "Pillaging this improvement yields approximately [+20 Gold]"],
+		"shortcutKey": "T"
 	},
-	*/
+
+	// Resource-specific
+	{
+		"name": "Camp",
+		"turnsToBuild": 7,
+		"techRequired": "Agriculture",
+		"uniques": ["Does not need removal of [Forest]","Does not need removal of [Jungle]","[+1 Gold] <after discovering [Economics]>", "Can only be built to improve a resource", "Pillaging this improvement yields approximately [+10 Gold]"],
+		"shortcutKey": "C"
+	},
+	{ //Thinking of what to do with these yet, but I'll call them "Off"
+		"name": "Oil well",
+        "uniqueTo": "Lunarian Task Force",
+		"turnsToBuild": 9,
+		//"techRequired": "Biology",
+		"uniques": ["Can only be built to improve a resource", "Cannot be built on [Water] tiles", "Pillaging this improvement yields approximately [+20 Gold]"],
+		"shortcutKey": "W"
+	},
+	{ //off
+		"name": "Offshore Platform",
+        "uniqueTo": "Lunarian Task Force",
+		//"techRequired": "Refrigeration",
+		"uniques": ["Can only be built to improve a resource", "Can only be built on [Water] tiles", "Pillaging this improvement yields approximately [+20 Gold]"],
+		"shortcutKey": "P"
+	},
+	{
+		"name": "Pasture",
+		"turnsToBuild": 8,
+		"techRequired": "Agriculture",
+		"uniques": ["[+1 Food] <after discovering [Fertilizer]>", "Can only be built to improve a resource", "Pillaging this improvement yields approximately [+10 Gold]"],
+		"shortcutKey": "P"
+	},
+	{
+		"name": "Plantation",
+		"turnsToBuild": 6,
+		"gold": 1,
+		"techRequired": "Calendar",
+		"uniques": ["[+1 Food] <after discovering [Fertilizer]>", "Can only be built to improve a resource", "Pillaging this improvement yields approximately [+10 Gold]"],
+		"shortcutKey": "P"
+	},
+	{
+		"name": "Quarry",
+		"turnsToBuild": 8,
+		"techRequired": "Education",
+		"uniques": ["[+1 Production] <after discovering [Chemistry]>", "Can only be built to improve a resource", "Pillaging this improvement yields approximately [+20 Gold]"],
+		"shortcutKey": "Q"
+	},
+	{
+		"name": "Fishing Boats",
+		"terrainsCanBeBuiltOn": ["Coast"],
+		"food": 1,
+		"techRequired": "Sailing",
+		"uniques": ["[+1 Gold] <after discovering [Compass]>", "Can only be built to improve a resource", "Pillaging this improvement yields approximately [+10 Gold]"],
+		"shortcutKey": "F"
+	},
+
+	// Military improvement
+	{
+		"name": "Fort",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Snow","Forest","Jungle"],
+		"turnsToBuild": 6,
+		"techRequired": "Politics",
+		"uniques": ["Can be built outside your borders", "Gives a defensive bonus of [50]%"],
+		"shortcutKey": "O"
+	},
+    {
+		"name": "Barricades",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Snow","Forest","Jungle"],
+		"turnsToBuild": 3,
+		"techRequired": "Authority",
+		"uniques": ["Can be built outside your borders", "Gives a defensive bonus of [25]%", "Comment [+25% Strength when defending from Mounted units]"],
+		"shortcutKey": "B"
+	},
+
+	// Transportation
+	{
+		"name": "Road",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"turnsToBuild": 4,
+		"techRequired": "Negotiations",
+		"uniques": ["Can be built outside your borders", "Costs [1] [Gold] per turn"],
+		"shortcutKey": "R",
+        "civilopediaText": [
+            {"text":"Reduces movement cost to ½ if the other tile also has a Road or Railroad"},
+            {"text":"Reduces movement cost to ⅓ with Machinery", "link":"Technology/Machinery"},
+            {"text":"Requires Engineering to bridge rivers", "link":"Technology/Engineering"}
+        ]
+	},
+	{ //off
+		"name": "Railroad",
+        "uniqueTo": "Lunarian Task Force",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"turnsToBuild": 4,
+		//"techRequired": "Railroads",
+		"uniques": ["Cannot be built on [All] tiles", "Can be built outside your borders", "Costs [2] [Gold] per turn"],
+		"shortcutKey": "R",
+        "civilopediaText": [{"text":"Reduces movement cost to ⅒ if the other tile also has a Railroad"}]
+	},
+
+	// Removals
+	// Any improvement that starts with 'Remove ' is automatically changed into
+	// the improvement that removes the terrainfeature after it.
+	{
+		"name": "Remove Forest",
+		"turnsToBuild": 4,
+		"techRequired": "Scientific Knowledge",
+		"uniques": ["Excluded from map editor <hidden from users>","Can be built outside your borders"],
+		"shortcutKey": "X",
+        "civilopediaText": [{"text":"Provides a one-time Production bonus depending on distance to the closest city once finished"}]
+	},
+	{
+		"name": "Remove Jungle",
+		"turnsToBuild": 7,
+		"techRequired": "Scientific Knowledge",
+		"uniques": ["Excluded from map editor <hidden from users>","Can be built outside your borders"],
+		"shortcutKey": "X"
+	},
+	{
+		"name": "Remove Fallout",
+		"turnsToBuild": 2,
+		// Has no tech requirements as it can always be built
+		"uniques": ["Excluded from map editor <hidden from users>","Can be built outside your borders"],
+		"shortcutKey": "X"
+	},
+	{
+		"name": "Remove Marsh",
+		"turnsToBuild": 6,
+		"techRequired": "Scientific Knowledge",
+		"uniques": ["Excluded from map editor <hidden from users>","Can be built outside your borders"],
+		"shortcutKey": "X"
+	},
+
+	// These are unique and have unique in-game checks related to them
+	{
+		"name": "Remove Road",
+		"turnsToBuild": 2,
+		"uniques": ["Excluded from map editor <hidden from users>","Can be built outside your borders"]
+	},
+	{
+		"name": "Remove Railroad",
+		"turnsToBuild": 2,
+		"uniques": ["Excluded from map editor <hidden from users>","Can be built outside your borders"]
+	},
+	{
+		"name": "Cancel improvement order",
+		"uniques": ["Excluded from map editor <hidden from users>","Can be built outside your borders"],
+		"shortcutKey": "."
+	},
+    // Purely for turnsToBuild and civilopediaText. Unbuildable so it doesn't show in ImprovementPicker
+    {
+        "name": "Repair",
+        "terrainsCanBeBuiltOn": ["Land"],
+        "turnsToBuild": 2,
+        "shortcutKey": "E",
+        "uniques": ["Excluded from map editor <hidden from users>","Unbuildable"],
+        "civilopediaText": [{"text":"Repairs a pillaged Improvement or Route"}]
+    },
 	
-	// Strategic resources
+	 // Natural Wonders Improvements
+
 	{
-		"name": "Horses",
-		"resourceType": "Strategic",
-		//"revealedBy": "Authority",
-		"terrainsCanBeFoundOn": ["Plains","Grassland","Hill"], // Hill only if plains or grassland
-		"production": 1,
-		"improvement": "Pasture",
-		"improvementStats": {"production": 1},
-		"uniques": ["Guaranteed with Strategic Balance resource option",
-					"Generated with weight [100] <in [Featureless] [Grassland] tiles>",
-					"Generated with weight [100] <in [Featureless] [Plains] tiles>",
-					"Minor deposits generated with weight [10] <in [Grassland] [Hill] tiles> <in tiles without [Forest]> <in tiles without [Jungle]>",
-					"Minor deposits generated with weight [10] <in [Plains] [Hill] tiles> <in tiles without [Forest]> <in tiles without [Jungle]>",
-					"Minor deposits generated with weight [100] <in [Featureless] [Grassland] tiles> <in [Fresh Water] tiles>",
-					"Minor deposits generated with weight [20] <in [Featureless] [Grassland] tiles> <in tiles without [Fresh Water]>",
-					"Minor deposits generated with weight [30] <in [Featureless] [Plains] tiles>"],
-		"majorDepositAmount": {"sparse": 4, "default": 4, "abundant": 6},
-		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3}
+		"name": "Bamboo Garden", // IDK why these two Improvements can't place with Map Editor. //Maybe because they require the Wonder Slot resource??
+		"terrainsCanBeBuiltOn": ["Bamboo Forest"],
+		"turnsToBuild": 6,
+		"happiness": 2
+        "culture": 4,
+		"uniques": ["Excluded from map editor <hidden from users>","Consumes [1] [Wonder Slot]", "[+5 Gold] <during a Golden Age>"],
 	},
 	{
-		"name": "Iron",
-		"resourceType": "Strategic",
-		"revealedBy": "Iron Working",
-		"terrainsCanBeFoundOn": ["Grassland","Plains","Desert","Tundra","Snow","Hill","Marsh"],
-		"production": 1,
-		"improvement": "Mine",
-		"uniques": ["Guaranteed with Strategic Balance resource option",
-					"Generated with weight [45] <in [Featureless] [Tundra] tiles>",
-					"Generated with weight [25] <in [Featureless] [Snow] tiles>",
-					"Generated with weight [35] <in [Featureless] [Desert] tiles>",
-					"Generated with weight [26] <in [Hill] tiles>",
-					"Minor deposits generated with weight [10] <in [Marsh] tiles> <in tiles without [Hill]>",
-					"Minor deposits generated with weight [10] <in [Jungle] [Hill] tiles>",
-					"Minor deposits generated with weight [20] <in [Forest] tiles>",
-					"Minor deposits generated with weight [20] <in [Hill] tiles> <in tiles without [Forest]> <in tiles without [Jungle]>",
-					"Minor deposits generated with weight [30] <in [Featureless] [Grassland] tiles> <in tiles without [Fresh Water]>",
-					"Minor deposits generated with weight [20] <in [Featureless] [Plains] tiles>",
-					"Minor deposits generated with weight [10] <in [Featureless] [Desert] tiles>",
-					"Minor deposits generated with weight [10] <in [Featureless] [Tundra] tiles>",
-					"Minor deposits generated with weight [10] <in [Featureless] [Snow] tiles>"],
-		"majorDepositAmount": {"sparse": 4, "default": 6, "abundant": 9},
-		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3}
+		"name": "Ninja's House",
+		"terrainsCanBeBuiltOn": ["Bamboo Forest"],
+		"turnsToBuild": 6,
+		"production": 3,
+		"uniques": ["Excluded from map editor <hidden from users>","Consumes [1] [Wonder Slot]","Gives a defensive bonus of [175]%"],
 	},
 	{
-		"name": "Coal",
-		"resourceType": "Strategic",
-		"revealedBy": "Modern Knowledge",
-		"terrainsCanBeFoundOn": ["Grassland","Plains","Hill","Jungle","Forest","Marsh"],
-		"production": 1,
-		"improvement": "Mine",
-		"improvementStats": {"production": 1},
-		"uniques": ["Generated with weight [35] <in [Hill] tiles>",
-					"Generated with weight [30] <in [Jungle] tiles> <in tiles without [Hill]>",
-					"Generated with weight [30] <in [Forest] tiles> <in tiles without [Hill]>",
-					"Minor deposits generated with weight [10] <in [Marsh] tiles> <in tiles without [Hill]>",
-					"Minor deposits generated with weight [10] <in [Jungle] tiles>",
-					"Minor deposits generated with weight [10] <in [Forest] tiles>",
-					"Minor deposits generated with weight [20] <in [Grassland] [Hill] tiles>",
-					"Minor deposits generated with weight [20] <in [Plains] [Hill] tiles>",
-					"Minor deposits generated with weight [30] <in [Desert] [Hill] tiles>",
-					"Minor deposits generated with weight [30] <in [Tundra] [Hill] tiles>",
-					"Minor deposits generated with weight [30] <in [Snow] [Hill] tiles>"],
-		"majorDepositAmount": {"sparse": 5, "default": 7, "abundant": 10},
-		"minorDepositAmount": {"sparse": 2, "default": 3, "abundant": 3}
+		"name": "Friendship With Wild Beasts",
+		"terrainsCanBeBuiltOn": ["Chikushokai"],
+		"turnsToBuild": 9,
+		"uniques": ["Excluded from map editor <hidden from users>","Comment [Increases the military importance of Chikushokai. In conclusion, diplomacy is nothing more than a meeting of interests.]", "Consumes [1] [Wonder Slot]","[+5 Production, +5 Gold] <when at war>","Gives a defensive bonus of [50]%","Adjacent enemy units ending their turn take [20] damage"],
 	},
 	{
-		"name": "Oil",
-		"resourceType": "Strategic",
-		"revealedBy": "Modern Knowledge",
-		"terrainsCanBeFoundOn": ["Desert","Coast","Tundra","Snow","Marsh","Jungle"],
-		"production": 1,
-		"improvedBy": ["Oil well", "Offshore Platform"],
-		"improvementStats": {"production": 3},
-		"uniques": ["Deposits in [Coast] tiles always provide [4] resources",
-					"Guaranteed with Strategic Balance resource option",
-					"Generated with weight [65] <in [Marsh] tiles> <in tiles without [Hill]>",
-					"Generated with weight [40] <in [Featureless] [Tundra] tiles>",
-					"Generated with weight [60] <in [Featureless] [Snow] tiles>",
-					"Generated with weight [65] <in [Featureless] [Desert] tiles>",
-					"Generated with weight [100] <in [Featureless] [Coast] tiles>",
-					"Minor deposits generated with weight [20] <in [Marsh] tiles> <in tiles without [Hill]>",
-					"Minor deposits generated with weight [10] <in [Jungle] tiles> <in tiles without [Hill]>",
-					"Minor deposits generated with weight [10] <in [Featureless] [Desert] tiles>",
-					"Minor deposits generated with weight [20] <in [Featureless] [Tundra] tiles>",
-					"Minor deposits generated with weight [20] <in [Featureless] [Snow] tiles>"],
-		"majorDepositAmount": {"sparse": 5, "default": 7, "abundant": 9},
-		"minorDepositAmount": {"sparse": 2, "default": 3, "abundant": 3}
+		"name": "Reichoen",
+		"terrainsCanBeBuiltOn": ["Chikushokai"],
+		"turnsToBuild": 9,
+		"uniques": ["Excluded from map editor <hidden from users>","Comment [Human spirits are always gives you a bonus. Human spirits are handy and weakest, so it's useful as a labor.]","Consumes [1] [Wonder Slot]","[+5 Production, +5 Gold] <when not at war>","[+2 Faith] <after founding a Pantheon>","[+3 Faith, -5 Production] <when not at war> <after founding a religion>"], //Terrain stats can't be negative, the "-5 Production" currently won't do any effect
+	},
+
+
+    // Great Person improvements
+	{
+		"name": "Academy",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"science": 8,
+		"uniques": ["Great Improvement", "[+2 Science] <after discovering [Public Education]>", "[+2 Science] <after discovering [Outside World Awareness]>", "Removes removable features when built", "Pillaging this improvement yields approximately [+20 Gold]"]
 	},
 	{
-		"name": "Aluminum",
-		"resourceType": "Strategic",
-		"revealedBy": "Modern Knowledge",
-		"terrainsCanBeFoundOn": ["Desert","Tundra","Hill","Snow","Jungle"],
-		"production": 1,
-		"improvement": "Mine",
-		"improvementStats": {"production": 1},
-		"uniques": ["Generated with weight [15] <in [Featureless] [Tundra] tiles>",
-					"Generated with weight [15] <in [Featureless] [Snow] tiles>",
-					"Generated with weight [39] <in [Hill] tiles>",
-					"Minor deposits generated with weight [20] <in [Jungle] tiles>",
-					"Minor deposits generated with weight [10] <in [Featureless] [Desert] tiles>"],
-		"majorDepositAmount": {"sparse": 5, "default": 8, "abundant": 10},
-		"minorDepositAmount": {"sparse": 2, "default": 3, "abundant": 3}
+		"name": "Landmark",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"culture": 6,
+		"uniques": ["Great Improvement", "Removes removable features when built", "Pillaging this improvement yields approximately [+20 Gold]"]
 	},
 	{
-		"name": "Uranium",
-		"resourceType": "Strategic",
-		"revealedBy": "Modern Knowledge",
-		"terrainsCanBeFoundOn": ["Marsh","Jungle","Forest","Tundra","Snow"],
-		"production": 1,
-		"improvement": "Mine",
-		"improvementStats": {"production": 1},
-		"uniques": ["Generated with weight [35] <in [Marsh] tiles> <in tiles without [Hill]>",
-					"Generated with weight [70] <in [Jungle] tiles> <in tiles without [Hill]>",
-					"Generated with weight [70] <in [Forest] tiles> <in tiles without [Hill]>",
-					"Minor deposits generated with weight [10] <in [Forest] tiles>",
-					"Minor deposits generated with weight [10] <in [Featureless] [Tundra] tiles>",
-					"Minor deposits generated with weight [10] <in [Featureless] [Snow] tiles>"],
-		"majorDepositAmount": {"sparse": 2, "default": 4, "abundant": 4},
-		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3}
+		"name": "Manufactory",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"production": 4,
+		"uniques": ["Great Improvement", "[+1 Production] <after discovering [Chemistry]>", "[+1 Production] <after discovering [Machinery]>", "Removes removable features when built", "Pillaging this improvement yields approximately [+20 Gold]"]
+	},
+	{
+		"name": "Customs house",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"gold": 4,
+		"uniques": ["Great Improvement", "[+1 Gold] <after discovering [Economics]>", "Removes removable features when built", "Pillaging this improvement yields approximately [+20 Gold]"]
+	},
+	{
+		"name": "Holy site",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"faith": 6,
+		"uniques": ["Great Improvement", "Removes removable features when built", "Pillaging this improvement yields approximately [+20 Gold]"]
+	},
+	{
+		"name": "Citadel",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": [
+			"Great Improvement",
+			"Gives a defensive bonus of [100]%",
+			"Adjacent enemy units ending their turn take [30] damage",
+			"Can be built just outside your borders",
+        	"Constructing it will take over the tiles around it and assign them to your closest city",
+			"Removes removable features when built",
+		]
+	},
+
+	//Civilization unique improvements
+	{
+		"name": "Doll Lumber House",
+		"uniqueTo": "The Unified Doll Front",
+		"terrainsCanBeBuiltOn": ["Forest"],
+		"gold": 2,
+		"turnsToBuild": 7,
+        "uniques": ["Pillaging this improvement yields approximately [+18 Gold]"],
+	},
+  {
+    
+    	"name": "Keystone",
+		"uniqueTo": "Bhavaagra",
+		"terrainsCanBeBuiltOn": ["Hill"],
+		"food": 1,
+        "production": 1,
+        "gold": 1,
+		"turnsToBuild": 8,
+        "uniques": ["Pillaging this improvement yields approximately [+25 Gold]"],
+	},
+    /*
+	{
+		"name": "Terrace farm",
+		"terrainsCanBeBuiltOn": ["Hill"],
+		"food": 1,
+		"turnsToBuild": 7,
+        "techRequired": "State Government",
+		"uniques": ["Cannot be built on [Bonus resource] tiles",
+			"[+1 Food] for each adjacent [Mountain]",
+			"[+1 Food] from [Fresh water] tiles <after discovering [Chemistry]>",
+            "[+1 Food] <after discovering [Fertilizer]>",
+            "Pillaging this improvement yields approximately [+18 Gold]"],
+		"shortcutKey": "F"
+	},
+    */
+	
+	{
+		"name": "Relinquished Land Ownership",
+		"uniqueTo": "Rainbow Realm",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"gold": 6,
+		"uniques": [
+			"Great Improvement",
+			"Can be built just outside your borders",
+			"Constructing it will take over the tiles around it and assign them to your closest city",
+			"Pillaging this improvement yields approximately [+70 Gold]"
+		]
 	},
 	
-	// Other resources
+
+	// Unbuildable improvements
 	{
-		"name": "Wonder Slot", // For Natural Wonders Improvement
-		"resourceType": "Strategic",
-		"uniques": ["Cannot be traded"],
-	},
-	// Ability Cards
-	{
-		"name": "Blank Card",
-		"resourceType": "Luxury",
-		"uniques": ["Comment [An Ability Card with nothing written on it...Let's trade this and relinquish ownership of the opponent's card!]","Comment [Resource for trading]","Not shown on world screen","[-3 Happiness] <hidden from users>"]
+		"name": "Ancient ruins",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": ["Unpillagable", "Provides a random bonus when entered", "Unbuildable"]
 	},
 	{
-		"name": "Yin-Yang Orb Card",
-		"resourceType": "Luxury",
-		"uniques": ["Not shown on world screen","[+8]% Strength <for [All] units> <with [Yin-Yang Orb Card]>","[-3 Happiness] <hidden from users>"]
+		"name": "City ruins",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": ["Unpillagable", "Unbuildable", "Will be replaced by automated workers"],
+        "civilopediaText": [{"text":"A bleak reminder of the destruction wreaked by War"}]
 	},
 	{
-		"name": "Mini-Hakkero Card",
-		"resourceType": "Luxury",
-		"uniques": ["Not shown on world screen","[+12]% Strength <for [Siege] units> <with [Mini-Hakkero Card]>","[-3 Happiness] <hidden from users>"]
-	},
-	{
-		"name": "Shanghai Doll Card",
-		"resourceType": "Luxury",
-		"uniques": ["Not shown on world screen","[1] free [Worker] units appear <with [Shanghai Doll Card]>","[Worker] units gain the [Doll Construct] promotion <with [Shanghai Doll Card]>","[-3 Happiness] <hidden from users>"]
-	},
-	{
-		"name": "Backdoor Card",
-		"resourceType": "Luxury",
-		"uniques": ["Not shown on world screen","[+15]% Strength <when defending> <when adjacent to a [{Friendly} {Military}] unit> <for [Military] units> <with [Backdoor Card]>","[-3 Happiness] <hidden from users>"]
-	},
-	{
-		"name": "Offerings To A Sacred Mountain Card",
-		"resourceType": "Luxury",
-		"uniques": ["Not shown on world screen","[+1 Gold] from [Mountain] tiles [in all cities]","[+1] Sight <for [Scout] units> <with [Offerings To A Sacred Mountain Card]>","[-3 Happiness] <hidden from users>"]
-	},
-	{
-		"name": "Sutra Of Dharmatic Power Card",
-		"resourceType": "Luxury",
-		"uniques": ["Not shown on world screen","[+33]% Strength <when attacking> <when below [30] HP> <with [Sutra Of Dharmatic Power Card]>","[-3 Happiness] <hidden from users>"]
-	},
-	{
-		"name": "Danmaku Ghost Card",
-		"resourceType": "Luxury",
-		"uniques": ["Not shown on world screen","Damage is ignored when determining unit Strength <for [All] units> <with [Danmaku Ghost Card]>","[-3 Happiness] <hidden from users>"]
-	},
-	{
-		"name": "Screen Border Card",
-		"resourceType": "Luxury",
-		"uniques": ["Not shown on world screen","[All] units gain the [Card - Screen Border] promotion <with [Screen Border Card]>","[-3 Happiness] <hidden from users>"]
-	},
-	{
-		"name": "Miracle Mallet Card",
-		"resourceType": "Luxury",
-		"uniques": ["Not shown on world screen","Earn [15]% of killed [Military] unit's [Strength] as [Gold] <for [All] units> <with [Miracle Mallet Card]>","[-3 Happiness] <hidden from users>"]
-	},
-	{
-		"name": "Keystone Of Endurance Card",
-		"resourceType": "Luxury",
-		"uniques": ["Not shown on world screen","[+12]% Strength <when defending> <for [Military] units> <with [Keystone Of Endurance Card]>","[-3 Happiness] <hidden from users>"]
-	},
-	{
-		"name": "Esteemed Authority Card",
-		"resourceType": "Luxury",
-		"uniques": ["Not shown on world screen","[+40]% Strength <for [Military] units> <vs [Barbarian] units> <with [Esteemed Authority Card]>","[-3 Happiness] <hidden from users>"]
-	},
-	{
-		"name": "Vampire Fang Card",
-		"resourceType": "Luxury",
-		"uniques": ["Not shown on world screen","[+12]% Strength <for [Melee] units> <with [Vampire Fang Card]>","[-3 Happiness] <hidden from users>"]
-	},
-	{
-		"name": "Great Tengu's Barley Rice Card",
-		"resourceType": "Luxury",
-		"uniques": ["Not shown on world screen","[All] units gain the [Card - Great Tengu's Barley Rice] promotion <with [Great Tengu's Barley Rice Card]>","[-3 Happiness] <hidden from users>"]
-	},
-	{
-		"name": "Ice Fairy Card",
-		"resourceType": "Luxury",
-		"uniques": ["Not shown on world screen", "[+15]% Strength <when defending> <for [Military] units> <in [Snow] tiles>","[+10]% Strength <when defending> <for [Military] units> <in [Tundra] tiles>","[-3 Happiness] <hidden from users>"]
-	},
-	{
-		"name": "Beauty Of Destruction Card",
-		"resourceType": "Luxury",
-		"uniques": ["Not shown on world screen","[Siege] units gain the [Card - Beauty Of Destruction] promotion <with [Beauty Of Destruction Card]>","[+20]% Strength <vs cities> <for [All] units> <with [Beauty Of Destruction Card]>","[-3 Happiness] <hidden from users>"]
-	},
-	{
-		"name": "Drunkenly Whimsical Ibuki Gourd Card",
-		"resourceType": "Luxury",
-		"uniques": ["Not shown on world screen","[-1] Sight <when below [0] Happiness>","[+15]% Strength <while the empire is happy> <for [All] units> <with [Drunkenly Whimsical Ibuki Gourd Card]>","[-3 Happiness] <hidden from users>"]
-	},
-	{
-		"name": "Smelt's Scales Card",
-		"resourceType": "Luxury",
-		"uniques": ["Not shown on world screen","[All] units gain the [Card - Smelt's Scales] promotion <with [Smelt's Scales Card]>","[-3 Happiness] <hidden from users>"]
-	},
-	{
-		"name": "Pebble Hat Card",
-		"resourceType": "Luxury",
-		"uniques": ["Not shown on world screen","[Scout] units gain the [Card - Pebble Hat] promotion <with [Pebble Hat Card]>","[-3 Happiness] <hidden from users>"],
-	},
-	// Luxury resources
-	{
-		"name": "Furs",
-		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Forest","Tundra"],
-		"gold": 2,
-		"improvement": "Camp",
-		"improvementStats": {"gold": 1},
-		"uniques": ["Generated with weight [40] <in [Tundra] Regions>",
-					"Generated with weight [10] <in [Forest] Regions>",
-					"Generated near City States with weight [15]"]
-	},
-	{
-		"name": "Cotton",
-		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Grassland","Flood plains"],
-		"gold": 2,
-		"improvement": "Plantation",
-		"uniques": ["Generated with weight [15] <in [Desert] Regions>",
-					"Generated with weight [30] <in [Grassland] Regions>",
-					"Generated with weight [15] <in [Hybrid] Regions>",
-					"Generated near City States with weight [10]",
-					"Doesn't generate naturally <in [Hill] tiles>"]
-	},
-	{
-		"name": "Dyes",
-		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Jungle","Forest","Marsh"],
-		"gold": 2,
-		"improvement": "Plantation",
-		"uniques": ["Generated with weight [5] <in [Tundra] Regions>",
-					"Generated with weight [5] <in [Jungle] Regions>",
-					"Generated with weight [30] <in [Forest] Regions>",
-					"Generated near City States with weight [10]",
-					"Doesn't generate naturally <in [Hill] tiles>"]
-	},
-	{
-		"name": "Gems",
-		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Jungle","Forest","Hill"],
-		"gold": 3,
-		"improvement": "Mine",
-		"uniques": ["Generated with weight [5] <in [Tundra] Regions>",
-					"Generated with weight [20] <in [Jungle] Regions>",
-					"Generated with weight [15] <in [Hill] Regions>",
-					"Generated with weight [5] <in [Grassland] Regions>",
-					"Generated with weight [5] <in [Hybrid] Regions>",
-					"Generated near City States with weight [10]",
-					"Doesn't generate naturally <in [Forest] tiles> <in tiles without [Hill]>"]
-	},
-	{
-		"name": "Gold Ore", // Not called "Gold" in order to not conflict with siege type units for translations
-		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Desert","Hill","Forest","Jungle"],
-		"gold": 2,
-		"improvement": "Mine",
-		"uniques": ["Generated with weight [25] <in [Desert] Regions>",
-					"Generated with weight [30] <in [Hill] Regions>",
-					"Generated with weight [5] <in [Plains] Regions>",
-					"Generated with weight [5] <in [Hybrid] Regions>",
-					"Generated near City States with weight [10]",
-					"Doesn't generate naturally <in [Forest] tiles> <in tiles without [Hill]>",
-					"Doesn't generate naturally <in [Jungle] tiles> <in tiles without [Hill]>"]
-	},
-	{
-		"name": "Silver",
-		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Hill","Forest","Jungle","Tundra","Grassland"],
-		"gold": 2,
-		"improvement": "Mine",
-		"uniques": ["Generated with weight [25] <in [Tundra] Regions>",
-					"Generated with weight [30] <in [Hill] Regions>",
-					"Generated with weight [20] <in [Grassland] Regions>",
-					"Generated with weight [10] <in [Hybrid] Regions>",
-					"Generated near City States with weight [10]",
-					"Doesn't generate naturally <in [Forest] tiles> <in tiles without [Hill]>",
-					"Doesn't generate naturally <in [Jungle] tiles> <in tiles without [Hill]>",
-					"Doesn't generate naturally <in [Tundra] [Hill] tiles>",
-					"Doesn't generate naturally <in [Grassland] [Fresh Water] tiles>",
-					"Doesn't generate naturally <in [Grassland] [Hill] tiles>"
+		"name": "City center",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": ["Excluded from map editor <hidden from users>","Ensures a minimum tile yield of [+2 Food, +1 Production]",
+            "Unpillagable", "Irremovable", "Unbuildable"],
+        "civilopediaText": [
+			{"text":"Marks the center of a city"},
+			{"text":"Appearance changes with the technological era of the owning civilization"}
 		]
 	},
 	{
-		"name": "Incense",
-		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Plains","Desert","Flood plains"],
-		"gold": 2,
-		"improvement": "Plantation",
-		"uniques": ["Generated with weight [35] <in [Desert] Regions>",
-					"Generated with weight [10] <in [Plains] Regions>",
-					"Generated with weight [5] <in [Hybrid] Regions>",
-					"Generated near City States with weight [15]"]
-	},
-	{
-		"name": "Ivory",
-		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Plains","Grassland"],
-		"gold": 2,
-		"improvement": "Camp",
-		"improvementStats": {"gold": 1},
-		"uniques": ["Generated with weight [35] <in [Plains] Regions>",
-					"Generated with weight [15] <in [Hybrid] Regions>",
-					"Generated near City States with weight [10]",
-					"Doesn't generate naturally <in [Grassland] [Fresh Water] tiles>"]
-	},
-	{
-		"name": "Silk",
-		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Forest","Jungle"],
-		"gold": 2,
-		"improvement": "Plantation",
-		"uniques": ["Generated with weight [5] <in [Jungle] Regions>",
-					"Generated with weight [30] <in [Forest] Regions>",
-					"Generated with weight [5] <in [Hybrid] Regions>",
-					"Generated near City States with weight [15]",
-					"Doesn't generate naturally <in [Hill] tiles>"]
-	},
-	{
-		"name": "Spices",
-		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Jungle","Forest","Marsh"],
-		"gold": 2,
-		"improvement": "Plantation",
-		"uniques": ["Generated with weight [30] <in [Jungle] Regions>",
-					"Generated with weight [10] <in [Forest] Regions>",
-					"Generated with weight [5] <in [Plains] Regions>",
-					"Generated with weight [5] <in [Grassland] Regions>",
-					"Generated with weight [5] <in [Hybrid] Regions>",
-					"Generated near City States with weight [15]",
-					"Doesn't generate naturally <in [Hill] tiles>",
-					"Doesn't generate naturally <in [Tundra] [Forest] tiles>"]
-	},
-	{
-		"name": "Wine",
-		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Grassland","Plains"],
-		"gold": 2,
-		"improvement": "Plantation",
-		"uniques": ["Generated with weight [35] <in [Plains] Regions>",
-					"Generated with weight [15] <in [Hybrid] Regions>",
-					"Generated near City States with weight [10]"]
-	},
-	{
-		"name": "Sugar",
-		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Flood plains","Grassland","Marsh"],
-		// Technically sugar can also be placed on lowland jungles which then *turn* into marsh.
-		"gold": 2,
-		"improvement": "Plantation",
-		"uniques": ["Generated with weight [20] <in [Jungle] Regions>",
-					"Generated with weight [15] <in [Desert] Regions>",
-					"Generated with weight [20] <in [Grassland] Regions>",
-					"Generated with weight [5] <in [Hybrid] Regions>",
-					"Generated near City States with weight [10]",
-					"Doesn't generate naturally <in [Grassland] tiles> <in tiles without [Fresh Water]>"]
-	},
-	{
-		"name": "Marble",
-		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Desert","Plains","Hill","Grassland"],
-		"gold": 2,
-		"improvement": "Quarry",
-		"improvementStats": {"production": 1},
-		"uniques": ["[+15]% Production when constructing [All] wonders [in all cities]",
-					"Special placement during map generation",
-					"Doesn't generate naturally <in [Grassland] [Fresh Water] tiles>"]
-	},
-	{
-		"name": "Whales",
-		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Coast"],
-		"food": 1,
-		"gold": 1,
-		"improvement": "Fishing Boats",
-		"uniques": ["Generated with weight [35] <in [Tundra] Regions>",
-					"Generated with weight [10] <in [Forest] Regions>",
-					"Generated with weight [10] <in [Hill] Regions>",
-					"Generated with weight [5] <in [Plains] Regions>",
-					"Generated with weight [10] <in [Grassland] Regions>",
-					"Generated with weight [20] <in [Hybrid] Regions>",
-					"Generated near City States with weight [10]"]
-	},
-	{
-		"name": "Pearls",
-		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Coast"],
-		"gold": 2,
-		"improvement": "Fishing Boats",
-		"uniques": ["Generated with weight [20] <in [Jungle] Regions>",
-					"Generated with weight [10] <in [Forest] Regions>",
-					"Generated with weight [5] <in [Desert] Regions>",
-					"Generated with weight [15] <in [Hill] Regions>",
-					"Generated with weight [5] <in [Plains] Regions>",
-					"Generated with weight [10] <in [Grassland] Regions>",
-					"Generated with weight [20] <in [Hybrid] Regions>",
-					"Generated near City States with weight [15]"]
-	},
-	{
-		"name": "Jewelry",
-		"resourceType": "Luxury",
-		"gold": 2,
-		"uniques": ["Can only be created by Mercantile City-States"]
-	},
-	{
-		"name": "Porcelain",
-		"resourceType": "Luxury",
-		"gold": 2,
-		"uniques": ["Can only be created by Mercantile City-States"]
-	},
-	{
-		"name": "Citrus",
-		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Jungle","Forest","Flood plains"],
-		"food": 1,
-		"gold": 1,
-		"improvement": "Plantation",
-		"uniques": ["Generated with weight [35] <in [Jungle] Regions>",
-					"Generated with weight [5] <in [Forest] Regions>",
-					"Generated with weight [5] <in [Desert] Regions>",
-					"Generated with weight [5] <in [Hybrid] Regions>",
-					"Generated near City States with weight [15]",
-					"Doesn't generate naturally <in [Tundra] tiles>"]
-	},
-	{
-		"name": "Copper",
-		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Hill","Forest","Jungle","Grassland","Tundra"],
-		"gold": 2,
-		"improvement": "Mine",
-		"uniques": ["Generated with weight [15] <in [Tundra] Regions>",
-					"Generated with weight [5] <in [Jungle] Regions>",
-					"Generated with weight [5] <in [Forest] Regions>",
-					"Generated with weight [10] <in [Desert] Regions>",
-					"Generated with weight [30] <in [Hill] Regions>",
-					"Generated with weight [20] <in [Grassland] Regions>",
-					"Generated with weight [20] <in [Hybrid] Regions>",
-					"Generated near City States with weight [10]",
-					"Doesn't generate naturally <in [Grassland] [Fresh Water] tiles>",
-					"Doesn't generate naturally <in [Jungle] tiles> <in tiles without [Hill]>",
-					"Doesn't generate naturally <in [Forest] tiles> <in tiles without [Hill]> <in tiles without [Tundra]>"]
-	},
-	/* 
-	{
-		"name": "Cocoa",
-		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Jungle","Forest"], // Forest only if flat, non-tundra
-		"food": 1,
-		"gold": 1,
-		"improvement": "Plantation"
-	},
-	*/
-	{
-		"name": "Crab",
-		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Coast"],
-		"food": 1,
-		"gold": 1,
-		"improvement": "Fishing Boats",
-		"uniques": ["Generated with weight [30] <in [Tundra] Regions>",
-					"Generated with weight [5] <in [Jungle] Regions>",
-					"Generated with weight [10] <in [Forest] Regions>",
-					"Generated with weight [10] <in [Hill] Regions>",
-					"Generated with weight [5] <in [Plains] Regions>",
-					"Generated with weight [20] <in [Grassland] Regions>",
-					"Generated with weight [20] <in [Hybrid] Regions>",
-					"Generated near City States with weight [15]"]
-	},
-	{
-		"name": "Salt",
-		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Desert","Tundra","Plains","Forest"],
-		"gold": 1,
-		"food": 1,
-		"improvement": "Mine",
-		"improvementStats": {"food": 1},
-		"uniques": ["Generated with weight [15] <in [Tundra] Regions>",
-					"Generated with weight [5] <in [Forest] Regions>",
-					"Generated with weight [15] <in [Desert] Regions>",
-					"Generated with weight [10] <in [Hill] Regions>",
-					"Generated with weight [25] <in [Plains] Regions>",
-					"Generated with weight [15] <in [Hybrid] Regions>",
-					"Generated near City States with weight [10]",
-					"Doesn't generate naturally <in [Forest] [Hill] tiles>"]
-	},
-	{
-		"name": "Truffles",
-		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Forest","Marsh","Jungle"],
-		"gold": 2,
-		"improvement": "Camp",
-		"improvementStats": {"gold": 1},
-		"uniques": ["Generated with weight [5] <in [Jungle] Regions>",
-					"Generated with weight [30] <in [Forest] Regions>",
-					"Generated with weight [5] <in [Plains] Regions>",
-					"Generated with weight [5] <in [Grassland] Regions>",
-					"Generated with weight [10] <in [Hybrid] Regions>",
-					"Generated near City States with weight [15]",
-					"Doesn't generate naturally <in [Forest] [Hill] tiles>",
-					"Doesn't generate naturally <in [Tundra] [Forest] tiles>"]
+		"name": "Barbarian encampment",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": ["Unpillagable", "Unbuildable"],
+        "civilopediaText": [{"text":"Home to uncivilized barbarians, will spawn a hostile unit from time to time"}]
 	}
 ]
