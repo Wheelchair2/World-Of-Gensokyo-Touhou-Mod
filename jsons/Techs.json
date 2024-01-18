@@ -29,10 +29,10 @@
 		"techs": [
 			{
 				"name": "Yama's Permission",
-				"cost": 1250,
+				"cost": 1000,
 				"row": 1,
 				"quote": "And so, the gates to magic and divinity was opened."
-				"uniques": ["Access to Magic and Religion tech tree", "Discover [Research For Magic]", "Discover [Religion]"]
+				"uniques": ["Comment [Access to Magic and Religion tech tree]", "Discover [Research For Magic]", "Discover [Religion]"]
 			},
 			{
 				"name": "Scientific Knowledge",
@@ -109,7 +109,7 @@
 	{
 		"columnNumber": 3,
 		"era": "Youkai Expansion Project",
-		"techCost": 105,
+		"techCost": 90,
 		"buildingCost": 100,
 		"wonderCost": 185,
 		"techs": [
@@ -196,13 +196,13 @@
 	{
 		"columnNumber": 4,
 		"era": "Youkai Expansion Project",
-		"techCost": 275,
+		"techCost": 175,
 		"buildingCost": 125,
 		"wonderCost": 250,
 		"techs": [
 			{
 				"name": "Hot Spring",
-				"cost": 175,
+				"cost": 115,
 				"row": 4,
 				"prerequisites": ["Fermented Alcohol", "Sailing"],
 				"quote": "In Japan, onsen are hot springs and the bathing facilities, something like you would think of pools."
@@ -221,22 +221,22 @@
 			},
 			{
 				"name": "Shield Wall",
-				"cost": 175,
+				"cost": 115,
 				"row": 8,
 				"prerequisites": ["Professional Army"],
 				"quote": "Fujiwara no Mokou is a princess from the Fujiwara Clan.",
-				"uniques": ["[+50]% Strength <vs [Ranged] units> <when defending> <for [Melee] units> <when adjacent to a [Melee] unit>"]
+				"uniques": ["[+30]% Strength <vs [Ranged] units> <when defending> <for [Melee] units> <when adjacent to a [Melee] unit>"]
 			},
 			{
 				"name": "Festivals",
-				"cost": 175,
+				"cost": 115,
 				"row": 9,
 				"prerequisites": ["Negotiations"],
 				"quote": "'I've been watching all of you this whole time. You all responded to my 'foregathering ability' without noticing, and came to these feasts. Do you know what this means? It means none of you can defeat me.' - Suika Ibuki.",
 			},
 			{
 				"name": "Printing",
-				"cost": 175,
+				"cost": 115,
 				"row": 10,
 				"prerequisites": ["Negotiations"],
 				"quote": "'You don't seem related to the incident, so without further ado, allow me to blow you into the next week!' - Aya Shameimaru to Eternity Larva.",
@@ -244,7 +244,7 @@
 			},
 			{
 				"name": "Improved Trade",
-				"cost": 175,
+				"cost": 115,
 				"row": 11,
 				"prerequisites": ["Negotiations", "Currency"],
 				"uniques": ["Enables conversion of city production to [Gold]", "Roads connect tiles across rivers"],
@@ -253,7 +253,7 @@
 			//// 2
 			{
 				"name": "Culture Preservation",
-				"cost": 105,
+				"cost": 85,
 				"row": 16,
 				"prerequisites": ["Religious Doctrine"],
 				"uniques": ["[-15]% Culture cost of adopting new Policies"],
@@ -286,7 +286,7 @@
 	{
 		"columnNumber": 5,
 		"era": "Edo period",
-		"techCost": 440,
+		"techCost": 375,
 		"buildingCost": 160,
 		"wonderCost": 400,
 		"techs": [
@@ -309,7 +309,7 @@
 				"row": 7,
 				"prerequisites": ["Shield Wall", "Festivals", "Gunpowder"],
 				"quote": "Crow Tengu (karasu-tengu), the 'nimble information corps,' are similar to anthropomorphic crows with a humanoid body structure. Since they're responsible for writing and distributing newspapers, they're the only type of tengu that ventures to the foothills.",
-				"uniques": ["Improves movement speed on roads", "[50]% City Strength from defensive buildings", "Enables Defensive Pacts"]
+				"uniques": ["Improves movement speed on roads", "Enables Defensive Pacts"]
 			},
 			{
 				"name": "Mathematics",
@@ -321,7 +321,7 @@
 			////3
 			{
 				"name": "Divine Punishment",
-				"cost": 275,
+				"cost": 175,
 				"row": 17,
 				"prerequisites": ["Culture Preservation","Rituals"],
 				"quote": "'Conviction! Conviction! Conviction!' - Eiki Shiki. Of course, she didn't say that in canon."
@@ -355,7 +355,7 @@
 	{
 		"columnNumber": 6,
 		"era": "Edo period",
-		"techCost": 620,
+		"techCost": 485,
 		"buildingCost": 75,
 		"wonderCost": 185,
 		"techs": [
@@ -389,7 +389,7 @@
 			//// 4
 			{
 				"name": "National Faith",
-				"cost": 480,
+				"cost": 250,
 				"row": 17,
 				"prerequisites": ["Divine Punishment"],
 				"quote": "'Humans haven't changed since my days in the temple. How weak and rash you are!' - Byakuren Hijiri to Reimu Hakurei.",
@@ -397,7 +397,7 @@
 			},
 			{
 				"name": "Philosophy",
-				"cost": 480,
+				"cost": 250,
 				"row": 16,
 				"prerequisites": ["Divine Punishment"],
 				"quote": "'Did you know why rare ingredients taste better? This is because humans taste not with their tounges, but their minds' - Sakuya Izayoi.",
@@ -439,14 +439,14 @@
 				"name": "Multicropping System",
 				"row": 5,
 				"prerequisites": ["Heavy Plough"],
-				"uniques": ["[50]% [Food] from every [Farm]"],
+				"uniques": ["[+50]% [Food] from every [Farm]"],
 				"quote": "Rice cultivation is Japan's heart; food is Japan's life."
 			},
 			{
 				"name": "Shogunate",
 				"row": 7,
 				"prerequisites": ["Politics"],
-				"quote": "The shogunate was the hereditary military dictatorship of Japan (1192?1867). Obviously, it doesn't canocally exist in Gensokyo."
+				"quote": "The shogunate was the hereditary military dictatorship of Japan (1192 A.D - 1867 A.D). Obviously, it doesn't canocally exist in Gensokyo."
 			},
 			{
 				"name": "Law And Order",
@@ -463,7 +463,7 @@
 			//// 5 (last)
 			{
 				"name": "Full Conversion",
-				"cost": 780,
+				"cost": 480,
 				"row": 16,
 				"prerequisites": ["National Faith", "Philosophy"],
 				"quote": "Religion plays a major role in Gensokyo, as Gods literally exist in the Touhou series.",
@@ -798,7 +798,7 @@
 				"row": 9,
 				"prerequisites": ["Medicine","Scientific Theory","Exclusive Electricity"],
 				"quote": "And then, EOSD is born."
-				"uniques": ["Is the perfect beer even possible?", "Can be continually researched"]
+				"uniques": ["Comment [Is the perfect beer even possible?]", "Can be continually researched"]
 			}
 		]
 	}
