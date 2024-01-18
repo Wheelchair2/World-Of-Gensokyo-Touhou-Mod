@@ -3,7 +3,7 @@
 - [hachchch](https://github.com/hachchch) - thanks to him for helping with the mod, he's literally carrying it lol.
 - [rafael-m](https://danbooru.donmai.us/posts?tags=rafael-m&z=1) - artist with the source link of the preview image used, thanks to his beautiful artwork.
 
-**Credits for the illustrations used in Leader Portraits (Links to the Artist's profile or the source artwork):**
+**Credits for the illustrations used in Leader Portraits (Links to the source artwork):**
 - Alice Margatroid: [Kosu](https://www.pixiv.net/en/users/5626224)
 - Flandre Scarlet: [tamagogayu1998](https://danbooru.donmai.us/posts/6730380)
 - Remilia Scarlet: [deal360acv](https://danbooru.donmai.us/posts/6364379?q=remilia_scarlet+order%3Ascore+rating%3Ageneral)
@@ -16,3 +16,5 @@
 - Hakurei Reimu: [hanaya (fleur)](https://www.pixiv.net/artworks/110192552)
 - Cirno: (ahase hino)[https://www.pixiv.net/en/artworks/114368599] 
 - Yakumo Yukari: (ahase hino)[https://twitter.com/hinoiti/status/1560601926680489987]
+
+Thanks to these wonderful artists, and thank you for playing the mod!
