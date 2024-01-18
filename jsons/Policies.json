@@ -171,7 +171,7 @@
                 "name": "Military Tradition",
                 "uniques": [
                     "[+50]% XP gained from combat <for units without [Martial Arts]>",
-                    "(The Martial Arts promotion already gives your unit +50% XP gain)"
+                    "Comment [(The Martial Arts promotion already gives your unit +50% XP gain)]"
                 ],
                 "requires": ["Warrior Code"],
                 "row": 2,
