@@ -16,5 +16,6 @@
 - Hakurei Reimu: [hanaya (fleur)](https://www.pixiv.net/artworks/110192552)
 - Cirno: (ahase hino)[https://www.pixiv.net/en/artworks/114368599] 
 - Yakumo Yukari: (ahase hino)[https://twitter.com/hinoiti/status/1560601926680489987]
+- Hijiri Byakuren: (harakune (mugennero)[https://www.pixiv.net/artworks/114666463] 
 
 Thanks to these wonderful artists, and thank you for playing the mod!
