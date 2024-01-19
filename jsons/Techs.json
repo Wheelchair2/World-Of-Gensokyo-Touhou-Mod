@@ -279,7 +279,7 @@
 				"row": 12,
 				"prerequisites": ["Forbidden Sorcery"],
 				"quote": "Koakuma & Daiyousei's names were created by the community.",
-				"uniques": ["[+50]% Production when constructing [Special Wonder] buildings [in all cities]"]
+				"uniques": ["[+5]% Strength <for [Apparition] units>"]
 			}
 		]
 	},
@@ -424,7 +424,7 @@
 				"row": 13,
 				"prerequisites": ["Dark Magic"],
 				"quote": "I was about to put Satori's quote here, but then I realised that there is a more valuable information for you to hear: Satori is cute.",
-				"uniques": ["Great General provides double combat bonus <during a Golden Age>", "[-40]% Golden Age length"]
+				"uniques": ["[+5]% Strength <vs [Racial] units>"]
 			}
 		]
 	},
@@ -467,7 +467,7 @@
 				"row": 16,
 				"prerequisites": ["National Faith", "Philosophy"],
 				"quote": "Religion plays a major role in Gensokyo, as Gods literally exist in the Touhou series.",
-				"uniques": ["[+50]% Golden Age length <if no other Civilization has researched this>", "[+1 Happiness] [in all cities in which the majority religion is a major religion]"]
+				"uniques": ["[+1 Happiness] [in all cities in which the majority religion is a major religion]"]
 			}
 			/*
 			{
