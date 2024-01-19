@@ -167,11 +167,11 @@
 	},
 	{
 		"name": "Vampire",
-		"uniques": ["Comment [Racial Background]", "Race <hidden from users>", "Racial <hidden from users>", "Heals [15] damage if it kills a unit"]
+		"uniques": ["Racial", "Heals [15] damage if it kills a unit"]
 	},
 	{
 		"name": "Satori Race",
-		"uniques": ["Comment [Racial Background]", "Race <hidden from users>", "Racial <hidden from users>", "[-15]% Strength for enemy [Military] units in adjacent [All] tiles"],
+		"uniques": ["Racial", "[-15]% Strength for enemy [Military] units in adjacent [All] tiles"],
         "column": 27,
         "row": 4
 	},
@@ -197,7 +197,7 @@
 	},
 	{
 		"name": "Beast",
- 		"uniques": ["Comment [Racial Background]", "Race <hidden from users>", "Racial <hidden from users>", "[+5] HP when healing"]
+ 		"uniques": ["Racial", "[+5] HP when healing"]
 	},
 	{
 		"name": "Doll Construct",
@@ -205,15 +205,15 @@
 	},
 	{
 		"name": "Lunarian",
- 		"uniques": ["Comment [Racial Background]", "Race <hidden from users>", "Racial <hidden from users>"]
+ 		"uniques": ["Racial"]
 	},
 	{
 		"name": "Celestial",
- 		"uniques": ["Comment [Racial Background]", "Race <hidden from users>", "Racial <hidden from users>"]
+ 		"uniques": ["Racial"]
 	},
 	{
 		"name": "Dark Youkai",
- 		"uniques": ["Comment [Racial Background]", "Race <hidden from users>", "Racial <hidden from users>", "Invisible to non-adjacent units"]
+ 		"uniques": ["Racial", "Invisible to non-adjacent units"]
 	},
 	{
 		"name": "Bird Net",
@@ -229,15 +229,15 @@
 	},
 	{
 		"name": "Human Race",
- 		"uniques": ["Human", "Comment [Racial Background]", "Race <hidden from users>", "Racial <hidden from users>", "[-50]% Strength", "[-15]% Strength <when adjacent to a [Oni] unit>", "Comment [Humans have an immunity from the youkais during the Youkai Expansion Project, which will neutralize their -50% Strength debuff with a temporary +50% Strength bonus]"]
+ 		"uniques": ["Human", "Racial", "[-50]% Strength", "[-15]% Strength <when adjacent to a [Oni] unit>", "Comment [Humans have an immunity from the youkais during the Youkai Expansion Project, which will neutralize their -50% Strength debuff with a temporary +50% Strength bonus]"]
 	},
 	{
 		"name": "Youkai",
- 		"uniques": ["Comment [Racial Background]", "Race <hidden from users>", "Racial <hidden from users>"]
+ 		"uniques": ["Racial"]
 	},
 	{
 		"name": "Oni",
- 		"uniques": ["Comment [Racial Background]", "Race <hidden from users>", "Racial <hidden from users>", "[+20]% Strength"]
+ 		"uniques": ["Racial", "[+20]% Strength"]
 	},
 	{
 		"name": "Phantasm"
@@ -249,15 +249,15 @@
 	},
 	{
 		"name": "Kappa",
- 		"uniques": ["Comment [Racial Background]", "Race <hidden from users>", "Racial <hidden from users>"]
+ 		"uniques": ["Racial"]
 	},
 	{
 		"name": "Mermaid",
- 		"uniques": ["Comment [Racial Background]", "Race <hidden from users>", "Racial <hidden from users>", "[-1] Movement", "[+1] Movement <in [Fresh water] tiles>", "[+1] Movement <within [1] tiles of a [Coast]>", "[+1] Movement <in [Water] tiles>", "Eliminates combat penalty for attacking over a river", "Eliminates combat penalty for attacking across a coast", "May travel on Water tiles without embarking"]
+ 		"uniques": ["Racial", "[-1] Movement", "[+1] Movement <in [Fresh water] tiles>", "[+1] Movement <within [1] tiles of a [Coast]>", "[+1] Movement <in [Water] tiles>", "Eliminates combat penalty for attacking over a river", "Eliminates combat penalty for attacking across a coast", "May travel on Water tiles without embarking"]
 	},
 	{
 		"name": "Kitsune",
- 		"uniques": ["Comment [Racial Background]", "Race <hidden from users>", "Racial <hidden from users>", "Ignores terrain cost", "[+1] Movement"]
+ 		"uniques": ["Racial", "Ignores terrain cost", "[+1] Movement"]
 	},
     
     
