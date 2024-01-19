@@ -123,6 +123,33 @@
 		"uniques": ["[All] units gain the [Lunarian] promotion", "[+15]% Production when constructing [All] buildings [in all cities]", "[-50]% maintenance costs", "[-20]% construction time for [All] improvements"], 
 		"cities": ["Mugenkyo", "Eien no Machi", "Shintenkoku", "Kuon no Toshi", "Toki no Sato", "Kaseki no Machi", "Mugenkai", "Tokoyo City", "Fushi no Kuni", "Kujikujo"]
 	},
+	/*
+	{
+		"name": "Fairies Of Light",
+		"leaderName": "The Three Fairies",
+		"adjective": ["Light Fairy"],
+		"preferredVictoryType": "Domination",
+		"startIntroPart1": ".",
+		"startIntroPart2": ".",
+		"attacked": "How rude!",
+		"defeated": "Unbelievable...",
+		"introduction": "Welcome, friend.",
+		"neutralHello": "Hello",
+		"hateHello": "Hmph!",
+		"tradeRequest": "It would be great if you agree to this...",
+		"outerColor": [142,139,96],
+		"innerColor": [255,255,255],
+		"uniqueName": "Sunny, Luna, Star!",
+		"uniques": ["Comment [Fairy units heals every turn even while performing an action, but receive -1 Sight penalty]",
+		"Comment [------------------]",
+		"[All] units gain the [Fairy] promotion",
+		"[Land] units gain the [Winged] promotion",
+		"[+2] Sight <for [Fairy] units>"
+		],
+		"cities": ["Taiyouhikari", "Tsukinokage", "Hoshizora-mura", "Asahi-machi", "Yozora-to", "Hinodehills", "Getsugetsu-tou", "Stellarnami", "Hoshikagayaku", "Risingusuki"]
+		"style": "fairy"
+	},
+	*/
 	{
 		"name": "Fairies Of Spring",
 		"leaderName": "Lily White",
@@ -168,7 +195,7 @@
 		"uniques": ["Comment [Fairy units heals every turn even while performing an action, but receive -1 Sight penalty]",
 		"Comment [------------------]",
 		"[All] units gain the [Fairy] promotion", "[Land] units gain the [Winged] promotion",
-		"[+5 Food, +5 Production] from every [Ice]",
+		"[+15]% Strength <for [Fairy] units>",
 		"Provides [1] [Icicle Fall Card]"
 		]
 		"cities": ["Cirnopolis", "Bakai", "Perfect Town", "Daiyouville", "Ninth City", "Bakaville", "Kitchen", "New Cirnopolis", "Calculator City"],
