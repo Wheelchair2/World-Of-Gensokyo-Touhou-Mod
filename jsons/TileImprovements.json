@@ -202,16 +202,16 @@
 		"name": "Bamboo Garden", // IDK why these two Improvements can't place with Map Editor. //Maybe because they require the Wonder Slot resource??
 		"terrainsCanBeBuiltOn": ["Bamboo Forest"],
 		"turnsToBuild": 6,
-		"happiness": 2
+		"happiness": 3
         "culture": 4,
-		"uniques": ["Excluded from map editor <hidden from users>","Consumes [1] [Wonder Slot]", "[+5 Gold] <during a Golden Age>"],
+		"uniques": ["Consumes [1] [Wonder Slot]", "[+5 Gold] <during a Golden Age>"],
 	},
 	{
 		"name": "Ninja's House",
 		"terrainsCanBeBuiltOn": ["Bamboo Forest"],
 		"turnsToBuild": 6,
 		"production": 3,
-		"uniques": ["Excluded from map editor <hidden from users>","Consumes [1] [Wonder Slot]","Gives a defensive bonus of [175]%"],
+		"uniques": ["Consumes [1] [Wonder Slot]","Gives a defensive bonus of [175]%"],
 	},
 	{
 		"name": "Friendship With Wild Beasts",
@@ -223,9 +223,17 @@
 		"name": "Reichoen",
 		"terrainsCanBeBuiltOn": ["Chikushokai"],
 		"turnsToBuild": 9,
-		"uniques": ["Excluded from map editor <hidden from users>","Comment [Human spirits are always gives you a bonus. Human spirits are handy and weakest, so it's useful as a labor.]","Consumes [1] [Wonder Slot]","[+5 Production, +5 Gold] <when not at war>","[+2 Faith] <after founding a Pantheon>","[+3 Faith, -5 Production] <when not at war> <after founding a religion>"], //Terrain stats can't be negative, the "-5 Production" currently won't do any effect
+		"uniques": ["Excluded from map editor <hidden from users>","Comment [Human spirits are always gives you a bonus. Human spirits are handy and weakest, so it's useful as a labor.]","Consumes [1] [Wonder Slot]","[+5 Production, +5 Gold] <when not at war>","[+2 Faith] <after founding a Pantheon>","[+3 Faith] <when not at war> <after founding a religion>"], //Terrain stats can't be negative, the "-5 Production" currently won't do any effect
 	},
-
+	/*
+	{
+		"name": "Medicine's Home",
+		"terrainsCanBeBuiltOn": ["Nameless Hill"],
+		"turnsToBuild": 6,
+		"food": 3,
+		"uniques": ["Free [Poison Doll] appears", "Consumes [1] [Wonder Slot]"],
+	},
+	*/
 
     // Great Person improvements
 	{
