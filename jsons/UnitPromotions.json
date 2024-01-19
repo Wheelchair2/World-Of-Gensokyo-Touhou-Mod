@@ -63,8 +63,8 @@
 			"This Unit gains the [Formation II] promotion <upon defeating a [Formation II] unit> <for [{Land} {Melee}] units>",
 			"This Unit gains the [Medic] promotion <upon defeating a [Medic] unit> <for [{Land} {Melee}] units>",
 			"This Unit gains the [Medic II] promotion <upon defeating a [Medic II] unit> <for [{Land} {Melee}] units>",
-			"This Unit gains the [Anti-Armor I] promotion <upon defeating a [Anti-Armor I] unit> <for [{Land} {Ranged}] units>",
-			"This Unit gains the [Anti-Armor II] promotion <upon defeating a [Anti-Armor II] unit> <for [{Land} {Ranged}] units>",
+			//"This Unit gains the [Anti-Armor I] promotion <upon defeating a [Anti-Armor I] unit> <for [{Land} {Ranged}] units>",
+			//"This Unit gains the [Anti-Armor II] promotion <upon defeating a [Anti-Armor II] unit> <for [{Land} {Ranged}] units>",
 			"This Unit gains the [Armor Plating I] promotion <upon defeating a [Armor Plating I] unit> <for [{Land} {Melee}] units>",
 			"This Unit gains the [Armor Plating II] promotion <upon defeating a [Armor Plating II] unit> <for [{Land} {Melee}] units>",
 			"This Unit gains the [Armor Plating III] promotion <upon defeating a [Armor Plating III] unit> <for [{Land} {Melee}] units>",
@@ -155,61 +155,65 @@
 	// Old Promotions
 	{
 		"name": "Fairy",
-		"uniques": ["Fairy", "Unit will heal every turn, even if it performs an action", "[-1] Sight"]
+		"uniques": ["Apparition", "Unit will heal every turn, even if it performs an action", "[-1] Sight"]
 	},
 	{
 		"name": "Winged",
-		"uniques": ["Winged", "Can move after attacking", "Can pass through impassable tiles", "[-50]% Strength <when defending>"]
+		"uniques": ["Supplement", "Can move after attacking", "Can pass through impassable tiles", "[-50]% Strength <when defending>"]
 	},
 	{
 		"name": "Corpse",
-		"uniques": ["May capture killed [Human] units", "Can only heal by pillaging", "[+25]% Strength <vs [Human] units>"]
+		"uniques": ["Apparition", "May capture killed [Human] units", "Can only heal by pillaging", "[+25]% Strength <vs [Human] units>"]
 	},
 	{
 		"name": "Vampire",
-		"uniques": ["Heals [15] damage if it kills a unit"]
+		"uniques": ["Comment [Racial Background]", "Race <hidden from users>", "Racial <hidden from users>", "Heals [15] damage if it kills a unit"]
 	},
 	{
 		"name": "Satori Race",
-		"uniques": ["[-15]% Strength for enemy [Military] units in adjacent [All] tiles"],
+		"uniques": ["Comment [Racial Background]", "Race <hidden from users>", "Racial <hidden from users>", "[-15]% Strength for enemy [Military] units in adjacent [All] tiles"],
         "column": 27,
         "row": 4
 	},
 	{
 		"name": "Stab Third Eye",
 		"prerequisites": ["Satori Race"],
-		"uniques": ["Only available <for units with [Satori Race]>", "Invisible to non-adjacent units", "[-2] Range <for [Ranged] units>", "[-50]% Strength <when defending>", "[+55]% to Flank Attack bonuses", "[+55]% Strength <vs [Wounded] units>"],
+		"uniques": ["Supplement", "Only available <for units with [Satori Race]>", "Invisible to non-adjacent units", "[-2] Range <for [Ranged] units>", "[-50]% Strength <when defending>", "[+55]% to Flank Attack bonuses", "[+55]% Strength <vs [Wounded] units>"],
 		"unitTypes": ["Sword", "Ranged", "Archery", "Gunpowder", "Mounted", "Armored", "Siege","Archery","Ranged Gunpowder","Scout"],
 		"column": 28,
 		"row": 4
 	},
 	{
 		"name": "Divine Blessing",
- 		"uniques": ["Divine Blessing"]
+ 		"uniques": ["Supplement"]
 	},
 	{
 		"name": "Spirit",
- 		"uniques": ["Ignores terrain cost", "Can pass through impassable tiles", "Ignores Zone of Control", "[-33]% Strength <when attacking>"]
+ 		"uniques": ["Apparition", "Ignores terrain cost", "Can pass through impassable tiles", "Ignores Zone of Control", "[-33]% Strength <when attacking>"]
+	},
+	{
+		"name": "Phantom",
+ 		"uniques": ["Apparition", "Ignores Zone of Control", "[-15]% Strength <when attacking>"]
 	},
 	{
 		"name": "Beast",
- 		"uniques": ["Beast", "[+5] HP when healing"]
+ 		"uniques": ["Comment [Racial Background]", "Race <hidden from users>", "Racial <hidden from users>", "[+5] HP when healing"]
 	},
 	{
 		"name": "Doll Construct",
- 		"uniques": ["[-50]% Strength <when defending> <before discovering [Self-Discovery]>", "[-30]% Strength <when defending> <after discovering [Self-Discovery]>", "[+5] HP when healing <in [Doll Lumber House] tiles>"]
+ 		"uniques": ["Apparition", "[-50]% Strength <when defending> <before discovering [Self-Discovery]>", "[-30]% Strength <when defending> <after discovering [Self-Discovery]>", "[+10] HP when healing <in [Doll Lumber House] tiles>"]
 	},
 	{
 		"name": "Lunarian",
- 		//"uniques": ["Lunarian"]
+ 		"uniques": ["Comment [Racial Background]", "Race <hidden from users>", "Racial <hidden from users>"]
 	},
 	{
 		"name": "Celestial",
- 		//"uniques": ["Celestial"]
+ 		"uniques": ["Comment [Racial Background]", "Race <hidden from users>", "Racial <hidden from users>"]
 	},
 	{
 		"name": "Dark Youkai",
- 		"uniques": ["Invisible to non-adjacent units"]
+ 		"uniques": ["Comment [Racial Background]", "Race <hidden from users>", "Racial <hidden from users>", "Invisible to non-adjacent units"]
 	},
 	{
 		"name": "Bird Net",
@@ -225,19 +229,19 @@
 	},
 	{
 		"name": "Human Race",
- 		"uniques": ["Human", "[-50]% Strength", "[-15]% Strength <when adjacent to a [Oni] unit>", "Comment [Humans have an immunity from the youkais during the Youkai Expansion Project, which will neutralize their -50% Strength debuff with a temporary +50% Strength bonus]"]
+ 		"uniques": ["Human", "Comment [Racial Background]", "Race <hidden from users>", "Racial <hidden from users>", "[-50]% Strength", "[-15]% Strength <when adjacent to a [Oni] unit>", "Comment [Humans have an immunity from the youkais during the Youkai Expansion Project, which will neutralize their -50% Strength debuff with a temporary +50% Strength bonus]"]
 	},
 	{
 		"name": "Youkai",
- 		//"uniques": ["Youkai"]
+ 		"uniques": ["Comment [Racial Background]", "Race <hidden from users>", "Racial <hidden from users>"]
 	},
 	{
 		"name": "Oni",
- 		"uniques": ["[+20]% Strength"]
+ 		"uniques": ["Comment [Racial Background]", "Race <hidden from users>", "Racial <hidden from users>", "[+20]% Strength"]
 	},
 	{
 		"name": "Phantasm"
-		"uniques": ["May Paradrop up to [4] tiles from inside friendly territory <if it hasn't used other actions yet>"],
+		"uniques": ["Supplement", "May Paradrop up to [4] tiles from inside friendly territory <if it hasn't used other actions yet>"],
 	},
 	{
 		"name": "Martial Arts",
@@ -245,15 +249,15 @@
 	},
 	{
 		"name": "Kappa",
- 		//"uniques": ["Kappa"]
+ 		"uniques": ["Comment [Racial Background]", "Race <hidden from users>", "Racial <hidden from users>"]
 	},
 	{
 		"name": "Mermaid",
- 		"uniques": ["[-1] Movement", "[+1] Movement <in [Fresh water] tiles>", "[+1] Movement <within [1] tiles of a [Coast]>", "[+1] Movement <in [Water] tiles>", "Eliminates combat penalty for attacking over a river", "Eliminates combat penalty for attacking across a coast", "May travel on Water tiles without embarking"]
+ 		"uniques": ["Comment [Racial Background]", "Race <hidden from users>", "Racial <hidden from users>", "[-1] Movement", "[+1] Movement <in [Fresh water] tiles>", "[+1] Movement <within [1] tiles of a [Coast]>", "[+1] Movement <in [Water] tiles>", "Eliminates combat penalty for attacking over a river", "Eliminates combat penalty for attacking across a coast", "May travel on Water tiles without embarking"]
 	},
 	{
 		"name": "Kitsune",
- 		"uniques": ["Ignores terrain cost", "[+1] Movement"]
+ 		"uniques": ["Comment [Racial Background]", "Race <hidden from users>", "Racial <hidden from users>", "Ignores terrain cost", "[+1] Movement"]
 	},
     
     
@@ -280,10 +284,14 @@
 	},
 	{
 		"name": "Hunter",
+		"prerequisites": ["Shock III","Drill III"],
+		"unitTypes": ["Sword","Gunpowder","Mounted","Armored", "Melee Sorcery"],
  		"uniques": ["[+20]% Strength <vs [Beast] units>"]
 	},
 	{
 		"name": "Sniper",
+		"prerequisites": ["Accuracy III","Barrage III"],
+		"unitTypes": ["Archery","Ranged Gunpowder", "Ranged Sorcery"],
  		"uniques": ["[+20]% Strength <vs [Winged] units> <when attacking>"]
 	},
     
@@ -291,7 +299,7 @@
 	// Ranged+Siege+Ranged Sorcery
 	{
 		"name": "Accuracy I",
-		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
+        "uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
 		"unitTypes": ["Siege","Archery","Ranged Gunpowder", "Ranged Sorcery"],
         "column": 1,
         "row": 1
@@ -640,6 +648,23 @@
 
 	// Aircraft Carrier
 	{
+        "name": "Armor Plating I",
+        "uniques": ["[+25]% Strength <when defending>"],
+        "unitTypes": ["Aircraft Carrier"]
+    },
+    {
+        "name": "Armor Plating II",
+        "prerequisites": ["Armor Plating I"],
+        "uniques": ["[+25]% Strength <when defending>"],
+        "unitTypes": ["Aircraft Carrier"]
+    },
+    {
+        "name": "Armor Plating III",
+        "prerequisites": ["Armor Plating II"],
+        "uniques": ["[+25]% Strength <when defending>"],
+        "unitTypes": ["Aircraft Carrier"]
+    },
+	{
 		"name": "Flight Deck I",
 		"uniques": ["Can carry [1] extra [Aircraft] units"],
 		"unitTypes": ["Aircraft Carrier"],
@@ -881,43 +906,49 @@
 	},
 
 	{
-		"name": "Armor Plating I",
+		"name": "Refine Armor I",
 		"uniques": ["[+5]% Strength <when defending>", "Comment [If this unit has Armor:]", "[+10]% Strength <for [Armor] units> <when defending>"],
 		"unitTypes": ["Sword","Gunpowder","Fighter","Bomber", "Mounted","Melee Sorcery"],
-        "column": 24,
+        "column": 25,
         "row": 8
 	},
 	{
-		"name": "Armor Plating II",
-		"prerequisites": ["Armor Plating I"],
+		"name": "Refine Armor II",
+		"prerequisites": ["Refine Armor I"],
 		"uniques": ["[+5]% Strength <when defending>", "Comment [If this unit has Armor:]", "[+10]% Strength <for [Armor] units> <when defending>"],
 		"unitTypes": ["Sword","Gunpowder","Fighter","Bomber","Mounted", "Melee Sorcery"],
-        "column": 24,
+        "column": 25,
         "row": 9
 	},
 	{
-		"name": "Armor Plating III",
-		"prerequisites": ["Armor Plating II"],
+		"name": "Refine Armor III",
+		"prerequisites": ["Refine Armor II"],
 		"uniques": ["[+5]% Strength <when defending>", "Comment [If this unit has Armor:]", "[+10]% Strength <for [Armor] units> <when defending>"],
 		"unitTypes": ["Sword","Gunpowder","Fighter","Bomber", "Mounted", "Melee Sorcery"],
-        "column": 24,
+        "column": 25,
         "row": 10
 	},
 	{
-		"name": "Ambush I",
-		"uniques": ["[+50]% Strength <vs [Ranged] units> <when attacking>"],
-		"unitTypes": ["Sword","Gunpowder","Fighter","Bomber", "Mounted", "Melee Sorcery"],
-        "column": 24,
+        "name": "Ambush I",
+        "uniques": [
+			"[+15]% Strength <vs [Armor] units>",
+            "[+15]% Strength <vs [Mounted] units>"
+        ],
+        "unitTypes": ["Sword","Gunpowder","Fighter","Bomber", "Mounted", "Melee Sorcery"],
+		"column": 24,
         "row": 11
-	},
-	{
-		"name": "Ambush II",
+    },
+    {
+        "name": "Ambush II",
         "prerequisites": ["Ambush I"],
-		"uniques": ["[+50]% Strength <vs [Ranged] units> <when attacking>"],
-		"unitTypes": ["Sword","Gunpowder","Fighter","Bomber", "Mounted", "Melee Sorcery"],
-        "column": 24,
+        "uniques": [
+			"[+15]% Strength <vs [Armor] units>",
+            "[+15]% Strength <vs [Mounted] units>"
+        ],
+        "unitTypes": ["Sword","Gunpowder","Fighter","Bomber", "Mounted", "Melee Sorcery"],
+		"column": 24,
         "row": 12
-	},
+    },
 
 
 	// Water ranged and air units
