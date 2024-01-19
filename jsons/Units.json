@@ -832,9 +832,34 @@
 		"attackSound": "throw",
 		"uniques": ["Magician", "[+200]% Strength <vs [City] units>", "Comment [Becomes obsolete at [Technology Limit]]", "Never appears as a Barbarian unit"]
 	},
+	{
+		"name": "Archmage",
+		"unitType": "Ranged Sorcery",
+		"range": 3,
+		"movement": 2,
+		"strength": 11,
+		"rangedStrength": 10,
+		"cost": 150,
+		"requiredTech": "Limitless Learning",
+		"obsoleteTech": "Technology Limit",
+		"attackSound": "throw",
+		"uniques": ["Magician", "[+200]% Strength <vs [City] units>", "Comment [Becomes obsolete at [Technology Limit]]", "Never appears as a Barbarian unit"]
+	},
 	
 	
 	/* Magic Tree Units Upper */
+	{
+		"name": "Possessing Phantom",
+		"unitType": "Scout",
+		"movement": 3,
+		"strength": 5,
+		"cost": 25,
+		"obsoleteTech": "Advanced Magic",
+		"upgradesTo": "Dream Spirit",
+		"attackSound": "nonmetalhit",
+		"promotions": ["Phantom"],
+		"uniques": ["Never appears as a Barbarian unit"]
+	},
 	{
 		"name": "Youjutsu Practitioner",
 		"unitType": "Melee Sorcery",
@@ -857,7 +882,8 @@
 		"obsoleteTech": "Psychological Warfare",
 		"upgradesTo": "Yume no Seirei",
 		"attackSound": "nonmetalhit",
-		"uniques": ["Dark Magician", "Youkai", "[-15]% Strength for enemy [Military] units in adjacent [All] tiles", "Never appears as a Barbarian unit"]
+		"promotions": ["Phantom"],
+		"uniques": ["Youkai", "[-15]% Strength for enemy [Military] units in adjacent [All] tiles", "Never appears as a Barbarian unit"]
 	},
 	{
 		"name": "Youjutsu Master",
@@ -879,7 +905,8 @@
 		"requiredTech": "Psychological Warfare",
 		"obsoleteTech": "Technology Limit",
 		"attackSound": "nonmetalhit",
-		"uniques": ["Dark Magician", "Youkai", "[-33]% Strength for enemy [Military] units in adjacent [All] tiles", "Comment [Becomes obsolete at [Technology Limit]]", "Never appears as a Barbarian unit"]
+		"promotions": ["Phantom"],
+		"uniques": ["Youkai", "[-33]% Strength for enemy [Military] units in adjacent [All] tiles", "Comment [Becomes obsolete at [Technology Limit]]", "Never appears as a Barbarian unit"]
 	},
 	{
 		"name": "Keukegen",
