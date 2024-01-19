@@ -58,7 +58,7 @@
 		"name": "Okuu's Nuclear Reactor",
 		"uniqueTo": "Chireiden Sovereignty",
 		"cost": 185,
-		"production": 5,
+		"production": 10,
 		"isNationalWonder": true,
 		"greatPersonPoints": {"Great Engineer": 1},
         "uniques": ["Special Wonder", "Must have an owned [Youkai Mountain] within [3] tiles"],
@@ -210,7 +210,7 @@
 	{
 		"name": "Yakumo Residence",
 		"uniqueTo": "The Borderless Realm",
-		"cost": 185,
+		"cost": 125,
 		"isNationalWonder": true,
 		"uniques": ["Special Wonder", "[-100]% Culture cost of natural border growth [in this city]"]
 		"greatPersonPoints": {"Great Merchant": 1},
@@ -272,6 +272,8 @@
 		// "Gain [1000] [Faith]",
 		// "Only available <in cities with a [World Wonder]>",
 		// "Consumes [1] [Blank Card]"
+		
+		// Nah that sounds too impractical to implement
 		],
 		"greatPersonPoints": {"Great Merchant": 1},
 		"quote": "Possession of an object can only be controlled by the god of the markets. As long as they possess something, none can escape from the hands of God! - Chimata Tenkyuu",
@@ -279,12 +281,38 @@
 	{
 		"name": "Warmth of Spring",
 		"uniqueTo": "Fairies Of Spring",
-		"cost": 185,
+		"cost": 115,
 		"isNationalWonder": true,
 		"greatPersonPoints": {"Great Artist": 1},
 		"uniques": ["Special Wonder", "[+1 Production] from every [Open terrain]"],
 		"quote": "'IIIIITT'S SPRIIIIIINGG!!!' - Lily White."
 	},
+	/*
+	{
+		"name": "Sun",
+		"uniqueTo": "Fairies Of Light",
+		"cost": 90,
+		"isNationalWonder": true,
+		"uniques": ["Special Wonder", "[+1 Production] from every [Open terrain]"],
+		"quote": "Sunny Milk is regarded as the leader of the trio. Her ability is to manipulate the refraction of light and absorb power from the sun."
+	},
+	{
+		"name": "Moon",
+		"uniqueTo": "Fairies Of Light",
+		"cost": 90,
+		"isNationalWonder": true,
+		"uniques": ["Special Wonder", "[+1 Production] from every [Open terrain]"],
+		"quote": "'Luna Child loves coffee beans. Her ability is to mute sounds which quality's depends on the condition of the moon."
+	},
+	{
+		"name": "Star",
+		"uniqueTo": "Fairies Of Light",
+		"cost": 90,
+		"isNationalWonder": true,
+		"uniques": ["Special Wonder", "[+1 Production] from every [Open terrain]"],
+		"quote": "'Star Sapphire is often the one who likes cause mischief, but is the laziest of the trio. Her ability is to detect moving things."
+	},
+	*/
 	/*
 	{
 		"name": "Scarlet Magic Library",
