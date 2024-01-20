@@ -832,6 +832,7 @@
 		"attackSound": "throw",
 		"uniques": ["Magician", "[+200]% Strength <vs [City] units>", "Comment [Becomes obsolete at [Technology Limit]]", "Never appears as a Barbarian unit"]
 	},
+	/*
 	{
 		"name": "Archmage",
 		"unitType": "Ranged Sorcery",
@@ -845,9 +846,10 @@
 		"attackSound": "throw",
 		"uniques": ["Magician", "[+200]% Strength <vs [City] units>", "Comment [Becomes obsolete at [Technology Limit]]", "Never appears as a Barbarian unit"]
 	},
-	
+	*/
 	
 	/* Magic Tree Units Upper */
+	/*
 	{
 		"name": "Possessing Phantom",
 		"unitType": "Scout",
@@ -860,6 +862,7 @@
 		"promotions": ["Phantom"],
 		"uniques": ["Never appears as a Barbarian unit"]
 	},
+	*/
 	{
 		"name": "Youjutsu Practitioner",
 		"unitType": "Melee Sorcery",
