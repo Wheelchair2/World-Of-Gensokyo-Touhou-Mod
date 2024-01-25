@@ -51,7 +51,7 @@
 		"cost": 185,
 		"isNationalWonder": true,
 		"greatPersonPoints": {"Great Engineer": 1},
-        "uniques": ["Special Wonder", "[+25]% Strength <for [All] units> <vs cities> <when attacking> <for [495] turns>"]
+        "uniques": ["Special Wonder", "[+20]% Strength <for [All] units> <vs cities> <when attacking> <for [495] turns>"]
 		"quote": "This is where Flandre Scarlet was locked up for 495 years."
 	},
 	{
@@ -87,16 +87,16 @@
 		"cost": 225,
 		"isNationalWonder": true,
 		"greatPersonPoints": {"Great Artist": 1},
-        "uniques": ["Special Wonder", "[+15]% Strength <for units with [Divine Blessing]> <when defending>"]
+        "uniques": ["Special Wonder", "[+10]% Strength <for units with [Divine Blessing]> <when defending>"]
 		"quote": "Okina can create doors on the back of anything, even living beings. The back doors act like portals and allow her to travel wherever she wishes, or to send something to somewhere else."
 	},
 	{
 		"name": "Purification Rod",
 		"uniqueTo": "Hakurei Faction",
-		"cost": 225,
+		"cost": 185,
 		"isNationalWonder": true,
 		"greatPersonPoints": {"Great Artist": 1},
-        "uniques": ["Special Wonder", "[+60]% Strength <for [Human] units> <for units without [Anti-Youkai]> <vs [Youkai] units>"]
+        "uniques": ["Special Wonder", "[+10]% Strength <for [Human] units> <vs [Youkai] units>"]
 		"quote": "Reimu Hakurei is the main protagonist of the Touhou Project series along with the deuteragonist, Marisa Kirisame. As the shrine maiden of the Hakurei Shrine, she manages the Hakurei Border of Gensokyo and exterminates troublesome youkai."
 	},
 	{
@@ -105,11 +105,11 @@
 		"cost": 225,
 		"isNationalWonder": true,
 		"greatPersonPoints": {"Great Artist": 1},
-        "uniques": ["Special Wonder", "[+3 Culture] <during the [Youkai Expansion Project]>",
-        "[+4 Culture] <during the [Edo period]>",
+        "uniques": ["Special Wonder", "[+4 Culture] <during the [Youkai Expansion Project]>",
+        "[+5 Culture] <during the [Edo period]>",
         "[+6 Culture] <during the [Meiji era]>",
-        "[+8 Culture] <during the [Modern era]>",
-        "[+10 Culture] <during the [Present era]>"]
+        "[+10 Culture] <during the [Modern era]>",
+        "[+12 Culture] <during the [Present era]>"]
 		"quote": "Hieda no Akyuu lives here, recording everything that she has seen in her life."
 	},
 	/*
@@ -129,7 +129,7 @@
 		"cost": 225,
 		"isNationalWonder": true,
 		"greatPersonPoints": {"Great Artist": 1},
-        "uniques": ["Special Wonder", "[+50]% Production when constructing [Land] units [in all cities]"],
+        "uniques": ["Special Wonder", "[+40]% Production when constructing [Land] units [in all cities]"],
 		"quote": "She refined her Taoist beliefs and techniques for many years, though apparently many of the things she did toward this end were somewhat taboo, including gaining an unaging body, and she ended up being feared by the common people."
 	},
 	{
@@ -155,7 +155,7 @@
 	{
 		"name": "New Palanquin Ship",
 		"uniqueTo": "Myouren Faction",
-		"uniques": ["Special Wonder", "[+50]% Strength for cities <when defending>"],
+		"uniques": ["Special Wonder", "[+10]% Strength for cities <when defending>"],
 		"cost": 225,
 		"isNationalWonder": true,
 		"greatPersonPoints": {"Great Engineer": 1},
@@ -167,7 +167,7 @@
 		"cost": 225,
 		"isNationalWonder": true,
 		"greatPersonPoints": {"Great Engineer": 1},
-		"uniques": ["Special Wonder", "[+15]% Strength <for [Oni] units>", "[+15]% Production when constructing [Military] units [in this city]"]
+		"uniques": ["Special Wonder", "[+5]% Strength <for [Oni] units>", "[+15]% Production when constructing [Military] units [in this city]"]
 		"quote": "The Old Capital is a large village in Old Hell, deep within the Underworld. It is situated between the Deep Road to Hell, guarded by Parsee Mizuhashi, and the Palace of the Earth Spirits, where the sisters Satori Komeiji and Koishi Komeiji live."
 	},
 	{
@@ -194,7 +194,7 @@
 		"uniqueTo": "Tengu Union",
 		"cost": 125,
 		"isNationalWonder": true,
-		"uniques": ["Special Wonder", "[+15]% Strength <for [Beast] units> <when fighting in [Friendly Land] tiles>"]
+		"uniques": ["Special Wonder", "[+10]% Strength <for [Beast] units> <when fighting in [Friendly Land] tiles>"]
 		"greatPersonPoints": {"Great Merchant": 1},
 		"quote": "Tengu reside in Youkai Mountain and seem territorial of humans and other youkai trespassing within their home."
 	},
@@ -203,7 +203,7 @@
 		"uniqueTo": "The Netherworld",
 		"cost": 125,
 		"isNationalWonder": true,
-		"uniques": ["Special Wonder", "Must have an owned [Saigyou Ayakashi] within [2] tiles", "[+25]% Strength <for [All] units>", "[+6 Culture] from [Saigyou Ayakashi] tiles [in this city]"]
+		"uniques": ["Special Wonder", "Must have an owned [Saigyou Ayakashi] within [2] tiles", "[+10]% Strength <for [All] units>", "[+6 Culture] from [Saigyou Ayakashi] tiles [in this city]"]
 		"greatPersonPoints": {"Great Artist": 1},
 		"quote": "'At any rate, with just a little more spring, the Saigyou Ayakashi will soon reach full bloom. The small trace of spring that you've brought here... will give us the last step needed.' - Youmu Konpaku."
 	},
