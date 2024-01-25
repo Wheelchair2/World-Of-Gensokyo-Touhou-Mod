@@ -99,7 +99,7 @@
 		"name": "Second Life",
 	"uniques": ["[-15]% Strength"]
 	},
-	{
+	{ //there's two
 		"name": "Poltergeist",
 		"uniques": ["Ignores terrain cost", "Can pass through impassable tiles", "Ignores Zone of Control", "[-50]% Strength <when attacking>"]
 	},
@@ -264,7 +264,7 @@
     //Counter Promotions
 	{
 		"name": "Anti-Youkai",
- 		"uniques": ["[+15]% Strength <vs [Youkai] units>", "[+50]% Strength <vs [Youkai] units> <for units with [Human Race]> <starting from the [Edo period]>"]
+ 		"uniques": ["[+10]% Strength <vs [Youkai] units>", "[+30]% Strength <vs [Youkai] units> <for units with [Human Race]> <starting from the [Edo period]>"]
 	},
 	{
 		"name": "Anti-Human",
@@ -276,7 +276,7 @@
 	},
 	{
 		"name": "Anti-Oni",
- 		"uniques": ["[+20]% Strength <vs [Oni] units>"]
+ 		"uniques": ["[+15]% Strength <vs [Oni] units>"]
 	},
 	{
 		"name": "Anti-Mermaid",
