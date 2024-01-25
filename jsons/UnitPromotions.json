@@ -159,11 +159,11 @@
 	},
 	{
 		"name": "Winged",
-		"uniques": ["Supplement", "Can move after attacking", "Can pass through impassable tiles", "[-50]% Strength <when defending>"]
+		"uniques": ["Supplement", "Can move after attacking", "Can pass through impassable tiles", "[-30]% Strength <when defending>"]
 	},
 	{
 		"name": "Corpse",
-		"uniques": ["Apparition", "May capture killed [Human] units", "Can only heal by pillaging", "[+25]% Strength <vs [Human] units>"]
+		"uniques": ["Apparition", "May capture killed [Human] units", "Can only heal by pillaging", "[+15]% Strength <vs [Human] units>"]
 	},
 	{
 		"name": "Vampire",
@@ -189,11 +189,11 @@
 	},
 	{
 		"name": "Spirit",
- 		"uniques": ["Apparition", "Ignores terrain cost", "Can pass through impassable tiles", "Ignores Zone of Control", "[-33]% Strength <when attacking>"]
+ 		"uniques": ["Apparition", "Ignores terrain cost", "Can pass through impassable tiles", "Ignores Zone of Control", "[-10]% Strength <when attacking>"]
 	},
 	{
 		"name": "Phantom",
- 		"uniques": ["Apparition", "Ignores Zone of Control", "[-15]% Strength <when attacking>"]
+ 		"uniques": ["Apparition", "Ignores Zone of Control", "[-5]% Strength <when attacking>"]
 	},
 	{
 		"name": "Beast",
@@ -201,7 +201,7 @@
 	},
 	{
 		"name": "Doll Construct",
- 		"uniques": ["Apparition", "[-50]% Strength <when defending> <before discovering [Self-Discovery]>", "[-30]% Strength <when defending> <after discovering [Self-Discovery]>", "[+10] HP when healing <in [Doll Lumber House] tiles>"]
+ 		"uniques": ["Apparition", "[-25]% Strength <when defending> <before discovering [Self-Discovery]>", "[-10]% Strength <when defending> <after discovering [Self-Discovery]>", "[+10] HP when healing <in [Doll Lumber House] tiles>"]
 	},
 	{
 		"name": "Lunarian",
@@ -229,7 +229,7 @@
 	},
 	{
 		"name": "Human Race",
- 		"uniques": ["Human", "Racial", "[-50]% Strength", "[-15]% Strength <when adjacent to a [Oni] unit>", "Comment [Humans have an immunity from the youkais during the Youkai Expansion Project, which will neutralize their -50% Strength debuff with a temporary +50% Strength bonus]"]
+ 		"uniques": ["Human", "Racial", "[-30]% Strength", "[-15]% Strength <when adjacent to a [Oni] unit>", "Comment [Humans have an immunity from the youkais during the Youkai Expansion Project, which will neutralize their -30% Strength debuff with a temporary +30% Strength bonus]"]
 	},
 	{
 		"name": "Youkai",
@@ -237,7 +237,7 @@
 	},
 	{
 		"name": "Oni",
- 		"uniques": ["Racial", "[+20]% Strength"]
+ 		"uniques": ["Racial", "[+15]% Strength"]
 	},
 	{
 		"name": "Phantasm"
