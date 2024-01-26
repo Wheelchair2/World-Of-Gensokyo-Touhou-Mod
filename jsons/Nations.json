@@ -219,7 +219,7 @@
 		"uniqueName": "Diligent Fairy Maids",
 		"uniques": ["Comment [Vampires would suck the blood out of anyone, and can heal 15 damage upon killing a unit]",
 		"Comment [------------------]",
-		"[All] units gain the [Youkai] promotion", "[Land] units gain the [Vampire] promotion", "[+25]% Production when constructing [All] wonders [in all cities]", "[-50]% maintenance costs","Provides [1] [Vampire Fang Card]"],
+		"[All] units gain the [Youkai] promotion", "[Land] units gain the [Vampire] promotion", "[+25]% Production when constructing [All] wonders [in all cities]", "[-20]% maintenance costs","Provides [1] [Vampire Fang Card]"],
 		"cities": ["Transylvania","ScarletBourne","Vermillion Peaks","Crimsonhurst","Carmesia","Garnetshire","Burgundy Citadel","Sangria Hollow","Scarletspire","Scarletara"]
 	},
 	{
@@ -319,7 +319,7 @@
 		"outerColor": [23,0,55],
 		"innerColor": [226,206,205],
 		"uniqueName": "Romantic Death",
-		"uniques": ["Comment [Corpse units may capture killed Human units; have a bonus of +25% Strength when fighting against Human enemies; but can only heal by pillaging]",
+		"uniques": ["Comment [Corpse units may capture killed Human units; have a bonus of +15% Strength when fighting against Human enemies; but can only heal by pillaging]",
 	"Comment [------------------]",
 	"Starts with [Research For Magic]", "Starts with [Religion]", "[All] units gain the [Youkai] promotion", "[Land] units gain the [Corpse] promotion"],
 		"favoredReligion": "Ancient Taoism",
@@ -552,7 +552,7 @@
 		"outerColor": [256,221,259],
 		"innerColor": [99,13,160],
 		"uniqueName": "Manager Of The Afterlife Realm",
-		"uniques": ["Comment [Spirit units can cross impassable tiles, Ignore terrain cost, and Ignore Zone of Control; but have -33% Strength penalty when attacking]",
+		"uniques": ["Comment [Spirit units can cross impassable tiles, Ignore terrain cost, and Ignore Zone of Control; but have -10% Strength penalty when attacking]",
 		"Comment [------------------]",
 		"[All] units gain the [Youkai] promotion", "[Land] units gain the [Spirit] promotion","Provides [1] [Danmaku Ghost Card]"],  
 		"cities": ["Hakugyokurou", "Banshoukyou", "Kaidan City", "Yuurei Kouen", "Onryoumura", "Bakemono no Toshi", "Kokoro no Yami", "Reikonokuni", "Obakezaka", "Ayashiki Machi"]
