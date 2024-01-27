@@ -1180,7 +1180,7 @@
 		"unitType": "Ranged Sorcery",
 		"range": 2,
 		"movement": 2,
-		"strength": 7,
+		"strength": 5,
 		"rangedStrength": 5,
 		"cost": 40,
 		"attackSound": "nonmetalhit"
@@ -1207,7 +1207,7 @@
 		"replaces": "Ashigaru Spearman",
 		"unitType": "Sword",
 		"movement": 4,
-		"strength": 14,
+		"strength": 13,
 		"cost": 120,
 		"requiredTech": "Professional Army",
 		"attackSound": "nonmetalhit",
