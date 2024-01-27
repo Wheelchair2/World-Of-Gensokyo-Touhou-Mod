@@ -1207,7 +1207,7 @@
 		"replaces": "Ashigaru Spearman",
 		"unitType": "Sword",
 		"movement": 4,
-		"strength": 17,
+		"strength": 14,
 		"cost": 120,
 		"requiredTech": "Professional Army",
 		"attackSound": "nonmetalhit",
@@ -1221,7 +1221,7 @@
 		"range": 2,
 		"movement": 2,
 		"strength": 7,
-		"rangedStrength": 11,
+		"rangedStrength": 8,
 		"cost": 85,
 		"attackSound": "nonmetalhit"
 		"promotions": ["Spirit"]
