@@ -24,12 +24,12 @@
 		"columnNumber": 1,
 		"era": "Youkai Expansion Project",
 		"techCost": 9,
-		"buildingCost": 75,
+		"buildingCost": 70,
 		"wonderCost": 185,
 		"techs": [
 			{
 				"name": "Yama's Permission",
-				"cost": 1000,
+				"cost": 900,
 				"row": 1,
 				"quote": "And so, the gates to magic and divinity was opened."
 				"uniques": ["Comment [Access to Magic and Religion tech tree]", "Discover [Research For Magic]", "Discover [Religion]"]
@@ -46,8 +46,8 @@
 		"columnNumber": 2,
 		"era": "Youkai Expansion Project",
 		"techCost": 40,
-		"buildingCost": 75,
-		"wonderCost": 185,
+		"buildingCost": 70,
+		"wonderCost": 105,
 		"techs": [
 			{
 				"name": "Education",
@@ -110,7 +110,7 @@
 		"columnNumber": 3,
 		"era": "Youkai Expansion Project",
 		"techCost": 90,
-		"buildingCost": 100,
+		"buildingCost": 90,
 		"wonderCost": 185,
 		"techs": [
 			{
@@ -463,7 +463,7 @@
 			//// 5 (last)
 			{
 				"name": "Full Conversion",
-				"cost": 480,
+				"cost": 420,
 				"row": 16,
 				"prerequisites": ["National Faith", "Philosophy"],
 				"quote": "Religion plays a major role in Gensokyo, as Gods literally exist in the Touhou series.",
@@ -483,7 +483,7 @@
 	{
 		"columnNumber": 8,
 		"era": "Edo period",
-		"techCost": 1500,
+		"techCost": 1000,
 		"buildingCost": 160,
 		"wonderCost": 250,
 		"techs": [
@@ -514,7 +514,7 @@
 	{
 		"columnNumber": 9,
 		"era": "Edo period",
-		"techCost": 2350,
+		"techCost": 1550,
 		"buildingCost": 200,
 		"wonderCost": 250,
 		"techs": [
@@ -535,7 +535,7 @@
 	{
 		"columnNumber": 10,
 		"era": "Meiji era",
-		"techCost": 3100,
+		"techCost": 1900,
 		"buildingCost": 200,
 		"wonderCost": 300,
 		"techs": [
@@ -551,7 +551,7 @@
 	{
 		"columnNumber": 11,
 		"era": "Meiji era",
-		"techCost": 4100,
+		"techCost": 2500,
 		"buildingCost": 300,
         "wonderCost": 750,
 		"techs": [
@@ -565,6 +565,7 @@
 			*/
 			{
 				"name": "Military Logistics",
+				"cost": 2100,
 				"row": 6,
 				"prerequisites": ["Technology Limit"],
 				"quote": "Yukari probably kept humans from technologically advancing in Gensokyo."
@@ -574,7 +575,7 @@
 				"row": 8,
 				"prerequisites": ["Technology Limit"],
 				"quote": "Religion plays a major role in Gensokyo, as Gods literally exist in the Touhou series.",
-				"uniques": ["[+33]% Strength <for [Armor] units> <when defending>", "[+50]% Strength <for [Ashigaru] units> <when attacking>"]
+				"uniques": ["[+10]% Strength <for [Armor] units> <when defending>", "[+15]% Strength <for [Ashigaru] units> <when attacking>"]
 			},
 			{
 				"name": "Civil Service",
@@ -587,7 +588,7 @@
 	{
 		"columnNumber": 12,
 		"era": "Meiji era",
-		"techCost": 5100,
+		"techCost": 3100,
 		"buildingCost": 350,
 		"wonderCost": 900,
 		"techs": [
@@ -606,6 +607,7 @@
 			},
 			{
 				"name": "Military Predominance",
+				"cost": 2800,
 				"row": 7,
 				"prerequisites": ["Military Logistics"],
 				"quote": "Religion plays a major role in Gensokyo, as Gods literally exist in the Touhou series.",
@@ -768,7 +770,7 @@
 				"row": 11,
 				"prerequisites": ["Forgotten Items", "Modern Knowledge"],
 				"quote": ".",
-				"uniques": ["[+30]% Strength <when defending> <for [Military] units> <when adjacent to a [Field Medic] unit>"]
+				"uniques": ["[+15]% Strength <when defending> <for [Military] units> <when adjacent to a [Field Medic] unit>"]
 			},
 			{
 				"name": "Exclusive Electricity",
@@ -782,7 +784,7 @@
 				"row": 7,
 				"prerequisites": ["History Preservation", "Military Science"],
 				"quote": "For the crime of creating the Hourai Elixir, Kaguya Houraisan and Eirin Yagokoro were exiled to Earth, where they came to live in the Bamboo Forest of the Lost.",
-				"uniques": ["[+50]% [Science] from every [Buildings]"]
+				"uniques": ["[+10]% [Science] from every [Buildings]"]
 			}
 		]
 	},
