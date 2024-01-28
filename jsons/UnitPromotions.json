@@ -155,7 +155,7 @@
 	// Old Promotions
 	{
 		"name": "Fairy",
-		"uniques": ["Apparition", "Unit will heal every turn, even if it performs an action", "[-1] Sight"]
+		"uniques": ["Apparition", "Unit will heal every turn, even if it performs an action", "[-1] Sight", "[-5] HP when healing", "[-5] HP when healing <in [Friendly land] tiles>"]
 	},
 	{
 		"name": "Winged",
