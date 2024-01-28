@@ -170,7 +170,7 @@
 		"Comment [------------------]",
 		"[All] units gain the [Fairy] promotion",
 		"[Land] units gain the [Winged] promotion",
-		"[+50]% Golden Age Length"
+		"[+50]% Golden Age length"
 		],
 		"cities": ["Haru-machi", "Hana-toshi", "Sakura-shi", "Shinryoku-machi", "Hidamari-shi", "Ume-to", "Asagiri-shi", "Kusabana-machi", "Sakuradai-shi", "Ondan-shi"],
 		"style": "fairy"
