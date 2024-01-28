@@ -140,7 +140,7 @@
 		"outerColor": [142,139,96],
 		"innerColor": [255,255,255],
 		"uniqueName": "Sunny, Luna, Star!",
-		"uniques": ["Comment [Fairy units heals every turn even while performing an action, but receive -1 Sight penalty]",
+		"uniques": ["Comment [Fairy units heals every turn even while performing an action, but takes longer to heal]",
 		"Comment [------------------]",
 		"[All] units gain the [Fairy] promotion",
 		"[Land] units gain the [Winged] promotion",
@@ -166,11 +166,11 @@
 		"outerColor": [142,139,96],
 		"innerColor": [255,255,255],
 		"uniqueName": "It's Spring!",
-		"uniques": ["Comment [Fairy units heals every turn even while performing an action, but receive -1 Sight penalty]",
+		"uniques": ["Comment [Fairy units heals every turn even while performing an action, but takes longer to heal]",
 		"Comment [------------------]",
 		"[All] units gain the [Fairy] promotion",
 		"[Land] units gain the [Winged] promotion",
-		"[+1] Sight <for [Fairy] units>"
+		"[+50]% Golden Age Length"
 		],
 		"cities": ["Haru-machi", "Hana-toshi", "Sakura-shi", "Shinryoku-machi", "Hidamari-shi", "Ume-to", "Asagiri-shi", "Kusabana-machi", "Sakuradai-shi", "Ondan-shi"],
 		"style": "fairy"
@@ -192,13 +192,41 @@
 		"outerColor": [72,156,184],
 		"innerColor": [255,255,255],
 		"uniqueName": "Perfect Freeze!",
-		"uniques": ["Comment [Fairy units heals every turn even while performing an action, but receive -1 Sight penalty]",
+		"uniques": ["Comment [Fairy units heals every turn even while performing an action, but takes longer to heal]",
 		"Comment [------------------]",
 		"[All] units gain the [Fairy] promotion", "[Land] units gain the [Winged] promotion",
 		"[+15]% Strength <for [Fairy] units>",
 		"Provides [1] [Icicle Fall Card]"
 		]
 		"cities": ["Cirnopolis", "Bakai", "Perfect Town", "Daiyouville", "Ninth City", "Bakaville", "Kitchen", "New Cirnopolis", "Calculator City"],
+		"style": "fairy"
+	},
+	{
+		"name": "Fairy Kingdom",
+		"leaderName": "Daiyousei",
+		"adjective": ["Great Fairy"],
+		"preferredVictoryType": "Diplomatic",
+		"startIntroPart1": ".",
+		"startIntroPart2": ".",
+		"attacked": "How rude!",
+		"defeated": "Unbelievable...",
+		"introduction": "Welcome.",
+		"neutralHello": "Hello.",
+		"hateHello": "Hmph!",
+		"tradeRequest": "It would be great if you agree to this...",
+		"outerColor": [134,170,121],
+		"innerColor": [21,81,21],
+		"uniqueName": "Undisturbed Nature",
+		"uniques": ["Comment [Fairy units heals every turn even while performing an action, but takes longer to heal]",
+		"Comment [------------------]",
+		"[All] units gain the [Fairy] promotion",
+		"[Land] units gain the [Winged] promotion",
+		"[+2 Happiness] from every [Natural Wonder]",
+		"[+2 Culture] from every [{unimproved} {Forest}]",
+		"[+2 Culture] from every [{unimproved} {Jungle}]",
+		"[+2 Culture] from every [{unimproved} {Marsh}]",
+		],
+		"cities": ["Midori-no-mori", "Hanaakari", "Kaze-no-harukaze", "Mizuumi-no-hikari", "Yuuyake-no-sakura", "Tsuki-no-seseragi", "Aki-no-tane", "Hoshi-no-yuugen", "Yama-no-hikari", "Komorebi-machi"],
 		"style": "fairy"
 	},
 	{
@@ -281,7 +309,7 @@
 		"outerColor": [37,9,86],
 		"innerColor": [250,228,255],
 		"uniqueName": "Pity of the Hakutaku",
-		"uniques": ["Starts with [Agriculture]", "Starts with [Scientific Knowledge]", "[All] units gain the [Human Race] promotion"],
+		"uniques": ["Starts with [Agriculture]", "Starts with [Scientific Knowledge]", "[All] units gain the [Human Race] promotion", "[+50]% [Science]"],
 		"cities": ["Kyoto", "Osaka", "Sapporo", "Yokohama", "Hiroshima", "Kobe", "Nagoya", "Fukuoka", "Sendai", "Nagasaki"]
 	},
 	{
@@ -530,9 +558,9 @@
 		"outerColor": [40,0,92],
 		"innerColor": [213,210,242],
 		"uniqueName": "Manipulation Of Boundaries",
-		"uniques": ["Comment [Yukari, the Youkai of Boundaries, can open gaps that rips through dimensions, which can act as portals for her subjects. Land Units can teleport (paradrop) up to 4 tiles when inside friendly territory, if the unit hasn't done any other actions yet. However, Military Land units are more expensive to produce]",
+		"uniques": ["Comment [Yukari, the Youkai of Boundaries, can open gaps that rips through dimensions, which can act as portals for her subjects. Land Units can teleport (paradrop) up to 4 tiles when inside friendly territory, if the unit hasn't done any other actions yet.]",
 		"Comment [------------------]",
-		"[All] units gain the [Youkai] promotion", "[Land] units gain the [Phantasm] promotion", "[-25]% Production when constructing [{Military} {Land}] units [in all cities]", "[-25]% Culture cost of natural border growth [in all cities]", "Provides [1] [Screen Border Card]"],
+		"[All] units gain the [Youkai] promotion", "[Land] units gain the [Phantasm] promotion", "[-25]% Culture cost of natural border growth [in all cities]", "Provides [1] [Screen Border Card]"],
 		"cities": ["Hakumori","Kasenba","Mizukawa","Soraheim","Yumegawa","Kagetsu","Tsukimori","Kiriwara","Hanamachi","Enishi"]
 	},
 	{
