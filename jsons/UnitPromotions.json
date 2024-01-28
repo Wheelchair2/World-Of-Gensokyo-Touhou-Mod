@@ -155,11 +155,11 @@
 	// Old Promotions
 	{
 		"name": "Fairy",
-		"uniques": ["Apparition", "Unit will heal every turn, even if it performs an action", "[-1] Sight", "[-5] HP when healing", "[-5] HP when healing <in [Friendly land] tiles>"]
+		"uniques": ["Apparition", "Unit will heal every turn, even if it performs an action", "[-5] HP when healing", "[-5] HP when healing <in [Friendly land] tiles>"]
 	},
 	{
 		"name": "Winged",
-		"uniques": ["Supplement", "Can move after attacking", "Can pass through impassable tiles", "[-30]% Strength <when defending>"]
+		"uniques": ["Supplementary", "Can move after attacking", "Can pass through impassable tiles", "[-30]% Strength <when defending>"]
 	},
 	{
 		"name": "Corpse",
@@ -178,14 +178,14 @@
 	{
 		"name": "Stab Third Eye",
 		"prerequisites": ["Satori Race"],
-		"uniques": ["Supplement", "Only available <for units with [Satori Race]>", "Invisible to non-adjacent units", "[-2] Range <for [Ranged] units>", "[-50]% Strength <when defending>", "[+55]% to Flank Attack bonuses", "[+55]% Strength <vs [Wounded] units>"],
+		"uniques": ["Supplementary", "Only available <for units with [Satori Race]>", "Invisible to non-adjacent units", "[-2] Range <for [Ranged] units>", "[-50]% Strength <when defending>", "[+55]% to Flank Attack bonuses", "[+55]% Strength <vs [Wounded] units>"],
 		"unitTypes": ["Sword", "Ranged", "Archery", "Gunpowder", "Mounted", "Armored", "Siege","Archery","Ranged Gunpowder","Scout"],
 		"column": 28,
 		"row": 4
 	},
 	{
 		"name": "Divine Blessing",
- 		"uniques": ["Supplement"]
+ 		"uniques": ["Supplementary"]
 	},
 	{
 		"name": "Spirit",
@@ -241,7 +241,7 @@
 	},
 	{
 		"name": "Phantasm"
-		"uniques": ["Supplement", "May Paradrop up to [4] tiles from inside friendly territory <if it hasn't used other actions yet>"],
+		"uniques": ["Supplementary", "May Paradrop up to [4] tiles from inside friendly territory <if it hasn't used other actions yet>"],
 	},
 	{
 		"name": "Martial Arts",
