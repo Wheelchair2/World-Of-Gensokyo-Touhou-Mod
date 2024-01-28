@@ -118,17 +118,17 @@
 		"uniques": ["All adjacent units heal [3] HP when healing"]
 	},
 	{
-		"name": "Horseman",
-		"unitType": "Mounted",
-		"movement": 4,
-		"strength": 12,
+		"name": "Guardsman",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 11,
 		"cost": 65,
 		"requiredTech": "Authority",
 		"obsoleteTech": "Professional Army",
 		"upgradesTo": "Cavalry",
 		"requiredResource": "Horses",
-		"uniques": ["Can move after attacking","No defensive terrain bonus", "[-33]% Strength <vs cities> <when attacking>", "[+100]% Strength <vs [Ranged] units> <when attacking>"],
-		"attackSound": "horse"
+		"uniques": ["[+30]% Strength <when defending>", "[-1] Movement <in [Foreign land] tiles>"],
+		"attackSound": "nonmetalhit"
 	},
 	{
 		"name": "Archer",
@@ -388,7 +388,7 @@
 		"requiredTech": "Law Enforcement",
 		"obsoleteTech": "Espionage",
 		"upgradesTo": "Spy",
-		"uniques": ["Invisible to others", "Can see invisible [Scout] units", "Can only attack [Scout] units", "Never appears as a Barbarian unit"]
+		"uniques": ["Invisible to others", "Can see invisible [Scout] units", "Can only attack [Scout] units", "Limited to [2] per Civilization", "Never appears as a Barbarian unit"]
 	},
 	{
 		"name": "Ashigaru Infantry",
@@ -433,7 +433,7 @@
 		"unitType": "Ranged Gunpowder",
 		"movement": 2,
 		"strength": 13,
-		"rangedStrength": 21,
+		"rangedStrength": 24,
 		"cost": 185,
 		"requiredTech": "Law Enforcement",
 		"obsoleteTech": "Nobility",
@@ -449,7 +449,7 @@
 		"name": "Imperial Ashigaru",
 		"unitType": "Sword",
 		"movement": 2,
-		"strength": 34,
+		"strength": 74,
 		"cost": 225,
 		"requiredTech": "Military Logistics",
 		"obsoleteTech": "Military Science",
@@ -461,7 +461,7 @@
 		"name": "Imperial Samurai",
 		"unitType": "Sword",
 		"movement": 2,
-		"strength": 34,
+		"strength": 74,
 		"cost": 225,
 		"requiredTech": "Military Predominance",
 		"obsoleteTech": "Military Science",
@@ -474,7 +474,7 @@
 		"name": "Imperial Cavalry",
 		"unitType": "Mounted",
 		"movement": 4,
-		"strength": 40,
+		"strength": 80,
 		"cost": 320,
 		"requiredTech": "Military Predominance",
 		"obsoleteTech": "Military Science",
@@ -487,8 +487,8 @@
 		"name": "Marksman",
 		"unitType": "Ranged Gunpowder",
 		"movement": 2,
-		"strength": 14,
-		"rangedStrength": 28,
+		"strength": 54,
+		"rangedStrength": 68,
 		"cost": 375,
 		"requiredTech": "Nobility",
 		"promotions": ["Extended Range"],
@@ -499,7 +499,7 @@
 		"name": "Royal Ashigaru",
 		"unitType": "Sword",
 		"movement": 2,
-		"strength": 60,
+		"strength": 86,
 		"cost": 425,
 		"requiredTech": "Military Science",
 		"attackSound": "metalhit",
@@ -510,7 +510,7 @@
 		"name": "Royal Samurai",
 		"unitType": "Sword",
 		"movement": 2,
-		"strength": 60,
+		"strength": 86,
 		"cost": 480,
 		"requiredTech": "Military Science",
 		"requiredResource": "Iron",
@@ -522,7 +522,7 @@
 		"name": "Royal Cavalry",
 		"unitType": "Mounted",
 		"movement": 4,
-		"strength": 75,
+		"strength": 91,
 		"cost": 550,
 		"requiredTech": "Military Science",
 		"requiredResource": "Horses",
@@ -534,11 +534,11 @@
 		"name": "Spy",
 		"unitType": "Scout",
 		"movement": 4,
-		"strength": 50,
+		"strength": 65,
 		"cost": 375,
 		"requiredTech": "Espionage",
 		"attackSound": "metalhit",
-        "uniques": ["Invisible to others", "Can see invisible [Scout] units", "Can only attack [Scout] units", "May enter foreign tiles without open borders", "Never appears as a Barbarian unit"]
+        "uniques": ["Invisible to others", "Can see invisible [Scout] units", "Can only attack [Scout] units", "May enter foreign tiles without open borders", "Limited to [2] per Civilization", "Never appears as a Barbarian unit"]
 	},
 	
 	
@@ -587,8 +587,8 @@
 		"name": "Artillery",
 		"unitType": "Siege",
 		"movement": 2,
-		"strength": 45,
-		"rangedStrength": 60,
+		"strength": 85,
+		"rangedStrength": 100,
 		"cost": 425,
 		"requiredTech": "Nobility",
 		"uniques": ["[+200]% Strength <vs cities> <when attacking>", "Must set up to ranged attack", "[-1] Sight", "Never appears as a Barbarian unit"],
@@ -615,10 +615,10 @@
 		"replaces": "Trireme",
 		"unitType": "Melee Water",
 		"movement": 4,
-		"strength": 10,
+		"strength": 14,
 		"cost": 45,
 		"requiredTech": "Sailing",
-		"uniques": ["[+100]% Strength <vs [{Military} {Water}] units>", "Never appears as a Barbarian unit"],
+		"uniques": ["[+50]% Strength <vs [{Military} {Water}] units>", "Never appears as a Barbarian unit"],
 		"upgradesTo": "Boarding Ship",
 		"obsoleteTech": "Navigation",
 		"attackSound": "nonmetalhit"
@@ -674,7 +674,7 @@
 		"requiredTech": "Compass",
 		"obsoleteTech": "Naval Warfare",
 		"upgradesTo": "Cannon Ship",
-		"uniques": ["[+100]% Strength <vs [{Military} {Water}] units> <when attacking>"]
+		"uniques": ["[+100]% Strength <vs [{Military} {Water}] units> <when attacking>", "Never appears as a Barbarian unit"]
 		"hurryCostModifier": 24,
 		"attackSound": "arrow"
 	},
@@ -697,12 +697,12 @@
 		"name": "Ramming Vessel",
 		"unitType": "Melee Water",
 		"movement": 4,
-		"strength": 34,
+		"strength": 64,
 		"cost": 200,
 		"requiredTech": "Naval Warfare",
 		"obsoleteTech": "Official Navy",
 		"upgradesTo": "Hokan",
-		"uniques": ["[+50]% Strength <vs [{Military} {Water}] units> <when attacking>", "May capture killed [Water] units"],
+		"uniques": ["[+50]% Strength <vs [{Military} {Water}] units> <when attacking>", "May capture killed [Water] units", "Never appears as a Barbarian unit"],
 		"hurryCostModifier": 25,
 		"attackSound": "nonmetalhit"
 	},
@@ -710,12 +710,12 @@
 		"name": "Cannon Ship",
 		"unitType": "Ranged Water",
 		"movement": 3,
-		"strength": 34,
-		"rangedStrength": 24,
+		"strength": 64,
+		"rangedStrength": 70,
 		"cost": 325,
 		"requiredTech": "Naval Warfare",
 		"obsoleteTech": "Official Navy",
-		"uniques": ["[+100]% Strength <vs [{Military} {Water}] units> <when attacking>"],
+		"uniques": ["[+100]% Strength <vs [{Military} {Water}] units> <when attacking>", "Never appears as a Barbarian unit"],
 		"upgradesTo": "Totsunyuukan",
 		"hurryCostModifier": 35,
 		"attackSound": "cannon"
@@ -724,10 +724,10 @@
 		"name": "Hokan",
 		"unitType": "Melee Water",
 		"movement": 4,
-		"strength": 48,
-		"cost": 425,
+		"strength": 84,
+		"cost": 625,
 		"requiredTech": "Official Navy",
-		"uniques": ["[+100]% Strength <vs [{Military} {Water}] units> <when attacking>", "May capture killed [Water] units"],
+		"uniques": ["[+100]% Strength <vs [{Military} {Water}] units> <when attacking>", "May capture killed [Water] units", "Never appears as a Barbarian unit"],
 		"hurryCostModifier": 30,
 		"attackSound": "nonmetalhit"
 	},
@@ -735,11 +735,11 @@
 		"name": "Totsunyuukan",
 		"unitType": "Ranged Water",
 		"movement": 3,
-		"strength": 48,
-		"rangedStrength": 28,
-		"cost": 550,
+		"strength": 88,
+		"rangedStrength": 78,
+		"cost": 750,
 		"requiredTech": "Official Navy",
-		"uniques": ["[+100]% Strength <vs [{Military} {Water}] units> <when attacking>"],
+		"uniques": ["[+100]% Strength <vs [{Military} {Water}] units> <when attacking>", "Never appears as a Barbarian unit"],
 		"hurryCostModifier": 35,
 		"attackSound": "cannon"
 	},
@@ -764,7 +764,7 @@
 		"requiredTech": "Simple Alchemy",
 		"obsoleteTech": "Magical Science",
 		"upgradesTo": "Senjutsu Practitioner",
-		"attackSound": "throw",
+		"attackSound": "magichit",
 		"uniques": ["Magician", "Never appears as a Barbarian unit"]
 	},
 	{
@@ -777,7 +777,7 @@
 		"requiredTech": "Brewing Mastery",
 		"obsoleteTech": "Magical Science",
 		"upgradesTo": "Elemental Sorcerer",
-		"attackSound": "throw",
+		"attackSound": "magichit",
 		"uniques": ["Magician", "Never appears as a Barbarian unit"]
 	},
 	{
@@ -790,7 +790,7 @@
 		"requiredTech": "Brewing Mastery",
 		"obsoleteTech": "Magical Science",
 		"upgradesTo": "Elemental Sorcerer",
-		"attackSound": "throw",
+		"attackSound": "magichit",
 		"uniques": ["Magician", "Never appears as a Barbarian unit"]
 	},
 	{
@@ -803,7 +803,7 @@
 		"cost": 125,
 		"requiredTech": "Magical Science",
 		"obsoleteTech": "Technology Limit",
-		"attackSound": "throw",
+		"attackSound": "magichit",
 		"promotions": ["Extended Range"],
 		"uniques": ["Magician", "Comment [Becomes obsolete at [Technology Limit]]", "Never appears as a Barbarian unit"]
 	},
@@ -816,7 +816,7 @@
 		"cost": 160,
 		"requiredTech": "Magical Science",
 		"obsoleteTech": "Technology Limit",
-		"attackSound": "throw",
+		"attackSound": "magichit",
 		"uniques": ["Magician", "Can move after attacking", "May Paradrop up to [5] tiles from inside friendly territory", "Comment [Becomes obsolete at [Technology Limit]]", "Never appears as a Barbarian unit"]
 	},
 	{
@@ -829,12 +829,13 @@
 		"cost": 185,
 		"requiredTech": "Limitless Learning",
 		"obsoleteTech": "Technology Limit",
-		"attackSound": "throw",
+		"attackSound": "magichit",
 		"uniques": ["Magician", "[+200]% Strength <vs [City] units>", "Comment [Becomes obsolete at [Technology Limit]]", "Never appears as a Barbarian unit"]
 	},
-	/*
 	{
 		"name": "Archmage",
+		"uniqueTo": "Ordinary Magicians",
+		"replaces": "Esoterica Practitioner",
 		"unitType": "Ranged Sorcery",
 		"range": 3,
 		"movement": 2,
@@ -843,26 +844,24 @@
 		"cost": 150,
 		"requiredTech": "Limitless Learning",
 		"obsoleteTech": "Technology Limit",
-		"attackSound": "throw",
+		"attackSound": "magichit",
 		"uniques": ["Magician", "[+200]% Strength <vs [City] units>", "Comment [Becomes obsolete at [Technology Limit]]", "Never appears as a Barbarian unit"]
 	},
-	*/
 	
 	/* Magic Tree Units Upper */
-	/*
 	{
 		"name": "Possessing Phantom",
 		"unitType": "Scout",
 		"movement": 3,
 		"strength": 5,
 		"cost": 25,
+		"requiredTech": "Mysterious Knowledge",
 		"obsoleteTech": "Advanced Magic",
 		"upgradesTo": "Dream Spirit",
-		"attackSound": "nonmetalhit",
+		"attackSound": "magichit",
 		"promotions": ["Phantom"],
 		"uniques": ["Never appears as a Barbarian unit"]
 	},
-	*/
 	{
 		"name": "Youjutsu Practitioner",
 		"unitType": "Melee Sorcery",
@@ -872,7 +871,7 @@
 		"requiredTech": "Forbidden Sorcery",
 		"obsoleteTech": "Dark Magic",
 		"upgradesTo": "Youjutsu Master",
-		"attackSound": "nonmetalhit",
+		"attackSound": "magichit",
 		"uniques": ["Dark Magician", "Youkai", "[+5] HP when healing", "Never appears as a Barbarian unit"]
 	},
 	{
@@ -884,9 +883,9 @@
 		"requiredTech": "Advanced Magic",
 		"obsoleteTech": "Psychological Warfare",
 		"upgradesTo": "Yume no Seirei",
-		"attackSound": "nonmetalhit",
+		"attackSound": "magichit",
 		"promotions": ["Phantom"],
-		"uniques": ["Youkai", "[-15]% Strength for enemy [Military] units in adjacent [All] tiles", "Never appears as a Barbarian unit"]
+		"uniques": ["Youkai", "[-10]% Strength for enemy [Military] units in adjacent [All] tiles", "Never appears as a Barbarian unit"]
 	},
 	{
 		"name": "Youjutsu Master",
@@ -896,7 +895,7 @@
 		"cost": 120,
 		"requiredTech": "Dark Magic",
 		"obsoleteTech": "Technology Limit",
-		"attackSound": "nonmetalhit",
+		"attackSound": "magichit",
 		"uniques": ["Dark Magician", "Youkai", "[+10] HP when healing", "Comment [Becomes obsolete at [Technology Limit]]", "Never appears as a Barbarian unit"]
 	},
 	{
@@ -907,9 +906,9 @@
 		"cost": 185,
 		"requiredTech": "Psychological Warfare",
 		"obsoleteTech": "Technology Limit",
-		"attackSound": "nonmetalhit",
+		"attackSound": "magichit",
 		"promotions": ["Phantom"],
-		"uniques": ["Youkai", "[-33]% Strength for enemy [Military] units in adjacent [All] tiles", "Comment [Becomes obsolete at [Technology Limit]]", "Never appears as a Barbarian unit"]
+		"uniques": ["Youkai", "[-20]% Strength for enemy [Military] units in adjacent [All] tiles", "Comment [Becomes obsolete at [Technology Limit]]", "Never appears as a Barbarian unit"]
 	},
 	{
 		"name": "Keukegen",
@@ -1165,12 +1164,13 @@
 		"uniqueTo": "Barbarians",
 		"replaces": "Warrior",
 		"unitType": "Sword",
-		"movement": 4,
-		"strength": 7,
+		"movement": 2,
+		"strength": 5,
 		"promotions": ["Beast"]
 		"obsoleteTech": "Paid Service",
 		"upgradesTo": "Tamed Beast",
-		"cost": 55,
+		"unique": ["[+1] Movement <in [Open terrain] tiles>"],
+		"cost": 60,
 		"attackSound": "sword"
 	},
 	{
@@ -1182,8 +1182,8 @@
 		"movement": 2,
 		"strength": 5,
 		"rangedStrength": 5,
-		"cost": 40,
-		"attackSound": "nonmetalhit"
+		"cost": 75,
+		"attackSound": "magichit"
 		"promotions": ["Spirit"]
 		"uniques": ["Ignores Zone of Control"]
 	},
@@ -1192,13 +1192,14 @@
 		"uniqueTo": "Barbarians",
 		"replaces": "Recruit",
 		"unitType": "Sword",
-		"movement": 4,
-		"strength": 11,
-		"cost": 75,
+		"movement": 2,
+		"strength": 8,
+		"cost": 110,
 		"promotions": ["Beast"],
 		"obsoleteTech": "Professional Army",
 		"requiredTech": "Paid Service",
 		"upgradesTo": "Great Wolf",
+		"unique": ["[+1] Movement <in [Open terrain] tiles>"],
 		"attackSound": "nonmetalhit"
 	},
 	{
@@ -1206,11 +1207,12 @@
 		"uniqueTo": "Barbarians",
 		"replaces": "Ashigaru Spearman",
 		"unitType": "Sword",
-		"movement": 4,
-		"strength": 13,
-		"cost": 120,
+		"movement": 2,
+		"strength": 11,
+		"cost": 170,
 		"requiredTech": "Professional Army",
 		"attackSound": "nonmetalhit",
+		"unique": ["[+1] Movement <in [Open terrain] tiles>"],
 		"promotions": ["Beast"]
 	},
 	{
@@ -1222,8 +1224,8 @@
 		"movement": 2,
 		"strength": 7,
 		"rangedStrength": 8,
-		"cost": 85,
-		"attackSound": "nonmetalhit"
+		"cost": 185,
+		"attackSound": "magichit"
 		"promotions": ["Spirit"]
 		"uniques": ["Ignores Zone of Control"]
 	},
@@ -1233,8 +1235,8 @@
 		"uniqueTo": "Barbarians",
 		"replaces": "Trireme",
 		"movement": 3,
-		"strength": 14,
-		"cost": 40,
+		"strength": 13,
+		"cost": 110,
 		"uniques": ["Cannot enter ocean tiles"],
 		"attackSound": "nonmetalhit"
 	},
@@ -1286,8 +1288,8 @@
 		"name": "Royal Guard",
 		"unitType": "Sword",
 		"movement": 2,
-		"strength": 34,
-		"cost": 500,
+		"strength": 90,
+		"cost": 700,
 		"requiredTech": "Literature",
 		"attackSound": "metalhit",
         "uniques": ["Mercenary", "Armor", "Unbuildable"]
@@ -1296,8 +1298,8 @@
 		"name": "Shadow Ninja",
 		"unitType": "Sword",
 		"movement": 2,
-		"strength": 60,
-		"cost": 950,
+		"strength": 76,
+		"cost": 520,
 		"requiredTech": "Literature",
 		"attackSound": "metalhit",
         "uniques": ["Mercenary", "[+2] Movement", "Can see invisible [Scout] units", "Can move after attacking", "Ignores Zone of Control", "Unbuildable"]
@@ -1306,8 +1308,8 @@
 		"name": "Veteran Ronin",
 		"unitType": "Sword",
 		"movement": 2,
-		"strength": 70,
-		"cost": 1200,
+		"strength": 84,
+		"cost": 600,
 		"requiredTech": "Literature",
 		"attackSound": "metalhit",
         "uniques": ["Mercenary", "[2] additional attacks per turn", "Unbuildable"]
