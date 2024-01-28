@@ -128,11 +128,10 @@
 	},
 	{ //off
 		"name": "Railroad",
-        "uniqueTo": "Lunarian Task Force",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"turnsToBuild": 4,
-		//"techRequired": "Railroads",
-		"uniques": ["Cannot be built on [All] tiles", "Can be built outside your borders", "Costs [2] [Gold] per turn"],
+		"techRequired": "Modern Knowledge",
+		"uniques": ["Can be built outside your borders", "Costs [2] [Gold] per turn"],
 		"shortcutKey": "R",
         "civilopediaText": [{"text":"Reduces movement cost to ⅒ if the other tile also has a Railroad"}]
 	},
