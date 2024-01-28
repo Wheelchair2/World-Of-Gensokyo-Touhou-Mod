@@ -223,7 +223,6 @@
         "uniques": [
             "[+100]% Production when constructing [Shrine] buildings [in all cities]",
             "[+100]% Production when constructing [Temple] buildings [in all cities]",
-	"[+4 Faith] from every [Natural Wonder]",
             "Only available <before adopting [Rationalism]>",
             "Only available <for [Hakurei Faction]>",
             "Only available <for [Moriya Faction]>",
@@ -236,6 +235,7 @@
                 "uniques": [
                     "[+1 Faith] from every [Shrine]",
                     "[+1 Faith] from every [Temple]",
+					"[+4 Faith] from every [Natural Wonder]"
                 ],
                 "row": 1,
                 "column": 2
@@ -285,7 +285,7 @@
         "priorities": {
             "Neutral": 0,
             "Cultural": 10,
-            "Diplomatic": 20,
+            "Diplomatic": 10,
             "Domination": 0,
             "Scientific": 10
         },
