@@ -26,7 +26,7 @@
         "startingGold": 50,
         "settlerPopulation": 1,
         "baseUnitBuyCost": 200,
-        "embarkDefense": 14,
+        "embarkDefense": 17,
         "startPercent": 0,
         "citySound": "cityMedieval",
         "iconRGB": [255, 87, 35]
@@ -44,7 +44,7 @@
         "settlerBuildings": ["Monument", "Granary", "Library", "Aqueduct", "Barracks","Lighthouse","Market","Workshop","Amphitheater", "Barracks", "Rice Wine", "Paper Maker","Onsen"]
         "startingObsoleteWonders": ["The Great Library", "Hieda Temple School", "Komakusa Gambling Den", "Barrels Of Alcohol", "Geidontei Bar", "The Great Lighthouse", "Kappa Stronghold", "Cirno's Freezing Hot Spring", "Hot Spring Town"],
         "baseUnitBuyCost": 300,
-        "embarkDefense": 21,
+        "embarkDefense": 61,
         "startPercent": 10,
         "citySound": "cityRenaissance",
         "iconRGB": [233, 31, 99]
@@ -84,7 +84,7 @@
         "settlerBuildings": ["Monument", "Granary", "Library", "Aqueduct", "Barracks","Lighthouse","Market","Workshop","Amphitheater", "Barracks", "Rice Wine", "Paper Maker","Onsen","University"],
         "startingObsoleteWonders": ["The Great Library", "Hieda Temple School", "Komakusa Gambling Den", "Barrels Of Alcohol", "Geidontei Bar", "The Great Lighthouse", "Kappa Stronghold", "Cirno's Freezing Hot Spring", "Hot Spring Town", "Great Wall", "Phantom Ship Harbor", "Blessing Of Winter", "Omoikane's Device", "The Heart Sutra", "Secret Hermit World", "Grimoire Of Youkais"],
         "baseUnitBuyCost": 1000,
-        "embarkDefense": 26,
+        "embarkDefense": 66,
         "startPercent": 80,
 
         "citySound": "cityRenaissance",
