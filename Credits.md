@@ -18,5 +18,6 @@
 - The Three Fairies: [kiwicream09](https://twitter.com/kiwicream09/status/1294064003975491584)
 - Yakumo Yukari: [ahase hino](https://twitter.com/hinoiti/status/1560601926680489987)
 - Hijiri Byakuren: [harakune (mugennero)](https://www.pixiv.net/artworks/114666463)
+- Daiyousei: [syuri22](https://twitter.com/syuri22/status/1733676659310534804)
 
 Thanks to these wonderful artists, and thank you for playing the mod!
