@@ -124,10 +124,9 @@
 		"strength": 11,
 		"cost": 65,
 		"requiredTech": "Authority",
-		"obsoleteTech": "Professional Army",
-		"upgradesTo": "Cavalry",
-		"requiredResource": "Horses",
-		"uniques": ["[+30]% Strength <when defending>", "[-1] Movement <in [Foreign land] tiles>"],
+		"obsoleteTech": "Iron Working",
+		"upgradesTo": "Samurai",
+		"uniques": ["Armor", "[+30]% Strength <when defending>", "[-1] Movement <in [Foreign land] tiles>"],
 		"attackSound": "nonmetalhit"
 	},
 	{
