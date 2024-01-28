@@ -155,7 +155,7 @@
 	{
 		"name": "New Palanquin Ship",
 		"uniqueTo": "Myouren Faction",
-		"uniques": ["Special Wonder", "[+10]% Strength for cities <when defending>"],
+		"uniques": ["Special Wonder", "[+30]% Strength for cities <when defending>"],
 		"cost": 225,
 		"isNationalWonder": true,
 		"greatPersonPoints": {"Great Engineer": 1},
@@ -286,6 +286,16 @@
 		"greatPersonPoints": {"Great Artist": 1},
 		"uniques": ["Special Wonder", "[+1 Production] from every [Plains]"],
 		"quote": "'IIIIITT'S SPRIIIIIINGG!!!' - Lily White."
+	},
+	{
+		"name": "Fairy Garden",
+		"uniqueTo": "Fairy Kingdom",
+		"food": 10,
+		"cost": 185,
+		"isNationalWonder": true,
+		"greatPersonPoints": {"Great Artist": 1},
+		"uniques": ["Special Wonder", "[+5]% Strength <for [Fairy] units>"],
+		"quote": "Ordinary fairies are weaker than humans. Greater fairies are mightier than other fairies."
 	},
 	/*
 	{
