@@ -160,7 +160,8 @@
 				"name": "Currency",
 				"row": 11,
 				"prerequisites": ["Education"],
-				"quote": "'You foul barbarian... How long are you going to believe that you can use violence to hold dominion over objects? Possession of an object can only be controlled by the god of the markets. As long as they possess something, none can escape from the hands of God! The market has been opened! Let us return all things to nothing!' - Chimata Tenkyuu."
+				"quote": "'You foul barbarian... How long are you going to believe that you can use violence to hold dominion over objects? Possession of an object can only be controlled by the god of the markets. As long as they possess something, none can escape from the hands of God! The market has been opened! Let us return all things to nothing!' - Chimata Tenkyuu.",
+				"uniques": ["[+2 Gold] from each Trade Route"]
 			},
 			//// 1 (first)
 			{
