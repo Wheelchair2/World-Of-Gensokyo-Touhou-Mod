@@ -309,7 +309,7 @@
 		"outerColor": [37,9,86],
 		"innerColor": [250,228,255],
 		"uniqueName": "Pity of the Hakutaku",
-		"uniques": ["Starts with [Agriculture]", "Starts with [Scientific Knowledge]", "[All] units gain the [Human Race] promotion", "[+50]% [Science]"],
+		"uniques": ["Starts with [Agriculture]", "Starts with [Scientific Knowledge]", "[All] units gain the [Human Race] promotion", "[+50]% [Science] [in all cities]"],
 		"cities": ["Kyoto", "Osaka", "Sapporo", "Yokohama", "Hiroshima", "Kobe", "Nagoya", "Fukuoka", "Sendai", "Nagasaki"]
 	},
 	{
