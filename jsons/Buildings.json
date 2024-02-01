@@ -32,7 +32,7 @@
 		"food": 4,
 		"hurryCostModifier": 25,
 		"maintenance": 1,
-		"requiredTech": "Agriculture"
+		"requiredTech": "Agriculture",
 	},
 	
 	//Nation Specific Wonders
@@ -579,6 +579,16 @@
 		"quote": "Minamitsu is a ship phantom (funa yuurei), the ghost of a girl who drowned at sea. These types of ghosts are famous in Japanese folklore for capsizing and sinking ships, which inspired her character background and spell cards."
 	},
 	{
+        "name": "Water Wheel",
+        "hurryCostModifier": 0,
+        "maintenance": 2,
+        "uniques": [
+            "Must be on [River]",
+            "[+1 Production] from [River] tiles [in this city]"
+        ],
+        "requiredTech": "Metal Farming Tools"
+    },
+	{
 		"name": "Market",
 		"cost": 100,
 		"gold": 2,
@@ -643,6 +653,19 @@
 		"requiredTech": "Improved Trade",
 		"quote": "It's also referred to as the Inverted Castle, though it's unknown whether this is a proper name for the castle or just an informal description of it. It is the home of Shinmyoumaru Sukuna."
 	},
+	{
+        "name": "Miracle Fountain",
+        "culture": 1,
+        "isWonder": true,
+        "greatPersonPoints": {"Great Engineer": 1},
+        "uniques": [
+            "Must be next to [Desert]",
+            "[+1 Food, +1 Production, +1 Gold] from [Desert] tiles without [Flood plains] [in this city]",
+            "[+6 Culture] [in this city] <after discovering [Arts And Sculpture]>",
+        ],
+        "requiredTech": "Improved Trade",
+        "quote": "In the middle of a war as harsh as the cruelest summer, a fountain sprouts miracle water that can refresh even the most sorrowful souls."
+    },
 	{
 		"name": "Kourindou Store",
 		"science": 3,
@@ -806,11 +829,11 @@
 	},
 	{
 		"name": "Blessing Of Winter",
-		"cost": 625,
+		//"cost": 625,
 		"culture": 1,
 		"isWonder": true,
 		"uniques": ["Must be next to [Snow]", "[+2 Food, +1 Production, +1 Gold] from [Snow] tiles [in this city]", "[+1 Food, +2 Production, +1 Gold] from [Tundra] tiles [in this city]"],
-		"requiredTech": "Law And Order"
+		"requiredTech": "Festivals"
 		"quote": "Letty Whiterock is a seasonal youkai who's only seen during winter. She seems fittingly cold towards most of the humans she meets, and is feared by humans as she is known to freeze them."
 	},
 	 {
@@ -1100,14 +1123,15 @@
 	},
 	{
 		"name": "Barn",
-		"food": 3,
+		"cost": 70,
+		"food": 2,
 		"requiredBuilding": "Granary",
 		"maintenance": 2,
 		"hurryCostModifier": 0,
 		"uniques": ["[+1 Food] from [Deer] tiles [in this city]",
 			"[+1 Food] from [Bananas] tiles [in this city]",
 			"[+1 Food] from [Wheat] tiles [in this city]"],
-		"requiredTech": "Civil Service"
+		"requiredTech": "Authority"
 	},
 	{
 		"name": "Storehouse",
@@ -1337,7 +1361,7 @@
 	{
 		"name": "Fodder Manufactory",
 		"maintenance": 3,
-		"uniques": ["[+2 Food] from [Pasture] tiles [in this city]"],
+		"uniques": ["[+1 Food] from [Pasture] tiles [in this city]", "[+1 Food] from [Camp] tiles [in this city]"],
 		"requiredTech": "Forage Crops Utilization",
 	},
 	{
