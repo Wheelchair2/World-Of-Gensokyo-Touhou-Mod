@@ -1005,6 +1005,7 @@
 	{
 		"name": "Card - Screen Border",
 		"uniques": ["Comment [Yukari Yakumo's ability to let you freely warp between map edges for Scout. It will activates when you have this card.]",
+			"This Unit loses the [Phantasm] promotion",
 			"May Paradrop up to [100] tiles from inside friendly territory <if it hasn't used other actions yet> <for [Scout] units> <with [Screen Border Card]>"
 			]
 	},
