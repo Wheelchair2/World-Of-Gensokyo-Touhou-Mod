@@ -326,7 +326,7 @@
 		"requiredResource": "Iron",
 		"requiredTech": "Civil Service",
 		"obsoleteTech": "Nobility",
-		"upgradesTo": "Palace Guard",
+		"upgradesTo": "Royal Guard",
 		"uniques": ["Armor", "[+30]% Strength <when defending>", "[-1] Movement <in [Foreign land] tiles>"],
 		"attackSound": "metalhit"
 	},
@@ -334,8 +334,8 @@
 		"name": "Royal Guard",
 		"unitType": "Sword",
 		"movement": 2,
-		"strength": 68,
-		"cost": 430,
+		"strength": 70,
+		"cost": 480,
 		"requiredResource": "Iron",
 		"requiredTech": "Nobility",
 		"uniques": ["Armor", "[+30]% Strength <when defending>", "[-1] Movement <in [Foreign land] tiles>"],
@@ -387,11 +387,11 @@
 		"unitType": "Ranged Gunpowder",
 		"movement": 2,
 		"strength": 11,
-		"rangedStrength": 8,
+		"rangedStrength": 19,
 		"cost": 150,
 		"requiredTech": "Gunpowder",
 		"attackSound": "shot",
-		"uniques": ["[+200]% Strength <when attacking> <when adjacent to a [Tanegashima] unit>", "[+50]% Strength <vs [Armor] units> <when attacking>", "[-100]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"]
+		"uniques": ["[+50]% Strength <vs [Armor] units> <when attacking>", "[-100]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"]
 	},
 	{
 		"name": "Field Medic",
@@ -470,7 +470,7 @@
 		"unitType": "Ranged Gunpowder",
 		"movement": 2,
 		"strength": 13,
-		"rangedStrength": 24,
+		"rangedStrength": 25,
 		"cost": 185,
 		"requiredTech": "Law Enforcement",
 		"obsoleteTech": "Nobility",
@@ -585,7 +585,7 @@
 		"name": "Battering Ram",
 		"unitType": "Sword",
 		"movement": 1,
-		"strength": 17,
+		"strength": 18,
 		"cost": 85,
 		"obsoleteTech": "Gunpowder",
 		"requiredTech": "State Government",
@@ -680,10 +680,10 @@
 		"unitType": "Ranged Water",
 		"movement": 2,
 		"strength": 15,
-		"rangedStrength": 13,
+		"rangedStrength": 22,
 		"cost": 125,
 		"requiredTech": "Gunpowder",
-		"uniques": ["Cannot enter ocean tiles", "[+150]% Strength <vs [{Military} {Water}] units> <when adjacent to a [Musketmen Fleet] unit> <when attacking>"],
+		"uniques": ["Cannot enter ocean tiles", "Never appears as a Barbarian unit"],
 		"upgradesTo": "Gunboat",
 		"obsoleteTech": "Compass",
 		"attackSound": "shot"
@@ -722,11 +722,11 @@
 		"unitType": "Ranged Water",
 		"movement": 4,
 		"strength": 17,
-		"rangedStrength": 24,
+		"rangedStrength": 27,
 		"cost": 155,
 		"requiredTech": "Compass",
 		"obsoleteTech": "Naval Warfare",
-		"uniques": ["[+100]% Strength <vs [{Military} {Water}] units> <when attacking>"]
+		"uniques": ["[+50]% Strength <vs [{Military} {Water}] units> <when attacking>"]
 		"hurryCostModifier": 20,
 		"attackSound": "shot"
 	},
@@ -1392,31 +1392,31 @@
 	// contemplating if I should add these
 	/*
 	{
-		"name": "Guardsman",
+		"name": "Sentinel",
 		"unitType": "Sword",
 		"movement": 2,
 		"strength": 11,
 		"cost": 75,
 		"requiredTech": "Authority",
 		"obsoleteTech": "Maintained Society",
-		"upgradesTo": "Palace Guard",
+		"upgradesTo": "Palace Sentinel",
 		"uniques": ["Cannot attack", "[-1] Movement <in [Foreign Land] tiles>", "[-20]% Strength <vs [Ranged] units> <when defending>", "Never appears as a Barbarian unit"],
 		"attackSound": "nonmetalhit"
 	},
 	{
-		"name": "Palace Guard",
+		"name": "Palace Sentinel",
 		"unitType": "Sword",
 		"movement": 2,
 		"strength": 29,
 		"cost": 185,
 		"requiredTech": "Maintained Society",
 		"obsoleteTech": "Nobility",
-		"upgradesTo": "Emperor's Guard",
+		"upgradesTo": "Emperor's Sentinel",
 		"uniques": ["Armor", "Cannot attack", "[-1] Movement <in [Foreign Land] tiles>", "[-20]% Strength <vs [Ranged] units> <when defending>", "Never appears as a Barbarian unit"],
 		"attackSound": "nonmetalhit"
 	},
 	{
-		"name": "Emperor's Guard",
+		"name": "Emperor's Sentinel",
 		"unitType": "Sword",
 		"movement": 2,
 		"strength": 65,
