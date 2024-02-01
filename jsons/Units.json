@@ -1293,7 +1293,7 @@
 		"cost": 75,
 		"obsoleteTech": "Literature"
 		"requiredTech": "Printing",
-		"upgradesTo": "Royal Guard",
+		"upgradesTo": "Royal Sentinel",
 		"attackSound": "metalhit",
         "uniques": ["Mercenary", "Unbuildable"]
 	},
