@@ -288,8 +288,8 @@
 		"tradeRequest": "Please, donate to the shrine!",
 		"outerColor": [255,255,255],
 		"innerColor": [255,0,0],
-		"uniqueName": "Lineage Of Shrine Maidens",
-		"uniques": ["Starts with [Religion]", "Starts with [Rituals]",  "[All] units gain the [Human Race] promotion", "[+55]% Great Person generation [in all cities]","Provides [1] [Yin-Yang Orb Card]"]
+		"uniqueName": "Divine Arts",
+		"uniques": ["Starts with [Religion]", "Starts with [Rituals]",  "[All] units gain the [Human Race] promotion", "[+15]% Strength <for [Human] units> <during the [Youkai Expansion Project]>", "[+45]% Strength <for [Human] units> <starting from the [Youkai Expansion Project]", "Provides [1] [Yin-Yang Orb Card]"],
 		"favoredReligion": "Shrine Shinto",
 		"cities": ["Kamigakure", "Hachimori", "Yuugen no Kuni", "Shinseikoku", "Kazanami", "Isagiyama", "Miyamizu", "Youkaino", "Harunoshima", "Fushimori"]
 	}
@@ -328,7 +328,7 @@
 		"outerColor": [193,117,50],
 		"innerColor": [255,241,141],
 		"uniqueName": "Secret God",
-		"uniques": ["[All] units gain the [Divine Blessing] promotion", "[+20]% Strength <for units with [Divine Blessing]>", "Comment [What makes this promotion special is that there are no units who can counter it]","Provides [1] [Backdoor Card]"]
+		"uniques": ["[All] units gain the [Divine Blessing] promotion", "[+20]% Strength <for units with [Divine Blessing]>", "Comment [What makes this promotion special is that there are no units who can counter it]","Provides [1] [Backdoor Card]"],
 		"cities": ["Matara-kyo", "Jinzen City", "Kamimachi", "Takamoriya", "Kanazakura", "Yumegiri", "Matsuribayashi", "Jinmachi", "Mikumari", "Matara no Sato"]
 	},
 	{
