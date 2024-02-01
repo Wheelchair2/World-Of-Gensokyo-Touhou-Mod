@@ -258,7 +258,7 @@
 	{
 		"name": "Screen Border Card",
 		"resourceType": "Luxury",
-		"uniques": ["Not shown on world screen","[All] units gain the [Card - Screen Border] promotion <with [Screen Border Card]>","Comment [Cards only give 1 [Happiness] as a luxury resource.]", "Comment [-4 [Happiness] to this resource]", "[-4 Happiness] <hidden from users>"]
+		"uniques": ["Not shown on world screen","[Scout] units gain the [Card - Screen Border] promotion <with [Screen Border Card]>","Comment [Cards only give 1 [Happiness] as a luxury resource.]", "Comment [-4 [Happiness] to this resource]", "[-4 Happiness] <hidden from users>"]
 	},
 	{
 		"name": "Miracle Mallet Card",
