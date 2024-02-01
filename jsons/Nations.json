@@ -289,7 +289,7 @@
 		"outerColor": [255,255,255],
 		"innerColor": [255,0,0],
 		"uniqueName": "Divine Arts",
-		"uniques": ["Starts with [Religion]", "Starts with [Rituals]",  "[All] units gain the [Human Race] promotion", "[+15]% Strength <for [Human] units> <during the [Youkai Expansion Project]>", "[+45]% Strength <for [Human] units> <starting from the [Youkai Expansion Project]", "Provides [1] [Yin-Yang Orb Card]"],
+		"uniques": ["Starts with [Religion]", "Starts with [Rituals]",  "[All] units gain the [Human Race] promotion", "[+15]% Strength <for [Human] units> <during the [Youkai Expansion Project]>", "[+45]% Strength <for [Human] units> <starting from the [Youkai Expansion Project]>", "Provides [1] [Yin-Yang Orb Card]"],
 		"favoredReligion": "Shrine Shinto",
 		"cities": ["Kamigakure", "Hachimori", "Yuugen no Kuni", "Shinseikoku", "Kazanami", "Isagiyama", "Miyamizu", "Youkaino", "Harunoshima", "Fushimori"]
 	}
