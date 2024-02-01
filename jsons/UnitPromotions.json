@@ -167,7 +167,7 @@
 	},
 	{
 		"name": "Vampire",
-		"uniques": ["Racial", "Heals [15] damage if it kills a unit"]
+		"uniques": ["Racial", "Heals [50] damage if it kills a unit"]
 	},
 	{
 		"name": "Satori Race",
