@@ -115,19 +115,7 @@
 		"requiredTech": "Negotiations",
 		"upgradesTo": "Field Medic",
 		"attackSound": "nonmetalhit",
-		"uniques": ["All adjacent units heal [3] HP when healing"]
-	},
-	{
-		"name": "Guardsman",
-		"unitType": "Sword",
-		"movement": 2,
-		"strength": 11,
-		"cost": 65,
-		"requiredTech": "Authority",
-		"obsoleteTech": "Iron Working",
-		"upgradesTo": "Samurai",
-		"uniques": ["Armor", "[+30]% Strength <when defending>", "[-1] Movement <in [Foreign land] tiles>"],
-		"attackSound": "nonmetalhit"
+		"uniques": ["All adjacent units heal [5] HP when healing"]
 	},
 	{
 		"name": "Archer",
@@ -302,7 +290,57 @@
         "uniques": ["Armor", "Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "[+100]% Strength <vs [Ranged] units> <when attacking>", "Never appears as a Barbarian unit"]
 	},
 	
-
+	
+	{
+		"name": "Guardsman",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 17,
+		"cost": 90,
+		"requiredResource": "Iron",
+		"requiredTech": "Shield Wall",
+		"obsoleteTech": "Law And Order",
+		"upgradesTo": "Defence Chief",
+		"uniques": ["Armor", "[+30]% Strength <when defending>", "[-1] Movement <in [Foreign land] tiles>"],
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Defence Chief",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 24,
+		"cost": 150,
+		"requiredResource": "Iron",
+		"requiredTech": "Law And Order",
+		"obsoleteTech": "Civil Service",
+		"upgradesTo": "Palace Guard",
+		"uniques": ["Armor", "[+30]% Strength <when defending>", "[-1] Movement <in [Foreign land] tiles>"],
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Palace Guard",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 60,
+		"cost": 230,
+		"requiredResource": "Iron",
+		"requiredTech": "Civil Service",
+		"obsoleteTech": "Nobility",
+		"upgradesTo": "Palace Guard",
+		"uniques": ["Armor", "[+30]% Strength <when defending>", "[-1] Movement <in [Foreign land] tiles>"],
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Royal Guard",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 68,
+		"cost": 430,
+		"requiredResource": "Iron",
+		"requiredTech": "Nobility",
+		"uniques": ["Armor", "[+30]% Strength <when defending>", "[-1] Movement <in [Foreign land] tiles>"],
+		"attackSound": "metalhit"
+	},
 	{
 		"name": "Elite Samurai",
 		"unitType": "Sword",
@@ -1251,8 +1289,8 @@
 		"name": "Serviceman",
 		"unitType": "Sword",
 		"movement": 2,
-		"strength": 14,
-		"cost": 160,
+		"strength": 19,
+		"cost": 75,
 		"obsoleteTech": "Literature"
 		"requiredTech": "Printing",
 		"upgradesTo": "Royal Guard",
@@ -1263,8 +1301,8 @@
 		"name": "Ninja",
 		"unitType": "Sword",
 		"movement": 2,
-		"strength": 16,
-		"cost": 320,
+		"strength": 24,
+		"cost": 100,
 		"obsoleteTech": "Literature"
 		"requiredTech": "Printing",
 		"upgradesTo": "Shadow Ninja",
@@ -1275,8 +1313,8 @@
 		"name": "Ronin",
 		"unitType": "Sword",
 		"movement": 2,
-		"strength": 24,
-		"cost": 640,
+		"strength": 27,
+		"cost": 125,
 		"obsoleteTech": "Literature"
 		"requiredTech": "Printing",
 		"upgradesTo": "Veteran Ronin",
@@ -1284,11 +1322,11 @@
         "uniques": ["Mercenary", "[1] additional attacks per turn", "Unbuildable"]
 	},
 	{
-		"name": "Royal Guard",
+		"name": "Royal Sentinel",
 		"unitType": "Sword",
 		"movement": 2,
 		"strength": 90,
-		"cost": 700,
+		"cost": 150,
 		"requiredTech": "Literature",
 		"attackSound": "metalhit",
         "uniques": ["Mercenary", "Armor", "Unbuildable"]
@@ -1298,7 +1336,7 @@
 		"unitType": "Sword",
 		"movement": 2,
 		"strength": 76,
-		"cost": 520,
+		"cost": 200,
 		"requiredTech": "Literature",
 		"attackSound": "metalhit",
         "uniques": ["Mercenary", "[+2] Movement", "Can see invisible [Scout] units", "Can move after attacking", "Ignores Zone of Control", "Unbuildable"]
@@ -1308,7 +1346,7 @@
 		"unitType": "Sword",
 		"movement": 2,
 		"strength": 84,
-		"cost": 600,
+		"cost": 250,
 		"requiredTech": "Literature",
 		"attackSound": "metalhit",
         "uniques": ["Mercenary", "[2] additional attacks per turn", "Unbuildable"]
