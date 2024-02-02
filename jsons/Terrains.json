@@ -429,6 +429,8 @@
   {
 		"name": "Chikushokai",
 		"type": "NaturalWonder",
+		"food": 1,
+		"production": 1,
 		"defenceBonus": 0.50,
 		"movementCost": 2,
 		"overrideStats": true,
