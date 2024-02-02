@@ -357,14 +357,14 @@
 		"columnNumber": 6,
 		"era": "Edo period",
 		"techCost": 485,
-		"buildingCost": 75,
-		"wonderCost": 185,
+		"buildingCost": 160,
+		"wonderCost": 400,
 		"techs": [
 			{
 				"name": "Heavy Plough",
 				"row": 5,
 				"prerequisites": ["Metal Farming Tools"],
-				"uniques": ["[+25]% Yield from every [Pasture]"],
+				"uniques": ["[+1 Production] from every [Plantation]"],
 				"quote": "Rice cultivation is Japan's heart; food is Japan's life."
 			},
 			{
@@ -433,8 +433,8 @@
 		"columnNumber": 7,
 		"era": "Edo period",
 		"techCost": 780,
-		"buildingCost": 75,
-		"wonderCost": 185,
+		"buildingCost": 200,
+		"wonderCost": 500,
 		"techs": [
 			{
 				"name": "Multicropping System",
@@ -485,8 +485,8 @@
 		"columnNumber": 8,
 		"era": "Edo period",
 		"techCost": 1000,
-		"buildingCost": 160,
-		"wonderCost": 250,
+		"buildingCost": 300,
+		"wonderCost": 750,
 		"techs": [
 			{
 				"name": "Forage Crops Utilization",
