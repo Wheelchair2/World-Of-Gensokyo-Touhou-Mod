@@ -89,7 +89,7 @@
 		"cost": 40,
 		"obsoleteTech": "Paid Service",
 		"upgradesTo": "Recruit",
-		"attackSound": "nonmetalhit",
+		"attackSound": "nonmetalhit"
 	},
 	/*
 	//Hourai Immortals
@@ -274,6 +274,22 @@
 		"requiredTech": "Iron Working",
 		"upgradesTo": "Elite Samurai",
 		"attackSound": "metalhit",
+        "uniques": ["Armor", "Never appears as a Barbarian unit", "[+25]% Strength <vs [Ashigaru] units>"]
+	},
+	{
+		"name": "Hopping Jiangshi",
+		"uniqueTo": "Land Of The Corpses",
+		"replaces": "Samurai",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 18,
+		"cost": 100,
+		"obsoleteTech": "Metal Casting",
+		"requiredResource": "Iron",
+		"requiredTech": "Iron Working",
+		"upgradesTo": "Elite Samurai",
+		"attackSound": "metalhit",
+		"promotions": ["Jiangshi"],
         "uniques": ["Armor", "Never appears as a Barbarian unit", "[+25]% Strength <vs [Ashigaru] units>"]
 	},
 	{
@@ -957,10 +973,23 @@
 		"uniques": ["Youkai", "[-33]% Strength for enemy [Military] units in adjacent [All] tiles", "Comment [Becomes obsolete at [Technology Limit]]", "Never appears as a Barbarian unit"]
 	},
 	{
-		"name": "Shuten Doji Summon",
+		"name": "Jiangshi Familiar",
 		"unitType": "Sword",
 		"movement": 2,
 		"strength": 18,
+		"cost": 100,
+		"requiredTech": "Psychological Warfare",
+		"obsoleteTech": "Technology Limit",
+		"attackSound": "nonmetalhit",
+		"promotions": ["Jiangshi"],
+		"uniques": ["Comment [Becomes obsolete at [Technology Limit]]", "Never appears as a Barbarian unit"]
+	},
+	////
+	{
+		"name": "Shuten Doji Summon",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 20,
 		"cost": 185,
 		"requiredTech": "Field Of Summoning",
 		"obsoleteTech": "Technology Limit",
@@ -1197,6 +1226,18 @@
 	
 	//Barbarian units
 	{
+		"name": "Roaming Jiangshi",
+		"uniqueTo": "Barbarians",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 11,
+		"cost": 150,
+		"requiredTech": "Professional Army",
+		"attackSound": "nonmetalhit",
+		"promotions": ["Jiangshi"],
+		"uniques": ["Summon", "Comment [Becomes obsolete at [Technology Limit]]", "Never appears as a Barbarian unit"]
+	},
+	{
 		"name": "Wild Beast",
 		"uniqueTo": "Barbarians",
 		"replaces": "Warrior",
@@ -1206,7 +1247,7 @@
 		"promotions": ["Beast"]
 		"obsoleteTech": "Paid Service",
 		"upgradesTo": "Tamed Beast",
-		"unique": ["[+1] Movement <in [Open terrain] tiles>"],
+		"uniques": ["[+1] Movement <in [Open terrain] tiles>"],
 		"cost": 60,
 		"attackSound": "sword"
 	},
@@ -1236,7 +1277,7 @@
 		"obsoleteTech": "Professional Army",
 		"requiredTech": "Paid Service",
 		"upgradesTo": "Great Wolf",
-		"unique": ["[+1] Movement <in [Open terrain] tiles>"],
+		"uniques": ["[+1] Movement <in [Open terrain] tiles>"],
 		"attackSound": "nonmetalhit"
 	},
 	{
@@ -1249,7 +1290,7 @@
 		"cost": 170,
 		"requiredTech": "Professional Army",
 		"attackSound": "nonmetalhit",
-		"unique": ["[+1] Movement <in [Open terrain] tiles>"],
+		"uniques": ["[+1] Movement <in [Open terrain] tiles>"],
 		"promotions": ["Beast"]
 	},
 	{
