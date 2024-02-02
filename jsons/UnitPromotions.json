@@ -26,7 +26,7 @@
 			"This Unit gains the [Martial Arts] promotion <upon defeating a [Martial Arts] unit>",
 			"This Unit gains the [Absorbing Misfortune] promotion <upon defeating a [Absorbing Misfortune] unit>",
 			"This Unit gains the [Wise Hermit] promotion <upon defeating a [Wise Hermit] unit>",
-			"------------------",
+			"Comment [------------------]",
 			"This Unit gains the [Accuracy I] promotion <upon defeating a [Accuracy I] unit> <for [{Land} {Ranged}] units>",
 			"This Unit gains the [Accuracy II] promotion <upon defeating a [Accuracy II] unit> <for [{Land} {Ranged}] units>",
 			"This Unit gains the [Accuracy III] promotion <upon defeating a [Accuracy III] unit> <for [{Land} {Ranged}] units>",
@@ -65,12 +65,15 @@
 			"This Unit gains the [Medic II] promotion <upon defeating a [Medic II] unit> <for [{Land} {Melee}] units>",
 			//"This Unit gains the [Anti-Armor I] promotion <upon defeating a [Anti-Armor I] unit> <for [{Land} {Ranged}] units>",
 			//"This Unit gains the [Anti-Armor II] promotion <upon defeating a [Anti-Armor II] unit> <for [{Land} {Ranged}] units>",
+			"This Unit gains the [Refine Armor I] promotion <upon defeating a [Refine Armor I] unit> <for [{Land} {Melee}] units>",
+			"This Unit gains the [Refine Armor II] promotion <upon defeating a [Refine Armor II] unit> <for [{Land} {Melee}] units>",
+			"This Unit gains the [Refine Armor III] promotion <upon defeating a [Refine Armor III] unit> <for [{Land} {Melee}] units>",
 			"This Unit gains the [Armor Plating I] promotion <upon defeating a [Armor Plating I] unit> <for [{Land} {Melee}] units>",
 			"This Unit gains the [Armor Plating II] promotion <upon defeating a [Armor Plating II] unit> <for [{Land} {Melee}] units>",
 			"This Unit gains the [Armor Plating III] promotion <upon defeating a [Armor Plating III] unit> <for [{Land} {Melee}] units>",
 			"This Unit gains the [Ambush I] promotion <upon defeating a [Ambush I] unit> <for [{Land} {Melee}] units>",
 			"This Unit gains the [Ambush II] promotion <upon defeating a [Ambush II] unit> <for [{Land} {Melee}] units>",
-			"------------------",
+			"Comment [------------------]",
 			"This Unit gains the [Volley] promotion <upon defeating a [Volley] unit> <for [{Land} {Ranged}] units>",
 			"This Unit gains the [Extended Range] promotion <upon defeating a [Extended Range] unit> <for [{Land} {Ranged}] units>",
 			"This Unit gains the [Indirect Fire] promotion <upon defeating a [Indirect Fire] unit> <for [{Land} {Ranged}] units>",
@@ -163,7 +166,11 @@
 	},
 	{
 		"name": "Corpse",
-		"uniques": ["Apparition", "May capture killed [Human] units", "Can only heal by pillaging", "[+15]% Strength <vs [Human] units>"]
+		"uniques": ["Apparition", "May capture killed [Human] units", "Can only heal by pillaging", "[+15]% Strength <when attacking> <vs [Human] units>"]
+	},
+	{
+		"name": "Jiangshi",
+		"uniques": ["Apparition", "May capture killed [Military] units", "Can only heal by pillaging", "[+20]% Strength <when attacking> <vs [Wounded] units>", "This Unit loses the [Corpse] promotion"]
 	},
 	{
 		"name": "Vampire",
@@ -977,6 +984,44 @@
 	},
     // Special Promotions
 	
+	{
+        "name": "Morale", // Heroic Epic
+        "uniques": [
+            "[+15]% Strength"
+        ]
+    },
+	
+    {
+        "name": "Great Generals I",
+        "uniques": [
+            "[Great General] is earned [50]% faster"
+        ]
+    },
+    {
+        "name": "Great Generals II",
+        "uniques": [
+            "[Great General] is earned [100]% faster"
+        ]
+    },
+    {
+        "name": "Quick Study", // is not being used (yet) in this mod
+        "uniques": [
+            "[+50]% XP gained from combat"
+        ]
+    },
+	
+    {
+        "name": "Slinger Withdraw", // only for Slinger (doesn't exist in this mod as of now)
+        "uniques": [
+            "May withdraw before melee ([80]%)"
+        ]
+    },
+    {
+        "name": "Ignore terrain cost",
+        "uniques": [
+            "Ignores terrain cost"
+        ]
+    },
 	{
 		"name": "Devout", //New update promotion
  		"uniques": ["Can Spread Religion <[1] additional time(s)>"]
