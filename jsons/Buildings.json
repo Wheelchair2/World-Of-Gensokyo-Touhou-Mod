@@ -29,10 +29,13 @@
 	{ //not always available 
 		"name": "Granary",
 		"cost": 60,
-		"food": 4,
+		"food": 2,
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"requiredTech": "Agriculture",
+		"uniques": ["[+1 Food] from [Deer] tiles [in this city]",
+			"[+1 Food] from [Bananas] tiles [in this city]",
+			"[+1 Food] from [Wheat] tiles [in this city]"]
 	},
 	
 	//Nation Specific Wonders
@@ -105,6 +108,7 @@
 		"cost": 225,
 		"isNationalWonder": true,
 		"greatPersonPoints": {"Great Artist": 1},
+		"specialistSlots": {"Artist": 1},
         "uniques": ["Special Wonder", "[+4 Culture] <during the [Youkai Expansion Project]>",
         "[+5 Culture] <during the [Edo period]>",
         "[+6 Culture] <during the [Meiji era]>",
@@ -129,7 +133,7 @@
 		"cost": 225,
 		"isNationalWonder": true,
 		"greatPersonPoints": {"Great Artist": 1},
-        "uniques": ["Special Wonder", "[+40]% Production when constructing [Land] units [in all cities]"],
+        "uniques": ["Special Wonder", "[+40]% Production when constructing [Land] units [in all cities]", "All newly-trained [Military] units [in this city] receive the [Jiangshi] promotion"],
 		"quote": "She refined her Taoist beliefs and techniques for many years, though apparently many of the things she did toward this end were somewhat taboo, including gaining an unaging body, and she ended up being feared by the common people."
 	},
 	{
@@ -397,6 +401,15 @@
 		"requiredTech": "Professional Army"
 	},
 	{
+		"name": "Spirit-Repelling Grounds",
+		"uniqueTo": "Hakurei Faction",
+		"replaces": "Barracks",
+		"hurryCostModifier": 25,
+		"maintenance": 3,
+		"uniques": ["New [Military] units start with [15] Experience [in this city]", "All newly-trained [Military] units [in this city] receive the [Anti-Youkai] promotion", "Destroyed when the city is captured"],
+		"requiredTech": "Professional Army"
+	},
+	{
 		"name": "The Great Library",
 		"science": 3,
 		"isWonder": true,
@@ -483,7 +496,6 @@
 	},
 	{
 		"name": "Harbor",
-		"cost": 160,
 		"maintenance": 2,
 		"hurryCostModifier": 25,
 		"uniques": ["[+1 Production] from [Water resource] tiles [in this city]",
@@ -617,7 +629,6 @@
 	},
 	{
 		"name": "Sculpture",
-		"cost": 250,
 		"maintenance": 0,
 		"requiredNearbyImprovedResources": ["Marbles"],
 		"hurryCostModifier": 25,
@@ -626,7 +637,6 @@
 	},
 	{
 		"name": "Cotton Farm",
-		"cost": 160,
 		"maintenance": 3,
 		"requiredNearbyImprovedResources": ["Cotton"],
 		"hurryCostModifier": 12,
@@ -686,9 +696,22 @@
 		"name": "Paper Maker",
 		"hurryCostModifier": 25,
 		"science": 2,
+		"specialistSlots": {"Scientist": 1},
 		"maintenance": 2,
 		"requiredTech": "Printing",
 	},
+	{
+        "name": "Heroic Epic",
+        "cost": 125,
+        "culture": 1,
+        "isNationalWonder": true,
+        "uniques": [
+            "Requires a [Barracks] in all cities",
+            "All newly-trained [non-air] units [in this city] receive the [Morale] promotion",
+            "Cost increases by [30] per owned city",
+        ],
+        "requiredTech": "Iron Working"
+    },
 	{
 		"name": "Kiln",
 		"maintenance": 3,
@@ -746,7 +769,6 @@
 	},
 	{
 		"name": "Armory",
-		"cost": 160,
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"requiredBuilding": "Barracks",
@@ -755,6 +777,7 @@
 	},
 	{
 		"name": "Meiling's Training Center",
+		"culture": 1,
 		"isWonder": true,
 		"uniques": ["All newly-trained [non-air] units [in this city] receive the [Martial Arts] promotion", "Comment [(Learning [Martial Arts] gives your unit +50% XP gain from combat)]"],
 		"requiredTech": "Iron Working"
@@ -764,7 +787,7 @@
 		"cost": 125,
 		"uniqueTo": "The Unified Doll Front",
 		"replaces": "Circus",
-		"happiness": 2,
+		"happiness": 4,
 		"hurryCostModifier": 25,
 		"maintenance": 2,
 		"requiredTech": "Festivals",
@@ -781,7 +804,6 @@
 	},
 	{
 		"name": "Fortress",
-		"cost": 160,
 		"cityStrength": 10,
 		"cityHealth": 25,
 		"hurryCostModifier": 20,
@@ -791,7 +813,7 @@
 	},
 	{
 		"name": "High Walls",
-		"cost": 200,
+		"cost": 100,
 		"cityHealth": 50,
 		"hurryCostModifier": 20,
 		"requiredTech": "Shogunate",
@@ -865,7 +887,6 @@
 	},
 	{
 		"name": "Opera House",
-		"cost": 200,
 		"culture": 4,
 		"specialistSlots": {"Artist": 1},
 		"hurryCostModifier": 25,
@@ -893,17 +914,16 @@
 	},
 	{
 		"name": "Bank",
-		"cost": 200,
-		"gold": 3,
+		"gold": 5,
 		"specialistSlots": {"Merchant": 1},
 		"hurryCostModifier": 15,
 		"percentStatBonus": {"gold": 25},
+		"unique": ["[+1 Gold] from [Luxury resource] tiles [in this city]"],
 		"requiredBuilding": "Market",
 		"requiredTech": "Economics"
 	},
 	{
 		"name": "University",
-		"cost": 160,
 		"maintenance": 2,
 		"hurryCostModifier": 25,
 		"percentStatBonus": {"science": 33},
@@ -937,10 +957,19 @@
 		"requiredTech": "Law And Order"
 	},
 	{
+		"name": "Ruins Of Vina",
+		"culture": 1,
+		"isWonder": true,
+		"greatPersonPoints": {"Great Artist": 1},
+		"uniques": ["[-10]% Unhappiness from [Population] [in all cities]"],
+		"requiredTech": "Law And Order",
+		"quote": "A location in Makai where Elis, a bat-transforming youkai, was found by Reimu. Somehow, she's not considered a vampire."
+	},
+	{
 		"name": "Circus",
 		"cost": 125,
 		"requiredNearbyImprovedResources": ["Ivory","Horses"],
-		"happiness": 2,
+		"happiness": 4,
 		"hurryCostModifier": 15,
 		"requiredTech": "Festivals"
 	},
@@ -979,7 +1008,8 @@
 	},
 	{
 		"name": "Tea House",
-		"culture": 3,
+		"culture": 5,
+		"specialistSlots": {"Artist": 2},
 		"hurryCostModifier": 25,
 		"requiredBuilding": "Opera House",
 		"maintenance": 3,
@@ -987,7 +1017,6 @@
 	},
 	{
 		"name": "Arsenal",
-		"cost": 250,
 		"cityStrength": 9,
 		"cityHealth": 25,
 		"hurryCostModifier": 25,
@@ -1019,7 +1048,7 @@
 		"culture": 1,
 		"isWonder": true,
 		"greatPersonPoints": {"Great Artist": 1},
-		"uniques": ["[-10]% Unhappiness from [Population] [in all cities]"],
+		"uniques": ["Must be on [River]", "[+1 Production, +1 Culture] from [River] tiles [in this city]"],
 		"requiredTech": "Vassal States",
 		"quote": "As the name implies, it is a water canal strewn with willows, and due to its close proximity to the Human Village, as well as the in-game assumption that rampaging youkai wouldn't be near it, it can be safely assumed that it serves a regular purpose for the village and that humans visit it frequently."
 	},
@@ -1027,20 +1056,11 @@
 		"name": "Twilight Bar Room",
 		"culture": 1,
 		"happiness": 4,
-		"greatPersonPoints": {"Great Artist": 2},
+		"greatPersonPoints": {"Great Engineer": 1},
 		"isWonder": true,
-		"uniques": ["Empire enters golden age"],
+		"uniques": ["[+50]% Golden Age length"],
 		"requiredTech": "Woodblock Printing",
 		"quote": "It's a mysterious place when you get really drunk, as you usually find yourself flying around the place dodging bullets from food and drinks (drunkenly, of course). It's even said that you can see an illusionary world by morning."
-	},
-	{
-		"name": "Grimoire Of Youkais",
-		"culture": 1,
-		"isWonder": true,
-		"greatPersonPoints": {"Great Artist": 1},
-		"uniques": ["[+15]% Strength <for [Youkai] units>"],
-		"requiredTech": "Advanced Magic",
-		"quote": "Youkai are primarily spiritual beings rather than physical ones. As such they are more vulnerable to faith-based attacks (such as charms, wards, etc.) than to physical injuries and ailments; it's said a youkai can even recover from being cut into pieces, if the damage has insufficient 'meaning' behind it."
 	},
 	{
 		"name": "Hospital",
@@ -1048,7 +1068,8 @@
 		"requiredBuilding": "Aqueduct",
 		"maintenance": 2,
 		"hurryCostModifier": 0,
-		"requiredTech": "Medicine"
+		"requiredTech": "Medicine",
+		"uniques": ["[+30]% Production when constructing [Field Medic] units [in this city]"]
 	},
 	{
 		"name": "Furniture Shop",
@@ -1103,6 +1124,7 @@
 		"requiredBuilding": "Town Square",
 		"maintenance": 2,
 		"hurryCostModifier": 0,
+		"uniques": ["[+2 Food] from [Sheep] tiles [in this city]", "[+2 Food] from [Deer] tiles [in this city]", "[+2 Food] from [Wine] tiles [in this city]"],
 		"requiredTech": "Exclusive Electricity"
 	},
 	{
@@ -1123,15 +1145,13 @@
 	},
 	{
 		"name": "Barn",
-		"cost": 70,
-		"food": 2,
 		"requiredBuilding": "Granary",
 		"maintenance": 2,
 		"hurryCostModifier": 0,
-		"uniques": ["[+1 Food] from [Deer] tiles [in this city]",
-			"[+1 Food] from [Bananas] tiles [in this city]",
-			"[+1 Food] from [Wheat] tiles [in this city]"],
-		"requiredTech": "Authority"
+		"uniques": ["[+2 Production] from [Wheat] tiles [in this city]", 
+			"[+2 Production] from [Wheat] tiles [in this city]"
+			],
+		"requiredTech": "Multicropping System"
 	},
 	{
 		"name": "Storehouse",
@@ -1157,23 +1177,26 @@
 	//Magic Tree Buildings
 	{
 		"name": "Magic Cauldron",
-		"maintenance": 2,
-		"science": 2,
+		"cost": 45,
+		"maintenance": 1,
+		"science": 1,
 		"production": 1,
 		"hurryCostModifier": 25,
 		"requiredTech": "Simple Alchemy"
 	},
 	{
 		"name": "Ingredients Store",
-		"food": 2,
-		"gold": 1,
+		"cost": 100,
+		"food": 4,
+		"gold": 2,
 		"hurryCostModifier": 25,
 		"uniques": ["Must have an owned [Forest Of Magic] within [3] tiles"],
 		"requiredTech": "Simple Alchemy"
 	},
 	{
 		"name": "Potion Maker",
-		"maintenance": 2,
+		"cost": 75,
+		"maintenance": 1,
 		"production": 2,
 		"hurryCostModifier": 25,
 		"requiredBuilding": "Magic Cauldron",
@@ -1181,11 +1204,26 @@
 	},
 	{
 		"name": "Experiment Room",
+		"cost": 90,
 		"science": 1,
 		"maintenance": 1,
 		"hurryCostModifier": 10,
-		"uniques": ["Gain [50]-[100] [Science]", "Consumes [2] [Horses]"],
+		"uniques": ["Comment [Free random amount of Summon units appears with 50% chance]", "Consumes [2] [Horses]", "Unsellable",
+			"Free [Shuten Doji Summon] appears <with [50]% chance>",
+			"Free [Great Wolf Summon] appears <with [50]% chance>",
+			"Free [Kitsune Summon] appears <with [50]% chance>",
+		],
 		"requiredTech": "Forbidden Sorcery"
+	},
+	{
+		"name": "Grimoire Of Youkais",
+		"cost": 125,
+		"culture": 1,
+		"isWonder": true,
+		"greatPersonPoints": {"Great Engineer": 1},
+		"uniques": ["[+10]% Strength <for [Youkai] units>"],
+		"requiredTech": "Advanced Magic",
+		"quote": "Youkai are primarily spiritual beings rather than physical ones. As such they are more vulnerable to faith-based attacks (such as charms, wards, etc.) than to physical injuries and ailments; it's said a youkai can even recover from being cut into pieces, if the damage has insufficient 'meaning' behind it."
 	},
 
 	
@@ -1272,6 +1310,7 @@
 	},
 	{
 		"name": "Omoikane's Device",
+		"cost": 125,
 		"culture": 1,
 		"isWonder": true,
 		"greatPersonPoints": {"Great Scientist": 1},
@@ -1300,6 +1339,7 @@
 	},
 	{
 		"name": "Donation Box",
+		"cost": 40,
 		"hurryCostModifier": 2,
 		"gold": 1,
 		"maintenance": 0,
@@ -1309,22 +1349,24 @@
 	},
 	{
 		"name": "Charity House",
+		"cost": 75,
 		"hurryCostModifier": 10,
 		"maintenance": 2,
-		"food": 2,
+		"food": 4,
 		"happiness": 1,
 		"requiredTech": "Rituals"
 	},
 	{
 		"name": "Tea Ceremony",
 		"cost": 125,
-		"culture": 3,
+		"culture": 5,
 		"isNationalWonder": true,
 		"uniques": ["[+1 Culture] from every [Tea House]", "Cost increases by [30] per owned city"],
 		"requiredTech": "Rituals"
 	},
 	{
 		"name": "The Heart Sutra",
+		"cost": 185,
 		"isWonder": true,
 		"faith": 4,
 		"happiness": 5,
@@ -1333,6 +1375,7 @@
 	},
 	{
 		"name": "Secret Hermit World",
+		"cost": 185,
 		"isWonder": true,
 		"culture": 3,
 		"uniques": ["[5] free [Mountain Hermit] units appear"]
@@ -1341,6 +1384,7 @@
 	},
 	{
 		"name": "Spiritual Home",
+		"cost": 100,
 		"faith": 4,
 		"maintenance": 2,
 		"requiredTech": "Philosophy",
@@ -1349,6 +1393,7 @@
 	},
 	{
 		"name": "Hall Of Idols",
+		"cost": 400,
 		"culture": 1,
 		"faith": 3,
 		"uniques": ["Only available <if [Major Religions In Gensokyo] is constructed>", "Requires a [Shrine] in all cities", "Hidden when religion is disabled",
@@ -1367,7 +1412,7 @@
 	{
 		"name": "Statue Of The Chicken Goddess",
 		"culture": 3,
-		"uniques": ["[+30]% Yield from every [Pasture]"],
+		"uniques": ["[+50]% Yield from every [Pasture]"],
 		"requiredTech": "Heavy Plough",
 		"isWonder": true,
 		"quote": "Niwatari Kutaka is the God of Chickens, assigned to be the guardian of Hell by the Yama. It is told that she can cure throat illnesses. But then, for what reason did she get assigned to such responsibility...?"
