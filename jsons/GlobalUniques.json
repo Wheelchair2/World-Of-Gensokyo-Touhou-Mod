@@ -2,7 +2,7 @@
     "name": "Global uniques",
     "uniques": [
         "Gain a free [System] [in all cities]",
-        "[+5 Production, +5 Gold] from [Chikushokai] tiles [in all cities] <when at war>",
+		
         "[-75]% growth [in all cities] <when between [-10] and [0] Happiness>",
         "Nullifies Growth [in all cities] <when below [-10] Happiness>",
         "[-50]% [Production] [in all cities] <when below [-10] Happiness>",
@@ -17,7 +17,8 @@
         
         "May buy [Mercenary] units with [Gold] for [2] times their normal Production cost",
         
-	/* "[+50]% Strength <for [Human] units> <during the [Youkai Expansion Project]>", */
+		"[+30]% Strength <for [Human] units> <during the [Youkai Expansion Project]>",
+		"[+30]% Strength <for [Military] units> <vs [Mounted] units> <when fighting in [Barricades] tiles>",
 
         //Specific Uniques
 				/* still needs some testing
