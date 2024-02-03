@@ -203,14 +203,14 @@
 		"turnsToBuild": 6,
 		"happiness": 3
         "culture": 4,
-		"uniques": ["Consumes [1] [Wonder Slot]", "[+5 Gold] <during a Golden Age>"],
+		"uniques": ["Consumes [1] [Wonder Slot]", "[+5 Gold] <during a Golden Age>","Excluded from map editor"],
 	},
 	{
 		"name": "Ninja's House",
 		"terrainsCanBeBuiltOn": ["Bamboo Forest"],
 		"turnsToBuild": 6,
 		"production": 3,
-		"uniques": ["Consumes [1] [Wonder Slot]","Gives a defensive bonus of [175]%"],
+		"uniques": ["Consumes [1] [Wonder Slot]","Gives a defensive bonus of [175]%","Excluded from map editor"],
 	},
 	{
 		"name": "Friendship With Wild Beasts",
@@ -230,7 +230,7 @@
 		"terrainsCanBeBuiltOn": ["Nameless Hill"],
 		"turnsToBuild": 6,
 		"food": 3,
-		"uniques": ["Free [Poison Doll] appears", "Consumes [1] [Wonder Slot]"],
+		"uniques": ["Free [Poison Doll] appears", "Consumes [1] [Wonder Slot]","Excluded from map editor"],
 	},
 	*/
 
