@@ -323,7 +323,14 @@
 		"resourceType": "Luxury",
 		"uniques": ["Comment [Gain 100-200 [Gold]]","Not shown on world screen","Gain [100]-[200] [Gold] <when below [1] [ACPKSS]> <hidden from users>",
 			"Comment [-4 [Happiness] to this resource]", "[-4 Happiness] <hidden from users>","Excluded from map editor",
-			"Provides [1] [ACPKSS] <after [1] turns> <hidden from users>"
+			"Provides [1] [ACPKSS] <after [1] turns> <hidden from users>"]
+	},
+	{
+		"name": "Ability Card; Item Season",
+		"resourceType": "Luxury",
+		"uniques": ["Gain [50] [Gold] <upon entering a Golden Age>",
+			"Empire enters a [3]-turn Golden Age <upon discovering a Natural Wonder>",
+			"Comment [-4 [Happiness] to this resource]", "[-4 Happiness] <hidden from users>","Excluded from map editor"]
 	},
 	// Luxury resources
 	{
