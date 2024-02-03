@@ -522,7 +522,7 @@
 		"outerColor": [245,84,109],
 		"innerColor": [89,19,112],
 		"uniqueName": "Seija's Revolution Plan",
-		"uniques": ["[All] units gain the [Youkai] promotion", "[+50]% [Gold] [in puppeted cities] <before the [Meiji era]>", "[+50]% [Culture] [in puppeted cities] <before the [Meiji era]>", "[+50]% [Science] [in puppeted cities] <before the [Meiji era]>"],
+		"uniques": ["[All] units gain the [Youkai] promotion", "[+50]% [Gold] [in puppeted cities] <before the [Meiji era]>", "[+50]% [Culture] [in puppeted cities] <before the [Meiji era]>", "[+50]% [Science] [in puppeted cities] <before the [Meiji era]>","Provides [1] [Ability Card; Miracle Mallet] <after discovering [Improved Trade]>"],
 		"cities": ["Yamagakure", "Mizuhara", "Koganeishi", "Hoshimori", "Hayatsuki", "Hisamegawa", "Inariyama", "Fuyutsuki", "Tsukiyomi", "Aokigahara"]
 	},
 	{
