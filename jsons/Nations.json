@@ -120,7 +120,7 @@
 		"outerColor": [0,0,0],
 		"innerColor": [242,199,242],
 		"uniqueName": "Manipulation Of Eternity",
-		"uniques": ["[All] units gain the [Lunarian] promotion", "[+15]% Production when constructing [All] buildings [in all cities]", "[-50]% maintenance costs", "[-20]% construction time for [All] improvements"], 
+		"uniques": ["[All] units gain the [Lunarian] promotion", "[+15]% Production when constructing [All] buildings [in all cities]", "[-50]% maintenance costs", "[-20]% construction time for [All] improvements","Provides [1] [Ability Card; Princess Kaguya's Secret Stash] <after discovering [Improved Trade]>"], 
 		"cities": ["Mugenkyo", "Eien no Machi", "Shintenkoku", "Kuon no Toshi", "Toki no Sato", "Kaseki no Machi", "Mugenkai", "Tokoyo City", "Fushi no Kuni", "Kujikujo"]
 	},
 	/*
@@ -170,7 +170,8 @@
 		"Comment [------------------]",
 		"[All] units gain the [Fairy] promotion",
 		"[Land] units gain the [Winged] promotion",
-		"[+50]% Golden Age length"
+		"[+50]% Golden Age length",
+		"Provides [1] [Ability Card; Item Season] <after discovering [Improved Trade]>"
 		],
 		"cities": ["Haru-machi", "Hana-toshi", "Sakura-shi", "Shinryoku-machi", "Hidamari-shi", "Ume-to", "Asagiri-shi", "Kusabana-machi", "Sakuradai-shi", "Ondan-shi"],
 		"style": "fairy"
