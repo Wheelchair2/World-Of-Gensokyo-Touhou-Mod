@@ -223,100 +223,107 @@
 		]
 	},
 	{
-		"name": "Ability Card: Yin-Yang Orb",
+		"name": "Ability Card; Yin-Yang Orb",
 		"resourceType": "Luxury",
 		"uniques": ["Not shown on world screen","[+8]% Strength <for [All] units> <with [Ability Card: Yin-Yang Orb]>","Comment [Cards only give 1 [Happiness] as a luxury resource.]", "Comment [-4 [Happiness] to this resource]", "[-4 Happiness] <hidden from users>","Excluded from map editor"]
 	},
 	{
-		"name": "Ability Card: Mini-Hakkero",
+		"name": "Ability Card; Mini-Hakkero",
 		"resourceType": "Luxury",
 		"uniques": ["Not shown on world screen","[+12]% Strength <for [Siege] units> <with [Ability Card: Mini-Hakkero]>","Comment [Cards only give 1 [Happiness] as a luxury resource.]", "Comment [-4 [Happiness] to this resource]", "[-4 Happiness] <hidden from users>","Excluded from map editor"]
 	},
 	{
-		"name": "Ability Card: Shanghai Doll",
+		"name": "Ability Card; Shanghai Doll",
 		"resourceType": "Luxury",
 		"uniques": ["Not shown on world screen",
 			"[1] free [Worker] units appear <with [Ability Card: Shanghai Doll]> <when below [1] [ACSD]> <hidden from users>",
-			"[Worker] units gain the [Doll Construct] promotion <with [Ability Card: Shanghai Doll]> <when below [1] [ACSD]> <upon gaining a [Worker] unit> <hidden from users>",
+			"[Worker] units gain the [Doll Construct] promotion <with [Ability Card: Shanghai Doll]> <when below [1] [ACSD]> <hidden from users>",
 			"Comment [Cards only give 1 [Happiness] as a luxury resource.]", "Comment [-4 [Happiness] to this resource]", "[-4 Happiness] <hidden from users>",
 			"Comment [That ability card only activates once.]",
 			"Provides [1] [ACSD] <after [1] turns> <hidden from users>","Excluded from map editor"
 		]
 	},
 	{
-		"name": "Ability Card: Backdoor",
+		"name": "Ability Card; Backdoor",
 		"resourceType": "Luxury",
 		"uniques": ["Not shown on world screen","[+15]% Strength <when defending> <when adjacent to a [{Friendly} {Military}] unit> <for [Military] units> <with [Ability Card: Backdoor]>","Comment [Cards only give 1 [Happiness] as a luxury resource.]", "Comment [-4 [Happiness] to this resource]", "[-4 Happiness] <hidden from users>","Excluded from map editor"]
 	},
 	{
-		"name": "Ability Card: Offerings To A Sacred Mountain",
+		"name": "Ability Card; Offerings To A Sacred Mountain",
 		"resourceType": "Luxury",
 		"uniques": ["Not shown on world screen","[+1 Gold] from [Mountain] tiles [in all cities]","[+1] Sight <for [Scout] units> <with [Ability Card: Offerings To A Sacred Mountain]>","Comment [Cards only give 1 [Happiness] as a luxury resource.]", "Comment [-4 [Happiness] to this resource]", "[-4 Happiness] <hidden from users>","Excluded from map editor"]
 	},
 	{
-		"name": "Ability Card: Sutra Of Dharmatic Power",
+		"name": "Ability Card; Sutra Of Dharmatic Power",
 		"resourceType": "Luxury",
 		"uniques": ["Not shown on world screen","[+33]% Strength <when attacking> <when below [30] HP> <with [Ability Card: Sutra Of Dharmatic Power]>","Comment [Cards only give 1 [Happiness] as a luxury resource.]", "Comment [-4 [Happiness] to this resource]", "[-4 Happiness] <hidden from users>","Excluded from map editor"]
 	},
 	{
-		"name": "Ability Card: Danmaku Ghost",
+		"name": "Ability Card; Danmaku Ghost",
 		"resourceType": "Luxury",
 		"uniques": ["Not shown on world screen","Damage is ignored when determining unit Strength <for [All] units> <with [Ability Card: Danmaku Ghost]>","Comment [Cards only give 1 [Happiness] as a luxury resource.]", "Comment [-4 [Happiness] to this resource]", "[-4 Happiness] <hidden from users>","Excluded from map editor"]
 	},
 	{
-		"name": "Ability Card: Screen Border",
+		"name": "Ability Card; Screen Border",
 		"resourceType": "Luxury",
 		"uniques": ["Not shown on world screen","[Scout] units gain the [Card - Screen Border] promotion <with [Ability Card: Screen Border]>","Comment [Cards only give 1 [Happiness] as a luxury resource.]", "Comment [-4 [Happiness] to this resource]", "[-4 Happiness] <hidden from users>","Excluded from map editor"]
 	},
 	{
-		"name": "Ability Card: Miracle Mallet",
+		"name": "Ability Card; Miracle Mallet",
 		"resourceType": "Luxury",
 		"uniques": ["Not shown on world screen","Earn [15]% of killed [Military] unit's [Strength] as [Gold] <for [All] units> <with [Ability Card: Miracle Mallet]>","Comment [Cards only give 1 [Happiness] as a luxury resource.]", "Comment [-4 [Happiness] to this resource]", "[-4 Happiness] <hidden from users>","Excluded from map editor"]
 	},
 	{
-		"name": "Ability Card: Keystone Of Endurance",
+		"name": "Ability Card; Keystone Of Endurance",
 		"resourceType": "Luxury",
 		"uniques": ["Not shown on world screen","[+12]% Strength <when defending> <for [Military] units> <with [Ability Card: Keystone Of Endurance]>","Comment [Cards only give 1 [Happiness] as a luxury resource.]", "Comment [-4 [Happiness] to this resource]", "[-4 Happiness] <hidden from users>","Excluded from map editor"]
 	},
 	{
-		"name": "Ability Card: Esteemed Authority",
+		"name": "Ability Card; Esteemed Authority",
 		"resourceType": "Luxury",
 		"uniques": ["Not shown on world screen","[+40]% Strength <for [Military] units> <vs [Barbarian] units> <with [Ability Card: Esteemed Authority]>","Comment [Cards only give 1 [Happiness] as a luxury resource.]", "Comment [-4 [Happiness] to this resource]", "[-4 Happiness] <hidden from users>","Excluded from map editor"]
 	},
 	{
-		"name": "Ability Card: Vampire Fang",
+		"name": "Ability Card; Vampire Fang",
 		"resourceType": "Luxury",
 		"uniques": ["Not shown on world screen","[+12]% Strength <for [Melee] units> <with [Ability Card: Vampire Fang]>","Comment [Cards only give 1 [Happiness] as a luxury resource.]", "Comment [-4 [Happiness] to this resource]", "[-4 Happiness] <hidden from users>","Excluded from map editor"]
 	},
 	{
-		"name": "Ability Card: Great Tengu's Barley Rice",
+		"name": "Ability Card; Great Tengu's Barley Rice",
 		"resourceType": "Luxury",
 		"uniques": ["Not shown on world screen","[All] units gain the [Card - Great Tengu's Barley Rice] promotion <with [Ability Card: Great Tengu's Barley Rice]>","Comment [Cards only give 1 [Happiness] as a luxury resource.]", "Comment [-4 [Happiness] to this resource]", "[-4 Happiness] <hidden from users>","Excluded from map editor"]
 	},
 	{
-		"name": "Ability Card: Icicle Fall",
+		"name": "Ability Card; Icicle Fall",
 		"resourceType": "Luxury",
 		"uniques": ["Not shown on world screen", "[+15]% Strength <when defending> <for [Military] units> <in [Snow] tiles>","[+10]% Strength <when defending> <for [Military] units> <in [Tundra] tiles>","Comment [Cards only give 1 [Happiness] as a luxury resource.]", "Comment [-4 [Happiness] to this resource]", "[-4 Happiness] <hidden from users>","Excluded from map editor"]
 	},
 	{
-		"name": "Ability Card: Beauty Of Destruction",
+		"name": "Ability Card; Beauty Of Destruction",
 		"resourceType": "Luxury",
 		"uniques": ["Not shown on world screen","[Siege] units gain the [Card - Beauty Of Destruction] promotion <with [Ability Card: Beauty Of Destruction]>","[+20]% Strength <vs cities> <for [All] units> <with [Ability Card: Beauty Of Destruction]>","Comment [Cards only give 1 [Happiness] as a luxury resource.]", "Comment [-4 [Happiness] to this resource]", "[-4 Happiness] <hidden from users>","Excluded from map editor"]
 	},
 	{
-		"name": "Ability Card: Drunkenly Whimsical Ibuki Gourd",
+		"name": "Ability Card; Drunkenly Whimsical Ibuki Gourd",
 		"resourceType": "Luxury",
 		"uniques": ["Not shown on world screen","[-1] Sight <when below [0] Happiness>","[+15]% Strength <while the empire is happy> <for [All] units> <with [Ability Card: Drunkenly Whimsical Ibuki Gourd]>","Comment [Cards only give 1 [Happiness] as a luxury resource.]", "Comment [-4 [Happiness] to this resource]", "[-4 Happiness] <hidden from users>","Excluded from map editor"]
 	},
 	{
-		"name": "Ability Card: Smelt's Scales",
+		"name": "Ability Card; Smelt's Scales",
 		"resourceType": "Luxury",
 		"uniques": ["Not shown on world screen","[All] units gain the [Card - Smelt's Scales] promotion <with [Ability Card: Smelt's Scales]>","Comment [Cards only give 1 [Happiness] as a luxury resource.]", "Comment [-4 [Happiness] to this resource]", "[-4 Happiness] <hidden from users>","Excluded from map editor"]
 	},
 	{
-		"name": "Ability Card: Pebble Hat",
+		"name": "Ability Card; Pebble Hat",
 		"resourceType": "Luxury",
 		"uniques": ["Not shown on world screen","[Scout] units gain the [Card - Pebble Hat] promotion <with [Ability Card: Pebble Hat]>","Comment [Cards only give 1 [Happiness] as a luxury resource.]", "Comment [-4 [Happiness] to this resource]", "[-4 Happiness] <hidden from users>","Excluded from map editor"],
+	},
+	{
+		"name": "Ability Card; Princess Kaguya's Secret Stash",
+		"resourceType": "Luxury",
+		"uniques": ["Comment [Gain 100-200 [Gold]]","Not shown on world screen","Gain [100]-[200] [Gold] <when below [1] [ACPKSS]> <hidden from users>",
+			"Comment [-4 [Happiness] to this resource]", "[-4 Happiness] <hidden from users>","Excluded from map editor",
+			"Provides [1] [ACPKSS] <after [1] turns> <hidden from users>"
 	},
 	// Luxury resources
 	{
@@ -621,6 +628,11 @@
 	// Functions for Instant type Ability card
 	{
 		"name": "ACSD",
+		"resourceType": "Strategic",
+		"uniques": ["Not shown on world screen","Cannot be traded","Excluded from map editor"]
+	},
+	{
+		"name": "ACPKSS",
 		"resourceType": "Strategic",
 		"uniques": ["Not shown on world screen","Cannot be traded","Excluded from map editor"]
 	},
