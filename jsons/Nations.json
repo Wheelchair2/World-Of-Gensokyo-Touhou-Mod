@@ -197,7 +197,7 @@
 		"Comment [------------------]",
 		"[All] units gain the [Fairy] promotion", "[Land] units gain the [Winged] promotion",
 		"[+15]% Strength <for [Fairy] units>",
-		"Provides [1] [Ability Card: Icicle Fall] <after discovering [Improved Trade]>"
+		"Provides [1] [Ability Card; Icicle Fall] <after discovering [Improved Trade]>"
 		]
 		"cities": ["Cirnopolis", "Bakai", "Perfect Town", "Daiyouville", "Ninth City", "Bakaville", "Kitchen", "New Cirnopolis", "Calculator City"],
 		"style": "fairy"
