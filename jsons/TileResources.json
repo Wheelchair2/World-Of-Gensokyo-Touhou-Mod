@@ -233,7 +233,13 @@
 	{
 		"name": "Ability Card: Shanghai Doll",
 		"resourceType": "Luxury",
-		"uniques": ["Not shown on world screen","[1] free [Worker] units appear <with [Ability Card: Shanghai Doll]>","[Worker] units gain the [Doll Construct] promotion <with [Shanghai Doll Card]>","Comment [Cards only give 1 [Happiness] as a luxury resource.]", "Comment [-4 [Happiness] to this resource]", "[-4 Happiness] <hidden from users>"]
+		"uniques": ["Not shown on world screen",
+			"[1] free [Worker] units appear <with [Ability Card: Shanghai Doll]> <when below [1] [ACSD]> <hidden from users>",
+			"[Worker] units gain the [Doll Construct] promotion <with [Ability Card: Shanghai Doll]> <when below [1] [ACSD]> <upon gaining a [Worker] unit> <hidden from users>",
+			"Comment [Cards only give 1 [Happiness] as a luxury resource.]", "Comment [-4 [Happiness] to this resource]", "[-4 Happiness] <hidden from users>",
+			"Comment [That ability card only activates once.]",
+			"Provides [1] [ACSD] <after [1] turns> <hidden from users>"
+		]
 	},
 	{
 		"name": "Ability Card: Backdoor",
