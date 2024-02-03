@@ -236,11 +236,10 @@
 		"name": "Ability Card; Shanghai Doll",
 		"resourceType": "Luxury",
 		"uniques": ["Not shown on world screen",
-			"[1] free [Worker] units appear <when below [1] [ACSD]> <hidden from users>",
+			"[1] free [Worker] units appear <hidden from users>",
 			"[Worker] units gain the [Doll Construct] promotion <when below [1] [ACSD]> <hidden from users>",
 			"Comment [Cards only give 1 [Happiness] as a luxury resource.]", "Comment [-4 [Happiness] to this resource]", "[-4 Happiness] <hidden from users>",
-			"Comment [That ability card only activates once.]",
-			"Provides [1] [ACSD] <after [1] turns> <hidden from users>","Excluded from map editor"
+			"Excluded from map editor"
 		]
 	},
 	{
@@ -321,9 +320,8 @@
 	{
 		"name": "Ability Card; Princess Kaguya's Secret Stash",
 		"resourceType": "Luxury",
-		"uniques": ["Comment [Gain 100-200 [Gold]]","Not shown on world screen","Gain [100]-[200] [Gold] <when below [1] [ACPKSS]> <hidden from users>",
-			"Comment [-4 [Happiness] to this resource]", "[-4 Happiness] <hidden from users>","Excluded from map editor",
-			"Provides [1] [ACPKSS] <after [1] turns> <hidden from users>"]
+		"uniques": ["Not shown on world screen","Gain [100]-[200] [Gold]",
+			"Comment [-4 [Happiness] to this resource]", "[-4 Happiness] <hidden from users>","Excluded from map editor"]
 	},
 	{
 		"name": "Ability Card; Item Season",
@@ -631,16 +629,5 @@
 					"Generated near City States with weight [15]",
 					"Doesn't generate naturally <in [Forest] [Hill] tiles>",
 					"Doesn't generate naturally <in [Tundra] [Forest] tiles>"]
-	},
-	// Functions for Instant type Ability card
-	{
-		"name": "ACSD",
-		"resourceType": "Strategic",
-		"uniques": ["Not shown on world screen","Cannot be traded","Excluded from map editor"]
-	},
-	{
-		"name": "ACPKSS",
-		"resourceType": "Strategic",
-		"uniques": ["Not shown on world screen","Cannot be traded","Excluded from map editor"]
 	},
 ]
