@@ -1052,14 +1052,14 @@
 		"uniques": ["Comment [Yukari Yakumo's ability to let you freely warp between map edges for Scout. It will activates when you have this card.]",
 			"This Unit loses the [Phantasm] promotion",
 			"May Paradrop up to [100] tiles from inside friendly territory <if it hasn't used other actions yet> <for [Scout] units>",
-			"This Unit loses the [Card - Screen Border] promotion <when below [1] [Ability Card: Screen Border]>"
+			"This Unit loses the [Card - Screen Border] promotion <when below [1] [Ability Card; Screen Border]>"
 			]
 	},
 	{
 		"name": "Card - Great Tengu's Barley Rice",
  		"uniques": ["Comment [Megumu Iizunamaru's ability that gives movepoints for just bought units when you have this card. Why are you collecting Power after setting foot on the mountain? You should pack tons of food to begin with, and then set out.]",
 			"Can move immediately once bought <for [All] units>",
-		"This Unit loses the [Card - Great Tengu's Barley Rice] promotion <when below [1] [Ability Card: Great Tengu's Barley Rice]>"]
+		"This Unit loses the [Card - Great Tengu's Barley Rice] promotion <when below [1] [Ability Card; Great Tengu's Barley Rice]>"]
 	},
 	/*Apparently I changed the Ice Fairy Card unique and it does not need this promotion anymore, so this would have to go
 	{
@@ -1072,18 +1072,18 @@
 	{
 		"name": "Card - Smelt's Scales",
 		"uniques": ["Comment [Enable attack for Embarking units when you have Smelt's Scales Card.]", "May attack when embarked <for [Melee] units>",
-		"This Unit loses the [Card - Smelt's Scales] promotion <when below [1] [Ability Card: Smelt's Scales]>"]
+		"This Unit loses the [Card - Smelt's Scales] promotion <when below [1] [Ability Card; Smelt's Scales]>"]
 	},
 	{
 		"name": "Card - Pebble Hat",
 		"uniques": ["Comment [Koishi Komeiji's ability to prevent your enemies from seeing your Scouts, unless nearby.]", "Invisible to non-adjacent units <for [Scout] units> <when at war>",
-		"This Unit loses the [Card - Pebble Hat] promotion <when below [1] [Ability Card: Pebble Hat]>"]
+		"This Unit loses the [Card - Pebble Hat] promotion <when below [1] [Ability Card; Pebble Hat]>"]
 	},
 	{
 		"name": "Card - Beauty Of Destruction",
 		"uniques": ["Comment [Flan's ability to destroy Improved tiles with your Siege Unit when you have Beauty of Destruction Card. There are many Fortress in enemy territory? What a dumb is it. Why don't they know at it can be destroyed easily?]",
 			"Destroys tile improvements when attacking <for [Siege] units> <when at war>",
-		"This Unit loses the [Card - Beauty Of Destruction] promotion <when below [1] [Ability Card: Beauty Of Destruction]>"]
+		"This Unit loses the [Card - Beauty Of Destruction] promotion <when below [1] [Ability Card; Beauty Of Destruction]>"]
 	}
 	
 ]
