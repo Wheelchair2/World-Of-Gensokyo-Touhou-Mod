@@ -438,7 +438,7 @@
 		"outerColor": [55,40,76],
 		"innerColor": [255,255,255],
 		"uniqueName": "Peaceful Principles",
-		"uniques": ["Starts with [Religion]", "[All] units gain the [Youkai] promotion", "[-100]% Unhappiness from [Population] [in all non-occupied cities]","Provides [1] [Ability Card: Sutra Of Dharmatic Power Card] <after discovering [Improved Trade]>"],
+		"uniques": ["Starts with [Religion]", "[All] units gain the [Youkai] promotion", "[-100]% Unhappiness from [Population] [in all non-occupied cities]","Provides [1] [Ability Card: Sutra Of Dharmatic Power] <after discovering [Improved Trade]>"],
 		"favoredReligion": "Buddhism",
 		"cities": ["Minoriya", "Mizuhanashi", "Fujimori", "Shinju no Tani", "Arashiyama", "Kiyomizu", "Hayabusa no Sato", "Shizukesa", "Kokoroyoi", "Asamurasaki"]
 	},
