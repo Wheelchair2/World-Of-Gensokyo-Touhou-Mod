@@ -621,6 +621,7 @@
 	// Functions for Instant type Ability card
 	{
 		"name": "ACSD",
+		"resourceType": "Strategic",
 		"uniques": ["Not shown on world screen","Cannot be traded","Excluded from map editor"]
 	},
 ]
