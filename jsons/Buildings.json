@@ -359,7 +359,7 @@
 	},
 	{
 		"name": "Cirno's Freezing Hot Spring",
-		"culture": 1,
+		"culture": 3,
 		"isWonder": true,
         "uniques": ["Gain a free [Onsen] [in this city]", "[+1 Happiness] from every [Onsen]"]
 		"requiredTech": "Hot Spring",
@@ -378,7 +378,7 @@
 		"name": "Onsen",
 		"cost": 100,
 		"maintenance": 1,
-		"happiness": 2,
+		"happiness": 3,
 		"hurryCostModifier": 12,
 		"requiredTech": "Hot Spring"
 	},
@@ -813,6 +813,7 @@
 	},
 	{
 		"name": "High Walls",
+		"happiness": 1,
 		"cost": 100,
 		"cityHealth": 50,
 		"hurryCostModifier": 20,
@@ -1186,7 +1187,8 @@
 	},
 	{
 		"name": "Ingredients Store",
-		"cost": 100,
+		"cost": 120,
+		"production": 2,
 		"food": 4,
 		"gold": 2,
 		"hurryCostModifier": 25,
@@ -1204,20 +1206,18 @@
 	},
 	{
 		"name": "Experiment Room",
-		"cost": 90,
+		"cost": 120,
 		"science": 1,
 		"maintenance": 1,
 		"hurryCostModifier": 10,
-		"uniques": ["Comment [Free random amount of Summon units appears with 50% chance]", "Consumes [2] [Horses]", "Unsellable",
-			"Free [Shuten Doji Summon] appears <with [50]% chance>",
-			"Free [Great Wolf Summon] appears <with [50]% chance>",
-			"Free [Kitsune Summon] appears <with [50]% chance>",
+		"uniques": ["[-8 Food] [in this city]", "Unsellable",
+			"Free [Jiangshi Familiar] appears",
 		],
 		"requiredTech": "Forbidden Sorcery"
 	},
 	{
 		"name": "Grimoire Of Youkais",
-		"cost": 125,
+		"cost": 185,
 		"culture": 1,
 		"isWonder": true,
 		"greatPersonPoints": {"Great Engineer": 1},
