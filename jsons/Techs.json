@@ -1,4 +1,4 @@
-[
+\[
 	{
 		"columnNumber": 0,
 		"era": "Youkai Expansion Project",
@@ -326,7 +326,7 @@
 				"row": 17,
 				"prerequisites": ["Culture Preservation","Rituals"],
 				"quote": "'Conviction! Conviction! Conviction!' - Eiki Shiki. Of course, she didn't say that in canon."
-				"uniques": ["[+33]% Strength <for [Monk] units> <vs [Spirit] units>", "[+33]% Strength <for [Hermit] units> <vs [Spirit] units>"]
+				"uniques": ["[+15]% Strength <for [Monk] units> <vs [Spirit] units>", "[+15]% Strength <for [Hermit] units> <vs [Spirit] units>"]
 			},
 			{
 				"name": "Magical Science",
@@ -394,7 +394,7 @@
 				"row": 17,
 				"prerequisites": ["Divine Punishment"],
 				"quote": "'Humans haven't changed since my days in the temple. How weak and rash you are!' - Byakuren Hijiri to Reimu Hakurei.",
-				"uniques": ["[+33]% Strength <for [Monk] units> <vs [Fairy] units>", "[+33]% Strength <for [Hermit] units> <vs [Fairy] units>"]
+				"uniques": ["[+15]% Strength <for [Monk] units> <vs [Fairy] units>", "[+15]% Strength <for [Hermit] units> <vs [Fairy] units>"]
 			},
 			{
 				"name": "Philosophy",
@@ -402,7 +402,7 @@
 				"row": 16,
 				"prerequisites": ["Divine Punishment"],
 				"quote": "'Did you know why rare ingredients taste better? This is because humans taste not with their tounges, but their minds' - Sakuya Izayoi.",
-				"uniques": ["[+33]% Strength <for [Monk] units> <vs [Corpse] units>", "[+33]% Strength <for [Hermit] units> <vs [Corpse] units>"]
+				"uniques": ["[+15]% Strength <for [Monk] units> <vs [Corpse] units>", "[+15]% Strength <for [Hermit] units> <vs [Corpse] units>"]
 			},
 			{
 				"name": "Limitless Learning",
