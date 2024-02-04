@@ -320,14 +320,14 @@
 	{
 		"name": "Ability Card; Princess Kaguya's Secret Stash",
 		"resourceType": "Luxury",
-		"uniques": ["Not shown on world screen","Gain [100]-[200] [Gold]",
+		"uniques": ["Not shown on world screen","Gain [300]-[500] [Gold]",
 			"Comment [-4 [Happiness] to this resource]", "[-4 Happiness] <hidden from users>","Excluded from map editor"
 			]
 	},
 	{
 		"name": "Ability Card; Item Season",
 		"resourceType": "Luxury",
-		"uniques": ["Gain [50] [Gold] <upon entering a Golden Age>",
+		"uniques": ["Gain [250] [Gold] <upon entering a Golden Age>",
 			"Empire enters a [3]-turn Golden Age <upon discovering a Natural Wonder>",
 			"Comment [-4 [Happiness] to this resource]", "[-4 Happiness] <hidden from users>","Excluded from map editor"]
 	},
