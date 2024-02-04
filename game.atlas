@@ -503,294 +503,287 @@ NationIcons/Hakurei Faction
   index: -1
 ReligionIcons/Amanohara
   rotate: false
-  xy: 820, 444
+  xy: 820, 336
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ReligionIcons/Amaterasuism
   rotate: false
-  xy: 820, 444
+  xy: 820, 336
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ReligionIcons/Bosatsugawa
   rotate: false
-  xy: 820, 444
+  xy: 820, 336
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ReligionIcons/Dragonzen
   rotate: false
-  xy: 820, 444
+  xy: 820, 336
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ReligionIcons/Fujinno
   rotate: false
-  xy: 820, 444
+  xy: 820, 336
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ReligionIcons/Hanyo-kyo
   rotate: false
-  xy: 820, 444
+  xy: 820, 336
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ReligionIcons/Kaminarudo
   rotate: false
-  xy: 820, 444
+  xy: 820, 336
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ReligionIcons/Kasumigami
   rotate: false
-  xy: 820, 444
+  xy: 820, 336
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ReligionIcons/Kaze no Michi
   rotate: false
-  xy: 820, 444
+  xy: 820, 336
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ReligionIcons/Kitsunne-kai
   rotate: false
-  xy: 820, 444
+  xy: 820, 336
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ReligionIcons/Minamo no Seishin
   rotate: false
-  xy: 820, 444
+  xy: 820, 336
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ReligionIcons/Mizuhana
   rotate: false
-  xy: 820, 444
+  xy: 820, 336
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ReligionIcons/Raijinryu
   rotate: false
-  xy: 820, 444
+  xy: 820, 336
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ReligionIcons/Takaragawa
   rotate: false
-  xy: 820, 444
+  xy: 820, 336
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ReligionIcons/Tengu-taiken
   rotate: false
-  xy: 820, 444
+  xy: 820, 336
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ReligionIcons/Tsukuyomitsu
   rotate: false
-  xy: 820, 444
+  xy: 820, 336
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ReligionIcons/Yamainu-teki
   rotate: false
-  xy: 820, 444
+  xy: 820, 336
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ReligionIcons/Yokaimon
   rotate: false
-  xy: 820, 444
+  xy: 820, 336
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ReligionIcons/Yukionna-kai
   rotate: false
-  xy: 820, 444
+  xy: 820, 336
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ReligionIcons/Yureishin
   rotate: false
-  xy: 820, 444
+  xy: 820, 336
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ReligionIcons/Ancient Taoism
   rotate: false
-  xy: 820, 336
+  xy: 820, 228
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Ability Card; Backdoor
   rotate: false
-  xy: 928, 12
+  xy: 820, 552
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Ability Card; Beauty Of Destruction
   rotate: false
-  xy: 928, 12
+  xy: 820, 552
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Ability Card; Danmaku Ghost
   rotate: false
-  xy: 928, 12
+  xy: 820, 552
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Ability Card; Drunkenly Whimsical Ibuki Gourd
   rotate: false
-  xy: 928, 12
+  xy: 820, 552
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Ability Card; Esteemed Authority
   rotate: false
-  xy: 928, 12
+  xy: 820, 552
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Ability Card; Great Tengu's Barley Rice
   rotate: false
-  xy: 928, 12
+  xy: 820, 552
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Ability Card; Icicle Fall
   rotate: false
-  xy: 928, 12
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ResourceIcons/Ability Card; Keystone Of Endurance
-  rotate: false
-  xy: 928, 12
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ResourceIcons/Ability Card; Mini-Hakkero
-  rotate: false
-  xy: 928, 12
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ResourceIcons/Ability Card; Miracle Mallet
-  rotate: false
-  xy: 928, 12
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ResourceIcons/Ability Card; Offerings To A Sacred Mountain
-  rotate: false
-  xy: 928, 12
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ResourceIcons/Ability Card; Pebble Hat
-  rotate: false
-  xy: 928, 12
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ResourceIcons/Ability Card; Screen Border
-  rotate: false
-  xy: 928, 12
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ResourceIcons/Ability Card; Shanghai Doll
-  rotate: false
-  xy: 928, 12
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ResourceIcons/Ability Card; Smelt's Scales
-  rotate: false
-  xy: 928, 12
+  xy: 820, 552
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Ability Card; Item Season
   rotate: false
-  xy: 928, 12
+  xy: 820, 552
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Ability Card; Keystone Of Endurance
+  rotate: false
+  xy: 820, 552
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Ability Card; Mini-Hakkero
+  rotate: false
+  xy: 820, 552
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Ability Card; Miracle Mallet
   rotate: false
-  xy: 928, 12
+  xy: 820, 552
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Ability Card; Offerings To A Sacred Mountain
+  rotate: false
+  xy: 820, 552
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Ability Card; Pebble Hat
+  rotate: false
+  xy: 820, 552
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Ability Card; Princess Kaguya's Secret Stash
   rotate: false
-  xy: 928, 12
+  xy: 820, 552
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Ability Card; Screen Border Card
+  rotate: false
+  xy: 820, 552
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Ability Card; Shanghai Doll
+  rotate: false
+  xy: 820, 552
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Ability Card; Smelt's Scales
+  rotate: false
+  xy: 820, 552
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Ability Card; Sutra Of Dharmatic Power
   rotate: false
-  xy: 928, 12
+  xy: 820, 552
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Ability Card; Vampire Fang
   rotate: false
-  xy: 928, 12
+  xy: 820, 552
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Ability Card; Yin-Yang Orb
   rotate: false
-  xy: 928, 12
+  xy: 820, 552
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -804,21 +797,21 @@ ResourceIcons/Blank Card
   index: -1
 TechIcons/Advanced Magic
   rotate: false
-  xy: 820, 552
+  xy: 820, 444
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Arts And Sculpture
   rotate: false
-  xy: 928, 552
+  xy: 928, 444
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Authority
   rotate: false
-  xy: 928, 120
+  xy: 928, 12
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -937,35 +930,35 @@ TechIcons/History Preservation
   index: -1
 UnitIcons/Archmage
   rotate: false
-  xy: 1078, 1126
+  xy: 1078, 1018
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Artillery
   rotate: false
-  xy: 1078, 1018
+  xy: 928, 552
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Ashigaru Infantry
   rotate: false
-  xy: 928, 444
+  xy: 928, 336
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Ashigaru Pikeman
   rotate: false
-  xy: 928, 336
+  xy: 928, 228
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Ashigaru Spearman
   rotate: false
-  xy: 928, 228
+  xy: 928, 120
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -1105,35 +1098,35 @@ UnitIcons/Hokan
   index: -1
 UnitPromotionIcons/Anti-Human
   rotate: false
-  xy: 820, 228
+  xy: 820, 120
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Anti-Mermaid
   rotate: false
-  xy: 820, 120
+  xy: 820, 12
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Anti-Oni
   rotate: false
-  xy: 820, 12
+  xy: 928, 660
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Anti-Vampire
   rotate: false
-  xy: 928, 660
+  xy: 1028, 868
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Anti-Youkai
   rotate: false
-  xy: 1028, 868
+  xy: 1078, 1126
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
