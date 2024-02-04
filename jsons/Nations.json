@@ -31,7 +31,7 @@
 				"[+10]% Strength <for units with [Divine Blessing]> <when fighting in [Friendly Land] tiles>",
 				"[+1 Gold] per [2] population [in all cities]",
 				"Free [Relinquisher Of Land] appears <upon declaring friendship>",
-				"Provides [2] [Blank Card]"
+				"Provides [2] [Blank Card] <after discovering [Improved Trade]>"
 				],
 		"cities": [
 		"Kinshicho", "Fuyukoku", "Yuumeizan", "Shokaishi", "Keizaihama", "Kouritsucho", "Zenzenji", "Rinenmura", "Zaiseicho", "Kakushinku"
@@ -53,7 +53,7 @@
 		"outerColor": [255,255,255],
 		"innerColor": [0,38,255],
 		"uniqueName": "Manipulation Of Earthquakes",
-		"uniques": ["[All] units gain the [Celestial] promotion", "No defensive terrain penalty <for [All] units>", "[+2 Gold] from every [Keystone] <during a Golden Age>","Provides [1] [Keystone Of Endurance Card]"]
+		"uniques": ["[All] units gain the [Celestial] promotion", "No defensive terrain penalty <for [All] units>", "[+2 Gold] from every [Keystone] <during a Golden Age>","Provides [1] [Ability Card; Keystone Of Endurance] <after discovering [Improved Trade]>"]
 		"cities": ["Tenkai City", "Shinden-Cho", "Kamiyama", "Hoshizora", "Yukikami", "Amaterasu", "Kaguya-Shima", "Soraoka", "Mizuhan", "Tengoku no Machi"]
 	},
 	{
@@ -76,7 +76,7 @@
 		"uniqueName": "Mind-Reading Satori Race",
 		"uniques": ["Comment [The Satori Race can read the minds of their opponents, and inclict a -15% Strength debuff to adjacent enemy Military units. They can also stab their own third eye and in exchange for some various effects.]",
 	"Comment [------------------]",
-	"[Land] units gain the [Satori Race] promotion", "[All] units gain the [Youkai] promotion","Provides [1] [Pebble Hat Card]"
+	"[Land] units gain the [Satori Race] promotion", "[All] units gain the [Youkai] promotion","Provides [1] [Ability Card; Pebble Hat] <after discovering [Improved Trade]>"
 	],
 		"cities": ["Palace Of The Earth Spirits","Stabiae","Chanchan","Bannack","Consonno","Florida Lost City","Kolmanskop","Trellech","Humberstone","Akrotiri","Taxila","Pyramiden","Merv","Cahokia,","Mologa","Neversink","Hallsands","Lukangol"]
 	},
@@ -120,7 +120,7 @@
 		"outerColor": [0,0,0],
 		"innerColor": [242,199,242],
 		"uniqueName": "Manipulation Of Eternity",
-		"uniques": ["[All] units gain the [Lunarian] promotion", "[+15]% Production when constructing [All] buildings [in all cities]", "[-50]% maintenance costs", "[-20]% construction time for [All] improvements"], 
+		"uniques": ["[All] units gain the [Lunarian] promotion", "[+15]% Production when constructing [All] buildings [in all cities]", "[-50]% maintenance costs", "[-20]% construction time for [All] improvements","Provides [1] [Ability Card; Princess Kaguya's Secret Stash] <after discovering [Improved Trade]>"], 
 		"cities": ["Mugenkyo", "Eien no Machi", "Shintenkoku", "Kuon no Toshi", "Toki no Sato", "Kaseki no Machi", "Mugenkai", "Tokoyo City", "Fushi no Kuni", "Kujikujo"]
 	},
 	/*
@@ -170,7 +170,8 @@
 		"Comment [------------------]",
 		"[All] units gain the [Fairy] promotion",
 		"[Land] units gain the [Winged] promotion",
-		"[+50]% Golden Age length"
+		"[+50]% Golden Age length",
+		"Provides [1] [Ability Card; Item Season] <after discovering [Improved Trade]>"
 		],
 		"cities": ["Haru-machi", "Hana-toshi", "Sakura-shi", "Shinryoku-machi", "Hidamari-shi", "Ume-to", "Asagiri-shi", "Kusabana-machi", "Sakuradai-shi", "Ondan-shi"],
 		"style": "fairy"
@@ -196,7 +197,7 @@
 		"Comment [------------------]",
 		"[All] units gain the [Fairy] promotion", "[Land] units gain the [Winged] promotion",
 		"[+15]% Strength <for [Fairy] units>",
-		"Provides [1] [Icicle Fall Card]"
+		"Provides [1] [Ability Card; Icicle Fall] <after discovering [Improved Trade]>"
 		]
 		"cities": ["Cirnopolis", "Bakai", "Perfect Town", "Daiyouville", "Ninth City", "Bakaville", "Kitchen", "New Cirnopolis", "Calculator City"],
 		"style": "fairy"
@@ -247,7 +248,7 @@
 		"uniqueName": "Diligent Fairy Maids",
 		"uniques": ["Comment [Vampires would suck the blood out of anyone, and can heal 50 damage upon killing a unit]",
 		"Comment [------------------]",
-		"[All] units gain the [Youkai] promotion", "[Land] units gain the [Vampire] promotion", "[+25]% Production when constructing [All] wonders [in all cities]", "[-20]% maintenance costs","Provides [1] [Vampire Fang Card]"],
+		"[All] units gain the [Youkai] promotion", "[Land] units gain the [Vampire] promotion", "[+25]% Production when constructing [All] wonders [in all cities]", "[-20]% maintenance costs","Provides [1] [Ability Card; Vampire Fang] <after discovering [Improved Trade]>"],
 		"cities": ["Transylvania","ScarletBourne","Vermillion Peaks","Crimsonhurst","Carmesia","Garnetshire","Burgundy Citadel","Sangria Hollow","Scarletspire","Scarletara"]
 	},
 	{
@@ -268,7 +269,7 @@
 		"uniqueName": "Complete Destruction",
 		"uniques": ["Comment [Vampires would suck the blood out of anyone, and can heal 50 damage upon killing a unit]",
 		"Comment [------------------]",
-		"[All] units gain the [Youkai] promotion", "[Land] units gain the [Vampire] promotion", "Damage is ignored when determining unit Strength", "Cities are razed [2] times as fast","Provides [1] [Beauty Of Destruction Card]"],
+		"[All] units gain the [Youkai] promotion", "[Land] units gain the [Vampire] promotion", "Damage is ignored when determining unit Strength", "Cities are razed [2] times as fast","Provides [1] [Ability Card; Beauty Of Destruction] <after discovering [Improved Trade]>"],
 		"cities": ["Sanguinaria", "Nocturnia", "Umbraheim", "Cimmeria", "Bloodhaven", "Stygianberg", "Nyxmark", "Valerianth", "Crimsonshire", "Vladonia"]
 	},
 	{
@@ -290,7 +291,7 @@
 		"innerColor": [220,0,0],
 		"uniqueName": "Disaster-Dispelling Prayer",
 		"uniques": ["Comment [Doesn't get affected by economic debuffs when the empire is unhappy, except that when below -10 [Happiness], growth is still nulified and [Settler] units are still unable to be constructed]", "Starts with [Religion]", "Starts with [Rituals]", "[All] units gain the [Human Race] promotion",
-			"Provides [1] [Yin-Yang Orb Card]",
+			"Provides [1] [Ability Card; Yin-Yang Orb] <after discovering [Improved Trade]>",
 				"[+75]% growth [in all cities] <when between [-10] and [0] Happiness> <hidden from users>",
 				"[+50]% [Production] [in all cities] <when below [-10] Happiness> <hidden from users>"
 			],
@@ -332,7 +333,7 @@
 		"outerColor": [193,117,50],
 		"innerColor": [255,241,141],
 		"uniqueName": "Secret God",
-		"uniques": ["[All] units gain the [Divine Blessing] promotion", "[+20]% Strength <for units with [Divine Blessing]>", "Comment [What makes this promotion special is that there are no units who can counter it]","Provides [1] [Backdoor Card]"],
+		"uniques": ["[All] units gain the [Divine Blessing] promotion", "[+20]% Strength <for units with [Divine Blessing]>", "Comment [What makes this promotion special is that there are no units who can counter it]","Provides [1] [Ability Card; Backdoor] <after discovering [Improved Trade]>"],
 		"cities": ["Matara-kyo", "Jinzen City", "Kamimachi", "Takamoriya", "Kanazakura", "Yumegiri", "Matsuribayashi", "Jinmachi", "Mikumari", "Matara no Sato"]
 	},
 	{
@@ -374,7 +375,7 @@
 		"outerColor": [255,255,255],
 		"innerColor": [0,0,0],
 		"uniqueName": "Deal With The Marketplace God",
-		"uniques": ["[All] units gain the [Youkai] promotion", "[Land] units gain the [Winged] promotion", "[+1] Movement <for [Winged] units>", "Starts with [Currency]", "[+2 Gold, +1 Food, +1 Production] from every [Trading post] <before the [Meiji era]>", "Cannot build [Mounted] units","Provides [1] [Great Tengu's Barley Rice Card]"]
+		"uniques": ["[All] units gain the [Youkai] promotion", "[Land] units gain the [Winged] promotion", "[+1] Movement <for [Winged] units>", "Starts with [Currency]", "[+2 Gold, +1 Food, +1 Production] from every [Trading post] <before the [Meiji era]>", "Cannot build [Mounted] units","Provides [1] [Ability Card; Great Tengu's Barley Rice] <after discovering [Improved Trade]>"]
 		"cities": ["Tsubasakoku", "Hagoromo no Sato", "Harukaze-mura", "Tenbin no Toshi", "Suzaku no Sora", "Hanebito", "Kumo no Machi", "Aoiwashi", "Hiryu no Sato", "Hayabusa-ga-Oka"]
 	},
 	{
@@ -395,7 +396,7 @@
 		"uniqueName": "Mermaid Of The Uncharted Land",
 		"uniques": ["Comment [Mermaid units posses certain advantages and disadvantages; in summary: Mermaid units move faster on Water and fresh water tiles, but slower on dry land, except when near the Coast]",
 	"Comment [------------------]",
-	"Enables embarkation for land units <starting from the [Youkai Expansion Project]>", "Enables [All] units to enter ocean tiles <starting from the [Youkai Expansion Project]>", "[All] units gain the [Youkai] promotion", "[Land] units gain the [Mermaid] promotion", "Cannot build [Mounted] units","Provides [1] [Smelt's Scales Card]"]
+	"Enables embarkation for land units <starting from the [Youkai Expansion Project]>", "Enables [All] units to enter ocean tiles <starting from the [Youkai Expansion Project]>", "[All] units gain the [Youkai] promotion", "[Land] units gain the [Mermaid] promotion", "Cannot build [Mounted] units","Provides [1] [Ability Card; Smelt's Scales] <after discovering [Improved Trade]>"]
 		"cities": ["Sushiyama", "Maguroshima", "Unazuki", "Taihoku", "Hamachiya", "Kanpachibu", "Suzukiya", "Sabaoka", "Katsuocho", "Iwashio"]
 	},
 	{
@@ -415,7 +416,7 @@
 		"outerColor": [255,255,255],
 		"innerColor": [19,147,19],
 		"uniqueName": "Mountain Of Faith",
-		"uniques": ["Starts with [Religion]", "[All] units gain the [Human Race] promotion", "[100]% of excess happiness converted to [Faith]","Provides [1] [Offerings To A Sacred Mountain Card]",
+		"uniques": ["Starts with [Religion]", "[All] units gain the [Human Race] promotion", "[100]% of excess happiness converted to [Faith]","Provides [1] [Ability Card; Offerings To A Sacred Mountain] <after discovering [Improved Trade]>",
 		 "[55]% of excess happiness converted to [Gold]",
 		"[+50]% maintenance costs",
 		"[-100]% [Gold] [in all cities] <when below [2] Happiness>"],
@@ -438,7 +439,7 @@
 		"outerColor": [55,40,76],
 		"innerColor": [255,255,255],
 		"uniqueName": "Peaceful Principles",
-		"uniques": ["Starts with [Religion]", "[All] units gain the [Youkai] promotion", "[-100]% Unhappiness from [Population] [in all non-occupied cities]","Provides [1] [Sutra Of Dharmatic Power Card]"],
+		"uniques": ["Starts with [Religion]", "[All] units gain the [Youkai] promotion", "[-100]% Unhappiness from [Population] [in all non-occupied cities]","Provides [1] [Ability Card; Sutra Of Dharmatic Power] <after discovering [Improved Trade]>"],
 		"favoredReligion": "Buddhism",
 		"cities": ["Minoriya", "Mizuhanashi", "Fujimori", "Shinju no Tani", "Arashiyama", "Kiyomizu", "Hayabusa no Sato", "Shizukesa", "Kokoroyoi", "Asamurasaki"]
 	},
@@ -459,7 +460,7 @@
 		"outerColor": [255,255,169],
 		"innerColor": [115,66,65],
 		"uniqueName": "Constant War",
-		"uniques": ["Starts with [Fermented Alcohol]", "Rebel units may spawn <when below [5] Happiness>", "[All] units gain the [Youkai] promotion", "[All] units gain the [Oni] promotion", "Great General provides double combat bonus", "[Great General] is earned [+50]% faster", "Earn [30]% of killed [Military] unit's [Strength] as [Culture] <during the [Youkai Expansion Project]>","Provides [1] [Drunkenly Whimsical Ibuki Gourd Card]"],
+		"uniques": ["Starts with [Fermented Alcohol]", "Rebel units may spawn <when below [5] Happiness>", "[All] units gain the [Youkai] promotion", "[All] units gain the [Oni] promotion", "Great General provides double combat bonus", "[Great General] is earned [+50]% faster", "Earn [30]% of killed [Military] unit's [Strength] as [Culture] <during the [Youkai Expansion Project]>","Provides [1] [Ability Card; Drunkenly Whimsical Ibuki Gourd] <after discovering [Improved Trade]>"],
 		"cities": ["Bushidoukoku", "Kenkoku", "Kenseikuni", "Tatsumaki no Kuni", "Kouyoudou", "Heishi no Tani", "Katanaishi", "Yoroi no Sato", "Kachuusha", "Shinkenshi"]
 	},
 	{
@@ -478,7 +479,7 @@
 		"outerColor": [0,0,0],
 		"innerColor": [255,255,255],
 		"uniqueName": "Master Spark",
-		"uniques": ["[All] units gain the [Human Race] promotion", "Starts with [Research For Magic]", "Starts with [Simple Alchemy]", "[+15]% Strength <for [{Human} {Magician}] units> <during the [Youkai Expansion Project]>", "[+55]% Strength <for [{Human} {Magician}] units> <starting from the [Edo period]>", "Provides [1] [Mini-Hakkero Card]"],
+		"uniques": ["[All] units gain the [Human Race] promotion", "Starts with [Research For Magic]", "Starts with [Simple Alchemy]", "[+15]% Strength <for [{Human} {Magician}] units> <during the [Youkai Expansion Project]>", "[+55]% Strength <for [{Human} {Magician}] units> <starting from the [Edo period]>", "Provides [1] [Ability Card; Mini-Hakkero] <after discovering [Improved Trade]>"],
 		"cities": ["Arcanopolis", "Mystoria", "Sorceron", "Enchantia", "Maginium", "Spellhaven", "Wizard's Reach", "Enigmaire", "Conjuria", "Manaheim"]
 	},
 	{
@@ -501,7 +502,7 @@
 		"City-State Influence recovers at twice the normal rate",
 		"City-State territory always counts as friendly territory",
 		"[-30]% City-State Influence degradation",
-		"Resting point for Influence with City-States is increased by [10]","Provides [1] [Esteemed Authority Card]"],
+		"Resting point for Influence with City-States is increased by [10]","Provides [1] [Ability Card; Esteemed Authority] <after discovering [Improved Trade]>"],
 		"favoredReligion": "Taoism",
 		"cities": ["Chenming", "Huashan", "Lingyin", "Qingcheng", "Wudang", "Xuanwu", "Ziran", "Daziran", "Taiji", "Xiaoyao"]
 	},
@@ -521,7 +522,7 @@
 		"outerColor": [245,84,109],
 		"innerColor": [89,19,112],
 		"uniqueName": "Seija's Revolution Plan",
-		"uniques": ["[All] units gain the [Youkai] promotion", "[+50]% [Gold] [in puppeted cities] <before the [Meiji era]>", "[+50]% [Culture] [in puppeted cities] <before the [Meiji era]>", "[+50]% [Science] [in puppeted cities] <before the [Meiji era]>"],
+		"uniques": ["[All] units gain the [Youkai] promotion", "[+50]% [Gold] [in puppeted cities] <before the [Meiji era]>", "[+50]% [Culture] [in puppeted cities] <before the [Meiji era]>", "[+50]% [Science] [in puppeted cities] <before the [Meiji era]>","Provides [1] [Ability Card; Miracle Mallet] <after discovering [Improved Trade]>"],
 		"cities": ["Yamagakure", "Mizuhara", "Koganeishi", "Hoshimori", "Hayatsuki", "Hisamegawa", "Inariyama", "Fuyutsuki", "Tsukiyomi", "Aokigahara"]
 	},
 	{
@@ -564,7 +565,7 @@
 		"uniqueName": "Manipulation Of Boundaries",
 		"uniques": ["Comment [Yukari, the Youkai of Boundaries, can open gaps that rips through dimensions, which can act as portals for her subjects. Land Units can teleport (paradrop) up to 4 tiles when inside friendly territory, if the unit hasn't done any other actions yet.]",
 		"Comment [------------------]",
-		"[All] units gain the [Youkai] promotion", "[Land] units gain the [Phantasm] promotion", "[-25]% Culture cost of natural border growth [in all cities]", "Provides [1] [Screen Border Card]"],
+		"[All] units gain the [Youkai] promotion", "[Land] units gain the [Phantasm] promotion", "[-25]% Culture cost of natural border growth [in all cities]", "Provides [1] [Ability Card; Screen Border] <after discovering [Improved Trade]>"],
 		"cities": ["Hakumori","Kasenba","Mizukawa","Soraheim","Yumegawa","Kagetsu","Tsukimori","Kiriwara","Hanamachi","Enishi"]
 	},
 	{
@@ -586,7 +587,7 @@
 		"uniqueName": "Manager Of The Afterlife Realm",
 		"uniques": ["Comment [Spirit units can cross impassable tiles, Ignore terrain cost, and Ignore Zone of Control; but have -10% Strength penalty when attacking]",
 		"Comment [------------------]",
-		"[All] units gain the [Youkai] promotion", "[Land] units gain the [Spirit] promotion","Provides [1] [Danmaku Ghost Card]"],  
+		"[All] units gain the [Youkai] promotion", "[Land] units gain the [Spirit] promotion","Provides [1] [Ability Card; Danmaku Ghost] <after discovering [Improved Trade]>"],  
 		"cities": ["Hakugyokurou", "Banshoukyou", "Kaidan City", "Yuurei Kouen", "Onryoumura", "Bakemono no Toshi", "Kokoro no Yami", "Reikonokuni", "Obakezaka", "Ayashiki Machi"]
 	},
 	{
@@ -606,7 +607,7 @@
 		"outerColor": [229,236,162],
 		"innerColor": [50,53,108],
 		"uniqueName": "Doll's Judgement",
-		"uniques": ["Starts with [Research For Magic]", "Starts with [Forbidden Sorcery]", "[All] units gain the [Youkai] promotion", "[Land] units gain the [Doll Construct] promotion", "[+2 Production, -2 Gold] from every [Doll Lumber House]", "[+1 Production] from every [Doll Lumber House] <after discovering [Machinery]>","Provides [1] [Shanghai Doll Card]"],
+		"uniques": ["Starts with [Research For Magic]", "Starts with [Forbidden Sorcery]", "[All] units gain the [Youkai] promotion", "[Land] units gain the [Doll Construct] promotion", "[+2 Production, -2 Gold] from every [Doll Lumber House]", "[+1 Production] from every [Doll Lumber House] <after discovering [Machinery]>","Provides [1] [Ability Card; Shanghai Doll]"],
 		"cities": ["Alice's House","Dollhaven","Gearshire","Artisan's Reach","Whimsyville","Stitchborough","Wondermere","Mechanica","Puppetsburg","Imagiopia"]
 	},
 	// City-States sorted by cityStateType, name
