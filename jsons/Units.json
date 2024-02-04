@@ -1348,7 +1348,7 @@
 		"requiredTech": "Printing",
 		"upgradesTo": "Shadow Ninja",
 		"attackSound": "metalhit",
-        "uniques": ["Mercenary", "[+1] Movement", "Can see invisible [Scout] units", "Unbuildable"]
+        "uniques": ["Mercenary", "Ignores Zone of Control", "[+1] Movement", "Can see invisible [Scout] units", "Unbuildable"]
 	},
 	{
 		"name": "Ronin",
