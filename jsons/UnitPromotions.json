@@ -162,7 +162,7 @@
 	},
 	{
 		"name": "Winged",
-		"uniques": ["Supplementary", "Can move after attacking", "Can pass through impassable tiles", "[-30]% Strength <when defending>"]
+		"uniques": ["Supplementary", "Can move after attacking", "Can pass through impassable tiles", "[-20]% Strength <when defending>"]
 	},
 	{
 		"name": "Corpse",
@@ -185,7 +185,7 @@
 	{
 		"name": "Stab Third Eye",
 		"prerequisites": ["Satori Race"],
-		"uniques": ["Supplementary", "Only available <for units with [Satori Race]>", "Invisible to non-adjacent units", "[-2] Range <for [Ranged] units>", "[-50]% Strength <when defending>", "[+55]% to Flank Attack bonuses", "[+55]% Strength <vs [Wounded] units>"],
+		"uniques": ["Supplementary", "Only available <for units with [Satori Race]>", "Invisible to non-adjacent units", "[-2] Range <for [Ranged] units>", "[-30]% Strength <when defending>", "[+55]% to Flank Attack bonuses", "[+55]% Strength <vs [Wounded] units>"],
 		"unitTypes": ["Sword", "Ranged", "Archery", "Gunpowder", "Mounted", "Armored", "Siege","Archery","Ranged Gunpowder","Scout"],
 		"column": 28,
 		"row": 4
