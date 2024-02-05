@@ -855,7 +855,7 @@
 		//"cost": 625,
 		"culture": 1,
 		"isWonder": true,
-		"uniques": ["Must be next to [Snow]", "[+2 Food, +1 Production, +1 Gold] from [Snow] tiles [in this city]", "[+1 Food, +2 Production, +1 Gold] from [Tundra] tiles [in this city]"],
+		"uniques": ["Must be next to [Tundra]", "[+2 Food, +1 Production, +1 Gold] from [Snow] tiles [in this city]", "[+1 Food, +2 Production, +1 Gold] from [Tundra] tiles [in this city]"],
 		"requiredTech": "Festivals"
 		"quote": "Letty Whiterock is a seasonal youkai who's only seen during winter. She seems fittingly cold towards most of the humans she meets, and is feared by humans as she is known to freeze them."
 	},
