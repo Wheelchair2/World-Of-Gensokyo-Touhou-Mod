@@ -316,7 +316,7 @@
 	
 	{
 		"name": "Relinquished Land Ownership",
-		"uniqueTo": "Rainbow Realm",
+		"uniqueTo": "Beneath The Rainbow",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"gold": 6,
 		"uniques": [
