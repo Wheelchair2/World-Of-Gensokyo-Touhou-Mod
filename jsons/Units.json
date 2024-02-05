@@ -1188,7 +1188,7 @@
 	
 	{
 		"name": "Relinquisher Of Land",
-		"uniqueTo": "Rainbow Realm",
+		"uniqueTo": "Beneath The Rainbow",
 		"unitType": "Civilian",
 		"uniques": [
             "Can instantly construct a [Relinquished Land Ownership] improvement <by consuming this unit>",
