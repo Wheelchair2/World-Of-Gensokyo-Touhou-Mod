@@ -929,7 +929,7 @@
 	},
 	{
 		"name": "Refine Armor III",
-		"prerequisites": ["Refine Armor I"],
+		"prerequisites": ["Refine Armor II"],
 		"uniques": ["[+5]% Strength <when defending>", "Comment [If this unit has Armor:]", "[+10]% Strength <for [Armor] units> <when defending>"],
 		"unitTypes": ["Sword","Gunpowder","Fighter","Bomber","Mounted", "Melee Sorcery"],
         "column": 25,
