@@ -28,7 +28,6 @@
 		"uniqueName": "God Of Special Events",
 		"uniques": ["Starts with [Festivals]",
 				"[All] units gain the [Divine Blessing] promotion",
-				"[+10]% Strength <for units with [Divine Blessing]> <when fighting in [Friendly Land] tiles>",
 				"[+1 Gold] per [2] population [in all cities]",
 				"Free [Relinquisher Of Land] appears <upon declaring friendship>",
 				"Provides [2] [Blank Card] <after discovering [Improved Trade]>"
@@ -290,10 +289,8 @@
 		"outerColor": [240,240,240],
 		"innerColor": [220,0,0],
 		"uniqueName": "Disaster-Dispelling Prayer",
-		"uniques": ["Comment [Doesn't get affected by economic debuffs when the empire is unhappy, except that when below -10 [Happiness], growth is still nulified and [Settler] units are still unable to be constructed]", "Starts with [Religion]", "Starts with [Rituals]", "[All] units gain the [Human Race] promotion",
+		"uniques": ["Comment [Doesn't get affected by economic debuffs when the empire is unhappy]", "Starts with [Religion]", "Starts with [Rituals]", "[All] units gain the [Human Race] promotion",
 			"Provides [1] [Ability Card; Yin-Yang Orb] <after discovering [Improved Trade]>",
-				"[+75]% growth [in all cities] <when between [-10] and [0] Happiness> <hidden from users>",
-				"[+50]% [Production] [in all cities] <when below [-10] Happiness> <hidden from users>"
 			],
 		"favoredReligion": "Shrine Shinto",
 		"cities": ["Kamigakure", "Hachimori", "Yuugen no Kuni", "Shinseikoku", "Kazanami", "Isagiyama", "Miyamizu", "Youkaino", "Harunoshima", "Fushimori"]
@@ -479,7 +476,7 @@
 		"outerColor": [0,0,0],
 		"innerColor": [255,255,255],
 		"uniqueName": "Master Spark",
-		"uniques": ["[All] units gain the [Human Race] promotion", "Starts with [Research For Magic]", "Starts with [Simple Alchemy]", "[+15]% Strength <for [{Human} {Magician}] units> <during the [Youkai Expansion Project]>", "[+55]% Strength <for [{Human} {Magician}] units> <starting from the [Edo period]>", "Provides [1] [Ability Card; Mini-Hakkero] <after discovering [Improved Trade]>"],
+		"uniques": ["[All] units gain the [Human Race] promotion", "Starts with [Research For Magic]", "Starts with [Simple Alchemy]", "[+15]% Strength <for [{Human} {Magician}] units> <during the [Youkai Expansion Project]>", "[+40]% Strength <for [{Human} {Magician}] units> <starting from the [Edo period]>", "Provides [1] [Ability Card; Mini-Hakkero] <after discovering [Improved Trade]>"],
 		"cities": ["Arcanopolis", "Mystoria", "Sorceron", "Enchantia", "Maginium", "Spellhaven", "Wizard's Reach", "Enigmaire", "Conjuria", "Manaheim"]
 	},
 	{
