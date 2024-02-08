@@ -71,14 +71,14 @@
 		"name": "House Of Eternity",
 		"uniqueTo": "Eientei Residents",
 		"isNationalWonder": true,
-		"cost": 225,
+		"cost": 185,
 		"uniques": ["Special Wonder", "[-100]% maintenance costs <in this city>"],
 		"quote": "Every month on the night of the full moon, the residents of Eientei hold a Moon Festival (Reigetsusai), offering mochi with medicinal herbs pounded into them."
 	},
 	{
 		"name": "Fairy Tree House",
 		"uniqueTo": "Fairy Alliance",
-		"cost": 225,
+		"cost": 185,
 		"isNationalWonder": true,
 		"greatPersonPoints": {"Great Merchant": 1},
         "uniques": ["Special Wonder", "[+10]% Strength <for [Fairy] units> <when fighting in [Forest] tiles>", "[+10]% Strength <for [Fairy] units> <when fighting in [Jungle] tiles>"]
@@ -90,7 +90,7 @@
 		"cost": 225,
 		"isNationalWonder": true,
 		"greatPersonPoints": {"Great Artist": 1},
-        "uniques": ["Special Wonder", "[+10]% Strength <for units with [Divine Blessing]> <when defending>"]
+        "uniques": ["Special Wonder", "[+10]% Strength <for units with [Divine Blessing]> <when defending>", "[+1] Movement <for [All] units> <during a Golden Age>"],
 		"quote": "Okina can create doors on the back of anything, even living beings. The back doors act like portals and allow her to travel wherever she wishes, or to send something to somewhere else."
 	},
 	{
@@ -253,7 +253,7 @@
 		"uniqueTo": "Mermaids Of The Lake",
 		"cost": 225,
 		"isNationalWonder": true,
-		"uniques": ["Special Wonder", "[+15]% Strength <for [Mermaid] units> <when fighting in [Water] tiles>"]
+		"uniques": ["Special Wonder", "[+15]% Strength <for [Mermaid] units> <when fighting in [Water] tiles>", "[+1 Culture] from [Fresh water] tiles [in all cities]"]
 		"greatPersonPoints": {"Great Engineer": 1},
 		"quote": "Eastern dragons are said to have one reversed scale under their chins that greatly enrages them when it is touched. The Japanese phrase 'to touch someone's reversed scale,' meaning 'to incur the wrath of a superior', is derived from this."
 	},
@@ -294,11 +294,10 @@
 	{
 		"name": "Fairy Garden",
 		"uniqueTo": "Fairy Kingdom",
-		"food": 10,
 		"cost": 185,
 		"isNationalWonder": true,
 		"greatPersonPoints": {"Great Artist": 1},
-		"uniques": ["Special Wonder", "[+5]% Strength <for [Fairy] units>"],
+		"uniques": ["Special Wonder", "[+1 Happiness, +2 Culture] per [3] population [in this city]"],
 		"quote": "Ordinary fairies are weaker than humans. Greater fairies are mightier than other fairies."
 	},
 	/*
@@ -353,7 +352,7 @@
 	{
 		"name": "Library",
 		"hurryCostModifier": 25,
-		"maintenance": 2,
+		"maintenance": 1,
 		"uniques": ["[+1 Science] per [2] population [in this city]"],
 		"requiredTech": "Education"
 	},
@@ -394,9 +393,17 @@
 		"requiredTech": "State Government"
 	},
 	{
+		"name": "Paddock",
+		"maintenance": 2,
+		"requiredNearbyImprovedResources": ["Horses","Sheep","Cattle"],
+		"hurryCostModifier": 25,
+		"uniques": ["[+1 Production] from [Pasture] tiles [in this city]", "[+1 Production] from [Camp] tiles [in this city]"],
+		"requiredTech": "State Government"
+	},
+	{
 		"name": "Barracks",
 		"hurryCostModifier": 25,
-		"maintenance": 3,
+		"maintenance": 1,
 		"uniques": ["New [Military] units start with [15] Experience [in this city]", "Destroyed when the city is captured"],
 		"requiredTech": "Professional Army"
 	},
@@ -405,7 +412,7 @@
 		"uniqueTo": "Hakurei Faction",
 		"replaces": "Barracks",
 		"hurryCostModifier": 25,
-		"maintenance": 3,
+		"maintenance": 1,
 		"uniques": ["New [Military] units start with [15] Experience [in this city]", "All newly-trained [Military] units [in this city] receive the [Anti-Youkai] promotion", "Destroyed when the city is captured"],
 		"requiredTech": "Professional Army"
 	},
@@ -428,8 +435,7 @@
 	{
 		"name": "Fortifications",
 		"cost": 40,
-		"cityStrength": 5,
-		"cityHealth": 25,
+		"cityStrength": 10,
 		"requiredTech": "Authority",
 		"uniques": ["Destroyed when the city is captured"]
 	},
@@ -440,7 +446,6 @@
 		"cityHealth": 50,
 		"hurryCostModifier": 25,
 		"requiredTech": "State Government",
-		"requiredBuilding": "Fortifications",
 		"uniques": ["Destroyed when the city is captured"]
 	},
 	{
@@ -468,7 +473,7 @@
 	{
 		"name": "Courthouse",
 		"cost": 110,
-		"maintenance": 5,
+		"maintenance": 4,
 		"hurryCostModifier": 25,
 		"uniques": ["Remove extra unhappiness from annexed cities",
 			"Can only be built [in annexed cities]"],
@@ -525,7 +530,7 @@
 	{
 		"name": "Rice Wine",
 		"cost": 75,
-		"maintenance": 2,
+		"maintenance": 1,
 		"happiness": 1,
 		"production": 1,
 		"hurryCostModifier": 15,
@@ -536,7 +541,7 @@
 		"cost": 40,
 		"uniqueTo": "Oni Clans"
 		"replaces": "Rice Wine",
-		"maintenance": 1,
+		"maintenance": 0,
 		"happiness": 1,
 		"production": 1,
 		"hurryCostModifier": 12,
@@ -545,7 +550,7 @@
 	{
 		"name": "Barrels Of Alcohol",
 		"cost": 125,
-		"happiness": 4,
+		"happiness": 5,
 		"culture": 1,
 		"isNationalWonder": true,
 		"requiredTech": "Fermented Alcohol",
@@ -565,7 +570,7 @@
 		"name": "Lighthouse",
 		"cost": 75,
 		"hurryCostModifier": 25,
-		"maintenance": 2,
+		"maintenance": 1,
 		"uniques": ["Must be next to [Coast]", "[+1 Food] from [Ocean] tiles [in this city]",
 			"[+1 Food] from [Coast] tiles [in this city]", "[+1 Food] from [Fish] tiles [in this city]" ],
 		"requiredTech": "Sailing"
@@ -593,17 +598,17 @@
 	{
         "name": "Water Wheel",
         "hurryCostModifier": 0,
-        "maintenance": 2,
+        "maintenance": 3,
         "uniques": [
             "Must be on [River]",
             "[+1 Production] from [River] tiles [in this city]"
         ],
-        "requiredTech": "Metal Farming Tools"
+        "requiredTech": "Compass"
     },
 	{
 		"name": "Market",
 		"cost": 100,
-		"gold": 2,
+		"gold": 3,
 		"specialistSlots": {"Merchant": 1},
 		"hurryCostModifier": 25,
 		"percentStatBonus": {"gold": 25},
@@ -632,7 +637,7 @@
 		"maintenance": 0,
 		"requiredNearbyImprovedResources": ["Marbles"],
 		"hurryCostModifier": 25,
-		"uniques": ["[+1 Culture] from [Marble] tiles [in this city]"],
+		"uniques": ["[+2 Culture] from [Marble] tiles [in this city]"],
 		"requiredTech": "Arts And Sculpture"
 	},
 	{
@@ -714,7 +719,7 @@
     },
 	{
 		"name": "Kiln",
-		"maintenance": 3,
+		"maintenance": 1,
 		"production": 2,
 		"hurryCostModifier": 25,
 		"uniques": ["Provides [2] [Iron]"],
@@ -728,6 +733,15 @@
 		"hurryCostModifier": 25,
 		"percentStatBonus": {"production": 10},
 		"requiredTech": "Metal Casting"
+	},
+	{
+		"name": "Blacksmith Shop",
+		"maintenance": 2,
+		"production": 2,
+		"specialistSlots": {"Engineer": 1},
+		"hurryCostModifier": 25,
+		"percentStatBonus": {"production": 10},
+		"requiredTech": "Shield Wall"
 	},
 	{
 		"name": "Forge",
@@ -804,16 +818,16 @@
 	},
 	{
 		"name": "Fortress",
-		"cityStrength": 10,
-		"cityHealth": 25,
+		"cityStrength": 5,
+		"cityHealth": 50,
 		"hurryCostModifier": 20,
 		"requiredTech": "Politics",
 		"requiredBuilding": "Castle",
-		"uniques": ["Destroyed when the city is captured"]
+		"uniques": ["New [Military] units start with [15] Experience [in this city]", "Destroyed when the city is captured"]
 	},
 	{
 		"name": "High Walls",
-		"happiness": 1,
+		"happiness": 2,
 		"cost": 100,
 		"cityHealth": 50,
 		"hurryCostModifier": 20,
@@ -855,7 +869,7 @@
 		//"cost": 625,
 		"culture": 1,
 		"isWonder": true,
-		"uniques": ["Must be next to [Tundra]", "[+2 Food, +1 Production, +1 Gold] from [Snow] tiles [in this city]", "[+1 Food, +2 Production, +1 Gold] from [Tundra] tiles [in this city]"],
+		"uniques": ["Must be next to [Snow]", "[+2 Food, +1 Production, +1 Gold] from [Snow] tiles [in this city]", "[+1 Food, +2 Production, +1 Gold] from [Tundra] tiles [in this city]"],
 		"requiredTech": "Festivals"
 		"quote": "Letty Whiterock is a seasonal youkai who's only seen during winter. She seems fittingly cold towards most of the humans she meets, and is feared by humans as she is known to freeze them."
 	},
@@ -976,7 +990,7 @@
 	},
 	{
 		"name": "Ironworks",
-		"cost": 125,
+		"cost": 250,
 		"production": 8,
 		"culture": 1,
 		"isNationalWonder": true,
@@ -990,15 +1004,7 @@
 		"requiredBuilding": "Tea House",
 		"maintenance": 3,
 		"requiredTech": "History Preservation",
-		"uniques": ["Destroyed when the city is captured"]
-	},
-	{
-		"name": "Military Academy",
-		"hurryCostModifier": 0,
-		"maintenance": 2,
-		"requiredBuilding": "Armory",
-		"uniques": ["New [Military] units start with [15] Experience [in this city]", "Destroyed when the city is captured"],
-		"requiredTech": "Military Science"
+		"uniques": ["[+1 Culture] from [Natural Wonder] tiles [in this city]", "Destroyed when the city is captured"]
 	},
 	{
 		"name": "Official Time System",
@@ -1009,12 +1015,13 @@
 	},
 	{
 		"name": "Tea House",
-		"culture": 5,
+		"culture": 4,
 		"specialistSlots": {"Artist": 2},
 		"hurryCostModifier": 25,
 		"requiredBuilding": "Opera House",
 		"maintenance": 3,
-		"requiredTech": "Public Education"
+		"requiredTech": "Public Education",
+		"uniques": ["Destroyed when the city is captured"]
 	},
 	{
 		"name": "Arsenal",
@@ -1074,11 +1081,10 @@
 	},
 	{
 		"name": "Furniture Shop",
-		"gold": 3,
-		"percentStatBonus": {"gold": 25},
-		"specialistSlots": {"Merchant": 2},
+		"gold": 5,
 		"hurryCostModifier": 15,
 		"requiredBuilding": "Bank",
+		"uniques": ["[+2 Gold] from [Luxury resource] tiles [in this city]"],
 		"requiredTech": "Forgotten Items"
 	},
 	{
@@ -1149,14 +1155,12 @@
 		"requiredBuilding": "Granary",
 		"maintenance": 2,
 		"hurryCostModifier": 0,
-		"uniques": ["[+2 Production] from [Wheat] tiles [in this city]", 
-			"[+2 Production] from [Wheat] tiles [in this city]"
-			],
-		"requiredTech": "Multicropping System"
+		"uniques": ["[+2 Production] from [Wheat] tiles [in this city]"],
+		"requiredTech": "Metal Farming Tools"
 	},
 	{
 		"name": "Storehouse",
-		"food": 5,
+		"food": 6,
 		"requiredBuilding": "Granary",
 		"maintenance": 2,
 		"hurryCostModifier": 0,
@@ -1167,8 +1171,8 @@
 		"maintenance": 2,
 		"hurryCostModifier": 0,
 		"uniques": ["Excess Food converted to Production when under construction",
-			"[+2 Food] from [Wheat] tiles [in this city]"],
-		"requiredTech": "Civil Service"
+			"[+1 Food, +1 Gold] from [Wheat] tiles [in this city]"],
+		"requiredTech": "Multicropping System",
 		"requiredNearbyImprovedResources": ["Wheat"]
 	},
 	
@@ -1201,7 +1205,11 @@
 		"maintenance": 1,
 		"production": 2,
 		"hurryCostModifier": 25,
-		"requiredBuilding": "Magic Cauldron",
+		"requiredNearbyImprovedResources": ["Spices", "Salt", "Sugar"],
+		"uniques": ["[+1 Production, +2 Science] from [Spices] tiles [in this city]",
+			"[+1 Production, +2 Science] from [Salt] tiles [in this city]",
+			"[+1 Production, +2 Science] from [Sugar] tiles [in this city]",
+			],
 		"requiredTech": "Brewing Mastery"
 	},
 	{
@@ -1210,10 +1218,10 @@
 		"science": 1,
 		"maintenance": 1,
 		"hurryCostModifier": 10,
-		"uniques": ["[-8 Food] [in this city]", "Unsellable",
+		"uniques": ["[-4 Food] [in this city]", "Unsellable",
 			"Free [Jiangshi Familiar] appears",
 		],
-		"requiredTech": "Forbidden Sorcery"
+		"requiredTech": "Mysterious Knowledge"
 	},
 	{
 		"name": "Grimoire Of Youkais",
@@ -1241,7 +1249,7 @@
 		"uniqueTo": "Hakurei Faction",
 		"faith": 1,
 		"cost": 1,
-		"uniques": ["Automatically built in all cities where it is buildable", "[-1 Gold, +3 Faith] from every [Donation Box]", "Unsellable"]
+		"uniques": ["Automatically built in all cities where it is buildable", "[-2 Gold, +3 Faith] from every [Donation Box]", "Unsellable"]
 	},
 	{
 		"name": "Moriya Shrine",
@@ -1249,7 +1257,7 @@
 		"uniqueTo": "Moriya Faction",
 		"faith": 1,
 		"cost": 1,
-		"uniques": ["Automatically built in all cities where it is buildable", "[+1 Faith] per [1] population [in all cities]", "Unsellable"]
+		"uniques": ["Automatically built in all cities where it is buildable", "[+1 Faith] per [1] population [in this city]", "Unsellable"]
 	},
 	{
 		"name": "Taoist Temple",
@@ -1259,7 +1267,9 @@
 		"cost": 1,
 		"uniques": ["Automatically built in all cities where it is buildable", 
 		"Unsellable",
-		"[+2 Science] for every known Natural Wonder"]
+		"Comment [+1 [Science] for every known Natural Wonder, increases by 1 [Science] for each city with this building constructed]",
+		//"[+1 Science] for every known Natural Wonder <hidden from users>"
+		]
 	},
 	{
 		"name": "Myouren Temple",
@@ -1269,7 +1279,7 @@
 		"cost": 1,
 		"uniques": ["Automatically built in all cities where it is buildable",
 		"Unsellable",
-		"[33]% Natural religion spread [in all non-occupied cities]"]
+		"[20]% Natural religion spread [in this city]"]
 	},
 	{
 		"name": "Cultivation Practices",
@@ -1279,7 +1289,8 @@
 		"cost": 1,
 		"uniques": ["Automatically built in all cities where it is buildable", 
 		"Unsellable",
-		"[+2 Science] from every [Taoist Mausoleum]"]
+		"[+2 Faith] from every specialist [in this city]"
+		]
 	},
 	{
 		"name": "Shrine",
@@ -1303,7 +1314,7 @@
 		"uniqueTo": "Myouren Faction",
 		"replaces": "Temple",
 		"faith": 5,
-		"cost": 150,
+		"cost": 120,
 		"maintenance": 2,
 		"requiredBuilding": "Shrine",
 		"uniques": ["Destroyed when the city is captured", "[+15]% Strength <for [Monk] units>"]
@@ -1341,7 +1352,7 @@
 		"name": "Donation Box",
 		"cost": 40,
 		"hurryCostModifier": 2,
-		"gold": 1,
+		"gold": 2,
 		"maintenance": 0,
 		"uniques": ["Destroyed when the city is captured"],
 		"requiredBuilding": "Shrine",
@@ -1353,7 +1364,7 @@
 		"hurryCostModifier": 10,
 		"maintenance": 2,
 		"food": 4,
-		"happiness": 1,
+		"happiness": 2,
 		"requiredTech": "Rituals"
 	},
 	{
@@ -1412,7 +1423,7 @@
 	{
 		"name": "Statue Of The Chicken Goddess",
 		"culture": 3,
-		"uniques": ["[+50]% Yield from every [Pasture]"],
+		"uniques": ["[+1 Culture] from every [Pasture]"],
 		"requiredTech": "Heavy Plough",
 		"isWonder": true,
 		"quote": "Niwatari Kutaka is the God of Chickens, assigned to be the guardian of Hell by the Yama. It is told that she can cure throat illnesses. But then, for what reason did she get assigned to such responsibility...?"
