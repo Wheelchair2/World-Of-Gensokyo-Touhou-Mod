@@ -289,7 +289,7 @@
 		"outerColor": [240,240,240],
 		"innerColor": [220,0,0],
 		"uniqueName": "Disaster-Dispelling Prayer",
-		"uniques": ["Comment [Doesn't get affected by economic debuffs when the empire is unhappy]", "Starts with [Religion]", "Starts with [Rituals]", "[All] units gain the [Human Race] promotion",
+		"uniques": ["Comment [Doesn't get affected by any debuffs when the empire is unhappy]", "Starts with [Religion]", "Starts with [Rituals]", "[All] units gain the [Human Race] promotion",
 			"Provides [1] [Ability Card; Yin-Yang Orb] <after discovering [Improved Trade]>",
 			],
 		"favoredReligion": "Shrine Shinto",
