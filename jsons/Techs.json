@@ -117,7 +117,7 @@
 			
 				"name": "Sailing",
 				"cost": 60,
-				"row": 3,
+				"row": 2,
 				"prerequisites": ["Agriculture"],
 				"quote": "Apparently, there is no sea in Gensokyo.",
 				"uniques": ["Enables embarkation for land units"]
@@ -126,20 +126,20 @@
 			
 				"name": "Fermented Alcohol",
 				"cost": 60,
-				"row": 4,
+				"row": 3,
 				"prerequisites": ["Agriculture"],
 				"quote": "She didn't spill a drop of her sake."
 			},
 			{
 				"name": "Iron Working",
-				"row": 5,
+				"row": 4,
 				"prerequisites": ["Agriculture"],
 				"quote": "'You might be trying to get experience points, but you'll just be wasting time in the end.' - Parsee-chan."
 			},
 			{
 				"name": "State Government",
-				"row": 7,
-				"prerequisites": ["Authority"],
+				"row": 6,
+				"prerequisites": ["Authority", "Paid Service"],
 				"quote": "'Shooting, cutting, stabbing, hitting, killing...It's all useless against me.' - Yukari Yakumo; not only is she not scared of physics, but of logic as well."
 			},
 			{
@@ -204,13 +204,13 @@
 			{
 				"name": "Hot Spring",
 				"cost": 115,
-				"row": 4,
+				"row": 3,
 				"prerequisites": ["Fermented Alcohol", "Sailing"],
 				"quote": "In Japan, onsen are hot springs and the bathing facilities, something like you would think of pools."
 			},
 			{
 				"name": "Metal Casting",
-				"row": 5,
+				"row": 4,
 				"prerequisites": ["Iron Working"],
 				"quote": "The Scarlet Devil Mansion is explosive."
 			},
@@ -223,7 +223,7 @@
 			{
 				"name": "Shield Wall",
 				"cost": 115,
-				"row": 8,
+				"row": 7,
 				"prerequisites": ["Professional Army"],
 				"quote": "Fujiwara no Mokou is a princess from the Fujiwara Clan.",
 				"uniques": ["[+30]% Strength <vs [Ranged] units> <when defending> <for [Melee] units> <when adjacent to a [Melee] unit>"]
@@ -292,28 +292,28 @@
 		"techs": [
 			{
 				"name": "Metal Farming Tools",
-				"row": 5,
+				"row": 4,
 				"prerequisites": ["Hot Spring","Metal Casting"],
 				"uniques": ["[-30]% construction time for [Farm] improvements"],
 				"quote": "Blessings of the countryside, gifts from the earth."
 			},
 			{
 				"name": "Navigation",
-				"row": 9,
-				"prerequisites": ["Printing","Improved Trade"],
+				"row": 8,
+				"prerequisites": ["Festivals", "Printing"],
 				"uniques": ["Enables [Embarked] units to enter ocean tiles"],
 				"quote": "'Wakasagi' is a fish native in northern Japan, Hime is a suffix that means 'princess.' That would mean, Wakasagihime's name is literally 'fish princess.'"
 			},
 			{
 				"name": "Maintained Society",
-				"row": 7,
-				"prerequisites": ["Shield Wall", "Festivals", "Gunpowder"],
+				"row": 6,
+				"prerequisites": ["Shield Wall", "Gunpowder"],
 				"quote": "Crow Tengu (karasu-tengu), the 'nimble information corps,' are similar to anthropomorphic crows with a humanoid body structure. Since they're responsible for writing and distributing newspapers, they're the only type of tengu that ventures to the foothills.",
 				"uniques": ["Improves movement speed on roads", "Enables Defensive Pacts"]
 			},
 			{
 				"name": "Mathematics",
-				"row": 11,
+				"row": 10,
 				"prerequisites": ["Improved Trade"],
 				"quote": "Teacher Keine will be proud."
 				"uniques": ["Enables conversion of city production to [Science]", "[+1] Range <for [Archery] units>", "[+1] Range <for [Ranged Gunpowder] units>", "[+1] Range <for [Ranged Sorcery] units>", "Roads connect tiles across rivers"]
@@ -361,27 +361,27 @@
 		"techs": [
 			{
 				"name": "Heavy Plough",
-				"row": 5,
+				"row": 4,
 				"prerequisites": ["Metal Farming Tools"],
 				"uniques": ["[+1 Production] from every [Plantation]"],
 				"quote": "Rice cultivation is Japan's heart; food is Japan's life."
 			},
 			{
 				"name": "Politics",
-				"row": 7,
+				"row": 6,
 				"prerequisites": ["Maintained Society"],
 				"quote": "White Wolf Tengu (hakurou tengu) are the 'mountain's defense force,' responsible for keeping out intruders. They're known as avid players of shogi"
 			},
 			{
 				"name": "Compass",
-				"row": 9,
+				"row": 8,
 				"prerequisites": ["Navigation", "Mathematics"],
 				"uniques": ["[+1] Movement <for [Embarked] units>"]
 				"quote": "There is a ship-sinking youkai in Gensokyo, be careful of her."
 			},
 			{
 				"name": "Physics",
-				"row": 11,
+				"row": 10,
 				"prerequisites": ["Mathematics"],
 				"quote": "Satori is a type of mountain-dwelling youkai in Japanese folklore that is known to live within the mountains of Hida and Mino (today's Gifu Prefecture).",
 				"uniques": ["[+1] Range <for [Siege] units>"]
@@ -437,26 +437,26 @@
 		"techs": [
 			{
 				"name": "Multicropping System",
-				"row": 5,
+				"row": 4,
 				"prerequisites": ["Heavy Plough"],
 				"uniques": ["[+10]% [Food] from every [Farm]"],
 				"quote": "Rice cultivation is Japan's heart; food is Japan's life."
 			},
 			{
 				"name": "Shogunate",
-				"row": 7,
+				"row": 6,
 				"prerequisites": ["Politics"],
 				"quote": "The shogunate was the hereditary military dictatorship of Japan (1192 A.D - 1867 A.D). Obviously, it doesn't canocally exist in Gensokyo."
 			},
 			{
 				"name": "Law And Order",
-				"row": 9,
+				"row": 8,
 				"prerequisites": ["Compass"],
 				"quote": "There is only black and white."
 			},
 			{
 				"name": "Chemistry",
-				"row": 11,
+				"row": 10,
 				"prerequisites": ["Physics"],
 				"quote": "Science is Elegant."
 			},
@@ -489,7 +489,7 @@
 		"techs": [
 			{
 				"name": "Forage Crops Utilization",
-				"row": 6,
+				"row": 5,
 				"prerequisites": ["Multicropping System"],
 				"uniques": ["[+2 Food] from every [{unimproved} {Grassland}]",
                 "[+2 Food] from every [{unimproved} {Plains}]",
@@ -499,13 +499,13 @@
 			},
 			{
 				"name": "Law Enforcement",
-				"row": 8,
+				"row": 7,
 				"prerequisites": ["Shogunate", "Law And Order"],
 				"quote": "Dansu no chansu ni pankuna ranbu de anta no mausu wa anguri 'nan chi ~yuu fanki' (nan chi ~yuu fanki!)"
 			},
 			{
 				"name": "Fertilizer",
-				"row": 10,
+				"row": 9,
 				"prerequisites": ["Chemistry"],
 				"quote": "You're not gonna use animal feces as fertilizer, are you?"
 			}
@@ -520,13 +520,13 @@
 		"techs": [
 			{
 				"name": "Arts And Sculpture",
-				"row": 9,
+				"row": 8,
 				"prerequisites": ["Fertilizer"],
 				"quote": "The Kamakura Period is considered a high point in the history of the Japanese art."
 			},
 			{
 				"name": "Economics",
-				"row": 7,
+				"row": 6,
 				"prerequisites": ["Law Enforcement", "Forage Crops Utilization"],
 				"quote": "There is a youkai with the ability to stack rocks perfectly."
 			}
@@ -541,7 +541,7 @@
 		"techs": [
 			{
 				"name": "Technology Limit",
-				"row": 8,
+				"row": 7,
 				"prerequisites": ["Economics", "Arts And Sculpture"],
 				"quote": "Yukari probably kept humans from technologically advancing in Gensokyo.",
 				"uniques": ["Comment [Once you research this, every unit at the end of the Magic tree and the Religion tree becomes obsolete]", "[+40]% Strength  <for [Magician] units>", "[+40]% Strength  <for [Dark Magician] units>", "[+40]% Strength  <for [Summon] units>", "[+40]% Strength  <for [Monk] units>", "[+40]% Strength  <for [Hermit] units>"]
@@ -558,7 +558,7 @@
 			/*
 			{
 				"name": "Areal Warfare",
-				"row": 2,
+				"row": 1,
 				"prerequisites": ["Technology Limit", "Full Conversion", "Magic Tree Extension"]
 				"quote": "Touhou Fact: Hina doesn't directly bring misfortune; she absorbs misfortune from her surroundings. It's just that those who get caught in the cross-fire of her absorption get hit with a quick wave of misfortune."
 			},
@@ -566,20 +566,20 @@
 			{
 				"name": "Military Logistics",
 				"cost": 2100,
-				"row": 6,
+				"row": 5,
 				"prerequisites": ["Technology Limit"],
 				"quote": "Yukari probably kept humans from technologically advancing in Gensokyo."
 			},
 			{
 				"name": "Steel",
-				"row": 8,
+				"row": 7,
 				"prerequisites": ["Technology Limit"],
 				"quote": "Religion plays a major role in Gensokyo, as Gods literally exist in the Touhou series.",
 				"uniques": ["[+10]% Strength <for [Armor] units> <when defending>", "[+15]% Strength <for [Ashigaru] units> <when attacking>"]
 			},
 			{
 				"name": "Civil Service",
-				"row": 10,
+				"row": 9,
 				"prerequisites": ["Technology Limit"],
 				"quote": "Reimu actually wants peace between both humans and youkai. Miko confirms this by reading her desires."
 			}
@@ -594,13 +594,13 @@
 		"techs": [
 			{
 				"name": "Public Education",
-				"row": 11,
+				"row": 10,
 				"prerequisites": ["Civil Service"],
 				"quote": "Yukari probably kept humans from technologically advancing in Gensokyo."
 			},
 			{
 				"name": "Metallurgy",
-				"row": 9,
+				"row": 8,
 				"prerequisites": ["Steel"],
 				"quote": "Yukari probably kept humans from technologically advancing in Gensokyo."
 				"uniques": ["All newly-trained [{Military} {Land}] units [in all cities] receive the [Refine Armor I] promotion"]
@@ -608,14 +608,14 @@
 			{
 				"name": "Military Predominance",
 				"cost": 2800,
-				"row": 7,
+				"row": 6,
 				"prerequisites": ["Military Logistics"],
 				"quote": "Religion plays a major role in Gensokyo, as Gods literally exist in the Touhou series.",
 				"uniques": ["[+1] Movement <for [Mounted] units>"]
 			},
 			{
 				"name": "Naval Warfare",
-				"row": 5,
+				"row": 4,
 				"prerequisites": ["Military Logistics"],
 				"quote": "Religion plays a major role in Gensokyo, as Gods literally exist in the Touhou series.",
 				"uniques": ["[+1] Movement <for [{Military} {Water}] units>", "[+1] Movement <for [Embarked] units>"]
@@ -631,26 +631,26 @@
 		"techs": [
 			{
 				"name": "Woodblock Printing",
-				"row": 11,
+				"row": 10,
 				"prerequisites": ["Public Education"],
 				"quote": "Japanese carpentry was developed more than a millennium ago through Chinese architectural influences from the 12th century. Although, that probably wasn't the case in Gensokyo."
 			},
 			{
 				"name": "Machinery",
-				"row": 9,
+				"row": 8,
 				"prerequisites": ["Metallurgy", "Public Education"],
 				"quote": "Religion plays a major role in Gensokyo, as Gods literally exist in the Touhou series."
 			},
 			{
 				"name": "Vassal States",
-				"row": 7,
+				"row": 6,
 				"prerequisites": ["Military Predominance"],
 				"quote": "Religion plays a major role in Gensokyo, as Gods literally exist in the Touhou series."
 				"uniques": ["[+30]% [Gold] [in puppeted cities]", "[+30]% [Culture] [in puppeted cities]", "[+30]% [Science] [in puppeted cities]"]
 			},
 			{
 				"name": "Official Navy",
-				"row": 5,
+				"row": 4,
 				"prerequisites": ["Naval Warfare"],
 				"quote": "Religion plays a major role in Gensokyo, as Gods literally exist in the Touhou series.",
 				"uniques": ["[+25]% XP gained from combat <for [{Military} {Water}] units> <before adopting [Military Tradition]>"]
@@ -666,26 +666,26 @@
 		"techs": [
 			{
 				"name": "Carpentry",
-				"row": 11,
+				"row": 10,
 				"prerequisites": ["Woodblock Printing"],
 				"quote": "Yukari probably kept humans from technologically advancing in Gensokyo."
 			},
 			{
 				"name": "Lantern Clock",
-				"row": 9,
+				"row": 8,
 				"prerequisites": ["Machinery"],
 				"quote": "Religion plays a major role in Gensokyo, as Gods literally exist in the Touhou series.",
 				"uniques": ["[+1 Production] [in all cities]"]
 			},
 			{
 				"name": "Nobility",
-				"row": 7,
+				"row": 6,
 				"prerequisites": ["Vassal States"],
 				"quote": "Religion plays a major role in Gensokyo, as Gods literally exist in the Touhou series."
 			},
 			{
 				"name": "Literature",
-				"row": 5,
+				"row": 4,
 				"prerequisites": ["Official Navy"],
 				"quote": "Religion plays a major role in Gensokyo, as Gods literally exist in the Touhou series."
 			}
@@ -700,26 +700,26 @@
 		"techs": [
 			{
 				"name": "Outside World Awareness",
-				"row": 11,
+				"row": 10,
 				"prerequisites": ["Carpentry"],
 				"quote": "The Great Hakurei Barrier is the barrier that hides Gensokyo away from the Outside World, and which allows youkai to survive within even when outside humans no longer believe in them.",
 				"uniques": ["Reveals the entire map"]
 			},
 			{
 				"name": "Architecture",
-				"row": 9,
+				"row": 8,
 				"prerequisites": ["Lantern Clock", "Carpentry"],
 				"quote": "It is unknown when, how, or why the mansion was originally constructed, but Remilia Scarlet has been its mistress for about 500 years, and Flandre Scarlet has been in the basement for about 495 years."
 			},
 			{
 				"name": "Espionage",
-				"row": 7,
+				"row": 6,
 				"prerequisites": ["Nobility"],
 				"quote": "What's this thin book?"
 			},
 			{
 				"name": "Peace To Gensokyo",
-				"row": 5,
+				"row": 4,
 				"prerequisites": ["Literature"],
 				"quote": "A gentle pat should do the trick."
 			}
@@ -734,25 +734,25 @@
 		"techs": [
 			{
 				"name": "Forgotten Items",
-				"row": 11,
+				"row": 10,
 				"prerequisites": ["Outside World Awareness"],
 				"quote": "Some items from the 'outside world' randomly appears in Gensokyo, as they were forgotten. So that's where the TV remote went..."
 			},
 			{
 				"name": "Modern Knowledge",
-				"row": 9,
+				"row": 8,
 				"prerequisites": ["Outside World Awareness", "Architecture"],
 				"quote": "What's this thin book?"
 			},
 			{
 				"name": "Military Science",
-				"row": 7,
+				"row": 6,
 				"prerequisites": ["Espionage"],
 				"quote": "."
 			},
 			{
 				"name": "History Preservation",
-				"row": 5,
+				"row": 4,
 				"prerequisites": ["Peace To Gensokyo"],
 				"quote": "A gentle pat should do the trick."
 			}
@@ -767,21 +767,21 @@
 		"techs": [
 			{
 				"name": "Medicine",
-				"row": 11,
+				"row": 9,
 				"prerequisites": ["Forgotten Items", "Modern Knowledge"],
 				"quote": ".",
 				"uniques": ["[+15]% Strength <when defending> <for [Military] units> <when adjacent to a [Field Medic] unit>"]
 			},
 			{
 				"name": "Exclusive Electricity",
-				"row": 9,
+				"row": 7,
 				"prerequisites": ["Modern Knowledge"],
 				"quote": "There are still electricity in Gensokyo, you know.",
 				"uniques": ["[+50]% Production towards any buildings that already exist in the Capital"]
 			},
 			{
 				"name": "Scientific Theory",
-				"row": 7,
+				"row": 5,
 				"prerequisites": ["History Preservation", "Military Science"],
 				"quote": "For the crime of creating the Hourai Elixir, Kaguya Houraisan and Eirin Yagokoro were exiled to Earth, where they came to live in the Bamboo Forest of the Lost.",
 				"uniques": ["[+10]% [Science] from every [Buildings]"]
@@ -797,7 +797,7 @@
 		"techs": [
 			{
 				"name": "ZUN's Perfect Beer",
-				"row": 9,
+				"row": 7,
 				"prerequisites": ["Medicine","Scientific Theory","Exclusive Electricity"],
 				"quote": "And then, EOSD is born."
 				"uniques": ["Comment [Is the perfect beer even possible?]", "Can be continually researched"]
