@@ -208,7 +208,7 @@
 	},
 	{
 		"name": "Doll Construct",
- 		"uniques": ["Apparition", "[-25]% Strength <when defending> <before discovering [Self-Discovery]>", "[-10]% Strength <when defending> <after discovering [Self-Discovery]>", "[+10] HP when healing <in [Doll Lumber House] tiles>"]
+ 		"uniques": ["Apparition", "[-25]% Strength <when defending> <before discovering [Self-Discovery]>", "[-15]% Strength <when defending> <after discovering [Self-Discovery]>", "[+10] HP when healing <in [Doll Lumber House] tiles>"]
 	},
 	{
 		"name": "Lunarian",
@@ -929,9 +929,9 @@
 	},
 	{
 		"name": "Refine Armor III",
-		"prerequisites": ["Refine Armor II"],
+		"prerequisites": ["Refine Armor I"],
 		"uniques": ["[+5]% Strength <when defending>", "Comment [If this unit has Armor:]", "[+10]% Strength <for [Armor] units> <when defending>"],
-		"unitTypes": ["Sword","Gunpowder","Fighter","Bomber", "Mounted", "Melee Sorcery"],
+		"unitTypes": ["Sword","Gunpowder","Fighter","Bomber","Mounted", "Melee Sorcery"],
         "column": 25,
         "row": 10
 	},
