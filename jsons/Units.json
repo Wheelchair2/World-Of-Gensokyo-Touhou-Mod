@@ -11,6 +11,24 @@
 		"cost": 70
 	},
 	{
+		"name": "Maiden Worker",
+		"uniqueTo": "Mermaids Of The Lake",
+		"replaces": "Worker",
+		"unitType": "Civilian",
+		"movement": 2,
+		"uniques": ["[+1] Movement <in [Land] tiles>", "May create improvements on water resources", "Can build [Land] improvements on tiles", "Automation is a primary action"],
+		"promotions": ["Mermaid"],
+		"cost": 60
+	},
+	{
+		"name": "Shanghai Labor Doll",
+		"unitType": "Civilian",
+		"movement": 2,
+		"uniques": ["[-20]% construction time for [All] improvements", "Can build [Land] improvements on tiles", "Automation is a primary action", "Unbuildable"],
+		"promotions": ["Doll Construct"],
+		"cost": 70
+	},
+	{
 		"name": "Work Boats",
 		"unitType": "Civilian Water",
 		"movement": 4,
@@ -24,7 +42,18 @@
 		"unitType": "Civilian",
 		"movement": 2,
 		"cost": 110,
-		"uniques": ["Founds a new city <by consuming this unit>", "Excess Food converted to Production when under construction"]
+		"uniques": ["Founds a new city <by consuming this unit>", "Excess Food converted to Production when under construction"],
+		"hurryCostModifier": 15
+	},
+	{
+		"name": "Maiden Settler",
+		"uniqueTo": "Mermaids Of The Lake",
+		"replaces": "Settler",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 90,
+		"uniques": ["[+1] Movement <in [Land] tiles>", "Founds a new city <by consuming this unit>", "Excess Food converted to Production when under construction"],
+		"promotions": ["Mermaid"],
 		"hurryCostModifier": 15
 	},
     /*
@@ -317,7 +346,7 @@
 		"requiredTech": "Shield Wall",
 		"obsoleteTech": "Law And Order",
 		"upgradesTo": "Defence Chief",
-		"uniques": ["Armor", "[+30]% Strength <when defending>", "[-1] Movement <in [Foreign land] tiles>"],
+		"uniques": ["Armor", "[+30]% Strength <when defending>", "[-1] Movement <in [Foreign land] tiles>", "Never appears as a Barbarian unit"],
 		"attackSound": "metalhit"
 	},
 	{
@@ -423,7 +452,7 @@
 		"unitType": "Siege",
 		"movement": 2,
 		"strength": 8,
-		"rangedStrength": 10,
+		"rangedStrength": 8,
 		"cost": 120,
 		"requiredTech": "Gunpowder",
 		"obsoleteTech": "Maintained Society",
@@ -601,16 +630,16 @@
 		"name": "Battering Ram",
 		"unitType": "Sword",
 		"movement": 1,
-		"strength": 18,
-		"cost": 85,
+		"strength": 12,
+		"cost": 110,
 		"obsoleteTech": "Gunpowder",
 		"requiredTech": "State Government",
 		"promotions": ["Cover I"]
-		"uniques": ["Siege", "[+1] Movement <when adjacent to a [Melee] unit>", "[+50]% Strength <vs cities>", "Can only attack [City] units", "Never appears as a Barbarian unit"],
+		"uniques": ["Siege", "[+1] Movement <when adjacent to a [Melee] unit>", "[+100]% Strength <vs cities>", "Can only attack [City] units", "Never appears as a Barbarian unit"],
 		"attackSound": "metalhit"
 	},
 	
-	{
+	{ 
 		"name": "Odzutsu",
 		"unitType": "Siege",
 		"movement": 2,
@@ -1227,6 +1256,7 @@
 	//Barbarian units
 	{
 		"name": "Roaming Jiangshi",
+		"replaces": "Samurai",
 		"uniqueTo": "Barbarians",
 		"unitType": "Sword",
 		"movement": 2,
@@ -1254,7 +1284,7 @@
 	{
 		"name": "Vengeful Spirit",
 		"uniqueTo": "Barbarians",
-		"replaces": "Archer",
+		"replaces": "Longbowman",
 		"unitType": "Ranged Sorcery",
 		"range": 2,
 		"movement": 2,
@@ -1296,7 +1326,7 @@
 	{
 		"name": "Earthbound Ghost",
 		"uniqueTo": "Barbarians",
-		"replaces": "Longbowman",
+		"replaces": "Guardsman",
 		"unitType": "Ranged Sorcery",
 		"range": 2,
 		"movement": 2,
