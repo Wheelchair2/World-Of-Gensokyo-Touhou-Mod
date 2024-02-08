@@ -3,12 +3,12 @@
     "uniques": [
         "Gain a free [System] [in all cities]",
 		
-        "[-75]% growth [in all cities] <when between [-10] and [0] Happiness>",
-        "Nullifies Growth [in all cities] <when below [-10] Happiness>",
-        "[-50]% [Production] [in all cities] <when below [-10] Happiness>",
-        "[-33]% Strength <for [All] units> <when below [-10] Happiness>",
-        "Cannot build [Settler] units <when below [-10] Happiness>",
-        "Rebel units may spawn <when below [-20] Happiness>",
+        "[-75]% growth [in all cities] <when between [-10] and [0] Happiness> <for [non-[Hakurei Faction]]>",
+        "Nullifies Growth [in all cities] <when below [-10] Happiness> <for [non-[Hakurei Faction]]>",
+        "[-50]% [Production] [in all cities] <when below [-10] Happiness> <for [non-[Hakurei Faction]]>",
+        "[-33]% Strength <for [All] units> <when below [-10] Happiness> <for [non-[Hakurei Faction]]>",
+        "Cannot build [Settler] units <when below [-10] Happiness> <for [non-[Hakurei Faction]]>",
+        "Rebel units may spawn <when below [-20] Happiness> <for [non-[Hakurei Faction]]>",
         "[-1] Sight <for [Embarked] units>",
         
         "[-50]% Strength <for [Military] units> <vs [Military] units> <before discovering [Professional Army]>",
