@@ -279,8 +279,7 @@
 				"cost": 120,
 				"row": 12,
 				"prerequisites": ["Forbidden Sorcery"],
-				"quote": "Koakuma & Daiyousei's names were created by the community.",
-				"uniques": ["[+5]% Strength <for [Apparition] units>"]
+				"quote": "Koakuma & Daiyousei's names were created by the community."
 			}
 		]
 	},
@@ -317,7 +316,7 @@
 				"row": 11,
 				"prerequisites": ["Improved Trade"],
 				"quote": "Teacher Keine will be proud."
-				"uniques": ["Enables conversion of city production to [Science]", "[+1] Range <for [Archery] units>", "[+1] Range <for [Ranged Gunpowder] units>", "Roads connect tiles across rivers"]
+				"uniques": ["Enables conversion of city production to [Science]", "[+1] Range <for [Archery] units>", "[+1] Range <for [Ranged Gunpowder] units>", "[+1] Range <for [Ranged Sorcery] units>", "Roads connect tiles across rivers"]
 			},
 			////3
 			{
@@ -341,7 +340,7 @@
 				"row": 14,
 				"prerequisites": ["Advanced Magic"],
 				"quote": "'Sonanoka?' - Rumia.",
-				"uniques": ["New [Military] units start with [15] Experience [in all cities]"]
+				"uniques": ["[+5]% Strength <for [Apparition] units>"]
 			},
 			{
 				"name": "Self-Discovery",
@@ -425,7 +424,7 @@
 				"row": 13,
 				"prerequisites": ["Dark Magic"],
 				"quote": "I was about to put Satori's quote here, but then I realised that there is a more valuable information for you to hear: Satori is cute.",
-				"uniques": ["[+5]% Strength <vs [Racial] units>"]
+				"uniques": ["[-5]% Unhappiness from [Population] [in annexed cities]"]
 			}
 		]
 	},
@@ -440,7 +439,7 @@
 				"name": "Multicropping System",
 				"row": 5,
 				"prerequisites": ["Heavy Plough"],
-				"uniques": ["[+50]% [Food] from every [Farm]"],
+				"uniques": ["[+10]% [Food] from every [Farm]"],
 				"quote": "Rice cultivation is Japan's heart; food is Japan's life."
 			},
 			{
@@ -583,7 +582,7 @@
 				"row": 10,
 				"prerequisites": ["Technology Limit"],
 				"quote": "Reimu actually wants peace between both humans and youkai. Miko confirms this by reading her desires."
-			},
+			}
 		]
 	},
 	{
@@ -604,7 +603,7 @@
 				"row": 9,
 				"prerequisites": ["Steel"],
 				"quote": "Yukari probably kept humans from technologically advancing in Gensokyo."
-				"uniques": ["[25]% City Strength from defensive buildings"]
+				"uniques": ["All newly-trained [{Military} {Land}] units [in all cities] receive the [Refine Armor I] promotion"]
 			},
 			{
 				"name": "Military Predominance",
