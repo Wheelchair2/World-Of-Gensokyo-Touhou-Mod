@@ -225,19 +225,18 @@
 	{
 		"name": "Ability Card; Yin-Yang Orb",
 		"resourceType": "Luxury",
-		"uniques": ["Not shown on world screen","[+10]% Strength <for [All] units>","Comment [Cards only give 1 [Happiness] as a luxury resource.]", "Comment [-4 [Happiness] to this resource]", "[-4 Happiness] <hidden from users>","Excluded from map editor"]
+		"uniques": ["Not shown on world screen","[+8]% Strength <for [All] units>","Comment [Cards only give 1 [Happiness] as a luxury resource.]", "Comment [-4 [Happiness] to this resource]", "[-4 Happiness] <hidden from users>","Excluded from map editor"]
 	},
 	{
 		"name": "Ability Card; Mini-Hakkero",
 		"resourceType": "Luxury",
-		"uniques": ["Not shown on world screen","[+20]% Strength <for [Siege] units>","[+20]% Strength <for [Esoterica Practitioner] units>","Comment [Cards only give 1 [Happiness] as a luxury resource.]", "Comment [-4 [Happiness] to this resource]", "[-4 Happiness] <hidden from users>","Excluded from map editor"]
+		"uniques": ["Not shown on world screen","[+12]% Strength <for [Siege] units>","Comment [Cards only give 1 [Happiness] as a luxury resource.]", "Comment [-4 [Happiness] to this resource]", "[-4 Happiness] <hidden from users>","Excluded from map editor"]
 	},
 	{
 		"name": "Ability Card; Shanghai Doll",
 		"resourceType": "Luxury",
 		"uniques": ["Not shown on world screen",
-			"[1] free [Worker] units appear",
-			"[Worker] units gain the [Doll Construct] promotion",
+			"[1] free [Shanghai Labor Doll] units appear <upon turn end>",
 			"Comment [Cards only give 1 [Happiness] as a luxury resource.]", "Comment [-4 [Happiness] to this resource]", "[-4 Happiness] <hidden from users>",
 			"Excluded from map editor"
 		]
@@ -245,19 +244,12 @@
 	{
 		"name": "Ability Card; Backdoor",
 		"resourceType": "Luxury",
-		"uniques": ["Not shown on world screen","[+15]% Strength <when defending> <when adjacent to a [{Friendly} {Military}] unit> <for [Military] units>", // It will be OP with Honor tree.
-			"Comment [Cards only give 1 [Happiness] as a luxury resource.]", "Comment [-4 [Happiness] to this resource]", "[-4 Happiness] <hidden from users>","Excluded from map editor"]
+		"uniques": ["Not shown on world screen","[+15]% Strength <when defending> <when adjacent to a [{Friendly} {Military}] unit> <for [Military] units>","Comment [Cards only give 1 [Happiness] as a luxury resource.]", "Comment [-4 [Happiness] to this resource]", "[-4 Happiness] <hidden from users>","Excluded from map editor"]
 	},
 	{
 		"name": "Ability Card; Offerings To A Sacred Mountain",
 		"resourceType": "Luxury",
-		"uniques": ["Not shown on world screen",
-			"[+1 Gold] from [Mountain] tiles [in all cities] <when above [49] [Faith]> <hidden from users>",
-			"[+1 Gold] from [Mountain] tiles [in all cities] <when above [99] [Faith]> <hidden from users>",
-			"[+1 Gold] from [Mountain] tiles [in all cities] <when above [149] [Faith]> <hidden from users>",
-			"[+1 Gold] from [Mountain] tiles [in all cities] <when above [199] [Faith]> <hidden from users>",
-			"Comment [+1 Gold from mountain per 50 Faith stocked, up to 4.]",
-			"Comment [Cards only give 1 [Happiness] as a luxury resource.]", "Comment [-4 [Happiness] to this resource]", "[-4 Happiness] <hidden from users>","Excluded from map editor"]
+		"uniques": ["Not shown on world screen","[+1 Gold] from [Mountain] tiles [in all cities]","[+1] Sight <for [Scout] units>","Comment [Cards only give 1 [Happiness] as a luxury resource.]", "Comment [-4 [Happiness] to this resource]", "[-4 Happiness] <hidden from users>","Excluded from map editor"]
 	},
 	{
 		"name": "Ability Card; Sutra Of Dharmatic Power",
@@ -307,7 +299,7 @@
 	{
 		"name": "Ability Card; Beauty Of Destruction",
 		"resourceType": "Luxury",
-		"uniques": ["Not shown on world screen","[Siege] units gain the [Card - Beauty Of Destruction] promotion","[+15]% Strength <vs cities> <for [All] units>","Comment [Cards only give 1 [Happiness] as a luxury resource.]", "Comment [-4 [Happiness] to this resource]", "[-4 Happiness] <hidden from users>","Excluded from map editor"]
+		"uniques": ["Not shown on world screen","[Siege] units gain the [Card - Beauty Of Destruction] promotion","[+20]% Strength <vs cities> <for [All] units>","Comment [Cards only give 1 [Happiness] as a luxury resource.]", "Comment [-4 [Happiness] to this resource]", "[-4 Happiness] <hidden from users>","Excluded from map editor"]
 	},
 	{
 		"name": "Ability Card; Drunkenly Whimsical Ibuki Gourd",
@@ -317,7 +309,7 @@
 	{
 		"name": "Ability Card; Smelt's Scales",
 		"resourceType": "Luxury",
-		"uniques": ["Not shown on world screen","[All] units gain the [Card - Smelt's Scales] promotion","Comment [Cards only give 1 [Happiness] as a luxury resource.]", "Comment [-4 [Happiness] to this resource]", "[-4 Happiness] <hidden from users>","Excluded from map editor"]
+		"uniques": ["Not shown on world screen","[Melee] units gain the [Card - Smelt's Scales] promotion","Comment [Cards only give 1 [Happiness] as a luxury resource.]", "Comment [-4 [Happiness] to this resource]", "[-4 Happiness] <hidden from users>","Excluded from map editor"]
 	},
 	{
 		"name": "Ability Card; Pebble Hat",
