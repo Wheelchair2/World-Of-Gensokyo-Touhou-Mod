@@ -1,17 +1,9 @@
-{"isBaseRuleset":true,"lastUpdated":"2023-10-05T05:47:04Z","modUrl":"https://github.com/Wheelchair2/World-Of-Gensokyo-Touhou-Mod","defaultBranch":"main","author":"Wheelchair2","modSize":1607,"topics":["unciv-mod","unciv-mod-fun","unciv-mod-rulesets"],"constants":{"unitUpgradeCost":{}}
-
-    
-    "constants": {
-			"religionLimitBase": 25,
-			
-		/* This is here for experimentation
-		"cityStrengthBase": 1.0,
-    "cityStrengthPerPop": 0.2,
-    "cityStrengthFromTechsMultiplier": 2.5,
-    "cityStrengthFromTechsExponent": 2.0,
-    "cityStrengthFromTechsFullMultiplier": 2.0,
-    "cityStrengthFromGarrison": 0.5
-    */
-    }
-    
+{"isBaseRuleset":true,"lastUpdated":"2023-12-04T06:36:41Z","modUrl":"https://github.com/Wheelchair2/World-Of-Gensokyo-Touhou-Mod","defaultBranch":"main","author":"Wheelchair2","modSize":2738,"topics":["unciv-mod","unciv-mod-fun","unciv-mod-rulesets"],
+"constants":{
+		"unitUpgradeCost":{},
+		"religionLimitBase": 1,
+		"religionLimitMultiplier": 1,
+		"naturalWonderCountMultiplier": 0.2
+		"naturalWonderCountAddedConstant": 0.1
+		},
 }
