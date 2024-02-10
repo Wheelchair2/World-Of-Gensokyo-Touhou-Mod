@@ -30,7 +30,7 @@
 			{
 				"name": "Yama's Permission",
 				"cost": 900,
-				"row": 18,
+				"row": 12,
 				"quote": "And so, the gates to magic and divinity was opened."
 				"uniques": ["Comment [Access to Magic and Religion tech tree]", "Discover [Research For Magic]", "Discover [Religion]"]
 			},
