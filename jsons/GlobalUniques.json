@@ -18,7 +18,7 @@
         "May buy [Mercenary] units with [Gold] for [2] times their normal Production cost",
         
 		"[+30]% Strength <for [Human] units> <during the [Youkai Expansion Project]>",
-		"[+30]% Strength <for [Military] units> <vs [Mounted] units> <when fighting in [Barricades] tiles>",
+		"[+50]% Strength <for [Military] units> <vs [Mounted] units> <when defending> <in [Barricades] tiles>",
 
         //Specific Uniques
 				/* still needs some testing
@@ -26,6 +26,6 @@
         "[-3] Movement <for [Mermaid] units> <when adjacent to a [Mermaid Net] unit>"
        */
         
-        // Sashimi chan
+		// Sashimi-chan
     ]
 }
