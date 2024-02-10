@@ -108,7 +108,7 @@
 		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Snow","Forest","Jungle"],
 		"turnsToBuild": 3,
 		"techRequired": "Authority",
-		"uniques": ["Can be built outside your borders", "Gives a defensive bonus of [25]%", "Comment [+30% Strength when defending from Mounted units]"],
+		"uniques": ["Can be built outside your borders", "Gives a defensive bonus of [25]%", "Comment [+50% Strength when defending from Melee [Mounted] units]"],
 		"shortcutKey": "B"
 	},
 
