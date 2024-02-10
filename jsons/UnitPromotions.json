@@ -550,7 +550,7 @@
 	// Water melee
 	{
 		"name": "Boarding Party I",
-		"uniques": ["[+15]% Strength <vs [Water] units>"],
+		"uniques": ["[+15]% Strength <vs [Water] units>", "[+10]% Strength <vs [Land] units> <when fighting in [Water] tiles>"],
 		"unitTypes": ["Melee Water"],
         "column": 11,
         "row": 1
@@ -558,7 +558,7 @@
 	{
 		"name": "Boarding Party II",
 		"prerequisites": ["Boarding Party I"],
-		"uniques": ["[+15]% Strength <vs [Water] units>"],
+		"uniques": ["[+15]% Strength <vs [Water] units>", "[+10]% Strength <vs [Land] units> <when fighting in [Water] tiles>"],
 		"unitTypes": ["Melee Water"],
         "column": 11,
         "row": 2
@@ -566,7 +566,7 @@
 	{
 		"name": "Boarding Party III",
 		"prerequisites": ["Boarding Party II"],
-		"uniques": ["[+15]% Strength <vs [Water] units>"],
+		"uniques": ["[+15]% Strength <vs [Water] units>", "[+10]% Strength <vs [Land] units> <when fighting in [Water] tiles>"],
 		"unitTypes": ["Melee Water"],
         "column": 11,
         "row": 3
