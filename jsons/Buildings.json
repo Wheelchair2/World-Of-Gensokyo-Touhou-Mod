@@ -297,7 +297,7 @@
 		"cost": 185,
 		"isNationalWonder": true,
 		"greatPersonPoints": {"Great Artist": 1},
-		"uniques": ["Special Wonder", "[+1 Happiness] per [3] population] [in this city]", "[+1 Culture] per [2] [population] [in all cities]"],
+		"uniques": ["Special Wonder", "[+1 Happiness] per [3] population [in this city]", "[+1 Culture] per [2] population [in all cities]"],
 		"quote": "Ordinary fairies are weaker than humans. Greater fairies are mightier than other fairies."
 	},
 	/*
