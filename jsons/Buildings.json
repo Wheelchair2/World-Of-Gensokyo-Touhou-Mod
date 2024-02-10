@@ -297,7 +297,7 @@
 		"cost": 185,
 		"isNationalWonder": true,
 		"greatPersonPoints": {"Great Artist": 1},
-		"uniques": ["Special Wonder", "[+1 Happiness, +2 Culture] per [3] population [in this city]"],
+		"uniques": ["Special Wonder", "[+1 Happiness] per [3] population] [in this city]", "[+1 Culture] per [2] population] [in all cities]"],
 		"quote": "Ordinary fairies are weaker than humans. Greater fairies are mightier than other fairies."
 	},
 	/*
@@ -395,7 +395,7 @@
 	{
 		"name": "Paddock",
 		"maintenance": 2,
-		"requiredNearbyImprovedResources": ["Horses","Sheep","Cattle"],
+		"requiredNearbyImprovedResources": ["Horses","Sheep","Cattle","Deer"],
 		"hurryCostModifier": 25,
 		"uniques": ["[+1 Production] from [Pasture] tiles [in this city]", "[+1 Production] from [Camp] tiles [in this city]"],
 		"requiredTech": "State Government"
@@ -1012,7 +1012,7 @@
 		"requiredBuilding": "Opera House",
 		"maintenance": 3,
 		"requiredTech": "Public Education",
-		"uniques": ["Destroyed when the city is captured"]
+		"uniques": ["[+1 Culture] per [3] population [in this city]", "Destroyed when the city is captured"]
 	},
 	{
 		"name": "Arsenal",
@@ -1137,7 +1137,7 @@
 	{
 		"name": "City Hall",
 		"maintenance": 4,
-		"uniques": ["[+1 Production] per [5] population [in this city]"],
+		"uniques": ["[+1 Production] per [4] population [in this city]"],
 		"hurryCostModifier": 0,
 		"requiredTech": "Nobility"
 	},
@@ -1146,6 +1146,7 @@
 		"requiredBuilding": "Granary",
 		"maintenance": 2,
 		"hurryCostModifier": 0,
+		"requiredNearbyImprovedResources": ["Wheat"],
 		"uniques": ["[+2 Production] from [Wheat] tiles [in this city]"],
 		"requiredTech": "Metal Farming Tools"
 	},
@@ -1161,6 +1162,7 @@
 		"name": "Rice Field",
 		"maintenance": 2,
 		"hurryCostModifier": 0,
+		"requiredNearbyImprovedResources": ["Wheat"],
 		"uniques": ["Excess Food converted to Production when under construction",
 			"[+1 Food, +1 Gold] from [Wheat] tiles [in this city]"],
 		"requiredTech": "Multicropping System",
