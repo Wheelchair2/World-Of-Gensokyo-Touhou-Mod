@@ -25,6 +25,7 @@
         "startingMilitaryUnit": "Ashigaru Infantry",
         "startingGold": 50,
         "settlerPopulation": 1,
+		"settlerBuildings": ["Monument", "Granary", "Library", "Kiln", "Workshop", "Rice Wine", "Fortifications"]
         "baseUnitBuyCost": 200,
         "embarkDefense": 17,
         "startPercent": 0,
@@ -41,8 +42,8 @@
         "startingGold": 100,
         "startingCulture": 100,
         "settlerPopulation": 1,
-        "settlerBuildings": ["Monument", "Granary", "Library", "Aqueduct", "Barracks","Lighthouse","Market","Workshop","Amphitheater", "Barracks", "Rice Wine", "Paper Maker","Onsen"]
-        "startingObsoleteWonders": ["The Great Library", "Hieda Temple School", "Komakusa Gambling Den", "Barrels Of Alcohol", "Geidontei Bar", "The Great Lighthouse", "Kappa Stronghold", "Cirno's Freezing Hot Spring", "Hot Spring Town"],
+        "settlerBuildings": ["Monument", "Granary", "Library", "Aqueduct", "Barracks","Lighthouse","Market", "Kiln", "Workshop","Amphitheater", "Barracks", "Rice Wine", "Paper Maker","Onsen","Paddock","Fortifications"]
+        "startingObsoleteWonders": ["The Great Library", "Hieda Temple School", "Komakusa Gambling Den", "Barrels Of Alcohol", "Geidontei Bar", "The Great Lighthouse", "Kappa Stronghold", "Cirno's Freezing Hot Spring", "Hot Spring Town", "Miracle Fountain", "Blessing Of Winter"],
         "baseUnitBuyCost": 300,
         "embarkDefense": 61,
         "startPercent": 10,
@@ -59,8 +60,8 @@
         "startingGold": 200,
         "startingCulture": 500,
         "settlerPopulation": 4,
-        "settlerBuildings": ["Monument", "Granary", "Library", "Aqueduct", "Barracks","Lighthouse","Market","Workshop","Amphitheater", "Barracks", "Rice Wine", "Paper Maker","Onsen"]
-        "startingObsoleteWonders": ["The Great Library", "Hieda Temple School", "Komakusa Gambling Den", "Barrels Of Alcohol", "Geidontei Bar", "The Great Lighthouse", "Kappa Stronghold", "Cirno's Freezing Hot Spring", "Hot Spring Town"],
+        "settlerBuildings": ["Monument", "Granary", "Library", "Aqueduct", "Barracks","Lighthouse","Market","Kiln","Workshop","Amphitheater", "Barracks", "Rice Wine", "Paper Maker","Onsen","Paddock","Fortifications"]
+        "startingObsoleteWonders": ["The Great Library", "Hieda Temple School", "Komakusa Gambling Den", "Barrels Of Alcohol", "Geidontei Bar", "The Great Lighthouse", "Kappa Stronghold", "Cirno's Freezing Hot Spring", "Hot Spring Town", "Miracle Fountain", "Blessing Of Winter"],
         "baseUnitBuyCost": 800,
         "embarkDefense": 16,
         "startPercent": 65,
@@ -82,8 +83,8 @@
         "startingGold": 400,
         "startingCulture": 600,
         "settlerPopulation": 5,
-        "settlerBuildings": ["Monument", "Granary", "Library", "Aqueduct", "Barracks","Lighthouse","Market","Workshop","Amphitheater", "Barracks", "Rice Wine", "Paper Maker","Onsen","University"],
-        "startingObsoleteWonders": ["The Great Library", "Hieda Temple School", "Komakusa Gambling Den", "Barrels Of Alcohol", "Geidontei Bar", "The Great Lighthouse", "Kappa Stronghold", "Cirno's Freezing Hot Spring", "Hot Spring Town", "Great Wall", "Phantom Ship Harbor", "Blessing Of Winter", "Omoikane's Device", "The Heart Sutra", "Secret Hermit World", "Grimoire Of Youkais"],
+        "settlerBuildings": ["Monument", "Granary", "Library", "Aqueduct", "Barracks","Lighthouse","Market","Kiln","Workshop","Amphitheater", "Barracks", "Rice Wine", "Paper Maker","Onsen","University","Paddock","Fortifications"],
+        "startingObsoleteWonders": ["The Great Library", "Hieda Temple School", "Komakusa Gambling Den", "Barrels Of Alcohol", "Geidontei Bar", "The Great Lighthouse", "Kappa Stronghold", "Cirno's Freezing Hot Spring", "Hot Spring Town", "Great Wall", "Phantom Ship Harbor", "Blessing Of Winter", "Miracle Fountain", "Omoikane's Device", "The Heart Sutra", "Secret Hermit World", "Grimoire Of Youkais"],
         "baseUnitBuyCost": 1000,
         "embarkDefense": 66,
         "startPercent": 80,
