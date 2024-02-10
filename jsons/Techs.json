@@ -30,7 +30,7 @@
 			{
 				"name": "Yama's Permission",
 				"cost": 900,
-				"row": 12,
+				"row": 18,
 				"quote": "And so, the gates to magic and divinity was opened."
 				"uniques": ["Comment [Access to Magic and Religion tech tree]", "Discover [Research For Magic]", "Discover [Religion]"]
 			},
@@ -84,7 +84,7 @@
 			//// 0 (beginning)
 			{
 				"name": "Religion",
-				"row": 17,
+				"row": 16,
 				"quote": "There are three main religions in Gensokyo: Buddhism, Taoism, Shintoism."
 				"uniques": [
 				"Only available <for [Hakurei Faction]>",
@@ -96,7 +96,7 @@
 			},
 			{
 				"name": "Research For Magic",
-				"row": 15,
+				"row": 14,
 				"quote": "'It ain't magic if it ain't flashy! Danmaku's all about firepower!' - Marisa Kirisame."
 				"uniques": [
 				"Only available <for [Ordinary Magicians]>",
@@ -167,28 +167,28 @@
 			{
 				"name": "Rituals",
 				"cost": 40,
-				"row": 18,
+				"row": 17,
 				"prerequisites": ["Religion"],
 				"quote": "'Out of the generations of shrine maidens, her sense of danger is the most lacking and she has meager training, yet her power is considerable.' - Hieda no Akyuu, referring to Reimu Hakurei."
 			},
 			{
 				"name": "Religious Doctrine",
 				"cost": 40,
-				"row": 17,
+				"row": 16,
 				"prerequisites": ["Religion"],
 				"quote": "''An echo spirit, huh? So all you do is parrot things back?' Marisa once said, urging Kyouko to reply; who then replied with, 'That is all I do, so don't tease me about it.'"
 			},
 			{
 				"name": "Simple Alchemy",
 				"cost": 40,
-				"row": 16,
+				"row": 15,
 				"prerequisites": ["Research For Magic"],
 				"quote": "According to Rinnosuke Morichika, Marisa was inspired to use star-themed magic after a meteor shower viewing party around the year 2001. "
 			},
 			{
 				"name": "Forbidden Sorcery",
 				"cost": 40,
-				"row": 14,
+				"row": 13,
 				"prerequisites": ["Research For Magic"],
 				"quote": "'Oh well, it doesn't matter if you really are youkai or not. I have the grimoire you're looking for. I am the magician you're looking for. Whether you are youkai or not. YOU ARE MY ENEMIES!' - Alice Margatroid to the Three Fairies of Light."
 			}
@@ -255,7 +255,7 @@
 			{
 				"name": "Culture Preservation",
 				"cost": 85,
-				"row": 17,
+				"row": 16,
 				"prerequisites": ["Religious Doctrine"],
 				"uniques": ["[-15]% Culture cost of adopting new Policies"],
 				"quote": "'I've been waiting. You've got some guts, challenging me on the night of the full moon.' - Keine Kamishirasawa."
@@ -263,21 +263,21 @@
 			{
 				"name": "Brewing Mastery",
 				"cost" : 52,
-				"row": 16,
+				"row": 15,
 				"prerequisites": ["Simple Alchemy"],
 				"quote": "In Imperishable Night, Marisa survives looking at the full moon, which should drive normal humans insane. When Alice asks if she's alright, she says that it's alright since she's insane to begin with."
 			},
 			{
 				"name": "Advanced Magic",
 				"cost": 52,
-				"row": 15,
+				"row": 14,
 				"prerequisites": ["Forbidden Sorcery"],
 				"quote": "Sunny Milk mentions that she's looking for a magician with a grimoire that 'shines wonderfully with all the seven colors of the light.'"
 			},
 			{
 				"name": "Mysterious Knowledge",
 				"cost": 120,
-				"row": 13,
+				"row": 12,
 				"prerequisites": ["Forbidden Sorcery"],
 				"quote": "Koakuma & Daiyousei's names were created by the community."
 			}
@@ -322,7 +322,7 @@
 			{
 				"name": "Divine Punishment",
 				"cost": 175,
-				"row": 18,
+				"row": 17,
 				"prerequisites": ["Culture Preservation","Rituals"],
 				"quote": "'Conviction! Conviction! Conviction!' - Eiki Shiki. Of course, she didn't say that in canon."
 				"uniques": ["[+15]% Strength <for [Monk] units> <vs [Spirit] units>", "[+15]% Strength <for [Hermit] units> <vs [Spirit] units>"]
@@ -330,14 +330,14 @@
 			{
 				"name": "Magical Science",
 				"cost": 60,
-				"row": 16,
+				"row": 15,
 				"prerequisites": ["Brewing Mastery"],
 				"quote": "The actual name of Renko and Merry's club is 'The Hifuu Club', not 'Ghostly Field Club'"
 			},
 			{
 				"name": "Dark Magic",
 				"cost": 60,
-				"row": 15,
+				"row": 14,
 				"prerequisites": ["Advanced Magic"],
 				"quote": "'Sonanoka?' - Rumia.",
 				"uniques": ["[+5]% Strength <for [Apparition] units>"]
@@ -345,7 +345,7 @@
 			{
 				"name": "Self-Discovery",
 				"cost": 275,
-				"row": 13,
+				"row": 12,
 				"prerequisites": ["Mysterious Knowledge"]
 				"quote": "'Bet you'd be stronger if you tore those restrictive clothes.' - Marisa Kirisame, out of context."
 				"uniques": ["Free Great Person <if no other Civilization has researched this>", "[-20]% construction time for [All] improvements"]
@@ -390,7 +390,7 @@
 			{
 				"name": "National Faith",
 				"cost": 250,
-				"row": 18,
+				"row": 17,
 				"prerequisites": ["Divine Punishment"],
 				"quote": "'Humans haven't changed since my days in the temple. How weak and rash you are!' - Byakuren Hijiri to Reimu Hakurei.",
 				"uniques": ["[+15]% Strength <for [Monk] units> <vs [Fairy] units>", "[+15]% Strength <for [Hermit] units> <vs [Fairy] units>"]
@@ -398,7 +398,7 @@
 			{
 				"name": "Philosophy",
 				"cost": 250,
-				"row": 17,
+				"row": 16,
 				"prerequisites": ["Divine Punishment"],
 				"quote": "'Did you know why rare ingredients taste better? This is because humans taste not with their tounges, but their minds' - Sakuya Izayoi.",
 				"uniques": ["[+15]% Strength <for [Monk] units> <vs [Corpse] units>", "[+15]% Strength <for [Hermit] units> <vs [Corpse] units>"]
@@ -406,7 +406,7 @@
 			{
 				"name": "Limitless Learning",
 				"cost": 275,
-				"row": 16,
+				"row": 15,
 				"prerequisites": ["Magical Science"],
 				"quote": "Sumireko is cute. Did you expected a Touhou quote or something?"
 				"uniques": ["[+25]% XP gained from combat <for units without [Martial Arts]> <before adopting [Military Tradition]> <before the [Meiji era]>"]
@@ -414,14 +414,14 @@
 			{
 				"name": "Field Of Summoning",
 				"cost": 275,
-				"row": 15,
+				"row": 14,
 				"prerequisites": ["Dark Magic"],
 				"quote": "Yoshika Miyako once said, 'Gyaa waarr hauur zoaahhh."
 			},
 			{
 				"name": "Psychological Warfare",
 				"cost": 275,
-				"row": 14,
+				"row": 13,
 				"prerequisites": ["Dark Magic"],
 				"quote": "I was about to put Satori's quote here, but then I realised that there is a more valuable information for you to hear: Satori is cute.",
 				"uniques": ["[-5]% Unhappiness from [Population] [in annexed cities]"]
@@ -464,7 +464,7 @@
 			{
 				"name": "Full Conversion",
 				"cost": 420,
-				"row": 17,
+				"row": 16,
 				"prerequisites": ["National Faith", "Philosophy"],
 				"quote": "Religion plays a major role in Gensokyo, as Gods literally exist in the Touhou series.",
 				"uniques": ["[+1 Happiness] [in all cities in which the majority religion is a major religion]"]
@@ -473,7 +473,7 @@
 			{
 				"name": "Magic Tree Extension",
 				"cost": 780,
-				"row": 18,
+				"row": 17,
 				"prerequisites": ["Psychological Warfare", "Field Of Summoning", "Limitless Learning"],
 				"quote": "Yoshika Miyako once said, 'Gyaa waarr hauur zoaahhh."
 			}
