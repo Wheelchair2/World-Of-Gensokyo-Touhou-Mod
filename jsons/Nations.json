@@ -107,8 +107,8 @@
 		"startBias": ["Bamboo Forest"]
 		"adjective": ["Lunarian"],
 		"preferredVictoryType": "Neutral",
-		"startIntroPart1": ".",
-		"startIntroPart2": ".",
+		"startIntroPart1": "A long time ago, an old and humble man who was cutting bamboo saw that one of the logs he’d gathered was glittering in a strange way as if it was illuminated by the moon.",
+		"startIntroPart2": "Or so as the story goes...",
 		"declaringWar": ".",
 		"attacked": "How rude!",
 		"defeated": "...",
@@ -245,7 +245,7 @@
 		"outerColor": [240,240,240],
 		"innerColor": [55,26,106],
 		"uniqueName": "Diligent Fairy Maids",
-		"uniques": ["Comment [Vampires would suck the blood out of anyone, and can heal 50 damage upon killing a unit]",
+		"uniques": ["Comment [Vampires would suck the blood out of anyoneand can heal 30 damage upon killing a unit]",
 		"Comment [------------------]",
 		"[All] units gain the [Youkai] promotion", "[Land] units gain the [Vampire] promotion", "[+25]% Production when constructing [All] wonders [in all cities]", "[-20]% maintenance costs","Provides [1] [Ability Card; Vampire Fang] <after discovering [Improved Trade]>"],
 		"cities": ["Transylvania","ScarletBourne","Vermillion Peaks","Crimsonhurst","Carmesia","Garnetshire","Burgundy Citadel","Sangria Hollow","Scarletspire","Scarletara"]
@@ -266,7 +266,7 @@
 		"outerColor": [225,225,141],
 		"innerColor": [119,1,0],
 		"uniqueName": "Complete Destruction",
-		"uniques": ["Comment [Vampires would suck the blood out of anyone, and can heal 50 damage upon killing a unit]",
+		"uniques": ["Comment [Vampires would suck the blood out of anyoneand can heal 30 damage upon killing a unit]",
 		"Comment [------------------]",
 		"[All] units gain the [Youkai] promotion", "[Land] units gain the [Vampire] promotion", "Damage is ignored when determining unit Strength", "Cities are razed [2] times as fast","Provides [1] [Ability Card; Beauty Of Destruction] <after discovering [Improved Trade]>"],
 		"cities": ["Sanguinaria", "Nocturnia", "Umbraheim", "Cimmeria", "Bloodhaven", "Stygianberg", "Nyxmark", "Valerianth", "Crimsonshire", "Vladonia"]
@@ -378,6 +378,7 @@
 	{
 		"name": "Mermaids Of The Lake",
 		"leaderName": "Wakasagihime",
+		"startBias": ["Coast"],
 		"adjective": ["Mermaid"],
 		"preferredVictoryType": "Neutral",
 		"startIntroPart1": ".",
@@ -413,10 +414,10 @@
 		"outerColor": [255,255,255],
 		"innerColor": [19,147,19],
 		"uniqueName": "Mountain Of Faith",
-		"uniques": ["Starts with [Religion]", "[All] units gain the [Human Race] promotion", "[100]% of excess happiness converted to [Faith]","Provides [1] [Ability Card; Offerings To A Sacred Mountain] <after discovering [Improved Trade]>",
-		 "[55]% of excess happiness converted to [Gold]",
-		"[+50]% maintenance costs",
-		"[-100]% [Gold] [in all cities] <when below [2] Happiness>"],
+		"uniques": ["Starts with [Religion]", "[All] units gain the [Human Race] promotion", "[50]% of excess happiness converted to [Faith]",
+		 "[50]% of excess happiness converted to [Gold]",
+		"Provides [1] [Ability Card; Offerings To A Sacred Mountain] <after discovering [Improved Trade]>",
+		]
 		"favoredReligion": "Sect Shinto",
 		"cities": ["Hinomori", "Takarashima", "Kasai no Kuni", "Yume no Sakura", "Kougetsu", "Ryuunokuni", "Isanokuni", "Hoshizora", "Kachidoki", "Yamabuki"]
 	},
