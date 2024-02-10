@@ -25,13 +25,13 @@
     {
         "name": "missing dumplings",
         "notification": "Yuyuko rewards us for finding her missing dumplings!",
-        "uniques": ["Gain [50]-[100] [Gold]"],
+        "uniques": ["Gain [100]-[200] [Gold]"],
         "color": "#ffeb7f"
     },
     {
         "name": "what's in the book?",
         "notification": "We have stumbled upon one of Patchouli's books and learned [techName]!",
-        "uniques": ["[1] free random researchable Tech(s) from the [Edo period]"],
+        "uniques": ["[1] free random researchable Tech(s) from the [Youkai Expansion Project]"],
 		"color": "#7f7fff"
     },
     {
