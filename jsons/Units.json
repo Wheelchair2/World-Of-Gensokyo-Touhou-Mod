@@ -155,7 +155,7 @@
 		"cost": 30,
 		"obsoleteTech": "Paid Service",
 		"upgradesTo": "Longbowman",
-		"uniques": ["[-50]% Strength <vs cities> <when attacking>"],
+		"uniques": ["[-50]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
 		"attackSound": "arrow"
 	},
 	{
@@ -954,7 +954,7 @@
 		"obsoleteTech": "Dark Magic",
 		"upgradesTo": "Youjutsu Master",
 		"attackSound": "magichit",
-		"uniques": ["Dark Magician", "Youkai", "[+5] HP when healing", "Never appears as a Barbarian unit"]
+		"uniques": ["Dark Magician", "Youkai", "[+10] HP when healing", "Never appears as a Barbarian unit"]
 	},
 	{
 		"name": "Dream Spirit",
@@ -978,7 +978,7 @@
 		"requiredTech": "Dark Magic",
 		"obsoleteTech": "Technology Limit",
 		"attackSound": "magichit",
-		"uniques": ["Dark Magician", "Youkai", "[+10] HP when healing", "Comment [Becomes obsolete at [Technology Limit]]", "Never appears as a Barbarian unit"]
+		"uniques": ["Dark Magician", "Youkai", "[+20] HP when healing", "Comment [Becomes obsolete at [Technology Limit]]", "Never appears as a Barbarian unit"]
 	},
 	{
 		"name": "Yume no Seirei",
@@ -990,7 +990,7 @@
 		"obsoleteTech": "Technology Limit",
 		"attackSound": "magichit",
 		"promotions": ["Phantom"],
-		"uniques": ["Youkai", "[-20]% Strength for enemy [Military] units in adjacent [All] tiles", "Comment [Becomes obsolete at [Technology Limit]]", "Never appears as a Barbarian unit"]
+		"uniques": ["Youkai", "[-10]% Strength for enemy [Military] units in adjacent [All] tiles", "Comment [Becomes obsolete at [Technology Limit]]", "Never appears as a Barbarian unit"]
 	},
 	{
 		"name": "Keukegen",
@@ -999,7 +999,7 @@
 		"cost": 150,
 		"requiredTech": "Psychological Warfare",
 		"obsoleteTech": "Technology Limit",
-		"uniques": ["Youkai", "[-33]% Strength for enemy [Military] units in adjacent [All] tiles", "Comment [Becomes obsolete at [Technology Limit]]", "Never appears as a Barbarian unit"]
+		"uniques": ["Youkai", "[-15]% Strength for enemy [Military] units in adjacent [All] tiles", "Comment [Becomes obsolete at [Technology Limit]]", "Never appears as a Barbarian unit"]
 	},
 	{
 		"name": "Jiangshi Familiar",
@@ -1256,7 +1256,7 @@
 	//Barbarian units
 	{
 		"name": "Roaming Jiangshi",
-		"replaces": "Samurai",
+		"replaces": "Cavalry",
 		"uniqueTo": "Barbarians",
 		"unitType": "Sword",
 		"movement": 2,
@@ -1284,16 +1284,16 @@
 	{
 		"name": "Vengeful Spirit",
 		"uniqueTo": "Barbarians",
-		"replaces": "Longbowman",
+		"replaces": "Archer",
 		"unitType": "Ranged Sorcery",
-		"range": 2,
+		"range": 1,
 		"movement": 2,
 		"strength": 5,
 		"rangedStrength": 5,
 		"cost": 75,
 		"attackSound": "magichit"
 		"promotions": ["Spirit"]
-		"uniques": ["Ignores Zone of Control"]
+		"uniques": ["Ignores Zone of Control", "No defensive terrain bonus"]
 	},
 	{
 		"name": "Tamed Beast",
@@ -1326,16 +1326,16 @@
 	{
 		"name": "Earthbound Ghost",
 		"uniqueTo": "Barbarians",
-		"replaces": "Guardsman",
+		"replaces": "Yumi Samurai",
 		"unitType": "Ranged Sorcery",
-		"range": 2,
+		"range": 1,
 		"movement": 2,
 		"strength": 7,
 		"rangedStrength": 8,
 		"cost": 185,
 		"attackSound": "magichit"
-		"promotions": ["Spirit"]
-		"uniques": ["Ignores Zone of Control"]
+		"promotions": ["Spirit"],
+		"uniques": ["Ignores Zone of Control", "No defensive terrain bonus"]
 	},
 	{
 		"name": "Galley",
