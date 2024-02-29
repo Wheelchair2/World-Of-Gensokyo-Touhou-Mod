@@ -46,16 +46,6 @@
 		"hurryCostModifier": 15
 	},
 	{
-		"name": "Test Settler",
-		"uniqueTo": "Eientei Residents",
-		"replaces": "Settler",
-		"unitType": "Civilian",
-		"movement": 6,
-		"cost": 1,
-		"uniques": ["Founds a new city <by consuming this unit>", "Excess Food converted to Production when under construction"],
-		"hurryCostModifier": 15
-	},
-	{
 		"name": "Maiden Settler",
 		"uniqueTo": "Mermaids Of The Lake",
 		"replaces": "Settler",
