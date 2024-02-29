@@ -19,6 +19,14 @@
 		"uniques": ["Unsellable","Unbuildable","Provides [1] [Wonder Slot] <in cities with at least [5] [Population]>"],
 	},
 	{
+		"name": "Card Trigger; Item Season",
+		"cost": 1,
+		"uniques": ["Unsellable","Unbuildable",
+			"Gain [250] [Gold] <upon entering a Golden Age>",
+			"Empire enters a [3]-turn Golden Age <upon discovering a Natural Wonder>",
+			]
+	},
+	{
 		"name": "Monument",
 		"culture": 2,
 		"cost": 40,
@@ -64,7 +72,7 @@
 		"production": 10,
 		"isNationalWonder": true,
 		"greatPersonPoints": {"Great Engineer": 1},
-        "uniques": ["Special Wonder", "Must have an owned [Youkai Mountain] within [3] tiles"],
+        "uniques": ["Special Wonder", "Must have an owned [Youkai Mountain] within [3] tiles", "[+10]% [Production] [in all cities]"],
 		"quote": "Utsuho Reiuji can be found here to power it and Rin Kaenbyou carts corpses into the Furnace to keep it running."
 	},
 	{
@@ -143,7 +151,7 @@
 		"science": 1,
 		"isNationalWonder": true,
 		"greatPersonPoints": {"Great Scientist": 1},
-        "uniques": ["Special Wonder", "[+1 Happiness] [in all cities connected to capital]", "[+1 Science] [in all cities connected to capital]"]
+        "uniques": ["Special Wonder", "[+1 Happiness, +2 Science] [in all cities connected to capital]"]
 		"quote": "'You don't seem related to the incident, so without further ado, allow me to blow you into the next week!' - Aya Shameimaru."
 	},
 	{
@@ -226,7 +234,7 @@
 		"cost": 185,
 		"production": 2,
 		"isNationalWonder": true,
-		"uniques": ["Special Wonder", "[+15]% Production when constructing [Land] units [in all cities]"]
+		"uniques": ["Special Wonder", "[+20]% Production when constructing [Land] units [in all cities]"]
 		"greatPersonPoints": {"Great Engineer": 1},
 		"quote": "Alice Margatroid is known primarily for her skillful manipulation of many miniature dolls, most notably Shanghai and Hourai."
 	},
@@ -265,7 +273,7 @@
 		"gold": 4,
 		"faith": 1,
 		"uniques": ["Special Wonder","Cost increases by [95] per owned city",
-		"Creates a [Trading post] improvement on a specific tile <after discovering [Improved Trade]>",
+		"[+2 Food, +1 Production, +2 Faith] from every [Trading Post] <after discovering [Improved Trade]>",
 		"Comment [When your Gold is below 700(note:modified by game speed), the number of blank cards will be doubled and the maintenance cost of Road will be zero. However, Doubles Gold given to enemy if city is captured. Protect the Commerce Prosperity!]",
 		"No Maintenance costs for improvements in [Road] tiles <when below [701] [Gold] (modified by game speed)> <hidden from users>",
 		"Double quantity of [Blank Card] produced <when below [701] [Gold] (modified by game speed)> <hidden from users>",
@@ -299,6 +307,24 @@
 		"greatPersonPoints": {"Great Artist": 1},
 		"uniques": ["Special Wonder", "[+1 Happiness] per [3] population [in this city]", "[+1 Culture] per [2] population [in all cities]"],
 		"quote": "Ordinary fairies are weaker than humans. Greater fairies are mightier than other fairies."
+	},
+	{
+		"name": "Genbu Ravine",
+		"uniqueTo": "River Dwelling Kappas",
+		"cost": 125,
+		"isNationalWonder": true,
+		"greatPersonPoints": {"Great Engineer": 10},
+		"uniques": ["Special Wonder", "Must have an owned [Youkai Mountain] within [2] tiles", "[+1 Production] from [River] tiles [in this city]"],
+		"quote": "Kappas in Gensokyo are almost entirely different than the kappas in Japanese mythology, mostly for their appearance and the fact that showing your butthole probably won't work in fending them off."
+	},
+	{
+		"name": "Box Of A Hundred Medicines",
+		"uniqueTo": "Kingdom Of The Wise",
+		"cost": 185,
+		"isNationalWonder": true,
+		"greatPersonPoints": {"Great Artist": 1},
+		"uniques": ["Special Wonder", "[All] Units adjacent to this city heal [+30] HP per turn when healing"],
+		"quote": "'Humans truly have become foolish. Have you forgotten the enigmatic terror of the youkai? Have you forgotten the mind-numbing darkness of the night?' - Kasen"
 	},
 	/*
 	{
@@ -377,7 +403,7 @@
 		"name": "Onsen",
 		"cost": 100,
 		"maintenance": 1,
-		"happiness": 3,
+		"happiness": 2,
 		"hurryCostModifier": 12,
 		"requiredTech": "Hot Spring"
 	},
@@ -543,7 +569,7 @@
 		"replaces": "Rice Wine",
 		"maintenance": 0,
 		"happiness": 1,
-		"production": 1,
+		"production": 2,
 		"hurryCostModifier": 12,
 		"requiredTech": "Fermented Alcohol"
 	},
@@ -554,7 +580,7 @@
 		"culture": 1,
 		"isNationalWonder": true,
 		"requiredTech": "Fermented Alcohol",
-		"uniques": ["Requires a [Rice Wine] in all cities", "Cost increases by [30] per owned city"],
+		"uniques": ["Only available <if [Rice Wine] is constructed in all [non-[Puppeted]] cities>", "Cost increases by [30] per owned city"],
 		"quote": "'I've been watching all of you this whole time. You all responded to my 'foregathering ability' without noticing, and came to these feasts. Do you know what this means? It means none of you can defeat me.' -Suika Ibuki."
 	},
 	{
@@ -641,6 +667,13 @@
 		"requiredTech": "Arts And Sculpture"
 	},
 	{
+		"name": "Fountain",
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"uniques": ["[-10]% Unhappiness from [Population] [in this city]"],
+		"requiredTech": "Arts And Sculpture"
+	},
+	{
 		"name": "Cotton Farm",
 		"maintenance": 3,
 		"requiredNearbyImprovedResources": ["Cotton"],
@@ -654,7 +687,7 @@
 		"gold": 8,
 		"culture": 1,
 		"isNationalWonder": true,
-		"uniques": ["Requires a [Market] in all cities", "Cost increases by [30] per owned city"],
+		"uniques": ["Only available <if [Market] is constructed in all [non-[Puppeted]] cities>", "Cost increases by [30] per owned city"],
 		"requiredTech": "Currency"
 		"quote": "'Maybe you'd be happier slipping into the crowd and then, I dunno, dropping dead?' - Joon Yorigami."
 	},
@@ -711,7 +744,7 @@
         "culture": 1,
         "isNationalWonder": true,
         "uniques": [
-            "Requires a [Barracks] in all cities",
+            "Only available <if [Barracks] is constructed in all [non-[Puppeted]] cities>",
             "All newly-trained [non-air] units [in this city] receive the [Morale] promotion",
             "Cost increases by [30] per owned city",
         ],
@@ -792,7 +825,7 @@
 		"cost": 125,
 		"uniqueTo": "The Unified Doll Front",
 		"replaces": "Circus",
-		"happiness": 4,
+		"happiness": 2,
 		"hurryCostModifier": 25,
 		"maintenance": 2,
 		"requiredTech": "Festivals",
@@ -843,7 +876,7 @@
 		"culture": 1,
 		"isNationalWonder": true,
 		"percentStatBonus": {"science": 50},
-		"uniques": ["Requires a [Library] in all cities", "Cost increases by [30] per owned city"],
+		"uniques": ["Only available <if [Library] is constructed in all [non-[Puppeted]] cities>", "Cost increases by [30] per owned city"],
 		"requiredTech": "Physics"
 	},
 	{
@@ -852,7 +885,7 @@
 		"percentStatBonus": {"culture": 50},
 		"culture": 5,
 		"isNationalWonder": true,
-		"uniques": ["Requires a [Opera House] in all cities", "Cost increases by [30] per owned city"],
+		"uniques": ["Only available <if [Opera House] is constructed in all [non-[Puppeted]] cities>", "Cost increases by [30] per owned city"],
 		"requiredTech": "Arts And Sculpture"
 	},
 	{
@@ -878,6 +911,15 @@
 		"name": "Garden",
 		"hurryCostModifier": 25,
 		"uniques": ["[+25]% Great Person generation [in this city]", "Must be next to [Fresh water]"],
+		"maintenance": 1,
+		"requiredTech": "Festivals"
+	},
+	{
+		"name": "Artificial Garden",
+		"replaces": "Garden",
+		"uniqueTo": "River Dwelling Kappas",
+		"hurryCostModifier": 25,
+		"uniques": ["[+50]% Great Person generation [in this city]"],
 		"maintenance": 1,
 		"requiredTech": "Festivals"
 	},
@@ -924,7 +966,7 @@
 		"specialistSlots": {"Merchant": 1},
 		"hurryCostModifier": 15,
 		"percentStatBonus": {"gold": 25},
-		"unique": ["[+1 Gold] from [Luxury resource] tiles [in this city]"],
+		"uniques": ["[+1 Gold] from [Luxury resource] tiles [in this city]"],
 		"requiredBuilding": "Market",
 		"requiredTech": "Economics"
 	},
@@ -952,14 +994,23 @@
 		"name": "Civil Code",
 		"cost": 125,
 		"isNationalWonder": true,
-		"uniques": ["[15]% of excess happiness converted to [Gold]", "Cost increases by [30] per owned city"],
+		"uniques": ["[-5]% Unhappiness from [Population] [in all non-occupied cities]", "Cost increases by [30] per owned city"],
+		"requiredTech": "Law And Order"
+	},
+	{
+		"name": "Buddhist Code",
+		"uniqueTo": "Myouren Faction",
+		"replaces": "Civil Code",
+		"cost": 125,
+		"isNationalWonder": true,
+		"uniques": ["[-50]% unhappiness from the number of cities", "Cost increases by [30] per owned city"],
 		"requiredTech": "Law And Order"
 	},
 	{
 		"name": "Legal System",
 		"cost": 125,
 		"isNationalWonder": true,
-		"uniques": ["[15]% of excess happiness converted to [Gold]", "Cost increases by [30] per owned city"],
+		"uniques": ["[30]% of excess happiness converted to [Gold]", "Cost increases by [30] per owned city"],
 		"requiredTech": "Law And Order"
 	},
 	{
@@ -985,7 +1036,7 @@
 		"production": 8,
 		"culture": 1,
 		"isNationalWonder": true,
-		"uniques": ["Requires a [Workshop] in all cities", "Cost increases by [30] per owned city"],
+		"uniques": ["Only available <if [Workshop] is constructed in all [non-[Puppeted]] cities>", "Cost increases by [30] per owned city"],
 		"requiredTech": "Machinery"
 	},
 	{
@@ -995,7 +1046,7 @@
 		"requiredBuilding": "Tea House",
 		"maintenance": 3,
 		"requiredTech": "History Preservation",
-		"uniques": ["[+1 Culture] from [Natural Wonder] tiles [in this city]", "Destroyed when the city is captured"]
+		"uniques": ["[+2 Culture] from [Luxury resource] tiles [in this city]", "Destroyed when the city is captured"]
 	},
 	{
 		"name": "Official Time System",
@@ -1012,7 +1063,7 @@
 		"requiredBuilding": "Opera House",
 		"maintenance": 3,
 		"requiredTech": "Public Education",
-		"uniques": ["[+1 Culture] per [3] population [in this city]", "Destroyed when the city is captured"]
+		"uniques": ["[-5]% Unhappiness from [Population] [in this city]", "Destroyed when the city is captured"]
 	},
 	{
 		"name": "Arsenal",
@@ -1239,36 +1290,32 @@
 	{
 		"name": "Hakurei Shrine",
 		"replaces": "Major Religions In Gensokyo",
-		"uniqueTo": "Hakurei Faction",
-		"faith": 1,
+		"uniqueTo": "Eientei Residents",
 		"cost": 1,
-		"uniques": ["Automatically built in all cities where it is buildable", "[-2 Gold, +3 Faith] from every [Donation Box]", "Unsellable"]
+		"uniques": ["Automatically built in all cities where it is buildable", "Comment [-1 [Gold] +2 [Faith] from every [Donation Box] increasing for each city with a [Hakurei Shrine]]", "[-1 Gold, +2 Faith] from every [Donation Box] <hidden from users>", "Unsellable"]
 	},
 	{
 		"name": "Moriya Shrine",
 		"replaces": "Major Religions In Gensokyo",
 		"uniqueTo": "Moriya Faction",
-		"faith": 1,
 		"cost": 1,
-		"uniques": ["Automatically built in all cities where it is buildable", "[+1 Faith] per [1] population [in this city]", "Unsellable"]
+		"uniques": ["Automatically built in all cities where it is buildable", "[10]% Great Person generation [in this city]", "Unsellable"]
 	},
 	{
 		"name": "Taoist Temple",
 		"replaces": "Major Religions In Gensokyo",
 		"uniqueTo": "Senkai Principality",
-		"faith": 1,
 		"cost": 1,
 		"uniques": ["Automatically built in all cities where it is buildable", 
 		"Unsellable",
-		"Comment [+1 [Science] for every known Natural Wonder, increases by 1 [Science] for each city with this building constructed]",
-		//"[+1 Science] for every known Natural Wonder <hidden from users>"
+		"Comment [+1 [Science] for every known Natural Wonder increasing by 1 [Science] for each city with this building constructed]",
+		"[+1 Science] for every known Natural Wonder <hidden from users>"
 		]
 	},
 	{
 		"name": "Myouren Temple",
 		"replaces": "Major Religions In Gensokyo",
 		"uniqueTo": "Myouren Faction",
-		"faith": 1,
 		"cost": 1,
 		"uniques": ["Automatically built in all cities where it is buildable",
 		"Unsellable",
@@ -1278,7 +1325,6 @@
 		"name": "Cultivation Practices",
 		"replaces": "Major Religions In Gensokyo",
 		"uniqueTo": "Land Of The Corpses",
-		"faith": 1,
 		"cost": 1,
 		"uniques": ["Automatically built in all cities where it is buildable", 
 		"Unsellable",
@@ -1310,7 +1356,7 @@
 		"cost": 120,
 		"maintenance": 2,
 		"requiredBuilding": "Shrine",
-		"uniques": ["Destroyed when the city is captured", "[+15]% Strength <for [Monk] units>"]
+		"uniques": ["Destroyed when the city is captured", "[+20]% Production when constructing [Monk] units [in this city]"]
 	},
 	{
 		"name": "Omoikane's Device",
@@ -1327,7 +1373,7 @@
 		"cost": 125,
 		"culture": 1,
 		"faith": 8,
-		"uniques": ["Only available <if [Major Religions In Gensokyo] is constructed>", "Requires a [Temple] in all cities", "Cost increases by [30] per owned city",
+		"uniques": ["Only available <if [Major Religions In Gensokyo] is constructed>", "Only available <if [Temple] is constructed in all [non-[Puppeted]] cities>", "Cost increases by [30] per owned city",
 			"[+100]% Natural religion spread [in this city]", "Hidden when religion is disabled", "Can only be built [in holy cities]"],
 		"requiredTech": "National Faith",
 		"isNationalWonder": true
@@ -1336,7 +1382,7 @@
 		"name": "Grand Shrine",
 		"cost": 125,
 		"culture": 3,
-		"uniques": ["Only available <if [Major Religions In Gensokyo] is constructed>", "Requires a [Shrine] in all cities", "Cost increases by [30] per owned city",
+		"uniques": ["Only available <if [Major Religions In Gensokyo] is constructed>", "Only available <if [Shrine] is constructed in all [non-[Puppeted]] cities>", "Cost increases by [30] per owned city",
 			"[+30]% [Faith] [in all cities] <while the empire is happy>", "Hidden when religion is disabled", "Can only be built [in holy cities]"],
 		"requiredTech": "Philosophy",
 		"isNationalWonder": true
@@ -1400,7 +1446,7 @@
 		"cost": 400,
 		"culture": 1,
 		"faith": 3,
-		"uniques": ["Only available <if [Major Religions In Gensokyo] is constructed>", "Requires a [Shrine] in all cities", "Hidden when religion is disabled",
+		"uniques": ["Only available <if [Major Religions In Gensokyo] is constructed>", "Only available <if [Shrine] is constructed in all [non-[Puppeted]] cities>", "Hidden when religion is disabled",
 			"Gain a free [Torii Gate] [in this city]",
 			"All newly-trained [Missionary] units [in this city] receive the [Devout] promotion", "All newly-trained [Great Prophet] units [in this city] receive the [Devout] promotion", "Can only be built [in holy cities]"],
 		"requiredTech": "Full Conversion",
