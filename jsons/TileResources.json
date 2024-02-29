@@ -236,7 +236,7 @@
 		"name": "Ability Card; Shanghai Doll",
 		"resourceType": "Luxury",
 		"uniques": ["Not shown on world screen",
-			"[1] free [Shanghai Labor Doll] units appear <upon turn end>",
+			"Comment [1 free [Shanghai Labor Doll] units appear]",
 			"Comment [Cards only give 1 [Happiness] as a luxury resource.]", "Comment [-4 [Happiness] to this resource]", "[-4 Happiness] <hidden from users>",
 			"Excluded from map editor"
 		]
@@ -319,15 +319,16 @@
 	{
 		"name": "Ability Card; Princess Kaguya's Secret Stash",
 		"resourceType": "Luxury",
-		"uniques": ["Not shown on world screen","Gain [300]-[500] [Gold]",
+		"uniques": ["Not shown on world screen","Comment [Gain 300-500 [Gold]]",
 			"Comment [-4 [Happiness] to this resource]", "[-4 Happiness] <hidden from users>","Excluded from map editor"
 			]
 	},
 	{
 		"name": "Ability Card; Item Season",
 		"resourceType": "Luxury",
-		"uniques": ["Gain [250] [Gold] <upon entering a Golden Age>",
-			"Empire enters a [3]-turn Golden Age <upon discovering a Natural Wonder>",
+		"uniques": ["Not shown on world screen",
+			"Comment [Gain 250 [Gold] upon entering a Golden Age",
+			"Comment [Empire enters a 3-turn Golden Age upon discovering a Natural Wonder]",
 			"Comment [-4 [Happiness] to this resource]", "[-4 Happiness] <hidden from users>","Excluded from map editor"]
 	},
 	// Luxury resources
