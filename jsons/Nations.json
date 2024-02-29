@@ -568,7 +568,16 @@
 		"outerColor": [105,0,0],
 		"innerColor": [255,255,255],
 		"uniqueName": "Caste System",
-		"uniques": ["[All] units gain the [Youkai] promotion", "[{Melee} {Land}] units gain the [Beast] promotion", "[{Ranged} {Land}] units gain the [Winged] promotion", "[+1] Movement <for [Winged] units>", "[+10]% Strength <for [Beast] units>", "[+1 Production, -1 Happiness] per [2] population [in all cities]", "Cannot build [Mounted] units"],
+		"uniques": [
+			"[All] units gain the [Youkai] promotion",
+			"[{Melee} {Land}] units gain the [Beast] promotion",
+			"[{Ranged} {Land}] units gain the [Winged] promotion",
+			"Comment [[Winged] units receive +1 Movement, while [Beast] units receive +1 Sight]",
+			"[+1] Movement <for [Winged] units> <hidden from users>",
+			"[+1] Sight <for [Beast] units> <hidden from users>",
+			"[+2 Production, -1 Happiness] per [3] population [in all cities]",
+			"Cannot build [Mounted] units",
+			],
 		"cities": ["Tengugawa", "Youkai-machi", "Amanozakura", "Raijindai", "Fujinshou", "Sokai-kyo", "Yamabushinaka", "Karasutani", "Houyama", "Kamitengu-no-mori"]
 	},
 	{
