@@ -481,6 +481,25 @@
 		"cities": ["Arcanopolis", "Mystoria", "Sorceron", "Enchantia", "Maginium", "Spellhaven", "Wizard's Reach", "Enigmaire", "Conjuria", "Manaheim"]
 	},
 	{
+		"name": "River Dwelling Kappas",
+		"leaderName": "Nitori Kawashiro",
+		"adjective": ["River Kappa"],
+		"preferredVictoryType": "Science",
+		"startIntroPart1": ".",
+		"startIntroPart2": ".",
+		"attacked": "How rude!",
+		"defeated": "Unbelievable...",
+		"introduction": "Welcome, friend.",
+		"neutralHello": "Hello",
+		"hateHello": "Oh, it's you.",
+		"tradeRequest": "It would be great if you agree to this...",
+		"outerColor": [245,84,109],
+		"innerColor": [89,19,112],
+		"uniqueName": "Backpack Machinery",
+		"uniques": ["[All] units gain the [Youkai] promotion", "[Land] units gain the [Kappa] promotion", "[+2 Science] in cities on [River] tiles"],
+		"cities": ["Kappagawa", "Mizukappa-mura", "Kawazumi-shi", "Kawataro-tō", "Suikawa-no-sato", "Kawa-no-kuni", "Kawarimizu-machi", "Kawauso-hama", "Kawaishi", "Kawa-umi-teki"]
+	},
+	{
 		"name": "Senkai Principality",
 		"leaderName": "Toyosatomimi no Miko",
 		"adjective": ["Hermit"],
