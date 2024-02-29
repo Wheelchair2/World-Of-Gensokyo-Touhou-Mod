@@ -482,6 +482,7 @@
 	},
 	{
 		"name": "River Dwelling Kappas",
+		"startBias": ["Coast"],
 		"leaderName": "Nitori Kawashiro",
 		"adjective": ["River Kappa"],
 		"preferredVictoryType": "Science",
@@ -493,10 +494,16 @@
 		"neutralHello": "Hello",
 		"hateHello": "Oh, it's you.",
 		"tradeRequest": "It would be great if you agree to this...",
-		"outerColor": [245,84,109],
-		"innerColor": [89,19,112],
-		"uniqueName": "Backpack Machinery",
-		"uniques": ["[All] units gain the [Youkai] promotion", "[Land] units gain the [Kappa] promotion", "[+2 Science] in cities on [River] tiles"],
+		"outerColor": [161,214,217],
+		"innerColor": [35,71,17],
+		"uniqueName": "Ingenious Engineers",
+		"uniques": ["Comment [Kappas are the masters of manipulating water. They gain +1 Movement when within 1 tiles of a River, gain +1 Movement when embarked in Water tiles, and also have no combat penalty when attacking over a coast or a river]",
+			"Comment [------------------]",
+			"[All] units gain the [Youkai] promotion",
+			"[Land] units gain the [Kappa] promotion",
+			"Gain a free [Artificial Garden] [in all cities]",
+			"[+2 Science] from every [Great Improvement]",
+			],
 		"cities": ["Kappagawa", "Mizukappa-mura", "Kawazumi-shi", "Kawataro-tō", "Suikawa-no-sato", "Kawa-no-kuni", "Kawarimizu-machi", "Kawauso-hama", "Kawaishi", "Kawa-umi-teki"]
 	},
 	{
