@@ -46,6 +46,16 @@
 		"hurryCostModifier": 15
 	},
 	{
+		"name": "Test Settler",
+		"uniqueTo": "Eientei Residents",
+		"replaces": "Settler",
+		"unitType": "Civilian",
+		"movement": 6,
+		"cost": 1,
+		"uniques": ["Founds a new city <by consuming this unit>", "Excess Food converted to Production when under construction"],
+		"hurryCostModifier": 15
+	},
+	{
 		"name": "Maiden Settler",
 		"uniqueTo": "Mermaids Of The Lake",
 		"replaces": "Settler",
@@ -105,6 +115,19 @@
 		"movement": 3,
 		"strength": 5,
 		"cost": 30,
+		"obsoleteTech": "Paid Service",
+		"upgradesTo": "Patrol",
+		"attackSound": "nonmetalhit",
+		"uniques": ["Never appears as a Barbarian unit", "Double movement in [Forest]", "Double movement in [Jungle]"]
+	},
+	{ //Dayousei unique
+		"name": "Forest Fairy",
+        "uniqueTo": "Fairy Kingdom",
+        "replaces": "Scout",
+		"unitType": "Scout",
+		"movement": 3,
+		"strength": 5,
+		"cost": 25,
 		"obsoleteTech": "Paid Service",
 		"upgradesTo": "Patrol",
 		"attackSound": "nonmetalhit",
@@ -700,7 +723,7 @@
 		"strength": 14,
 		"cost": 45,
 		"requiredTech": "Sailing",
-		"uniques": ["[+50]% Strength <vs [{Military} {Water}] units>", "Never appears as a Barbarian unit"],
+		"uniques": ["[+100]% Strength <vs [{Military} {Water}] units> <when attacking>", "Invisible to non-adjacent units", "Never appears as a Barbarian unit"],
 		"upgradesTo": "Boarding Ship",
 		"obsoleteTech": "Navigation",
 		"attackSound": "nonmetalhit"
@@ -1213,6 +1236,161 @@
 		"movement": 2
 	},
 	
+	//Ability Card Great Persons
+	/*
+	{
+		"name": "Blank Card",
+		"unitType": "Civilian",
+		"uniques": [
+            "Comment [Blank Card]", "Great Person - [Food] <hidden from users>", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
+	*/
+	/*
+	{
+		"name": "Backdoor Card",
+		"unitType": "Civilian",
+		"uniques": [
+            "Comment [Ability Card; Backdoor]", "Great Person - [Food] <hidden from users>", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
+	{
+		"name": "Beauty Of Destruction Card",
+		"unitType": "Civilian",
+		"uniques": [
+            "Comment [Ability Card; Beauty Of Destruction]", "Great Person - [Food] <hidden from users>", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
+	{
+		"name": "Danmaku Ghost Card",
+		"unitType": "Civilian",
+		"uniques": [
+            "Comment [Ability Card; Danmaku Ghost]", "Great Person - [Food] <hidden from users>", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
+	{
+		"name": "Drunkenly Whimsical Ibuki Gourd Card",
+		"unitType": "Civilian",
+		"uniques": [
+            "Comment [Ability Card; Drunkenly Whimsical Ibuki Gourd]", "Great Person - [Food] <hidden from users>", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
+	{
+		"name": "Esteemed Authority Card",
+		"unitType": "Civilian",
+		"uniques": [
+            "Comment [Ability Card; Esteemed Authority]", "Great Person - [Food] <hidden from users>", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
+	{
+		"name": "Great Tengu's Barley Rice Card",
+		"unitType": "Civilian",
+		"uniques": [
+            "Comment [Ability Card; Great Tengu's Barley Rice]", "Great Person - [Food] <hidden from users>", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
+	{
+		"name": "Icicle Fall Card",
+		"unitType": "Civilian",
+		"uniques": [
+            "Comment [Ability Card; Icicle Fall]", "Great Person - [Food] <hidden from users>", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
+	{
+		"name": "Item Season Card",
+		"unitType": "Civilian",
+		"uniques": [
+            "Comment [Ability Card; Item Season]", "Great Person - [Food] <hidden from users>", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
+	{
+		"name": "Keystone Of Endurance Card",
+		"unitType": "Civilian",
+		"uniques": [
+            "Comment [Ability Card; Keystone Of Endurance]", "Great Person - [Food] <hidden from users>", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
+	{
+		"name": "Mini-Hakkero Card",
+		"unitType": "Civilian",
+		"uniques": [
+            "Comment [Ability Card; Mini-Hakkero]", "Great Person - [Food] <hidden from users>", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
+	{
+		"name": "Miracle Mallet Card",
+		"unitType": "Civilian",
+		"uniques": [
+            "Comment [Ability Card; Miracle Mallet]", "Great Person - [Food] <hidden from users>", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
+	{
+		"name": "Offerings To A Sacred Mountain Card",
+		"unitType": "Civilian",
+		"uniques": [
+            "Comment [Ability Card; Offerings To A Sacred Mountain]", "Great Person - [Food] <hidden from users>", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
+	{
+		"name": "Pebble Hat Card",
+		"unitType": "Civilian",
+		"uniques": [
+            "Comment [Ability Card; Pebble Hat]", "Great Person - [Food] <hidden from users>", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
+	{
+		"name": "Princess Kaguya's Secret Stash Card",
+		"unitType": "Civilian",
+		"uniques": [
+            "Comment [Ability Card; Princess Kaguya's Secret Stash]", "Great Person - [Food] <hidden from users>", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
+	{
+		"name": "Screen Border Card",
+		"unitType": "Civilian",
+		"uniques": [
+            "Comment [Ability Card; Screen Border]", "Great Person - [Food] <hidden from users>", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
+	{
+		"name": "Shanghai Doll Card",
+		"unitType": "Civilian",
+		"uniques": [
+            "Comment [Ability Card; Shanghai Doll]", "Great Person - [Food] <hidden from users>", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
+	{
+		"name": "Smelt's Scales Card",
+		"unitType": "Civilian",
+		"uniques": [
+            "Comment [Ability Card; Smelt's Scales]", "Great Person - [Food] <hidden from users>", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
+	{
+		"name": "Sutra Of Dharmatic Power Card",
+		"unitType": "Civilian",
+		"uniques": [
+            "Comment [Ability Card; Sutra Of Dharmatic Power]", "Great Person - [Food] <hidden from users>", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
+	{
+		"name": "Vampire Fang Card",
+		"unitType": "Civilian",
+		"uniques": [
+            "Comment [Ability Card; Vampire Fang]", "Great Person - [Food] <hidden from users>", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
+	{
+		"name": "Yin Yang Orb Card",
+		"unitType": "Civilian",
+		"uniques": [
+            "Comment [Ability Card; Yin-Yang Orb]", "Great Person - [Food] <hidden from users>", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
+	*/
+	////
+	
+	
 	// Special Nation Unique Units
 	
 	{
@@ -1326,7 +1504,7 @@
 	{
 		"name": "Earthbound Ghost",
 		"uniqueTo": "Barbarians",
-		"replaces": "Yumi Samurai",
+		"replaces": "Longbowman",
 		"unitType": "Ranged Sorcery",
 		"range": 1,
 		"movement": 2,
