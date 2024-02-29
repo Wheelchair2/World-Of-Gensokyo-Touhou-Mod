@@ -415,9 +415,9 @@
 		"innerColor": [19,147,19],
 		"uniqueName": "Mountain Of Faith",
 		"uniques": ["Starts with [Religion]", "[All] units gain the [Human Race] promotion", "[50]% of excess happiness converted to [Faith]",
-		 "[50]% of excess happiness converted to [Gold]",
-		"Provides [1] [Ability Card; Offerings To A Sacred Mountain] <after discovering [Improved Trade]>",
-		]
+			"[+1 Faith] per [1] population [in capital]",
+			"Provides [1] [Ability Card; Offerings To A Sacred Mountain] <after discovering [Improved Trade]>",
+			]
 		"favoredReligion": "Sect Shinto",
 		"cities": ["Hinomori", "Takarashima", "Kasai no Kuni", "Yume no Sakura", "Kougetsu", "Ryuunokuni", "Isanokuni", "Hoshizora", "Kachidoki", "Yamabuki"]
 	},
@@ -477,7 +477,9 @@
 		"outerColor": [0,0,0],
 		"innerColor": [255,255,255],
 		"uniqueName": "Master Spark",
-		"uniques": ["[All] units gain the [Human Race] promotion", "Starts with [Research For Magic]", "Starts with [Simple Alchemy]", "[+15]% Strength <for [{Human} {Magician}] units> <during the [Youkai Expansion Project]>", "[+40]% Strength <for [{Human} {Magician}] units> <starting from the [Edo period]>", "Provides [1] [Ability Card; Mini-Hakkero] <after discovering [Improved Trade]>"],
+		"uniques": ["[All] units gain the [Human Race] promotion", "Starts with [Research For Magic]", "Starts with [Simple Alchemy]", "[+10]% Strength <for [{Human} {Magician}] units>",
+			"Comment [Human Magician units aren't affected by the -30% Strength [Human Race] debuff, retaining their immunity from the [Youkai Expansion Project]]",
+			"[+30]% Strength <for [{Human} {Magician}] units> <starting from the [Edo period]> <hidden from users>","Provides [1] [Ability Card; Mini-Hakkero] <after discovering [Improved Trade]>"],
 		"cities": ["Arcanopolis", "Mystoria", "Sorceron", "Enchantia", "Maginium", "Spellhaven", "Wizard's Reach", "Enigmaire", "Conjuria", "Manaheim"]
 	},
 	{
