@@ -29,8 +29,8 @@
 	//Ability Card triggerable uniques
 	
 	"[1] free [Shanghai Labor Doll] units appear <with [Ability Card; Shanghai Doll]>",
-	"Gain [300]-[500] [Gold] <with <Ability Card; Princess Kaguya's Secret Stash>",
-	"Gain [250] [Gold] <upon entering a Golden Age> <with [Ability Card; Item Season>"
+	"Gain [300]-[500] [Gold] <with [Ability Card; Princess Kaguya's Secret Stash]>",
+	"Gain [250] [Gold] <upon entering a Golden Age> <with [Ability Card; Item Season]>"
 	"Empire enters a [3]-turn Golden Age <upon discovering a Natural Wonder> <with [Ability Card; Item Season]>",
         
 		// Sashimi-chan
