@@ -245,7 +245,7 @@
 		"outerColor": [240,240,240],
 		"innerColor": [55,26,106],
 		"uniqueName": "Diligent Fairy Maids",
-		"uniques": ["Comment [Vampires would suck the blood out of anyoneand can heal 30 damage upon killing a unit]",
+		"uniques": ["Comment [Vampires would suck the blood out of anyone and can heal 30 damage upon killing a unit]",
 		"Comment [------------------]",
 		"[All] units gain the [Youkai] promotion", "[Land] units gain the [Vampire] promotion", "[+25]% Production when constructing [All] wonders [in all cities]", "[-20]% maintenance costs","Provides [1] [Ability Card; Vampire Fang] <after discovering [Improved Trade]>"],
 		"cities": ["Transylvania","ScarletBourne","Vermillion Peaks","Crimsonhurst","Carmesia","Garnetshire","Burgundy Citadel","Sangria Hollow","Scarletspire","Scarletara"]
@@ -266,7 +266,7 @@
 		"outerColor": [225,225,141],
 		"innerColor": [119,1,0],
 		"uniqueName": "Complete Destruction",
-		"uniques": ["Comment [Vampires would suck the blood out of anyoneand can heal 30 damage upon killing a unit]",
+		"uniques": ["Comment [Vampires would suck the blood out of anyone and can heal 30 damage upon killing a unit]",
 		"Comment [------------------]",
 		"[All] units gain the [Youkai] promotion", "[Land] units gain the [Vampire] promotion", "Damage is ignored when determining unit Strength", "Cities are razed [2] times as fast","Provides [1] [Ability Card; Beauty Of Destruction] <after discovering [Improved Trade]>"],
 		"cities": ["Sanguinaria", "Nocturnia", "Umbraheim", "Cimmeria", "Bloodhaven", "Stygianberg", "Nyxmark", "Valerianth", "Crimsonshire", "Vladonia"]
