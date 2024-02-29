@@ -87,6 +87,8 @@
 			"This Unit gains the [March] promotion <upon defeating a [March] unit> <for [{Land} {Melee}] units>",
 			"This Unit gains the [Sentry] promotion <upon defeating a [Sentry] unit> <for [{Land} {Melee}] units>",
 			"This Unit gains the [Logistics] promotion <upon defeating a [Logistics] unit> <for [{Land} {Ranged}] units>",
+			"This Unit gains the [Hunter] promotion <upon defeating a [Logistics] unit> <for [{Land} {Melee}] units>",
+			"This Unit gains the [Sniper] promotion <upon defeating a [Logistics] unit> <for [{Land} {Ranged}] units>",
 			"------------------",
 			"This Unit gains the [[Royal Ashigaru] ability] promotion <upon defeating a [[Royal Ashigaru] ability] unit> <for [{Land} {Melee}] units>",
 			"This Unit gains the [[Royal Samurai] ability] promotion <upon defeating a [[Royal Samurai] ability] unit> <for [{Land} {Melee}] units>",
@@ -117,10 +119,6 @@
 	{
 		"name": "Impure",
 		"uniques": ["[-30]% Strength for enemy [Lunarian] units in adjacent [All] tiles"]
-	},
-	{
-		"name": "Wise Hermit",
-		"uniques": ["May capture killed [Beast] units"]
 	},
 	{
 		"name": "Fire Arts",
@@ -178,18 +176,16 @@
 	},
 	{
 		"name": "Satori Race",
-		"uniques": ["Racial", "[-15]% Strength for enemy [Military] units in adjacent [All] tiles"],
-        "column": 27,
-        "row": 4
+		"uniques": ["Racial", "[-20]% Strength for enemy [Military] units in adjacent [All] tiles"],
+       //"column": 27,
+       // "row": 4
 	},
+	/* Changed 02/17/2024
 	{
 		"name": "Stab Third Eye",
-		"prerequisites": ["Satori Race"],
 		"uniques": ["Supplementary", "Only available <for units with [Satori Race]>", "Invisible to non-adjacent units", "[-2] Range <for [Ranged] units>", "[-30]% Strength <when defending>", "[+55]% to Flank Attack bonuses", "[+55]% Strength <vs [Wounded] units>"],
-		"unitTypes": ["Sword", "Ranged", "Archery", "Gunpowder", "Mounted", "Armored", "Siege","Archery","Ranged Gunpowder","Scout"],
-		"column": 28,
-		"row": 4
 	},
+	*/
 	{
 		"name": "Divine Blessing",
  		"uniques": ["Supplementary"]
@@ -204,11 +200,11 @@
 	},
 	{
 		"name": "Beast",
- 		"uniques": ["Racial", "[+5] HP when healing"]
+ 		"uniques": ["Racial", "[+10] HP when healing"]
 	},
 	{
 		"name": "Doll Construct",
- 		"uniques": ["Apparition", "[-25]% Strength <when defending> <before discovering [Self-Discovery]>", "[-15]% Strength <when defending> <after discovering [Self-Discovery]>", "[+10] HP when healing <in [Doll Lumber House] tiles>"]
+ 		"uniques": ["Apparition", "[-20]% Strength <when defending> <before discovering [Self-Discovery]>", "[-15]% Strength <when defending> <after discovering [Self-Discovery]>", "[+15] HP when healing <in [Doll Lumber House] tiles>"]
 	},
 	{
 		"name": "Lunarian",
@@ -240,7 +236,7 @@
 	},
 	{
 		"name": "Youkai",
- 		"uniques": ["Racial"]
+ 		"uniques": ["Racial", "Comment [What's known as 'mythological creatures' in Western folklore. Fairies are youkais as well]"]
 	},
 	{
 		"name": "Oni",
@@ -256,15 +252,19 @@
 	},
 	{
 		"name": "Kappa",
- 		"uniques": ["Racial"]
+ 		"uniques": ["Racial", "Aquatic", "[+1] Movement <in [Water] tiles>", "[+1] Movement <within [1] tiles of a [River]>", "Eliminates combat penalty for attacking over a river", "Eliminates combat penalty for attacking across a coast"]
 	},
 	{
 		"name": "Mermaid",
- 		"uniques": ["Racial", "[-1] Movement", "[+1] Movement <in [Fresh water] tiles>", "[+1] Movement <within [1] tiles of a [Coast]>", "[+1] Movement <in [Water] tiles>", "Eliminates combat penalty for attacking over a river", "Eliminates combat penalty for attacking across a coast", "May travel on Water tiles without embarking"]
+ 		"uniques": ["Racial", "Aquatic", "[-1] Movement", "[+1] Movement <within [1] tiles of a [Coast]>", "[+1] Movement <within [1] tiles of a [River]>", "[+1] Movement <within [1] tiles of a [Lake]>", "[+1] Movement <in [Water] tiles>", "Eliminates combat penalty for attacking over a river", "Eliminates combat penalty for attacking across a coast", "May travel on Water tiles without embarking"]
 	},
 	{
 		"name": "Kitsune",
  		"uniques": ["Racial", "Ignores terrain cost", "[+1] Movement"]
+	},
+	{
+		"name": "Wise Hermit",
+		"uniques": ["Racial", "May capture killed [Beast] units"]
 	},
     
     
@@ -476,7 +476,7 @@
 	{
 		"name": "Amphibious",
 		"prerequisites": ["Shock I", "Drill I"],
-		"uniques": ["Eliminates combat penalty for attacking over a river", "Eliminates combat penalty for attacking across a coast"],
+		"uniques": ["[+15]% Strength <for [Aquatic] units> <within [1] tiles of a [Water]>", "Eliminates combat penalty for attacking over a river", "Eliminates combat penalty for attacking across a coast"],
 		"unitTypes": ["Sword","Gunpowder","Melee Sorcery"],
         "column": 6,
         "row": 1
@@ -939,7 +939,7 @@
         "name": "Ambush I",
         "uniques": [
 			"[+15]% Strength <vs [Armor] units>",
-            "[+15]% Strength <vs [Mounted] units>"
+            "[+15]% Strength <vs [Mounted] units> <when attacking>"
         ],
         "unitTypes": ["Sword","Gunpowder","Fighter","Bomber", "Mounted", "Melee Sorcery"],
 		"column": 24,
@@ -950,7 +950,7 @@
         "prerequisites": ["Ambush I"],
         "uniques": [
 			"[+15]% Strength <vs [Armor] units>",
-            "[+15]% Strength <vs [Mounted] units>"
+            "[+15]% Strength <vs [Mounted] units> <when attacking>"
         ],
         "unitTypes": ["Sword","Gunpowder","Fighter","Bomber", "Mounted", "Melee Sorcery"],
 		"column": 24,
