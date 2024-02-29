@@ -18,6 +18,7 @@
 		"cost": 1,
 		"uniques": ["Unsellable","Unbuildable","Provides [1] [Wonder Slot] <in cities with at least [5] [Population]>"],
 	},
+	/*
 	{
 		"name": "Card Trigger; Item Season",
 		"cost": 1,
@@ -26,6 +27,7 @@
 			"Empire enters a [3]-turn Golden Age <upon discovering a Natural Wonder>",
 			]
 	},
+	*/
 	{
 		"name": "Monument",
 		"culture": 2,
@@ -1290,7 +1292,7 @@
 	{
 		"name": "Hakurei Shrine",
 		"replaces": "Major Religions In Gensokyo",
-		"uniqueTo": "Eientei Residents",
+		"uniqueTo": "Hakurei Faction",
 		"cost": 1,
 		"uniques": ["Automatically built in all cities where it is buildable", "Comment [-1 [Gold] +2 [Faith] from every [Donation Box] increasing for each city with a [Hakurei Shrine]]", "[-1 Gold, +2 Faith] from every [Donation Box] <hidden from users>", "Unsellable"]
 	},
