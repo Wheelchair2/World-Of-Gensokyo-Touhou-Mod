@@ -40,7 +40,7 @@
 		"name": "Bhavaagra",
 		"leaderName": "Tenshi Hinanawi",
 		"adjective": ["Celestial"],
-		"preferredVictoryType": "Diplomacy",
+		"preferredVictoryType": Diplomatic",
 		"startIntroPart1": ".",
 		"startIntroPart2": ".",
 		"attacked": "How rude!",
@@ -233,7 +233,7 @@
 		"name": "Fated Kingdom",
 		"leaderName": "Remilia Scarlet",
 		"adjective": ["Vampire"],
-		"preferredVictoryType": "Diplomacy",
+		"preferredVictoryType": Diplomatic",
 		"startIntroPart1": "Welcome to the illustrious domain of my faction, where elegance, opulence, and absolute splendor reign supreme."
 		"startIntroPart2": "Let us not speak of my dear sister's pitiful attempt at rebelling against my authority. Her feeble faction may exist, but it pales in comparison to the magnificence of... E-eh? She still loves me?! Then why don't she come back home already! That attitude of hers, hmph!",
 		"attacked": "To dare tarnish the divinity of the Scarlet name with the audacity of an attack, how bold of you.",
@@ -276,7 +276,7 @@
 		"leaderName": "Reimu",
 		"adjective": ["Maiden"],
 		"startBias": ["Hill"],
-		"preferredVictoryType": "Diplomacy",
+		"preferredVictoryType": Diplomatic",
 		"startIntroPart1": "I am the shrine maiden of the Hakurei Shrine, Reimu Hakurei. Do you want some tea?",
 		"startIntroPart2": "You happened to be the incarnation of the Hakurei God. Your shrine maiden, Reimu Hakurei, will serve you in your youkai-extermination from now on.",
 		"declaringWar": "You're a youkai, aren't you? Prepare to be exterminated!",
@@ -402,7 +402,7 @@
 		"leaderName": "Kanako Yasaka",
 		"startBias": ["Hill", "Youkai Mountain"]
 		"adjective": ["Maiden"],
-		"preferredVictoryType": "Diplomacy",
+		"preferredVictoryType": Diplomatic",
 		"startIntroPart1": "."
 		"startIntroPart2": ".",
 		"attacked": "How rude!",
@@ -425,7 +425,7 @@
 		"name": "Myouren Faction",
 		"leaderName": "Byakuren Hijiri",
 		"adjective": ["Monk"],
-		"preferredVictoryType": "Diplomacy",
+		"preferredVictoryType": Diplomatic",
 		"startIntroPart1": "."
 		"startIntroPart2": ".",
 		"attacked": "How rude!",
@@ -487,7 +487,7 @@
 		"startBias": ["Coast"],
 		"leaderName": "Nitori Kawashiro",
 		"adjective": ["River Kappa"],
-		"preferredVictoryType": "Science",
+		"preferredVictoryType": "Scientific",
 		"startIntroPart1": ".",
 		"startIntroPart2": ".",
 		"attacked": "How rude!",
