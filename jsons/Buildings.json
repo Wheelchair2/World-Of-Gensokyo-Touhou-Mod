@@ -504,7 +504,7 @@
 		"maintenance": 4,
 		"hurryCostModifier": 25,
 		"uniques": ["Remove extra unhappiness from annexed cities",
-			"Can only be built [in annexed cities]"],
+			"Can only be built <in [in annexed cities] cities>"],
 		"requiredTech": "Negotiations"
 	},
 	{
@@ -515,7 +515,7 @@
 		"maintenance": 0,
 		"hurryCostModifier": 25,
 		"uniques": ["Remove extra unhappiness from annexed cities",
-			"Can only be built [in annexed cities]"],
+			"Can only be built <in [in annexed cities] cities>"],
 		"requiredTech": "Negotiations"
 	},
 	{
