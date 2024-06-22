@@ -277,7 +277,7 @@
 		"uniques": ["Special Wonder","Cost increases by [95] per owned city",
 		"[+2 Food, +1 Production, +2 Faith] from every [Trading Post] <after discovering [Improved Trade]>",
 		"Comment [When your Gold is below 700(note:modified by game speed), the number of blank cards will be doubled and the maintenance cost of Road will be zero. However, Doubles Gold given to enemy if city is captured. Protect the Commerce Prosperity!]",
-		"No Maintenance costs for improvements in [Road] tiles <when below [701] [Gold] <(modified by game speed)>> <hidden from users>",
+		"No Maintenance costs for improvements in [Road] tiles <when below [701] [Gold]> <(modified by game speed)> <hidden from users>",
 		"Double quantity of [Blank Card] produced <when below [701] [Gold] <(modified by game speed)>> <hidden from users>",
 		"Doubles Gold given to enemy if city is captured <when below [701] [Gold] <(modified by game speed)>> <hidden from users>"
 		// hell idea: It more near to Unconnected Marketeers?
