@@ -327,7 +327,7 @@
 		"name": "Ability Card; Item Season",
 		"resourceType": "Luxury",
 		"uniques": ["Not shown on world screen",
-			"Comment [Gain 250 [Gold] upon entering a Golden Age",
+			"Comment [Gain 250 [Gold] upon entering a Golden Age]",
 			"Comment [Empire enters a 3-turn Golden Age upon discovering a Natural Wonder]",
 			"Comment [-4 [Happiness] to this resource]", "[-4 Happiness] <hidden from users>","Excluded from map editor"]
 	},
