@@ -244,7 +244,7 @@
 	{
 		"name": "Ability Card; Backdoor",
 		"resourceType": "Luxury",
-		"uniques": ["Not shown on world screen","[+15]% Strength <when defending> <when adjacent to a [{Friendly} {Military}] unit> <for [Military] units>","Comment [Cards only give 1 [Happiness] as a luxury resource.]", "Comment [-4 [Happiness] to this resource]", "[-4 Happiness] <hidden from users>","Excluded from map editor"]
+		"uniques": ["Not shown on world screen","[+15]% Strength <when defending> <when adjacent to a [{Military}] unit> <for [Military] units>","Comment [Cards only give 1 [Happiness] as a luxury resource.]", "Comment [-4 [Happiness] to this resource]", "[-4 Happiness] <hidden from users>","Excluded from map editor"]
 	},
 	{
 		"name": "Ability Card; Offerings To A Sacred Mountain",
