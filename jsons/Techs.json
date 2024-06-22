@@ -87,11 +87,13 @@
 				"row": 16,
 				"quote": "There are three main religions in Gensokyo: Buddhism, Taoism, Shintoism."
 				"uniques": [
-				"Only available <for [Hakurei Faction]>",
-				"Only available <for [Moriya Faction]>",
-				"Only available <for [Myouren Faction]>",
-				"Only available <for [Senkai Principality]>",
-				"Only available <for [Land Of The Corpses]>"
+				//"Only available <for [Hakurei Faction]>",
+				//"Only available <for [Moriya Faction]>",
+				//"Only available <for [Myouren Faction]>",
+				//"Only available <for [Senkai Principality]>",
+				//"Only available <for [Land Of The Corpses]>"
+
+				"Unavailable <for [{non-[Hakurei Faction]} {non-[Moriya Faction]} {non-[Myouren Faction]} {non-[Senkai Principality]} {non-[Land Of The Corpses]}]> <before discovering [Yama's Permission]>"
 				]
 			},
 			{
@@ -99,9 +101,11 @@
 				"row": 14,
 				"quote": "'It ain't magic if it ain't flashy! Danmaku's all about firepower!' - Marisa Kirisame."
 				"uniques": [
-				"Only available <for [Ordinary Magicians]>",
-				"Only available <for [Land Of The Corpses]>",
-				"Only available <for [The Unified Doll Front]>"
+				//"Only available <for [Ordinary Magicians]>",
+				//"Only available <for [Land Of The Corpses]>",
+				//"Only available <for [The Unified Doll Front]>"
+
+				"Unavailable <for [{non-[Ordinary Magicians]} {non-[Land Of The Corpses]} {non-[The Unified Doll Front]}]> <before discovering [Yama's Permission]>"
 				]
 			}
 		]
