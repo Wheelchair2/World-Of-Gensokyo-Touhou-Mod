@@ -23,7 +23,7 @@
 	{
 		"name": "Deer",
 		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Forest","Tundra"], // Tundra only if lowland
+		"terrainsCanBeFoundOn": ["Forest", "Tundra"], // Tundra only if lowland
 		"food": 1,
 		"improvement": "Camp",
 		"improvementStats": {"production": 1},
@@ -47,7 +47,7 @@
 	{
 		"name": "Wheat",
 		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Plains","Flood plains","Desert"], // Desert only if fresh water
+		"terrainsCanBeFoundOn": ["Plains", "Flood plains", "Desert"], // Desert only if fresh water
 		"food": 1,
 		"improvement": "Farm",
 		"uniques": ["Generated on every [27] tiles <in [{Featureless} {Plains}] tiles>",
@@ -58,7 +58,7 @@
 	{
 		"name": "Stone",
 		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Grassland","Desert","Tundra"],
+		"terrainsCanBeFoundOn": ["Grassland", "Desert", "Tundra"],
 		"production": 1,
 		"improvement": "Quarry",
 		"improvementStats": {"production": 1},
@@ -78,7 +78,7 @@
 	{
 		"name": "Bison",
 		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Plains","Grassland"],
+		"terrainsCanBeFoundOn": ["Plains", "Grassland"],
 		"food": 1,
 		"improvement": "Camp",
 		"improvementStats": {"production": 1}
@@ -90,7 +90,7 @@
 		"name": "Horses",
 		"resourceType": "Strategic",
 		//"revealedBy": "Authority",
-		"terrainsCanBeFoundOn": ["Plains","Grassland","Hill"], // Hill only if plains or grassland
+		"terrainsCanBeFoundOn": ["Plains", "Grassland", "Hill"], // Hill only if plains or grassland
 		"production": 1,
 		"improvement": "Pasture",
 		"improvementStats": {"production": 1},
@@ -109,7 +109,7 @@
 		"name": "Iron",
 		"resourceType": "Strategic",
 		"revealedBy": "Iron Working",
-		"terrainsCanBeFoundOn": ["Grassland","Plains","Desert","Tundra","Snow","Hill","Marsh"],
+		"terrainsCanBeFoundOn": ["Grassland", "Plains", "Desert", "Tundra", "Snow", "Hill", "Marsh"],
 		"production": 1,
 		"improvement": "Mine",
 		"uniques": ["Guaranteed with Strategic Balance resource option",
@@ -133,7 +133,7 @@
 		"name": "Coal",
 		"resourceType": "Strategic",
 		"revealedBy": "Modern Knowledge",
-		"terrainsCanBeFoundOn": ["Grassland","Plains","Hill","Jungle","Forest","Marsh"],
+		"terrainsCanBeFoundOn": ["Grassland", "Plains", "Hill", "Jungle", "Forest", "Marsh"],
 		"production": 1,
 		"improvement": "Mine",
 		"improvementStats": {"production": 1},
@@ -155,7 +155,7 @@
 		"name": "Oil",
 		"resourceType": "Strategic",
 		"revealedBy": "Modern Knowledge",
-		"terrainsCanBeFoundOn": ["Desert","Coast","Tundra","Snow","Marsh","Jungle"],
+		"terrainsCanBeFoundOn": ["Desert", "Coast", "Tundra", "Snow", "Marsh", "Jungle"],
 		"production": 1,
 		"improvedBy": ["Oil well", "Offshore Platform"],
 		"improvementStats": {"production": 3},
@@ -178,7 +178,7 @@
 		"name": "Aluminum",
 		"resourceType": "Strategic",
 		"revealedBy": "Modern Knowledge",
-		"terrainsCanBeFoundOn": ["Desert","Tundra","Hill","Snow","Jungle"],
+		"terrainsCanBeFoundOn": ["Desert", "Tundra", "Hill", "Snow", "Jungle"],
 		"production": 1,
 		"improvement": "Mine",
 		"improvementStats": {"production": 1},
@@ -194,7 +194,7 @@
 		"name": "Uranium",
 		"resourceType": "Strategic",
 		"revealedBy": "Modern Knowledge",
-		"terrainsCanBeFoundOn": ["Marsh","Jungle","Forest","Tundra","Snow"],
+		"terrainsCanBeFoundOn": ["Marsh", "Jungle", "Forest", "Tundra", "Snow"],
 		"production": 1,
 		"improvement": "Mine",
 		"improvementStats": {"production": 1},
@@ -214,128 +214,199 @@
 		"resourceType": "Strategic",
 		"uniques": ["Cannot be traded"],
 	},
-	// Ability Cards
+	////////////////////////////////////////////// ABILITY CARDS ///////////////////////////////////////////////////////////////////
 	{
 		"name": "Blank Card",
+		"civilopediaText":[
+            {"extraImage":"Blank Card", "imageSize":180}, //card image
+			{"text": "An Ability Card with nothing written on it...Let's trade this and relinquish ownership of the opponent's card!"},
+		],
 		"resourceType": "Luxury",
-		"uniques": ["Comment [An Ability Card with nothing written on it...Let's trade this and relinquish ownership of the opponent's card!]","Comment [Resource for trading]","Not shown on world screen","Comment [Cards only give 1 [Happiness] as a luxury resource.]", "Comment [-4 [Happiness] to this resource]", "[-4 Happiness] <hidden from users>","Excluded from map editor",
+		"uniques": ["Comment [Can be used for fooling other nations into trading for your [Blank Card]]", "Not shown on world screen", "Comment [(Cards don't give any Happiness, except in Easy difficulty)]", "[-4 Happiness] <hidden from users>", "Excluded from map editor",
 		"Cannot be traded <for [non-[Beneath The Rainbow]]>" // This works I tested.
 		]
 	},
 	{
 		"name": "Ability Card; Yin-Yang Orb",
+		"civilopediaText":[
+            {"extraImage":"Yin-Yang Orb", "imageSize":180}, //card image
+		],
 		"resourceType": "Luxury",
-		"uniques": ["Not shown on world screen","[+8]% Strength <for [All] units>","Comment [Cards only give 1 [Happiness] as a luxury resource.]", "Comment [-4 [Happiness] to this resource]", "[-4 Happiness] <hidden from users>","Excluded from map editor"]
+		"uniques": ["Not shown on world screen", "[+8]% Strength <for [All] units>", "Comment [(Cards don't give any Happiness, except in Easy difficulty)]", "[-4 Happiness] <hidden from users>", "Excluded from map editor"]
 	},
 	{
 		"name": "Ability Card; Mini-Hakkero",
+		"civilopediaText":[
+            {"extraImage":"Mini-Hakkero", "imageSize":180}, //card image
+		],
 		"resourceType": "Luxury",
-		"uniques": ["Not shown on world screen","[+12]% Strength <for [Siege] units>","Comment [Cards only give 1 [Happiness] as a luxury resource.]", "Comment [-4 [Happiness] to this resource]", "[-4 Happiness] <hidden from users>","Excluded from map editor"]
+		"uniques": ["Not shown on world screen", "[+12]% Strength <for [Siege] units>", "Comment [(Cards don't give any Happiness, except in Easy difficulty)]", "[-4 Happiness] <hidden from users>", "Excluded from map editor"]
 	},
 	{
 		"name": "Ability Card; Shanghai Doll",
+		"civilopediaText":[
+            {"extraImage":"Shanghai Doll", "imageSize":180}, //card image
+		],
 		"resourceType": "Luxury",
 		"uniques": ["Not shown on world screen",
 			"Comment [1 free [Shanghai Labor Doll] units appear]",
-			"Comment [Cards only give 1 [Happiness] as a luxury resource.]", "Comment [-4 [Happiness] to this resource]", "[-4 Happiness] <hidden from users>",
+			"Comment [(Cards don't give any Happiness, except in Easy difficulty)]", "[-4 Happiness] <hidden from users>",
 			"Excluded from map editor"
 		]
 	},
 	{
 		"name": "Ability Card; Backdoor",
+		"civilopediaText":[
+            {"extraImage":"Backdoor", "imageSize":180}, //card image
+		],
 		"resourceType": "Luxury",
-		"uniques": ["Not shown on world screen","[+15]% Strength <when defending> <when adjacent to a [{Military}] unit> <for [Military] units>","Comment [Cards only give 1 [Happiness] as a luxury resource.]", "Comment [-4 [Happiness] to this resource]", "[-4 Happiness] <hidden from users>","Excluded from map editor"]
+		"uniques": ["Not shown on world screen", "[+15]% Strength <when defending> <when adjacent to a [{Military}] unit> <for [Military] units>", "Comment [(Cards don't give any Happiness, except in Easy difficulty)]", "[-4 Happiness] <hidden from users>", "Excluded from map editor"]
 	},
 	{
 		"name": "Ability Card; Offerings To A Sacred Mountain",
+		"civilopediaText":[
+            {"extraImage":"Offerings To A Sacred Mountain", "imageSize":180}, //card image
+		],
 		"resourceType": "Luxury",
-		"uniques": ["Not shown on world screen","[+1 Gold] from [Mountain] tiles [in all cities]","[+1] Sight <for [Scout] units>","Comment [Cards only give 1 [Happiness] as a luxury resource.]", "Comment [-4 [Happiness] to this resource]", "[-4 Happiness] <hidden from users>","Excluded from map editor"]
+		"uniques": ["Not shown on world screen", "[+1 Gold] from [Mountain] tiles [in all cities]", "[+1] Sight <for [Scout] units>", "Comment [(Cards don't give any Happiness, except in Easy difficulty)]", "[-4 Happiness] <hidden from users>", "Excluded from map editor"]
 	},
 	{
 		"name": "Ability Card; Sutra Of Dharmatic Power",
+		"civilopediaText":[
+            {"extraImage":"Sutra Of Dharmatic Power", "imageSize":180}, //card image
+		],
 		"resourceType": "Luxury",
-		"uniques": ["Not shown on world screen","[+33]% Strength <when attacking> <when below [30] HP>","Comment [Cards only give 1 [Happiness] as a luxury resource.]", "Comment [-4 [Happiness] to this resource]", "[-4 Happiness] <hidden from users>","Excluded from map editor"]
+		"uniques": ["Not shown on world screen", "[+33]% Strength <when attacking> <when below [30] HP> <for [Military] units>", "Comment [(Cards don't give any Happiness, except in Easy difficulty)]", "[-4 Happiness] <hidden from users>", "Excluded from map editor"]
 	},
 	{
 		"name": "Ability Card; Danmaku Ghost",
+		"civilopediaText":[
+            {"extraImage":"Danmaku Ghost", "imageSize":180}, //card image
+		],
 		"resourceType": "Luxury",
-		"uniques": ["Not shown on world screen","Damage is ignored when determining unit Strength <for [All] units>","Comment [Cards only give 1 [Happiness] as a luxury resource.]", "Comment [-4 [Happiness] to this resource]", "[-4 Happiness] <hidden from users>","Excluded from map editor"]
+		"uniques": ["Not shown on world screen", "Damage is ignored when determining unit Strength <for [All] units>", "Comment [(Cards don't give any Happiness, except in Easy difficulty)]", "[-4 Happiness] <hidden from users>", "Excluded from map editor"]
 	},
 	{
 		"name": "Ability Card; Screen Border",
+		"civilopediaText":[
+            {"extraImage":"Screen Border", "imageSize":180}, //card image
+		],
 		"resourceType": "Luxury",
-		"uniques": ["Not shown on world screen","[Scout] units gain the [Card - Screen Border] promotion","Comment [Cards only give 1 [Happiness] as a luxury resource.]", "Comment [-4 [Happiness] to this resource]", "[-4 Happiness] <hidden from users>","Excluded from map editor"]
+		"uniques": ["Not shown on world screen", "Comment [Scout units gain the [Card - Screen Border] promotion]", "[Scout] units gain the [Card - Screen Border] promotion <hidden from users>", "Comment [(Cards don't give any Happiness, except in Easy difficulty)]", "[-4 Happiness] <hidden from users>", "Excluded from map editor"]
 	},
 	{
 		"name": "Ability Card; Miracle Mallet",
+		"civilopediaText":[
+            {"extraImage":"Miracle Mallet", "imageSize":180}, //card image
+		],
 		"resourceType": "Luxury",
-		"uniques": ["Not shown on world screen","Earn [15]% of killed [Military] unit's [Strength] as [Gold] <for [All] units>","Comment [Cards only give 1 [Happiness] as a luxury resource.]", "Comment [-4 [Happiness] to this resource]", "[-4 Happiness] <hidden from users>","Excluded from map editor"]
+		"uniques": ["Not shown on world screen", "Earn [15]% of killed [Military] unit's [Strength] as [Gold] <for [All] units>", "Comment [(Cards don't give any Happiness, except in Easy difficulty)]", "[-4 Happiness] <hidden from users>", "Excluded from map editor"]
 	},
 	{
 		"name": "Ability Card; Keystone Of Endurance",
+		"civilopediaText":[
+            {"extraImage":"Keystone Of Endurance", "imageSize":180}, //card image
+		],
 		"resourceType": "Luxury",
-		"uniques": ["Not shown on world screen","[+12]% Strength <when defending> <for [Military] units>","Comment [Cards only give 1 [Happiness] as a luxury resource.]", "Comment [-4 [Happiness] to this resource]", "[-4 Happiness] <hidden from users>","Excluded from map editor"]
+		"uniques": ["Not shown on world screen", "[+12]% Strength <when defending> <for [Military] units>", "Comment [(Cards don't give any Happiness, except in Easy difficulty)]", "[-4 Happiness] <hidden from users>", "Excluded from map editor"]
 	},
 	{
 		"name": "Ability Card; Esteemed Authority",
+		"civilopediaText":[
+            {"extraImage":"Esteemed Authority", "imageSize":180}, //card image
+		],
 		"resourceType": "Luxury",
-		"uniques": ["Not shown on world screen","[+40]% Strength <for [Military] units> <vs [Barbarian] units>","Comment [Cards only give 1 [Happiness] as a luxury resource.]", "Comment [-4 [Happiness] to this resource]", "[-4 Happiness] <hidden from users>","Excluded from map editor"]
+		"uniques": ["Not shown on world screen", "[+40]% Strength <for [Military] units> <vs [Barbarian] units>", "Comment [(Cards don't give any Happiness, except in Easy difficulty)]", "[-4 Happiness] <hidden from users>", "Excluded from map editor"]
 	},
 	{
 		"name": "Ability Card; Vampire Fang",
+		"civilopediaText":[
+            {"extraImage":"Vampire Fang", "imageSize":180}, //card image
+		],
 		"resourceType": "Luxury",
-		"uniques": ["Not shown on world screen","[+12]% Strength <for [Melee] units>","Comment [Cards only give 1 [Happiness] as a luxury resource.]", "Comment [-4 [Happiness] to this resource]", "[-4 Happiness] <hidden from users>","Excluded from map editor"]
+		"uniques": ["Not shown on world screen", "[+12]% Strength <for [Melee] units>", "Comment [(Cards don't give any Happiness, except in Easy difficulty)]", "[-4 Happiness] <hidden from users>", "Excluded from map editor"]
 	},
 	{
 		"name": "Ability Card; Great Tengu's Barley Rice",
+		"civilopediaText":[
+            {"extraImage":"Great Tengu's Barley Rice", "imageSize":180}, //card image
+		],
 		"resourceType": "Luxury",
-		"uniques": ["Not shown on world screen","[All] units gain the [Card - Great Tengu's Barley Rice] promotion","Comment [Cards only give 1 [Happiness] as a luxury resource.]", "Comment [-4 [Happiness] to this resource]", "[-4 Happiness] <hidden from users>","Excluded from map editor"]
+		"uniques": ["Not shown on world screen", "Comment [All units gain the [Card - Great Tengu's Barley Rice] promotion]", "[All] units gain the [Card - Great Tengu's Barley Rice] promotion <hidden from users>", "Comment [(Cards don't give any Happiness, except in Easy difficulty)]", "[-4 Happiness] <hidden from users>", "Excluded from map editor"]
 	},
 	{
-		"name": "Ability Card; Icicle Fall",
+		"name": "Ability Card; Ice Fairy",
+		"civilopediaText":[
+            {"extraImage":"Ice Fairy", "imageSize":180}, //card image
+		],
 		"resourceType": "Luxury",
-		"uniques": ["Not shown on world screen", "[+15]% Strength <when defending> <for [Military] units> <in [Snow] tiles>","[+10]% Strength <when defending> <for [Military] units> <in [Tundra] tiles>","Comment [Cards only give 1 [Happiness] as a luxury resource.]", "Comment [-4 [Happiness] to this resource]", "[-4 Happiness] <hidden from users>","Excluded from map editor"]
+		"uniques": ["Not shown on world screen", "[+15]% Strength <when defending> <for [Military] units> <in [Snow] tiles>", "[+10]% Strength <when defending> <for [Military] units> <in [Tundra] tiles>", "Comment [(Cards don't give any Happiness, except in Easy difficulty)]", "[-4 Happiness] <hidden from users>", "Excluded from map editor"]
 	},
 	{
 		"name": "Ability Card; Beauty Of Destruction",
+		"civilopediaText":[
+            {"extraImage":"Beauty Of Destruction", "imageSize":180}, //card image
+		],
 		"resourceType": "Luxury",
-		"uniques": ["Not shown on world screen","[Siege] units gain the [Card - Beauty Of Destruction] promotion","[+20]% Strength <vs cities> <for [All] units>","Comment [Cards only give 1 [Happiness] as a luxury resource.]", "Comment [-4 [Happiness] to this resource]", "[-4 Happiness] <hidden from users>","Excluded from map editor"]
+		"uniques": ["Not shown on world screen", "Comment [Siege units gain the [Card - Beauty Of Destruction] promotion]", "[Siege] units gain the [Card - Beauty Of Destruction] promotion <hidden from users>", "[+20]% Strength <vs cities> <for [All] units>", "Comment [(Cards don't give any Happiness, except in Easy difficulty)]", "[-4 Happiness] <hidden from users>", "Excluded from map editor"]
 	},
 	{
 		"name": "Ability Card; Drunkenly Whimsical Ibuki Gourd",
+		"civilopediaText":[
+            {"extraImage":"Drunkenly Whimsical Ibuki Gourd", "imageSize":180}, //card image
+		],
 		"resourceType": "Luxury",
-		"uniques": ["Not shown on world screen","[-1] Sight <when below [0] Happiness>","[+15]% Strength <while the empire is happy> <for [All] units>","Comment [Cards only give 1 [Happiness] as a luxury resource.]", "Comment [-4 [Happiness] to this resource]", "[-4 Happiness] <hidden from users>","Excluded from map editor"]
+		"uniques": ["Not shown on world screen", "[-1] Sight <when below [0] Happiness>", "[+15]% Strength <while the empire is happy> <for [All] units>", "Comment [(Cards don't give any Happiness, except in Easy difficulty)]", "[-4 Happiness] <hidden from users>", "Excluded from map editor"]
 	},
 	{
 		"name": "Ability Card; Smelt's Scales",
+		"civilopediaText":[
+            {"extraImage":"Smelt's Scales", "imageSize":180}, //card image
+		],
 		"resourceType": "Luxury",
-		"uniques": ["Not shown on world screen","[Melee] units gain the [Card - Smelt's Scales] promotion","Comment [Cards only give 1 [Happiness] as a luxury resource.]", "Comment [-4 [Happiness] to this resource]", "[-4 Happiness] <hidden from users>","Excluded from map editor"]
+		"uniques": ["Not shown on world screen", "Comment [Melee units gain the [Card - Smelt's Scales] promotion]", "[Melee] units gain the [Card - Smelt's Scales] promotion <hidden from users>", "Comment [(Cards don't give any Happiness, except in Easy difficulty)]", "[-4 Happiness] <hidden from users>", "Excluded from map editor"]
 	},
 	{
 		"name": "Ability Card; Pebble Hat",
+		"civilopediaText":[
+            {"extraImage":"Pebble Hat", "imageSize":180},
+			{"text":"Card - Pebble Hat", "header":5,"color": "#FDFF88", "link": "Promotions/Card - Pebble Hat"}
+		],
 		"resourceType": "Luxury",
-		"uniques": ["Not shown on world screen","[Scout] units gain the [Card - Pebble Hat] promotion","Comment [Cards only give 1 [Happiness] as a luxury resource.]", "Comment [-4 [Happiness] to this resource]", "[-4 Happiness] <hidden from users>","Excluded from map editor"],
+		"uniques": ["Not shown on world screen", "Comment [Scout units gain the [Card - Pebble Hat] promotion]", "[Scout] units gain the [Card - Pebble Hat] promotion <hidden from users>", "Comment [(Cards don't give any Happiness, except in Easy difficulty)]", "[-4 Happiness] <hidden from users>", "Excluded from map editor"],
 	},
 	{
 		"name": "Ability Card; Princess Kaguya's Secret Stash",
+		"civilopediaText":[
+            {"extraImage":"Princess Kaguya's Secret Stash", "imageSize":180}, //card image
+		],
 		"resourceType": "Luxury",
-		"uniques": ["Not shown on world screen","Comment [Gain 300-500 [Gold]]",
-			"Comment [-4 [Happiness] to this resource]", "[-4 Happiness] <hidden from users>","Excluded from map editor"
+		"uniques": ["Not shown on world screen", "Comment [Gain 200-500 [Gold] (modified by game speed)]",
+			"Comment [(Cards don't give any Happiness, except in Easy difficulty)]", "[-4 Happiness] <hidden from users>", "Excluded from map editor"
 			]
 	},
 	{
 		"name": "Ability Card; Item Season",
+		"civilopediaText":[
+            {"extraImage":"Item Season", "imageSize":180}, //card image
+		],
 		"resourceType": "Luxury",
 		"uniques": ["Not shown on world screen",
 			"Comment [Gain 250 [Gold] upon entering a Golden Age]",
 			"Comment [Empire enters a 3-turn Golden Age upon discovering a Natural Wonder]",
-			"Comment [-4 [Happiness] to this resource]", "[-4 Happiness] <hidden from users>","Excluded from map editor"]
+			"Comment [(Cards don't give any Happiness, except in Easy difficulty)]",
+			"[-4 Happiness] <hidden from users>", "Excluded from map editor"]
 	},
+	
+	
+	////////////////////////////////////////////////// END ///////////////////////////////////////////////////////////////////
+	
+	
 	// Luxury resources
 	{
 		"name": "Furs",
 		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Forest","Tundra"],
+		"terrainsCanBeFoundOn": ["Forest", "Tundra"],
 		"gold": 2,
 		"improvement": "Camp",
 		"improvementStats": {"gold": 1},
@@ -346,7 +417,7 @@
 	{
 		"name": "Cotton",
 		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Grassland","Flood plains"],
+		"terrainsCanBeFoundOn": ["Grassland", "Flood plains"],
 		"gold": 2,
 		"improvement": "Plantation",
 		"uniques": ["Generated with weight [15] <in [Desert] Regions>",
@@ -358,7 +429,7 @@
 	{
 		"name": "Dyes",
 		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Jungle","Forest","Marsh"],
+		"terrainsCanBeFoundOn": ["Jungle", "Forest", "Marsh"],
 		"gold": 2,
 		"improvement": "Plantation",
 		"uniques": ["Generated with weight [5] <in [Tundra] Regions>",
@@ -370,7 +441,7 @@
 	{
 		"name": "Gems",
 		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Jungle","Forest","Hill"],
+		"terrainsCanBeFoundOn": ["Jungle", "Forest", "Hill"],
 		"gold": 3,
 		"improvement": "Mine",
 		"uniques": ["Generated with weight [5] <in [Tundra] Regions>",
@@ -384,7 +455,7 @@
 	{
 		"name": "Gold Ore", // Not called "Gold" in order to not conflict with siege type units for translations
 		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Desert","Hill","Forest","Jungle"],
+		"terrainsCanBeFoundOn": ["Desert", "Hill", "Forest", "Jungle"],
 		"gold": 2,
 		"improvement": "Mine",
 		"uniques": ["Generated with weight [25] <in [Desert] Regions>",
@@ -398,7 +469,7 @@
 	{
 		"name": "Silver",
 		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Hill","Forest","Jungle","Tundra","Grassland"],
+		"terrainsCanBeFoundOn": ["Hill", "Forest", "Jungle", "Tundra", "Grassland"],
 		"gold": 2,
 		"improvement": "Mine",
 		"uniques": ["Generated with weight [25] <in [Tundra] Regions>",
@@ -416,7 +487,7 @@
 	{
 		"name": "Incense",
 		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Plains","Desert","Flood plains"],
+		"terrainsCanBeFoundOn": ["Plains", "Desert", "Flood plains"],
 		"gold": 2,
 		"improvement": "Plantation",
 		"uniques": ["Generated with weight [35] <in [Desert] Regions>",
@@ -427,7 +498,7 @@
 	{
 		"name": "Ivory",
 		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Plains","Grassland"],
+		"terrainsCanBeFoundOn": ["Plains", "Grassland"],
 		"gold": 2,
 		"improvement": "Camp",
 		"improvementStats": {"gold": 1},
@@ -439,7 +510,7 @@
 	{
 		"name": "Silk",
 		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Forest","Jungle"],
+		"terrainsCanBeFoundOn": ["Forest", "Jungle"],
 		"gold": 2,
 		"improvement": "Plantation",
 		"uniques": ["Generated with weight [5] <in [Jungle] Regions>",
@@ -451,7 +522,7 @@
 	{
 		"name": "Spices",
 		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Jungle","Forest","Marsh"],
+		"terrainsCanBeFoundOn": ["Jungle", "Forest", "Marsh"],
 		"gold": 2,
 		"improvement": "Plantation",
 		"uniques": ["Generated with weight [30] <in [Jungle] Regions>",
@@ -466,7 +537,7 @@
 	{
 		"name": "Wine",
 		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Grassland","Plains"],
+		"terrainsCanBeFoundOn": ["Grassland", "Plains"],
 		"gold": 2,
 		"improvement": "Plantation",
 		"uniques": ["Generated with weight [35] <in [Plains] Regions>",
@@ -476,7 +547,7 @@
 	{
 		"name": "Sugar",
 		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Flood plains","Grassland","Marsh"],
+		"terrainsCanBeFoundOn": ["Flood plains", "Grassland", "Marsh"],
 		// Technically sugar can also be placed on lowland jungles which then *turn* into marsh.
 		"gold": 2,
 		"improvement": "Plantation",
@@ -490,7 +561,7 @@
 	{
 		"name": "Marble",
 		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Desert","Plains","Hill","Grassland"],
+		"terrainsCanBeFoundOn": ["Desert", "Plains", "Hill", "Grassland"],
 		"gold": 2,
 		"improvement": "Quarry",
 		"improvementStats": {"production": 1},
@@ -543,7 +614,7 @@
 	{
 		"name": "Citrus",
 		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Jungle","Forest","Flood plains"],
+		"terrainsCanBeFoundOn": ["Jungle", "Forest", "Flood plains"],
 		"food": 1,
 		"gold": 1,
 		"improvement": "Plantation",
@@ -557,7 +628,7 @@
 	{
 		"name": "Copper",
 		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Hill","Forest","Jungle","Grassland","Tundra"],
+		"terrainsCanBeFoundOn": ["Hill", "Forest", "Jungle", "Grassland", "Tundra"],
 		"gold": 2,
 		"improvement": "Mine",
 		"uniques": ["Generated with weight [15] <in [Tundra] Regions>",
@@ -576,7 +647,7 @@
 	{
 		"name": "Cocoa",
 		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Jungle","Forest"], // Forest only if flat, non-tundra
+		"terrainsCanBeFoundOn": ["Jungle", "Forest"], // Forest only if flat, non-tundra
 		"food": 1,
 		"gold": 1,
 		"improvement": "Plantation"
@@ -601,7 +672,7 @@
 	{
 		"name": "Salt",
 		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Desert","Tundra","Plains","Forest"],
+		"terrainsCanBeFoundOn": ["Desert", "Tundra", "Plains", "Forest"],
 		"gold": 1,
 		"food": 1,
 		"improvement": "Mine",
@@ -618,7 +689,7 @@
 	{
 		"name": "Truffles",
 		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Forest","Marsh","Jungle"],
+		"terrainsCanBeFoundOn": ["Forest", "Marsh", "Jungle"],
 		"gold": 2,
 		"improvement": "Camp",
 		"improvementStats": {"gold": 1},
@@ -631,4 +702,17 @@
 					"Doesn't generate naturally <in [{Forest} {Hill}] tiles>",
 					"Doesn't generate naturally <in [{Tundra} {Forest}] tiles>"]
 	},
+	
+	/////////////////////// Triggers ///////////////////////
+	{
+		"name": "White Switch Open",
+		"resourceType": "Strategic",
+		"uniques": ["Stockpiled", "Will not be displayed in Civilopedia", "Not shown on world screen"]
+	},
+	{
+		"name": "Black Switch Open",
+		"resourceType": "Strategic",
+		"uniques": ["Stockpiled", "Will not be displayed in Civilopedia", "Not shown on world screen"]
+	},
+	
 ]
