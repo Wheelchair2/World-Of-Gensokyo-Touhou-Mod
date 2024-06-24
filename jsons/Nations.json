@@ -171,14 +171,6 @@
 		"[All] units gain the [Fairy] promotion",
 		"[Land] units gain the [Winged] promotion",
 		"[+50]% Golden Age length",
-		
-		//TESTING
-		"Provides [10] [Silver]"
-		"Provides [10] [Whales]"
-		"Provides [10] [Wine]"
-		"Provides [10] [Ivory]"
-		"Provides [10] [Crab]"
-		"Reveals the entire map"
 		],
 		"cities": ["Haru-machi", "Hana-toshi", "Sakura-shi", "Shinryoku-machi", "Hidamari-shi", "Ume-to", "Asagiri-shi", "Kusabana-machi", "Sakuradai-shi", "Ondan-shi"],
 		"style": "fairy"
@@ -630,10 +622,6 @@
 		"Comment [------------------]",
 		"[All] units gain the [Youkai] promotion", "[Land] units gain the [Spirit] promotion"],  
 		"cities": ["Hakugyokurou", "Banshoukyou", "Kaidan City", "Yuurei Kouen", "Onryoumura", "Bakemono no Toshi", "Kokoro no Yami", "Reikonokuni", "Obakezaka", "Ayashiki Machi"]
-		"civilopediaText":[
-			{"text":"Great"}
-            {"extraImage":"KatanaYoumu", "imageSize":160},
-			]
 	},
 	{
 		"name": "The Unified Doll Front",
