@@ -1607,6 +1607,7 @@
 				"name": "Item Season Card Holder",
 				"cost": 1,
 				"uniques": [
+				"Card Holder",
 				"Gain [250] [Gold] <upon entering a Golden Age>",
 				"Empire enters a [3]-turn Golden Age <upon discovering a Natural Wonder>",
 				"Unbuildable", "Unsellable", "Will not be displayed in Civilopedia", "Provides [1] [Ability Card; Item Season]"
@@ -1640,7 +1641,9 @@
 			{ //triggerable
 				"name": "Princess Kaguya's Secret Stash Card Holder",
 				"cost": 1,
-				"uniques": ["Gain [200]-[500] [Gold] <(modified by game speed)>",
+				"uniques": [
+				"Card Holder",
+				"Gain [200]-[500] [Gold] <(modified by game speed)>",
 				"Unbuildable", "Unsellable", "Will not be displayed in Civilopedia", "Provides [1] [Ability Card; Princess Kaguya's Secret Stash] <hidden from users>"]
 			},
 			{
@@ -1651,7 +1654,9 @@
 			{ //triggerable
 				"name": "Shanghai Doll Card Holder",
 				"cost": 1,
-				"uniques": ["[1] free [Shanghai Labor Doll] units appear",
+				"uniques": [
+				"Card Holder",
+				"[1] free [Shanghai Labor Doll] units appear",
 				"Unbuildable", "Unsellable", "Will not be displayed in Civilopedia", "Provides [1] [Ability Card; Shanghai Doll] <hidden from users>"]
 			},
 			{
