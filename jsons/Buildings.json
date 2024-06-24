@@ -293,7 +293,7 @@
 		"quote": "Possession of an object can only be controlled by the god of the markets. As long as they possess something, none can escape from the hands of God! - Chimata Tenkyuu",
 	},
 	{
-		"name": "Warmth of Spring",
+		"name": "Warmth Of Spring",
 		"uniqueTo": "Fairies Of Spring",
 		"cost": 115,
 		"isNationalWonder": true,
@@ -1565,4 +1565,113 @@
 
 	
 	/* Spaceship completion here */
+	
+	// Card Holders
+	
+			{
+				"name": "Backdoor Card Holder",
+				"cost": 1,
+				"uniques": ["Card Holder", "Unbuildable", "Unsellable", "Will not be displayed in Civilopedia", "Provides [1] [Ability Card; Backdoor] <hidden from users>"]
+			},
+			{
+				"name": "Beauty Of Destruction Card Holder",
+				"cost": 1,
+				"uniques": ["Card Holder", "Unbuildable", "Unsellable", "Will not be displayed in Civilopedia", "Provides [1] [Ability Card; Beauty Of Destruction] <hidden from users>"]
+			},
+			{
+				"name": "Danmaku Ghost Card Holder",
+				"cost": 1,
+				"uniques": ["Card Holder", "Unbuildable", "Unsellable", "Will not be displayed in Civilopedia", "Provides [1] [Ability Card; Danmaku Ghost] <hidden from users>"]
+			},
+			{
+				"name": "Drunkenly Whimsical Ibuki Gourd Card Holder",
+				"cost": 1,
+				"uniques": ["Card Holder", "Unbuildable", "Unsellable", "Will not be displayed in Civilopedia", "Provides [1] [Ability Card; Drunkenly Whimsical Ibuki Gourd] <hidden from users>"]
+			},
+			{
+				"name": "Esteemed Authority Card Holder",
+				"cost": 1,
+				"uniques": ["Card Holder", "Unbuildable", "Unsellable", "Will not be displayed in Civilopedia", "Provides [1] [Ability Card; Esteemed Authority] <hidden from users>"]
+			},
+			{
+				"name": "Great Tengu's Barley Rice Card Holder",
+				"cost": 1,
+				"uniques": ["Card Holder", "Unbuildable", "Unsellable", "Will not be displayed in Civilopedia", "Provides [1] [Ability Card; Great Tengu's Barley Rice] <hidden from users>"]
+			},
+			{
+				"name": "Ice Fairy Card Holder",
+				"cost": 1,
+				"uniques": ["Card Holder", "Unbuildable", "Unsellable", "Will not be displayed in Civilopedia", "Provides [1] [Ability Card; Ice Fairy] <hidden from users>"]
+			},
+			{
+				"name": "Item Season Card Holder",
+				"cost": 1,
+				"uniques": [
+				"Gain [250] [Gold] <upon entering a Golden Age>",
+				"Empire enters a [3]-turn Golden Age <upon discovering a Natural Wonder>",
+				"Unbuildable", "Unsellable", "Will not be displayed in Civilopedia", "Provides [1] [Ability Card; Item Season]"
+				]
+			},
+			{
+				"name": "Keystone Of Endurance Card Holder",
+				"cost": 1,
+				"uniques": ["Card Holder", "Unbuildable", "Unsellable", "Will not be displayed in Civilopedia", "Provides [1] [Ability Card; Keystone Of Endurance] <hidden from users>"]
+			},
+			{
+				"name": "Mini-Hakkero Card Holder",
+				"cost": 1,
+				"uniques": ["Card Holder", "Unbuildable", "Unsellable", "Will not be displayed in Civilopedia", "Provides [1] [Ability Card; Mini-Hakkero] <hidden from users>"]
+			},
+			{
+				"name": "Miracle Mallet Card Holder",
+				"cost": 1,
+				"uniques": ["Card Holder", "Unbuildable", "Unsellable", "Will not be displayed in Civilopedia", "Provides [1] [Ability Card; Miracle Mallet] <hidden from users>"]
+			},
+			{
+				"name": "Offerings To A Sacred Mountain Card Holder",
+				"cost": 1,
+				"uniques": ["Card Holder", "Unbuildable", "Unsellable", "Will not be displayed in Civilopedia", "Provides [1] [Ability Card; Offerings To A Sacred Mountain] <hidden from users>"]
+			},
+			{
+				"name": "Pebble Hat Card Holder",
+				"cost": 1,
+				"uniques": ["Card Holder", "Unbuildable", "Unsellable", "Will not be displayed in Civilopedia", "Provides [1] [Ability Card; Pebble Hat] <hidden from users>"]
+			},
+			{ //triggerable
+				"name": "Princess Kaguya's Secret Stash Card Holder",
+				"cost": 1,
+				"uniques": ["Gain [200]-[500] [Gold] <(modified by game speed)>",
+				"Unbuildable", "Unsellable", "Will not be displayed in Civilopedia", "Provides [1] [Ability Card; Princess Kaguya's Secret Stash] <hidden from users>"]
+			},
+			{
+				"name": "Screen Border Card Holder",
+				"cost": 1,
+				"uniques": ["Card Holder", "Unbuildable", "Unsellable", "Will not be displayed in Civilopedia", "Provides [1] [Ability Card; Screen Border] <hidden from users>"]
+			},
+			{ //triggerable
+				"name": "Shanghai Doll Card Holder",
+				"cost": 1,
+				"uniques": ["[1] free [Shanghai Labor Doll] units appear",
+				"Unbuildable", "Unsellable", "Will not be displayed in Civilopedia", "Provides [1] [Ability Card; Shanghai Doll] <hidden from users>"]
+			},
+			{
+				"name": "Smelt's Scales Card Holder",
+				"cost": 1,
+				"uniques": ["Card Holder", "Unbuildable", "Unsellable", "Will not be displayed in Civilopedia", "Provides [1] [Ability Card; Smelt's Scales] <hidden from users>"]
+			},
+			{
+				"name": "Sutra Of Dharmatic Power Card Holder",
+				"cost": 1,
+				"uniques": ["Card Holder", "Unbuildable", "Unsellable", "Will not be displayed in Civilopedia", "Provides [1] [Ability Card; Sutra Of Dharmatic Power] <hidden from users>"]
+			},
+			{
+				"name": "Vampire Fang Card Holder",
+				"cost": 1,
+				"uniques": ["Card Holder", "Unbuildable", "Unsellable", "Will not be displayed in Civilopedia", "Provides [1] [Ability Card; Vampire Fang] <hidden from users>"]
+			},
+			{
+				"name": "Yin-Yang Orb Card Holder",
+				"cost": 1,
+				"uniques": ["Card Holder", "Unbuildable", "Unsellable", "Will not be displayed in Civilopedia", "Provides [1] [Ability Card; Yin-Yang Orb] <hidden from users>"]
+			},
 ]
