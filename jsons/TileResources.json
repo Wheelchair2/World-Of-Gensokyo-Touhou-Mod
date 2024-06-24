@@ -290,6 +290,7 @@
 		"name": "Ability Card; Screen Border",
 		"civilopediaText":[
             {"extraImage":"Screen Border", "imageSize":180}, //card image
+			{"text":"Card - Screen Border", "header":5,"color": "#FDFF88", "link": "Promotions/Card - Screen Border"}
 		],
 		"resourceType": "Luxury",
 		"uniques": ["Not shown on world screen", "Comment [Scout units gain the [Card - Screen Border] promotion]", "[Scout] units gain the [Card - Screen Border] promotion <hidden from users>", "Comment [(Cards don't give any Happiness, except in Easy difficulty)]", "[-4 Happiness] <hidden from users>", "Excluded from map editor"]
@@ -330,6 +331,7 @@
 		"name": "Ability Card; Great Tengu's Barley Rice",
 		"civilopediaText":[
             {"extraImage":"Great Tengu's Barley Rice", "imageSize":180}, //card image
+			{"text":"Card - Great Tengu's Barley Rice", "header":5,"color": "#FDFF88", "link": "Promotions/Card - Great Tengu's Barley Rice"}
 		],
 		"resourceType": "Luxury",
 		"uniques": ["Not shown on world screen", "Comment [All units gain the [Card - Great Tengu's Barley Rice] promotion]", "[All] units gain the [Card - Great Tengu's Barley Rice] promotion <hidden from users>", "Comment [(Cards don't give any Happiness, except in Easy difficulty)]", "[-4 Happiness] <hidden from users>", "Excluded from map editor"]
@@ -346,6 +348,7 @@
 		"name": "Ability Card; Beauty Of Destruction",
 		"civilopediaText":[
             {"extraImage":"Beauty Of Destruction", "imageSize":180}, //card image
+			{"text":"Card - Beauty Of Destruction", "header":5,"color": "#FDFF88", "link": "Promotions/Card - Beauty Of Destruction"}
 		],
 		"resourceType": "Luxury",
 		"uniques": ["Not shown on world screen", "Comment [Siege units gain the [Card - Beauty Of Destruction] promotion]", "[Siege] units gain the [Card - Beauty Of Destruction] promotion <hidden from users>", "[+20]% Strength <vs cities> <for [All] units>", "Comment [(Cards don't give any Happiness, except in Easy difficulty)]", "[-4 Happiness] <hidden from users>", "Excluded from map editor"]
@@ -362,6 +365,7 @@
 		"name": "Ability Card; Smelt's Scales",
 		"civilopediaText":[
             {"extraImage":"Smelt's Scales", "imageSize":180}, //card image
+			{"text":"Card - Smelt's Scales", "header":5,"color": "#FDFF88", "link": "Promotions/Card - Smelt's Scales"}
 		],
 		"resourceType": "Luxury",
 		"uniques": ["Not shown on world screen", "Comment [Melee units gain the [Card - Smelt's Scales] promotion]", "[Melee] units gain the [Card - Smelt's Scales] promotion <hidden from users>", "Comment [(Cards don't give any Happiness, except in Easy difficulty)]", "[-4 Happiness] <hidden from users>", "Excluded from map editor"]
