@@ -19,5 +19,8 @@
 - Yakumo Yukari: [ahase hino](https://twitter.com/hinoiti/status/1560601926680489987)
 - Hijiri Byakuren: [harakune (mugennero)](https://www.pixiv.net/artworks/114666463)
 - Daiyousei: [syuri22](https://twitter.com/syuri22/status/1733676659310534804)
+- Hinanawi Tenshi: [久蒼穹](https://www.pixiv.net/en/artworks/92005939)
+- Tenkyuu Chimata: [カオリング](https://www.pixiv.net/en/artworks/90539223)
+- Komeiji Satori: [nuudoru](https://danbooru.donmai.us/posts/2774603)
 
 Thanks to these wonderful artists, and thank you for playing the mod!
