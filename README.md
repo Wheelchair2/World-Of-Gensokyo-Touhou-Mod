@@ -7,6 +7,6 @@ This is as a fan-made mod of the Touhou Project series for the mobile game Unciv
 
 Credits for the illustrations that I used are in the Credits.md file
 
-**Touhou Project is a Japanese bullet-hell shoot 'em up video game created by Jun'ya "ZUN" Ōta, the developer is a member of Team Shanghai Alice. All credits to the wonderful independent developer, ZUN!**
+**Touhou Project is a Japanese bullet-hell shoot 'em up video game created by Jun'ya "ZUN" Ōta, the developer is a member of Team Shanghai Alice. All credits to the wonderful independent developer, ZUN!** [More information in the Touhou Wiki](https://en.touhouwiki.net/wiki/Touhou_Wiki)
 
 **If you like the mod, please give me a generous star! ଘ(੭ˊ꒳ˋ)੭✧**
