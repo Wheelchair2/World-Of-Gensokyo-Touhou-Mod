@@ -1339,7 +1339,7 @@
 		"hurryCostModifier": 12,
 		"faith": 1,
 		"maintenance": 1,
-		"uniques": ["Gain enough Faith for a Pantheon <once> <if [Major Religions In Gensokyo] is constructed>", "Hidden when religion is disabled"]
+		"uniques": ["Hidden when religion is disabled"]
 	},
 	{
 		"name": "Temple",
