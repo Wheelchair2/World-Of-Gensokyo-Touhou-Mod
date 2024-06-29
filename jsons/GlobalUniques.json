@@ -26,7 +26,7 @@
         "[-3] Movement <for [Mermaid] units> <when adjacent to a [Mermaid Net] unit>"
        */
 
-	//Ability Card triggerable uniques
+	//Ability Card triggerable uniques OLD
 	
 	//"[1] free [Shanghai Labor Doll] units appear <with [Ability Card; Shanghai Doll]>",
 	//"Gain [300]-[500] [Gold] <with [Ability Card; Princess Kaguya's Secret Stash]>",
@@ -34,32 +34,26 @@
 	//"Empire enters a [3]-turn Golden Age <upon discovering a Natural Wonder> <with [Ability Card; Item Season]>",
 	
 	
-	//"Triggers a [Kaguya White] event <for every [5] [turns]>",
+	////////AMBASSADOR///////////
+	
+	"Instantly provides [1] [Ambassador] <upon declaring friendship>",
+	"Instantly consumes [1] [Ambassador] <upon declaring war with a major Civilization>",
+	
+	"[+4 Happiness] <for every [Ambassador]>",
 	
 	
-	//"Triggers a [Found city] event <upon founding a city>",
+	////////EVENTS///////////
 	
-	//"Triggers a [Kaguya White] event <upon constructing [Trigger 1]> <without [White Switch Open]>",
-	//"Remove [Trigger 1] [in all cities] <upon turn end> <if [Trigger 1] is constructed>",
-	
-	//per 5 turns starting from turn 1
-	//"Triggers a [Kaguya White] event <upon turn end> <when number of [turns] is equal to [5]> <when number of [turns] is equal to [6]> <without [Black Switch Open]>", //
-	
-	
-	//"Triggers a [Kaguya White] event <for every [5] [turns]> <for every [6] [turns]>",
-	//"Triggers a [Kaguya White] event <for every [6] [turns]>",
-	
-	
-	
-	//"Instantly provides [1] [White Switch Open]",
-	//"Instantly provides [1] [Black Switch Closed]",
+	"Provides [1] [Ability Card; Smelt's Scales] <for [{non-[Fairies Of Spring]}]>",
+	"Provides [1] [Ability Card; Beauty Of Destruction] <for [{non-[Fairies Of Spring]}]>",
 	
 	"Instantly provides [1] [White Switch Open] <upon turn end> <when number of [White Switch Open] is less than [0]>",
 	"Instantly provides [1] [Black Switch Open] <upon turn end> <when number of [Black Switch Open] is less than [0]>",
-	"Instantly consumes [1] [White Switch Open] <upon turn end> <when number of [White Switch Open] is greater than [1]>",
-	"Instantly consumes [1] [Black Switch Open] <upon turn end> <when number of [Black Switch Open] is greater than [1]>",
+	"Instantly consumes [1] [White Switch Open] <upon turn end> <when number of [White Switch Open] is more than [1]>",
+	"Instantly consumes [1] [Black Switch Open] <upon turn end> <when number of [Black Switch Open] is more than [1]>",
 	
 	"Triggers a [Kaguya White] event <upon turn end> <when number of [turns] is less than [1]> <without [White Switch Open]>",
+	
 	
 	"Triggers a [Kaguya Black] event <upon turn end> <when number of [turns] is between [5] and [6]> <when number of [turns] is less than [6]> <without [Black Switch Open]>", //
 	
@@ -102,6 +96,9 @@
 	"Triggers a [Kaguya Black] event <upon turn end> <when number of [turns] is between [195] and [96]> <when number of [turns] is less than [196]> <without [Black Switch Open]>", //
 	"Triggers a [Kaguya White] event <upon turn end> <when number of [turns] is between [200] and [201]> <when number of [turns] is less than [201]> <without [White Switch Open]>",
 	"Triggers a [Kaguya Black] event <upon turn end> <when number of [turns] is between [205] and [206]> <when number of [turns] is less than [206]> <without [Black Switch Open]>", //
+	
+	///////////////////////////////////////////////
+	
 	
     ]
 }
