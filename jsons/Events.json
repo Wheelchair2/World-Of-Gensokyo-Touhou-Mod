@@ -17,13 +17,13 @@
 		],
         "choices": [
 			{
-				"text": "Pick again later after 5 turns",
+				"text": "(Pick again later after 5 turns)",
 				"triggeredUniques": [
 				"Instantly consumes [1] [Black Switch Open] <hidden from users>",
 				],
 			},
 			{
-				"text": "Pick again later after 10 turns",
+				"text": "(Pick again later after 10 turns)",
 				"triggeredUniques": [
 				"Instantly provides [1] [Black Switch Open] <hidden from users>",
 				],
@@ -111,6 +111,7 @@
 			{
 				"text": "Princess Kaguya's Secret Stash Card",
 				"triggeredUniques": ["Comment [Ability Card; Princess Kaguya's Secret Stash]",
+				"[Gold] cost of purchasing items in cities [-10]%",
 				"Comment [Gain 200-500 [Gold] (modified by game speed)]",
 				"Gain a free [Princess Kaguya's Secret Stash Card Holder] [in capital] <hidden from users>"],
 			},
@@ -123,6 +124,7 @@
 			{
 				"text": "Shanghai Doll Card",
 				"triggeredUniques": ["Comment [Ability Card; Shanghai Doll]",
+				"Comment [-15% construction time for All improvements]",
 				"Comment [1 free [Shanghai Labor Doll] units appear]",
 				"Gain a free [Shanghai Doll Card Holder] [in capital] <hidden from users>"
 				],
@@ -176,13 +178,13 @@
 		],
         "choices": [
 			{
-				"text": "Pick again later after 5 turns",
+				"text": "(Pick again later after 5 turns)",
 				"triggeredUniques": [
 				"Instantly consumes [1] [White Switch Open] <hidden from users>",
 				],
 			},
 			{
-				"text": "Pick again later after 10 turns",
+				"text": "(Pick again later after 10 turns)",
 				"triggeredUniques": [
 				"Instantly provides [1] [White Switch Open] <hidden from users>",
 				],
