@@ -244,7 +244,7 @@
 	},
 	{
 		"name": "Phantasm"
-		"uniques": ["Supplementary", "May Paradrop up to [4] tiles from inside friendly territory <if it hasn't used other actions yet>"],
+		"uniques": ["Supplementary", "May Paradrop up to [4] tiles from inside friendly territory <if it hasn't used other actions yet> <without [Card - Screen Border]>"],
 	},
 	{
 		"name": "Martial Arts",
@@ -1054,7 +1054,6 @@
 			{"text":"Ability Card; Screen Border", "header":5,"color": "#FDFF88", "link": "Resources/Ability Card; Screen Border"},
 		],
 		"uniques": ["Comment [Yukari Yakumo's ability to let you freely warp between map edges for Scout. It will activates when you have this card.]",
-			"This Unit loses the [Phantasm] promotion",
 			"May Paradrop up to [100] tiles from inside friendly territory <if it hasn't used other actions yet> <for [Scout] units>",
 			"This Unit loses the [Card - Screen Border] promotion <upon turn end> <without [Ability Card; Screen Border]>"
 			]
@@ -1083,7 +1082,7 @@
 			{"extraImage":"Smelt's Scales", "imageSize":180},
 			{"text":"Ability Card; Smelt's Scales", "header":5,"color": "#FDFF88", "link": "Resources/Ability Card; Smelt's Scales"}
 		],
-		"uniques": ["Comment [Enable attack for Embarking units when you have Smelt's Scales Card.]", "May attack when embarked <for [Melee] units>",
+		"uniques": ["Comment [All units will be able to attack while embarked when you have Smelt's Scales Card.]", "May attack when embarked <for [Melee] units>",
 		"This Unit loses the [Card - Smelt's Scales] promotion <upon turn end> <without [Ability Card; Smelt's Scales]>"]
 	},
 	{
