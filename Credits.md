@@ -28,5 +28,7 @@
 - Sukuna Shinmyoumaru: [moshihimechan](https://danbooru.donmai.us/posts/6078422)
 - (Lord) Tenma: [yohane](https://danbooru.donmai.us/posts/2141813?q=lord_tenma_%28touhou%29+)
 - Rumia: [亜羽瀬ひの](https://www.pixiv.net/en/artworks/107524080)
+- Tenkyuu Chimata: [kaoling](https://danbooru.donmai.us/posts/4580135)
+- Kaku Seiga: [うらないし](https://www.pixiv.net/en/artworks/47533143)
 
 Thanks to these wonderful artists, and thank you for playing the mod!
