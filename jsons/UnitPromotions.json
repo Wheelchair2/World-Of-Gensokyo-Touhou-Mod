@@ -540,7 +540,7 @@
 	{
 		"name": "Survivalism III",
 		"prerequisites": ["Survivalism II"],
-		"uniques": ["Unit will heal every turn, even if it performs an action", "May withdraw before melee ([75]%)"], // This number is not based on any source
+		"uniques": ["Unit will heal every turn, even if it performs an action", "May withdraw before melee <with [75]% chance>"], // This number is not based on any source
 		"unitTypes": ["Scout"],
         "column": 9,
         "row": 3
@@ -1013,7 +1013,7 @@
     {
         "name": "Slinger Withdraw", // only for Slinger (doesn't exist in this mod as of now)
         "uniques": [
-            "May withdraw before melee ([80]%)"
+            "May withdraw before melee <with [80]% chance>"
         ]
     },
     {
