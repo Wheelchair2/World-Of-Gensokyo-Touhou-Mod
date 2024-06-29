@@ -285,7 +285,7 @@
             {"extraImage":"Danmaku Ghost", "imageSize":180}, //card image
 		],
 		"resourceType": "Luxury",
-		"uniques": ["Not shown on world screen", "Damage is ignored when determining unit Strength <for [All] units>", "Comment [(Cards don't give any Happiness, except in Easy difficulty)]", "[-4 Happiness] <hidden from users>", "Excluded from map editor"]
+		"uniques": ["Not shown on world screen", "No damage penalty for wounded units <for [All] units>", "Comment [(Cards don't give any Happiness, except in Easy difficulty)]", "[-4 Happiness] <hidden from users>", "Excluded from map editor"]
 	},
 	{
 		"name": "Ability Card; Screen Border",
