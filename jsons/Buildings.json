@@ -1,359 +1,1680 @@
 [
+	// Buildings
 
-	{
-		"name": "Farm",
-		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Flood plains"],
-		"food": 1,
-		"turnsToBuild": 7,
-		"techRequired": "Agriculture",
-		"uniques": ["Can also be built on tiles adjacent to fresh water",
-			"[+1 Food] from [Fresh water] tiles <after discovering [State Government]>",
-			"[+1 Food] from [non-fresh water] tiles <after discovering [Fertilizer]>",
-            "Pillaging this improvement yields approximately [+18 Gold]"],
-		"shortcutKey": "F"
-	},
-	{
-		"name": "Lumber mill",
-		"terrainsCanBeBuiltOn": ["Forest"],
-		"production": 1,
-		"turnsToBuild": 7,
-		"techRequired": "Authority",
-		"uniques": ["[+1 Production] <after discovering [Carpentry]>", "Pillaging this improvement yields approximately [+10 Gold]"],
-		"shortcutKey": "L"
-	},
-	{
-		"name": "Mine",
-		"terrainsCanBeBuiltOn": ["Hill"],
-		"production": 1,
-		"turnsToBuild": 7,
-		"techRequired": "Education",
-		"uniques": ["[+1 Production] <after discovering [Chemistry]>", "Pillaging this improvement yields approximately [+20 Gold]"],
-		"shortcutKey": "M"
-	},
-	{
-		"name": "Trading post",
-		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Forest","Jungle","Flood plains"],
-		"gold": 1,
-		"turnsToBuild": 7,
-		"techRequired": "Improved Trade",
-		"uniques": ["[+1 Gold] <after discovering [Economics]>", "Pillaging this improvement yields approximately [+20 Gold]"],
-		"shortcutKey": "T"
-	},
-
-	// Resource-specific
-	{
-		"name": "Camp",
-		"turnsToBuild": 7,
-		"techRequired": "Agriculture",
-		"uniques": ["Does not need removal of [Forest]","Does not need removal of [Jungle]","[+1 Gold] <after discovering [Economics]>", "Can only be built to improve a resource", "Pillaging this improvement yields approximately [+10 Gold]"],
-		"shortcutKey": "C"
-	},
-	{ //Thinking of what to do with these yet, but I'll call them "Off"
-		"name": "Oil well",
-        "uniqueTo": "Lunarian Task Force",
-		"turnsToBuild": 9,
-		//"techRequired": "Biology",
-		"uniques": ["Can only be built to improve a resource", "Cannot be built on [Water] tiles", "Pillaging this improvement yields approximately [+20 Gold]"],
-		"shortcutKey": "W"
-	},
-	{ //off
-		"name": "Offshore Platform",
-        "uniqueTo": "Lunarian Task Force",
-		//"techRequired": "Refrigeration",
-		"uniques": ["Can only be built to improve a resource", "Can only be built on [Water] tiles", "Pillaging this improvement yields approximately [+20 Gold]"],
-		"shortcutKey": "P"
-	},
-	{
-		"name": "Pasture",
-		"turnsToBuild": 8,
-		"techRequired": "Agriculture",
-		"uniques": ["[+1 Food] <after discovering [Fertilizer]>", "Can only be built to improve a resource", "Pillaging this improvement yields approximately [+10 Gold]"],
-		"shortcutKey": "P"
-	},
-	{
-		"name": "Plantation",
-		"turnsToBuild": 6,
-		"gold": 1,
-		"techRequired": "Calendar",
-		"uniques": ["[+1 Food] <after discovering [Fertilizer]>", "Can only be built to improve a resource", "Pillaging this improvement yields approximately [+10 Gold]"],
-		"shortcutKey": "P"
-	},
-	{
-		"name": "Quarry",
-		"turnsToBuild": 8,
-		"techRequired": "Education",
-		"uniques": ["[+1 Production] <after discovering [Chemistry]>", "Can only be built to improve a resource", "Pillaging this improvement yields approximately [+20 Gold]"],
-		"shortcutKey": "Q"
-	},
-	{
-		"name": "Fishing Boats",
-		"terrainsCanBeBuiltOn": ["Coast"],
-		"food": 1,
-		"techRequired": "Sailing",
-		"uniques": ["[+1 Gold] <after discovering [Compass]>", "Can only be built to improve a resource", "Pillaging this improvement yields approximately [+10 Gold]"],
-		"shortcutKey": "F"
-	},
-
-	// Military improvement
-	{
-		"name": "Fort",
-		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Snow","Forest","Jungle"],
-		"turnsToBuild": 6,
-		"techRequired": "Maintained Society",
-		"uniques": ["Can be built outside your borders", "Gives a defensive bonus of [50]%"],
-		"shortcutKey": "O"
-	},
+	// Always available
     {
-		"name": "Barricades",
-		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Snow","Forest","Jungle"],
-		"turnsToBuild": 3,
-		"techRequired": "Authority",
-		"uniques": ["Can be built outside your borders", "Gives a defensive bonus of [25]%", "Comment [+50% Strength when defending from Melee [Mounted] units]"],
-		"shortcutKey": "B"
-	},
-
-	// Transportation
-	{
-		"name": "Road",
-		"terrainsCanBeBuiltOn": ["Land"],
-		"turnsToBuild": 4,
-		"techRequired": "Negotiations",
-		"uniques": ["Can be built outside your borders", "Costs [1] [Gold] per turn"],
-		"shortcutKey": "R",
-        "civilopediaText": [
-            {"text":"Reduces movement cost to ½ if the other tile also has a Road or Railroad"},
-            {"text":"Reduces movement cost to ⅓ with Machinery", "link":"Technology/Machinery"},
-            {"text":"Requires Engineering to bridge rivers", "link":"Technology/Engineering"}
-        ]
-	},
-	{ //off
-		"name": "Railroad",
-		"terrainsCanBeBuiltOn": ["Land"],
-		"turnsToBuild": 4,
-		"techRequired": "Modern Knowledge",
-		"uniques": ["Can be built outside your borders", "Costs [2] [Gold] per turn"],
-		"shortcutKey": "R",
-        "civilopediaText": [{"text":"Reduces movement cost to ⅒ if the other tile also has a Railroad"}]
-	},
-
-	// Removals
-	// Any improvement that starts with 'Remove ' is automatically changed into
-	// the improvement that removes the terrainfeature after it.
-	{
-		"name": "Remove Forest",
-		"turnsToBuild": 4,
-		"techRequired": "Scientific Knowledge",
-		"uniques": ["Excluded from map editor <hidden from users>","Can be built outside your borders"],
-		"shortcutKey": "X",
-        "civilopediaText": [{"text":"Provides a one-time Production bonus depending on distance to the closest city once finished"}]
-	},
-	{
-		"name": "Remove Jungle",
-		"turnsToBuild": 7,
-		"techRequired": "Scientific Knowledge",
-		"uniques": ["Excluded from map editor <hidden from users>","Can be built outside your borders"],
-		"shortcutKey": "X"
-	},
-	{
-		"name": "Remove Fallout",
-		"turnsToBuild": 2,
-		// Has no tech requirements as it can always be built
-		"uniques": ["Excluded from map editor <hidden from users>","Can be built outside your borders"],
-		"shortcutKey": "X"
-	},
-	{
-		"name": "Remove Marsh",
-		"turnsToBuild": 6,
-		"techRequired": "Scientific Knowledge",
-		"uniques": ["Excluded from map editor <hidden from users>","Can be built outside your borders"],
-		"shortcutKey": "X"
-	},
-
-	// These are unique and have unique in-game checks related to them
-	{
-		"name": "Remove Road",
-		"turnsToBuild": 2,
-		"uniques": ["Excluded from map editor <hidden from users>","Can be built outside your borders"]
-	},
-	{
-		"name": "Remove Railroad",
-		"turnsToBuild": 2,
-		"uniques": ["Excluded from map editor <hidden from users>","Can be built outside your borders"]
-	},
-	{
-		"name": "Cancel improvement order",
-		"uniques": ["Excluded from map editor <hidden from users>","Can be built outside your borders"],
-		"shortcutKey": "."
-	},
-    // Purely for turnsToBuild and civilopediaText. Unbuildable so it doesn't show in ImprovementPicker
-    {
-        "name": "Repair",
-        "terrainsCanBeBuiltOn": ["Land"],
-        "turnsToBuild": 2,
-        "shortcutKey": "E",
-        "uniques": ["Excluded from map editor <hidden from users>","Unbuildable"],
-        "civilopediaText": [{"text":"Repairs a pillaged Improvement or Route"}]
-    },
-	
-	 // Natural Wonders Improvements
-
-	{
-		"name": "Bamboo Garden", // IDK why these two Improvements can't place with Map Editor. //Maybe because they require the Wonder Slot resource??
-		"terrainsCanBeBuiltOn": ["Bamboo Forest"],
-		"turnsToBuild": 6,
-		"happiness": 3
-        "culture": 4,
-		"uniques": ["Consumes [1] [Wonder Slot]", "[+5 Gold] <during a Golden Age>","Excluded from map editor"],
-	},
-	{
-		"name": "Ninja's House",
-		"terrainsCanBeBuiltOn": ["Bamboo Forest"],
-		"turnsToBuild": 6,
+		"name": "Palace",
+		"isNationalWonder": true,
 		"production": 3,
-		"uniques": ["Consumes [1] [Wonder Slot]","Gives a defensive bonus of [175]%","Excluded from map editor"],
+		"science": 3,
+		"gold": 3,
+		"culture": 1,
+		"cityStrength": 2,
+		"cost": 1,
+		"uniques": ["Indicates the capital city"]
 	},
 	{
-		"name": "Friendship With Wild Beasts",
-		"terrainsCanBeBuiltOn": ["Chikushokai"],
-		"turnsToBuild": 9,
-		"uniques": ["Excluded from map editor <hidden from users>","Comment [Increases the military importance of Chikushokai. In conclusion, diplomacy is nothing more than a meeting of interests.]", "Consumes [1] [Wonder Slot]","[+4 Production, +5 Gold] <when at war>","Gives a defensive bonus of [50]%","Adjacent enemy units ending their turn take [20] damage"],
-	},
-	{
-		"name": "Reichoen",
-		"terrainsCanBeBuiltOn": ["Chikushokai"],
-		"turnsToBuild": 9,
-		"uniques": ["Excluded from map editor <hidden from users>","Comment [Human spirits are always gives you a bonus. Human spirits are handy and weakest, so it's useful as a labor.]","Consumes [1] [Wonder Slot]","[+4 Production, +4 Gold] <when not at war>","[+2 Faith] <after founding a Pantheon>","[+4 Faith] <when not at war> <after founding a religion>"],
+		"name": "System",
+		"cost": 1,
+		"uniques": ["Unsellable","Unbuildable","Provides [1] [Wonder Slot] <in cities with at least [5] [Population]>"],
 	},
 	/*
 	{
-		"name": "Medicine's Home",
-		"terrainsCanBeBuiltOn": ["Nameless Hill"],
-		"turnsToBuild": 6,
-		"food": 3,
-		"uniques": ["Free [Poison Doll] appears", "Consumes [1] [Wonder Slot]","Excluded from map editor"],
+		"name": "Card Trigger; Item Season",
+		"cost": 1,
+		"uniques": ["Unsellable","Unbuildable",
+			"Gain [250] [Gold] <upon entering a Golden Age>",
+			"Empire enters a [3]-turn Golden Age <upon discovering a Natural Wonder>",
+			]
 	},
 	*/
-
-    // Great Person improvements
 	{
-		"name": "Academy",
-		"terrainsCanBeBuiltOn": ["Land"],
-		"science": 8,
-		"uniques": ["Great Improvement", "[+2 Science] <after discovering [Public Education]>", "[+2 Science] <after discovering [Outside World Awareness]>", "Removes removable features when built", "Pillaging this improvement yields approximately [+20 Gold]"]
+		"name": "Monument",
+		"culture": 2,
+		"cost": 40,
+		"hurryCostModifier": 12,
+		"maintenance": 1,
+		"uniques": ["Destroyed when the city is captured"]
+	},
+	{ //not always available 
+		"name": "Granary",
+		"cost": 60,
+		"food": 2,
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"requiredTech": "Agriculture",
+		"uniques": ["[+1 Food] from [Deer] tiles [in this city]",
+			"[+1 Food] from [Bananas] tiles [in this city]",
+			"[+1 Food] from [Wheat] tiles [in this city]"]
+	},
+	
+	//Nation Specific Wonders
+	{
+		"name": "Scarlet Devil Mansion",
+		"uniqueTo": "Fated Kingdom"
+		"cost": 185,
+		"isNationalWonder": true,
+		"uniques": ["Special Wonder", "[-30]% construction time for [All] improvements"]
+		"greatPersonPoints": {"Great Engineer": 1},
+		"quote": "Many fairies are employed by Remilia Scarlet as Fairy Maids in order to clean the mansion, and they're overseen by the head maid, Sakuya Izayoi."
 	},
 	{
-		"name": "Landmark",
-		"terrainsCanBeBuiltOn": ["Land"],
-		"culture": 6,
-		"uniques": ["Great Improvement", "Removes removable features when built", "Pillaging this improvement yields approximately [+20 Gold]"]
+		"name": "Scarlet Basement",
+		"uniqueTo": "Fraternal Empire",
+		"cost": 185,
+		"isNationalWonder": true,
+		"greatPersonPoints": {"Great Engineer": 1},
+        "uniques": ["Special Wonder", "[+20]% Strength <for [All] units> <vs cities> <when attacking> <for [495] turns>"]
+		"quote": "This is where Flandre Scarlet was locked up for 495 years."
 	},
 	{
-		"name": "Manufactory",
-		"terrainsCanBeBuiltOn": ["Land"],
-		"production": 4,
-		"uniques": ["Great Improvement", "[+1 Production] <after discovering [Chemistry]>", "[+1 Production] <after discovering [Machinery]>", "Removes removable features when built", "Pillaging this improvement yields approximately [+20 Gold]"]
+		"name": "Okuu's Nuclear Reactor",
+		"uniqueTo": "Chireiden Sovereignty",
+		"cost": 185,
+		"production": 10,
+		"isNationalWonder": true,
+		"greatPersonPoints": {"Great Engineer": 1},
+        "uniques": ["Special Wonder", "Must have an owned [Youkai Mountain] within [3] tiles", "[+10]% [Production] [in all cities]"],
+		"quote": "Utsuho Reiuji can be found here to power it and Rin Kaenbyou carts corpses into the Furnace to keep it running."
 	},
 	{
-		"name": "Customs house",
-		"terrainsCanBeBuiltOn": ["Land"],
-		"gold": 4,
-		"uniques": ["Great Improvement", "[+1 Gold] <after discovering [Economics]>", "Removes removable features when built", "Pillaging this improvement yields approximately [+20 Gold]"]
+		"name": "House Of Eternity",
+		"uniqueTo": "Eientei Residents",
+		"isNationalWonder": true,
+		"cost": 185,
+		"uniques": ["Special Wonder", "[-100]% maintenance costs <in this city>"],
+		"quote": "Every month on the night of the full moon, the residents of Eientei hold a Moon Festival (Reigetsusai), offering mochi with medicinal herbs pounded into them."
 	},
 	{
-		"name": "Holy site",
-		"terrainsCanBeBuiltOn": ["Land"],
-		"faith": 6,
-		"uniques": ["Great Improvement", "Removes removable features when built", "Pillaging this improvement yields approximately [+20 Gold]"]
+		"name": "Fairy Tree House",
+		"uniqueTo": "Fairy Alliance",
+		"cost": 185,
+		"isNationalWonder": true,
+		"greatPersonPoints": {"Great Merchant": 1},
+        "uniques": ["Special Wonder", "[+10]% Strength <for [Fairy] units> <when fighting in [Forest] tiles>", "[+10]% Strength <for [Fairy] units> <when fighting in [Jungle] tiles>"]
+		"quote": "'Sangetsusei' is a wordplay, which loosely means 'sun, moon, stars'; Three Fairies of Light"
 	},
 	{
-		"name": "Citadel",
-		"terrainsCanBeBuiltOn": ["Land"],
-		"uniques": [
-			"Great Improvement",
-			"Gives a defensive bonus of [100]%",
-			"Adjacent enemy units ending their turn take [30] damage",
-			"Can be built just outside your borders",
-        	"Constructing it will take over the tiles around it and assign them to your closest city",
-			"Removes removable features when built",
-		]
+		"name": "Concealing Four Seasons",
+		"uniqueTo": "Land Of The Backdoors",
+		"cost": 225,
+		"isNationalWonder": true,
+		"greatPersonPoints": {"Great Artist": 1},
+        "uniques": ["Special Wonder", "[+10]% Strength <for units with [Divine Blessing]> <when defending>", "[+1] Movement <for [All] units> <during a Golden Age>"],
+		"quote": "Okina can create doors on the back of anything, even living beings. The back doors act like portals and allow her to travel wherever she wishes, or to send something to somewhere else."
 	},
-
-	//Civilization unique improvements
 	{
-		"name": "Doll Lumber House",
-		"terrainsCanBeBuiltOn": ["Forest"],
+		"name": "Purification Rod",
+		"uniqueTo": "Hakurei Faction",
+		"cost": 185,
+		"isNationalWonder": true,
+		"greatPersonPoints": {"Great Artist": 1},
+        "uniques": ["Special Wonder", "[+10]% Strength <for [Human] units> <vs [Youkai] units>"]
+		"quote": "Reimu Hakurei is the main protagonist of the Touhou Project series along with the deuteragonist, Marisa Kirisame. As the shrine maiden of the Hakurei Shrine, she manages the Hakurei Border of Gensokyo and exterminates troublesome youkai."
+	},
+	{
+		"name": "Hieda House",
+		"uniqueTo": "Human Village",
+		"cost": 225,
+		"isNationalWonder": true,
+		"greatPersonPoints": {"Great Artist": 1},
+		"specialistSlots": {"Artist": 1},
+        "uniques": ["Special Wonder", "[+4 Culture] <during the [Youkai Expansion Project]>",
+        "[+5 Culture] <during the [Edo period]>",
+        "[+6 Culture] <during the [Meiji era]>",
+        "[+10 Culture] <during the [Modern era]>",
+        "[+12 Culture] <during the [Present era]>"]
+		"quote": "Hieda no Akyuu lives here, recording everything that she has seen in her life."
+	},
+	{
+		"name": "Underground Mines",
+		"uniqueTo": "Domain Of Darkness",
+		"cost": 225,
+		"isNationalWonder": true,
+		"greatPersonPoints": {"Great Engineer": 1},
+		"uniques": ["Special Wonder", "[+1 Production] from [Mine] tiles [in all cities]"]
+		"quote": "She seems like to fly around aimlessly during the day and the night, sometimes bumping into trees since she is less capable of seeing obstacles through her veil of darkness."
+	},
+	{
+		"name": "Wicked Taoism",
+		"uniqueTo": "Land Of The Corpses",
+		"cost": 225,
+		"isNationalWonder": true,
+		"greatPersonPoints": {"Great Artist": 1},
+        "uniques": ["Special Wonder", "[+40]% Production when constructing [Land] units [in all cities]", "All newly-trained [Military] units [in this city] receive the [Jiangshi] promotion"],
+		"quote": "She refined her Taoist beliefs and techniques for many years, though apparently many of the things she did toward this end were somewhat taboo, including gaining an unaging body, and she ended up being feared by the common people."
+	},
+	{
+		"name": "Bunbunmaru Newspaper",
+		"uniqueTo": "Land Of The Crow Tengus",
+		"cost": 225,
+		"science": 1,
+		"isNationalWonder": true,
+		"greatPersonPoints": {"Great Scientist": 1},
+        "uniques": ["Special Wonder", "[+1 Happiness, +2 Science] [in all cities connected to capital]"]
+		"quote": "'You don't seem related to the incident, so without further ado, allow me to blow you into the next week!' - Aya Shameimaru."
+	},
+	{
+		"name": "Divine Services",
+		"uniqueTo": "Moriya Faction",
+		"cost": 225,
+		"happiness": 6,
+		"isNationalWonder": true,
+		"greatPersonPoints": {"Great Artist": 1},
+		"uniques": ["Special Wonder"],
+		"quote": "Suwako is the original god of the Moriya Shrine. Officially the shrine now belongs to Kanako Yasaka, but in Suwako's words she handles most of the divine services while Kanako handles the 'sales.'"
+	},
+	{
+		"name": "New Palanquin Ship",
+		"uniqueTo": "Myouren Faction",
+		"uniques": ["Special Wonder", "[+30]% Strength for cities <when defending>"],
+		"cost": 225,
+		"isNationalWonder": true,
+		"greatPersonPoints": {"Great Engineer": 1},
+		"quote": "The Palanquin Ship was temporarily used as a simple granary, but was later renovated into a temple which was named after Byakuren's brother, Myouren Hijiri."
+	},
+	{
+		"name": "Old Capital",
+		"uniqueTo": "Oni Clans",
+		"cost": 225,
+		"isNationalWonder": true,
+		"greatPersonPoints": {"Great Engineer": 1},
+		"uniques": ["Special Wonder", "[+5]% Strength <for [Oni] units>", "[+15]% Production when constructing [Military] units [in this city]"]
+		"quote": "The Old Capital is a large village in Old Hell, deep within the Underworld. It is situated between the Deep Road to Hell, guarded by Parsee Mizuhashi, and the Palace of the Earth Spirits, where the sisters Satori Komeiji and Koishi Komeiji live."
+	},
+	{
+		"name": "Kirisame Magic Shop",
+		"uniqueTo": "Ordinary Magicians",
+		"cost": 185,
+		"isNationalWonder": true,
+		"uniques": ["Special Wonder", "[+1 Culture] from every [Forest]", "[+1 Production, +1 Science] from every [Jungle]"]
+		"greatPersonPoints": {"Great Scientist": 1},
+		"quote": "Marisa Kirisame is infamous for being stubborn, however, her trait of being hardworking makes her charming and likeable."
+	},
+	{
+		"name": "Great Mausoleum",
+		"uniqueTo": "Senkai Principality",
+		"cost": 185,
+		"faith": 2,
+		"isNationalWonder": true,
+		"uniques": ["Special Wonder", "Earn [50]% of killed [Military] unit's [Strength] as [Faith]"]
+		"greatPersonPoints": {"Great Engineer": 1},
+		"quote": "Further inside lies the Divine Spirit Mausoleum (Shinreibyō), in which the tomb of Toyosatomimi no Miko is located, but it's presumed that the temple was later re-located to Senkai."
+	},
+	{
+		"name": "Protected Territory",
+		"uniqueTo": "Tengu Union",
+		"cost": 125,
+		"isNationalWonder": true,
+		"uniques": ["Special Wonder", "[+10]% Strength <for [Beast] units> <when fighting in [Friendly Land] tiles>"]
+		"greatPersonPoints": {"Great Merchant": 1},
+		"quote": "Tengu reside in Youkai Mountain and seem territorial of humans and other youkai trespassing within their home."
+	},
+	{
+		"name": "Perfect Cherry Blossom",
+		"uniqueTo": "The Netherworld",
+		"cost": 125,
+		"isNationalWonder": true,
+		"uniques": ["Special Wonder", "Must have an owned [Saigyou Ayakashi] within [2] tiles", "[+10]% Strength <for [All] units>", "[+6 Culture] from [Saigyou Ayakashi] tiles [in this city]"]
+		"greatPersonPoints": {"Great Artist": 1},
+		"quote": "'At any rate, with just a little more spring, the Saigyou Ayakashi will soon reach full bloom. The small trace of spring that you've brought here... will give us the last step needed.' - Youmu Konpaku."
+	},
+	{
+		"name": "Yakumo Residence",
+		"uniqueTo": "The Borderless Realm",
+		"cost": 125,
+		"isNationalWonder": true,
+		"uniques": ["Special Wonder", "[-100]% Culture cost of natural border growth [in this city]"]
+		"greatPersonPoints": {"Great Merchant": 1},
+		"quote": "Tengu reside in Youkai Mountain and seem territorial of humans and other youkai trespassing within their home."
+	},
+	{
+		"name": "Doll Manufactory",
 		"uniqueTo": "The Unified Doll Front",
-		"gold": 2,
-		"turnsToBuild": 7,
-        "uniques": ["Pillaging this improvement yields approximately [+18 Gold]"],
+		"cost": 185,
+		"production": 2,
+		"isNationalWonder": true,
+		"uniques": ["Special Wonder", "[+20]% Production when constructing [Land] units [in all cities]"]
+		"greatPersonPoints": {"Great Engineer": 1},
+		"quote": "Alice Margatroid is known primarily for her skillful manipulation of many miniature dolls, most notably Shanghai and Hourai."
 	},
-  {
-    
-    	"name": "Keystone",
-		"uniqueTo": "Bhavaagra",
-		"terrainsCanBeBuiltOn": ["Hill"],
-		"food": 1,
-        "production": 1,
-        "gold": 1,
-		"turnsToBuild": 8,
-        "uniques": ["Pillaging this improvement yields approximately [+25 Gold]"],
-	},
-    /*
 	{
-		"name": "Terrace farm",
-		"terrainsCanBeBuiltOn": ["Hill"],
-		"food": 1,
-		"turnsToBuild": 7,
-        "techRequired": "State Government",
-		"uniques": ["Cannot be built on [Bonus resource] tiles",
-			"[+1 Food] for each adjacent [Mountain]",
-			"[+1 Food] from [Fresh water] tiles <after discovering [Chemistry]>",
-            "[+1 Food] <after discovering [Fertilizer]>",
-            "Pillaging this improvement yields approximately [+18 Gold]"],
-		"shortcutKey": "F"
+		"name": "Celestial Heritage",
+		"uniqueTo": "Bhavaagra",
+		"cost": 125,
+		"isNationalWonder": true,
+		"uniques": ["Special Wonder", "[+50]% Golden Age length"]
+		"greatPersonPoints": {"Great Artist": 1},
+		"quote": "Tenshi's weapons include innumerable danmaku keystones of various sizes and her shape-shifting sword, the Sword of Hisou."
 	},
-    */
+	{
+		"name": "Miracle Mallet",
+		"cost": 75,
+		"uniqueTo": "Shining Needle Castle",
+		"greatPersonPoints": {"Great Merchant": 1},
+		"isNationalWonder": true,
+		"uniques": ["Special Wonder", "[Gold] cost of purchasing [All] buildings [-80]% <for [1] turns>", "[Gold] cost of purchasing [All] units [-80]% <for [1] turns>"]
+		"quote": "Shinmyoumaru is a descendant of Issun-Boushi, a legendary oni-slayer who managed to obtain from them a treasure called the Miracle Mallet."
+	},
+	{
+		"name": "Wrath Of The Superior",
+		"uniqueTo": "Mermaids Of The Lake",
+		"cost": 225,
+		"isNationalWonder": true,
+		"uniques": ["Special Wonder", "[+15]% Strength <for [Mermaid] units> <when fighting in [Water] tiles>", "[+1 Culture] from [Fresh water] tiles [in all cities]"]
+		"greatPersonPoints": {"Great Engineer": 1},
+		"quote": "Eastern dragons are said to have one reversed scale under their chins that greatly enrages them when it is touched. The Japanese phrase 'to touch someone's reversed scale,' meaning 'to incur the wrath of a superior', is derived from this."
+	},
+	{
+		"name": "Card Market",
+		"uniqueTo": "Beneath The Rainbow",
+		"isNationalWonder": true,
+		"cost": 185,
+		"gold": 4,
+		"faith": 1,
+		"uniques": ["Special Wonder","Cost increases by [95] per owned city",
+		"[+2 Food, +1 Production, +2 Faith] from every [Trading Post] <after discovering [Improved Trade]>",
+		"Comment [When your Gold is below 700(note:modified by game speed), the number of blank cards will be doubled and the maintenance cost of Road will be zero. However, Doubles Gold given to enemy if city is captured. Protect the Commerce Prosperity!]",
+		"No Maintenance costs for improvements in [Road] tiles <when below [701] [Gold]> <(modified by game speed)> <hidden from users>",
+		"Double quantity of [Blank Card] produced <when below [701] [Gold]> <(modified by game speed)> <hidden from users>",
+		"Doubles Gold given to enemy if city is captured <when below [701] [Gold]> <(modified by game speed)> <hidden from users>"
+		// hell idea: It more near to Unconnected Marketeers?
+		// "Remove [Card Market] [in this city]",
+		// "Sell [All] buildings [in this city]",
+		// "Gain [1000] [Faith]",
+		// "Only available <in cities with a [World Wonder]>",
+		// "Consumes [1] [Blank Card]"
+		
+		// Nah that sounds too impractical to implement
+		],
+		"greatPersonPoints": {"Great Merchant": 1},
+		"quote": "Possession of an object can only be controlled by the god of the markets. As long as they possess something, none can escape from the hands of God! - Chimata Tenkyuu",
+	},
+	{
+		"name": "Warmth Of Spring",
+		"uniqueTo": "Fairies Of Spring",
+		"cost": 115,
+		"isNationalWonder": true,
+		"greatPersonPoints": {"Great Artist": 1},
+		"uniques": ["Special Wonder", "[+1 Production] from every [Plains]"],
+		"quote": "'IIIIITT'S SPRIIIIIINGG!!!' - Lily White."
+	},
+	{
+		"name": "Fairy Garden",
+		"uniqueTo": "Fairy Kingdom",
+		"cost": 185,
+		"isNationalWonder": true,
+		"greatPersonPoints": {"Great Artist": 1},
+		"uniques": ["Special Wonder", "[+1 Happiness] per [3] population [in this city]", "[+1 Culture] per [2] population [in all cities]"],
+		"quote": "Ordinary fairies are weaker than humans. Greater fairies are mightier than other fairies."
+	},
+	{
+		"name": "Genbu Ravine",
+		"uniqueTo": "River Dwelling Kappas",
+		"cost": 125,
+		"isNationalWonder": true,
+		"greatPersonPoints": {"Great Engineer": 10},
+		"uniques": ["Special Wonder", "Must have an owned [Youkai Mountain] within [2] tiles", "[+1 Production] from [River] tiles [in this city]"],
+		"quote": "Kappas in Gensokyo are almost entirely different than the kappas in Japanese mythology, mostly for their appearance and the fact that showing your butthole probably won't work in fending them off."
+	},
+	{
+		"name": "Box Of A Hundred Medicines",
+		"uniqueTo": "Kingdom Of The Wise",
+		"cost": 185,
+		"isNationalWonder": true,
+		"greatPersonPoints": {"Great Artist": 1},
+		"uniques": ["Special Wonder", "[All] Units adjacent to this city heal [+30] HP per turn when healing"],
+		"quote": "'Humans truly have become foolish. Have you forgotten the enigmatic terror of the youkai? Have you forgotten the mind-numbing darkness of the night?' - Kasen"
+	},
+	/*
+	{
+		"name": "Sun",
+		"uniqueTo": "Fairies Of Light",
+		"cost": 90,
+		"isNationalWonder": true,
+		"uniques": ["Special Wonder", "[+1 Production] from every [Open terrain]"],
+		"quote": "Sunny Milk is regarded as the leader of the trio. Her ability is to manipulate the refraction of light and absorb power from the sun."
+	},
+	{
+		"name": "Moon",
+		"uniqueTo": "Fairies Of Light",
+		"cost": 90,
+		"isNationalWonder": true,
+		"uniques": ["Special Wonder", "[+1 Production] from every [Open terrain]"],
+		"quote": "'Luna Child loves coffee beans. Her ability is to mute sounds which quality's depends on the condition of the moon."
+	},
+	{
+		"name": "Star",
+		"uniqueTo": "Fairies Of Light",
+		"cost": 90,
+		"isNationalWonder": true,
+		"uniques": ["Special Wonder", "[+1 Production] from every [Open terrain]"],
+		"quote": "'Star Sapphire is often the one who likes cause mischief, but is the laziest of the trio. Her ability is to detect moving things."
+	},
+	*/
+	/*
+	{
+		"name": "Scarlet Magic Library",
+		"uniqueTo": "Pristine Intellect",
+		"cost": 225,
+		"isNationalWonder": true,
+		"science": 6,
+		"greatPersonPoints": {"Great Scientist": 1},
+		"uniques": ["Special Wonder", "Discover [Research For Magic]", "[+15]% Strength <for [Magician] units>", "[+15]% Strength <for [Dark Magician] units>"],
+		"quote": "'Let's see... How to take out the black thing in front of me without having to do anything...' - Patchouli to Marisa."
+	},
+	*/
+	
+	// Normal Buildings And Wonders
 	
 	{
-		"name": "Relinquished Land Ownership",
-		"uniqueTo": "Beneath The Rainbow",
-		"terrainsCanBeBuiltOn": ["Land"],
-		"gold": 6,
-		"uniques": [
-			"Great Improvement",
-			"Can be built just outside your borders",
-			"Constructing it will take over the tiles around it and assign them to your closest city",
-			"Pillaging this improvement yields approximately [+40 Gold]"
+		"name": "Aqueduct",
+		"cost": 100,
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"uniques": ["[40]% Food is carried over after population increases [in this city]"],
+		"requiredTech": "Hot Spring"
+	},
+	{
+		"name": "Library",
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"uniques": ["[+1 Science] per [2] population [in this city]"],
+		"requiredTech": "Education"
+	},
+	{
+		"name": "Cirno's Freezing Hot Spring",
+		"culture": 3,
+		"isWonder": true,
+        "uniques": ["Gain a free [Onsen] [in this city]", "[+1 Happiness] from every [Onsen]"]
+		"requiredTech": "Hot Spring",
+		"quote": "Welcome to the Love-Freezing Cirno Onsen!"
+	},
+	{
+		"name": "Hot Spring Town",
+		"culture": 1,
+		"isWonder": true,
+		"greatPersonPoints": {"Great Engineer": 1},
+		"uniques": ["[+1 Production, +1 Gold] from every [Aqueduct]"]
+		"requiredTech": "Hot Spring",
+		"quote": "What appears to be steam or hot water continually pours down from above. The buildings are interspersed with large hot springs, in which oni and vengeful spirits can be seen bathing."
+	},
+	{
+		"name": "Onsen",
+		"cost": 100,
+		"maintenance": 1,
+		"happiness": 2,
+		"hurryCostModifier": 12,
+		"requiredTech": "Hot Spring"
+	},
+	{
+		"name": "Stable",
+		"maintenance": 2,
+		"requiredNearbyImprovedResources": ["Horses","Sheep","Cattle"],
+		"hurryCostModifier": 25,
+		"uniques": ["[+15]% Production when constructing [Mounted] units [in this city]",
+			"[+1 Production] from [Cattle] tiles [in this city]",
+			"[+1 Production] from [Horses] tiles [in this city]",
+			"[+1 Production] from [Sheep] tiles [in this city]"],
+		"requiredTech": "State Government"
+	},
+	{
+		"name": "Paddock",
+		"maintenance": 2,
+		"requiredNearbyImprovedResources": ["Horses","Sheep","Cattle","Deer"],
+		"hurryCostModifier": 25,
+		"uniques": ["[+1 Production] from [Pasture] tiles [in this city]", "[+1 Production] from [Camp] tiles [in this city]"],
+		"requiredTech": "State Government"
+	},
+	{
+		"name": "Barracks",
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"uniques": ["New [Military] units start with [15] Experience [in this city]", "Destroyed when the city is captured"],
+		"requiredTech": "Professional Army"
+	},
+	{
+		"name": "Spirit-Repelling Grounds",
+		"uniqueTo": "Hakurei Faction",
+		"replaces": "Barracks",
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"uniques": ["New [Military] units start with [15] Experience [in this city]", "All newly-trained [Military] units [in this city] receive the [Anti-Youkai] promotion", "Destroyed when the city is captured"],
+		"requiredTech": "Professional Army"
+	},
+	{
+		"name": "The Great Library",
+		"science": 3,
+		"isWonder": true,
+		"greatPersonPoints": {"Great Scientist": 1},
+		"uniques": ["Provides a [Library] in your first [4] cities for free"],
+		"requiredTech": "Education"
+	},
+	{
+		"name": "Hieda Temple School",
+		"culture": 6,
+		"isWonder": true,
+		"greatPersonPoints": {"Great Artist": 1},
+		"requiredTech": "Calendar"
+		"quote": "Keine is loyal to her duties to the Human Village, both as a schoolteacher and as its guardian."
+	},
+	{
+		"name": "Fortifications",
+		"cost": 40,
+		"cityStrength": 10,
+		"requiredTech": "Authority",
+		"uniques": ["Destroyed when the city is captured"]
+	},
+	{
+		"name": "Walls",
+		"cost": 75,
+		"cityStrength": 5,
+		"cityHealth": 50,
+		"hurryCostModifier": 25,
+		"requiredTech": "State Government",
+		"uniques": ["Destroyed when the city is captured"]
+	},
+	{
+		"name": "Cemented Walls",
+		"cost": 40,
+		"uniqueTo": "Human Village",
+		"replaces": "Walls",
+		"cityStrength": 7,
+		"cityHealth": 50,
+		"hurryCostModifier": 25,
+		"requiredTech": "State Government",
+		"uniques": ["Destroyed when the city is captured"]
+	},
+	{
+		"name": "Observatory",
+		"cost": 200,
+		"maintenance": 3,
+		"hurryCostModifier": 25,
+		"science": 4,
+		"percentStatBonus": {"science": 50},
+		"requiredBuilding": "Library",
+		"uniques": ["Must be next to [Mountain]"],
+		"requiredTech": "Physics"
+	},
+	{
+		"name": "Courthouse",
+		"cost": 110,
+		"maintenance": 4,
+		"hurryCostModifier": 25,
+		"uniques": ["Remove extra unhappiness from annexed cities",
+			"Can only be built <in [Annexed] cities>"],
+		"requiredTech": "Negotiations"
+	},
+	{
+		"name": "Shining Needle Sword",
+		"uniqueTo": "Shining Needle Castle",
+		"replaces": "Courthouse",
+		"cost": 75,
+		"maintenance": 0,
+		"hurryCostModifier": 25,
+		"uniques": ["Remove extra unhappiness from annexed cities",
+			"Can only be built <in [Annexed] cities>"],
+		"requiredTech": "Negotiations"
+	},
+	{
+		"name": "Water Mill",
+		"maintenance": 2,
+		"food": 2,
+		"production": 1,
+		"hurryCostModifier": 25,
+		"uniques": ["Must be on [River]"],
+		"requiredTech": "Education"
+	},
+	{
+		"name": "Harbor",
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"uniques": ["[+1 Production] from [Water resource] tiles [in this city]",
+			"Connects trade routes over water","Must be next to [Coast]"],
+		"requiredTech": "Compass"
+	},
+	{
+		"name": "Stone Works",
+		"happiness": 1,
+		"production": 1,
+		"requiredNearbyImprovedResources": ["Marble", "Stone"],
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"uniques": ["Must not be on [Plains]",
+			"[+1 Production] from [Stone] tiles [in this city]",
+			"[+1 Production] from [Marble] tiles [in this city]"],
+		"requiredTech": "Calendar"
+	},
+	{
+		"name": "Winery",
+		"happiness": 2,
+		"maintenance": 0,
+		"hurryCostModifier": 12,
+		"uniques": ["Must have an owned [Wine] within [2] tiles", "[+2 Gold] from every [Wine] <in this city>"],
+		"requiredTech": "Fermented Alcohol"
+	},
+	{
+		"name": "Rice Wine",
+		"cost": 75,
+		"maintenance": 1,
+		"happiness": 1,
+		"production": 1,
+		"hurryCostModifier": 15,
+		"requiredTech": "Fermented Alcohol"
+	},
+	{
+		"name": "Nihonshu Sake",
+		"cost": 40,
+		"uniqueTo": "Oni Clans"
+		"replaces": "Rice Wine",
+		"maintenance": 0,
+		"happiness": 1,
+		"production": 2,
+		"hurryCostModifier": 12,
+		"requiredTech": "Fermented Alcohol"
+	},
+	{
+		"name": "Barrels Of Alcohol",
+		"cost": 125,
+		"happiness": 5,
+		"culture": 1,
+		"isNationalWonder": true,
+		"requiredTech": "Fermented Alcohol",
+		"uniques": ["Only available <if [Rice Wine] is constructed in all [non-[Puppeted]] cities>", "Cost increases by [30] per owned city"],
+		"quote": "'I've been watching all of you this whole time. You all responded to my 'foregathering ability' without noticing, and came to these feasts. Do you know what this means? It means none of you can defeat me.' -Suika Ibuki."
+	},
+	{
+		"name": "Geidontei Bar",
+		"happiness": 2,
+		"culture": 1,
+		"isWonder": true,
+		"requiredTech": "Fermented Alcohol",
+		"uniques": ["[+1 Happiness] from all [Rice Wine] buildings"]
+		"quote": "The bar is owned by an old man. Although Miyoi Okunoda is the poster girl of Geidontei, she is also a Zashiki-warashi that lives and works there, something the owner doesn't seem to know about, and that Miyoi herself wants to keep a secret."
+	},
+	{
+		"name": "Lighthouse",
+		"cost": 75,
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"uniques": ["Must be next to [Coast]", "[+1 Food] from [Ocean] tiles [in this city]",
+			"[+1 Food] from [Coast] tiles [in this city]", "[+1 Food] from [Fish] tiles [in this city]" ],
+		"requiredTech": "Sailing"
+	},
+	{
+		"name": "The Great Lighthouse",
+		"cost": 185,
+		"culture": 1,
+		"greatPersonPoints": {"Great Merchant": 1},
+		"isWonder": true,
+		"uniques": ["Must be next to [Coast]", "[+1] Movement <for [{Military} {Water}] units>",
+			"[+1] Sight <for [{Military} {Water}] units>", "Gain a free [Lighthouse] [in this city]"],
+		"requiredTech": "Sailing",
+		"quote": "'Those who can't make use of the water would just get in my way. Even if it's Lady Hijiri.' - Minamitsu Murasa."
+	},
+	{
+		"name": "Phantom Ship Harbor",
+		"culture": 1,
+		"greatPersonPoints": {"Great Merchant": 1},
+		"isWonder": true,
+		"uniques": ["Must be next to [Coast]", "[+2 Gold] from [Water] tiles [in this city]"],
+		"requiredTech": "Navigation",
+		"quote": "Minamitsu is a ship phantom (funa yuurei), the ghost of a girl who drowned at sea. These types of ghosts are famous in Japanese folklore for capsizing and sinking ships, which inspired her character background and spell cards."
+	},
+	{
+        "name": "Water Wheel",
+        "hurryCostModifier": 0,
+        "maintenance": 3,
+        "uniques": [
+            "Must be on [River]",
+            "[+1 Production] from [River] tiles [in this city]"
+        ],
+        "requiredTech": "Compass"
+    },
+	{
+		"name": "Market",
+		"cost": 100,
+		"gold": 3,
+		"specialistSlots": {"Merchant": 1},
+		"hurryCostModifier": 25,
+		"percentStatBonus": {"gold": 25},
+		"requiredTech": "Currency"
+	},
+	{
+		"name": "Mint",
+		"cost": 100,
+		"maintenance": 0,
+		"requiredNearbyImprovedResources": ["Gold Ore", "Silver"],
+		"hurryCostModifier": 25,
+		"uniques": ["[+2 Gold] from [Gold Ore] tiles [in this city]", "[+2 Gold] from [Silver] tiles [in this city]"],
+		"requiredTech": "Currency"
+	},
+	{
+		"name": "Jewelry Shop",
+		"happiness": 2,
+		"maintenance": 0,
+		"requiredNearbyImprovedResources": ["Gems", "Pearls"],
+		"hurryCostModifier": 25,
+		"uniques": ["[+2 Gold] from [Pearls] tiles [in this city]", "[+2 Gold] from [Gems] tiles [in this city]"],
+		"requiredTech": "Currency"
+	},
+	{
+		"name": "Sculpture",
+		"maintenance": 0,
+		"requiredNearbyImprovedResources": ["Marbles"],
+		"hurryCostModifier": 25,
+		"uniques": ["[+2 Culture] from [Marble] tiles [in this city]"],
+		"requiredTech": "Arts And Sculpture"
+	},
+	{
+		"name": "Fountain",
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"uniques": ["[-10]% Unhappiness from [Population] [in this city]"],
+		"requiredTech": "Arts And Sculpture"
+	},
+	{
+		"name": "Cotton Farm",
+		"maintenance": 3,
+		"requiredNearbyImprovedResources": ["Cotton"],
+		"hurryCostModifier": 12,
+		"uniques": ["[+1 Production, +1 Gold] from [Cotton] tiles [in this city]"],
+		"requiredTech": "Politics"
+	},
+	{
+		"name": "National Treasury",
+		"cost": 125,
+		"gold": 8,
+		"culture": 1,
+		"isNationalWonder": true,
+		"uniques": ["Only available <if [Market] is constructed in all [non-[Puppeted]] cities>", "Cost increases by [30] per owned city"],
+		"requiredTech": "Currency"
+		"quote": "'Maybe you'd be happier slipping into the crowd and then, I dunno, dropping dead?' - Joon Yorigami."
+	},
+	{
+		"name": "Komakusa Gambling Den",
+		"gold": 4,
+		"greatPersonPoints": {"Great Merchant": 1},
+		"culture": 1,
+		"isWonder": true,
+		"uniques": ["[+25]% [Gold] from Trade Routes"],
+		"requiredTech": "Improved Trade",
+		"quote": "It's also referred to as the Inverted Castle, though it's unknown whether this is a proper name for the castle or just an informal description of it. It is the home of Shinmyoumaru Sukuna."
+	},
+	{
+        "name": "Miracle Fountain",
+        "culture": 1,
+        "isWonder": true,
+        "greatPersonPoints": {"Great Engineer": 1},
+        "uniques": [
+            "Must be next to [Desert]",
+            "[+1 Food, +1 Production, +1 Gold] from [Desert] tiles without [Flood plains] [in this city]",
+            "[+6 Culture] [in this city] <after discovering [Arts And Sculpture]>",
+        ],
+        "requiredTech": "Improved Trade",
+        "quote": "In the middle of a war as harsh as the cruelest summer, a fountain sprouts miracle water that can refresh even the most sorrowful souls."
+    },
+	{
+		"name": "Kourindou Store",
+		"science": 3,
+		"culture": 1,
+		"isWonder": true,
+		"uniques": ["[+2 Science] from every [Furniture Shop]"]
+		"requiredTech": "Forgotten Items",
+		"quote": "Kourindou is an antique store seated between the Human Village and the Forest of Magic, run by Rinnosuke Morichika."
+	},
+	{
+		"name": "Town Square",
+		"maintenance": 4,
+		"uniques": ["[+1 Production] from every specialist [in this city]"],
+		"requiredBuilding": "Paper Maker",
+		"requiredTech": "Architecture"
+	},
+	{
+		"name": "Paper Maker",
+		"hurryCostModifier": 25,
+		"science": 2,
+		"specialistSlots": {"Scientist": 1},
+		"maintenance": 2,
+		"requiredTech": "Printing",
+	},
+	{
+        "name": "Heroic Epic",
+        "cost": 125,
+        "culture": 1,
+        "isNationalWonder": true,
+        "uniques": [
+            "Only available <if [Barracks] is constructed in all [non-[Puppeted]] cities>",
+            "All newly-trained [non-air] units [in this city] receive the [Morale] promotion",
+            "Cost increases by [30] per owned city",
+        ],
+        "requiredTech": "Iron Working"
+    },
+	{
+		"name": "Kiln",
+		"maintenance": 1,
+		"production": 2,
+		"hurryCostModifier": 25,
+		"uniques": ["Provides [2] [Iron]"],
+		"requiredTech": "Iron Working"
+	},
+	{
+		"name": "Workshop",
+		"maintenance": 2,
+		"production": 2,
+		"specialistSlots": {"Engineer": 1},
+		"hurryCostModifier": 25,
+		"percentStatBonus": {"production": 10},
+		"requiredTech": "Metal Casting"
+	},
+	{
+		"name": "Forge",
+		"production": 2,
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"requiredNearbyImprovedResources": ["Iron"],
+		"requiredTech": "Metal Casting",
+		"uniques": ["[+15]% Production when constructing [Land] units [in this city]",
+			"[+1 Production] from [Iron] tiles [in this city]"]
+	},
+	{
+		"name": "Blast Furnace",
+		"production": 4,
+		"maintenance": 3,
+		"hurryCostModifier": 25,
+		"requiredTech": "Metallurgy",
+		"requiredBuilding": "Forge"
+	},
+	{
+		"name": "Iron Manufactory",
+		"production": 2,
+		"maintenance": 3,
+		"hurryCostModifier": 25,
+		"requiredTech": "Metallurgy",
+		"uniques": ["Provides [2] [Iron]"],
+		"requiredBuilding": "Workshop"
+	},
+	{
+		"name": "Steel Factory",
+		"production": 2,
+		"percentStatBonus": {"production": 10},
+		"specialistSlots": {"Engineer": 2},
+		"requiredBuilding": "Iron Manufactory",
+		"maintenance": 5,
+		"hurryCostModifier": 25,
+		"uniques": ["Provides [2] [Iron]"],
+		"requiredTech": "Steel"
+	},
+	{
+		"name": "Armory",
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"requiredBuilding": "Barracks",
+		"uniques": ["New [Military] units start with [15] Experience [in this city]", "Destroyed when the city is captured"],
+		"requiredTech": "Politics"
+	},
+	{
+		"name": "Meiling's Training Center",
+		"culture": 1,
+		"isWonder": true,
+		"uniques": ["All newly-trained [non-air] units [in this city] receive the [Martial Arts] promotion", "Comment [(Learning [Martial Arts] gives your unit +50% XP gain from combat)]"],
+		"requiredTech": "Iron Working"
+	},
+	{
+		"name": "Puppet Theatre",
+		"cost": 125,
+		"uniqueTo": "The Unified Doll Front",
+		"replaces": "Circus",
+		"happiness": 2,
+		"hurryCostModifier": 25,
+		"maintenance": 2,
+		"requiredTech": "Festivals",
+		"uniques": ["New [Military] units start with [15] Experience [in this city]", "Destroyed when the city is captured"]
+	},
+	{
+		"name": "Castle",
+		"cityStrength": 7,
+		"cityHealth": 25,
+		"hurryCostModifier": 20,
+		"requiredTech": "Maintained Society",
+		"requiredBuilding": "Walls",
+		"uniques": ["Destroyed when the city is captured"]
+	},
+	{
+		"name": "Fortress",
+		"cityStrength": 5,
+		"cityHealth": 50,
+		"hurryCostModifier": 20,
+		"requiredTech": "Politics",
+		"requiredBuilding": "Castle",
+		"uniques": ["New [Military] units start with [15] Experience [in this city]", "Destroyed when the city is captured"]
+	},
+	{
+		"name": "High Walls",
+		"happiness": 2,
+		"cost": 100,
+		"cityHealth": 50,
+		"hurryCostModifier": 20,
+		"requiredTech": "Shogunate",
+		"requiredBuilding": "Walls",
+		"uniques": ["Destroyed when the city is captured"]
+	},
+	{
+		"name": "Kappa Stronghold",
+		"culture": 3,
+		"isWonder": true,
+		"greatPersonPoints": {"Great Engineer": 2},
+		"uniques": ["[+15]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>",
+			"Gain a free [Castle] [in this city]"],
+		"requiredTech": "Gunpowder",
+		"quote": "This isn't really canon, but what is canon in this mod lol."
+	},
+	{
+		"name": "National College",
+		"cost": 125,
+		"science": 3,
+		"culture": 1,
+		"isNationalWonder": true,
+		"percentStatBonus": {"science": 50},
+		"uniques": ["Only available <if [Library] is constructed in all [non-[Puppeted]] cities>", "Cost increases by [30] per owned city"],
+		"requiredTech": "Physics"
+	},
+	{
+		"name": "Hermitage",
+		"cost": 125,
+		"percentStatBonus": {"culture": 50},
+		"culture": 5,
+		"isNationalWonder": true,
+		"uniques": ["Only available <if [Opera House] is constructed in all [non-[Puppeted]] cities>", "Cost increases by [30] per owned city"],
+		"requiredTech": "Arts And Sculpture"
+	},
+	{
+		"name": "Blessing Of Winter",
+		//"cost": 625,
+		"culture": 1,
+		"isWonder": true,
+		"uniques": ["Must be next to [Snow]", "[+2 Food, +1 Production, +1 Gold] from [Snow] tiles [in this city]", "[+1 Food, +2 Production, +1 Gold] from [Tundra] tiles [in this city]"],
+		"requiredTech": "Festivals"
+		"quote": "Letty Whiterock is a seasonal youkai who's only seen during winter. She seems fittingly cold towards most of the humans she meets, and is feared by humans as she is known to freeze them."
+	},
+	 {
+		"name": "Amphitheater",
+		"culture": 3,
+		"specialistSlots": {"Artist": 1},
+		"requiredBuilding": "Monument",
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"uniques": ["Destroyed when the city is captured"],
+		"requiredTech": "Festivals"
+	},
+    {
+		"name": "Garden",
+		"hurryCostModifier": 25,
+		"uniques": ["[+25]% Great Person generation [in this city]", "Must be next to [Fresh water]"],
+		"maintenance": 1,
+		"requiredTech": "Herbal Medicine"
+	},
+	{
+		"name": "Artificial Garden",
+		"replaces": "Garden",
+		"uniqueTo": "River Dwelling Kappas",
+		"hurryCostModifier": 25,
+		"uniques": ["[+30]% Great Person generation [in this city]"],
+		"maintenance": 1,
+		"requiredTech": "Festivals"
+	},
+	{
+		"name": "Great Wall",
+		"culture": 3,
+		"greatPersonPoints": {"Great Engineer": 1},
+		"isWonder": true,
+		"uniques": ["Enemy [Land] units must spend [1] extra movement points when inside your territory <before the [Meiji era]>",
+			"Gain a free [Walls] [in this city]"],
+		"requiredTech": "Shield Wall",
+		"quote": "'The art of war teaches us to rely not on the likelihood of the enemy's not attacking, but rather on the fact that we have made our position unassailable.' - Sun Tzu"
+	},
+	{
+		"name": "Opera House",
+		"culture": 4,
+		"specialistSlots": {"Artist": 1},
+		"hurryCostModifier": 25,
+		"requiredBuilding": "Amphitheater",
+		"maintenance": 2,
+		"requiredTech": "Shogunate",
+		"uniques": ["Destroyed when the city is captured"]
+	},
+	{
+		"name": "Seaport",
+		"hurryCostModifier": 0,
+		"maintenance": 3,
+		"requiredBuilding": "Harbor",
+		"uniques": ["[+1 Production, +1 Gold] from [Water resource] tiles [in this city]",
+			"Must be next to [Coast]", "[+15]% Production when constructing [Water] units [in this city]"],
+		"requiredTech": "Military Logistics"
+	},
+	{
+		"name": "Military Academy",
+		"hurryCostModifier": 0,
+		"maintenance": 2,
+		"requiredBuilding": "Armory",
+		"uniques": ["New [Military] units start with [15] Experience [in this city]", "Destroyed when the city is captured"],
+		"requiredTech": "Military Science"
+	},
+	{
+		"name": "Bank",
+		"gold": 5,
+		"specialistSlots": {"Merchant": 1},
+		"hurryCostModifier": 15,
+		"percentStatBonus": {"gold": 25},
+		"uniques": ["[+1 Gold] from [Luxury resource] tiles [in this city]"],
+		"requiredBuilding": "Market",
+		"requiredTech": "Economics"
+	},
+	{
+		"name": "University",
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"percentStatBonus": {"science": 33},
+		"specialistSlots": {"Scientist": 2},
+		"requiredBuilding": "Library",
+		"uniques": ["[+2 Science] from [Jungle] tiles [in this city]"],
+		"requiredTech": "Physics"
+	},
+	{
+		"name": "Public School",
+		"science": 3,
+		"specialistSlots": {"Scientist": 1},
+		"requiredBuilding": "University",
+		"maintenance": 3,
+		"hurryCostModifier": 25,
+		"uniques": ["[+1 Science] per [2] population [in this city]"],
+		"requiredTech": "Public Education"
+	},
+	{
+		"name": "Civil Code",
+		"cost": 125,
+		"isNationalWonder": true,
+		"uniques": ["[-5]% Unhappiness from [Population] [in all non-occupied cities]", "Cost increases by [30] per owned city"],
+		"requiredTech": "Law And Order"
+	},
+	{
+		"name": "Buddhist Code",
+		"uniqueTo": "Myouren Faction",
+		"replaces": "Civil Code",
+		"cost": 125,
+		"isNationalWonder": true,
+		"uniques": ["[-50]% unhappiness from the number of cities", "Cost increases by [30] per owned city"],
+		"requiredTech": "Law And Order"
+	},
+	{
+		"name": "Legal System",
+		"cost": 125,
+		"isNationalWonder": true,
+		"uniques": ["[30]% of excess happiness converted to [Gold]", "Cost increases by [30] per owned city"],
+		"requiredTech": "Law And Order"
+	},
+	{
+		"name": "Ruins Of Vina",
+		"culture": 1,
+		"isWonder": true,
+		"greatPersonPoints": {"Great Artist": 1},
+		"uniques": ["[-10]% Unhappiness from [Population] [in all cities]"],
+		"requiredTech": "Law And Order",
+		"quote": "A location in Makai where Elis, a bat-transforming youkai, was found by Reimu. Somehow, she's not considered a vampire."
+	},
+	{
+		"name": "Circus",
+		"cost": 125,
+		"requiredNearbyImprovedResources": ["Ivory","Horses"],
+		"happiness": 4,
+		"hurryCostModifier": 15,
+		"requiredTech": "Festivals"
+	},
+	{
+		"name": "Ironworks",
+		"cost": 250,
+		"production": 8,
+		"culture": 1,
+		"isNationalWonder": true,
+		"uniques": ["Only available <if [Workshop] is constructed in all [non-[Puppeted]] cities>", "Cost increases by [30] per owned city"],
+		"requiredTech": "Machinery"
+	},
+	{
+		"name": "Museum",
+		"culture": 5,
+		"specialistSlots": {"Artist": 2},
+		"requiredBuilding": "Tea House",
+		"maintenance": 3,
+		"requiredTech": "History Preservation",
+		"uniques": ["[+2 Culture] from [Luxury resource] tiles [in this city]", "Destroyed when the city is captured"]
+	},
+	{
+		"name": "Official Time System",
+		"cost": 250,
+		"isNationalWonder": true,
+		"uniques": ["[+2 Production] [in all cities]", "Cost increases by [30] per owned city"],
+		"requiredTech": "Lantern Clock"
+	},
+	{
+		"name": "Tea House",
+		"culture": 4,
+		"specialistSlots": {"Artist": 2},
+		"hurryCostModifier": 25,
+		"requiredBuilding": "Opera House",
+		"maintenance": 3,
+		"requiredTech": "Public Education",
+		"uniques": ["[-5]% Unhappiness from [Population] [in this city]", "Destroyed when the city is captured"]
+	},
+	{
+		"name": "Arsenal",
+		"cityStrength": 9,
+		"cityHealth": 25,
+		"hurryCostModifier": 25,
+		"requiredBuilding": "Fortress",
+		"requiredTech": "Law Enforcement",
+		"uniques": ["Destroyed when the city is captured"]
+	},
+	{
+		"name": "Military Base",
+		"cost": 500,
+		"cityStrength": 12,
+		"cityHealth": 25,
+		"hurryCostModifier": 25,
+		"requiredBuilding": "Arsenal",
+		"requiredTech": "Military Logistics",
+		"uniques": ["Destroyed when the city is captured"]
+	},
+	{
+		"name": "Windmill",
+		"production": 2,
+		"specialistSlots": {"Engineer": 1},
+		"hurryCostModifier": 25,
+		"maintenance": 2,
+		"uniques": ["Must not be on [Hill]", "[+10]% Production when constructing [All] buildings [in this city]"],
+		"requiredTech": "Machinery"
+	},
+	{
+		"name": "Canal Of Willows",
+		"culture": 1,
+		"isWonder": true,
+		"greatPersonPoints": {"Great Artist": 1},
+		"uniques": ["Must be on [River]", "[+1 Production, +1 Culture] from [River] tiles [in this city]"],
+		"requiredTech": "Vassal States",
+		"quote": "As the name implies, it is a water canal strewn with willows, and due to its close proximity to the Human Village, as well as the in-game assumption that rampaging youkai wouldn't be near it, it can be safely assumed that it serves a regular purpose for the village and that humans visit it frequently."
+	},
+	{
+		"name": "Twilight Bar Room",
+		"culture": 1,
+		"happiness": 4,
+		"greatPersonPoints": {"Great Engineer": 1},
+		"isWonder": true,
+		"uniques": ["[+50]% Golden Age length"],
+		"requiredTech": "Woodblock Printing",
+		"quote": "It's a mysterious place when you get really drunk, as you usually find yourself flying around the place dodging bullets from food and drinks (drunkenly, of course). It's even said that you can see an illusionary world by morning."
+	},
+	{
+		"name": "Hospital",
+		"food": 5,
+		"requiredBuilding": "Aqueduct",
+		"maintenance": 2,
+		"hurryCostModifier": 0,
+		"requiredTech": "Medicine",
+		"uniques": ["[+30]% Production when constructing [Field Medic] units [in this city]"]
+	},
+	{
+		"name": "Furniture Shop",
+		"gold": 5,
+		"hurryCostModifier": 15,
+		"requiredBuilding": "Bank",
+		"uniques": ["[+2 Gold] from [Luxury resource] tiles [in this city]"],
+		"requiredTech": "Forgotten Items"
+	},
+	{
+		"name": "Underground Geyser Center",
+		"isWonder": true,
+		"greatPersonPoints": {"Great Scientist": 1},
+		"uniques": ["[2] free [Great Scientist] units appear",
+			"[+25]% Production when constructing [Ingredient] units [in this city]",
+			"Gain a free [Research Lab] [in this city]"],
+		"requiredTech": "Architecture",
+		"quote": "Both the kappa and the gods at the Moriya Shrine perform a variety of experiments and research projects in this place. It is connected to the Nuclear Furnace in the deepest part of the Underworld."
+	},
+	{
+		"name": "Research Lab",
+		"science": 5,
+		"percentStatBonus": {"science": 50},
+		"specialistSlots": {"Scientist": 1},
+		"requiredBuilding": "Public School",
+		"maintenance": 3,
+		"uniques": ["[+50]% Production when constructing [Ingredient] units [in this city]"],
+		"requiredTech": "Scientific Theory"
+	},
+	{
+		"name": "Abandoned Mansion",
+		"culture": 1,
+		"isWonder": true,
+		"greatPersonPoints": {"Great Engineer": 2},
+		"uniques": ["[+1 Production] from every specialist [in all cities]"],
+		"requiredTech": "Architecture",
+		"quote": "The Ruined Western Mansion (Haiyoukan) is a mansion where the echoes of ensemble rehearsals can be heard, yet none can be seen. It is home to three poltergeists, the Prismriver Sisters.",
+	},
+	{
+		"name": "Mayohiga",
+		"culture": 5,
+		"isWonder": true,
+		"greatPersonPoints": {"Great Artist": 2},
+		"uniques": ["[-20]% Culture cost of adopting new Policies"],
+		"requiredTech": "History Preservation",
+		"quote": "Mayohiga (Lost House) is a lost village somewhere around the Great Hakurei Barrier. It is abandoned by humans, but is home to many cats that Chen has brought there."
+	},
+	{
+		"name": "Izakaya Restaurant",
+		"food": 4,
+		"requiredBuilding": "Town Square",
+		"maintenance": 2,
+		"hurryCostModifier": 0,
+		"uniques": ["[+2 Food] from [Sheep] tiles [in this city]", "[+2 Food] from [Deer] tiles [in this city]", "[+2 Food] from [Wine] tiles [in this city]"],
+		"requiredTech": "Exclusive Electricity"
+	},
+	{
+		"name": "Suzunaan",
+		"science": 3,
+		"culture": 1,
+		"isWonder": true,
+		"uniques": ["Free Technology", "[+2 Science] from all [Public School] buildings"],
+		"requiredTech": "Public Education",
+		"quote": "Kosuzu Motoori is a Human Village resident and a worker at the Suzunaan book rental shop. She has a sweet personality, considerate and optimistic, polite and cheerful with her customers and her friends, and enjoys telling stories to village children. However, she is very confident in herself and her abilities, which frequently gets her into trouble."
+	},
+	{
+		"name": "City Hall",
+		"maintenance": 4,
+		"uniques": ["[+1 Production] per [4] population [in this city]"],
+		"hurryCostModifier": 0,
+		"requiredTech": "Nobility"
+	},
+	{
+		"name": "Barn",
+		"requiredBuilding": "Granary",
+		"maintenance": 2,
+		"hurryCostModifier": 0,
+		"requiredNearbyImprovedResources": ["Wheat"],
+		"uniques": ["[+2 Production] from [Wheat] tiles [in this city]"],
+		"requiredTech": "Metal Farming Tools"
+	},
+	{
+		"name": "Storehouse",
+		"food": 6,
+		"requiredBuilding": "Granary",
+		"maintenance": 2,
+		"hurryCostModifier": 0,
+		"requiredTech": "Civil Service"
+	},
+	{
+		"name": "Rice Field",
+		"maintenance": 2,
+		"hurryCostModifier": 0,
+		"requiredNearbyImprovedResources": ["Wheat"],
+		"uniques": ["Excess Food converted to Production when under construction",
+			"[+1 Food, +1 Gold] from [Wheat] tiles [in this city]"],
+		"requiredTech": "Multicropping System",
+		"requiredNearbyImprovedResources": ["Wheat"]
+	},
+	
+	
+	
+	
+	//Magic Tree Buildings
+	{
+		"name": "Magic Cauldron",
+		"cost": 45,
+		"maintenance": 1,
+		"science": 1,
+		"production": 1,
+		"hurryCostModifier": 25,
+		"requiredTech": "Simple Alchemy"
+	},
+	{
+		"name": "Ingredients Store",
+		"cost": 120,
+		"production": 2,
+		"food": 4,
+		"gold": 2,
+		"hurryCostModifier": 25,
+		"uniques": ["Must have an owned [Forest Of Magic] within [3] tiles"],
+		"requiredTech": "Simple Alchemy"
+	},
+	{
+		"name": "Potion Maker",
+		"cost": 75,
+		"maintenance": 1,
+		"production": 2,
+		"hurryCostModifier": 25,
+		"requiredNearbyImprovedResources": ["Spices", "Salt", "Sugar"],
+		"uniques": ["[+1 Production, +2 Science] from [Spices] tiles [in this city]",
+			"[+1 Production, +2 Science] from [Salt] tiles [in this city]",
+			"[+1 Production, +2 Science] from [Sugar] tiles [in this city]",
+			],
+		"requiredTech": "Brewing Mastery"
+	},
+	{
+		"name": "Experiment Room",
+		"cost": 120,
+		"science": 1,
+		"maintenance": 1,
+		"hurryCostModifier": 10,
+		"uniques": ["[-4 Food] [in this city]", "Unsellable",
+			"Free [Jiangshi Familiar] appears",
+		],
+		"requiredTech": "Mysterious Knowledge"
+	},
+	{
+		"name": "Grimoire Of Youkais",
+		"cost": 185,
+		"culture": 1,
+		"isWonder": true,
+		"greatPersonPoints": {"Great Engineer": 1},
+		"uniques": ["[+10]% Strength <for [Youkai] units>"],
+		"requiredTech": "Advanced Magic",
+		"quote": "Youkai are primarily spiritual beings rather than physical ones. As such they are more vulnerable to faith-based attacks (such as charms, wards, etc.) than to physical injuries and ailments; it's said a youkai can even recover from being cut into pieces, if the damage has insufficient 'meaning' behind it."
+	},
+
+	
+	
+	
+	//Religion Tree Buildings
+	{
+		"name": "Major Religions In Gensokyo",
+		"cost": 1,
+		"uniques": ["Unbuildable", "Hidden when religion is disabled"]
+	},
+	{
+		"name": "Hakurei Shrine",
+		"replaces": "Major Religions In Gensokyo",
+		"uniqueTo": "Hakurei Faction",
+		"cost": 1,
+		"uniques": ["Automatically built in all cities where it is buildable", "Comment [-1 [Gold] +2 [Faith] from every [Donation Box] increasing for each city with a [Hakurei Shrine]]", "[-1 Gold, +2 Faith] from every [Donation Box] <hidden from users>", "Unsellable"]
+	},
+	{
+		"name": "Moriya Shrine",
+		"replaces": "Major Religions In Gensokyo",
+		"uniqueTo": "Moriya Faction",
+		"cost": 1,
+		"uniques": ["Automatically built in all cities where it is buildable", "[10]% Great Person generation [in this city]", "Unsellable"]
+	},
+	{
+		"name": "Taoist Temple",
+		"replaces": "Major Religions In Gensokyo",
+		"uniqueTo": "Senkai Principality",
+		"cost": 1,
+		"uniques": ["Automatically built in all cities where it is buildable", 
+		"Unsellable",
+		"Comment [+1 [Science] for every known Natural Wonder increasing by 1 [Science] for each city with this building constructed]",
+		"[+1 Science] for every known Natural Wonder <hidden from users>"
 		]
+	},
+	{
+		"name": "Myouren Temple",
+		"replaces": "Major Religions In Gensokyo",
+		"uniqueTo": "Myouren Faction",
+		"cost": 1,
+		"uniques": ["Automatically built in all cities where it is buildable",
+		"Unsellable",
+		"[20]% Natural religion spread [in this city]"]
+	},
+	{
+		"name": "Cultivation Practices",
+		"replaces": "Major Religions In Gensokyo",
+		"uniqueTo": "Land Of The Corpses",
+		"cost": 1,
+		"uniques": ["Automatically built in all cities where it is buildable", 
+		"Unsellable",
+		"[+2 Faith] from every specialist [in this city]"
+		]
+	},
+	{
+		"name": "Shrine",
+		"cost": 45,
+		"hurryCostModifier": 12,
+		"faith": 1,
+		"maintenance": 1,
+		"uniques": ["Gain enough Faith for a Pantheon <once> <if [Major Religions In Gensokyo] is constructed>", "Hidden when religion is disabled"]
+	},
+	{
+		"name": "Temple",
+		"faith": 2,
+		"cost": 100,
+		"maintenance": 2,
+		"requiredBuilding": "Shrine",
+		"uniques": ["Destroyed when the city is captured"],
+		"requiredTech": "Herbal Medicine"
+	},
+	{
+		"name": "Buddhist Monastery",
+		"uniqueTo": "Myouren Faction",
+		"replaces": "Temple",
+		"faith": 5,
+		"cost": 120,
+		"maintenance": 2,
+		"requiredBuilding": "Shrine",
+		"uniques": ["Destroyed when the city is captured", "[+20]% Production when constructing [Monk] units [in this city]"]
+	},
+	{
+		"name": "Omoikane's Device",
+		"cost": 125,
+		"culture": 1,
+		"isWonder": true,
+		"greatPersonPoints": {"Great Scientist": 1},
+        "uniques": ["[+1 Science] from every [Shrine]"],
+		"requiredTech": "Religious Doctrine",
+		"quote": "Omoikane is a Shinto god of wisdom and intelligence. His name means 'serving one's thoughts.'"
+	},
+	{
+		"name": "Grand Temple",
+		"cost": 125,
+		"culture": 1,
+		"faith": 8,
+		"uniques": ["Only available <if [Major Religions In Gensokyo] is constructed>", "Only available <if [Temple] is constructed in all [non-[Puppeted]] cities>", "Cost increases by [30] per owned city",
+			"[+100]% Natural religion spread [in this city]", "Hidden when religion is disabled", "Can only be built <in [Holy] cities>"],
+		"requiredTech": "National Faith",
+		"isNationalWonder": true
+	},
+	{
+		"name": "Grand Shrine",
+		"cost": 125,
+		"culture": 3,
+		"uniques": ["Only available <if [Major Religions In Gensokyo] is constructed>", "Only available <if [Shrine] is constructed in all [non-[Puppeted]] cities>", "Cost increases by [30] per owned city",
+			"[+30]% [Faith] [in all cities] <while the empire is happy>", "Hidden when religion is disabled", "Can only be built <in [Holy] cities>"],
+		"requiredTech": "Philosophy",
+		"isNationalWonder": true
+	},
+	{
+		"name": "Donation Box",
+		"cost": 40,
+		"hurryCostModifier": 2,
+		"gold": 2,
+		"maintenance": 0,
+		"uniques": ["Destroyed when the city is captured"],
+		"requiredBuilding": "Shrine",
+		"requiredTech": "Rituals"
+	},
+	{
+		"name": "Charity House",
+		"cost": 75,
+		"hurryCostModifier": 10,
+		"maintenance": 2,
+		"food": 4,
+		"happiness": 2,
+		"requiredTech": "Rituals"
+	},
+	{
+		"name": "Tea Ceremony",
+		"cost": 125,
+		"culture": 5,
+		"isNationalWonder": true,
+		"uniques": ["[+1 Culture] from every [Tea House]", "Cost increases by [30] per owned city"],
+		"requiredTech": "Rituals"
+	},
+	{
+		"name": "The Heart Sutra",
+		"cost": 185,
+		"isWonder": true,
+		"faith": 4,
+		"happiness": 5,
+		"quote": "The Sutra famously states, 'Form is emptiness (śūnyatā), emptiness is form.' It is a condensed exposé on the Buddhist Mahayana teaching of the Two Truths doctrine, which says that ultimately all phenomena are Śūnyatā (emptiness).",
+		"requiredTech": "Culture Preservation"
+	},
+	{
+		"name": "Secret Hermit World",
+		"cost": 185,
+		"isWonder": true,
+		"culture": 3,
+		"uniques": ["[5] free [Mountain Hermit] units appear"]
+		"quote": "Senkai (hermit world) is a sealed secret world suited for hermits, which even Gensokyo did not know of before the events of Ten Desires.",
+		"requiredTech": "Culture Preservation"
+	},
+	{
+		"name": "Spiritual Home",
+		"cost": 100,
+		"faith": 4,
+		"maintenance": 2,
+		"requiredTech": "Philosophy",
+		"requiredBuilding": "Temple",
+		"uniques": ["Hidden when religion is disabled", "Destroyed when the city is captured"]
+	},
+	{
+		"name": "Hall Of Idols",
+		"cost": 400,
+		"culture": 1,
+		"faith": 3,
+		"uniques": ["Only available <if [Major Religions In Gensokyo] is constructed>", "Only available <if [Shrine] is constructed in all [non-[Puppeted]] cities>", "Hidden when religion is disabled",
+			"Gain a free [Torii Gate] [in this city]",
+			"All newly-trained [Missionary] units [in this city] receive the [Devout] promotion", "All newly-trained [Great Prophet] units [in this city] receive the [Devout] promotion", "Can only be built <in [Holy] cities>"],
+		"requiredTech": "Full Conversion",
+		"isWonder": true,
+		"quote": "The highest deity in Japanese mythology is Amaterasu, the Sun Goddess"
+	},
+	{
+		"name": "Fodder Manufactory",
+		"maintenance": 3,
+		"uniques": ["[+1 Food] from [Pasture] tiles [in this city]", "[+1 Food] from [Camp] tiles [in this city]"],
+		"requiredTech": "Forage Crops Utilization",
+	},
+	{
+		"name": "Statue Of The Chicken Goddess",
+		"culture": 3,
+		"uniques": ["[+1 Culture] from every [Pasture]"],
+		"requiredTech": "Heavy Plough",
+		"isWonder": true,
+		"quote": "Niwatari Kutaka is the God of Chickens, assigned to be the guardian of Hell by the Yama. It is told that she can cure throat illnesses. But then, for what reason did she get assigned to such responsibility...?"
+	},
+	
+	/*{ EXPERIMENTAL
+		"name": "Secret Hermit World",
+		"cost": 350,
+		"isWonder": true,
+		"culture": 3,
+		"uniques": ["Must be next to [Mountain]", "[5] free [Mountain Hermit] units appear"]
+		"quote": "Senkai (hermit world) is a sealed secret world suited for hermits, which even Gensokyo did not know of before the events of Ten Desires."
+		"requiredTech": "Culture Preservation"
+	},*/
+	
+	
+	
+	//Religious buildings
+	{
+		"name": "Buddhist Center",
+		"cost": 0,
+		"faith": 1,
+		"culture": 3,
+		"happiness": 1,
+		"specialistSlots": {"Artist": 1},
+		"uniques": ["Unbuildable", "Hidden when religion is disabled"]
+	},
+	{
+		"name": "Torii Gate",
+		"cost": 0,
+		"culture": 2,
+		"faith": 2,
+		"uniques": ["[+1 Culture, +1 Faith] from [Wine] tiles [in this city]",
+			"[+1 Culture, +1 Faith] from [Incense] tiles [in this city]",
+			"Unbuildable", "Hidden when religion is disabled", "Destroyed when the city is captured"]
+	},
+	{
+		"name": "Komainu Statue",
+		"cost": 0,
+		"culture": 2,
+		"faith": 3,
+		"happiness": 1,
+		"uniques": ["Unbuildable", "Hidden when religion is disabled"]
+	},
+	{
+		"name": "Taoist Mausoleum",
+		"cost": 0,
+		"culture": 2,
+		"faith": 2,
+		"happiness": 2,
+		"uniques": ["Unbuildable", "Hidden when religion is disabled"]
 	},
 	
 
-	// Unbuildable improvements
+    //subject to experiments
+    /*
+    {
+		"name": "Amphitheater",
+		"culture": 3,
+		"specialistSlots": {"Artist": 1},
+		"requiredBuilding": "Monument",
+		"maintenance": 2,
+		"hurryCostModifier": 20,
+		"uniques": ["Destroyed when the city is captured"],
+		"requiredTech": "Festivals"
+	},
+	*/
+	
+	//Victory buildings
 	{
-		"name": "Ancient ruins",
-		"terrainsCanBeBuiltOn": ["Land"],
-		"uniques": ["Unpillagable", "Provides a random bonus when entered", "Unbuildable"]
+		"name": "Byakuren's Way Of Peace",
+		"cost": 1600,
+		"isWonder": true,
+		"culture": 1,
+		"greatPersonPoints": {"Great Merchant": 2},
+		"requiredTech": "Peace To Gensokyo",
+		"uniques": ["Triggers voting for the Diplomatic Victory", "Hidden when [Diplomatic] Victory is disabled", "Triggers a global alert upon completion"],
+		"quote": "In the illusionary realm of Gensokyo, after countless struggles and battles between humans, youkai, and other beings, a profound shift occurred. Had she finally achieved peace in Gensokyo?"
 	},
 	{
-		"name": "City ruins",
-		"terrainsCanBeBuiltOn": ["Land"],
-		"uniques": ["Unpillagable", "Unbuildable", "Will be replaced by automated workers"],
-        "civilopediaText": [{"text":"A bleak reminder of the destruction wreaked by War"}]
+		"name": "Council Of Sages",
+		"cost": 2000,
+		"isNationalWonder": true,
+		"uniques": ["Hidden until [5] social policy branches have been completed", "Triggers a global alert upon build start",
+			"Triggers a Cultural Victory upon completion", "Hidden when [Cultural] Victory is disabled", "Cannot be hurried"]
 	},
 	{
-		"name": "City center",
-		"terrainsCanBeBuiltOn": ["Land"],
-		"uniques": ["Excluded from map editor <hidden from users>","Ensures a minimum tile yield of [+2 Food, +1 Production]",
-            "Unpillagable", "Irremovable", "Unbuildable"],
-        "civilopediaText": [
-			{"text":"Marks the center of a city"},
-			{"text":"Appearance changes with the technological era of the owning civilization"}
-		]
+		"name": "Perfect Beer Program",
+		"cost": 1500,
+		"isNationalWonder": true,
+		"uniques": ["Comment [Enables construction of The Perfect Beer's Ingredients]", "Triggers a global alert upon completion",
+			"Hidden when [Scientific] Victory is disabled", "Cannot be hurried"],
+		"requiredTech": "ZUN's Perfect Beer"
 	},
-	{
-		"name": "Barbarian encampment",
-		"terrainsCanBeBuiltOn": ["Land"],
-		"uniques": ["Unpillagable", "Unbuildable"],
-        "civilopediaText": [{"text":"Home to uncivilized barbarians, will spawn a hostile unit from time to time"}]
-	}
+
+
+
+
+	
+	/* Spaceship completion here */
+	
+	// Card Holders
+	
+			{
+				"name": "Backdoor Card Holder",
+				"cost": 1,
+				"uniques": ["Card Holder", "Unbuildable", "Unsellable", "Will not be displayed in Civilopedia", "Provides [1] [Ability Card; Backdoor] <hidden from users>"]
+			},
+			{
+				"name": "Beauty Of Destruction Card Holder",
+				"cost": 1,
+				"uniques": ["Card Holder", "Unbuildable", "Unsellable", "Will not be displayed in Civilopedia", "Provides [1] [Ability Card; Beauty Of Destruction] <hidden from users>"]
+			},
+			{
+				"name": "Danmaku Ghost Card Holder",
+				"cost": 1,
+				"uniques": ["Card Holder", "Unbuildable", "Unsellable", "Will not be displayed in Civilopedia", "Provides [1] [Ability Card; Danmaku Ghost] <hidden from users>"]
+			},
+			{
+				"name": "Drunkenly Whimsical Ibuki Gourd Card Holder",
+				"cost": 1,
+				"uniques": ["Card Holder", "Unbuildable", "Unsellable", "Will not be displayed in Civilopedia", "Provides [1] [Ability Card; Drunkenly Whimsical Ibuki Gourd] <hidden from users>"]
+			},
+			{
+				"name": "Esteemed Authority Card Holder",
+				"cost": 1,
+				"uniques": ["Card Holder", "Unbuildable", "Unsellable", "Will not be displayed in Civilopedia", "Provides [1] [Ability Card; Esteemed Authority] <hidden from users>"]
+			},
+			{
+				"name": "Great Tengu's Barley Rice Card Holder",
+				"cost": 1,
+				"uniques": ["Card Holder", "Unbuildable", "Unsellable", "Will not be displayed in Civilopedia", "Provides [1] [Ability Card; Great Tengu's Barley Rice] <hidden from users>"]
+			},
+			{
+				"name": "Ice Fairy Card Holder",
+				"cost": 1,
+				"uniques": ["Card Holder", "Unbuildable", "Unsellable", "Will not be displayed in Civilopedia", "Provides [1] [Ability Card; Ice Fairy] <hidden from users>"]
+			},
+			{
+				"name": "Item Season Card Holder",
+				"cost": 1,
+				"uniques": [
+				"Card Holder",
+				"Gain [250] [Gold] <upon entering a Golden Age>",
+				"Empire enters a [3]-turn Golden Age <upon discovering a Natural Wonder>",
+				"Unbuildable", "Unsellable", "Will not be displayed in Civilopedia", "Provides [1] [Ability Card; Item Season]"
+				]
+			},
+			{
+				"name": "Keystone Of Endurance Card Holder",
+				"cost": 1,
+				"uniques": ["Card Holder", "Unbuildable", "Unsellable", "Will not be displayed in Civilopedia", "Provides [1] [Ability Card; Keystone Of Endurance] <hidden from users>"]
+			},
+			{
+				"name": "Mini-Hakkero Card Holder",
+				"cost": 1,
+				"uniques": ["Card Holder", "Unbuildable", "Unsellable", "Will not be displayed in Civilopedia", "Provides [1] [Ability Card; Mini-Hakkero] <hidden from users>"]
+			},
+			{
+				"name": "Miracle Mallet Card Holder",
+				"cost": 1,
+				"uniques": ["Card Holder", "Unbuildable", "Unsellable", "Will not be displayed in Civilopedia", "Provides [1] [Ability Card; Miracle Mallet] <hidden from users>"]
+			},
+			{
+				"name": "Offerings To A Sacred Mountain Card Holder",
+				"cost": 1,
+				"uniques": ["Card Holder", "Unbuildable", "Unsellable", "Will not be displayed in Civilopedia", "Provides [1] [Ability Card; Offerings To A Sacred Mountain] <hidden from users>"]
+			},
+			{
+				"name": "Pebble Hat Card Holder",
+				"cost": 1,
+				"uniques": ["Card Holder", "Unbuildable", "Unsellable", "Will not be displayed in Civilopedia", "Provides [1] [Ability Card; Pebble Hat] <hidden from users>"]
+			},
+			{ //triggerable
+				"name": "Princess Kaguya's Secret Stash Card Holder",
+				"cost": 1,
+				"uniques": [
+				"Card Holder",
+				"Gain [200]-[500] [Gold] <(modified by game speed)>",
+				"Unbuildable", "Unsellable", "Will not be displayed in Civilopedia", "Provides [1] [Ability Card; Princess Kaguya's Secret Stash] <hidden from users>"]
+			},
+			{
+				"name": "Screen Border Card Holder",
+				"cost": 1,
+				"uniques": ["Card Holder", "Unbuildable", "Unsellable", "Will not be displayed in Civilopedia", "Provides [1] [Ability Card; Screen Border] <hidden from users>"]
+			},
+			{ //triggerable
+				"name": "Shanghai Doll Card Holder",
+				"cost": 1,
+				"uniques": [
+				"Card Holder",
+				"[1] free [Shanghai Labor Doll] units appear",
+				"Unbuildable", "Unsellable", "Will not be displayed in Civilopedia", "Provides [1] [Ability Card; Shanghai Doll] <hidden from users>"]
+			},
+			{
+				"name": "Smelt's Scales Card Holder",
+				"cost": 1,
+				"uniques": ["Card Holder", "Unbuildable", "Unsellable", "Will not be displayed in Civilopedia", "Provides [1] [Ability Card; Smelt's Scales] <hidden from users>"]
+			},
+			{
+				"name": "Sutra Of Dharmatic Power Card Holder",
+				"cost": 1,
+				"uniques": ["Card Holder", "Unbuildable", "Unsellable", "Will not be displayed in Civilopedia", "Provides [1] [Ability Card; Sutra Of Dharmatic Power] <hidden from users>"]
+			},
+			{
+				"name": "Vampire Fang Card Holder",
+				"cost": 1,
+				"uniques": ["Card Holder", "Unbuildable", "Unsellable", "Will not be displayed in Civilopedia", "Provides [1] [Ability Card; Vampire Fang] <hidden from users>"]
+			},
+			{
+				"name": "Yin-Yang Orb Card Holder",
+				"cost": 1,
+				"uniques": ["Card Holder", "Unbuildable", "Unsellable", "Will not be displayed in Civilopedia", "Provides [1] [Ability Card; Yin-Yang Orb] <hidden from users>"]
+			},
 ]
