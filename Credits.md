@@ -23,5 +23,6 @@
 - Tenkyuu Chimata: [カオリング](https://www.pixiv.net/en/artworks/90539223)
 - Komeiji Satori: [nuudoru](https://danbooru.donmai.us/posts/2774603)
 - Kamishirisawa Keine: [givuchoko](https://danbooru.donmai.us/posts/1059333)
+- Kirisame Marisa: [Torinari](https://www.zerochan.net/3491388)
 
 Thanks to these wonderful artists, and thank you for playing the mod!
