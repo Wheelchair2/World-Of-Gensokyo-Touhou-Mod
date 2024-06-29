@@ -22,7 +22,7 @@
 - Hinanawi Tenshi: [久蒼穹](https://www.pixiv.net/en/artworks/92005939)
 - Tenkyuu Chimata: [カオリング](https://www.pixiv.net/en/artworks/90539223)
 - Komeiji Satori: [nuudoru](https://danbooru.donmai.us/posts/2774603)
-- Kamishirisawa Keine: [givuchoko](https://danbooru.donmai.us/posts/1059333)
+- Kamishirasawa Keine: [givuchoko](https://danbooru.donmai.us/posts/1059333)
 - Kirisame Marisa: [Torinari](https://www.zerochan.net/3491388)
 - Toyosatomimi no Miko: [水中花火](https://www.pixiv.net/en/artworks/58939924)
 - Sukuna Shinmyoumaru: [moshihimechan](https://danbooru.donmai.us/posts/6078422)
