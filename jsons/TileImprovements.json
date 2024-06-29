@@ -281,8 +281,8 @@
 	//Civilization unique improvements
 	{
 		"name": "Doll Lumber House",
-		"uniqueTo": "The Unified Doll Front",
 		"terrainsCanBeBuiltOn": ["Forest"],
+		"uniqueTo": "The Unified Doll Front",
 		"gold": 2,
 		"turnsToBuild": 7,
         "uniques": ["Pillaging this improvement yields approximately [+18 Gold]"],
