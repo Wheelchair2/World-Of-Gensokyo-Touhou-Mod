@@ -154,7 +154,7 @@
 		"movement": 2,
 		"cost": 90,
 		"obsoleteTech": "Civil Service",
-		"requiredTech": "Negotiations",
+		"requiredTech": "Herbal Medicine",
 		"upgradesTo": "Field Medic",
 		"attackSound": "nonmetalhit",
 		"uniques": ["All adjacent units heal [5] HP when healing"]
@@ -465,7 +465,7 @@
 		"unitType": "Siege",
 		"movement": 2,
 		"strength": 8,
-		"rangedStrength": 8,
+		"rangedStrength": 9,
 		"cost": 120,
 		"requiredTech": "Gunpowder",
 		"obsoleteTech": "Maintained Society",
