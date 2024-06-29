@@ -268,7 +268,7 @@
 		"uniqueName": "Complete Destruction",
 		"uniques": ["Comment [Vampires would suck the blood out of anyone and can heal 30 damage upon killing a unit]",
 		"Comment [------------------]",
-		"[All] units gain the [Youkai] promotion", "[Land] units gain the [Vampire] promotion", "Damage is ignored when determining unit Strength", "Cities are razed [2] times as fast"],
+		"[All] units gain the [Youkai] promotion", "[Land] units gain the [Vampire] promotion", "No damage penalty for wounded units", "Cities are razed [2] times as fast"],
 		"cities": ["Sanguinaria", "Nocturnia", "Umbraheim", "Cimmeria", "Bloodhaven", "Stygianberg", "Nyxmark", "Valerianth", "Crimsonshire", "Vladonia"]
 	},
 	{
