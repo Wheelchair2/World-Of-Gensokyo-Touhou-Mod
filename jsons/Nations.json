@@ -9,7 +9,7 @@
     /*
     Some nations doesn't have dialogues yet
     */
-    
+ 
 	{
 		"name": "Beneath The Rainbow",
 		"leaderName": "Chimata Tenkyuu",
@@ -79,7 +79,6 @@
 			],
 		"cities": ["Palace Of The Earth Spirits","Stabiae","Chanchan","Bannack","Consonno","Florida Lost City","Kolmanskop","Trellech","Humberstone","Akrotiri","Taxila","Pyramiden","Merv","Cahokia,","Mologa","Neversink","Hallsands","Lukangol"]
 	},
-	/*
 	{
 		"name": "Domain Of Darkness",
 		"leaderName": "Rumia",
@@ -97,10 +96,12 @@
 		"outerColor": [0,0,0],
 		"innerColor": [255,144,164],
 		"uniqueName": "Manipulation Of Darkness",
-		"uniques": ["[All] units gain the [Youkai] promotion", "[All] units gain the [Dark Youkai] promotion", "Gain access to Rumia as a unit!"],
+		"uniques": ["Comment [Rumia envelops her subjects with darkness, making them harder to see. [Dark Youkai] units are invisible to all non-adjacent enemy units.]",
+			"Comment [------------------]",
+			"[All] units gain the [Youkai] promotion", "[All] units gain the [Dark Youkai] promotion"
+			],
 		"cities": ["Houreisou", "Yami no Machi", "Kurayami City", "Kagegakure", "Ayakashi Town", "Ankokuji", "Yuurei District", "Yabai Yokochou", "Shin'en no Toshi", "Kakuranochou"]
 	},
-	*/
 	{
 		"name": "Eientei Residents",
 		"leaderName": "Kaguya Houraisan",
@@ -355,7 +356,7 @@
 	},
 	{
 		"name": "Land Of The Crow Tengus",
-		"leaderName": "Megumu Iizunamaru",
+		"leaderName": "Aya Shameimaru",
 		"startBias": ["Youkai Mountain"]
 		"adjective": ["Tengu"],
 		"preferredVictoryType": "Scientific",
@@ -369,8 +370,8 @@
 		"tradeRequest": "It would be great if you agree to this...",
 		"outerColor": [255,255,255],
 		"innerColor": [0,0,0],
-		"uniqueName": "Deal With The Marketplace God",
-		"uniques": ["[All] units gain the [Youkai] promotion", "[Land] units gain the [Winged] promotion", "[+1] Movement <for [Winged] units>", "Starts with [Currency]", "[+2 Gold, +1 Food, +1 Production] from every [Trading post] <before the [Meiji era]>", "Cannot build [Mounted] units"]
+		"uniqueName": "Fast As Wind",
+		"uniques": ["[All] units gain the [Youkai] promotion", "[Land] units gain the [Winged] promotion", "[+1] Movement <for [Winged] units>", "[+1 Happiness] [in all cities connected to capital]", "Cannot build [Mounted] units"]
 		"cities": ["Tsubasakoku", "Hagoromo no Sato", "Harukaze-mura", "Tenbin no Toshi", "Suzaku no Sora", "Hanebito", "Kumo no Machi", "Aoiwashi", "Hiryu no Sato", "Hayabusa-ga-Oka"]
 	},
 	{
@@ -551,7 +552,7 @@
 	},
 	{
 		"name": "Tengu Union",
-		"leaderName": "Tenma",
+		"leaderName": "Lord Tenma",
 		"startBias": ["Youkai Forest"]
 		"adjective": ["Tengu"],
 		"preferredVictoryType": "Neutral",
@@ -640,7 +641,9 @@
 		"outerColor": [229,236,162],
 		"innerColor": [50,53,108],
 		"uniqueName": "Doll's Judgement",
-		"uniques": ["Starts with [Research For Magic]", "Starts with [Forbidden Sorcery]", "[All] units gain the [Youkai] promotion", "[Land] units gain the [Doll Construct] promotion", "[+2 Production, -2 Gold] from every [Doll Lumber House]", "[+1 Production] from every [Doll Lumber House] <after discovering [Machinery]>"],
+		"uniques": ["Comment [Doll Construct units are weaker, but heal +50 HP when in Doll Lumber House tiles]",
+		"Comment [------------------]",
+		"Starts with [Research For Magic]", "Starts with [Forbidden Sorcery]", "[All] units gain the [Youkai] promotion", "[Land] units gain the [Doll Construct] promotion", "[+2 Production, -2 Gold] from every [Doll Lumber House]", "[+1 Production] from every [Doll Lumber House] <after discovering [Machinery]>"],
 		"cities": ["Alice's House","Dollhaven","Gearshire","Artisan's Reach","Whimsyville","Stitchborough","Wondermere","Mechanica","Puppetsburg","Imagiopia"]
 	},
 	// City-States sorted by cityStateType, name
