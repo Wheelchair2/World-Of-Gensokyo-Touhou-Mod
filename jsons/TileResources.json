@@ -246,9 +246,10 @@
 		"name": "Ability Card; Shanghai Doll",
 		"civilopediaText":[
             {"extraImage":"Shanghai Doll", "imageSize":180}, //card image
-		],
+		], 
 		"resourceType": "Luxury",
 		"uniques": ["Not shown on world screen",
+			"[-15]% construction time for [All] improvements",
 			"Comment [1 free [Shanghai Labor Doll] units appear]",
 			"Comment [(Cards don't give any Happiness, except in Easy difficulty)]", "[-4 Happiness] <hidden from users>",
 			"Excluded from map editor"
@@ -380,12 +381,13 @@
 		"uniques": ["Not shown on world screen", "Comment [Scout units gain the [Card - Pebble Hat] promotion]", "[Scout] units gain the [Card - Pebble Hat] promotion <hidden from users>", "Comment [(Cards don't give any Happiness, except in Easy difficulty)]", "[-4 Happiness] <hidden from users>", "Excluded from map editor"],
 	},
 	{
-		"name": "Ability Card; Princess Kaguya's Secret Stash",
+		"name": "Ability Card; Princess Kaguya's Secret Stash", 
 		"civilopediaText":[
             {"extraImage":"Princess Kaguya's Secret Stash", "imageSize":180}, //card image
 		],
 		"resourceType": "Luxury",
 		"uniques": ["Not shown on world screen", "Comment [Gain 200-500 [Gold] (modified by game speed)]",
+			"[Gold] cost of purchasing items in cities [-10]%",
 			"Comment [(Cards don't give any Happiness, except in Easy difficulty)]", "[-4 Happiness] <hidden from users>", "Excluded from map editor"
 			]
 	},
@@ -711,12 +713,19 @@
 	{
 		"name": "White Switch Open",
 		"resourceType": "Strategic",
-		"uniques": ["Stockpiled", "Will not be displayed in Civilopedia", "Not shown on world screen"]
+		"uniques": ["Stockpiled <hidden from users>", "Will not be displayed in Civilopedia <hidden from users>", "Not shown on world screen <hidden from users>"]
 	},
 	{
 		"name": "Black Switch Open",
 		"resourceType": "Strategic",
-		"uniques": ["Stockpiled", "Will not be displayed in Civilopedia", "Not shown on world screen"]
+		"uniques": ["Stockpiled <hidden from users>", "Will not be displayed in Civilopedia <hidden from users>", "Not shown on world screen <hidden from users>"]
 	},
-	
+	{
+		"name": "Ambassador",
+		"resourceType": "Strategic",
+		"uniques": ["Stockpiled <hidden from users>", "Not shown on world screen <before discovering [Embassy]>"]
+		"civilopediaText":[
+            {"text": "You gain 1 [Ambassador] upon declaring friendship with a major Civilization, but lose 1 [Ambassador] upon declaring war. After discovering [Embassy], +4 [Happiness] for every [Ambassador].","color": "#FDFF88","link": "Technologies/Embassy"}
+		],
+	},
 ]
