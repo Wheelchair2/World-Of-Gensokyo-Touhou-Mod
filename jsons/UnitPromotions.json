@@ -168,7 +168,7 @@
 	},
 	{
 		"name": "Jiangshi",
-		"uniques": ["Apparition", "May capture killed [Military] units", "Can only heal by pillaging", "[+20]% Strength <when attacking> <vs [Wounded] units>", "This Unit loses the [Corpse] promotion"]
+		"uniques": ["Apparition", "May capture killed [Military] units", "[-10] HP when healing", "[+20]% Strength <when attacking> <vs [Wounded] units>", "This Unit loses the [Corpse] promotion"]
 	},
 	{
 		"name": "Vampire",
@@ -204,7 +204,7 @@
 	},
 	{
 		"name": "Doll Construct",
- 		"uniques": ["Apparition", "[-20]% Strength <when defending> <before discovering [Self-Discovery]>", "[-15]% Strength <when defending> <after discovering [Self-Discovery]>", "[+15] HP when healing <in [Doll Lumber House] tiles>"]
+ 		"uniques": ["Apparition", "[-20]% Strength <when defending> <before discovering [Self-Discovery]>", "[-15]% Strength <when defending> <after discovering [Self-Discovery]>", "[+50] HP when healing <in [Doll Lumber House] tiles>"]
 	},
 	{
 		"name": "Lunarian",
@@ -244,7 +244,7 @@
 	},
 	{
 		"name": "Phantasm"
-		"uniques": ["Supplementary", "May Paradrop up to [4] tiles from inside friendly territory <if it hasn't used other actions yet> <without [Card - Screen Border]>"],
+		"uniques": ["Supplementary", "May Paradrop up to [4] tiles from inside friendly territory <if it hasn't used other actions yet> <for units without [Card - Screen Border]>"],
 	},
 	{
 		"name": "Martial Arts",
@@ -1091,7 +1091,7 @@
 			{"extraImage":"Pebble Hat", "imageSize":180},
 			{"text":"Ability Card; Pebble Hat", "header":5,"color": "#FDFF88", "link": "Resources/Ability Card; Pebble Hat"}
 		],
-		"uniques": ["Comment [Koishi Komeiji's ability to prevent your enemies from seeing your Scouts, unless nearby.]", "Invisible to non-adjacent units <for [Scout] units> <when at war>",
+		"uniques": ["Comment [Koishi Komeiji's ability to prevent your enemies from seeing your Scouts, unless nearby.]", "Invisible to non-adjacent units <for [Scout] units>",
 		"This Unit loses the [Card - Pebble Hat] promotion <upon turn end> <without [Ability Card; Pebble Hat]>"]
 	},
 	{
