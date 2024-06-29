@@ -22,5 +22,6 @@
 - Hinanawi Tenshi: [久蒼穹](https://www.pixiv.net/en/artworks/92005939)
 - Tenkyuu Chimata: [カオリング](https://www.pixiv.net/en/artworks/90539223)
 - Komeiji Satori: [nuudoru](https://danbooru.donmai.us/posts/2774603)
+- Kamishirisawa Keine: [givuchoko](https://danbooru.donmai.us/posts/1059333)
 
 Thanks to these wonderful artists, and thank you for playing the mod!
