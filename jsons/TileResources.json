@@ -232,7 +232,7 @@
             {"extraImage":"Yin-Yang Orb", "imageSize":180}, //card image
 		],
 		"resourceType": "Luxury",
-		"uniques": ["Not shown on world screen", "[+8]% Strength <for [All] units>", "Comment [(Cards don't give any Happiness, except in Easy difficulty)]", "[-4 Happiness] <hidden from users>", "Excluded from map editor"]
+		"uniques": ["Not shown on world screen", "[+6]% Strength <for [All] units>", "Comment [(Cards don't give any Happiness, except in Easy difficulty)]", "[-4 Happiness] <hidden from users>", "Excluded from map editor"]
 	},
 	{
 		"name": "Ability Card; Mini-Hakkero",
@@ -310,7 +310,7 @@
             {"extraImage":"Keystone Of Endurance", "imageSize":180}, //card image
 		],
 		"resourceType": "Luxury",
-		"uniques": ["Not shown on world screen", "[+12]% Strength <when defending> <for [Military] units>", "Comment [(Cards don't give any Happiness, except in Easy difficulty)]", "[-4 Happiness] <hidden from users>", "Excluded from map editor"]
+		"uniques": ["Not shown on world screen", "[+11]% Strength <when defending> <for [Military] units>", "Comment [(Cards don't give any Happiness, except in Easy difficulty)]", "[-4 Happiness] <hidden from users>", "Excluded from map editor"]
 	},
 	{
 		"name": "Ability Card; Esteemed Authority",
@@ -326,7 +326,7 @@
             {"extraImage":"Vampire Fang", "imageSize":180}, //card image
 		],
 		"resourceType": "Luxury",
-		"uniques": ["Not shown on world screen", "[+12]% Strength <for [Melee] units>", "Comment [(Cards don't give any Happiness, except in Easy difficulty)]", "[-4 Happiness] <hidden from users>", "Excluded from map editor"]
+		"uniques": ["Not shown on world screen", "[+9]% Strength <for [Melee] units>", "Comment [(Cards don't give any Happiness, except in Easy difficulty)]", "[-4 Happiness] <hidden from users>", "Excluded from map editor"]
 	},
 	{
 		"name": "Ability Card; Great Tengu's Barley Rice",
