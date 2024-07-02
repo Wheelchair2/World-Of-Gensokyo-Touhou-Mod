@@ -68,7 +68,8 @@
 			{
 				"text": "Ice Fairy Card",
 				"triggeredUniques": ["Comment [Ability Card; Ice Fairy]",
-				"Comment [+15% Strength when defending for Military units in [Snow] tiles]","Comment [+10% Strength when defending for Military units in [Tundra] tiles]",
+				"Comment [+2 [Food] from [Snow] tiles in all cities]",
+				"Comment [+1 [Food] from [Tundra] tiles in all cities]",
 				"Gain a free [Ice Fairy Card Holder] [in capital] <hidden from users>"],
 			},
 			{
@@ -82,7 +83,7 @@
 			{
 				"text": "Keystone Of Endurance Card",
 				"triggeredUniques": ["Comment [Ability Card; Keystone Of Endurance]",
-				"Comment [+12% Strength when defending for Military units]",
+				"Comment [+11% Strength when defending for Military units]",
 				"Gain a free [Keystone Of Endurance Card Holder] [in capital] <hidden from users>"],
 			},
 			{
@@ -100,12 +101,13 @@
 			{
 				"text": "Offerings To A Sacred Mountain Card",
 				"triggeredUniques": ["Comment [Ability Card; Offerings To A Sacred Mountain]",
-				"Comment [+1 [Gold] from [Mountain] tiles in all cities]","Comment [+1 Sight for [Scout] units]",
+				"Comment [+1 [Gold], +2 [Production], +2 [Food]  from [Mountain] tiles in all cities]","Comment [+1 Sight for [Scout] units]",
 				"Gain a free [Offerings To A Sacred Mountain Card Holder] [in capital] <hidden from users>"],
 			},
 			{
 				"text": "Pebble Hat Card",
 				"triggeredUniques": ["Comment [Ability Card; Pebble Hat]",
+				"Comment [+1 Movement for Scout units]",
 				"Comment [[Scout] units gain the [Card - Pebble Hat] promotion]",
 				"Gain a free [Pebble Hat Card Holder] [in capital] <hidden from users>"],
 			},
@@ -119,6 +121,7 @@
 			{
 				"text": "Screen Border Card",
 				"triggeredUniques": ["Comment [Ability Card; Screen Border]",
+				"Comment [-10% Culture cost of natural border growth in all cities]",
 				"Comment [[Scout] units gain the [Card - Screen Border] promotion]",
 				"Gain a free [Screen Border Card Holder] [in capital] <hidden from users>"],
 			},
@@ -133,6 +136,7 @@
 			{
 				"text": "Smelt's Scales Card",
 				"triggeredUniques": ["Comment [Ability Card; Smelt's Scales]",
+				"Comment [+1 [Culture] from Water resource tiles in all cities]",
 				"Comment [[Melee] units gain the [Card - Smelt's Scales] promotion]",
 				"Gain a free [Smelt's Scales Card Holder] [in capital] <hidden from users>"],
 			},
@@ -145,13 +149,13 @@
 			{
 				"text": "Vampire Fang Card",
 				"triggeredUniques": ["Comment [Ability Card; Vampire Fang]",
-				"Comment [+12% Strength for Melee units]",
+				"Comment [+9% Strength for Melee units]",
 				"Gain a free [Vampire Fang Card Holder] [in capital] <hidden from users>"],
 			},
 			{
 				"text": "Yin-Yang Orb Card",
 				"triggeredUniques": ["Comment [Ability Card; Yin-Yang Orb]",
-				"Comment [+8% Strength for All units]",
+				"Comment [+6% Strength for All units]",
 				"Gain a free [Yin-Yang Orb Card Holder] [in capital] <hidden from users>"],
 			},
 			
@@ -305,13 +309,13 @@
 			{
 				"text": "Vampire Fang Card",
 				"triggeredUniques": ["Comment [Ability Card; Vampire Fang]",
-				"Comment [+12% Strength for Melee units]",
+				"Comment [+9% Strength for Melee units]",
 				"Gain a free [Vampire Fang Card Holder] [in capital] <hidden from users>"],
 			},
 			{
 				"text": "Yin-Yang Orb Card",
 				"triggeredUniques": ["Comment [Ability Card; Yin-Yang Orb]",
-				"Comment [+8% Strength for All units]",
+				"Comment [+6% Strength for All units]",
 				"Gain a free [Yin-Yang Orb Card Holder] [in capital] <hidden from users>"],
 			},
 			
