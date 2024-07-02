@@ -530,70 +530,70 @@ BuildingIcons/Donation Box
   index: -1
 BuildingIcons/Experiment Room
   rotate: false
-  xy: 976, 1092
+  xy: 1300, 1084
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Fairy Garden
   rotate: false
-  xy: 1624, 1084
+  xy: 1732, 1068
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Fairy Tree House
   rotate: false
-  xy: 1840, 1068
+  xy: 1084, 1034
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Fodder Manufactory
   rotate: false
-  xy: 436, 984
+  xy: 544, 984
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Fortifications
   rotate: false
-  xy: 976, 984
+  xy: 1408, 976
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Fortress
   rotate: false
-  xy: 1300, 976
+  xy: 1516, 976
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Fountain
   rotate: false
-  xy: 1408, 976
+  xy: 1624, 976
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Free Wonder Slot
   rotate: false
-  xy: 1516, 976
+  xy: 1732, 960
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Furniture Shop
   rotate: false
-  xy: 1840, 960
+  xy: 1192, 926
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Geidontei Bar
   rotate: false
-  xy: 1084, 926
+  xy: 4, 884
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -607,343 +607,329 @@ BuildingIcons/Genbu Ravine
   index: -1
 BuildingIcons/Grand Shrine
   rotate: false
-  xy: 1192, 926
+  xy: 112, 876
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Great Mausoleum
   rotate: false
-  xy: 4, 884
+  xy: 220, 876
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Grimoire Of Youkais
   rotate: false
-  xy: 328, 876
+  xy: 652, 876
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Hakurei Shrine
   rotate: false
-  xy: 760, 876
+  xy: 1300, 868
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Hall Of Idols
   rotate: false
-  xy: 868, 876
+  xy: 1408, 868
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Hieda House
   rotate: false
-  xy: 1516, 868
+  xy: 1840, 852
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Hieda Temple School
   rotate: false
-  xy: 1624, 868
+  xy: 1084, 818
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/High Walls
   rotate: false
-  xy: 1732, 852
+  xy: 1192, 818
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Hot Spring Town
   rotate: false
-  xy: 112, 768
+  xy: 436, 768
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/House Of Eternity
   rotate: false
-  xy: 220, 768
+  xy: 544, 768
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Ingredients Store
   rotate: false
-  xy: 1408, 760
+  xy: 1084, 710
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Iron Manufactory
   rotate: false
-  xy: 1516, 760
+  xy: 1192, 710
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Izakaya Restaurant
   rotate: false
-  xy: 1624, 760
+  xy: 4, 668
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Jewelry Shop
   rotate: false
-  xy: 1732, 744
+  xy: 112, 660
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Kappa Stronghold
   rotate: false
-  xy: 4, 668
+  xy: 544, 660
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Kiln
   rotate: false
-  xy: 328, 660
+  xy: 868, 660
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Kirisame Magic Shop
   rotate: false
-  xy: 544, 660
+  xy: 1300, 652
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Komainu Statue
   rotate: false
-  xy: 868, 660
+  xy: 1624, 652
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Komakusa Gambling Den
   rotate: false
-  xy: 976, 660
+  xy: 1732, 636
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Kourindou Store
   rotate: false
-  xy: 1300, 652
+  xy: 1840, 636
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Legal System
   rotate: false
-  xy: 1192, 602
+  xy: 544, 552
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Magic Cauldron
   rotate: false
-  xy: 328, 552
+  xy: 976, 552
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Major Religions In Gensokyo
   rotate: false
-  xy: 868, 552
+  xy: 1732, 528
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Mayohiga
   rotate: false
-  xy: 1408, 544
+  xy: 1192, 494
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Meiling's Training Center
   rotate: false
-  xy: 1624, 544
+  xy: 112, 444
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Military Base
   rotate: false
-  xy: 4, 452
+  xy: 652, 444
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Miracle Fountain
   rotate: false
-  xy: 328, 444
+  xy: 976, 444
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Miracle Mallet
   rotate: false
-  xy: 436, 444
+  xy: 1300, 436
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Moriya Shrine
   rotate: false
-  xy: 760, 444
+  xy: 1624, 436
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Myouren Temple
   rotate: false
-  xy: 1516, 436
+  xy: 4, 344
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/New Palanquin Ship
   rotate: false
-  xy: 112, 336
+  xy: 760, 336
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Nihonshu Sake
   rotate: false
-  xy: 220, 336
+  xy: 868, 336
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Official Time System
   rotate: false
-  xy: 1300, 328
+  xy: 1192, 278
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Okuu's Nuclear Reactor
   rotate: false
-  xy: 1408, 328
+  xy: 4, 236
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Old Capital
   rotate: false
-  xy: 1516, 328
+  xy: 112, 228
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Omoikane's Device
   rotate: false
-  xy: 1624, 328
+  xy: 220, 228
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Onsen
   rotate: false
-  xy: 1084, 278
+  xy: 544, 228
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Paddock
   rotate: false
-  xy: 220, 228
+  xy: 976, 228
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Perfect Beer Program
   rotate: false
-  xy: 976, 228
+  xy: 1084, 170
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Perfect Cherry Blossom
   rotate: false
-  xy: 1300, 220
+  xy: 1192, 170
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Phantom Ship Harbor
   rotate: false
-  xy: 1624, 220
+  xy: 220, 120
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Potion Maker
   rotate: false
-  xy: 4, 128
+  xy: 760, 120
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Protected Territory
   rotate: false
-  xy: 328, 120
+  xy: 1300, 112
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Puppet Theatre
   rotate: false
-  xy: 652, 120
+  xy: 1624, 112
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Purification Rod
   rotate: false
-  xy: 760, 120
+  xy: 1732, 96
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Rice Field
   rotate: false
-  xy: 1192, 62
+  xy: 652, 12
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Rice Wine
   rotate: false
-  xy: 4, 20
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Ruins Of Vina
-  rotate: false
-  xy: 976, 12
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Scarlet Basement
-  rotate: false
-  xy: 1624, 4
+  xy: 760, 12
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -971,35 +957,35 @@ ImprovementIcons/Doll Lumber House
   index: -1
 ImprovementIcons/Friendship With Wild Beasts
   rotate: false
-  xy: 1624, 976
+  xy: 1840, 960
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Keystone
   rotate: false
-  xy: 220, 660
+  xy: 760, 660
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Ninja's House
   rotate: false
-  xy: 436, 336
+  xy: 1300, 328
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Reichoen
   rotate: false
-  xy: 1408, 112
+  xy: 4, 20
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Relinquished Land Ownership
   rotate: false
-  xy: 1732, 96
+  xy: 328, 12
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -1062,35 +1048,35 @@ NationIcons/Eientei Residents
   index: -1
 NationIcons/Fairies Of Spring
   rotate: false
-  xy: 1300, 1084
+  xy: 1408, 1084
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Fairy Alliance
   rotate: false
-  xy: 1516, 1084
+  xy: 1624, 1084
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Fairy Kingdom
   rotate: false
-  xy: 1732, 1068
+  xy: 1840, 1068
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Fated Kingdom
   rotate: false
-  xy: 1084, 1034
+  xy: 1192, 1034
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Fated Land
   rotate: false
-  xy: 1084, 1034
+  xy: 1192, 1034
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -1104,84 +1090,84 @@ NationIcons/Fraternal Empire
   index: -1
 NationIcons/Hakurei Faction
   rotate: false
-  xy: 652, 876
+  xy: 976, 876
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Human Village
   rotate: false
-  xy: 436, 768
+  xy: 760, 768
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Kingdom Of The Wise
   rotate: false
-  xy: 436, 660
+  xy: 976, 660
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Land Of The Back Doors
   rotate: false
-  xy: 1408, 652
+  xy: 1192, 602
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Land Of The Backdoors
   rotate: false
-  xy: 1408, 652
+  xy: 1192, 602
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Land Of The Corpses
   rotate: false
-  xy: 1516, 652
+  xy: 4, 560
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Land Of The Crow Tengus
   rotate: false
-  xy: 1624, 652
+  xy: 112, 552
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Mermaids Of The Lake
   rotate: false
-  xy: 1084, 494
+  xy: 436, 444
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Moriya Faction
   rotate: false
-  xy: 652, 444
+  xy: 1516, 436
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Myouren Faction
   rotate: false
-  xy: 1408, 436
+  xy: 1192, 386
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Oni Clans
   rotate: false
-  xy: 1840, 312
+  xy: 436, 228
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Ordinary Magicians
   rotate: false
-  xy: 4, 236
+  xy: 760, 228
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -1202,21 +1188,21 @@ NationIcons/The Unified Doll Front
   index: -1
 PolicyIcons/National Doctrine
   rotate: false
-  xy: 1732, 420
+  xy: 220, 336
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/National Security
   rotate: false
-  xy: 1084, 386
+  xy: 436, 336
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Parliament
   rotate: false
-  xy: 652, 228
+  xy: 1624, 220
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -1594,336 +1580,336 @@ TechIcons/Divine Punishment
   index: -1
 TechIcons/Embassy
   rotate: false
-  xy: 544, 1092
+  xy: 652, 1092
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Espionage
   rotate: false
-  xy: 760, 1092
+  xy: 868, 1092
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Exclusive Electricity
   rotate: false
-  xy: 868, 1092
+  xy: 976, 1092
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Fermented Alcohol
   rotate: false
-  xy: 1192, 1034
+  xy: 4, 992
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Festivals
   rotate: false
-  xy: 4, 992
+  xy: 112, 984
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Field Of Summoning
   rotate: false
-  xy: 220, 984
+  xy: 328, 984
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Forage Crops Utilization
   rotate: false
-  xy: 544, 984
+  xy: 652, 984
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Forbidden Sorcery
   rotate: false
-  xy: 652, 984
+  xy: 760, 984
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Forgotten Items
   rotate: false
-  xy: 868, 984
+  xy: 1300, 976
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Full Conversion
   rotate: false
-  xy: 1732, 960
+  xy: 1084, 926
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Heavy Plough
   rotate: false
-  xy: 1300, 868
+  xy: 1624, 868
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Herbal Medicine
   rotate: false
-  xy: 1408, 868
+  xy: 1732, 852
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/History Preservation
   rotate: false
-  xy: 1840, 852
+  xy: 4, 776
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Hot Spring
   rotate: false
-  xy: 4, 776
+  xy: 328, 768
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Improved Trade
   rotate: false
-  xy: 1300, 760
+  xy: 1840, 744
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Lantern Clock
   rotate: false
-  xy: 1732, 636
+  xy: 220, 552
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Law And Order
   rotate: false
-  xy: 1840, 636
+  xy: 328, 552
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Law Enforcement
   rotate: false
-  xy: 1084, 602
+  xy: 436, 552
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Limitless Learning
   rotate: false
-  xy: 4, 560
+  xy: 652, 552
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Literature
   rotate: false
-  xy: 112, 552
+  xy: 760, 552
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Magical Science
   rotate: false
-  xy: 436, 552
+  xy: 1300, 544
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Maintained Society
   rotate: false
-  xy: 760, 552
+  xy: 1624, 544
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Medicine
   rotate: false
-  xy: 1516, 544
+  xy: 4, 452
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Metal Farming Tools
   rotate: false
-  xy: 1192, 494
+  xy: 544, 444
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Military Logistics
   rotate: false
-  xy: 112, 444
+  xy: 760, 444
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Military Predominance
   rotate: false
-  xy: 220, 444
+  xy: 868, 444
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Modern Knowledge
   rotate: false
-  xy: 544, 444
+  xy: 1408, 436
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Multicropping System
   rotate: false
-  xy: 976, 444
+  xy: 1840, 420
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Mysterious Knowledge
   rotate: false
-  xy: 1624, 436
+  xy: 112, 336
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/National Faith
   rotate: false
-  xy: 1840, 420
+  xy: 328, 336
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Naval Warfare
   rotate: false
-  xy: 1192, 386
+  xy: 544, 336
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Negotiations
   rotate: false
-  xy: 4, 344
+  xy: 652, 336
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Nobility
   rotate: false
-  xy: 544, 336
+  xy: 1408, 328
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Official Navy
   rotate: false
-  xy: 976, 336
+  xy: 1084, 278
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Outside World Awareness
   rotate: false
-  xy: 112, 228
+  xy: 868, 228
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Paid Service
   rotate: false
-  xy: 328, 228
+  xy: 1300, 220
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Peace To Gensokyo
   rotate: false
-  xy: 868, 228
+  xy: 1840, 204
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Philosophy
   rotate: false
-  xy: 1732, 204
+  xy: 328, 120
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Politics
   rotate: false
-  xy: 1084, 170
+  xy: 544, 120
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Printing
   rotate: false
-  xy: 112, 120
+  xy: 868, 120
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Professional Army
   rotate: false
-  xy: 220, 120
+  xy: 976, 120
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Psychological Warfare
   rotate: false
-  xy: 436, 120
+  xy: 1408, 112
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Public Education
   rotate: false
-  xy: 544, 120
+  xy: 1516, 112
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Religion
   rotate: false
-  xy: 1516, 112
+  xy: 112, 12
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Religious Doctrine
   rotate: false
-  xy: 1624, 112
+  xy: 220, 12
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Research For Magic
   rotate: false
-  xy: 1084, 62
+  xy: 544, 12
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Rituals
   rotate: false
-  xy: 112, 12
+  xy: 868, 12
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitActionIcons/Paradrop
   rotate: false
-  xy: 544, 228
+  xy: 1516, 220
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -2166,324 +2152,345 @@ UnitIcons/Elemental Sorcerer
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Elite Samurai
+UnitIcons/Elite Griffin
   rotate: false
   xy: 436, 1092
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
+UnitIcons/Elite Samurai
+  rotate: false
+  xy: 544, 1092
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 UnitIcons/Esoterica Practitioner
   rotate: false
-  xy: 652, 1092
+  xy: 760, 1092
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Field Medic
   rotate: false
-  xy: 112, 984
+  xy: 220, 984
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Fire Spellcaster
   rotate: false
-  xy: 328, 984
+  xy: 436, 984
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Forest Fairy
   rotate: false
-  xy: 760, 984
+  xy: 868, 984
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Forest Guardian
+  rotate: false
+  xy: 976, 984
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Great Wolf
   rotate: false
-  xy: 112, 876
+  xy: 328, 876
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Great Wolf Summon
   rotate: false
-  xy: 112, 876
+  xy: 328, 876
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Great Yamabushi
   rotate: false
-  xy: 220, 876
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Guardsman
-  rotate: false
   xy: 436, 876
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Gunboat
+UnitIcons/Griffin
   rotate: false
   xy: 544, 876
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
+UnitIcons/Guardsman
+  rotate: false
+  xy: 760, 876
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Gunboat
+  rotate: false
+  xy: 868, 876
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 UnitIcons/Hand Cannon
   rotate: false
-  xy: 976, 876
+  xy: 1516, 868
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Hokan
   rotate: false
-  xy: 1084, 818
+  xy: 112, 768
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Hopping Jiangshi
   rotate: false
-  xy: 1192, 818
+  xy: 220, 768
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Imperial Ashigaru
-  rotate: false
-  xy: 652, 768
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Imperial Cavalry
-  rotate: false
-  xy: 760, 768
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Imperial Samurai
-  rotate: false
-  xy: 868, 768
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Imperial Sohei
+UnitIcons/Ice Fairy
   rotate: false
   xy: 976, 768
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
+UnitIcons/Imperial Ashigaru
+  rotate: false
+  xy: 1300, 760
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Imperial Cavalry
+  rotate: false
+  xy: 1408, 760
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Imperial Griffin
+  rotate: false
+  xy: 1516, 760
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Imperial Samurai
+  rotate: false
+  xy: 1624, 760
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Imperial Sohei
+  rotate: false
+  xy: 1732, 744
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 UnitIcons/Jiangshi Familiar
   rotate: false
-  xy: 1084, 710
+  xy: 328, 660
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Keukegen
   rotate: false
-  xy: 112, 660
+  xy: 652, 660
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Kitsune Summon
   rotate: false
-  xy: 760, 660
+  xy: 1516, 652
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Lake Fairy
+  rotate: false
+  xy: 1084, 602
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Maiden Settler
   rotate: false
-  xy: 544, 552
+  xy: 1408, 544
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Maiden Worker
   rotate: false
-  xy: 652, 552
+  xy: 1516, 544
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Marksman
   rotate: false
-  xy: 976, 552
+  xy: 1840, 528
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Mountain Hermit
   rotate: false
-  xy: 868, 444
+  xy: 1732, 420
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Musketmen Fleet
   rotate: false
-  xy: 1300, 436
+  xy: 1084, 386
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Ninja
   rotate: false
-  xy: 328, 336
+  xy: 976, 336
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Noble Cavalry
   rotate: false
-  xy: 652, 336
+  xy: 1516, 328
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Noble Griffin
+  rotate: false
+  xy: 1624, 328
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Noble Samurai
   rotate: false
-  xy: 760, 336
+  xy: 1732, 312
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Odzutsu
   rotate: false
-  xy: 868, 336
+  xy: 1840, 312
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Ordinary Magician
   rotate: false
-  xy: 1192, 278
+  xy: 652, 228
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Palace Guard
   rotate: false
-  xy: 436, 228
+  xy: 1408, 220
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Patrol
   rotate: false
-  xy: 760, 228
+  xy: 1732, 204
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Physician
   rotate: false
-  xy: 1840, 204
+  xy: 436, 120
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Possessing Phantom
   rotate: false
-  xy: 1192, 170
+  xy: 652, 120
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Ramming Vessel
   rotate: false
-  xy: 868, 120
+  xy: 1840, 96
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Recruit
   rotate: false
-  xy: 976, 120
+  xy: 1084, 62
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Relinquisher Of Land
   rotate: false
-  xy: 1840, 96
+  xy: 436, 12
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Roaming Jiangshi
   rotate: false
-  xy: 220, 12
+  xy: 976, 12
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Ronin
   rotate: false
-  xy: 328, 12
+  xy: 1300, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Royal Ashigaru
   rotate: false
-  xy: 436, 12
+  xy: 1408, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Royal Cavalry
   rotate: false
-  xy: 544, 12
+  xy: 1516, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Royal Guard
+UnitIcons/Royal Griffin
   rotate: false
-  xy: 652, 12
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Royal Samurai
-  rotate: false
-  xy: 760, 12
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Royal Sentinel
-  rotate: false
-  xy: 868, 12
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Samurai
-  rotate: false
-  xy: 1300, 4
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Samurai Cavalry
-  rotate: false
-  xy: 1408, 4
+  xy: 1624, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -2616,105 +2623,98 @@ UnitPromotionIcons/Doll Construct
   index: -1
 UnitPromotionIcons/Fairy
   rotate: false
-  xy: 1408, 1084
+  xy: 1516, 1084
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Human Race
   rotate: false
-  xy: 328, 768
+  xy: 652, 768
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Hunter
   rotate: false
-  xy: 544, 768
+  xy: 868, 768
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Jiangshi
   rotate: false
-  xy: 1840, 744
+  xy: 220, 660
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Kappa
   rotate: false
-  xy: 1192, 710
+  xy: 436, 660
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Kitsune
   rotate: false
-  xy: 652, 660
+  xy: 1408, 652
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Lunarian
   rotate: false
-  xy: 220, 552
+  xy: 868, 552
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Martial Arts
   rotate: false
-  xy: 1300, 544
+  xy: 1084, 494
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Mermaid
   rotate: false
-  xy: 1732, 528
+  xy: 220, 444
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Mermaid Net
   rotate: false
-  xy: 1840, 528
+  xy: 328, 444
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Oni
   rotate: false
-  xy: 1732, 312
+  xy: 328, 228
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Phantasm
   rotate: false
-  xy: 1408, 220
+  xy: 4, 128
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Phantom
   rotate: false
-  xy: 1516, 220
+  xy: 112, 120
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Refine Armor
   rotate: false
-  xy: 1300, 112
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Satori Race
-  rotate: false
-  xy: 1516, 4
+  xy: 1192, 62
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -2732,338 +2732,352 @@ size: 2048, 1024
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
-BuildingIcons/Scarlet Devil Mansion
-  rotate: false
-  xy: 4, 912
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Sculpture
-  rotate: false
-  xy: 112, 912
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Secret Hermit World
+BuildingIcons/Ruins Of Vina
   rotate: false
   xy: 4, 696
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Shining Needle Sword
-  rotate: false
-  xy: 436, 912
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Spirit-Repelling Grounds
-  rotate: false
-  xy: 328, 588
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Spiritual Home
-  rotate: false
-  xy: 436, 696
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Statue Of The Chicken Goddess
-  rotate: false
-  xy: 112, 264
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Steel Factory
-  rotate: false
-  xy: 220, 372
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Storehouse
-  rotate: false
-  xy: 328, 480
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Suzunaan
-  rotate: false
-  xy: 436, 588
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/System
-  rotate: false
-  xy: 544, 696
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Taoist Mausoleum
-  rotate: false
-  xy: 4, 48
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Taoist Temple
-  rotate: false
-  xy: 112, 156
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Tea Ceremony
-  rotate: false
-  xy: 220, 264
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Tea House
-  rotate: false
-  xy: 328, 372
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/The Heart Sutra
-  rotate: false
-  xy: 112, 48
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Torii Gate
-  rotate: false
-  xy: 652, 588
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Town Square
-  rotate: false
-  xy: 976, 912
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Twilight Bar Room
-  rotate: false
-  xy: 328, 156
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Underground Geyser Center
-  rotate: false
-  xy: 544, 372
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Underground Mines
-  rotate: false
-  xy: 652, 480
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Warmth Of Spring
-  rotate: false
-  xy: 544, 264
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Water Wheel
-  rotate: false
-  xy: 1084, 804
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Wicked Taoism
-  rotate: false
-  xy: 1192, 912
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Winery
-  rotate: false
-  xy: 652, 264
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Wrath Of The Superior
-  rotate: false
-  xy: 1084, 696
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Yakumo Residence
-  rotate: false
-  xy: 1192, 804
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-NationIcons/Senkai Principality
+BuildingIcons/Scarlet Basement
   rotate: false
   xy: 112, 696
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/Shining Needle Castle
+BuildingIcons/Scarlet Devil Mansion
   rotate: false
-  xy: 328, 804
+  xy: 220, 804
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/Tengu Union
+BuildingIcons/Sculpture
   rotate: false
-  xy: 544, 588
+  xy: 4, 480
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/The Borderless Realm
+BuildingIcons/Secret Hermit World
   rotate: false
-  xy: 760, 804
+  xy: 112, 588
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/The Netherworld
+BuildingIcons/Shining Needle Sword
   rotate: false
-  xy: 220, 156
+  xy: 112, 372
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-PolicyIcons/Totalitarianism
+BuildingIcons/Spirit-Repelling Grounds
   rotate: false
-  xy: 760, 696
+  xy: 436, 588
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-ReligionIcons/Sect Shinto
+BuildingIcons/Spiritual Home
   rotate: false
-  xy: 112, 804
+  xy: 544, 696
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-ReligionIcons/Shrine Shinto
+BuildingIcons/Statue Of The Chicken Goddess
   rotate: false
-  xy: 220, 588
+  xy: 112, 156
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-ResourceIcons/Wonder Slot
+BuildingIcons/Steel Factory
   rotate: false
-  xy: 868, 480
+  xy: 220, 264
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-TechIcons/Scientific Knowledge
+BuildingIcons/Storehouse
   rotate: false
-  xy: 4, 804
+  xy: 328, 372
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-TechIcons/Self-Discovery
-  rotate: false
-  xy: 220, 912
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TechIcons/Shield Wall
-  rotate: false
-  xy: 220, 696
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TechIcons/Shogunate
-  rotate: false
-  xy: 112, 480
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TechIcons/Simple Alchemy
-  rotate: false
-  xy: 436, 804
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TechIcons/State Government
-  rotate: false
-  xy: 4, 156
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TechIcons/Technology Limit
+BuildingIcons/Suzunaan
   rotate: false
   xy: 436, 480
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-TechIcons/Things To Know
+BuildingIcons/System
   rotate: false
-  xy: 544, 480
+  xy: 544, 588
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-TechIcons/Vassal States
+BuildingIcons/Taoist Mausoleum
+  rotate: false
+  xy: 868, 912
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Taoist Temple
+  rotate: false
+  xy: 112, 48
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Tea Ceremony
+  rotate: false
+  xy: 220, 156
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Tea House
+  rotate: false
+  xy: 328, 264
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/The Heart Sutra
+  rotate: false
+  xy: 976, 912
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Torii Gate
+  rotate: false
+  xy: 652, 480
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Town Square
   rotate: false
   xy: 976, 804
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
+BuildingIcons/Twilight Bar Room
+  rotate: false
+  xy: 328, 48
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Underground Geyser Center
+  rotate: false
+  xy: 544, 264
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Underground Mines
+  rotate: false
+  xy: 652, 372
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Warmth Of Spring
+  rotate: false
+  xy: 544, 156
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Water Wheel
+  rotate: false
+  xy: 1084, 696
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Wicked Taoism
+  rotate: false
+  xy: 1192, 804
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Winery
+  rotate: false
+  xy: 652, 156
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Wrath Of The Superior
+  rotate: false
+  xy: 1084, 588
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Yakumo Residence
+  rotate: false
+  xy: 1192, 696
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Senkai Principality
+  rotate: false
+  xy: 4, 372
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Shining Needle Castle
+  rotate: false
+  xy: 4, 264
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Tengu Union
+  rotate: false
+  xy: 544, 480
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/The Borderless Realm
+  rotate: false
+  xy: 760, 696
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/The Netherworld
+  rotate: false
+  xy: 220, 48
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Totalitarianism
+  rotate: false
+  xy: 760, 588
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ReligionIcons/Sect Shinto
+  rotate: false
+  xy: 220, 696
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ReligionIcons/Shrine Shinto
+  rotate: false
+  xy: 436, 696
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Wonder Slot
+  rotate: false
+  xy: 868, 372
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Scientific Knowledge
+  rotate: false
+  xy: 328, 912
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Self-Discovery
+  rotate: false
+  xy: 328, 804
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Shield Wall
+  rotate: false
+  xy: 544, 912
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Shogunate
+  rotate: false
+  xy: 328, 588
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Simple Alchemy
+  rotate: false
+  xy: 652, 912
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/State Government
+  rotate: false
+  xy: 4, 48
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Technology Limit
+  rotate: false
+  xy: 436, 372
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Things To Know
+  rotate: false
+  xy: 544, 372
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Vassal States
+  rotate: false
+  xy: 976, 696
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 TechIcons/Woodblock Printing
   rotate: false
-  xy: 976, 588
+  xy: 976, 480
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Yama's Permission
   rotate: false
-  xy: 1300, 912
+  xy: 1300, 804
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/ZUN's Perfect Beer
   rotate: false
-  xy: 1408, 912
+  xy: 1408, 804
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -3077,315 +3091,315 @@ TileSets/FantasyHex/Tiles/Bamboo Forest
   index: -1
 TileSets/FantasyHex/Tiles/Bamboo Forest+Bamboo Garden
   rotate: false
-  xy: 1408, 808
+  xy: 1084, 376
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Bamboo Forest+Ninja's House
   rotate: false
-  xy: 1516, 912
+  xy: 1192, 484
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Barricades
   rotate: false
-  xy: 1480, 876
+  xy: 760, 49
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Chikushokai
   rotate: false
-  xy: 1300, 698
+  xy: 1300, 590
   size: 32, 34
   orig: 32, 34
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Citadel
   rotate: false
-  xy: 44, 8
+  xy: 1408, 700
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/City center-Edo period
   rotate: false
-  xy: 84, 8
+  xy: 1948, 912
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/City center-Meiji era
   rotate: false
-  xy: 84, 8
+  xy: 1948, 912
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/City center-Modern era
   rotate: false
-  xy: 84, 8
+  xy: 1948, 912
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/City center-Present era
   rotate: false
-  xy: 84, 8
+  xy: 1948, 912
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/City center-Youkai Expansion Project
   rotate: false
-  xy: 84, 8
+  xy: 1948, 912
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Forest Of Magic
   rotate: false
-  xy: 124, 8
+  xy: 1804, 811
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Garden Of The Sun
   rotate: false
-  xy: 164, 8
+  xy: 44, 8
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Giant Toad's Pond
   rotate: false
-  xy: 760, 157
+  xy: 1948, 876
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Grassland+Chikushokai+Friendship With Wild Beasts
   rotate: false
-  xy: 832, 219
+  xy: 832, 111
   size: 32, 37
   orig: 32, 37
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Grassland+Chikushokai+Reichoen
   rotate: false
-  xy: 204, 6
+  xy: 84, 6
   size: 32, 34
   orig: 32, 34
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Grassland+Forest+Barricades
   rotate: false
-  xy: 244, 8
+  xy: 124, 8
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Grassland+Forest+Doll Lumber House
   rotate: false
-  xy: 284, 9
+  xy: 164, 9
   size: 32, 31
   orig: 32, 31
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Grassland+Hill+Forest+Doll Lumber House
   rotate: false
-  xy: 324, 12
+  xy: 204, 12
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Grassland+Jungle+Barricades
   rotate: false
-  xy: 1372, 764
+  xy: 940, 224
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Keystone
   rotate: false
-  xy: 364, 8
+  xy: 940, 184
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Makai
   rotate: false
-  xy: 404, 4
+  xy: 1048, 328
   size: 32, 36
   orig: 32, 36
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Misty Lake
   rotate: false
-  xy: 444, 12
+  xy: 244, 12
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Nameless Hill
   rotate: false
-  xy: 484, 8
+  xy: 1156, 440
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Plains+Forest+Barricades
   rotate: false
-  xy: 524, 8
+  xy: 1264, 548
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Plains+Forest+Doll Lumber House
   rotate: false
-  xy: 564, 9
+  xy: 284, 9
   size: 32, 31
   orig: 32, 31
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Plains+Hill+Forest+Doll Lumber House
   rotate: false
-  xy: 604, 12
+  xy: 324, 12
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Plains+Jungle+Barricades
   rotate: false
-  xy: 1448, 808
+  xy: 1372, 656
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Relinquished Land Ownership
   rotate: false
-  xy: 1412, 768
+  xy: 1480, 764
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Saigyou Ayakashi
   rotate: false
-  xy: 1452, 764
+  xy: 1520, 761
   size: 32, 36
   orig: 32, 36
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Tundra+Forest+Barricades
   rotate: false
-  xy: 1556, 912
+  xy: 364, 8
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Tundra+Forest+Doll Lumber House
   rotate: false
-  xy: 1520, 873
+  xy: 404, 9
   size: 32, 31
   orig: 32, 31
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Tundra+Hill+Forest+Doll Lumber House
   rotate: false
-  xy: 1596, 916
+  xy: 444, 9
   size: 32, 31
   orig: 32, 31
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Youkai Forest
   rotate: false
-  xy: 1560, 872
+  xy: 484, 8
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Youkai Mountain
   rotate: false
-  xy: 1600, 872
+  xy: 524, 4
   size: 32, 36
   orig: 32, 36
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Bamboo Forest
   rotate: false
-  xy: 652, 73
+  xy: 1516, 937
   size: 64, 75
   orig: 64, 75
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Barricades
   rotate: false
-  xy: 760, 193
+  xy: 760, 85
   size: 64, 63
   orig: 64, 63
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Chikushokai
   rotate: false
-  xy: 868, 289
+  xy: 868, 181
   size: 64, 75
   orig: 64, 75
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Citadel
   rotate: false
-  xy: 976, 405
+  xy: 976, 297
   size: 64, 67
   orig: 64, 67
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/City center
   rotate: false
-  xy: 1084, 524
+  xy: 1084, 416
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/City center-Hakurei Faction
   rotate: false
-  xy: 1192, 632
+  xy: 1192, 524
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/City center-Moriya Faction
   rotate: false
-  xy: 1192, 632
+  xy: 1192, 524
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/City center-Myouren-Faction
   rotate: false
-  xy: 1300, 740
+  xy: 1300, 632
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/City center-Senkai
   rotate: false
-  xy: 1300, 740
+  xy: 1300, 632
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Doll Lumber House
   rotate: false
-  xy: 1408, 848
+  xy: 1408, 740
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Forest Of Magic
   rotate: false
-  xy: 1516, 952
+  xy: 1516, 869
   size: 64, 60
   orig: 64, 60
   offset: 0, 0
@@ -3399,385 +3413,427 @@ TileSets/HexaRealm/Tiles/Garden Of The Sun
   index: -1
 TileSets/HexaRealm/Tiles/Giant Toad's Pond
   rotate: false
-  xy: 1660, 956
+  xy: 1516, 805
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Grassland+Chikushokai+Friendship With Wild Beasts
   rotate: false
-  xy: 1732, 937
+  xy: 1588, 872
   size: 64, 75
   orig: 64, 75
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Grassland+Chikushokai+Reichoen
   rotate: false
-  xy: 1804, 930
+  xy: 1660, 930
   size: 64, 82
   orig: 64, 82
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Keystone
   rotate: false
-  xy: 1876, 956
+  xy: 1588, 808
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Makai
   rotate: false
-  xy: 1948, 919
+  xy: 1660, 829
   size: 64, 93
   orig: 64, 93
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Misty Lake
   rotate: false
-  xy: 1876, 888
+  xy: 1732, 952
   size: 64, 60
   orig: 64, 60
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Nameless Hill
   rotate: false
-  xy: 1084, 451
+  xy: 1732, 879
   size: 64, 65
   orig: 64, 65
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Plains+Bamboo Forest+Bamboo Garden
   rotate: false
-  xy: 724, 73
+  xy: 1804, 937
   size: 64, 75
   orig: 64, 75
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Plains+Bamboo Forest+Ninja's House
   rotate: false
-  xy: 940, 289
+  xy: 1876, 937
   size: 64, 75
   orig: 64, 75
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Relinquished Land Ownership
   rotate: false
-  xy: 1192, 564
+  xy: 1948, 952
   size: 64, 60
   orig: 64, 60
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Saigyou Ayakashi
   rotate: false
-  xy: 1264, 610
+  xy: 1804, 851
   size: 64, 78
   orig: 64, 78
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Youkai Forest
   rotate: false
-  xy: 1264, 539
+  xy: 1732, 808
   size: 64, 63
   orig: 64, 63
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Youkai Mountain
   rotate: false
-  xy: 1156, 480
+  xy: 1876, 853
   size: 64, 76
   orig: 64, 76
   offset: 0, 0
   index: -1
+UnitIcons/Royal Guard
+  rotate: false
+  xy: 4, 912
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Royal Samurai
+  rotate: false
+  xy: 4, 804
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Royal Sentinel
+  rotate: false
+  xy: 112, 912
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Samurai
+  rotate: false
+  xy: 112, 804
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Samurai Cavalry
+  rotate: false
+  xy: 220, 912
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 UnitIcons/Senjutsu Practitioner
   rotate: false
-  xy: 4, 588
+  xy: 436, 912
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Serviceman
   rotate: false
-  xy: 220, 804
+  xy: 112, 480
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Shadow Ninja
   rotate: false
-  xy: 328, 912
+  xy: 220, 588
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Shanghai Labor Doll
   rotate: false
-  xy: 4, 480
+  xy: 328, 696
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Sharpshooter
   rotate: false
-  xy: 112, 588
+  xy: 436, 804
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Ship-Sinking Mermaid
   rotate: false
-  xy: 4, 372
+  xy: 220, 480
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Shuten Doji Summon
   rotate: false
-  xy: 328, 696
+  xy: 544, 804
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Sohei Soldier
   rotate: false
-  xy: 4, 264
+  xy: 112, 264
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Solitary Saint
   rotate: false
-  xy: 112, 372
+  xy: 220, 372
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Spy
   rotate: false
-  xy: 544, 804
+  xy: 652, 804
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Tamed Beast
   rotate: false
-  xy: 652, 804
+  xy: 652, 696
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Tanegashima
   rotate: false
-  xy: 760, 912
+  xy: 760, 804
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/The Biggest Dumpling
   rotate: false
-  xy: 652, 696
+  xy: 652, 588
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/The Greatest Dango
   rotate: false
-  xy: 868, 912
+  xy: 868, 804
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/The Softest Rice Ball
   rotate: false
-  xy: 328, 264
+  xy: 328, 156
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/The Tastiest Sashimi
   rotate: false
-  xy: 436, 372
+  xy: 436, 264
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Totsunyuukan
   rotate: false
-  xy: 868, 804
+  xy: 868, 696
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Tree Dweller
   rotate: false
-  xy: 220, 48
+  xy: 1084, 912
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Undercover
   rotate: false
-  xy: 436, 264
+  xy: 436, 156
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Vampire Hunter
   rotate: false
-  xy: 868, 696
+  xy: 868, 588
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Vengeful Spirit
   rotate: false
-  xy: 1084, 912
+  xy: 1084, 804
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Veteran Ronin
   rotate: false
-  xy: 328, 48
+  xy: 1192, 912
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/War Vessel
   rotate: false
-  xy: 436, 156
+  xy: 436, 48
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Warrior
   rotate: false
-  xy: 652, 372
+  xy: 652, 264
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Warrior Monk
   rotate: false
-  xy: 760, 480
+  xy: 760, 372
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Warship
   rotate: false
-  xy: 868, 588
+  xy: 868, 480
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Water Spellcaster
   rotate: false
-  xy: 976, 696
+  xy: 976, 588
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Wild Beast
   rotate: false
-  xy: 436, 48
+  xy: 1300, 912
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Youjutsu Master
   rotate: false
-  xy: 544, 48
+  xy: 1408, 912
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Youjutsu Practitioner
   rotate: false
-  xy: 652, 156
+  xy: 652, 48
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Youkai Hunter
   rotate: false
-  xy: 868, 372
+  xy: 868, 264
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Youkai Patrol
   rotate: false
-  xy: 976, 480
+  xy: 976, 372
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Youkai Slayer
   rotate: false
-  xy: 1084, 588
+  xy: 1084, 480
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Yume no Seirei
   rotate: false
-  xy: 1192, 696
+  xy: 1192, 588
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Yumi Samurai
   rotate: false
-  xy: 1300, 804
+  xy: 1300, 696
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Satori Race
+  rotate: false
+  xy: 4, 588
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Sniper
   rotate: false
-  xy: 544, 912
+  xy: 4, 156
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Spirit
   rotate: false
-  xy: 220, 480
+  xy: 328, 480
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Stab Third Eye
   rotate: false
-  xy: 652, 912
+  xy: 760, 912
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Vampire
   rotate: false
-  xy: 760, 588
+  xy: 760, 480
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Willpower
   rotate: false
-  xy: 544, 156
+  xy: 544, 48
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Winged
   rotate: false
-  xy: 760, 372
+  xy: 760, 264
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Youkai
   rotate: false
-  xy: 760, 264
+  xy: 760, 156
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
