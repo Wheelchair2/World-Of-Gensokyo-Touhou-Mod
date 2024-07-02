@@ -4,7 +4,8 @@
         "name":"Kaguya White",
         "uniques": [
            //"Only available <when number of [turns] is greater than [5]>",
-            "Unavailable <if [Card Holder] is constructed>"
+            "Unavailable <if [Card Holder] is constructed>",
+			"Unavailable <for [City-states]>"
         ],
 		"civilopediaText":[
 			{"text":"Pick an Ability Card of Your Choice", "centered":true, "header":2,"color": "#FB6B94"},
@@ -165,7 +166,8 @@
         "name":"Kaguya Black",
         "uniques": [
            //"Only available <when number of [turns] is greater than [5]>",
-            "Unavailable <if [Card Holder] is constructed>"
+            "Unavailable <if [Card Holder] is constructed>",
+			"Unavailable <for [City-states]>"
         ],
 		"civilopediaText":[
 			{"text":"Pick an Ability Card of Your Choice", "centered":true, "header":2,"color": "#FB6B94"},
