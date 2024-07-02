@@ -356,7 +356,7 @@
 		"obsoleteTech": "Shogunate",
 		"upgradesTo": "Noble Cavalry",
 		"requiredResource": "Horses",
-		"attackSound": "metalhit",
+		"attackSound": "horses",
         "uniques": ["Armor", "Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "[+100]% Strength <vs [Ranged] units> <when attacking>", "Never appears as a Barbarian unit"]
 	},
 	
@@ -548,7 +548,7 @@
 		"requiredTech": "Shogunate",
 		"obsoleteTech": "Military Predominance",
 		"requiredResource": "Horses",
-		"attackSound": "metalhit",
+		"attackSound": "horse",
         "uniques": ["Armor", "Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "[+100]% Strength <vs [Ranged] units> <when attacking>", "Never appears as a Barbarian unit"]
 	},
 	{
@@ -603,7 +603,7 @@
 		"obsoleteTech": "Military Science",
 		"upgradesTo": "Royal Cavalry",
 		"requiredResource": "Horses",
-		"attackSound": "metalhit",
+		"attackSound": "horse",
         "uniques": ["Armor", "Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "[+100]% Strength <vs [Ranged] units> <when attacking>", "Never appears as a Barbarian unit"]
 	},
 	{
@@ -649,7 +649,7 @@
 		"cost": 550,
 		"requiredTech": "Military Science",
 		"requiredResource": "Horses",
-		"attackSound": "metalhit",
+		"attackSound": "horse",
 		"promotions": ["[Royal Cavalry] ability"],
         "uniques": ["Armor", "Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "[+100]% Strength <vs [Ranged] units> <when attacking>", "Never appears as a Barbarian unit"]
 	},
