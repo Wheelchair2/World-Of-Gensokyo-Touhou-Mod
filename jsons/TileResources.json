@@ -269,7 +269,7 @@
             {"extraImage":"Offerings To A Sacred Mountain", "imageSize":180}, //card image
 		],
 		"resourceType": "Luxury",
-		"uniques": ["Not shown on world screen", "[+1 Gold] from [Mountain] tiles [in all cities]", "[+1] Sight <for [Scout] units>", "Comment [(Cards don't give any Happiness, except in Easy difficulty)]", "[-4 Happiness] <hidden from users>", "Excluded from map editor"]
+		"uniques": ["Not shown on world screen", "[+1 Gold, +2 Production, +2 Food] from [Mountain] tiles [in all cities]", "[+1] Sight <for [Scout] units>", "Comment [(Cards don't give any Happiness, except in Easy difficulty)]", "[-4 Happiness] <hidden from users>", "Excluded from map editor"]
 	},
 	{
 		"name": "Ability Card; Sutra Of Dharmatic Power",
@@ -294,7 +294,7 @@
 			{"text":"Card - Screen Border", "header":5,"color": "#FDFF88", "link": "Promotions/Card - Screen Border"}
 		],
 		"resourceType": "Luxury",
-		"uniques": ["Not shown on world screen", "Comment [Scout units gain the [Card - Screen Border] promotion]", "[Scout] units gain the [Card - Screen Border] promotion <hidden from users>", "Comment [(Cards don't give any Happiness, except in Easy difficulty)]", "[-4 Happiness] <hidden from users>", "Excluded from map editor"]
+		"uniques": ["Not shown on world screen", "[-10]% Culture cost of natural border growth [in all cities]", "Comment [Scout units gain the [Card - Screen Border] promotion]", "[Scout] units gain the [Card - Screen Border] promotion <hidden from users>", "Comment [(Cards don't give any Happiness, except in Easy difficulty)]", "[-4 Happiness] <hidden from users>", "Excluded from map editor"]
 	},
 	{
 		"name": "Ability Card; Miracle Mallet",
@@ -343,7 +343,7 @@
             {"extraImage":"Ice Fairy", "imageSize":180}, //card image
 		],
 		"resourceType": "Luxury",
-		"uniques": ["Not shown on world screen", "[+15]% Strength <when defending> <for [Military] units> <in [Snow] tiles>", "[+10]% Strength <when defending> <for [Military] units> <in [Tundra] tiles>", "Comment [(Cards don't give any Happiness, except in Easy difficulty)]", "[-4 Happiness] <hidden from users>", "Excluded from map editor"]
+		"uniques": ["Not shown on world screen", "[+2 Food] from [Snow] tiles [in all cities]", "[+1 Food] from [Tundra] tiles [in all cities]", "Comment [(Cards don't give any Happiness, except in Easy difficulty)]", "[-4 Happiness] <hidden from users>", "Excluded from map editor"]
 	},
 	{
 		"name": "Ability Card; Beauty Of Destruction",
@@ -369,7 +369,7 @@
 			{"text":"Card - Smelt's Scales", "header":5,"color": "#FDFF88", "link": "Promotions/Card - Smelt's Scales"}
 		],
 		"resourceType": "Luxury",
-		"uniques": ["Not shown on world screen", "Comment [Melee units gain the [Card - Smelt's Scales] promotion]", "[Melee] units gain the [Card - Smelt's Scales] promotion <hidden from users>", "Comment [(Cards don't give any Happiness, except in Easy difficulty)]", "[-4 Happiness] <hidden from users>", "Excluded from map editor"]
+		"uniques": ["Not shown on world screen", "[+1 Culture] from [Water resource] tiles [in all cities]", "Comment [Melee units gain the [Card - Smelt's Scales] promotion]", "[Melee] units gain the [Card - Smelt's Scales] promotion <hidden from users>", "Comment [(Cards don't give any Happiness, except in Easy difficulty)]", "[-4 Happiness] <hidden from users>", "Excluded from map editor"]
 	},
 	{
 		"name": "Ability Card; Pebble Hat",
@@ -378,7 +378,7 @@
 			{"text":"Card - Pebble Hat", "header":5,"color": "#FDFF88", "link": "Promotions/Card - Pebble Hat"}
 		],
 		"resourceType": "Luxury",
-		"uniques": ["Not shown on world screen", "Comment [Scout units gain the [Card - Pebble Hat] promotion]", "[Scout] units gain the [Card - Pebble Hat] promotion <hidden from users>", "Comment [(Cards don't give any Happiness, except in Easy difficulty)]", "[-4 Happiness] <hidden from users>", "Excluded from map editor"],
+		"uniques": ["Not shown on world screen", "[+1] Movement <for [Scout] units>", "Comment [Scout units gain the [Card - Pebble Hat] promotion]", "[Scout] units gain the [Card - Pebble Hat] promotion <hidden from users>", "Comment [(Cards don't give any Happiness, except in Easy difficulty)]", "[-4 Happiness] <hidden from users>", "Excluded from map editor"],
 	},
 	{
 		"name": "Ability Card; Princess Kaguya's Secret Stash", 
@@ -398,8 +398,8 @@
 		],
 		"resourceType": "Luxury",
 		"uniques": ["Not shown on world screen",
+			"[+1 Happiness] [in all cities]",
 			"Comment [Gain 250 [Gold] upon entering a Golden Age]",
-			"Comment [Empire enters a 3-turn Golden Age upon discovering a Natural Wonder]",
 			"Comment [(Cards don't give any Happiness, except in Easy difficulty)]",
 			"[-4 Happiness] <hidden from users>", "Excluded from map editor"]
 	},
