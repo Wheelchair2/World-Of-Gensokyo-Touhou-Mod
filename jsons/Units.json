@@ -98,17 +98,17 @@
 		"uniques": ["Never appears as a Barbarian unit"]
 	},
     { //Baka unique
-		"name": "Tree Dweller",
+		"name": "Lake Fairy",
         "uniqueTo": "Fairy Alliance",
         "replaces": "Scout",
 		"unitType": "Scout",
 		"movement": 3,
-		"strength": 5,
+		"strength": 6,
 		"cost": 30,
 		"obsoleteTech": "Paid Service",
 		"upgradesTo": "Patrol",
 		"attackSound": "nonmetalhit",
-		"uniques": ["Never appears as a Barbarian unit", "Double movement in [Forest]", "Double movement in [Jungle]"]
+		"uniques": ["Never appears as a Barbarian unit", "May travel on Water tiles without embarking"]
 	},
 	{ //Dayousei unique
 		"name": "Forest Fairy",
@@ -192,7 +192,7 @@
 		"requiredTech": "Paid Service",
 		"upgradesTo": "Ashigaru Spearman",
 		"attackSound": "nonmetalhit",
-		"uniques": ["[+55]% Strength <vs [Mounted] units>", "Never appears as a Barbarian unit"]
+		"uniques": ["[+70]% Strength <vs [Mounted] units>", "Never appears as a Barbarian unit"]
 	},
 	{ //Human Village unique
 		"name": "Youkai Hunter",
@@ -234,6 +234,34 @@
 		"uniques": ["Never appears as a Barbarian unit"]
 	},
 	{
+		"name": "Ice Fairy",
+		"replaces": "Patrol",
+		"uniqueTo": "Fairy Alliance",
+		"unitType": "Scout",
+		"movement": 3,
+		"strength": 13,
+		"cost": 60,
+		"attackSound": "nonmetalhit",
+		"requiredTech": "Paid Service",
+		"obsoleteTech": "Law Enforcement",
+		"upgradesTo": "Undercover",
+		"uniques": ["Never appears as a Barbarian unit", "May travel on Water tiles without embarking", "[+15]% Strength <when fighting in [Snow] tiles>", "[+15]% Strength <when fighting in [Tundra] tiles>", "[+15]% Strength <when fighting in [Water] tiles>"]
+	},
+	{
+		"name": "Forest Guardian",
+		"replaces": "Patrol",
+		"uniqueTo": "Fairy Kingdom",
+		"unitType": "Scout",
+		"movement": 3,
+		"strength": 11,
+		"cost": 48,
+		"attackSound": "nonmetalhit",
+		"requiredTech": "Paid Service",
+		"obsoleteTech": "Law Enforcement",
+		"upgradesTo": "Undercover",
+		"uniques": ["Never appears as a Barbarian unit", "Double movement in [Forest]", "Double movement in [Jungle]"]
+	},
+	{
 		"name": "Longbowman",
 		"unitType": "Archery",
 		"movement": 2,
@@ -260,7 +288,7 @@
 		"obsoleteTech": "Metal Casting",
 		"requiredTech": "Professional Army",
 		"upgradesTo": "Ashigaru Pikeman",
-		"uniques": ["Ashigaru", "[+55]% Strength <vs [Mounted] units>"],
+		"uniques": ["Ashigaru", "[+70]% Strength <vs [Mounted] units>"],
 		"attackSound": "metalhit"
 	},
 	{ //Human Village unique
@@ -303,7 +331,7 @@
 		"requiredTech": "Metal Casting",
 		"attackSound": "metalhit",
 		"upgradesTo": "Ashigaru Infantry",
-        "uniques": ["Ashigaru", "[+55]% Strength <vs [Mounted] units>", "Never appears as a Barbarian unit"]
+        "uniques": ["Ashigaru", "[+70]% Strength <vs [Mounted] units>", "Never appears as a Barbarian unit"]
 	},
 	{
 		"name": "Samurai",
@@ -316,22 +344,6 @@
 		"requiredTech": "Iron Working",
 		"upgradesTo": "Elite Samurai",
 		"attackSound": "metalhit",
-        "uniques": ["Armor", "Never appears as a Barbarian unit", "[+25]% Strength <vs [Ashigaru] units>"]
-	},
-	{
-		"name": "Hopping Jiangshi",
-		"uniqueTo": "Land Of The Corpses",
-		"replaces": "Samurai",
-		"unitType": "Sword",
-		"movement": 2,
-		"strength": 18,
-		"cost": 100,
-		"obsoleteTech": "Metal Casting",
-		"requiredResource": "Iron",
-		"requiredTech": "Iron Working",
-		"upgradesTo": "Elite Samurai",
-		"attackSound": "metalhit",
-		"promotions": ["Jiangshi"],
         "uniques": ["Armor", "Never appears as a Barbarian unit", "[+25]% Strength <vs [Ashigaru] units>"]
 	},
 	{
@@ -412,6 +424,22 @@
 		"attackSound": "metalhit",
         "uniques": ["Armor", "[+25]% Strength <vs [Ashigaru] units>", "Never appears as a Barbarian unit"]
 	},
+	{
+		"name": "Hopping Jiangshi",
+		"replaces": "Elite Samurai",
+		"uniqueTo": "Land Of The Corpses",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 21,
+		"cost": 140,
+		"obsoleteTech": "Shogunate",
+		"requiredTech": "Metal Casting",
+		"upgradesTo": "Noble Samurai",
+		"attackSound": "metalhit",
+		"promotions": ["Jiangshi"],
+        "uniques": ["[+25]% Strength <vs [Human] units>", "Never appears as a Barbarian unit"]
+	},
+	
 	{ //Human Village unique
 		"name": "Youkai Slayer",
 		"uniqueTo": "Human Village",
@@ -449,7 +477,7 @@
 		"cost": 150,
 		"requiredTech": "Gunpowder",
 		"attackSound": "shot",
-		"uniques": ["[+50]% Strength <vs [Armor] units> <when attacking>", "[-100]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"]
+		"uniques": ["[+60]% Strength <vs [Armor] units> <when attacking>", "[-100]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"]
 	},
 	{
 		"name": "Field Medic",
@@ -495,7 +523,7 @@
 		"requiredTech": "Politics",
 		"obsoleteTech": "Military Logistics",
 		"attackSound": "metalhit",
-        "uniques": ["Ashigaru", "[+55]% Strength <vs [Mounted] units>", "Never appears as a Barbarian unit"]
+        "uniques": ["Ashigaru", "[+70]% Strength <vs [Mounted] units>", "Never appears as a Barbarian unit"]
 	},
 	{
 		"name": "Noble Samurai",
@@ -535,7 +563,7 @@
 		"upgradesTo": "Marksman",
 		"promotions": ["Extended Range"]
 		"attackSound": "shot",
-		"uniques": ["[+50]% Strength <vs [Armor] units> <when attacking>", "[-100]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"]
+		"uniques": ["[+60]% Strength <vs [Armor] units> <when attacking>", "[-100]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"]
 	},
 	
 	
@@ -550,7 +578,7 @@
 		"obsoleteTech": "Military Science",
 		"upgradesTo": "Royal Ashigaru",
 		"attackSound": "metalhit",
-        "uniques": ["Ashigaru", "[+55]% Strength <vs [Mounted] units>", "Never appears as a Barbarian unit"]
+        "uniques": ["Ashigaru", "[+70]% Strength <vs [Mounted] units>", "Never appears as a Barbarian unit"]
 	},
 	{
 		"name": "Imperial Samurai",
@@ -588,7 +616,7 @@
 		"requiredTech": "Nobility",
 		"promotions": ["Extended Range"],
 		"attackSound": "shot",
-		"uniques": ["[+50]% Strength <vs [Armor] units> <when attacking>", "[-100]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"]
+		"uniques": ["[+60]% Strength <vs [Armor] units> <when attacking>", "[-100]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"]
 	},
 	{
 		"name": "Royal Ashigaru",
@@ -599,7 +627,7 @@
 		"requiredTech": "Military Science",
 		"attackSound": "metalhit",
 		"promotions": ["[Royal Ashigaru] ability"],
-        "uniques": ["Ashigaru", "[+55]% Strength <vs [Mounted] units>", "Never appears as a Barbarian unit"]
+        "uniques": ["Ashigaru", "[+70]% Strength <vs [Mounted] units>", "Never appears as a Barbarian unit"]
 	},
 	{
 		"name": "Royal Samurai",
