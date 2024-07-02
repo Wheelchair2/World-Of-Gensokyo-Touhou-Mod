@@ -18,16 +18,6 @@
 		"cost": 1,
 		"uniques": ["Unsellable","Unbuildable","Provides [1] [Wonder Slot] <in cities with at least [5] [Population]>"],
 	},
-	/*
-	{
-		"name": "Card Trigger; Item Season",
-		"cost": 1,
-		"uniques": ["Unsellable","Unbuildable",
-			"Gain [250] [Gold] <upon entering a Golden Age>",
-			"Empire enters a [3]-turn Golden Age <upon discovering a Natural Wonder>",
-			]
-	},
-	*/
 	{
 		"name": "Monument",
 		"culture": 2,
@@ -1606,8 +1596,7 @@
 				"cost": 1,
 				"uniques": [
 				"Card Holder",
-				"Gain [250] [Gold] <upon entering a Golden Age>",
-				"Empire enters a [3]-turn Golden Age <upon discovering a Natural Wonder>",
+				"Gain [250] [Gold] <upon entering a Golden Age> <hidden from users>",
 				"Unbuildable", "Unsellable", "Will not be displayed in Civilopedia", "Provides [1] [Ability Card; Item Season]"
 				]
 			},
@@ -1641,7 +1630,7 @@
 				"cost": 1,
 				"uniques": [
 				"Card Holder",
-				"Gain [200]-[500] [Gold] <(modified by game speed)>",
+				"Gain [200]-[500] [Gold] <(modified by game speed)> <hidden from users>",
 				"Unbuildable", "Unsellable", "Will not be displayed in Civilopedia", "Provides [1] [Ability Card; Princess Kaguya's Secret Stash] <hidden from users>"]
 			},
 			{
@@ -1654,7 +1643,7 @@
 				"cost": 1,
 				"uniques": [
 				"Card Holder",
-				"[1] free [Shanghai Labor Doll] units appear",
+				"[1] free [Shanghai Labor Doll] units appear <hidden from users>",
 				"Unbuildable", "Unsellable", "Will not be displayed in Civilopedia", "Provides [1] [Ability Card; Shanghai Doll] <hidden from users>"]
 			},
 			{
