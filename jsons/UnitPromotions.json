@@ -540,7 +540,7 @@
 	{
 		"name": "Survivalism III",
 		"prerequisites": ["Survivalism II"],
-		"uniques": ["Unit will heal every turn, even if it performs an action", "May withdraw before melee <with [75]% chance>"], // This number is not based on any source
+		"uniques": ["Unit will heal every turn, even if it performs an action", "Withdraws before melee combat <with [75]% chance>"], // This number is not based on any source
 		"unitTypes": ["Scout"],
         "column": 9,
         "row": 3
@@ -1013,7 +1013,7 @@
     {
         "name": "Slinger Withdraw", // only for Slinger (doesn't exist in this mod as of now)
         "uniques": [
-            "May withdraw before melee <with [80]% chance>"
+            "Withdraws before melee combat <with [80]% chance>"
         ]
     },
     {
@@ -1064,8 +1064,8 @@
 			{"extraImage":"Great Tengu's Barley Rice", "imageSize":180},
 			{"text":"Ability Card; Great Tengu's Barley Rice", "header":5,"color": "#FDFF88", "link": "Resources/Ability Card; Great Tengu's Barley Rice"}
 		],
- 		"uniques": ["Comment [Megumu Iizunamaru's ability that gives movepoints for just bought units when you have this card. Why are you collecting Power after setting foot on the mountain? You should pack tons of food to begin with, and then set out.]",
-			"Can move immediately once bought <for [All] units>", "[+1] Movement <in [Mountain] tiles>",
+ 		"uniques": ["Comment [Megumu Iizunamaru's ability that gives move points for just bought units when you have this card, allowing them to enter [Mountain] tiles with +1 Movement. Why are you collecting Power after setting foot on the mountain? You should pack tons of food to begin with, and then set out.]",
+			"Can move immediately once bought <for [All] units>", "Can pass through impassable tiles", "[+1] Movement <in [Mountain] tiles>",
 		"This Unit loses the [Card - Great Tengu's Barley Rice] promotion <upon turn end> <without [Ability Card; Great Tengu's Barley Rice]>"]
 	},
 	/*Apparently I changed the Ice Fairy Card unique and it does not need this promotion anymore, so this would have to go
