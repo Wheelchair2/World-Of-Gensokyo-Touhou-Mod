@@ -824,7 +824,7 @@
 	{
 		"name": "Castle",
 		"cityStrength": 7,
-		"cityHealth": 50,
+		"cityHealth": 75,
 		"hurryCostModifier": 20,
 		"requiredTech": "Maintained Society",
 		"requiredBuilding": "Walls",
@@ -833,7 +833,7 @@
 	{
 		"name": "Fortress",
 		"cityStrength": 20,
-		"cityHealth": 50,
+		"cityHealth": 75,
 		"hurryCostModifier": 20,
 		"requiredTech": "Politics",
 		"requiredBuilding": "Castle",
@@ -842,7 +842,7 @@
 	{
 		"name": "High Walls",
 		"happiness": 2,
-		"cost": 75,
+		"cost": 100,
 		"cityHealth": 75,
 		"hurryCostModifier": 20,
 		"requiredTech": "Shogunate",
