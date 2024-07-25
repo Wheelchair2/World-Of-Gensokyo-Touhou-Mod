@@ -485,8 +485,8 @@
 		"columnNumber": 8,
 		"era": "Edo period",
 		"techCost": 780,
-		"buildingCost": 200,
-		"wonderCost": 500,
+		"buildingCost": 400,
+		"wonderCost": 1000,
 		"techs": [
 			{
 				"name": "Multicropping System",
@@ -519,8 +519,8 @@
 		"columnNumber": 9,
 		"era": "Edo period",
 		"techCost": 1000,
-		"buildingCost": 300,
-		"wonderCost": 750,
+		"buildingCost": 600,
+		"wonderCost": 1500,
 		"techs": [
 			{
 				"name": "Forage Crops Utilization",
@@ -550,8 +550,8 @@
 		"columnNumber": 10,
 		"era": "Edo period",
 		"techCost": 1550,
-		"buildingCost": 200,
-		"wonderCost": 250,
+		"buildingCost": 600,
+		"wonderCost": 1500,
 		"techs": [
 			{
 				"name": "Arts And Sculpture",
@@ -570,9 +570,9 @@
 	{
 		"columnNumber": 11,
 		"era": "Meiji era",
-		"techCost": 1900,
-		"buildingCost": 200,
-		"wonderCost": 300,
+		"techCost": 3800,
+		"buildingCost": 400,
+		"wonderCost": 600,
 		"techs": [
 			{
 				"name": "Technology Limit",
@@ -586,9 +586,9 @@
 	{
 		"columnNumber": 12,
 		"era": "Meiji era",
-		"techCost": 2500,
-		"buildingCost": 300,
-        "wonderCost": 750,
+		"techCost": 5000,
+		"buildingCost": 600,
+        "wonderCost": 1500,
 		"techs": [
 			/*
 			{
@@ -623,9 +623,9 @@
 	{
 		"columnNumber": 13,
 		"era": "Meiji era",
-		"techCost": 3100,
-		"buildingCost": 350,
-		"wonderCost": 900,
+		"techCost": 6800,
+		"buildingCost": 800,
+		"wonderCost": 2000,
 		"techs": [
 			{
 				"name": "Public Education",
@@ -660,9 +660,9 @@
 	{
 		"columnNumber": 14,
 		"era": "Meiji era",
-		"techCost": 6400,
-		"buildingCost": 500,
-		"wonderCost": 1060,
+		"techCost": 12800,
+		"buildingCost": 1000,
+		"wonderCost": 2000,
 		"techs": [
 			{
 				"name": "Woodblock Printing",
@@ -695,9 +695,9 @@
 	{
 		"columnNumber": 15,
 		"era": "Meiji era",
-		"techCost": 7700,
-		"buildingCost": 500,
-		"wonderCost": 1250,
+		"techCost": 15400,
+		"buildingCost": 1500,
+		"wonderCost": 2500,
 		"techs": [
 			{
 				"name": "Carpentry",
@@ -729,9 +729,9 @@
 	{
 		"columnNumber": 16,
 		"era": "Modern era",
-		"techCost": 8800,
-		"buildingCost": 750,
-		"wonderCost": 1250,
+		"techCost": 17600,
+		"buildingCost": 2000,
+		"wonderCost": 3000,
 		"techs": [
 			{
 				"name": "Outside World Awareness",
@@ -763,9 +763,9 @@
 	{
 		"columnNumber": 17,
 		"era": "Modern era",
-		"techCost": 9500,
-		"buildingCost": 750,
-		"wonderCost": 1250,
+		"techCost": 19000,
+		"buildingCost": 2000,
+		"wonderCost": 3000,
 		"techs": [
 			{
 				"name": "Forgotten Items",
@@ -796,9 +796,9 @@
 	{
 		"columnNumber": 18,
 		"era": "Present era",
-		"techCost": 10000,
-		"buildingCost": 750,
-		"wonderCost": 1250,
+		"techCost": 24000,
+		"buildingCost": 2500,
+		"wonderCost": 3500,
 		"techs": [
 			{
 				"name": "Medicine",
@@ -826,9 +826,9 @@
 	{
 		"columnNumber": 19,
 		"era": "Present era",
-		"techCost": 12000,
-		"buildingCost": 750,
-		"wonderCost": 1250,
+		"techCost": 30000,
+		"buildingCost": 2500,
+		"wonderCost": 3500,
 		"techs": [
 			{
 				"name": "ZUN's Perfect Beer",
