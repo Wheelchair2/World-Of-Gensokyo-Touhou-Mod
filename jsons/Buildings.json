@@ -843,7 +843,7 @@
 		"name": "High Walls",
 		"happiness": 2,
 		"cost": 75,
-		"cityHealth": 50,
+		"cityHealth": 75,
 		"hurryCostModifier": 20,
 		"requiredTech": "Shogunate",
 		"requiredBuilding": "Walls",
