@@ -369,7 +369,7 @@
 			{"text":"Card - Smelt's Scales", "header":5,"color": "#FDFF88", "link": "Promotions/Card - Smelt's Scales"}
 		],
 		"resourceType": "Luxury",
-		"uniques": ["Not shown on world screen", "[+1 Culture] from [Water resource] tiles [in all cities]", "Comment [Melee units gain the [Card - Smelt's Scales] promotion]", "[Melee] units gain the [Card - Smelt's Scales] promotion <hidden from users>", "Comment [(Cards don't give any Happiness, except in Easy difficulty)]", "[-4 Happiness] <hidden from users>", "Excluded from map editor"]
+		"uniques": ["Not shown on world screen", "[+2 Culture] from [Water resource] tiles [in all cities]", "Comment [Melee units gain the [Card - Smelt's Scales] promotion]", "[Melee] units gain the [Card - Smelt's Scales] promotion <hidden from users>", "Comment [(Cards don't give any Happiness, except in Easy difficulty)]", "[-4 Happiness] <hidden from users>", "Excluded from map editor"]
 	},
 	{
 		"name": "Ability Card; Pebble Hat",
