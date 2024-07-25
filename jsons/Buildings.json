@@ -470,7 +470,7 @@
 		"uniqueTo": "Human Village",
 		"replaces": "Walls",
 		"cityStrength": 7,
-		"cityHealth": 50,
+		"cityHealth": 100,
 		"hurryCostModifier": 25,
 		"requiredTech": "State Government",
 		"uniques": ["Destroyed when the city is captured"]
@@ -824,7 +824,7 @@
 	{
 		"name": "Castle",
 		"cityStrength": 7,
-		"cityHealth": 25,
+		"cityHealth": 75,
 		"hurryCostModifier": 20,
 		"requiredTech": "Maintained Society",
 		"requiredBuilding": "Walls",
@@ -832,8 +832,8 @@
 	},
 	{
 		"name": "Fortress",
-		"cityStrength": 5,
-		"cityHealth": 50,
+		"cityStrength": 20,
+		"cityHealth": 100,
 		"hurryCostModifier": 20,
 		"requiredTech": "Politics",
 		"requiredBuilding": "Castle",
@@ -842,7 +842,7 @@
 	{
 		"name": "High Walls",
 		"happiness": 2,
-		"cost": 100,
+		"cost": 150,
 		"cityHealth": 50,
 		"hurryCostModifier": 20,
 		"requiredTech": "Shogunate",
