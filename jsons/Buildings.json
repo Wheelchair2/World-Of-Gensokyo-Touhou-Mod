@@ -259,7 +259,7 @@
 		"name": "Card Market",
 		"uniqueTo": "Beneath The Rainbow",
 		"isNationalWonder": true,
-		"cost": 1,
+		"cost": 185,
 		"gold": 4,
 		"faith": 1,
 		"uniques": ["Special Wonder","Cost increases by [95] per owned city",
