@@ -353,7 +353,7 @@
 				"name": "Metal Farming Tools",
 				"row": 4,
 				"prerequisites": ["Cormorant Fishing","Metal Casting"],
-				"uniques": ["[-30]% construction time for [Farm] improvements"],
+				"uniques": ["[-15]% construction time for [Farm] improvements"],
 				"quote": "Blessings of the countryside, gifts from the earth."
 			},
 			{
@@ -379,13 +379,13 @@
 			},
 			//// 4
 			{
-				"name": "Self-Discovery",
+				"name": "Pity",
 				"cost": 275,
 				"row": 12,
 				"prerequisites": ["Mysterious Knowledge"]
 				"quote": "'Bet you'd be stronger if you tore those restrictive clothes.' - Marisa Kirisame, out of context."
-				"uniques": ["Free Great Person <if no other Civilization has researched this>", "[-15]% construction time for [All] improvements"]
-			}
+				"uniques": ["[+15]% Strength <for [Military] units> <when fighting units from a Civilization with more Cities than you>"]
+			},
 			{
 				"name": "National Faith",
 				"cost": 250,
