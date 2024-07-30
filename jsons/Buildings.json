@@ -72,7 +72,7 @@
 		"uniqueTo": "Eientei Residents",
 		"isNationalWonder": true,
 		"cost": 185,
-		"uniques": ["Special Wonder", "[-100]% maintenance costs <in this city>"],
+		"uniques": ["Special Wonder", "[-100]% maintenance cost for buildings [in this city]", "[-50]% maintenance costs <for [All] units>"],
 		"quote": "Every month on the night of the full moon, the residents of Eientei hold a Moon Festival (Reigetsusai), offering mochi with medicinal herbs pounded into them."
 	},
 	{
@@ -308,6 +308,7 @@
 		"uniques": ["Special Wonder", "Must have an owned [Youkai Mountain] within [2] tiles", "[+1 Production] from [River] tiles [in this city]"],
 		"quote": "Kappas in Gensokyo are almost entirely different than the kappas in Japanese mythology, mostly for their appearance and the fact that showing your butthole probably won't work in fending them off."
 	},
+	/*
 	{
 		"name": "Box Of A Hundred Medicines",
 		"uniqueTo": "Kingdom Of The Wise",
@@ -317,6 +318,7 @@
 		"uniques": ["Special Wonder", "[All] Units adjacent to this city heal [+30] HP per turn when healing"],
 		"quote": "'Humans truly have become foolish. Have you forgotten the enigmatic terror of the youkai? Have you forgotten the mind-numbing darkness of the night?' - Kasen"
 	},
+	*/
 	/*
 	{
 		"name": "Sun",
