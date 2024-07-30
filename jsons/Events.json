@@ -38,13 +38,13 @@
 			{
 				"text": "Beauty Of Destruction Card",
 				"triggeredUniques": ["Comment [Ability Card; Beauty Of Destruction]",
-				"Comment [Siege units gain the [Card - Beauty Of Destruction] promotion]","Comment [+20% Strength vs cities for All units]",
+				"Comment [With this Beauty Of Destruction Card, Siege units gain the [Card - Beauty Of Destruction] promotion]", "Comment [+20% Strength vs cities for All units]"
 				"Gain a free [Beauty Of Destruction Card Holder] [in capital] <hidden from users>"],
 			},
 			{
 				"text": "Danmaku Ghost Card",
 				"triggeredUniques": ["Comment [Ability Card; Danmaku Ghost]",
-				"Comment [Damage is ignored when determining unit Strength for All units]",
+				"Comment [No damage penalty for wounded units for All units]",
 				"Gain a free [Danmaku Ghost Card Holder] [in capital] <hidden from users>"],
 			},
 			{
@@ -56,13 +56,14 @@
 			{
 				"text": "Esteemed Authority Card",
 				"triggeredUniques": ["Comment [Ability Card; Esteemed Authority]",
+				"Comment [Gifts of Gold to City-States generate 20% more Influence]",
 				"Comment [+40% Strength for Military units vs Barbarian units]",
 				"Gain a free [Esteemed Authority Card Holder] [in capital] <hidden from users>"],
 			},
 			{
 				"text": "Great Tengu's Barley Rice Card",
 				"triggeredUniques": ["Comment [Ability Card; Great Tengu's Barley Rice]",
-				"Comment [All units gain the [Card - Great Tengu's Barley Rice] promotion]",
+				"Comment [With this Great Tengu's Barley Rice Card, All units gain the [Card - Great Tengu's Barley Rice] promotion]",
 				"Gain a free [Great Tengu's Barley Rice Card Holder] [in capital] <hidden from users>"],
 			},
 			{
@@ -95,7 +96,7 @@
 			{
 				"text": "Miracle Mallet Card",
 				"triggeredUniques": ["Comment [Ability Card; Miracle Mallet]",
-				"Comment [Earn 15% of killed Military unit's Strength as [Gold] for All units]",
+				"Comment [Earn 50% of killed Military unit's Strength as [Gold] for All units]",
 				"Gain a free [Miracle Mallet Card Holder] [in capital] <hidden from users>"],
 			},
 			{
@@ -108,7 +109,7 @@
 				"text": "Pebble Hat Card",
 				"triggeredUniques": ["Comment [Ability Card; Pebble Hat]",
 				"Comment [+1 Movement for Scout units]",
-				"Comment [[Scout] units gain the [Card - Pebble Hat] promotion]",
+				"Comment [With this Pebble Hat Card, Scout units gain the [Card - Pebble Hat] promotion]",
 				"Gain a free [Pebble Hat Card Holder] [in capital] <hidden from users>"],
 			},
 			{
@@ -122,7 +123,7 @@
 				"text": "Screen Border Card",
 				"triggeredUniques": ["Comment [Ability Card; Screen Border]",
 				"Comment [-10% Culture cost of natural border growth in all cities]",
-				"Comment [[Scout] units gain the [Card - Screen Border] promotion]",
+				"Comment [With this Screen Border Card, Scout units gain the [Card - Screen Border] promotion]",
 				"Gain a free [Screen Border Card Holder] [in capital] <hidden from users>"],
 			},
 			{
@@ -137,7 +138,7 @@
 				"text": "Smelt's Scales Card",
 				"triggeredUniques": ["Comment [Ability Card; Smelt's Scales]",
 				"Comment [+2 [Culture] from Water resource tiles in all cities]",
-				"Comment [[Melee] units gain the [Card - Smelt's Scales] promotion]",
+				"Comment [With this Smelt's Scales Card, Melee units gain the [Card - Smelt's Scales] promotion]",
 				"Gain a free [Smelt's Scales Card Holder] [in capital] <hidden from users>"],
 			},
 			{
@@ -204,13 +205,13 @@
 			{
 				"text": "Beauty Of Destruction Card",
 				"triggeredUniques": ["Comment [Ability Card; Beauty Of Destruction]",
-				"Comment [Siege units gain the [Card - Beauty Of Destruction] promotion]","Comment [+20% Strength vs cities for All units]",
+				"Comment [With this Beauty Of Destruction Card, Siege units gain the [Card - Beauty Of Destruction] promotion]", "Comment [+20% Strength vs cities for All units]"
 				"Gain a free [Beauty Of Destruction Card Holder] [in capital] <hidden from users>"],
 			},
 			{
 				"text": "Danmaku Ghost Card",
 				"triggeredUniques": ["Comment [Ability Card; Danmaku Ghost]",
-				"Comment [Damage is ignored when determining unit Strength for All units]",
+				"Comment [No damage penalty for wounded units for All units]",
 				"Gain a free [Danmaku Ghost Card Holder] [in capital] <hidden from users>"],
 			},
 			{
@@ -222,13 +223,14 @@
 			{
 				"text": "Esteemed Authority Card",
 				"triggeredUniques": ["Comment [Ability Card; Esteemed Authority]",
+				"Comment [Gifts of Gold to City-States generate 20% more Influence]",
 				"Comment [+40% Strength for Military units vs Barbarian units]",
 				"Gain a free [Esteemed Authority Card Holder] [in capital] <hidden from users>"],
 			},
 			{
 				"text": "Great Tengu's Barley Rice Card",
 				"triggeredUniques": ["Comment [Ability Card; Great Tengu's Barley Rice]",
-				"Comment [All units gain the [Card - Great Tengu's Barley Rice] promotion]",
+				"Comment [With this Great Tengu's Barley Rice Card, All units gain the [Card - Great Tengu's Barley Rice] promotion]",
 				"Gain a free [Great Tengu's Barley Rice Card Holder] [in capital] <hidden from users>"],
 			},
 			{
@@ -242,7 +244,7 @@
 				"text": "Item Season Card",
 				"triggeredUniques": ["Comment [Ability Card; Item Season]",
 				"Comment [Gain 250 [Gold] upon entering a Golden Age]",
-				"Comment [+1 [Happiness] in all cities]",
+				"Comment [+1 [Happiness] in all cities]",2
 				"Gain a free [Item Season Card Holder] [in capital] <hidden from users>"
 				],
 			},
@@ -261,7 +263,7 @@
 			{
 				"text": "Miracle Mallet Card",
 				"triggeredUniques": ["Comment [Ability Card; Miracle Mallet]",
-				"Comment [Earn 15% of killed Military unit's Strength as [Gold] for All units]",
+				"Comment [Earn 50% of killed Military unit's Strength as [Gold] for All units]",
 				"Gain a free [Miracle Mallet Card Holder] [in capital] <hidden from users>"],
 			},
 			{
@@ -274,7 +276,7 @@
 				"text": "Pebble Hat Card",
 				"triggeredUniques": ["Comment [Ability Card; Pebble Hat]",
 				"Comment [+1 Movement for Scout units]",
-				"Comment [[Scout] units gain the [Card - Pebble Hat] promotion]",
+				"Comment [With this Pebble Hat Card, Scout units gain the [Card - Pebble Hat] promotion]",
 				"Gain a free [Pebble Hat Card Holder] [in capital] <hidden from users>"],
 			},
 			{
@@ -288,7 +290,7 @@
 				"text": "Screen Border Card",
 				"triggeredUniques": ["Comment [Ability Card; Screen Border]",
 				"Comment [-10% Culture cost of natural border growth in all cities]",
-				"Comment [[Scout] units gain the [Card - Screen Border] promotion]",
+				"Comment [With this Screen Border Card, Scout units gain the [Card - Screen Border] promotion]",
 				"Gain a free [Screen Border Card Holder] [in capital] <hidden from users>"],
 			},
 			{
@@ -303,7 +305,7 @@
 				"text": "Smelt's Scales Card",
 				"triggeredUniques": ["Comment [Ability Card; Smelt's Scales]",
 				"Comment [+2 [Culture] from Water resource tiles in all cities]",
-				"Comment [[Melee] units gain the [Card - Smelt's Scales] promotion]",
+				"Comment [With this Smelt's Scales Card, Melee units gain the [Card - Smelt's Scales] promotion]",
 				"Gain a free [Smelt's Scales Card Holder] [in capital] <hidden from users>"],
 			},
 			{
