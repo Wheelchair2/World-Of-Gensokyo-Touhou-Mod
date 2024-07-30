@@ -294,7 +294,7 @@
 			{"text":"Card - Screen Border", "header":5,"color": "#FDFF88", "link": "Promotions/Card - Screen Border"}
 		],
 		"resourceType": "Luxury",
-		"uniques": ["Not shown on world screen", "[-10]% Culture cost of natural border growth [in all cities]", "Comment [Scout units gain the [Card - Screen Border] promotion]", "[Scout] units gain the [Card - Screen Border] promotion <hidden from users>", "Comment [(Cards don't give any Happiness, except in Easy difficulty)]", "[-4 Happiness] <hidden from users>", "Excluded from map editor"]
+		"uniques": ["Not shown on world screen", "[-10]% Culture cost of natural border growth [in all cities]", "Comment [Comment [With this Screen Border Card, Scout units gain the [Card - Screen Border] promotion]]", "[Scout] units gain the [Card - Screen Border] promotion <hidden from users>", "Comment [(Cards don't give any Happiness, except in Easy difficulty)]", "[-4 Happiness] <hidden from users>", "Excluded from map editor"]
 	},
 	{
 		"name": "Ability Card; Miracle Mallet",
@@ -302,7 +302,7 @@
             {"extraImage":"Miracle Mallet", "imageSize":180}, //card image
 		],
 		"resourceType": "Luxury",
-		"uniques": ["Not shown on world screen", "Earn [15]% of killed [Military] unit's [Strength] as [Gold] <for [All] units>", "Comment [(Cards don't give any Happiness, except in Easy difficulty)]", "[-4 Happiness] <hidden from users>", "Excluded from map editor"]
+		"uniques": ["Not shown on world screen", "Earn [50]% of killed [Military] unit's [Strength] as [Gold] <for [All] units>", "Comment [(Cards don't give any Happiness, except in Easy difficulty)]", "[-4 Happiness] <hidden from users>", "Excluded from map editor"]
 	},
 	{
 		"name": "Ability Card; Keystone Of Endurance",
@@ -318,7 +318,7 @@
             {"extraImage":"Esteemed Authority", "imageSize":180}, //card image
 		],
 		"resourceType": "Luxury",
-		"uniques": ["Not shown on world screen", "[+40]% Strength <for [Military] units> <vs [Barbarian] units>", "Comment [(Cards don't give any Happiness, except in Easy difficulty)]", "[-4 Happiness] <hidden from users>", "Excluded from map editor"]
+		"uniques": ["Not shown on world screen", "Gifts of Gold to City-States generate [20]% more Influence", "[+40]% Strength <for [Military] units> <vs [Barbarian] units>", "Comment [(Cards don't give any Happiness, except in Easy difficulty)]", "[-4 Happiness] <hidden from users>", "Excluded from map editor"]
 	},
 	{
 		"name": "Ability Card; Vampire Fang",
@@ -335,7 +335,7 @@
 			{"text":"Card - Great Tengu's Barley Rice", "header":5,"color": "#FDFF88", "link": "Promotions/Card - Great Tengu's Barley Rice"}
 		],
 		"resourceType": "Luxury",
-		"uniques": ["Not shown on world screen", "Comment [All units gain the [Card - Great Tengu's Barley Rice] promotion]", "[All] units gain the [Card - Great Tengu's Barley Rice] promotion <hidden from users>", "Comment [(Cards don't give any Happiness, except in Easy difficulty)]", "[-4 Happiness] <hidden from users>", "Excluded from map editor"]
+		"uniques": ["Not shown on world screen", "Comment [Comment [With this Great Tengu's Barley Rice Card, All units gain the [Card - Great Tengu's Barley Rice] promotion]]", "[All] units gain the [Card - Great Tengu's Barley Rice] promotion <hidden from users>", "Comment [(Cards don't give any Happiness, except in Easy difficulty)]", "[-4 Happiness] <hidden from users>", "Excluded from map editor"]
 	},
 	{
 		"name": "Ability Card; Ice Fairy",
@@ -352,7 +352,7 @@
 			{"text":"Card - Beauty Of Destruction", "header":5,"color": "#FDFF88", "link": "Promotions/Card - Beauty Of Destruction"}
 		],
 		"resourceType": "Luxury",
-		"uniques": ["Not shown on world screen", "Comment [Siege units gain the [Card - Beauty Of Destruction] promotion]", "[Siege] units gain the [Card - Beauty Of Destruction] promotion <hidden from users>", "[+20]% Strength <vs cities> <for [All] units>", "Comment [(Cards don't give any Happiness, except in Easy difficulty)]", "[-4 Happiness] <hidden from users>", "Excluded from map editor"]
+		"uniques": ["Not shown on world screen", "Comment [Comment [With this Beauty Of Destruction Card, Siege units gain the [Card - Beauty Of Destruction] promotion]]", "[Siege] units gain the [Card - Beauty Of Destruction] promotion <hidden from users>", "[+20]% Strength <vs cities> <for [All] units>", "Comment [(Cards don't give any Happiness, except in Easy difficulty)]", "[-4 Happiness] <hidden from users>", "Excluded from map editor"]
 	},
 	{
 		"name": "Ability Card; Drunkenly Whimsical Ibuki Gourd",
@@ -369,7 +369,7 @@
 			{"text":"Card - Smelt's Scales", "header":5,"color": "#FDFF88", "link": "Promotions/Card - Smelt's Scales"}
 		],
 		"resourceType": "Luxury",
-		"uniques": ["Not shown on world screen", "[+2 Culture] from [Water resource] tiles [in all cities]", "Comment [Melee units gain the [Card - Smelt's Scales] promotion]", "[Melee] units gain the [Card - Smelt's Scales] promotion <hidden from users>", "Comment [(Cards don't give any Happiness, except in Easy difficulty)]", "[-4 Happiness] <hidden from users>", "Excluded from map editor"]
+		"uniques": ["Not shown on world screen", "[+2 Culture] from [Water resource] tiles [in all cities]", "Comment [With this Smelt's Scales Card, Melee units gain the [Card - Smelt's Scales] promotion]", "[Melee] units gain the [Card - Smelt's Scales] promotion <hidden from users>", "Comment [(Cards don't give any Happiness, except in Easy difficulty)]", "[-4 Happiness] <hidden from users>", "Excluded from map editor"]
 	},
 	{
 		"name": "Ability Card; Pebble Hat",
@@ -378,7 +378,7 @@
 			{"text":"Card - Pebble Hat", "header":5,"color": "#FDFF88", "link": "Promotions/Card - Pebble Hat"}
 		],
 		"resourceType": "Luxury",
-		"uniques": ["Not shown on world screen", "[+1] Movement <for [Scout] units>", "Comment [Scout units gain the [Card - Pebble Hat] promotion]", "[Scout] units gain the [Card - Pebble Hat] promotion <hidden from users>", "Comment [(Cards don't give any Happiness, except in Easy difficulty)]", "[-4 Happiness] <hidden from users>", "Excluded from map editor"],
+		"uniques": ["Not shown on world screen", "[+1] Movement <for [Scout] units>", "Comment [With this Pebble Hat Card, Scout units gain the [Card - Pebble Hat] promotion]", "[Scout] units gain the [Card - Pebble Hat] promotion <hidden from users>", "Comment [(Cards don't give any Happiness, except in Easy difficulty)]", "[-4 Happiness] <hidden from users>", "Excluded from map editor"],
 	},
 	{
 		"name": "Ability Card; Princess Kaguya's Secret Stash", 
