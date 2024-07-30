@@ -13,14 +13,14 @@
     },
     {
         "name": "a retired soldier",
-        "notification": "An old man happened to be a [Warrior] and he wants to prove you his worth!",
+        "notification": "An old man happened to be a [Ashigaru Spearman] and he wants to prove you his worth!",
         "uniques": ["Free [Warrior] found in the ruins"],
         "excludedDifficulties": ["Hard","Lunatic"]
     },
     {
         "name": "your exploring unit receives training by Kasen",
         "notification": "Kasen trained us her ways of combat!",
-        "uniques": ["This Unit gains [30] XP"]
+        "uniques": ["This Unit gains [60] XP"]
     },
     {
         "name": "missing dumplings",
