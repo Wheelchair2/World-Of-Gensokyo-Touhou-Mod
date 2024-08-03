@@ -200,7 +200,7 @@
 	},
 	{
 		"name": "Beast",
- 		"uniques": ["Racial", "[+10] HP when healing"]
+ 		"uniques": ["Racial", "[+15] HP when healing"]
 	},
 	{
 		"name": "Doll Construct",
