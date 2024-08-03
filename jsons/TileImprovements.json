@@ -273,7 +273,7 @@
 			"Gives a defensive bonus of [100]%",
 			"Adjacent enemy units ending their turn take [30] damage",
 			"Can be built just outside your borders",
-        	"Constructing it will take over the tiles around it and assign them to your closest city",
+        	"Gain control over [all] tiles in a [1]-tile radius",
 			"Removes removable features when built",
 		]
 	},
@@ -287,7 +287,7 @@
 		"turnsToBuild": 7,
         "uniques": ["Pillaging this improvement yields approximately [+18 Gold]"],
 	},
-  {
+	{
     
     	"name": "Keystone",
 		"uniqueTo": "Bhavaagra",
@@ -322,7 +322,7 @@
 		"uniques": [
 			"Great Improvement",
 			"Can be built just outside your borders",
-			"Constructing it will take over the tiles around it and assign them to your closest city",
+			"Gain control over [all] tiles in a [1]-tile radius",
 			"Pillaging this improvement yields approximately [+40 Gold]"
 		]
 	},
