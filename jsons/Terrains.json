@@ -356,7 +356,7 @@
 		"movementCost": 2,
 		"overrideStats": true,
 		"occursOn": ["Plains", "Grassland"],
-		"turnsInto": "Plains",
+		"turnsInto": "Lakes",
 		"impassable": true,
 		"unbuildable": true,
 		"uniques": ["Fresh water", "Grants [Rejuvenation] ([all healing effects doubled]) to adjacent [{Military} {Land}] units for the rest of the game", "Must be adjacent to [0] [Coast] tiles"],
