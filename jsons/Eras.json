@@ -27,8 +27,8 @@
         "settlerPopulation": 1,
 		"settlerBuildings": ["Monument", "Granary", "Library", "Kiln", "Workshop", "Rice Wine", "Fortifications"]
         "baseUnitBuyCost": 200,
-        "embarkDefense": 17,
-        "startPercent": 0,
+        "embarkDefense": 20,
+        "startPercent": 25,
         "citySound": "cityMedieval",
         "iconRGB": [255, 87, 35]
     },
@@ -46,7 +46,7 @@
         "startingObsoleteWonders": ["The Great Library", "Hieda Temple School", "Komakusa Gambling Den", "Barrels Of Alcohol", "Geidontei Bar", "The Great Lighthouse", "Kappa Stronghold", "Cirno's Freezing Hot Spring", "Hot Spring Town", "Miracle Fountain", "Blessing Of Winter"],
         "baseUnitBuyCost": 300,
         "embarkDefense": 61,
-        "startPercent": 10,
+        "startPercent": 50,
         "citySound": "cityRenaissance",
         "iconRGB": [233, 31, 99]
     },
@@ -63,7 +63,7 @@
         "settlerBuildings": ["Monument", "Granary", "Library", "Aqueduct", "Barracks","Lighthouse","Market","Kiln","Workshop","Amphitheater", "Barracks", "Rice Wine", "Paper Maker","Onsen","Paddock","Fortifications"]
         "startingObsoleteWonders": ["The Great Library", "Hieda Temple School", "Komakusa Gambling Den", "Barrels Of Alcohol", "Geidontei Bar", "The Great Lighthouse", "Kappa Stronghold", "Cirno's Freezing Hot Spring", "Hot Spring Town", "Miracle Fountain", "Blessing Of Winter"],
         "baseUnitBuyCost": 800,
-        "embarkDefense": 16,
+        "embarkDefense": 65,
         "startPercent": 65,
         "citySound": "cityRenaissance",
         "iconRGB": [0, 150, 136],
@@ -86,7 +86,7 @@
         "settlerBuildings": ["Monument", "Granary", "Library", "Aqueduct", "Barracks","Lighthouse","Market","Kiln","Workshop","Amphitheater", "Barracks", "Rice Wine", "Paper Maker","Onsen","University","Paddock","Fortifications"],
         "startingObsoleteWonders": ["The Great Library", "Hieda Temple School", "Komakusa Gambling Den", "Barrels Of Alcohol", "Geidontei Bar", "The Great Lighthouse", "Kappa Stronghold", "Cirno's Freezing Hot Spring", "Hot Spring Town", "Great Wall", "Phantom Ship Harbor", "Blessing Of Winter", "Miracle Fountain", "Omoikane's Device", "The Heart Sutra", "Secret Hermit World", "Grimoire Of Youkais"],
         "baseUnitBuyCost": 1000,
-        "embarkDefense": 66,
+        "embarkDefense": 80,
         "startPercent": 80,
 
         "citySound": "cityRenaissance",
