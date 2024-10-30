@@ -73,7 +73,7 @@
 		"outerColor": [252,225,254],
 		"innerColor": [19,81,92],
 		"uniqueName": "Mind-Reading Satori Race",
-		"uniques": ["Comment [The Satori Race can read the minds of their opponents, and inclict a -20% Strength debuff to adjacent enemy Military units.]",
+		"uniques": ["Comment [The Satori Race can read the minds of their opponents, and inflict a -40% Strength debuff to adjacent enemy Military units.]",
 			"Comment [------------------]",
 			"[Land] units gain the [Satori Race] promotion", "[All] units gain the [Youkai] promotion"
 			],
@@ -505,7 +505,7 @@
 			"Gain a free [Artificial Garden] [in all cities]",
 			"[+2 Science] from every [Great Improvement]",
 			],
-		"cities": ["Kappagawa", "Mizukappa-mura", "Kawazumi-shi", "Kawataro-tō", "Suikawa-no-sato", "Kawa-no-kuni", "Kawarimizu-machi", "Kawauso-hama", "Kawaishi", "Kawa-umi-teki"]
+		"cities": ["Kappagawa", "Mizukappa-mura", "Kawazumi-shi", "Kawataro-tÅ?", "Suikawa-no-sato", "Kawa-no-kuni", "Kawarimizu-machi", "Kawauso-hama", "Kawaishi", "Kawa-umi-teki"]
 	},
 	{
 		"name": "Senkai Principality",
