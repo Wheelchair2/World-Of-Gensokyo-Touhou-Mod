@@ -93,7 +93,7 @@
 				//"Only available <for [Senkai Principality]>",
 				//"Only available <for [Land Of The Corpses]>"
 
-				"Unavailable <for [{non-[Hakurei Faction]} {non-[Moriya Faction]} {non-[Myouren Faction]} {non-[Senkai Principality]} {non-[Land Of The Corpses]}]> <before discovering [Yama's Permission]>"
+				"Unavailable <for [{non-[Hakurei Faction]} {non-[Moriya Faction]} {non-[Myouren Faction]} {non-[Senkai Principality]} {non-[Land Of The Corpses]}] Civilizations> <before discovering [Yama's Permission]>"
 				]
 			},
 			{
@@ -105,7 +105,7 @@
 				//"Only available <for [Land Of The Corpses]>",
 				//"Only available <for [The Unified Doll Front]>"
 
-				"Unavailable <for [{non-[Ordinary Magicians]} {non-[Land Of The Corpses]} {non-[The Unified Doll Front]}]> <before discovering [Yama's Permission]>"
+				"Unavailable <for [{non-[Ordinary Magicians]} {non-[Land Of The Corpses]} {non-[The Unified Doll Front]}] Civilizations> <before discovering [Yama's Permission]>"
 				]
 			}
 		]
