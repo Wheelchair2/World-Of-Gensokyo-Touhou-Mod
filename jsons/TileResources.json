@@ -1,47 +1,731 @@
-[
-    {
-        "name": "who could've stolen these?",
-        "notification": "We have found stolen artifacts in the ruins! (+20 culture)",
-        "uniques": ["Gain [20] [Culture]"],
-        "color": "#cf8ff7"
-    },
-    {
-        "name": "a retired miner",
-        "notification": "An old man happened to be a [Worker] and he wants to prove you his worth!",
-        "uniques": ["Free [Worker] found in the ruins"],
-        "excludedDifficulties": ["Hard","Lunatic"]
-    },
-    {
-        "name": "a retired soldier",
-        "notification": "An old man happened to be a [Ashigaru Spearman] and he wants to prove you his worth!",
-        "uniques": ["Free [Warrior] found in the ruins"],
-        "excludedDifficulties": ["Hard","Lunatic"]
-    },
-    {
-        "name": "your exploring unit receives training by Kasen",
-        "notification": "Kasen trained us her ways of combat!",
-        "uniques": ["[This Unit] gains [60] XP"]
-    },
-    {
-        "name": "missing dumplings",
-        "notification": "Yuyuko rewards us for finding her missing dumplings!",
-        "uniques": ["Gain [100]-[200] [Gold]"],
-        "color": "#ffeb7f"
-    },
-    {
-        "name": "what's in the book?",
-        "notification": "We have stumbled upon one of Patchouli's books and learned [techName]!",
-        "uniques": ["[1] free random researchable Tech(s) from the [Youkai Expansion Project]"],
-		"color": "#7f7fff"
-    },
-    {
-        "name": "whose sword is this?",
-        "notification": "Our unit finds a sword hidden in the ruins!",
-        "uniques": ["[This Unit] upgrades for free including special upgrades"]
-    },
-    {
-        "name": "reveal nearby Barbarian camps",
-        "notification": "Mystia told us about scary ghosts in the area!",
-        "uniques": ["Reveal up to [All] [Barbarian encampment] within a [10] tile radius"]
-    },
+[	
+	// Bonus resources
+	{
+		"name": "Cattle",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Grassland"],
+		"food": 1,
+		"improvement": "Pasture",
+		"improvementStats": {"production": 1},
+		"uniques": ["Generated on every [18] tiles <in [{Featureless} {Grassland}] tiles>",
+					"Generated on every [22] tiles <in [{Featureless} {Grassland}] tiles> <in [Hill] Regions>"]
+	},
+	{
+		"name": "Sheep",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Hill"],
+		"food": 1,
+		"improvement": "Pasture",
+		"improvementStats": {"food": 1},
+		"uniques": ["Generated on every [13] tiles <in [Hill] tiles> <in tiles without [Forest]> <in tiles without [Jungle]>",
+					"Generated on every [10] tiles <in [Hill] tiles> <in tiles without [Forest]> <in tiles without [Jungle]> <in tiles without [Fresh Water]> <in [Hill] Regions>"]
+	},
+	{
+		"name": "Deer",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Forest", "Tundra"], // Tundra only if lowland
+		"food": 1,
+		"improvement": "Camp",
+		"improvementStats": {"production": 1},
+		"uniques": ["Generated on every [8] tiles <in [{Tundra} {Forest}] tiles>",
+					"Generated on every [12] tiles <in [{Featureless} {Tundra}] tiles>",
+					"Generated on every [25] tiles <in [{Plains} {Forest}] tiles> <in tiles without [Hill]>",
+					"Generated on every [25] tiles <in [{Grassland} {Forest}] tiles> <in tiles without [Hill]>",
+					"Generated on every [16] tiles <in [{Featureless} {Tundra}] tiles> <in [Hill] Regions>",
+					"Generated on every [28] tiles <in [Forest] tiles> <in [Hill] Regions>"]
+	},
+	{
+		"name": "Bananas",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Jungle"],
+		"food": 1,
+		"improvement": "Plantation",
+		"improvementStats": {"food": 2,"production": -1,"gold": -1},
+		"uniques": ["Generated on every [14] tiles <in [Jungle] tiles>",
+					"Generated on every [16] tiles <in [Jungle] tiles> <in [Hill] Regions>"]
+	},
+	{
+		"name": "Wheat",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Plains", "Flood plains", "Desert"], // Desert only if fresh water
+		"food": 1,
+		"improvement": "Farm",
+		"uniques": ["Generated on every [27] tiles <in [{Featureless} {Plains}] tiles>",
+					"Generated on every [10] tiles <in [{Desert} {Fresh Water}] tiles> <in tiles without [Hill]>",
+					"Generated on every [20] tiles <in [{Featureless} {Plains}] tiles> <in [Hill] Regions>",
+					"Generated on every [20] tiles <in [{Fresh Water} {Desert}] tiles> <in tiles without [Hill]> <in [Hill] Regions>"]
+	},
+	{
+		"name": "Stone",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Grassland", "Desert", "Tundra"],
+		"production": 1,
+		"improvement": "Quarry",
+		"improvementStats": {"production": 1},
+		"uniques": ["Generated on every [20] tiles <in [{Featureless} {Grassland}] tiles> <in tiles without [Fresh Water]>",
+					"Generated on every [15] tiles <in [{Featureless} {Tundra}] tiles>",
+					"Generated on every [19] tiles <in [{Featureless} {Desert}] tiles>"]
+	},
+	{
+		"name": "Fish",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Coast"],
+		"food": 1,
+		"improvement": "Fishing Boats",
+		"uniques": ["Generated on every [10] tiles <in [{Featureless} {Coast}] tiles>"]
+	},
+	/*
+	{
+		"name": "Bison",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Plains", "Grassland"],
+		"food": 1,
+		"improvement": "Camp",
+		"improvementStats": {"production": 1}
+	},
+	*/
+	
+	// Strategic resources
+	{
+		"name": "Horses",
+		"resourceType": "Strategic",
+		//"revealedBy": "Authority",
+		"terrainsCanBeFoundOn": ["Plains", "Grassland", "Hill"], // Hill only if plains or grassland
+		"production": 1,
+		"improvement": "Pasture",
+		"improvementStats": {"production": 1},
+		"uniques": ["Guaranteed with Strategic Balance resource option",
+					"Generated with weight [100] <in [{Featureless} {Grassland}] tiles>",
+					"Generated with weight [100] <in [{Featureless} {Plains}] tiles>",
+					"Minor deposits generated with weight [10] <in [{Grassland} {Hill}] tiles> <in tiles without [Forest]> <in tiles without [Jungle]>",
+					"Minor deposits generated with weight [10] <in [{Plains} {Hill}] tiles> <in tiles without [Forest]> <in tiles without [Jungle]>",
+					"Minor deposits generated with weight [100] <in [{Featureless} {Grassland}] tiles> <in [Fresh Water] tiles>",
+					"Minor deposits generated with weight [20] <in [{Featureless} {Grassland}] tiles> <in tiles without [Fresh Water]>",
+					"Minor deposits generated with weight [30] <in [{Featureless} {Plains}] tiles>"],
+		"majorDepositAmount": {"sparse": 4, "default": 6, "abundant": 10},
+		"minorDepositAmount": {"sparse": 3, "default": 4, "abundant": 7}
+	},
+	{
+		"name": "Iron",
+		"resourceType": "Strategic",
+		"revealedBy": "Iron Working",
+		"terrainsCanBeFoundOn": ["Grassland", "Plains", "Desert", "Tundra", "Snow", "Hill", "Marsh"],
+		"production": 1,
+		"improvement": "Mine",
+		"uniques": ["Guaranteed with Strategic Balance resource option",
+					"Generated with weight [45] <in [{Featureless} {Tundra}] tiles>",
+					"Generated with weight [25] <in [{Featureless} {Snow}] tiles>",
+					"Generated with weight [35] <in [{Featureless} {Desert}] tiles>",
+					"Generated with weight [26] <in [Hill] tiles>",
+					"Minor deposits generated with weight [10] <in [Marsh] tiles> <in tiles without [Hill]>",
+					"Minor deposits generated with weight [10] <in [{Jungle} {Hill}] tiles>",
+					"Minor deposits generated with weight [20] <in [Forest] tiles>",
+					"Minor deposits generated with weight [20] <in [Hill] tiles> <in tiles without [Forest]> <in tiles without [Jungle]>",
+					"Minor deposits generated with weight [30] <in [{Featureless} {Grassland}] tiles> <in tiles without [Fresh Water]>",
+					"Minor deposits generated with weight [20] <in [{Featureless} {Plains}] tiles>",
+					"Minor deposits generated with weight [10] <in [{Featureless} {Desert}] tiles>",
+					"Minor deposits generated with weight [10] <in [{Featureless} {Tundra}] tiles>",
+					"Minor deposits generated with weight [10] <in [{Featureless} {Snow}] tiles>"],
+		"majorDepositAmount": {"sparse": 4, "default": 6, "abundant": 9},
+		"minorDepositAmount": {"sparse": 2, "default": 4, "abundant": 5}
+	},
+	{
+		"name": "Coal",
+		"resourceType": "Strategic",
+		"revealedBy": "Modern Knowledge",
+		"terrainsCanBeFoundOn": ["Grassland", "Plains", "Hill", "Jungle", "Forest", "Marsh"],
+		"production": 1,
+		"improvement": "Mine",
+		"improvementStats": {"production": 1},
+		"uniques": ["Generated with weight [35] <in [Hill] tiles>",
+					"Generated with weight [30] <in [Jungle] tiles> <in tiles without [Hill]>",
+					"Generated with weight [30] <in [Forest] tiles> <in tiles without [Hill]>",
+					"Minor deposits generated with weight [10] <in [Marsh] tiles> <in tiles without [Hill]>",
+					"Minor deposits generated with weight [10] <in [Jungle] tiles>",
+					"Minor deposits generated with weight [10] <in [Forest] tiles>",
+					"Minor deposits generated with weight [20] <in [{Grassland} {Hill}] tiles>",
+					"Minor deposits generated with weight [20] <in [{Plains} {Hill}] tiles>",
+					"Minor deposits generated with weight [30] <in [{Desert} {Hill}] tiles>",
+					"Minor deposits generated with weight [30] <in [{Tundra} {Hill}] tiles>",
+					"Minor deposits generated with weight [30] <in [{Snow} {Hill}] tiles>"],
+		"majorDepositAmount": {"sparse": 5, "default": 7, "abundant": 10},
+		"minorDepositAmount": {"sparse": 2, "default": 3, "abundant": 3}
+	},
+	{
+		"name": "Oil",
+		"resourceType": "Strategic",
+		"revealedBy": "Modern Knowledge",
+		"terrainsCanBeFoundOn": ["Desert", "Coast", "Tundra", "Snow", "Marsh", "Jungle"],
+		"production": 1,
+		"improvedBy": ["Oil well", "Offshore Platform"],
+		"improvementStats": {"production": 3},
+		"uniques": ["Deposits in [Coast] tiles always provide [4] resources",
+					"Guaranteed with Strategic Balance resource option",
+					"Generated with weight [65] <in [Marsh] tiles> <in tiles without [Hill]>",
+					"Generated with weight [40] <in [{Featureless} {Tundra}] tiles>",
+					"Generated with weight [60] <in [{Featureless} {Snow}] tiles>",
+					"Generated with weight [65] <in [{Featureless} {Desert}] tiles>",
+					"Generated with weight [100] <in [{Featureless} {Coast}] tiles>",
+					"Minor deposits generated with weight [20] <in [Marsh] tiles> <in tiles without [Hill]>",
+					"Minor deposits generated with weight [10] <in [Jungle] tiles> <in tiles without [Hill]>",
+					"Minor deposits generated with weight [10] <in [{Featureless} {Desert}] tiles>",
+					"Minor deposits generated with weight [20] <in [{Featureless} {Tundra}] tiles>",
+					"Minor deposits generated with weight [20] <in [{Featureless} {Snow}] tiles>"],
+		"majorDepositAmount": {"sparse": 5, "default": 7, "abundant": 9},
+		"minorDepositAmount": {"sparse": 2, "default": 3, "abundant": 3}
+	},
+	{
+		"name": "Aluminum",
+		"resourceType": "Strategic",
+		"revealedBy": "Modern Knowledge",
+		"terrainsCanBeFoundOn": ["Desert", "Tundra", "Hill", "Snow", "Jungle"],
+		"production": 1,
+		"improvement": "Mine",
+		"improvementStats": {"production": 1},
+		"uniques": ["Generated with weight [15] <in [{Featureless} {Tundra}] tiles>",
+					"Generated with weight [15] <in [{Featureless} {Snow}] tiles>",
+					"Generated with weight [39] <in [Hill] tiles>",
+					"Minor deposits generated with weight [20] <in [Jungle] tiles>",
+					"Minor deposits generated with weight [10] <in [{Featureless} {Desert}] tiles>"],
+		"majorDepositAmount": {"sparse": 5, "default": 8, "abundant": 10},
+		"minorDepositAmount": {"sparse": 2, "default": 3, "abundant": 3}
+	},
+	{
+		"name": "Uranium",
+		"resourceType": "Strategic",
+		"revealedBy": "Modern Knowledge",
+		"terrainsCanBeFoundOn": ["Marsh", "Jungle", "Forest", "Tundra", "Snow"],
+		"production": 1,
+		"improvement": "Mine",
+		"improvementStats": {"production": 1},
+		"uniques": ["Generated with weight [35] <in [Marsh] tiles> <in tiles without [Hill]>",
+					"Generated with weight [70] <in [Jungle] tiles> <in tiles without [Hill]>",
+					"Generated with weight [70] <in [Forest] tiles> <in tiles without [Hill]>",
+					"Minor deposits generated with weight [10] <in [Forest] tiles>",
+					"Minor deposits generated with weight [10] <in [{Featureless} {Tundra}] tiles>",
+					"Minor deposits generated with weight [10] <in [{Featureless} {Snow}] tiles>"],
+		"majorDepositAmount": {"sparse": 2, "default": 4, "abundant": 4},
+		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3}
+	},
+	
+	// Other resources
+	{
+		"name": "Wonder Slot", // For Natural Wonders Improvement
+		"resourceType": "Strategic",
+		"uniques": ["Cannot be traded", "Excluded from map editor"],
+	},
+	////////////////////////////////////////////// ABILITY CARDS ///////////////////////////////////////////////////////////////////
+	{
+		"name": "Blank Card",
+		"civilopediaText":[
+            {"extraImage":"Blank Card", "imageSize":180}, //card image
+			{"text": "An Ability Card with nothing written on it...Let's trade this and relinquish ownership of the opponent's card!"},
+		],
+		"resourceType": "Luxury",
+		"uniques": ["Comment [Can be used for fooling other nations into trading for your [Blank Card]]", "Not shown on world screen", "Comment [(Cards don't give any Happiness, except in Easy difficulty)]", "[-4 Happiness] <hidden from users>", "Excluded from map editor",
+		"Cannot be traded <for [non-[Beneath The Rainbow]] Civilizations>" // This works I tested.
+		]
+	},
+	{
+		"name": "Ability Card; Yin-Yang Orb",
+		"civilopediaText":[
+            {"extraImage":"Yin-Yang Orb", "imageSize":180}, //card image
+		],
+		"resourceType": "Luxury",
+		"uniques": ["Not shown on world screen", "[+6]% Strength <for [All] units>", "Comment [(Cards don't give any Happiness, except in Easy difficulty)]", "[-4 Happiness] <hidden from users>", "Excluded from map editor"]
+	},
+	{
+		"name": "Ability Card; Mini-Hakkero",
+		"civilopediaText":[
+            {"extraImage":"Mini-Hakkero", "imageSize":180}, //card image
+		],
+		"resourceType": "Luxury",
+		"uniques": ["Not shown on world screen", "[+12]% Strength <for [Siege] units>", "Comment [(Cards don't give any Happiness, except in Easy difficulty)]", "[-4 Happiness] <hidden from users>", "Excluded from map editor"]
+	},
+	{
+		"name": "Ability Card; Shanghai Doll",
+		"civilopediaText":[
+            {"extraImage":"Shanghai Doll", "imageSize":180}, //card image
+		], 
+		"resourceType": "Luxury",
+		"uniques": ["Not shown on world screen",
+			"[-15]% construction time for [All] improvements",
+			"Comment [1 free [Shanghai Labor Doll] units appear]",
+			"Comment [(Cards don't give any Happiness, except in Easy difficulty)]", "[-4 Happiness] <hidden from users>",
+			"Excluded from map editor"
+		]
+	},
+	{
+		"name": "Ability Card; Backdoor",
+		"civilopediaText":[
+            {"extraImage":"Backdoor", "imageSize":180}, //card image
+		],
+		"resourceType": "Luxury",
+		"uniques": ["Not shown on world screen", "[+15]% Strength <when defending> <when adjacent to a [{Military}] unit> <for [Military] units>", "Comment [(Cards don't give any Happiness, except in Easy difficulty)]", "[-4 Happiness] <hidden from users>", "Excluded from map editor"]
+	},
+	{
+		"name": "Ability Card; Offerings To A Sacred Mountain",
+		"civilopediaText":[
+            {"extraImage":"Offerings To A Sacred Mountain", "imageSize":180}, //card image
+		],
+		"resourceType": "Luxury",
+		"uniques": ["Not shown on world screen", "[+1 Gold, +2 Production, +2 Food] from [Mountain] tiles [in all cities]", "[+1] Sight <for [Scout] units>", "Comment [(Cards don't give any Happiness, except in Easy difficulty)]", "[-4 Happiness] <hidden from users>", "Excluded from map editor"]
+	},
+	{
+		"name": "Ability Card; Sutra Of Dharmatic Power",
+		"civilopediaText":[
+            {"extraImage":"Sutra Of Dharmatic Power", "imageSize":180}, //card image
+		],
+		"resourceType": "Luxury",
+		"uniques": ["Not shown on world screen", "[+33]% Strength <when attacking> <when below [30] HP> <for [Military] units>", "Comment [(Cards don't give any Happiness, except in Easy difficulty)]", "[-4 Happiness] <hidden from users>", "Excluded from map editor"]
+	},
+	{
+		"name": "Ability Card; Danmaku Ghost",
+		"civilopediaText":[
+            {"extraImage":"Danmaku Ghost", "imageSize":180}, //card image
+		],
+		"resourceType": "Luxury",
+		"uniques": ["Not shown on world screen", "No damage penalty for wounded units <for [All] units>", "Comment [(Cards don't give any Happiness, except in Easy difficulty)]", "[-4 Happiness] <hidden from users>", "Excluded from map editor"]
+	},
+	{
+		"name": "Ability Card; Screen Border",
+		"civilopediaText":[
+            {"extraImage":"Screen Border", "imageSize":180}, //card image
+			{"text":"Card - Screen Border", "header":5,"color": "#FDFF88", "link": "Promotions/Card - Screen Border"}
+		],
+		"resourceType": "Luxury",
+		"uniques": ["Not shown on world screen", "[-10]% Culture cost of natural border growth [in all cities]", "Comment [Comment [With this Screen Border Card, Scout units gain the [Card - Screen Border] promotion]]", "[Scout] units gain the [Card - Screen Border] promotion <hidden from users>", "Comment [(Cards don't give any Happiness, except in Easy difficulty)]", "[-4 Happiness] <hidden from users>", "Excluded from map editor"]
+	},
+	{
+		"name": "Ability Card; Miracle Mallet",
+		"civilopediaText":[
+            {"extraImage":"Miracle Mallet", "imageSize":180}, //card image
+		],
+		"resourceType": "Luxury",
+		"uniques": ["Not shown on world screen", "Earn [50]% of killed [Military] unit's [Strength] as [Gold] <for [All] units>", "Comment [(Cards don't give any Happiness, except in Easy difficulty)]", "[-4 Happiness] <hidden from users>", "Excluded from map editor"]
+	},
+	{
+		"name": "Ability Card; Keystone Of Endurance",
+		"civilopediaText":[
+            {"extraImage":"Keystone Of Endurance", "imageSize":180}, //card image
+		],
+		"resourceType": "Luxury",
+		"uniques": ["Not shown on world screen", "[+11]% Strength <when defending> <for [Military] units>", "Comment [(Cards don't give any Happiness, except in Easy difficulty)]", "[-4 Happiness] <hidden from users>", "Excluded from map editor"]
+	},
+	{
+		"name": "Ability Card; Esteemed Authority",
+		"civilopediaText":[
+            {"extraImage":"Esteemed Authority", "imageSize":180}, //card image
+		],
+		"resourceType": "Luxury",
+		"uniques": ["Not shown on world screen", "Gifts of Gold to City-States generate [20]% more Influence", "[+40]% Strength <for [Military] units> <vs [Barbarian] units>", "Comment [(Cards don't give any Happiness, except in Easy difficulty)]", "[-4 Happiness] <hidden from users>", "Excluded from map editor"]
+	},
+	{
+		"name": "Ability Card; Vampire Fang",
+		"civilopediaText":[
+            {"extraImage":"Vampire Fang", "imageSize":180}, //card image
+		],
+		"resourceType": "Luxury",
+		"uniques": ["Not shown on world screen", "[+9]% Strength <for [Melee] units>", "Comment [(Cards don't give any Happiness, except in Easy difficulty)]", "[-4 Happiness] <hidden from users>", "Excluded from map editor"]
+	},
+	{
+		"name": "Ability Card; Great Tengu's Barley Rice",
+		"civilopediaText":[
+            {"extraImage":"Great Tengu's Barley Rice", "imageSize":180}, //card image
+			{"text":"Card - Great Tengu's Barley Rice", "header":5,"color": "#FDFF88", "link": "Promotions/Card - Great Tengu's Barley Rice"}
+		],
+		"resourceType": "Luxury",
+		"uniques": ["Not shown on world screen", "Comment [Comment [With this Great Tengu's Barley Rice Card, All units gain the [Card - Great Tengu's Barley Rice] promotion]]", "[All] units gain the [Card - Great Tengu's Barley Rice] promotion <hidden from users>", "Comment [(Cards don't give any Happiness, except in Easy difficulty)]", "[-4 Happiness] <hidden from users>", "Excluded from map editor"]
+	},
+	{
+		"name": "Ability Card; Ice Fairy",
+		"civilopediaText":[
+            {"extraImage":"Ice Fairy", "imageSize":180}, //card image
+		],
+		"resourceType": "Luxury",
+		"uniques": ["Not shown on world screen", "[+2 Food] from [Snow] tiles [in all cities]", "[+1 Food] from [Tundra] tiles [in all cities]", "Comment [(Cards don't give any Happiness, except in Easy difficulty)]", "[-4 Happiness] <hidden from users>", "Excluded from map editor"]
+	},
+	{
+		"name": "Ability Card; Beauty Of Destruction",
+		"civilopediaText":[
+            {"extraImage":"Beauty Of Destruction", "imageSize":180}, //card image
+			{"text":"Card - Beauty Of Destruction", "header":5,"color": "#FDFF88", "link": "Promotions/Card - Beauty Of Destruction"}
+		],
+		"resourceType": "Luxury",
+		"uniques": ["Not shown on world screen", "Comment [Comment [With this Beauty Of Destruction Card, Siege units gain the [Card - Beauty Of Destruction] promotion]]", "[Siege] units gain the [Card - Beauty Of Destruction] promotion <hidden from users>", "[+20]% Strength <vs cities> <for [All] units>", "Comment [(Cards don't give any Happiness, except in Easy difficulty)]", "[-4 Happiness] <hidden from users>", "Excluded from map editor"]
+	},
+	{
+		"name": "Ability Card; Drunkenly Whimsical Ibuki Gourd",
+		"civilopediaText":[
+            {"extraImage":"Drunkenly Whimsical Ibuki Gourd", "imageSize":180}, //card image
+		],
+		"resourceType": "Luxury",
+		"uniques": ["Not shown on world screen", "[-1] Sight <when below [0] Happiness>", "[+15]% Strength <while the empire is happy> <for [All] units>", "Comment [(Cards don't give any Happiness, except in Easy difficulty)]", "[-4 Happiness] <hidden from users>", "Excluded from map editor"]
+	},
+	{
+		"name": "Ability Card; Smelt's Scales",
+		"civilopediaText":[
+            {"extraImage":"Smelt's Scales", "imageSize":180}, //card image
+			{"text":"Card - Smelt's Scales", "header":5,"color": "#FDFF88", "link": "Promotions/Card - Smelt's Scales"}
+		],
+		"resourceType": "Luxury",
+		"uniques": ["Not shown on world screen", "[+2 Culture] from [Water resource] tiles [in all cities]", "Comment [With this Smelt's Scales Card, Melee units gain the [Card - Smelt's Scales] promotion]", "[Melee] units gain the [Card - Smelt's Scales] promotion <hidden from users>", "Comment [(Cards don't give any Happiness, except in Easy difficulty)]", "[-4 Happiness] <hidden from users>", "Excluded from map editor"]
+	},
+	{
+		"name": "Ability Card; Pebble Hat",
+		"civilopediaText":[
+            {"extraImage":"Pebble Hat", "imageSize":180},
+			{"text":"Card - Pebble Hat", "header":5,"color": "#FDFF88", "link": "Promotions/Card - Pebble Hat"}
+		],
+		"resourceType": "Luxury",
+		"uniques": ["Not shown on world screen", "[+1] Movement <for [Scout] units>", "Comment [With this Pebble Hat Card, Scout units gain the [Card - Pebble Hat] promotion]", "[Scout] units gain the [Card - Pebble Hat] promotion <hidden from users>", "Comment [(Cards don't give any Happiness, except in Easy difficulty)]", "[-4 Happiness] <hidden from users>", "Excluded from map editor"],
+	},
+	{
+		"name": "Ability Card; Princess Kaguya's Secret Stash", 
+		"civilopediaText":[
+            {"extraImage":"Princess Kaguya's Secret Stash", "imageSize":180}, //card image
+		],
+		"resourceType": "Luxury",
+		"uniques": ["Not shown on world screen", "Comment [Gain 200-500 [Gold] (modified by game speed)]",
+			"[Gold] cost of purchasing items in cities [-10]%",
+			"Comment [(Cards don't give any Happiness, except in Easy difficulty)]", "[-4 Happiness] <hidden from users>", "Excluded from map editor"
+			]
+	},
+	{
+		"name": "Ability Card; Item Season",
+		"civilopediaText":[
+            {"extraImage":"Item Season", "imageSize":180}, //card image
+		],
+		"resourceType": "Luxury",
+		"uniques": ["Not shown on world screen",
+			"[+1 Happiness] [in all cities]",
+			"Comment [Gain 250 [Gold] upon entering a Golden Age]",
+			"Comment [(Cards don't give any Happiness, except in Easy difficulty)]",
+			"[-4 Happiness] <hidden from users>", "Excluded from map editor"]
+	},
+	
+	
+	////////////////////////////////////////////////// END ///////////////////////////////////////////////////////////////////
+	
+	
+	// Luxury resources
+	{
+		"name": "Furs",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Forest", "Tundra"],
+		"gold": 2,
+		"improvement": "Camp",
+		"improvementStats": {"gold": 1},
+		"uniques": ["Generated with weight [40] <in [Tundra] Regions>",
+					"Generated with weight [10] <in [Forest] Regions>",
+					"Generated near City States with weight [15]"]
+	},
+	{
+		"name": "Cotton",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Grassland", "Flood plains"],
+		"gold": 2,
+		"improvement": "Plantation",
+		"uniques": ["Generated with weight [15] <in [Desert] Regions>",
+					"Generated with weight [30] <in [Grassland] Regions>",
+					"Generated with weight [15] <in [Hybrid] Regions>",
+					"Generated near City States with weight [10]",
+					"Doesn't generate naturally <in [Hill] tiles>"]
+	},
+	{
+		"name": "Dyes",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Jungle", "Forest", "Marsh"],
+		"gold": 2,
+		"improvement": "Plantation",
+		"uniques": ["Generated with weight [5] <in [Tundra] Regions>",
+					"Generated with weight [5] <in [Jungle] Regions>",
+					"Generated with weight [30] <in [Forest] Regions>",
+					"Generated near City States with weight [10]",
+					"Doesn't generate naturally <in [Hill] tiles>"]
+	},
+	{
+		"name": "Gems",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Jungle", "Forest", "Hill"],
+		"gold": 3,
+		"improvement": "Mine",
+		"uniques": ["Generated with weight [5] <in [Tundra] Regions>",
+					"Generated with weight [20] <in [Jungle] Regions>",
+					"Generated with weight [15] <in [Hill] Regions>",
+					"Generated with weight [5] <in [Grassland] Regions>",
+					"Generated with weight [5] <in [Hybrid] Regions>",
+					"Generated near City States with weight [10]",
+					"Doesn't generate naturally <in [Forest] tiles> <in tiles without [Hill]>"]
+	},
+	{
+		"name": "Gold Ore", // Not called "Gold" in order to not conflict with siege type units for translations
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Desert", "Hill", "Forest", "Jungle"],
+		"gold": 2,
+		"improvement": "Mine",
+		"uniques": ["Generated with weight [25] <in [Desert] Regions>",
+					"Generated with weight [30] <in [Hill] Regions>",
+					"Generated with weight [5] <in [Plains] Regions>",
+					"Generated with weight [5] <in [Hybrid] Regions>",
+					"Generated near City States with weight [10]",
+					"Doesn't generate naturally <in [Forest] tiles> <in tiles without [Hill]>",
+					"Doesn't generate naturally <in [Jungle] tiles> <in tiles without [Hill]>"]
+	},
+	{
+		"name": "Silver",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Hill", "Forest", "Jungle", "Tundra", "Grassland"],
+		"gold": 2,
+		"improvement": "Mine",
+		"uniques": ["Generated with weight [25] <in [Tundra] Regions>",
+					"Generated with weight [30] <in [Hill] Regions>",
+					"Generated with weight [20] <in [Grassland] Regions>",
+					"Generated with weight [10] <in [Hybrid] Regions>",
+					"Generated near City States with weight [10]",
+					"Doesn't generate naturally <in [Forest] tiles> <in tiles without [Hill]>",
+					"Doesn't generate naturally <in [Jungle] tiles> <in tiles without [Hill]>",
+					"Doesn't generate naturally <in [{Tundra} {Hill}] tiles>",
+					"Doesn't generate naturally <in [{Grassland} {Fresh Water}] tiles>",
+					"Doesn't generate naturally <in [{Grassland} {Hill}] tiles>"
+		]
+	},
+	{
+		"name": "Incense",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Plains", "Desert", "Flood plains"],
+		"gold": 2,
+		"improvement": "Plantation",
+		"uniques": ["Generated with weight [35] <in [Desert] Regions>",
+					"Generated with weight [10] <in [Plains] Regions>",
+					"Generated with weight [5] <in [Hybrid] Regions>",
+					"Generated near City States with weight [15]"]
+	},
+	{
+		"name": "Ivory",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Plains", "Grassland"],
+		"gold": 2,
+		"improvement": "Camp",
+		"improvementStats": {"gold": 1},
+		"uniques": ["Generated with weight [35] <in [Plains] Regions>",
+					"Generated with weight [15] <in [Hybrid] Regions>",
+					"Generated near City States with weight [10]",
+					"Doesn't generate naturally <in [{Grassland} {Fresh Water}] tiles>"]
+	},
+	{
+		"name": "Silk",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Forest", "Jungle"],
+		"gold": 2,
+		"improvement": "Plantation",
+		"uniques": ["Generated with weight [5] <in [Jungle] Regions>",
+					"Generated with weight [30] <in [Forest] Regions>",
+					"Generated with weight [5] <in [Hybrid] Regions>",
+					"Generated near City States with weight [15]",
+					"Doesn't generate naturally <in [Hill] tiles>"]
+	},
+	{
+		"name": "Spices",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Jungle", "Forest", "Marsh"],
+		"gold": 2,
+		"improvement": "Plantation",
+		"uniques": ["Generated with weight [30] <in [Jungle] Regions>",
+					"Generated with weight [10] <in [Forest] Regions>",
+					"Generated with weight [5] <in [Plains] Regions>",
+					"Generated with weight [5] <in [Grassland] Regions>",
+					"Generated with weight [5] <in [Hybrid] Regions>",
+					"Generated near City States with weight [15]",
+					"Doesn't generate naturally <in [Hill] tiles>",
+					"Doesn't generate naturally <in [{Tundra} {Forest}] tiles>"]
+	},
+	{
+		"name": "Wine",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Grassland", "Plains"],
+		"gold": 2,
+		"improvement": "Plantation",
+		"uniques": ["Generated with weight [35] <in [Plains] Regions>",
+					"Generated with weight [15] <in [Hybrid] Regions>",
+					"Generated near City States with weight [10]"]
+	},
+	{
+		"name": "Sugar",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Flood plains", "Grassland", "Marsh"],
+		// Technically sugar can also be placed on lowland jungles which then *turn* into marsh.
+		"gold": 2,
+		"improvement": "Plantation",
+		"uniques": ["Generated with weight [20] <in [Jungle] Regions>",
+					"Generated with weight [15] <in [Desert] Regions>",
+					"Generated with weight [20] <in [Grassland] Regions>",
+					"Generated with weight [5] <in [Hybrid] Regions>",
+					"Generated near City States with weight [10]",
+					"Doesn't generate naturally <in [Grassland] tiles> <in tiles without [Fresh Water]>"]
+	},
+	{
+		"name": "Marble",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Desert", "Plains", "Hill", "Grassland"],
+		"gold": 2,
+		"improvement": "Quarry",
+		"improvementStats": {"production": 1},
+		"uniques": ["[+15]% Production when constructing [All] wonders [in all cities]",
+					"Special placement during map generation",
+					"Doesn't generate naturally <in [{Grassland} {Fresh Water}] tiles>"]
+	},
+	{
+		"name": "Whales",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Coast"],
+		"food": 1,
+		"gold": 1,
+		"improvement": "Fishing Boats",
+		"uniques": ["Generated with weight [35] <in [Tundra] Regions>",
+					"Generated with weight [10] <in [Forest] Regions>",
+					"Generated with weight [10] <in [Hill] Regions>",
+					"Generated with weight [5] <in [Plains] Regions>",
+					"Generated with weight [10] <in [Grassland] Regions>",
+					"Generated with weight [20] <in [Hybrid] Regions>",
+					"Generated near City States with weight [10]"]
+	},
+	{
+		"name": "Pearls",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Coast"],
+		"gold": 2,
+		"improvement": "Fishing Boats",
+		"uniques": ["Generated with weight [20] <in [Jungle] Regions>",
+					"Generated with weight [10] <in [Forest] Regions>",
+					"Generated with weight [5] <in [Desert] Regions>",
+					"Generated with weight [15] <in [Hill] Regions>",
+					"Generated with weight [5] <in [Plains] Regions>",
+					"Generated with weight [10] <in [Grassland] Regions>",
+					"Generated with weight [20] <in [Hybrid] Regions>",
+					"Generated near City States with weight [15]"]
+	},
+	{
+		"name": "Jewelry",
+		"resourceType": "Luxury",
+		"gold": 2,
+		"uniques": ["Can only be created by Mercantile City-States"]
+	},
+	{
+		"name": "Porcelain",
+		"resourceType": "Luxury",
+		"gold": 2,
+		"uniques": ["Can only be created by Mercantile City-States"]
+	},
+	{
+		"name": "Citrus",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Jungle", "Forest", "Flood plains"],
+		"food": 1,
+		"gold": 1,
+		"improvement": "Plantation",
+		"uniques": ["Generated with weight [35] <in [Jungle] Regions>",
+					"Generated with weight [5] <in [Forest] Regions>",
+					"Generated with weight [5] <in [Desert] Regions>",
+					"Generated with weight [5] <in [Hybrid] Regions>",
+					"Generated near City States with weight [15]",
+					"Doesn't generate naturally <in [Tundra] tiles>"]
+	},
+	{
+		"name": "Copper",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Hill", "Forest", "Jungle", "Grassland", "Tundra"],
+		"gold": 2,
+		"improvement": "Mine",
+		"uniques": ["Generated with weight [15] <in [Tundra] Regions>",
+					"Generated with weight [5] <in [Jungle] Regions>",
+					"Generated with weight [5] <in [Forest] Regions>",
+					"Generated with weight [10] <in [Desert] Regions>",
+					"Generated with weight [30] <in [Hill] Regions>",
+					"Generated with weight [20] <in [Grassland] Regions>",
+					"Generated with weight [20] <in [Hybrid] Regions>",
+					"Generated near City States with weight [10]",
+					"Doesn't generate naturally <in [{Grassland} {Fresh Water}] tiles>",
+					"Doesn't generate naturally <in [Jungle] tiles> <in tiles without [Hill]>",
+					"Doesn't generate naturally <in [Forest] tiles> <in tiles without [Hill]> <in tiles without [Tundra]>"]
+	},
+	/* 
+	{
+		"name": "Cocoa",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Jungle", "Forest"], // Forest only if flat, non-tundra
+		"food": 1,
+		"gold": 1,
+		"improvement": "Plantation"
+	},
+	*/
+	{
+		"name": "Crab",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Coast"],
+		"food": 1,
+		"gold": 1,
+		"improvement": "Fishing Boats",
+		"uniques": ["Generated with weight [30] <in [Tundra] Regions>",
+					"Generated with weight [5] <in [Jungle] Regions>",
+					"Generated with weight [10] <in [Forest] Regions>",
+					"Generated with weight [10] <in [Hill] Regions>",
+					"Generated with weight [5] <in [Plains] Regions>",
+					"Generated with weight [20] <in [Grassland] Regions>",
+					"Generated with weight [20] <in [Hybrid] Regions>",
+					"Generated near City States with weight [15]"]
+	},
+	{
+		"name": "Salt",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Desert", "Tundra", "Plains", "Forest"],
+		"gold": 1,
+		"food": 1,
+		"improvement": "Mine",
+		"improvementStats": {"food": 1},
+		"uniques": ["Generated with weight [15] <in [Tundra] Regions>",
+					"Generated with weight [5] <in [Forest] Regions>",
+					"Generated with weight [15] <in [Desert] Regions>",
+					"Generated with weight [10] <in [Hill] Regions>",
+					"Generated with weight [25] <in [Plains] Regions>",
+					"Generated with weight [15] <in [Hybrid] Regions>",
+					"Generated near City States with weight [10]",
+					"Doesn't generate naturally <in [{Forest} {Hill}] tiles>"]
+	},
+	{
+		"name": "Truffles",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Forest", "Marsh", "Jungle"],
+		"gold": 2,
+		"improvement": "Camp",
+		"improvementStats": {"gold": 1},
+		"uniques": ["Generated with weight [5] <in [Jungle] Regions>",
+					"Generated with weight [30] <in [Forest] Regions>",
+					"Generated with weight [5] <in [Plains] Regions>",
+					"Generated with weight [5] <in [Grassland] Regions>",
+					"Generated with weight [10] <in [Hybrid] Regions>",
+					"Generated near City States with weight [15]",
+					"Doesn't generate naturally <in [{Forest} {Hill}] tiles>",
+					"Doesn't generate naturally <in [{Tundra} {Forest}] tiles>"]
+	},
+	
+	/////////////////////// Triggers ///////////////////////
+	{
+		"name": "White Switch Open",
+		"resourceType": "Strategic",
+		"uniques": ["Stockpiled <hidden from users>", "Will not be displayed in Civilopedia <hidden from users>", "Not shown on world screen <hidden from users>"]
+	},
+	{
+		"name": "Black Switch Open",
+		"resourceType": "Strategic",
+		"uniques": ["Stockpiled <hidden from users>", "Will not be displayed in Civilopedia <hidden from users>", "Not shown on world screen <hidden from users>"]
+	},
+	{
+		"name": "Ambassador",
+		"resourceType": "Strategic",
+		"uniques": ["Stockpiled <hidden from users>", "Not shown on world screen <before discovering [Embassy]>"]
+		"civilopediaText":[
+            {"text": "You gain 1 [Ambassador] upon declaring friendship with a major Civilization, but lose 1 [Ambassador] upon declaring war. After discovering [Embassy], +4 [Happiness] for every [Ambassador].","color": "#FDFF88","link": "Technologies/Embassy"}
+		],
+	},
 ]
