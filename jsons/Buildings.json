@@ -1278,7 +1278,7 @@
 	{
 		"name": "Major Religions In Gensokyo",
 		"cost": 1,
-		"uniques": ["Unbuildable", "Hidden when religion is disabled"]
+		"uniques": ["Unbuildable", "Only available <when religion is enabled>"]
 	},
 	{
 		"name": "Hakurei Shrine",
@@ -1330,7 +1330,7 @@
 		"hurryCostModifier": 12,
 		"faith": 1,
 		"maintenance": 1,
-		"uniques": ["Hidden when religion is disabled"]
+		"uniques": ["Only available <when religion is enabled>"]
 	},
 	{
 		"name": "Temple",
@@ -1367,7 +1367,7 @@
 		"culture": 1,
 		"faith": 8,
 		"uniques": ["Only available <if [Major Religions In Gensokyo] is constructed>", "Only available <if [Temple] is constructed in all [non-[Puppeted]] cities>", "Cost increases by [30] per owned city",
-			"[+100]% Natural religion spread [in this city]", "Hidden when religion is disabled", "Can only be built <in [Holy] cities>"],
+			"[+100]% Natural religion spread [in this city]", "Only available <when religion is enabled>", "Can only be built <in [Holy] cities>"],
 		"requiredTech": "National Faith",
 		"isNationalWonder": true
 	},
@@ -1376,7 +1376,7 @@
 		"cost": 125,
 		"culture": 3,
 		"uniques": ["Only available <if [Major Religions In Gensokyo] is constructed>", "Only available <if [Shrine] is constructed in all [non-[Puppeted]] cities>", "Cost increases by [30] per owned city",
-			"[+30]% [Faith] [in all cities] <while the empire is happy>", "Hidden when religion is disabled", "Can only be built <in [Holy] cities>"],
+			"[+30]% [Faith] [in all cities] <while the empire is happy>", "Only available <when religion is enabled>", "Can only be built <in [Holy] cities>"],
 		"requiredTech": "Philosophy",
 		"isNationalWonder": true
 	},
@@ -1432,14 +1432,14 @@
 		"maintenance": 2,
 		"requiredTech": "Philosophy",
 		"requiredBuilding": "Temple",
-		"uniques": ["Hidden when religion is disabled", "Destroyed when the city is captured"]
+		"uniques": ["Only available <when religion is enabled>", "Destroyed when the city is captured"]
 	},
 	{
 		"name": "Hall Of Idols",
 		"cost": 400,
 		"culture": 1,
 		"faith": 3,
-		"uniques": ["Only available <if [Major Religions In Gensokyo] is constructed>", "Only available <if [Shrine] is constructed in all [non-[Puppeted]] cities>", "Hidden when religion is disabled",
+		"uniques": ["Only available <if [Major Religions In Gensokyo] is constructed>", "Only available <if [Shrine] is constructed in all [non-[Puppeted]] cities>", "Only available <when religion is enabled>",
 			"Gain a free [Torii Gate] [in this city]",
 			"All newly-trained [Missionary] units [in this city] receive the [Devout] promotion", "All newly-trained [Great Prophet] units [in this city] receive the [Devout] promotion", "Can only be built <in [Holy] cities>"],
 		"requiredTech": "Full Conversion",
@@ -1481,7 +1481,7 @@
 		"culture": 3,
 		"happiness": 1,
 		"specialistSlots": {"Artist": 1},
-		"uniques": ["Unbuildable", "Hidden when religion is disabled"]
+		"uniques": ["Unbuildable", "Only available <when religion is enabled>"]
 	},
 	{
 		"name": "Torii Gate",
@@ -1490,7 +1490,7 @@
 		"faith": 2,
 		"uniques": ["[+1 Culture, +1 Faith] from [Wine] tiles [in this city]",
 			"[+1 Culture, +1 Faith] from [Incense] tiles [in this city]",
-			"Unbuildable", "Hidden when religion is disabled", "Destroyed when the city is captured"]
+			"Unbuildable", "Only available <when religion is enabled>", "Destroyed when the city is captured"]
 	},
 	{
 		"name": "Komainu Statue",
@@ -1498,7 +1498,7 @@
 		"culture": 2,
 		"faith": 3,
 		"happiness": 1,
-		"uniques": ["Unbuildable", "Hidden when religion is disabled"]
+		"uniques": ["Unbuildable", "Only available <when religion is enabled>"]
 	},
 	{
 		"name": "Taoist Mausoleum",
@@ -1506,7 +1506,7 @@
 		"culture": 2,
 		"faith": 2,
 		"happiness": 2,
-		"uniques": ["Unbuildable", "Hidden when religion is disabled"]
+		"uniques": ["Unbuildable", "Only available <when religion is enabled>"]
 	},
 	
 
@@ -1532,7 +1532,7 @@
 		"culture": 1,
 		"greatPersonPoints": {"Great Merchant": 2},
 		"requiredTech": "Peace To Gensokyo",
-		"uniques": ["Triggers voting for the Diplomatic Victory", "Hidden when [Diplomatic] Victory is disabled", "Triggers a global alert upon completion"],
+		"uniques": ["Triggers voting for the Diplomatic Victory", "Only available <when [Diplomatic] Victory is enabled>", "Triggers a global alert upon completion"],
 		"quote": "In the illusionary realm of Gensokyo, after countless struggles and battles between humans, youkai, and other beings, a profound shift occurred. Had she finally achieved peace in Gensokyo?"
 	},
 	{
@@ -1540,14 +1540,14 @@
 		"cost": 2000,
 		"isNationalWonder": true,
 		"uniques": ["Hidden until [5] social policy branches have been completed", "Triggers a global alert upon build start",
-			"Triggers a Cultural Victory upon completion", "Hidden when [Cultural] Victory is disabled", "Cannot be hurried"]
+			"Triggers a Cultural Victory upon completion", "Only available <when [Cultural] Victory is enabled>", "Cannot be hurried"]
 	},
 	{
 		"name": "Perfect Beer Program",
 		"cost": 1500,
 		"isNationalWonder": true,
 		"uniques": ["Comment [Enables construction of The Perfect Beer's Ingredients]", "Triggers a global alert upon completion",
-			"Hidden when [Scientific] Victory is disabled", "Cannot be hurried"],
+			"Only available <when [Scientific] Victory is enabled>", "Cannot be hurried"],
 		"requiredTech": "ZUN's Perfect Beer"
 	},
 
@@ -1633,6 +1633,7 @@
 				"cost": 1,
 				"uniques": [
 				"Card Holder",
+				"[Gold] cost of purchasing items in cities [-10]%",
 				"Gain [200]-[500] [Gold] <(modified by game speed)> <hidden from users>",
 				"Unbuildable", "Unsellable", "Will not be displayed in Civilopedia", "Provides [1] [Ability Card; Princess Kaguya's Secret Stash] <hidden from users>"]
 			},
