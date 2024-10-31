@@ -20,7 +20,7 @@
     {
         "name": "your exploring unit receives training by Kasen",
         "notification": "Kasen trained us her ways of combat!",
-        "uniques": ["This Unit gains [60] XP"]
+        "uniques": ["[This Unit] gains [60] XP"]
     },
     {
         "name": "missing dumplings",
@@ -37,7 +37,7 @@
     {
         "name": "whose sword is this?",
         "notification": "Our unit finds a sword hidden in the ruins!",
-        "uniques": ["This Unit upgrades for free including special upgrades"]
+        "uniques": ["[This Unit] upgrades for free including special upgrades"]
     },
     {
         "name": "reveal nearby Barbarian camps",
