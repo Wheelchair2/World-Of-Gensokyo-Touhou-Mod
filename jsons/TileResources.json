@@ -223,7 +223,7 @@
 		],
 		"resourceType": "Luxury",
 		"uniques": ["Comment [Can be used for fooling other nations into trading for your [Blank Card]]", "Not shown on world screen", "Comment [(Cards don't give any Happiness, except in Easy difficulty)]", "[-4 Happiness] <hidden from users>", "Excluded from map editor",
-		"Cannot be traded <for [non-[Beneath The Rainbow]]>" // This works I tested.
+		"Cannot be traded <for [non-[Beneath The Rainbow]] Civilizations>" // This works I tested.
 		]
 	},
 	{
