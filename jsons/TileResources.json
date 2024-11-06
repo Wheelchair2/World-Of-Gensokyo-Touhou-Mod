@@ -590,7 +590,8 @@
 					"Generated with weight [35] <in [Hybrid] Regions>",
 					"Generated near City States with weight [20]",
 					"Doesn't generate naturally <in [Grassland] tiles>",
-					"Doesn't generate naturally <in [Plains] tiles>"
+					"Doesn't generate naturally <in [Plains] tiles>",
+					"Doesn't generate naturally <in [Desert] tiles>"
 					]
 	},
 	{
@@ -604,7 +605,8 @@
 					"Generated with weight [25] <in [Forest] Regions>",
 					"Generated near City States with weight [20]",
 					"Doesn't generate naturally <in [Grassland] tiles>",
-					"Doesn't generate naturally <in [Plains] tiles>"
+					"Doesn't generate naturally <in [Plains] tiles>",
+					"Doesn't generate naturally <in [Desert] tiles>"
 					]
 	},
 	
