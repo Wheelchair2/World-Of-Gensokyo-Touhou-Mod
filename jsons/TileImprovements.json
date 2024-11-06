@@ -98,9 +98,9 @@
 	{
 		"name": "Fishing Vessel",
 		"terrainsCanBeBuiltOn": ["Coast"],
-		"gold": 1,
+		"gold": 2,
 		"techRequired": "Sailing",
-		"uniques": ["[+2 Gold] <after discovering [Compass]>", "Can only be built to improve a resource", "Pillaging this improvement yields approximately [+10 Gold]"],
+		"uniques": ["[+1 Gold] <after discovering [Compass]>", "Can only be built to improve a resource", "Pillaging this improvement yields approximately [+10 Gold]"],
 		"shortcutKey": "V"
 	},
 
