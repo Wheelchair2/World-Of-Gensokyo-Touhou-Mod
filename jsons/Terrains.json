@@ -471,7 +471,7 @@
 		"movementCost": 2,
 		"overrideStats": true,
 		"occursOn": ["Plains", "Grassland", "Hill", "Desert"],
-		"turnsInto": "Grassland",
+		"turnsInto": "Desert",
 		"impassable": true,
 		"unbuildable": true,
 		"uniques": [
