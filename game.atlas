@@ -2998,7 +2998,7 @@ BuildingIcons/Underground Mines
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Warmth of Spring
+BuildingIcons/Warmth Of Spring
   rotate: false
   xy: 1192, 914
   size: 100, 100
