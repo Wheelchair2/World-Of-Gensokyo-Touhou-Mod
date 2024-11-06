@@ -18,5 +18,7 @@
 		"Desert+Wheat+Farm": ["DesertFarm", "Wheat"],
 		"Desert+Flood plains+Wheat+Farm": ["DesertFarm", "Wheat"],
 		
+		"Tundra+Olive Tree": ["Tundra", "Olive Tree Tundra"],
+		
 	}
 }
