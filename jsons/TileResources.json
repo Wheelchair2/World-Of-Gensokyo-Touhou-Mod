@@ -66,14 +66,16 @@
 					"Generated on every [15] tiles <in [{Featureless} {Tundra}] tiles>",
 					"Generated on every [19] tiles <in [{Featureless} {Desert}] tiles>"]
 	},
+	/*
 	{
 		"name": "Fish",
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Coast"],
 		"food": 1,
-		"improvement": "Fishing Boats",
+		"improvedBy": ["Fishing Boats", "Fishing Vessel"],
 		"uniques": ["Generated on every [10] tiles <in [{Featureless} {Coast}] tiles>"]
 	},
+	*/
 	/*
 	{
 		"name": "Bison",
@@ -369,7 +371,7 @@
 			{"text":"Card - Smelt's Scales", "header":5,"color": "#FDFF88", "link": "Promotions/Card - Smelt's Scales"}
 		],
 		"resourceType": "Luxury",
-		"uniques": ["Not shown on world screen", "[+2 Culture] from [Water resource] tiles [in all cities]", "Comment [With this Smelt's Scales Card, Melee units gain the [Card - Smelt's Scales] promotion]", "[Melee] units gain the [Card - Smelt's Scales] promotion <hidden from users>", "Comment [(Cards don't give any Happiness, except in Easy difficulty)]", "[-4 Happiness] <hidden from users>", "Excluded from map editor"]
+		"uniques": ["Not shown on world screen", "[+1 Culture, +1 Gold] from [Water resource] tiles [in all cities]", "Comment [With this Smelt's Scales Card, Melee units gain the [Card - Smelt's Scales] promotion]", "[Melee] units gain the [Card - Smelt's Scales] promotion <hidden from users>", "Comment [(Cards don't give any Happiness, except in Easy difficulty)]", "[-4 Happiness] <hidden from users>", "Excluded from map editor"]
 	},
 	{
 		"name": "Ability Card; Pebble Hat",
@@ -406,9 +408,207 @@
 	
 	
 	////////////////////////////////////////////////// END ///////////////////////////////////////////////////////////////////
-	
-	
+	//Bonus resource test
+	{
+		"name": "Tuna",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Fish"],
+		"food": 1,
+		"improvedBy": ["Fishing Boats", "Fishing Vessel"],
+		"improvementStats": {"food": 1, "gold": 1},
+		"uniques": ["Generated on every [3] tiles <in [Fish] tiles>",
+					"Generated on every [2] tiles <in [Fish] tiles> <in [Grassland] Regions>",
+					"Generated on every [2] tiles <in [Fish] tiles> <in [Plains] Regions>"
+					]
+	},
+	{
+		"name": "Shrimp",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Fish"],
+		"food": 1,
+		"improvedBy": ["Fishing Boats", "Fishing Vessel"],
+		"improvementStats": {"food": 1, "gold": 1},
+		"uniques": ["Generated on every [3] tiles <in [Fish] tiles>",
+					"Generated on every [3] tiles <in [Lakes] tiles>",
+					"Generated on every [2] tiles <in [Fish] tiles> <in [Hybrid] Regions>",
+					]
+	},
+	{
+		"name": "Salmon",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Fish", "Lakes"],
+		"food": 1,
+		"improvedBy": ["Fishing Boats", "Fishing Vessel"],
+		"improvementStats": {"food": 1, "gold": 1},
+		"uniques": ["Generated on every [3] tiles <in [Fish] tiles>",
+					"Generated on every [3] tiles <in [Lakes] tiles>",
+					"Generated on every [1] tiles <in [Fish] tiles> <in [Tundra] Regions>",
+					]
+	},
+	{
+		"name": "Carp",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Lakes"],
+		"food": 1,
+		"improvedBy": ["Fishing Boats", "Fishing Vessel"],
+		"improvementStats": {"food": 1, "gold": 1},
+		"uniques": ["Generated on every [1] tiles <in [Lakes] tiles>",
+					]
+	},
+	{
+		"name": "Tuna",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Fish"],
+		"food": 1,
+		"gold": 1,
+		"improvedBy": ["Fishing Boats", "Fishing Vessel"],
+		"uniques": ["Generated with weight [35] <in [Tundra] Regions>",
+					"Generated with weight [25] <in [Forest] Regions>",
+					"Generated with weight [25] <in [Hill] Regions>",
+					"Generated with weight [5] <in [Plains] Regions>",
+					"Generated with weight [5] <in [Grassland] Regions>",
+					"Generated with weight [10] <in [Hybrid] Regions>",
+					"Generated near City States with weight [20]"]
+	},
 	// Luxury resources
+	
+	// Touhou
+	
+	{
+		"name": "Tea",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Plains","Grassland"],
+		"gold": 2,
+		"improvement": "Plantation",
+		"improvementStats": {"gold": 1},
+		"uniques": ["Generated with weight [30] <in [Plains] Regions>",
+					"Generated with weight [30] <in [Grassland] Regions>",
+					"Generated near City States with weight [10]"]
+	},
+	{
+		"name": "Coffee",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Plains","Grassland","Desert","Hill"],
+		"gold": 2,
+		"improvement": "Plantation",
+		"improvementStats": {"gold": 1},
+		"uniques": [
+					"Generated with weight [30] <in [Hybrid] Regions>",
+					"Generated with weight [26] <in [Hill] tiles>",
+					"Generated with weight [30] <in [Desert] Regions>",
+					"Generated near City States with weight [10]"]
+	},
+	
+	{
+		"name": "Tuna Salad",
+		"resourceType": "Luxury",
+		"uniques": ["Comment [Can be obtained from Water resources]"]
+	},
+	{
+		"name": "Sushi",
+		"resourceType": "Luxury",
+		"uniques": ["Comment [Can be obtained from Water resources]"]
+	},
+	{
+		"name": "Shrimp Fried Rice",
+		"resourceType": "Luxury",
+		"uniques": ["Comment [Can be obtained from Water resources]", "Comment [Is this even Japanese food?]"]
+	},
+	/*
+	{
+		"name": "Tuna",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Fish"],
+		"food": 1,
+		"gold": 1,
+		"improvedBy": ["Fishing Boats", "Fishing Vessel"],
+		"uniques": ["Generated with weight [35] <in [Tundra] Regions>",
+					"Generated with weight [25] <in [Forest] Regions>",
+					"Generated with weight [25] <in [Hill] Regions>",
+					"Generated with weight [5] <in [Plains] Regions>",
+					"Generated with weight [5] <in [Grassland] Regions>",
+					"Generated with weight [10] <in [Hybrid] Regions>",
+					"Generated near City States with weight [20]"]
+	},
+	{
+		"name": "Salmon",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Fish", "Lakes"],
+		"food": 1,
+		"gold": 1,
+		"improvedBy": ["Fishing Boats", "Fishing Vessel"],
+		"uniques": ["Generated with weight [5] <in [Tundra] Regions>",
+					"Generated with weight [25] <in [Forest] Regions>",
+					"Generated with weight [25] <in [Hill] Regions>",
+					"Generated with weight [35] <in [Plains] Regions>",
+					"Generated with weight [35] <in [Grassland] Regions>",
+					"Generated with weight [5] <in [Hybrid] Regions>",
+					"Generated near City States with weight [20]"]
+	},
+	{
+		"name": "Shrimp",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Fish"],
+		"food": 1,
+		"gold": 1,
+		"improvedBy": ["Fishing Boats", "Fishing Vessel"],
+		"uniques": ["Generated with weight [25] <in [Tundra] Regions>",
+					"Generated with weight [5] <in [Forest] Regions>",
+					"Generated with weight [25] <in [Hill] Regions>",
+					"Generated with weight [15] <in [Plains] Regions>",
+					"Generated with weight [15] <in [Grassland] Regions>",
+					"Generated with weight [5] <in [Hybrid] Regions>",
+					"Generated near City States with weight [20]"]
+	},
+	{
+		"name": "Carp",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Lakes"],
+		"food": 1,
+		"gold": 1,
+		"improvedBy": ["Fishing Boats", "Fishing Vessel"],
+		"uniques": ["Generated with weight [5] <in [Tundra] Regions>",
+					"Generated with weight [10] <in [Forest] Regions>",
+					"Generated with weight [25] <in [Hill] Regions>",
+					"Generated with weight [5] <in [Plains] Regions>",
+					"Generated with weight [10] <in [Grassland] Regions>",
+					"Generated with weight [20] <in [Hybrid] Regions>",
+					"Generated near City States with weight [25]"]
+	},
+	*/
+	
+	{
+		"name": "Pelt",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Snow", "Tundra", "Forest", "Hill"],
+		"food": 2,
+		"gold": 2,
+		"improvedBy": ["Camp"],
+		"uniques": ["Generated with weight [5] <in [Tundra] Regions>",
+					"Generated with weight [5] <in [Forest] Regions>",
+					"Generated with weight [10] <in [Hill] Regions>",
+					"Generated with weight [35] <in [Hybrid] Regions>",
+					"Generated near City States with weight [20]",
+					"Doesn't generate naturally <in [Grassland] tiles>",
+					"Doesn't generate naturally <in [Plains] tiles>"
+					]
+	},
+	{
+		"name": "Hare",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Snow", "Tundra", "Forest"],
+		"food": 1,
+		"gold": 2,
+		"improvedBy": ["Camp"],
+		"uniques": ["Generated with weight [5] <in [Tundra] Regions>",
+					"Generated with weight [25] <in [Forest] Regions>",
+					"Generated near City States with weight [20]",
+					"Doesn't generate naturally <in [Grassland] tiles>",
+					"Doesn't generate naturally <in [Plains] tiles>"
+					]
+	},
+	
+	//Vanilla
 	{
 		"name": "Furs",
 		"resourceType": "Luxury",
@@ -581,7 +781,7 @@
 		"terrainsCanBeFoundOn": ["Coast"],
 		"food": 1,
 		"gold": 1,
-		"improvement": "Fishing Boats",
+		"improvedBy": ["Fishing Boats", "Fishing Vessel"],
 		"uniques": ["Generated with weight [35] <in [Tundra] Regions>",
 					"Generated with weight [10] <in [Forest] Regions>",
 					"Generated with weight [10] <in [Hill] Regions>",
@@ -595,7 +795,7 @@
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Coast"],
 		"gold": 2,
-		"improvement": "Fishing Boats",
+		"improvedBy": ["Fishing Boats", "Fishing Vessel"],
 		"uniques": ["Generated with weight [20] <in [Jungle] Regions>",
 					"Generated with weight [10] <in [Forest] Regions>",
 					"Generated with weight [5] <in [Desert] Regions>",
@@ -665,7 +865,7 @@
 		"terrainsCanBeFoundOn": ["Coast"],
 		"food": 1,
 		"gold": 1,
-		"improvement": "Fishing Boats",
+		"improvedBy": ["Fishing Boats", "Fishing Vessel"],
 		"uniques": ["Generated with weight [30] <in [Tundra] Regions>",
 					"Generated with weight [5] <in [Jungle] Regions>",
 					"Generated with weight [10] <in [Forest] Regions>",

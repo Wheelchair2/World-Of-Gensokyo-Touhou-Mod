@@ -276,7 +276,7 @@
 				"row": 2,
 				"prerequisites": ["Hot Spring"],
 				"quote": "Cormorant fishing in Japan is called ukai (鵜飼) in Japanese.",
-				"uniques": ["[+1 Production] from [Fishing Boats] tiles [in all cities]", "[+2 Gold] in cities on [River] tiles"]
+				"uniques": ["[+1 Production] from [Fishing Boats] tiles [in all cities]", "[+1 Production] from [Fishing Vessel] tiles [in all cities]", "[+2 Gold] in cities on [River] tiles"]
 			},
 			{
 				"name": "Metal Casting", 
@@ -523,12 +523,19 @@
 		"wonderCost": 1500,
 		"techs": [
 			{
+				"name": "Culinary Arts",
+				"row": 3,
+				"prerequisites": ["Multicropping System"],
+				"quote": "I tried sashimi, I don't think I need my taste buds ever again..."
+			},
+			{
 				"name": "Forage Crops Utilization",
 				"row": 5,
 				"prerequisites": ["Multicropping System"],
 				"uniques": ["[+2 Food] from every [{unimproved} {Grassland}]",
                 "[+2 Food] from every [{unimproved} {Plains}]",
-                "[+2 Food] from every [{unimproved} {Tundra}]"
+                "[+2 Food] from every [{unimproved} {Tundra}]",
+				"[+1 Food, +1 Gold] from every [Lakes]"
                 ],
 				"quote": "The blessings of the field pave the way to richness of the heart."
 			},
@@ -562,7 +569,7 @@
 			{
 				"name": "Economics",
 				"row": 6,
-				"prerequisites": ["Law Enforcement", "Forage Crops Utilization"],
+				"prerequisites": ["Law Enforcement", "Forage Crops Utilization", "Culinary Arts"],
 				"quote": "There is a youkai with the ability to stack rocks perfectly."
 			}
 		]

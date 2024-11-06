@@ -54,7 +54,8 @@
             {
                 "name": "Monarchy",
                 "uniques": [
-                    "[+1 Gold, +1 Happiness] per [2] population [in capital]"
+                    "[+1 Gold, +1 Happiness] per [2] population [in capital]",
+					"[+1 Production, +1 Food] per [5] population [in capital]"
                 ],
                 "requires": ["Legalism"],
                 "row": 2,
@@ -192,7 +193,7 @@
             {
                 "name": "National Security",
                 "uniques": [
-                    "[-33]% Gold cost of upgrading <for [Military] units>",
+                    "[-50]% Gold cost of upgrading <for [Military] units>",
                     "[+1 Happiness] from every [Walls]",
                     "[+1 Happiness] from every [Castle]",
                     "[+1 Happiness] from every [Fortress]",
@@ -206,7 +207,8 @@
             {
                 "name": "Honor Complete",
                 "uniques": [
-                    "Earn [10]% of killed [Military] unit's [Cost] as [Gold]"
+					"[+10] HP when healing <for [Military] units>",
+					"[+5] XP gained from combat"
                 ]
             }
         ]
@@ -222,8 +224,8 @@
             "Scientific": 0
         },
         "uniques": [
-            "[+100]% Production when constructing [Shrine] buildings [in all cities]",
-            "[+100]% Production when constructing [Temple] buildings [in all cities]",
+			"May choose [1] additional [Follower] beliefs when [founding] a religion",
+			"May choose [1] additional [Founder] beliefs when [founding] a religion",
 			"[+3 Faith] from every [Natural Wonder]",
             "Only available <before adopting [Rationalism]>"
         ],
@@ -270,8 +272,8 @@
             {
                 "name": "Piety Complete",
                 "uniques": [
-                    "[Faith] cost of purchasing items in cities [-20]%",
-                    "[+3 Gold, +3 Culture] from every [Holy site]"
+                    "[Faith] cost of purchasing items in cities [-50]%",
+                    "[+5 Gold, +5 Culture] from every [Holy site]"
                 ]
             }
         ]
@@ -291,7 +293,7 @@
             {
                 "name": "Philantropy",
                 "uniques": [
-                    "Gifts of Gold to City-States generate [25]% more Influence"
+                    "Gifts of Gold to City-States generate [50]% more Influence"
                 ],
                 "row": 1,
                 "column": 2
@@ -307,7 +309,7 @@
             {
                 "name": "Scholasticism",
                 "uniques": [
-                    "Allied City-States provide [Science] equal to [25]% of what they produce for themselves"
+                    "Allied City-States provide [Science] equal to [50]% of what they produce for themselves"
                 ],
                 "requires": ["Philantropy"],
                 "row": 2,
@@ -351,7 +353,7 @@
             "Domination": 10,
             "Scientific": 10
         },
-        "uniques": ["[+25]% [Gold] [in capital]"],
+        "uniques": ["[+25]% [Gold] [in capital]", "May buy items in puppet cities"],
         "policies": [
             {
                 "name": "Naval Tradition",
@@ -369,6 +371,7 @@
                 "name": "Trade Unions",
                 "uniques": [
                     "[-33]% maintenance on road & railroads",
+					"[+1 Gold] from every [Lighthouse]",
                     "[+1 Gold] from every [Harbor]",
                     "[+1 Gold] from every [Seaport]"
                 ],
@@ -386,10 +389,11 @@
                 "name": "Mercantilism",
                 "uniques": [
                     "[Gold] cost of purchasing items in cities [-25]%",
-                    "[+1 Science] from every [Mint]",
-                    "[+1 Science] from every [Market]",
-                    "[+1 Science] from every [Jewelry Shop]",
-                    "[+1 Science] from every [Bank]"
+					"[+2 Science] from every [Paper Maker]",
+                    "[+2 Science] from every [Mint]",
+                    "[+2 Science] from every [Market]",
+                    "[+2 Science] from every [Jewelry Shop]",
+                    "[+2 Science] from every [Bank]"
                 ],
                 "requires": ["Trade Unions"],
                 "row": 2,
@@ -405,7 +409,7 @@
             {
                 "name": "Commerce Complete",
                 "uniques": [
-                    "[+1 Gold] from every [Trading post]",
+                    "[+100]% Yield from every [Trading post]",
                     "[+100]% Gold from Great Merchant trade missions",
                     "May buy [Great Merchant] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Meiji era]>"
                 ]
@@ -424,13 +428,14 @@
         },
         "uniques": [
             "[+15]% [Science] <while the empire is happy>",
+			"[Great Scientist] is earned [+50]% faster",
             "Only available <before adopting [Piety]>"
         ],
         "policies": [
             {
                 "name": "Secularism",
                 "uniques": [
-                    "[+2 Science] from every specialist [in all cities]"
+                    "[+1 Gold, +1 Science, +1 Culture, +1 Food, +1 Production] from every specialist [in all cities]"
                 ],
                 "row": 1,
                 "column": 2
@@ -438,9 +443,10 @@
             {
                 "name": "Humanism",
                 "uniques": [
-                    "[+1 Happiness] from every [University]",
-                    "[+1 Happiness] from every [Observatory]",
-                    "[+1 Happiness] from every [Public School]"
+					"[+2 Happiness] from every [Paper Maker]",
+                    "[+2 Happiness] from every [University]",
+                    "[+2 Happiness] from every [Observatory]",
+                    "[+2 Happiness] from every [Public School]"
                 ],
                 "row": 1,
                 "column": 4
@@ -448,7 +454,8 @@
             {
                 "name": "Free Thought",
                 "uniques": [
-                    "[+1 Science] from every [Trading post]",
+                    "[+2 Science] from every [Trading post]",
+					"[+2 Science] from every [Paper Maker]",
                     "[+17]% [Science] from every [University]"
                 ],
                 "requires": ["Secularism"],
@@ -457,7 +464,7 @@
             },
             {
                 "name": "Sovereignty",
-                "uniques": ["[+1 Gold] from all [Science] buildings"],
+                "uniques": ["[+2 Gold] from all [Science] buildings"],
                 "requires": ["Humanism"],
                 "row": 2,
                 "column": 4
@@ -502,21 +509,22 @@
             },
             {
                 "name": "Universal Suffrage",
-                "uniques": ["[+33]% Strength for cities <when defending>"],
+                "uniques": ["[+50]% Strength for cities <when defending>"],
                 "row": 1,
                 "column": 3
             },
             {
                 "name": "Civil Society",
                 "uniques": [
-                    "[-50]% Food consumption by specialists [in all cities]"
+                    "[-50]% Food consumption by specialists [in all cities]",
+					"[-10]% Unhappiness from [Population] [in all cities]"
                 ],
                 "row": 1,
                 "column": 5
             },
             {
                 "name": "Free Speech",
-                "uniques": ["[8] units cost no maintenance"],
+                "uniques": ["[+30]% Great Person generation [in all cities]"],
                 "requires": ["Constitution"],
                 "row": 2,
                 "column": 1
@@ -524,7 +532,7 @@
             {
                 "name": "Democracy",
                 "uniques": [
-                    "[-50]% Unhappiness from [Specialists] [in all cities]"
+                    "[-100]% Unhappiness from [Specialists] [in all cities]"
                 ],
                 "requires": ["Civil Society"],
                 "row": 2,

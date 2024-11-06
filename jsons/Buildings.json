@@ -364,7 +364,7 @@
 		"name": "Aqueduct",
 		"cost": 100,
 		"maintenance": 1,
-		"hurryCostModifier": 0,
+		"hurryCostModifier": 25,
 		"uniques": ["[40]% Food is carried over after population increases [in this city]"],
 		"requiredTech": "Hot Spring"
 	},
@@ -595,6 +595,36 @@
 		"requiredTech": "Sailing"
 	},
 	{
+		"name": "Japanese Tuna Salad",
+		"cost": 100,
+		"happiness": 1,
+		"requiredNearbyImprovedResources": ["Tuna"],
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"uniques": ["Provides [1] [Tuna Salad]"],
+		"requiredTech": "Culinary Arts"
+	},
+	{
+		"name": "Japanese Sushi",
+		"cost": 100,
+		"happiness": 1,
+		"requiredNearbyImprovedResources": ["Salmon"],
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"uniques": ["Provides [1] [Sushi]"],
+		"requiredTech": "Culinary Arts"
+	},
+	{
+		"name": "Japanese Shrimp Fried Rice",
+		"cost": 100,
+		"happiness": 1,
+		"requiredNearbyImprovedResources": ["Shrimp"],
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"uniques": ["Provides [1] [Shrimp Fried Rice]"],
+		"requiredTech": "Culinary Arts"
+	},
+	{
 		"name": "The Great Lighthouse",
 		"cost": 185,
 		"culture": 1,
@@ -745,10 +775,11 @@
     },
 	{
 		"name": "Kiln",
+		"cost": 75,
 		"maintenance": 1,
 		"production": 2,
 		"hurryCostModifier": 25,
-		"uniques": ["Provides [2] [Iron]"],
+		"uniques": ["Provides [1] [Iron]"],
 		"requiredTech": "Iron Working"
 	},
 	{
@@ -905,6 +936,14 @@
 		"hurryCostModifier": 25,
 		"uniques": ["[+25]% Great Person generation [in this city]", "Must be next to [Fresh water]"],
 		"maintenance": 1,
+		"requiredTech": "Herbal Medicine"
+	},
+	{
+		"name": "Oil Lamp",
+		"cost": 70,
+		"happiness": 4,
+		"hurryCostModifier": 25,
+		"uniques": ["Must have an owned [{improved} {Olive Tree}] within [2] tiles",],
 		"requiredTech": "Herbal Medicine"
 	},
 	{

@@ -2,178 +2,33 @@
      /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 	 //FIRST
 	 {
-        "name":"Kaguya White",
-        "uniques": [
-           //"Only available <when number of [turns] is greater than [5]>",
-            "Unavailable <if [Card Holder] is constructed>",
-			"Unavailable <for [City-states]>"
-        ],
-		"civilopediaText":[
-			{"text":"Pick an Ability Card of Your Choice", "centered":true, "header":2,"color": "#FB6B94"},
-			{"text":}
-            {"extraImage":"CardReimu", "imageSize":410},
-			{"text":}
-            {"text":"Ability Cards are used for giving your nation beneficial effects, each nation can only have one. This can be traded with other civlizations, but by itself doesn't provide happiness despite being a Luxury resource.", "header":6},
-			{"text":}
-			{"text":"You can skip this and pick again later...","color": "#F9FF8D"}
-		],
+        "name": "Event Test",
         "choices": [
 			{
-				"text": "(Pick again later after 5 turns)",
+				"text": "Choice 1",
 				"triggeredUniques": [
-				"Instantly consumes [1] [Black Switch Open] <hidden from users>",
+				"Comment [Anything goes]"
 				],
 			},
 			{
-				"text": "(Pick again later after 10 turns)",
+				"text": "Choice 2",
 				"triggeredUniques": [
-				"Instantly provides [1] [Black Switch Open] <hidden from users>",
+				"Comment [Thanks to the developers]"
 				],
 			},
-			{
-				"text": "Backdoor Card",
-				"triggeredUniques": ["Comment [Ability Card; Backdoor]",
-				"Comment [+15% Strength when defending when adjacent to a Military unit for Military units]",
-				"Gain a free [Backdoor Card Holder] [in capital] <hidden from users>"],
-			},
-			{
-				"text": "Beauty Of Destruction Card",
-				"triggeredUniques": ["Comment [Ability Card; Beauty Of Destruction]",
-				"Comment [With this Beauty Of Destruction Card, Siege units gain the [Card - Beauty Of Destruction] promotion]", "Comment [+20% Strength vs cities for All units]"
-				"Gain a free [Beauty Of Destruction Card Holder] [in capital] <hidden from users>"],
-			},
-			{
-				"text": "Danmaku Ghost Card",
-				"triggeredUniques": ["Comment [Ability Card; Danmaku Ghost]",
-				"Comment [No damage penalty for wounded units for All units]",
-				"Gain a free [Danmaku Ghost Card Holder] [in capital] <hidden from users>"],
-			},
-			{
-				"text": "Drunkenly Whimsical Ibuki Gourd Card",
-				"triggeredUniques": ["Comment [Ability Card; Drunkenly Whimsical Ibuki Gourd]",
-				"Comment [-1 Sight when below 0 Happiness]","Comment [+15% Strength while the empire is happy for All units]",
-				"Gain a free [Drunkenly Whimsical Ibuki Gourd Card Holder] [in capital] <hidden from users>"],
-			},
-			{
-				"text": "Esteemed Authority Card",
-				"triggeredUniques": ["Comment [Ability Card; Esteemed Authority]",
-				"Comment [Gifts of Gold to City-States generate 20% more Influence]",
-				"Comment [+40% Strength for Military units vs Barbarian units]",
-				"Gain a free [Esteemed Authority Card Holder] [in capital] <hidden from users>"],
-			},
-			{
-				"text": "Great Tengu's Barley Rice Card",
-				"triggeredUniques": ["Comment [Ability Card; Great Tengu's Barley Rice]",
-				"Comment [With this Great Tengu's Barley Rice Card, All units gain the [Card - Great Tengu's Barley Rice] promotion]",
-				"Gain a free [Great Tengu's Barley Rice Card Holder] [in capital] <hidden from users>"],
-			},
-			{
-				"text": "Ice Fairy Card",
-				"triggeredUniques": ["Comment [Ability Card; Ice Fairy]",
-				"Comment [+2 [Food] from [Snow] tiles in all cities]",
-				"Comment [+1 [Food] from [Tundra] tiles in all cities]",
-				"Gain a free [Ice Fairy Card Holder] [in capital] <hidden from users>"],
-			},
-			{
-				"text": "Item Season Card",
-				"triggeredUniques": ["Comment [Ability Card; Item Season]",
-				"Comment [Gain 250 [Gold] upon entering a Golden Age]",
-				"Comment [+1 [Happiness] in all cities]",
-				"Gain a free [Item Season Card Holder] [in capital] <hidden from users>"
-				],
-			},
-			{
-				"text": "Keystone Of Endurance Card",
-				"triggeredUniques": ["Comment [Ability Card; Keystone Of Endurance]",
-				"Comment [+11% Strength when defending for Military units]",
-				"Gain a free [Keystone Of Endurance Card Holder] [in capital] <hidden from users>"],
-			},
-			{
-				"text": "Mini-Hakkero Card",
-				"triggeredUniques": ["Comment [Ability Card; Mini-Hakkero]",
-				"Comment [+12% Strength for Siege units]",
-				"Gain a free [Mini-Hakkero Card Holder] [in capital] <hidden from users>"],
-			},
-			{
-				"text": "Miracle Mallet Card",
-				"triggeredUniques": ["Comment [Ability Card; Miracle Mallet]",
-				"Comment [Earn 50% of killed Military unit's Strength as [Gold] for All units]",
-				"Gain a free [Miracle Mallet Card Holder] [in capital] <hidden from users>"],
-			},
-			{
-				"text": "Offerings To A Sacred Mountain Card",
-				"triggeredUniques": ["Comment [Ability Card; Offerings To A Sacred Mountain]",
-				"Comment [+1 [Gold], +2 [Production], +2 [Food]  from [Mountain] tiles in all cities]","Comment [+1 Sight for [Scout] units]",
-				"Gain a free [Offerings To A Sacred Mountain Card Holder] [in capital] <hidden from users>"],
-			},
-			{
-				"text": "Pebble Hat Card",
-				"triggeredUniques": ["Comment [Ability Card; Pebble Hat]",
-				"Comment [+1 Movement for Scout units]",
-				"Comment [With this Pebble Hat Card, Scout units gain the [Card - Pebble Hat] promotion]",
-				"Gain a free [Pebble Hat Card Holder] [in capital] <hidden from users>"],
-			},
-			{
-				"text": "Princess Kaguya's Secret Stash Card",
-				"triggeredUniques": ["Comment [Ability Card; Princess Kaguya's Secret Stash]",
-				"Comment [[Gold] cost of purchasing items in cities -10%]",
-				"Comment [Gain 200-500 [Gold] (modified by game speed)]",
-				"Gain a free [Princess Kaguya's Secret Stash Card Holder] [in capital] <hidden from users>"],
-			},
-			{
-				"text": "Screen Border Card",
-				"triggeredUniques": ["Comment [Ability Card; Screen Border]",
-				"Comment [-10% Culture cost of natural border growth in all cities]",
-				"Comment [With this Screen Border Card, Scout units gain the [Card - Screen Border] promotion]",
-				"Gain a free [Screen Border Card Holder] [in capital] <hidden from users>"],
-			},
-			{
-				"text": "Shanghai Doll Card",
-				"triggeredUniques": ["Comment [Ability Card; Shanghai Doll]",
-				"Comment [-15% construction time for All improvements]",
-				"Comment [1 free [Shanghai Labor Doll] units appear]",
-				"Gain a free [Shanghai Doll Card Holder] [in capital] <hidden from users>"
-				],
-			},
-			{
-				"text": "Smelt's Scales Card",
-				"triggeredUniques": ["Comment [Ability Card; Smelt's Scales]",
-				"Comment [+2 [Culture] from Water resource tiles in all cities]",
-				"Comment [With this Smelt's Scales Card, Melee units gain the [Card - Smelt's Scales] promotion]",
-				"Gain a free [Smelt's Scales Card Holder] [in capital] <hidden from users>"],
-			},
-			{
-				"text": "Sutra Of Dharmatic Power Card",
-				"triggeredUniques": ["Comment [Ability Card; Sutra Of Dharmatic Power]",
-				"Comment [+33% Strength when attacking when below 30 HP for Military units]",
-				"Gain a free [Sutra Of Dharmatic Power Card Holder] [in capital] <hidden from users>"],
-			},
-			{
-				"text": "Vampire Fang Card",
-				"triggeredUniques": ["Comment [Ability Card; Vampire Fang]",
-				"Comment [+9% Strength for Melee units]",
-				"Gain a free [Vampire Fang Card Holder] [in capital] <hidden from users>"],
-			},
-			{
-				"text": "Yin-Yang Orb Card",
-				"triggeredUniques": ["Comment [Ability Card; Yin-Yang Orb]",
-				"Comment [+6% Strength for All units]",
-				"Gain a free [Yin-Yang Orb Card Holder] [in capital] <hidden from users>"],
-			},
-			
-        ]
-    },
+	]
+}
 	
 	/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 	/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 	//SECOND
 	
 	{
-        "name":"Kaguya Black",
+        "name": "Kaguya Black",
         "uniques": [
            //"Only available <when number of [turns] is greater than [5]>",
             "Unavailable <if [Card Holder] is constructed>",
-			"Unavailable <for [City-states]>"
+			"Unavailable <for [City-states] Civilizations>"
         ],
 		"civilopediaText":[
 			{"text":"Pick an Ability Card of Your Choice", "centered":true, "header":2,"color": "#FB6B94"},
@@ -305,7 +160,7 @@
 			{
 				"text": "Smelt's Scales Card",
 				"triggeredUniques": ["Comment [Ability Card; Smelt's Scales]",
-				"Comment [+2 [Culture] from Water resource tiles in all cities]",
+				"Comment [+1 [Culture], +1 [Gold] from Water resource tiles in all cities]",
 				"Comment [With this Smelt's Scales Card, Melee units gain the [Card - Smelt's Scales] promotion]",
 				"Gain a free [Smelt's Scales Card Holder] [in capital] <hidden from users>"],
 			},

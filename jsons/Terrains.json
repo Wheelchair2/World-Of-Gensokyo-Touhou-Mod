@@ -150,6 +150,25 @@
 	},
 
 	// Terrain features
+	
+	//Touhou
+	{
+		"name": "Fish",
+		"type": "TerrainFeature",
+		"movementCost": 2,
+		"food": 1,
+		"occursOn": ["Coast","Atoll"],
+		"uniques": ["Vegetation", "Water resource",
+					"[+1] to Fertility for Map Generation",
+					"A Region is formed with at least [15]% [Fish] tiles, with priority [3]",
+					"Considered [Desirable] when determining start locations",
+					"Considered [Food] when determining start locations",
+					"Considered [Food] when determining start locations <in [Fish] Regions>",
+					"Considered [Food] when determining start locations <in [Tundra] Regions>"
+					]
+	},
+	
+	//Vanilla
 	{
 		"name": "Hill",
 		"type": "TerrainFeature",
@@ -253,6 +272,20 @@
 		"uniques": ["Fresh water", "Rare feature",
 					"Only [All Road] improvements may be built on this tile",
 					"Always Fertility [4] for Map Generation",
+					"Considered [Food] when determining start locations",
+					"Considered [Desirable] when determining start locations"]
+	},
+	{
+		"name": "Olive Tree",
+		"type": "TerrainFeature",
+		"food": 1,
+		"production": 1,
+		"movementCost": 2,
+		"unbuildable": true,
+		"defenceBonus": 0.25,
+		"occursOn": ["Grassland", "Plains", "Tundra"],
+		"uniques": ["Rare feature",
+					"Always Fertility [5] for Map Generation",
 					"Considered [Food] when determining start locations",
 					"Considered [Desirable] when determining start locations"]
 	},
@@ -383,7 +416,7 @@
 		"movementCost": 2,
 		"overrideStats": true,
 		"occursOn": ["Plains", "Grassland", "Desert", "Hill"],
-		"turnsInto": "Plains",
+		"turnsInto": "Mountain",
 		"impassable": true,
 		"unbuildable": true,
 		"uniques": ["Rough terrain"],
@@ -439,6 +472,7 @@
 		"overrideStats": true,
 		"occursOn": ["Plains", "Grassland", "Hill", "Desert"],
 		"turnsInto": "Grassland",
+		"impassable": true,
 		"unbuildable": true,
 		"uniques": [
 			"Comment ['The Animal Realm(Chikushokai), where survival of the fittest is the one and only law. Economic success reigns supreme, and individual thought isn't valued one bit. Personal feelings are nothing but an obstruction in such a streamlined society. It's one nightmare vision of urban society, where talk of 'self-responsiblity' runs rampant.' - Zun]",
