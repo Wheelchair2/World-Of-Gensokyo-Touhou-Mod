@@ -55,49 +55,49 @@
 	"Instantly consumes [1] [White Switch Open] <upon turn end> <when number of [White Switch Open] is more than [1]>",
 	"Instantly consumes [1] [Black Switch Open] <upon turn end> <when number of [Black Switch Open] is more than [1]>",
 	
-	"Triggers a [Event Test] event <upon turn end> <when number of [turns] is less than [1]> <without [White Switch Open]> <for [Major] Civilizations>",
+	"Triggers a [Kaguya White] event <upon turn end> <when number of [turns] is less than [1]> <without [White Switch Open]> <for [Major] Civilizations>",
 	
 	
 	"Triggers a [Kaguya Black] event <upon turn end> <when number of [turns] is between [5] and [6]> <when number of [turns] is less than [6]> <without [Black Switch Open]> <for [Major] Civilizations>", //
 	
-	"Triggers a [Event Test] event <upon turn end> <when number of [turns] is between [10] and [11]> <when number of [turns] is less than [11]> <without [White Switch Open]> <for [Major] Civilizations>",
+	"Triggers a [Kaguya White] event <upon turn end> <when number of [turns] is between [10] and [11]> <when number of [turns] is less than [11]> <without [White Switch Open]> <for [Major] Civilizations>",
 	"Triggers a [Kaguya Black] event <upon turn end> <when number of [turns] is between [15] and [16]> <when number of [turns] is less than [16]> <without [Black Switch Open]> <for [Major] Civilizations>", //
-	"Triggers a [Event Test] event <upon turn end> <when number of [turns] is between [20] and [21]> <when number of [turns] is less than [21]> <without [White Switch Open]> <for [Major] Civilizations>",
+	"Triggers a [Kaguya White] event <upon turn end> <when number of [turns] is between [20] and [21]> <when number of [turns] is less than [21]> <without [White Switch Open]> <for [Major] Civilizations>",
 	"Triggers a [Kaguya Black] event <upon turn end> <when number of [turns] is between [25] and [26]> <when number of [turns] is less than [26]> <without [Black Switch Open]> <for [Major] Civilizations>", //
-	"Triggers a [Event Test] event <upon turn end> <when number of [turns] is between [30] and [31]> <when number of [turns] is less than [31]> <without [White Switch Open]> <for [Major] Civilizations>",
+	"Triggers a [Kaguya White] event <upon turn end> <when number of [turns] is between [30] and [31]> <when number of [turns] is less than [31]> <without [White Switch Open]> <for [Major] Civilizations>",
 	"Triggers a [Kaguya Black] event <upon turn end> <when number of [turns] is between [35] and [36]> <when number of [turns] is less than [36]> <without [Black Switch Open]> <for [Major] Civilizations>", //
-	"Triggers a [Event Test] event <upon turn end> <when number of [turns] is between [40] and [41]> <when number of [turns] is less than [41]> <without [White Switch Open]> <for [Major] Civilizations>",
+	"Triggers a [Kaguya White] event <upon turn end> <when number of [turns] is between [40] and [41]> <when number of [turns] is less than [41]> <without [White Switch Open]> <for [Major] Civilizations>",
 	"Triggers a [Kaguya Black] event <upon turn end> <when number of [turns] is between [45] and [46]> <when number of [turns] is less than [46]> <without [Black Switch Open]> <for [Major] Civilizations>", //
-	"Triggers a [Event Test] event <upon turn end> <when number of [turns] is between [50] and [51]> <when number of [turns] is less than [51]> <without [White Switch Open]> <for [Major] Civilizations>",
+	"Triggers a [Kaguya White] event <upon turn end> <when number of [turns] is between [50] and [51]> <when number of [turns] is less than [51]> <without [White Switch Open]> <for [Major] Civilizations>",
 	"Triggers a [Kaguya Black] event <upon turn end> <when number of [turns] is between [55] and [56]> <when number of [turns] is less than [56]> <without [Black Switch Open]> <for [Major] Civilizations>", //
-	"Triggers a [Event Test] event <upon turn end> <when number of [turns] is between [60] and [61]> <when number of [turns] is less than [61]> <without [White Switch Open]> <for [Major] Civilizations>",
+	"Triggers a [Kaguya White] event <upon turn end> <when number of [turns] is between [60] and [61]> <when number of [turns] is less than [61]> <without [White Switch Open]> <for [Major] Civilizations>",
 	"Triggers a [Kaguya Black] event <upon turn end> <when number of [turns] is between [65] and [66]> <when number of [turns] is less than [66]> <without [Black Switch Open]> <for [Major] Civilizations>", //
-	"Triggers a [Event Test] event <upon turn end> <when number of [turns] is between [70] and [71]> <when number of [turns] is less than [71]> <without [White Switch Open]> <for [Major] Civilizations>",
+	"Triggers a [Kaguya White] event <upon turn end> <when number of [turns] is between [70] and [71]> <when number of [turns] is less than [71]> <without [White Switch Open]> <for [Major] Civilizations>",
 	"Triggers a [Kaguya Black] event <upon turn end> <when number of [turns] is between [75] and [76]> <when number of [turns] is less than [76]> <without [Black Switch Open]> <for [Major] Civilizations>", //
-	"Triggers a [Event Test] event <upon turn end> <when number of [turns] is between [80] and [81]> <when number of [turns] is less than [81]> <without [White Switch Open]> <for [Major] Civilizations>",
+	"Triggers a [Kaguya White] event <upon turn end> <when number of [turns] is between [80] and [81]> <when number of [turns] is less than [81]> <without [White Switch Open]> <for [Major] Civilizations>",
 	"Triggers a [Kaguya Black] event <upon turn end> <when number of [turns] is between [85] and [86]> <when number of [turns] is less than [86]> <without [Black Switch Open]> <for [Major] Civilizations>", //
-	"Triggers a [Event Test] event <upon turn end> <when number of [turns] is between [90] and [91]> <when number of [turns] is less than [91]> <without [White Switch Open]> <for [Major] Civilizations>",
+	"Triggers a [Kaguya White] event <upon turn end> <when number of [turns] is between [90] and [91]> <when number of [turns] is less than [91]> <without [White Switch Open]> <for [Major] Civilizations>",
 	"Triggers a [Kaguya Black] event <upon turn end> <when number of [turns] is between [95] and [96]> <when number of [turns] is less than [96]> <without [Black Switch Open]> <for [Major] Civilizations>", //
-	"Triggers a [Event Test] event <upon turn end> <when number of [turns] is between [100] and [101]> <when number of [turns] is less than [101]> <without [White Switch Open]> <for [Major] Civilizations>",
+	"Triggers a [Kaguya White] event <upon turn end> <when number of [turns] is between [100] and [101]> <when number of [turns] is less than [101]> <without [White Switch Open]> <for [Major] Civilizations>",
 	"Triggers a [Kaguya Black] event <upon turn end> <when number of [turns] is between [105] and [106]> <when number of [turns] is less than [106]> <without [Black Switch Open]> <for [Major] Civilizations>", //
 	
-	"Triggers a [Event Test] event <upon turn end> <when number of [turns] is between [110] and [111]> <when number of [turns] is less than [111]> <without [White Switch Open]> <for [Major] Civilizations>",
+	"Triggers a [Kaguya White] event <upon turn end> <when number of [turns] is between [110] and [111]> <when number of [turns] is less than [111]> <without [White Switch Open]> <for [Major] Civilizations>",
 	"Triggers a [Kaguya Black] event <upon turn end> <when number of [turns] is between [115] and [116]> <when number of [turns] is less than [116]> <without [Black Switch Open]> <for [Major] Civilizations>", //
-	"Triggers a [Event Test] event <upon turn end> <when number of [turns] is between [120] and [121]> <when number of [turns] is less than [121]> <without [White Switch Open]> <for [Major] Civilizations>",
+	"Triggers a [Kaguya White] event <upon turn end> <when number of [turns] is between [120] and [121]> <when number of [turns] is less than [121]> <without [White Switch Open]> <for [Major] Civilizations>",
 	"Triggers a [Kaguya Black] event <upon turn end> <when number of [turns] is between [125] and [126]> <when number of [turns] is less than [126]> <without [Black Switch Open]> <for [Major] Civilizations>", //
-	"Triggers a [Event Test] event <upon turn end> <when number of [turns] is between [130] and [131]> <when number of [turns] is less than [131]> <without [White Switch Open]> <for [Major] Civilizations>",
+	"Triggers a [Kaguya White] event <upon turn end> <when number of [turns] is between [130] and [131]> <when number of [turns] is less than [131]> <without [White Switch Open]> <for [Major] Civilizations>",
 	"Triggers a [Kaguya Black] event <upon turn end> <when number of [turns] is between [135] and [136]> <when number of [turns] is less than [136]> <without [Black Switch Open]> <for [Major] Civilizations>", //
-	"Triggers a [Event Test] event <upon turn end> <when number of [turns] is between [140] and [141]> <when number of [turns] is less than [141]> <without [White Switch Open]> <for [Major] Civilizations>",
+	"Triggers a [Kaguya White] event <upon turn end> <when number of [turns] is between [140] and [141]> <when number of [turns] is less than [141]> <without [White Switch Open]> <for [Major] Civilizations>",
 	"Triggers a [Kaguya Black] event <upon turn end> <when number of [turns] is between [145] and [146]> <when number of [turns] is less than [146]> <without [Black Switch Open]> <for [Major] Civilizations>", //
-	"Triggers a [Event Test] event <upon turn end> <when number of [turns] is between [150] and [151]> <when number of [turns] is less than [161]> <without [White Switch Open]> <for [Major] Civilizations>",
+	"Triggers a [Kaguya White] event <upon turn end> <when number of [turns] is between [150] and [151]> <when number of [turns] is less than [161]> <without [White Switch Open]> <for [Major] Civilizations>",
 	"Triggers a [Kaguya Black] event <upon turn end> <when number of [turns] is between [165] and [166]> <when number of [turns] is less than [166]> <without [Black Switch Open]> <for [Major] Civilizations>", //
-	"Triggers a [Event Test] event <upon turn end> <when number of [turns] is between [170] and [171]> <when number of [turns] is less than [171]> <without [White Switch Open]> <for [Major] Civilizations>",
+	"Triggers a [Kaguya White] event <upon turn end> <when number of [turns] is between [170] and [171]> <when number of [turns] is less than [171]> <without [White Switch Open]> <for [Major] Civilizations>",
 	"Triggers a [Kaguya Black] event <upon turn end> <when number of [turns] is between [175] and [176]> <when number of [turns] is less than [176]> <without [Black Switch Open]> <for [Major] Civilizations>", //
-	"Triggers a [Event Test] event <upon turn end> <when number of [turns] is between [180] and [81]> <when number of [turns] is less than [181]> <without [White Switch Open]> <for [Major] Civilizations>",
+	"Triggers a [Kaguya White] event <upon turn end> <when number of [turns] is between [180] and [81]> <when number of [turns] is less than [181]> <without [White Switch Open]> <for [Major] Civilizations>",
 	"Triggers a [Kaguya Black] event <upon turn end> <when number of [turns] is between [185] and [186]> <when number of [turns] is less than [186]> <without [Black Switch Open]> <for [Major] Civilizations>", //
-	"Triggers a [Event Test] event <upon turn end> <when number of [turns] is between [190] and [91]> <when number of [turns] is less than [191]> <without [White Switch Open]> <for [Major] Civilizations>",
+	"Triggers a [Kaguya White] event <upon turn end> <when number of [turns] is between [190] and [91]> <when number of [turns] is less than [191]> <without [White Switch Open]> <for [Major] Civilizations>",
 	"Triggers a [Kaguya Black] event <upon turn end> <when number of [turns] is between [195] and [96]> <when number of [turns] is less than [196]> <without [Black Switch Open]> <for [Major] Civilizations>", //
-	"Triggers a [Event Test] event <upon turn end> <when number of [turns] is between [200] and [201]> <when number of [turns] is less than [201]> <without [White Switch Open]> <for [Major] Civilizations>",
+	"Triggers a [Kaguya White] event <upon turn end> <when number of [turns] is between [200] and [201]> <when number of [turns] is less than [201]> <without [White Switch Open]> <for [Major] Civilizations>",
 	"Triggers a [Kaguya Black] event <upon turn end> <when number of [turns] is between [205] and [206]> <when number of [turns] is less than [206]> <without [Black Switch Open]> <for [Major] Civilizations>", //
 	
 	///////////////////////////////////////////////
