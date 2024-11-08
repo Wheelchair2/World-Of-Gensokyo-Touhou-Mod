@@ -1,7 +1,6 @@
 {
 	"useColorAsBaseTerrain": "false",
-		"ruleVariants": {
-		
+	"ruleVariants": {
 		"Grassland+Hill+Farm": ["GrasslandHillFarm"],
 		"Plains+Hill+Farm": ["PlainsHillFarm"],
 		"Tundra+Hill+Farm": ["TundraHillFarm"],
@@ -13,12 +12,11 @@
 		"Snow+Farm": ["SnowFarm"],
 		"Desert+Farm": ["DesertFarm"],
 		"Desert+Flood plains+Farm": ["DesertFloodplainsFarm"],
-		
+
 		"Plains+Wheat+Farm": ["PlainsFarm", "Wheat"],
 		"Desert+Wheat+Farm": ["DesertFarm", "Wheat"],
 		"Desert+Flood plains+Wheat+Farm": ["DesertFarm", "Wheat"],
-		
-		"Tundra+Olive Tree": ["Tundra", "Olive Tree Tundra"],
-		
+
+		"Tundra+Olive Tree": ["Tundra", "Olive Tree Tundra"]
 	}
 }

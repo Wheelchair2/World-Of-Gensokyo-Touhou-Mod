@@ -25,7 +25,7 @@
         "startingMilitaryUnit": "Ashigaru Infantry",
         "startingGold": 50,
         "settlerPopulation": 1,
-		"settlerBuildings": ["Monument", "Granary", "Library", "Kiln", "Workshop", "Rice Wine", "Fortifications"]
+    		"settlerBuildings": ["Monument", "Granary", "Library", "Kiln", "Workshop", "Rice Wine", "Fortifications"],
         "baseUnitBuyCost": 200,
         "embarkDefense": 20,
         "startPercent": 25,
@@ -42,7 +42,7 @@
         "startingGold": 100,
         "startingCulture": 100,
         "settlerPopulation": 1,
-        "settlerBuildings": ["Monument", "Granary", "Library", "Aqueduct", "Barracks","Lighthouse","Market", "Kiln", "Workshop","Amphitheater", "Barracks", "Rice Wine", "Paper Maker","Onsen","Paddock","Fortifications"]
+        "settlerBuildings": ["Monument", "Granary", "Library", "Aqueduct", "Barracks","Lighthouse","Market", "Kiln", "Workshop","Amphitheater", "Barracks", "Rice Wine", "Paper Maker","Onsen","Paddock","Fortifications"],
         "startingObsoleteWonders": ["The Great Library", "Hieda Temple School", "Komakusa Gambling Den", "Barrels Of Alcohol", "Geidontei Bar", "The Great Lighthouse", "Kappa Stronghold", "Cirno's Freezing Hot Spring", "Hot Spring Town", "Miracle Fountain", "Blessing Of Winter"],
         "baseUnitBuyCost": 300,
         "embarkDefense": 61,
@@ -60,7 +60,7 @@
         "startingGold": 200,
         "startingCulture": 500,
         "settlerPopulation": 4,
-        "settlerBuildings": ["Monument", "Granary", "Library", "Aqueduct", "Barracks","Lighthouse","Market","Kiln","Workshop","Amphitheater", "Barracks", "Rice Wine", "Paper Maker","Onsen","Paddock","Fortifications"]
+        "settlerBuildings": ["Monument", "Granary", "Library", "Aqueduct", "Barracks","Lighthouse","Market","Kiln","Workshop","Amphitheater", "Barracks", "Rice Wine", "Paper Maker","Onsen","Paddock","Fortifications"],
         "startingObsoleteWonders": ["The Great Library", "Hieda Temple School", "Komakusa Gambling Den", "Barrels Of Alcohol", "Geidontei Bar", "The Great Lighthouse", "Kappa Stronghold", "Cirno's Freezing Hot Spring", "Hot Spring Town", "Miracle Fountain", "Blessing Of Winter"],
         "baseUnitBuyCost": 800,
         "embarkDefense": 65,
@@ -70,7 +70,7 @@
         "uniques": [
             "May buy [Great Prophet] units for [200] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([100])",
             "Every major Civilization gains a spy once a civilization enters this era",
-			"[-10]% [Science] [in all cities]"
+            "[-10]% [Science] [in all cities]"
         ]
     },
     {
@@ -94,7 +94,7 @@
         "uniques": [
             "May buy [Great Prophet] units for [300] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([100])",
             "Every major Civilization gains a spy once a civilization enters this era",
-			"[-10]% [Science] [in all cities]"
+            "[-10]% [Science] [in all cities]"
         ]
     }
 ]
