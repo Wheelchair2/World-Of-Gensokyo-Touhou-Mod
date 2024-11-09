@@ -1,395 +1,591 @@
-
 [
     {
-        "name": "Special Pantheon - Suwako's Blessing",
-        "type": "Pantheon",
-        "uniques": ["Only available <if [Major Religions In Gensokyo] is constructed> <hidden from users>", "Comment [[Major Religions In Gensokyo] required]", "[+2 Culture, +1 Happiness] from every [Shrine]"]
-    },
-	{
-        "name": "Special Pantheon - Byakuren's Way Of Life",
-        "type": "Pantheon",
-        "uniques": ["Only available <if [Major Religions In Gensokyo] is constructed> <hidden from users>", "Comment [[Major Religions In Gensokyo] required]", "[+10 Happiness] [in cities following this religion] <in cities with at least [5] [Followers of this Religion]>"]
-    },
-	{
-        "name": "Special Pantheon - Eirin's Advice",
-        "type": "Pantheon",
-        "uniques": ["Only available <if [Major Religions In Gensokyo] is constructed> <hidden from users>", "Comment [[Major Religions In Gensokyo] required]", "[+4 Science, +2 Production] [in capital]"]
-    },
-	{
-        "name": "Special Pantheon - Cirno Above All",
-        "type": "Pantheon",
-        "uniques": ["Only available <if [Major Religions In Gensokyo] is constructed> <hidden from users>", "Comment [[Major Religions In Gensokyo] required]", "[+2 Faith] from [Tundra] tiles [in cities following this religion]", "[+4 Faith] from [Snow] tiles [in cities following this religion]"]
-    },
-	{
-        "name": "Special Pantheon - Yuyuko's Welcome",
-        "type": "Pantheon",
-        "uniques": ["Only available <if [Major Religions In Gensokyo] is constructed> <hidden from users>", "Comment [[Major Religions In Gensokyo] required]", "Earn [100]% of [Military] unit's [Strength] as [Culture] when killed within 4 tiles of a city following this religion"]
-    },
-	{
-        "name": "Ancestor Worship",
-        "type": "Pantheon",
-        "uniques": ["[+1 Culture] from every [Shrine]", "[+1 Culture] from every [Monument]"]
+      "name": "Special Pantheon - Suwako's Blessing",
+      "type": "Pantheon",
+      "uniques": [
+        "Only available <if [Major Religions In Gensokyo] is constructed> <hidden from users>",
+        "Comment [[Major Religions In Gensokyo] required]",
+        "[+2 Culture, +1 Happiness] from every [Shrine]"
+      ]
     },
     {
-        "name": "Dance of the Aurora",
-        "type": "Pantheon",
-        "uniques": ["[+1 Faith] from [Tundra] tiles [in cities following this religion]", "[+2 Faith] from [Snow] tiles [in cities following this religion]"]
+      "name": "Special Pantheon - Byakuren's Way Of Life",
+      "type": "Pantheon",
+      "uniques": [
+        "Only available <if [Major Religions In Gensokyo] is constructed> <hidden from users>",
+        "Comment [[Major Religions In Gensokyo] required]",
+        "[+10 Happiness] [in cities following this religion] <in cities with at least [5] [Followers of this Religion]>"
+      ]
     },
     {
-        "name": "Desert Folklore",
-        "type": "Pantheon",
-        "uniques": ["[+1 Faith] from [Desert] tiles [in cities following this religion]", "[+2 Faith] from every [Oasis]"]
+      "name": "Special Pantheon - Eirin's Advice",
+      "type": "Pantheon",
+      "uniques": [
+        "Only available <if [Major Religions In Gensokyo] is constructed> <hidden from users>",
+        "Comment [[Major Religions In Gensokyo] required]",
+        "[+4 Science, +2 Production] [in capital]"
+      ]
     },
     {
-        "name": "Faith Healers",
-        "type": "Pantheon",
-        "uniques": ["[All] Units adjacent to this city heal [+30] HP per turn when healing"]
-        // This should be worded better
+      "name": "Special Pantheon - Cirno Above All",
+      "type": "Pantheon",
+      "uniques": [
+        "Only available <if [Major Religions In Gensokyo] is constructed> <hidden from users>",
+        "Comment [[Major Religions In Gensokyo] required]",
+        "[+2 Faith] from [Tundra] tiles [in cities following this religion]",
+        "[+4 Faith] from [Snow] tiles [in cities following this religion]"
+      ]
     },
     {
-        "name": "Fertility Rites",
-        "type": "Pantheon",
-        "uniques": ["[+30]% growth [in cities following this religion]"]
-        // Preferably I would not have a cityFilter here, but doing so requires no additional implementation
+      "name": "Special Pantheon - Yuyuko's Welcome",
+      "type": "Pantheon",
+      "uniques": [
+        "Only available <if [Major Religions In Gensokyo] is constructed> <hidden from users>",
+        "Comment [[Major Religions In Gensokyo] required]",
+        "Earn [100]% of [Military] unit's [Strength] as [Culture] when killed within 4 tiles of a city following this religion"
+      ]
     },
     {
-        "name": "God of Craftsman",
-        "type": "Pantheon",
-        "uniques": ["[+2 Production] [in cities following this religion] <in cities with at least [3] [Population]>"]
+      "name": "Ancestor Worship",
+      "type": "Pantheon",
+      "uniques": [
+        "[+1 Culture] from every [Shrine]",
+        "[+1 Culture] from every [Monument]"
+      ]
     },
     {
-        "name": "God of the Open Sky",
-        "type": "Pantheon",
-        "uniques": ["[+1 Culture] from every [Pasture]"]
+      "name": "Dance of the Aurora",
+      "type": "Pantheon",
+      "uniques": [
+        "[+1 Faith] from [Tundra] tiles [in cities following this religion]",
+        "[+2 Faith] from [Snow] tiles [in cities following this religion]"
+      ]
     },
     {
-        "name": "God of the Sea",
-        "type": "Pantheon",
-        "uniques": ["[+1 Production] from every [Fishing Boats]", "[+1 Production] from every [Fishing Vessel]"]
+      "name": "Desert Folklore",
+      "type": "Pantheon",
+      "uniques": [
+        "[+1 Faith] from [Desert] tiles [in cities following this religion]",
+        "[+2 Faith] from every [Oasis]"
+      ]
     },
     {
-        "name": "God of War",
-        "type": "Pantheon",
-        "uniques": ["Earn [50]% of [Military] unit's [Strength] as [Faith] when killed within 4 tiles of a city following this religion"]
+      "name": "Faith Healers",
+      "type": "Pantheon",
+      "uniques": [
+        "[All] Units adjacent to this city heal [+30] HP per turn when healing"
+      ]
+      // This should be worded better
     },
     {
-        "name": "Goddess of Festivals",
-        "type": "Pantheon",
-        "uniques": ["[+1 Culture, +2 Faith] from every [Wine]", "[+1 Culture, +2 Faith] from every [Incense]"]
+      "name": "Fertility Rites",
+      "type": "Pantheon",
+      "uniques": [
+        "[+30]% growth [in cities following this religion]"
+      ]
+      // Preferably I would not have a cityFilter here, but doing so requires no additional implementation
     },
     {
-        "name": "Goddess of Love",
-        "type": "Pantheon",
-        "uniques": ["[+2 Happiness] [in cities following this religion] <in cities with at least [5] [Followers of this Religion]>"]
+      "name": "God of Craftsman",
+      "type": "Pantheon",
+      "uniques": [
+        "[+2 Production] [in cities following this religion] <in cities with at least [3] [Population]>"
+      ]
     },
     {
-        "name": "Goddess of Protection",
-        "type": "Pantheon",
-        "uniques": ["[+50]% Strength for cities <when attacking>"]
+      "name": "God of the Open Sky",
+      "type": "Pantheon",
+      "uniques": [
+        "[+1 Culture] from every [Pasture]"
+      ]
     },
     {
-        "name": "Goddess of the Hunt",
-        "type": "Pantheon",
-        "uniques": ["[+1 Food, +1 Culture] from every [Camp]"]
+      "name": "God of the Sea",
+      "type": "Pantheon",
+      "uniques": [
+        "[+1 Production] from every [Fishing Boats]",
+        "[+1 Production] from every [Fishing Vessel]"
+      ]
     },
     {
-        "name": "Messenger of the Gods",
-        "type": "Pantheon",
-        "uniques": ["[+2 Science, +1 Culture] from each Trade Route"]
+      "name": "God of War",
+      "type": "Pantheon",
+      "uniques": [
+        "Earn [50]% of [Military] unit's [Strength] as [Faith] when killed within 4 tiles of a city following this religion"
+      ]
     },
     {
-        "name": "Monument to the Gods",
-        "type": "Pantheon",
-        "uniques": ["[+15]% Production when constructing [All] wonders [in cities following this religion]"]
-        // ToDo: Should only be ancient/classical era wonders, but implementing that is another can of worms
-        // For that we really should need an era.matchesFilter(), so we could write something like:
-        //"uniques": ["[+15]% Production when constructing [Ancient era] wonders [in cities following this religion]",
-        // "[+15]% Production when constructing [Classical era] wonders [in cities following this religion]"]
-        // For now this feels like overkill, but I'll leave this here for the future
-
-        // Alternatively, we could approximate this with "[+15]% Production when constructing [All] wonders [in all cities] <during the [Ancient era]>"
+      "name": "Goddess of Festivals",
+      "type": "Pantheon",
+      "uniques": [
+        "[+1 Culture, +2 Faith] from every [Wine]",
+        "[+1 Culture, +2 Faith] from every [Incense]"
+      ]
     },
     {
-        "name": "One with Nature",
-        "type": "Pantheon",
-        "uniques": ["[+10 Faith] from every [Natural Wonder]"]
+      "name": "Goddess of Love",
+      "type": "Pantheon",
+      "uniques": [
+        "[+2 Happiness] [in cities following this religion] <in cities with at least [5] [Followers of this Religion]>"
+      ]
     },
     {
-        "name": "Oral Tradition",
-        "type": "Pantheon",
-        "uniques": ["[+2 Culture] from every [Plantation]"]
+      "name": "Goddess of Protection",
+      "type": "Pantheon",
+      "uniques": [
+        "[+50]% Strength for cities <when attacking>"
+      ]
     },
     {
-        "name": "Religious Idols",
-        "type": "Pantheon",
-        "uniques": ["[+1 Culture, +2 Faith] from every [Gold Ore]", "[+1 Culture, +2 Faith] from every [Silver]"]
+      "name": "Goddess of the Hunt",
+      "type": "Pantheon",
+      "uniques": [
+        "[+1 Food, +1 Culture] from every [Camp]"
+      ]
     },
     {
-        "name": "Religious Settlements",
-        "type": "Pantheon",
-        "uniques": ["[-20]% Culture cost of natural border growth [in cities following this religion]", "[+30]% Production when constructing [Settler] units [in cities following this religion]"]
+      "name": "Messenger of the Gods",
+      "type": "Pantheon",
+      "uniques": [
+        "[+2 Science, +1 Culture] from each Trade Route"
+      ]
     },
     {
-        "name": "Sacred Path",
-        "type": "Pantheon",
-        "uniques": ["[+1 Culture, +1 Faith] from every [Jungle]"]
+      "name": "Monument to the Gods",
+      "type": "Pantheon",
+      "uniques": [
+        "[+15]% Production when constructing [All] wonders [in cities following this religion]"
+      ]
+      // ToDo: Should only be ancient/classical era wonders, but implementing that is another can of worms
+      // For that we really should need an era.matchesFilter(), so we could write something like:
+      //"uniques": ["[+15]% Production when constructing [Ancient era] wonders [in cities following this religion]",
+      // "[+15]% Production when constructing [Classical era] wonders [in cities following this religion]"]
+      // For now this feels like overkill, but I'll leave this here for the future
+      // Alternatively, we could approximate this with "[+15]% Production when constructing [All] wonders [in all cities] <during the [Ancient era]>"
     },
     {
-        "name": "Sacred Waters",
-        "type": "Pantheon",
-        "uniques": ["[+3 Happiness] in cities on [River] tiles"]
+      "name": "One with Nature",
+      "type": "Pantheon",
+      "uniques": [
+        "[+10 Faith] from every [Natural Wonder]"
+      ]
     },
     {
-        "name": "Stone Circles",
-        "type": "Pantheon",
-        "uniques": ["[+2 Faith, +1 Production] from every [Quarry]"]
-    },
-///////////////////////////////////////// Follower beliefs /////////////////////////////////////////
-    {
-        "name": "Special Follower - Ten Desires",
-        "type": "Follower",
-        "uniques": ["Only available <if [Major Religions In Gensokyo] is constructed> <hidden from users>", "Comment [[Major Religions In Gensokyo] required]", "May buy [Buddhist Center] buildings with [Faith] [in cities following this religion]", "May buy [Komainu Statue] buildings with [Faith] [in cities following this religion]", "May buy [Torii Gate] buildings with [Faith] [in cities following this religion]", "May buy [Taoist Mausoleum] buildings with [Faith] [in cities following this religion]"]
-    },
-	{
-        "name": "Special Follower - Apotropaic God",
-        "type": "Follower",
-        "uniques": ["Only available <if [Major Religions In Gensokyo] is constructed> <hidden from users>", "Comment [[Major Religions In Gensokyo] required]", "[-50]% Unhappiness from [Followers of this Religion] [in cities following this religion]"]
-    },
-	{
-        "name": "Special Follower - Fluttering Dead Heart",
-        "type": "Follower",
-        "uniques": ["Only available <if [Major Religions In Gensokyo] is constructed> <hidden from users>", "Comment [[Major Religions In Gensokyo] required]", "[Wounded] Units adjacent to this city heal [50] HP per turn when healing"]
-    },
-	{
-        "name": "Special Founder - Capital City Of Flowers",
-        "type": "Founder",
-        "uniques": ["Only available <if [Major Religions In Gensokyo] is constructed> <hidden from users>", "Comment [[Major Religions In Gensokyo] required]", "[+10 Happiness] [in holy cities]"]
-    },
-	{
-        "name": "Special Follower - Border Of Life",
-        "type": "Follower",
-        "uniques": ["Only available <if [Major Religions In Gensokyo] is constructed> <hidden from users>", "Comment [[Major Religions In Gensokyo] required]", "Earn [200]% of [Military] unit's [Strength] as [Faith] when killed within 4 tiles of a city following this religion"]
-    },
-	{
-        "name": "Asceticism",
-        "type": "Follower",
-        "uniques": ["[+2 Happiness] from every [Shrine] <in cities with at least [3] [Followers of this Religion]>"]
+      "name": "Oral Tradition",
+      "type": "Pantheon",
+      "uniques": [
+        "[+2 Culture] from every [Plantation]"
+      ]
     },
     {
-        "name": "Buddhist Centers",
-        "type": "Follower",
-        "uniques": ["May buy [Buddhist Center] buildings with [Faith] [in cities following this religion]"]
-    },
-	 {
-        "name": "Torii Gates",
-        "type": "Follower",
-        "uniques": ["May buy [Torii Gate] buildings for [150] [Faith] [in cities following this religion]"]
+      "name": "Religious Idols",
+      "type": "Pantheon",
+      "uniques": [
+        "[+1 Culture, +2 Faith] from every [Gold Ore]",
+        "[+1 Culture, +2 Faith] from every [Silver]"
+      ]
     },
     {
-        "name": "Komainu Statues",
-        "type": "Follower",
-        "uniques": ["May buy [Komainu Statue] buildings with [Faith] [in cities following this religion]"]
+      "name": "Religious Settlements",
+      "type": "Pantheon",
+      "uniques": [
+        "[-20]% Culture cost of natural border growth [in cities following this religion]",
+        "[+30]% Production when constructing [Settler] units [in cities following this religion]"
+      ]
     },
     {
-        "name": "Taoist Mausoleums",
-        "type": "Follower",
-        "uniques": ["May buy [Taoist Mausoleum] buildings with [Faith] [in cities following this religion]"]
+      "name": "Sacred Path",
+      "type": "Pantheon",
+      "uniques": [
+        "[+1 Culture, +1 Faith] from every [Jungle]"
+      ]
     },
     {
-        "name": "Choral Music",
-        "type": "Follower",
-        "uniques": ["[+3 Culture] from every [Temple] <in cities with at least [5] [Followers of this Religion]>"]
+      "name": "Sacred Waters",
+      "type": "Pantheon",
+      "uniques": [
+        "[+3 Happiness] in cities on [River] tiles"
+      ]
     },
     {
-        "name": "Divine inspiration",
-        "type": "Follower",
-        "uniques": ["[+2 Faith, +2 Culture] from every [Wonder]"]
+      "name": "Stone Circles",
+      "type": "Pantheon",
+      "uniques": [
+        "[+2 Faith, +1 Production] from every [Quarry]"
+      ]
+    },
+    ///////////////////////////////////////// Follower beliefs /////////////////////////////////////////
+    {
+      "name": "Special Follower - Ten Desires",
+      "type": "Follower",
+      "uniques": [
+        "Only available <if [Major Religions In Gensokyo] is constructed> <hidden from users>",
+        "Comment [[Major Religions In Gensokyo] required]",
+        "May buy [Buddhist Center] buildings with [Faith] [in cities following this religion]",
+        "May buy [Komainu Statue] buildings with [Faith] [in cities following this religion]",
+        "May buy [Torii Gate] buildings with [Faith] [in cities following this religion]",
+        "May buy [Taoist Mausoleum] buildings with [Faith] [in cities following this religion]"
+      ]
     },
     {
-        "name": "Feed the World",
-        "type": "Follower",
-        "uniques": ["[+2 Food] from every [Shrine]", "[+2 Food] from every [Temple]"]
+      "name": "Special Follower - Apotropaic God",
+      "type": "Follower",
+      "uniques": [
+        "Only available <if [Major Religions In Gensokyo] is constructed> <hidden from users>",
+        "Comment [[Major Religions In Gensokyo] required]",
+        "[-50]% Unhappiness from [Followers of this Religion] [in cities following this religion]"
+      ]
     },
     {
-        "name": "Guruship",
-        "type": "Follower",
-        "uniques": ["[+2 Production, +2 Science] [in cities following this religion] <in cities with at least [1] [Specialists]>"]
+      "name": "Special Follower - Fluttering Dead Heart",
+      "type": "Follower",
+      "uniques": [
+        "Only available <if [Major Religions In Gensokyo] is constructed> <hidden from users>",
+        "Comment [[Major Religions In Gensokyo] required]",
+        "[Wounded] Units adjacent to this city heal [50] HP per turn when healing"
+      ]
     },
     {
-        "name": "Holy Warriors",
-        "type": "Follower",
-        "uniques": ["May buy [{Military} {Land}] units with [Faith] for [2] times their normal Production cost <before the [Meiji era]>", "May buy [{Military} {Land}] units with [Faith] for [4] times their normal Production cost <starting from the [Meiji era]>"]
+      "name": "Special Founder - Capital City Of Flowers",
+      "type": "Founder",
+      "uniques": [
+        "Only available <if [Major Religions In Gensokyo] is constructed> <hidden from users>",
+        "Comment [[Major Religions In Gensokyo] required]",
+        "[+10 Happiness] [in holy cities]"
+      ]
     },
     {
-        "name": "Liturgical Drama",
-        "type": "Follower",
-        "uniques": ["[+3 Faith] from every [Amphitheater] <in cities with at least [3] [Followers of this Religion]>"]
-    },
-	{
-        "name": "Liturgical Opera",
-        "type": "Follower",
-        "uniques": ["[+1 Faith] from every [Monument] <in cities with at least [2] [Followers of this Religion]>"]
-    },
-    {
-        "name": "Peace Gardens",
-        "type": "Follower",
-        "uniques": ["[+5 Happiness] from every [Garden]"]
+      "name": "Special Follower - Border Of Life",
+      "type": "Follower",
+      "uniques": [
+        "Only available <if [Major Religions In Gensokyo] is constructed> <hidden from users>",
+        "Comment [[Major Religions In Gensokyo] required]",
+        "Earn [200]% of [Military] unit's [Strength] as [Faith] when killed within 4 tiles of a city following this religion"
+      ]
     },
     {
-        "name": "Religious Art",
-        "type": "Follower",
-        "uniques": ["[+10 Culture] from every [Hermitage]"]
+      "name": "Asceticism",
+      "type": "Follower",
+      "uniques": [
+        "[+2 Happiness] from every [Shrine] <in cities with at least [3] [Followers of this Religion]>"
+      ]
     },
     {
-        "name": "Religious Center",
-        "type": "Follower",
-        "uniques": ["[+2 Happiness] from every [Temple] <in cities with at least [5] [Followers of this Religion]>"]
+      "name": "Buddhist Centers",
+      "type": "Follower",
+      "uniques": [
+        "May buy [Buddhist Center] buildings with [Faith] [in cities following this religion]"
+      ]
     },
     {
-        "name": "Religious Community",
-        "type": "Follower",
-        "uniques": ["[+1]% [Production] from every follower, up to [20]%"]
+      "name": "Torii Gates",
+      "type": "Follower",
+      "uniques": [
+        "May buy [Torii Gate] buildings for [150] [Faith] [in cities following this religion]"
+      ]
     },
     {
-        "name": "Swords into Ploughshares",
-        "type": "Follower",
-        "uniques": ["[+30]% growth [in cities following this religion] <when not at war>"]
-    },
-///////////////////////////////////////// Founder beliefs //////////////////////////////////////////
-
-    {
-        "name": "Special Founder - Overcome A Thousand Trials",
-        "type": "Founder",
-        "uniques": ["Only available <if [Major Religions In Gensokyo] is constructed> <hidden from users>", "Comment [[Major Religions In Gensokyo] required]", "[+1]% [Production] from every follower, up to [50]%",]
-    },
-	{
-        "name": "Special Founder - Green Eyed Jealousy",
-        "type": "Founder",
-        "uniques": ["Only available <if [Major Religions In Gensokyo] is constructed> <hidden from users>", "Comment [[Major Religions In Gensokyo] required]", "[+1 Happiness] from every [1] global followers [in non-enemy foreign cities]"]
-    },
-	{
-        "name": "Special Founder - Broken Moon",
-        "type": "Founder",
-        "uniques": ["Only available <if [Major Religions In Gensokyo] is constructed> <hidden from users>", "Comment [[Major Religions In Gensokyo] required]", "[+50]% Great Person generation [in all cities]"]
-    },
-	{
-        "name": "Special Founder - Native Faith",
-        "type": "Founder",
-        "uniques": ["Only available <if [Major Religions In Gensokyo] is constructed> <hidden from users>", "Comment [[Major Religions In Gensokyo] required]", "[+1 Faith] per [2] population [in cities following this religion]"]
+      "name": "Komainu Statues",
+      "type": "Follower",
+      "uniques": [
+        "May buy [Komainu Statue] buildings with [Faith] [in cities following this religion]"
+      ]
     },
     {
-        "name": "Donation Boxes",
-        "type": "Founder",
-        "uniques": ["[+4 Gold] for each global city following this religion"]
+      "name": "Taoist Mausoleums",
+      "type": "Follower",
+      "uniques": [
+        "May buy [Taoist Mausoleum] buildings with [Faith] [in cities following this religion]"
+      ]
     },
     {
-        "name": "Initiation Rites",
-        "type": "Founder",
-        "uniques": ["[+100 Gold] when a city adopts this religion for the first time <(modified by game speed)>"]
+      "name": "Choral Music",
+      "type": "Follower",
+      "uniques": [
+        "[+3 Culture] from every [Temple] <in cities with at least [5] [Followers of this Religion]>"
+      ]
     },
     {
-        "name": "Interfaith Dialogue",
-        "type": "Founder",
-        "uniques": ["When spreading religion to a city, gain [10] times the amount of followers of other religions as [Science] <before the [Present era]>", "When spreading religion to a city, gain [20] times the amount of followers of other religions as [Science] <starting from the [Present era]>"]
-    },
-	{
-        "name": "Tributary Concession",
-        "type": "Founder",
-        "uniques": ["When spreading religion to a city, gain [10] times the amount of followers of other religions as [Gold]"]
+      "name": "Divine inspiration",
+      "type": "Follower",
+      "uniques": [
+        "[+2 Faith, +2 Culture] from every [Wonder]"
+      ]
     },
     {
-        "name": "Promised Protection",
-        "type": "Founder",
-        "uniques": ["Resting point for Influence with City-States following this religion [+20]"]
+      "name": "Feed the World",
+      "type": "Follower",
+      "uniques": [
+        "[+2 Food] from every [Shrine]",
+        "[+2 Food] from every [Temple]"
+      ]
     },
     {
-        "name": "Peace Loving",
-        "type": "Founder",
-        "uniques": ["[+4 Happiness] from every [5] global followers [in non-enemy foreign cities]"]
+      "name": "Guruship",
+      "type": "Follower",
+      "uniques": [
+        "[+2 Production, +2 Science] [in cities following this religion] <in cities with at least [1] [Specialists]>"
+      ]
     },
     {
-        "name": "Pilgrimage",
-        "type": "Founder",
-        "uniques": ["[+5 Faith] for each global city following this religion"]
+      "name": "Holy Warriors",
+      "type": "Follower",
+      "uniques": [
+        "May buy [{Military} {Land}] units with [Faith] for [2] times their normal Production cost <before the [Meiji era]>",
+        "May buy [{Military} {Land}] units with [Faith] for [4] times their normal Production cost <starting from the [Meiji era]>"
+      ]
     },
     {
-        "name": "Tithe",
-        "type": "Founder",
-        "uniques": ["[+1 Gold] from every [2] global followers [in all cities]"]
+      "name": "Liturgical Drama",
+      "type": "Follower",
+      "uniques": [
+        "[+3 Faith] from every [Amphitheater] <in cities with at least [3] [Followers of this Religion]>"
+      ]
     },
     {
-        "name": "World Church",
-        "type": "Founder",
-        "uniques": ["[+2 Culture] from every [5] global followers [in foreign cities]"]
+      "name": "Liturgical Opera",
+      "type": "Follower",
+      "uniques": [
+        "[+1 Faith] from every [Monument] <in cities with at least [2] [Followers of this Religion]>"
+      ]
     },
-
+    {
+      "name": "Peace Gardens",
+      "type": "Follower",
+      "uniques": [
+        "[+5 Happiness] from every [Garden]"
+      ]
+    },
+    {
+      "name": "Religious Art",
+      "type": "Follower",
+      "uniques": [
+        "[+10 Culture] from every [Hermitage]"
+      ]
+    },
+    {
+      "name": "Religious Center",
+      "type": "Follower",
+      "uniques": [
+        "[+2 Happiness] from every [Temple] <in cities with at least [5] [Followers of this Religion]>"
+      ]
+    },
+    {
+      "name": "Religious Community",
+      "type": "Follower",
+      "uniques": [
+        "[+1]% [Production] from every follower, up to [20]%"
+      ]
+    },
+    {
+      "name": "Swords into Ploughshares",
+      "type": "Follower",
+      "uniques": [
+        "[+30]% growth [in cities following this religion] <when not at war>"
+      ]
+    },
+    ///////////////////////////////////////// Founder beliefs //////////////////////////////////////////
+    {
+      "name": "Special Founder - Overcome A Thousand Trials",
+      "type": "Founder",
+      "uniques": [
+        "Only available <if [Major Religions In Gensokyo] is constructed> <hidden from users>",
+        "Comment [[Major Religions In Gensokyo] required]",
+        "[+1]% [Production] from every follower, up to [50]%",
+      ]
+    },
+    {
+      "name": "Special Founder - Green Eyed Jealousy",
+      "type": "Founder",
+      "uniques": [
+        "Only available <if [Major Religions In Gensokyo] is constructed> <hidden from users>",
+        "Comment [[Major Religions In Gensokyo] required]",
+        "[+1 Happiness] from every [1] global followers [in non-enemy foreign cities]"
+      ]
+    },
+    {
+      "name": "Special Founder - Broken Moon",
+      "type": "Founder",
+      "uniques": [
+        "Only available <if [Major Religions In Gensokyo] is constructed> <hidden from users>",
+        "Comment [[Major Religions In Gensokyo] required]",
+        "[+50]% Great Person generation [in all cities]"
+      ]
+    },
+    {
+      "name": "Special Founder - Native Faith",
+      "type": "Founder",
+      "uniques": [
+        "Only available <if [Major Religions In Gensokyo] is constructed> <hidden from users>",
+        "Comment [[Major Religions In Gensokyo] required]",
+        "[+1 Faith] per [2] population [in cities following this religion]"
+      ]
+    },
+    {
+      "name": "Donation Boxes",
+      "type": "Founder",
+      "uniques": [
+        "[+4 Gold] for each global city following this religion"
+      ]
+    },
+    {
+      "name": "Initiation Rites",
+      "type": "Founder",
+      "uniques": [
+        "[+100 Gold] when a city adopts this religion for the first time <(modified by game speed)>"
+      ]
+    },
+    {
+      "name": "Interfaith Dialogue",
+      "type": "Founder",
+      "uniques": [
+        "When spreading religion to a city, gain [10] times the amount of followers of other religions as [Science] <before the [Present era]>",
+        "When spreading religion to a city, gain [20] times the amount of followers of other religions as [Science] <starting from the [Present era]>"
+      ]
+    },
+    {
+      "name": "Tributary Concession",
+      "type": "Founder",
+      "uniques": [
+        "When spreading religion to a city, gain [10] times the amount of followers of other religions as [Gold]"
+      ]
+    },
+    {
+      "name": "Promised Protection",
+      "type": "Founder",
+      "uniques": [
+        "Resting point for Influence with City-States following this religion [+20]"
+      ]
+    },
+    {
+      "name": "Peace Loving",
+      "type": "Founder",
+      "uniques": [
+        "[+4 Happiness] from every [5] global followers [in non-enemy foreign cities]"
+      ]
+    },
+    {
+      "name": "Pilgrimage",
+      "type": "Founder",
+      "uniques": [
+        "[+5 Faith] for each global city following this religion"
+      ]
+    },
+    {
+      "name": "Tithe",
+      "type": "Founder",
+      "uniques": [
+        "[+1 Gold] from every [2] global followers [in all cities]"
+      ]
+    },
+    {
+      "name": "World Church",
+      "type": "Founder",
+      "uniques": [
+        "[+2 Culture] from every [5] global followers [in foreign cities]"
+      ]
+    },
     ////////////////////////////////////// Enhancer beliefs ///////////////////////////////////////
-	
-	{
-        "name": "Special Enhancer - Bhavaagra",
-        "type": "Enhancer",
-        "uniques": ["Only available <if [Major Religions In Gensokyo] is constructed> <hidden from users>", "Comment [[Major Religions In Gensokyo] required]", "[+1 Production] from [Hill] tiles [in cities following this religion]"]
-    },
-	{
-        "name": "Special Enhancer - Bustling Marketplace",
-        "type": "Enhancer",
-        "uniques": ["Only available <if [Major Religions In Gensokyo] is constructed> <hidden from users>", "Comment [[Major Religions In Gensokyo] required]", "[+100]% [Gold] from Trade Routes"]
-    },
-	{
-        "name": "Special Enhancer - Dream Battle",
-        "type": "Enhancer",
-        "uniques": ["Only available <if [Major Religions In Gensokyo] is constructed> <hidden from users>", "Comment [[Major Religions In Gensokyo] required]", "[+15]% Strength <for [All] units>"]
-    },
-	{
-        "name": "Special Enhancer - Dark Side Of Faith",
-        "type": "Enhancer",
-        "uniques": ["[Faith] cost of purchasing [Inquisitor] units [-100]%"]
+    {
+      "name": "Special Enhancer - Bhavaagra",
+      "type": "Enhancer",
+      "uniques": [
+        "Only available <if [Major Religions In Gensokyo] is constructed> <hidden from users>",
+        "Comment [[Major Religions In Gensokyo] required]",
+        "[+1 Production] from [Hill] tiles [in cities following this religion]"
+      ]
     },
     {
-        "name": "Defender of the Faith",
-        "type": "Enhancer",
-        "uniques": ["[+20]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>"]
-        // ToDo: Should only be friendly territory of cities that follow this religion
+      "name": "Special Enhancer - Bustling Marketplace",
+      "type": "Enhancer",
+      "uniques": [
+        "Only available <if [Major Religions In Gensokyo] is constructed> <hidden from users>",
+        "Comment [[Major Religions In Gensokyo] required]",
+        "[+100]% [Gold] from Trade Routes"
+      ]
     },
     {
-        "name": "Holy Order",
-        "type": "Enhancer",
-        "uniques": ["[Faith] cost of purchasing [Missionary] units [-30]%", "[Faith] cost of purchasing [Inquisitor] units [-30]%"]
+      "name": "Special Enhancer - Dream Battle",
+      "type": "Enhancer",
+      "uniques": [
+        "Only available <if [Major Religions In Gensokyo] is constructed> <hidden from users>",
+        "Comment [[Major Religions In Gensokyo] required]",
+        "[+15]% Strength <for [All] units>"
+      ]
     },
     {
-        "name": "Itinerant Preachers",
-        "type": "Enhancer",
-        "uniques": ["Religion naturally spreads to cities [+3] tiles away"]
+      "name": "Special Enhancer - Dark Side Of Faith",
+      "type": "Enhancer",
+      "uniques": [
+        "[Faith] cost of purchasing [Inquisitor] units [-100]%"
+      ]
     },
     {
-        "name": "Just War",
-        "type": "Enhancer",
-        "uniques": ["[+20]% Strength <for [All] units> <when fighting in [Enemy Land] tiles>"]
-        // ToDo: Should only be enemy territory of cities that follow this religion
+      "name": "Defender of the Faith",
+      "type": "Enhancer",
+      "uniques": [
+        "[+20]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>"
+      ]
+      // ToDo: Should only be friendly territory of cities that follow this religion
     },
     {
-        "name": "Divine Message",
-        "type": "Enhancer",
-        "uniques": ["[+25]% Spread Religion Strength <for [Great Prophet] units>", "[-25]% Faith cost of generating Great Prophet equivalents"]
+      "name": "Holy Order",
+      "type": "Enhancer",
+      "uniques": [
+        "[Faith] cost of purchasing [Missionary] units [-30]%",
+        "[Faith] cost of purchasing [Inquisitor] units [-30]%"
+      ]
     },
     {
-        "name": "Missionary Zeal",
-        "type": "Enhancer",
-        "uniques": ["[+30]% Spread Religion Strength <for [Missionary] units>"]
+      "name": "Itinerant Preachers",
+      "type": "Enhancer",
+      "uniques": [
+        "Religion naturally spreads to cities [+3] tiles away"
+      ]
     },
     {
-        "name": "Religious Texts",
-        "type": "Enhancer",
-        "uniques": ["[+34]% Natural religion spread [in all cities]", "[+34]% Natural religion spread [in all cities] <after discovering [Printing]>"]
+      "name": "Just War",
+      "type": "Enhancer",
+      "uniques": [
+        "[+20]% Strength <for [All] units> <when fighting in [Enemy Land] tiles>"
+      ]
+      // ToDo: Should only be enemy territory of cities that follow this religion
     },
     {
-        "name": "Religious Unity",
-        "type": "Enhancer",
-        "uniques": ["[+100]% Natural religion spread [in City-State cities]"]
+      "name": "Divine Message",
+      "type": "Enhancer",
+      "uniques": [
+        "[+25]% Spread Religion Strength <for [Great Prophet] units>",
+        "[-25]% Faith cost of generating Great Prophet equivalents"
+      ]
     },
     {
-        "name": "Reliquary",
-        "type": "Enhancer",
-        "uniques": ["Gain [200] [Faith] <upon expending a [Great Person] unit> <(modified by game speed)>"]
+      "name": "Missionary Zeal",
+      "type": "Enhancer",
+      "uniques": [
+        "[+30]% Spread Religion Strength <for [Missionary] units>"
+      ]
+    },
+    {
+      "name": "Religious Texts",
+      "type": "Enhancer",
+      "uniques": [
+        "[+34]% Natural religion spread [in all cities]",
+        "[+34]% Natural religion spread [in all cities] <after discovering [Printing]>"
+      ]
+    },
+    {
+      "name": "Religious Unity",
+      "type": "Enhancer",
+      "uniques": [
+        "[+100]% Natural religion spread [in City-State cities]"
+      ]
+    },
+    {
+      "name": "Reliquary",
+      "type": "Enhancer",
+      "uniques": [
+        "Gain [200] [Faith] <upon expending a [Great Person] unit> <(modified by game speed)>"
+      ]
     }
 ]

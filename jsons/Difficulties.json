@@ -80,8 +80,12 @@
 		"aiBuildingMaintenanceModifier": 0.85,
 		"aiUnitMaintenanceModifier": 0.8,
 		"aiUnitSupplyModifier": 0.3,
-		"aiFreeTechs": ["Scientific Knowledge"],
-		"aiMajorCivBonusStartingUnits": ["Era Starting Unit"],
+		"aiFreeTechs": [
+			"Scientific Knowledge"
+		],
+		"aiMajorCivBonusStartingUnits": [
+			"Era Starting Unit"
+		],
 		"aiCityStateBonusStartingUnits": [],
 		"aiUnhappinessModifier": 0.9,
 		"aisExchangeTechs": true,
@@ -109,15 +113,25 @@
 		"aiBuildingMaintenanceModifier": 0.8,
 		"aiUnitMaintenanceModifier": 0.75,
 		"aiUnitSupplyModifier": 0.3,
-		"aiFreeTechs": ["Scientific Knowledge","Agriculture","Education"],
-		"aiMajorCivBonusStartingUnits": ["Era Starting Unit", "Era Starting Unit", "Worker", "Worker", "Scout"],
+		"aiFreeTechs": [
+			"Scientific Knowledge",
+			"Agriculture",
+			"Education"
+		],
+		"aiMajorCivBonusStartingUnits": [
+			"Era Starting Unit",
+			"Era Starting Unit",
+			"Worker",
+			"Worker",
+			"Scout"
+		],
 		"aiCityStateBonusStartingUnits": [],
 		"aiUnhappinessModifier": 0.85,
 		"aisExchangeTechs": true,
 		"turnBarbariansCanEnterPlayerTiles": 0,
 		"clearBarbarianCampReward": 25
 	},
-    {
+	{
 		"name": "Lunatic",
 		"baseHappiness": 15,
 		"extraHappinessPerLuxury": 0,
@@ -138,8 +152,23 @@
 		"aiBuildingMaintenanceModifier": 0.5,
 		"aiUnitMaintenanceModifier": 0.5,
 		"aiUnitSupplyModifier": 0.5,
-		"aiFreeTechs": ["Scientific Knowledge","Agriculture","Education","Authority"],
-		"aiMajorCivBonusStartingUnits": ["Settler", "Scout", "Worker", "Worker", "Worker", "Scout", "Era Starting Unit", "Era Starting Unit", "Era Starting Unit"],
+		"aiFreeTechs": [
+			"Scientific Knowledge",
+			"Agriculture",
+			"Education",
+			"Authority"
+		],
+		"aiMajorCivBonusStartingUnits": [
+			"Settler",
+			"Scout",
+			"Worker",
+			"Worker",
+			"Worker",
+			"Scout",
+			"Era Starting Unit",
+			"Era Starting Unit",
+			"Era Starting Unit"
+		],
 		"aiCityStateBonusStartingUnits": [],
 		"aiUnhappinessModifier": 0.6,
 		"aisExchangeTechs": true,

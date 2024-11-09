@@ -4,19 +4,20 @@
 		"era": "Youkai Expansion Project",
 		"techCost": 20,
 		"buildingCost": 40,
-        "wonderCost": 50,
+		"wonderCost": 50,
 		"techs": [
 			{
 				"name": "Things To Know",
 				"row": 7,
 				"quote": "'A cage, like for a bird or an insect, can't function if it's completely sealed off. You need at least the air to pass through. Without the sun, the flowers wouldn't bloom. Similarly, without new wind and sun constantly entering Gensokyo, the place would simply die off. Closing off Gensokyo means no longer accepting things. Do you really think Gensokyo could survive without visitors bringing in new ideas?' ? Hecatia Lapislazuli",
-				"uniques": ["Starting tech",
-            "Comment [Military units suffers from -50% Strength before the discovery of Professional Army]",
-            "Comment [-1 Movement for Water units when moving in Ocean tiles before the discovery of Navigation]",
-            "Comment [You will gain 1 [Wonder Slot] for every city you have that has at least 5 population, this can mostly be used to construct improvements on Natural Wonders]",
-            "Comment [Humans have an immunity from the youkais during the Youkai Expansion Project, which will neutralize their -30% Strength debuff with a temporary +30% Strength bonus]",
-            ]
-			//"Be wary of Chimata's nation, Land Of Wealth, she can construct an improvement that will completely take away your Gold tile yields within 3 tiles away of it" (no longer applicable)
+				"uniques": [
+					"Starting tech",
+					"Comment [Military units suffers from -50% Strength before the discovery of Professional Army]",
+					"Comment [-1 Movement for Water units when moving in Ocean tiles before the discovery of Navigation]",
+					"Comment [You will gain 1 [Wonder Slot] for every city you have that has at least 5 population, this can mostly be used to construct improvements on Natural Wonders]",
+					"Comment [Humans have an immunity from the youkais during the Youkai Expansion Project, which will neutralize their -30% Strength debuff with a temporary +30% Strength bonus]"
+				]
+				//"Be wary of Chimata's nation, Land Of Wealth, she can construct an improvement that will completely take away your Gold tile yields within 3 tiles away of it" (no longer applicable)
 			}
 		]
 	},
@@ -31,8 +32,12 @@
 				"name": "Yama's Permission",
 				"cost": 900,
 				"row": 1,
-				"quote": "And so, the gates to magic and divinity was opened."
-				"uniques": ["Comment [Access to Magic and Religion tech tree]", "Discover [Research For Magic]", "Discover [Religion]"]
+				"quote": "And so, the gates to magic and divinity was opened.",
+				"uniques": [
+					"Comment [Access to Magic and Religion tech tree]",
+					"Discover [Research For Magic]",
+					"Discover [Religion]"
+				]
 			},
 			{
 				"name": "Scientific Knowledge",
@@ -85,27 +90,25 @@
 			{
 				"name": "Religion",
 				"row": 17,
-				"quote": "There are three main religions in Gensokyo: Buddhism, Taoism, Shintoism."
+				"quote": "There are three main religions in Gensokyo: Buddhism, Taoism, Shintoism.",
 				"uniques": [
-				//"Only available <for [Hakurei Faction]>",
-				//"Only available <for [Moriya Faction]>",
-				//"Only available <for [Myouren Faction]>",
-				//"Only available <for [Senkai Principality]>",
-				//"Only available <for [Land Of The Corpses]>"
-
-				"Unavailable <for [{non-[Hakurei Faction]} {non-[Moriya Faction]} {non-[Myouren Faction]} {non-[Senkai Principality]} {non-[Land Of The Corpses]}] Civilizations> <before discovering [Yama's Permission]>"
+					//"Only available <for [Hakurei Faction]>",
+					//"Only available <for [Moriya Faction]>",
+					//"Only available <for [Myouren Faction]>",
+					//"Only available <for [Senkai Principality]>",
+					//"Only available <for [Land Of The Corpses]>"
+					"Unavailable <for [{non-[Hakurei Faction]} {non-[Moriya Faction]} {non-[Myouren Faction]} {non-[Senkai Principality]} {non-[Land Of The Corpses]}] Civilizations> <before discovering [Yama's Permission]>"
 				]
 			},
 			{
 				"name": "Research For Magic",
 				"row": 14,
-				"quote": "'It ain't magic if it ain't flashy! Danmaku's all about firepower!' - Marisa Kirisame."
+				"quote": "'It ain't magic if it ain't flashy! Danmaku's all about firepower!' - Marisa Kirisame.",
 				"uniques": [
-				//"Only available <for [Ordinary Magicians]>",
-				//"Only available <for [Land Of The Corpses]>",
-				//"Only available <for [The Unified Doll Front]>"
-
-				"Unavailable <for [{non-[Ordinary Magicians]} {non-[Land Of The Corpses]} {non-[The Unified Doll Front]}] Civilizations> <before discovering [Yama's Permission]>"
+					//"Only available <for [Ordinary Magicians]>",
+					//"Only available <for [Land Of The Corpses]>",
+					//"Only available <for [The Unified Doll Front]>"
+					"Unavailable <for [{non-[Ordinary Magicians]} {non-[Land Of The Corpses]} {non-[The Unified Doll Front]}] Civilizations> <before discovering [Yama's Permission]>"
 				]
 			}
 		]
@@ -118,7 +121,6 @@
 		"wonderCost": 185,
 		"techs": [
 			{
-			
 				"name": "Sailing",
 				"cost": 60,
 				"row": 2,
@@ -127,7 +129,6 @@
 				"uniques": ["Enables embarkation for land units"]
 			},
 			{
-			
 				"name": "Fermented Alcohol",
 				"cost": 60,
 				"row": 3,
@@ -151,13 +152,13 @@
 				"name": "Herbal Medicine",
 				"row": 9,
 				"prerequisites": ["Calendar"],
-				"quote": "Fun fact: the bark of a willow tree is one of the oldest ancient medicine that are still used today.",
+				"quote": "Fun fact: the bark of a willow tree is one of the oldest ancient medicine that are still used today."
 			},
 			{
 				"name": "Negotiations",
 				"row": 10,
 				"prerequisites": ["Education"],
-				"quote": "'pls rember that wen u feel scare or frigten never forget ttimes wen u feeled happy. wen day is dark alway rember happy day' - A quote that will surely make your day."
+				"quote": "'pls rember that wen u feel scare or frigten never forget ttimes wen u feeled happy. wen day is dark alway rember happy day' - A quote that will surely make your day.",
 				"uniques": ["Enables Open Borders agreements"]
 			},
 			//// 1 (first)
@@ -223,7 +224,7 @@
 				"row": 9,
 				"prerequisites": ["Herbal Medicine"],
 				"quote": "'I've been watching all of you this whole time. You all responded to my 'foregathering ability' without noticing, and came to these feasts. Do you know what this means? It means none of you can defeat me.' - Suika Ibuki.",
-				"uniques": ["[+4 Happiness] <during We Love The King Day>"],
+				"uniques": ["[+4 Happiness] <during We Love The King Day>"]
 			},
 			{
 				"name": "Currency",
@@ -257,11 +258,11 @@
 			},
 			{
 				"name": "Brewing Mastery",
-				"cost" : 52,
+				"cost": 52,
 				"row": 15,
 				"prerequisites": ["Simple Alchemy"],
 				"quote": "In Imperishable Night, Marisa survives looking at the full moon, which should drive normal humans insane. When Alice asks if she's alright, she says that it's alright since she's insane to begin with."
-			},
+			}
 		]
 	},
 	{
@@ -276,10 +277,14 @@
 				"row": 2,
 				"prerequisites": ["Hot Spring"],
 				"quote": "Cormorant fishing in Japan is called ukai (鵜飼) in Japanese.",
-				"uniques": ["[+1 Production] from [Fishing Boats] tiles [in all cities]", "[+1 Production] from [Fishing Vessel] tiles [in all cities]", "[+2 Gold] in cities on [River] tiles"]
+				"uniques": [
+					"[+1 Production] from [Fishing Boats] tiles [in all cities]",
+					"[+1 Production] from [Fishing Vessel] tiles [in all cities]",
+					"[+2 Gold] in cities on [River] tiles"
+				]
 			},
 			{
-				"name": "Metal Casting", 
+				"name": "Metal Casting",
 				"row": 4,
 				"prerequisites": ["Iron Working"],
 				"quote": "The Scarlet Devil Mansion is explosive."
@@ -303,16 +308,26 @@
 				"row": 9,
 				"prerequisites": ["Festivals"],
 				"quote": "'I've been watching all of you this whole time. You all responded to my 'foregathering ability' without noticing, and came to these feasts. Do you know what this means? It means none of you can defeat me.' - Suika Ibuki.",
-				"uniques": ["Comment [+4 [Happiness] for every major Civilization you had declared friendship, but lose one of these effects upon declaring war]", "Enables Research agreements", "Roads connect tiles across rivers"]
-				"civilopediaText":[
-					{"text": "Ambassador","color": "#FDFF88","link": "Resources/Ambassador"}
-					],
+				"uniques": [
+					"Comment [+4 [Happiness] for every major Civilization you had declared friendship, but lose one of these effects upon declaring war]",
+					"Enables Research agreements",
+					"Roads connect tiles across rivers"
+				],
+				"civilopediaText": [
+					{"text": "Ambassador", "color": "#FDFF88", "link": "Resources/Ambassador"}
+				]
 			},
 			{
 				"name": "Improved Trade",
 				"row": 10,
-				"prerequisites": ["Negotiations", "Currency"],
-				"uniques": ["Enables conversion of city production to [Gold]", "Roads connect tiles across rivers"],
+				"prerequisites": [
+					"Negotiations",
+					"Currency"
+				],
+				"uniques": [
+					"Enables conversion of city production to [Gold]",
+					"Roads connect tiles across rivers"
+				],
 				"quote": "'The Ability Cards? I don't just 'know' about them. I created them, as a matter of fact!' - Megumu Iizunamaru."
 			},
 			////3
@@ -321,9 +336,15 @@
 				"name": "Divine Punishment",
 				"cost": 175,
 				"row": 18,
-				"prerequisites": ["Culture Preservation","Rituals"],
-				"quote": "'Conviction! Conviction! Conviction!' - Eiki Shiki. Of course, she didn't say that in canon."
-				"uniques": ["[+15]% Strength <for [Monk] units> <vs [Spirit] units>", "[+15]% Strength <for [Hermit] units> <vs [Spirit] units>"]
+				"prerequisites": [
+					"Culture Preservation",
+					"Rituals"
+				],
+				"quote": "'Conviction! Conviction! Conviction!' - Eiki Shiki. Of course, she didn't say that in canon.",
+				"uniques": [
+					"[+15]% Strength <for [Monk] units> <vs [Spirit] units>",
+					"[+15]% Strength <for [Hermit] units> <vs [Spirit] units>"
+				]
 			},
 			{
 				"name": "Dark Magic",
@@ -339,7 +360,7 @@
 				"row": 15,
 				"prerequisites": ["Brewing Mastery"],
 				"quote": "The actual name of Renko and Merry's club is 'The Hifuu Club', not 'Ghostly Field Club'"
-			},
+			}
 		]
 	},
 	{
@@ -352,38 +373,55 @@
 			{
 				"name": "Metal Farming Tools",
 				"row": 4,
-				"prerequisites": ["Cormorant Fishing","Metal Casting"],
+				"prerequisites": [
+					"Cormorant Fishing",
+					"Metal Casting"
+				],
 				"uniques": ["[-15]% construction time for [Farm] improvements"],
 				"quote": "Blessings of the countryside, gifts from the earth."
 			},
 			{
 				"name": "Navigation",
 				"row": 8,
-				"prerequisites": ["Printing", "Embassy"],
+				"prerequisites": [
+					"Printing",
+					"Embassy"
+				],
 				"uniques": ["Enables [Embarked] units to enter ocean tiles"],
 				"quote": "'Wakasagi' is a fish native in northern Japan, Hime is a suffix that means 'princess.' That would mean, Wakasagihime's name is literally 'fish princess.'"
 			},
 			{
 				"name": "Maintained Society",
 				"row": 6,
-				"prerequisites": ["Shield Wall", "Gunpowder"],
+				"prerequisites": [
+					"Shield Wall",
+					"Gunpowder"
+				],
 				"quote": "Crow Tengu (karasu-tengu), the 'nimble information corps,' are similar to anthropomorphic crows with a humanoid body structure. Since they're responsible for writing and distributing newspapers, they're the only type of tengu that ventures to the foothills.",
-				"uniques": ["Improves movement speed on roads", "Enables Defensive Pacts"]
+				"uniques": [
+					"Improves movement speed on roads",
+					"Enables Defensive Pacts"
+				]
 			},
 			{
 				"name": "Mathematics",
 				"row": 10,
 				"prerequisites": ["Improved Trade"],
-				"quote": "Teacher Keine will be proud."
-				"uniques": ["Enables conversion of city production to [Science]", "[+1] Range <for [Archery] units>", "[+1] Range <for [Ranged Gunpowder] units>", "[+1] Range <for [Ranged Sorcery] units>"]
+				"quote": "Teacher Keine will be proud.",
+				"uniques": [
+					"Enables conversion of city production to [Science]",
+					"[+1] Range <for [Archery] units>",
+					"[+1] Range <for [Ranged Gunpowder] units>",
+					"[+1] Range <for [Ranged Sorcery] units>"
+				]
 			},
 			//// 4
 			{
 				"name": "Pity",
 				"cost": 275,
 				"row": 12,
-				"prerequisites": ["Mysterious Knowledge"]
-				"quote": "'Bet you'd be stronger if you tore those restrictive clothes.' - Marisa Kirisame, out of context."
+				"prerequisites": ["Mysterious Knowledge"],
+				"quote": "'Bet you'd be stronger if you tore those restrictive clothes.' - Marisa Kirisame, out of context.",
 				"uniques": ["[+15]% Strength <for [Military] units> <when fighting units from a Civilization with more Cities than you>"]
 			},
 			{
@@ -392,7 +430,10 @@
 				"row": 18,
 				"prerequisites": ["Divine Punishment"],
 				"quote": "'Humans haven't changed since my days in the temple. How weak and rash you are!' - Byakuren Hijiri to Reimu Hakurei.",
-				"uniques": ["[+15]% Strength <for [Monk] units> <vs [Fairy] units>", "[+15]% Strength <for [Hermit] units> <vs [Fairy] units>"]
+				"uniques": [
+					"[+15]% Strength <for [Monk] units> <vs [Fairy] units>",
+					"[+15]% Strength <for [Hermit] units> <vs [Fairy] units>"
+				]
 			},
 			{
 				"name": "Philosophy",
@@ -400,16 +441,19 @@
 				"row": 16,
 				"prerequisites": ["Divine Punishment"],
 				"quote": "'Did you know why rare ingredients taste better? This is because humans taste not with their tounges, but their minds' - Sakuya Izayoi.",
-				"uniques": ["[+15]% Strength <for [Monk] units> <vs [Corpse] units>", "[+15]% Strength <for [Hermit] units> <vs [Corpse] units>"]
+				"uniques": [
+					"[+15]% Strength <for [Monk] units> <vs [Corpse] units>",
+					"[+15]% Strength <for [Hermit] units> <vs [Corpse] units>"
+				]
 			},
 			{
 				"name": "Limitless Learning",
 				"cost": 275,
 				"row": 15,
 				"prerequisites": ["Magical Science"],
-				"quote": "Sumireko is cute. Did you expected a Touhou quote or something?"
+				"quote": "Sumireko is cute. Did you expected a Touhou quote or something?",
 				"uniques": ["[+25]% XP gained from combat <for units without [Martial Arts]> <before adopting [Military Tradition]> <before the [Meiji era]>"]
-			},
+			}
 		]
 	},
 	{
@@ -435,8 +479,11 @@
 			{
 				"name": "Compass",
 				"row": 8,
-				"prerequisites": ["Navigation", "Mathematics"],
-				"uniques": ["[+1] Movement <for [Embarked] units>"]
+				"prerequisites": [
+					"Navigation",
+					"Mathematics"
+				],
+				"uniques": ["[+1] Movement <for [Embarked] units>"],
 				"quote": "There is a ship-sinking youkai in Gensokyo, be careful of her."
 			},
 			{
@@ -451,7 +498,10 @@
 				"name": "Full Conversion",
 				"cost": 420,
 				"row": 17,
-				"prerequisites": ["National Faith", "Philosophy"],
+				"prerequisites": [
+					"National Faith",
+					"Philosophy"
+				],
 				"quote": "Religion plays a major role in Gensokyo, as Gods literally exist in the Touhou series.",
 				"uniques": ["[+1 Happiness] [in all cities in which the majority religion is a major religion]"]
 			},
@@ -512,7 +562,7 @@
 				"row": 10,
 				"prerequisites": ["Physics"],
 				"quote": "Science is Elegant."
-			},
+			}
 		]
 	},
 	{
@@ -532,17 +582,21 @@
 				"name": "Forage Crops Utilization",
 				"row": 5,
 				"prerequisites": ["Multicropping System"],
-				"uniques": ["[+2 Food] from every [{unimproved} {Grassland}]",
-                "[+2 Food] from every [{unimproved} {Plains}]",
-                "[+2 Food] from every [{unimproved} {Tundra}]",
-				"[+1 Food, +1 Gold] from every [Lakes]"
-                ],
+				"uniques": [
+					"[+2 Food] from every [{unimproved} {Grassland}]",
+					"[+2 Food] from every [{unimproved} {Plains}]",
+					"[+2 Food] from every [{unimproved} {Tundra}]",
+					"[+1 Food, +1 Gold] from every [Lakes]"
+				],
 				"quote": "The blessings of the field pave the way to richness of the heart."
 			},
 			{
 				"name": "Law Enforcement",
 				"row": 7,
-				"prerequisites": ["Shogunate", "Law And Order"],
+				"prerequisites": [
+					"Shogunate",
+					"Law And Order"
+				],
 				"quote": "Dansu no chansu ni pankuna ranbu de anta no mausu wa anguri 'nan chi ~yuu fanki' (nan chi ~yuu fanki!)"
 			},
 			{
@@ -569,7 +623,11 @@
 			{
 				"name": "Economics",
 				"row": 6,
-				"prerequisites": ["Law Enforcement", "Forage Crops Utilization", "Culinary Arts"],
+				"prerequisites": [
+					"Law Enforcement",
+					"Forage Crops Utilization",
+					"Culinary Arts"
+				],
 				"quote": "There is a youkai with the ability to stack rocks perfectly."
 			}
 		]
@@ -584,9 +642,19 @@
 			{
 				"name": "Technology Limit",
 				"row": 7,
-				"prerequisites": ["Economics", "Arts And Sculpture"],
+				"prerequisites": [
+					"Economics",
+					"Arts And Sculpture"
+				],
 				"quote": "Yukari probably kept humans from technologically advancing in Gensokyo.",
-				"uniques": ["Comment [Once you research this, every unit at the end of the Magic tree and the Religion tree becomes obsolete]", "[+40]% Strength  <for [Magician] units>", "[+40]% Strength  <for [Dark Magician] units>", "[+40]% Strength  <for [Summon] units>", "[+40]% Strength  <for [Monk] units>", "[+40]% Strength  <for [Hermit] units>"]
+				"uniques": [
+					"Comment [Once you research this, every unit at the end of the Magic tree and the Religion tree becomes obsolete]",
+					"[+40]% Strength  <for [Magician] units>",
+					"[+40]% Strength  <for [Dark Magician] units>",
+					"[+40]% Strength  <for [Summon] units>",
+					"[+40]% Strength  <for [Monk] units>",
+					"[+40]% Strength  <for [Hermit] units>"
+				]
 			}
 		]
 	},
@@ -595,7 +663,7 @@
 		"era": "Meiji era",
 		"techCost": 5000,
 		"buildingCost": 600,
-        "wonderCost": 1500,
+		"wonderCost": 1500,
 		"techs": [
 			/*
 			{
@@ -617,7 +685,10 @@
 				"row": 7,
 				"prerequisites": ["Technology Limit"],
 				"quote": "Religion plays a major role in Gensokyo, as Gods literally exist in the Touhou series.",
-				"uniques": ["[+10]% Strength <for [Armor] units> <when defending>", "[+15]% Strength <for [Ashigaru] units> <when attacking>"]
+				"uniques": [
+					"[+10]% Strength <for [Armor] units> <when defending>",
+					"[+15]% Strength <for [Ashigaru] units> <when attacking>"
+				]
 			},
 			{
 				"name": "Civil Service",
@@ -644,7 +715,7 @@
 				"name": "Metallurgy",
 				"row": 8,
 				"prerequisites": ["Steel"],
-				"quote": "Yukari probably kept humans from technologically advancing in Gensokyo."
+				"quote": "Yukari probably kept humans from technologically advancing in Gensokyo.",
 				"uniques": ["All newly-trained [{Military} {Land}] units [in all cities] receive the [Refine Armor I] promotion"]
 			},
 			{
@@ -660,7 +731,10 @@
 				"row": 4,
 				"prerequisites": ["Military Logistics"],
 				"quote": "Religion plays a major role in Gensokyo, as Gods literally exist in the Touhou series.",
-				"uniques": ["[+1] Movement <for [{Military} {Water}] units>", "[+1] Movement <for [Embarked] units>"]
+				"uniques": [
+					"[+1] Movement <for [{Military} {Water}] units>",
+					"[+1] Movement <for [Embarked] units>"
+				]
 			}
 		]
 	},
@@ -680,15 +754,22 @@
 			{
 				"name": "Machinery",
 				"row": 8,
-				"prerequisites": ["Metallurgy", "Public Education"],
+				"prerequisites": [
+					"Metallurgy",
+					"Public Education"
+				],
 				"quote": "Religion plays a major role in Gensokyo, as Gods literally exist in the Touhou series."
 			},
 			{
 				"name": "Vassal States",
 				"row": 6,
 				"prerequisites": ["Military Predominance"],
-				"quote": "Religion plays a major role in Gensokyo, as Gods literally exist in the Touhou series."
-				"uniques": ["[+30]% [Gold] [in puppeted cities]", "[+30]% [Culture] [in puppeted cities]", "[+30]% [Science] [in puppeted cities]"]
+				"quote": "Religion plays a major role in Gensokyo, as Gods literally exist in the Touhou series.",
+				"uniques": [
+					"[+30]% [Gold] [in puppeted cities]",
+					"[+30]% [Culture] [in puppeted cities]",
+					"[+30]% [Science] [in puppeted cities]"
+				]
 			},
 			{
 				"name": "Official Navy",
@@ -750,7 +831,10 @@
 			{
 				"name": "Architecture",
 				"row": 8,
-				"prerequisites": ["Lantern Clock", "Carpentry"],
+				"prerequisites": [
+					"Lantern Clock",
+					"Carpentry"
+				],
 				"quote": "It is unknown when, how, or why the mansion was originally constructed, but Remilia Scarlet has been its mistress for about 500 years, and Flandre Scarlet has been in the basement for about 495 years."
 			},
 			{
@@ -783,7 +867,10 @@
 			{
 				"name": "Modern Knowledge",
 				"row": 8,
-				"prerequisites": ["Outside World Awareness", "Architecture"],
+				"prerequisites": [
+					"Outside World Awareness",
+					"Architecture"
+				],
 				"quote": "What's this thin book?"
 			},
 			{
@@ -810,7 +897,10 @@
 			{
 				"name": "Medicine",
 				"row": 9,
-				"prerequisites": ["Forgotten Items", "Modern Knowledge"],
+				"prerequisites": [
+					"Forgotten Items",
+					"Modern Knowledge"
+				],
 				"quote": ".",
 				"uniques": ["[+15]% Strength <when defending> <for [Military] units> <when adjacent to a [Field Medic] unit>"]
 			},
@@ -824,7 +914,10 @@
 			{
 				"name": "Scientific Theory",
 				"row": 5,
-				"prerequisites": ["History Preservation", "Military Science"],
+				"prerequisites": [
+					"History Preservation",
+					"Military Science"
+				],
 				"quote": "For the crime of creating the Hourai Elixir, Kaguya Houraisan and Eirin Yagokoro were exiled to Earth, where they came to live in the Bamboo Forest of the Lost.",
 				"uniques": ["[+10]% [Science] from every [Buildings]"]
 			}
@@ -840,9 +933,16 @@
 			{
 				"name": "ZUN's Perfect Beer",
 				"row": 7,
-				"prerequisites": ["Medicine","Scientific Theory","Exclusive Electricity"],
-				"quote": "And then, EOSD is born."
-				"uniques": ["Comment [Is the perfect beer even possible?]", "Can be continually researched"]
+				"prerequisites": [
+					"Medicine",
+					"Scientific Theory",
+					"Exclusive Electricity"
+				],
+				"quote": "And then, EOSD is born.",
+				"uniques": [
+					"Comment [Is the perfect beer even possible?]",
+					"Can be continually researched"
+				]
 			}
 		]
 	}
