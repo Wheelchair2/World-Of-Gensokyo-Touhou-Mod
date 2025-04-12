@@ -3231,37 +3231,37 @@ TileSets/FantasyHex/Tiles/Citadel
   index: -1
 TileSets/FantasyHex/Tiles/City center-Edo period
   rotate: false
-  xy: 204, 10
-  size: 32, 32
-  orig: 32, 32
+  xy: 1372, 544
+  size: 32, 38
+  orig: 32, 38
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/City center-Meiji era
   rotate: false
-  xy: 204, 10
-  size: 32, 32
-  orig: 32, 32
+  xy: 1372, 544
+  size: 32, 38
+  orig: 32, 38
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/City center-Modern era
   rotate: false
-  xy: 204, 10
-  size: 32, 32
-  orig: 32, 32
+  xy: 1372, 544
+  size: 32, 38
+  orig: 32, 38
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/City center-Present era
   rotate: false
-  xy: 204, 10
-  size: 32, 32
-  orig: 32, 32
+  xy: 1372, 544
+  size: 32, 38
+  orig: 32, 38
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/City center-Youkai Expansion Project
   rotate: false
-  xy: 204, 10
-  size: 32, 32
-  orig: 32, 32
+  xy: 1372, 544
+  size: 32, 38
+  orig: 32, 38
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Coffee
@@ -3280,7 +3280,7 @@ TileSets/FantasyHex/Tiles/Coffee+Plantation
   index: -1
 TileSets/FantasyHex/Tiles/Desert
   rotate: false
-  xy: 244, 14
+  xy: 204, 14
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
@@ -3294,98 +3294,98 @@ TileSets/FantasyHex/Tiles/DesertFarm
   index: -1
 TileSets/FantasyHex/Tiles/DesertFarm2
   rotate: false
-  xy: 284, 14
+  xy: 244, 14
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/DesertFloodplainsFarm
   rotate: false
-  xy: 324, 14
+  xy: 284, 14
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/DesertHillFarm
   rotate: false
-  xy: 364, 14
+  xy: 324, 14
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/DessertFloodplainsFarm2
   rotate: false
-  xy: 404, 14
+  xy: 364, 14
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Doll Lumber House
   rotate: false
-  xy: 444, 14
+  xy: 404, 14
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Farm
   rotate: false
-  xy: 484, 14
+  xy: 444, 14
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Fishing Boats
   rotate: false
-  xy: 524, 14
+  xy: 484, 14
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Fishing Vessel
   rotate: false
-  xy: 564, 14
+  xy: 524, 14
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Forest Of Magic
   rotate: false
-  xy: 1372, 544
+  xy: 1588, 760
   size: 32, 38
   orig: 32, 38
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Garden Of The Sun
   rotate: false
-  xy: 604, 12
+  xy: 564, 12
   size: 32, 30
   orig: 32, 30
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Giant Toad's Pond
   rotate: false
-  xy: 644, 12
+  xy: 604, 12
   size: 32, 30
   orig: 32, 30
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Grassland
   rotate: false
-  xy: 684, 14
+  xy: 644, 14
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Grassland+Chikushokai+Friendship With Wild Beasts
   rotate: false
-  xy: 1588, 761
+  xy: 1696, 869
   size: 32, 37
   orig: 32, 37
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Grassland+Chikushokai+Reichoen
   rotate: false
-  xy: 1696, 872
+  xy: 684, 8
   size: 32, 34
   orig: 32, 34
   offset: 0, 0
@@ -3441,7 +3441,7 @@ TileSets/FantasyHex/Tiles/Makai
   index: -1
 TileSets/FantasyHex/Tiles/Misty Lake
   rotate: false
-  xy: 1588, 725
+  xy: 1588, 724
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
@@ -3462,6 +3462,20 @@ TileSets/FantasyHex/Tiles/Olive Tree
   index: -1
 TileSets/FantasyHex/Tiles/Olive Tree Tundra
   rotate: false
+  xy: 1336, 447
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Olive Tree Tundra2
+  rotate: false
+  xy: 1336, 411
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Olive Tree2
+  rotate: false
   xy: 1340, 483
   size: 32, 28
   orig: 32, 28
@@ -3469,182 +3483,182 @@ TileSets/FantasyHex/Tiles/Olive Tree Tundra
   index: -1
 TileSets/FantasyHex/Tiles/Pelt
   rotate: false
-  xy: 1336, 447
+  xy: 1336, 375
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Plains
   rotate: false
-  xy: 1336, 411
+  xy: 1336, 339
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/PlainsFarm
   rotate: false
-  xy: 1336, 375
+  xy: 1336, 303
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/PlainsFarm2
   rotate: false
-  xy: 1336, 339
+  xy: 1336, 267
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/PlainsHillFarm
   rotate: false
-  xy: 1336, 303
+  xy: 1628, 778
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/PlainsHillFarm2
   rotate: false
-  xy: 1336, 267
+  xy: 1628, 742
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Relinquished Land Ownership
   rotate: false
-  xy: 1628, 774
+  xy: 1668, 774
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Saigyou Ayakashi
   rotate: false
-  xy: 1628, 730
+  xy: 1736, 878
   size: 32, 36
   orig: 32, 36
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Salmon
   rotate: false
-  xy: 1668, 778
+  xy: 1776, 886
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Shrimp
   rotate: false
-  xy: 1668, 742
+  xy: 1668, 738
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Snow
   rotate: false
-  xy: 1736, 886
+  xy: 1816, 886
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/SnowFarm
   rotate: false
-  xy: 1776, 886
+  xy: 1300, 79
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/SnowFarm2
   rotate: false
-  xy: 1816, 886
+  xy: 1340, 80
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/SnowHillFarm
   rotate: false
-  xy: 1300, 79
+  xy: 1948, 922
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/SnowHillFarm2
   rotate: false
-  xy: 1340, 80
+  xy: 1988, 922
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Tea
   rotate: false
-  xy: 1948, 922
+  xy: 1628, 706
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Tea+Plantation
   rotate: false
-  xy: 1988, 922
+  xy: 1668, 702
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Tuna
   rotate: false
-  xy: 1736, 850
+  xy: 1412, 579
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Tundra
   rotate: false
-  xy: 1776, 850
+  xy: 1452, 579
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/TundraFarm
   rotate: false
-  xy: 1816, 850
+  xy: 1492, 579
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/TundraFarm2
   rotate: false
-  xy: 1668, 706
+  xy: 1412, 543
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/TundraHillFarm
   rotate: false
-  xy: 1628, 694
+  xy: 1452, 543
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/TundraHillFarm2
   rotate: false
-  xy: 1668, 670
+  xy: 1492, 543
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Whales+Fishing Vessel
   rotate: false
-  xy: 1412, 579
+  xy: 1532, 579
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Youkai Forest
   rotate: false
-  xy: 1452, 573
+  xy: 1532, 537
   size: 32, 34
   orig: 32, 34
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Youkai Mountain
   rotate: false
-  xy: 1492, 569
+  xy: 1704, 823
   size: 32, 38
   orig: 32, 38
   offset: 0, 0
