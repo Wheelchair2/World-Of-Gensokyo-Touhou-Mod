@@ -6,7 +6,7 @@
         "uniques": [
            //"Only available <when number of [turns] is greater than [5]>",
             "Unavailable <if [Card Holder] is constructed>",
-			"Unavailable <for [City-states] Civilizations>"
+			"Unavailable <for [City-States] Civilizations>"
         ],
 		"civilopediaText":[
 			{"text":"Pick an Ability Card of Your Choice", "centered":true, "header":2,"color": "#FB6B94"},
@@ -173,7 +173,7 @@
         "uniques": [
            //"Only available <when number of [turns] is greater than [5]>",
             "Unavailable <if [Card Holder] is constructed>",
-			"Unavailable <for [City-states] Civilizations>"
+			"Unavailable <for [City-States] Civilizations>"
         ],
 		"civilopediaText":[
 			{"text":"Pick an Ability Card of Your Choice", "centered":true, "header":2,"color": "#FB6B94"},

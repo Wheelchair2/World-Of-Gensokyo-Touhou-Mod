@@ -448,7 +448,7 @@
 		"resourceType": "Luxury",
 		"uniques": [
 			"Not shown on world screen",
-			"[+15]% Strength <when defending> <when adjacent to a [{Military}] unit> <for [Military] units>",
+			"[+15]% Strength <when defending> <when adjacent to a [Military] unit> <for [Military] units>",
 			"Comment [(Cards don't give any Happiness, except in Easy difficulty)]",
 			"[-4 Happiness] <hidden from users>",
 			"Excluded from map editor"

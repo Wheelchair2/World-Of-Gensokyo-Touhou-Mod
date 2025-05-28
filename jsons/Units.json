@@ -1209,7 +1209,7 @@
 		"attackSound": "magichit",
 		"uniques": [
 			"Magician",
-			"[+200]% Strength <vs [City] units>",
+			"[+200]% Strength <vs cities>",
 			"Comment [Becomes obsolete at [Technology Limit]]",
 			"Never appears as a Barbarian unit"
 		]
@@ -1229,7 +1229,7 @@
 		"attackSound": "magichit",
 		"uniques": [
 			"Magician",
-			"[+200]% Strength <vs [City] units>",
+			"[+200]% Strength <vs cities>",
 			"Comment [Becomes obsolete at [Technology Limit]]",
 			"Never appears as a Barbarian unit"
 		]

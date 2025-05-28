@@ -600,7 +600,7 @@
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"uniques": [
-			"New [Military] units start with [15] Experience [in this city]",
+			"New [Military] units start with [15] XP [in this city]",
 			"Destroyed when the city is captured"
 		],
 		"requiredTech": "Professional Army"
@@ -612,7 +612,7 @@
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"uniques": [
-			"New [Military] units start with [15] Experience [in this city]",
+			"New [Military] units start with [15] XP [in this city]",
 			"All newly-trained [Military] units [in this city] receive the [Anti-Youkai] promotion",
 			"Destroyed when the city is captured"
 		],
@@ -1142,7 +1142,7 @@
 		"maintenance": 1,
 		"requiredBuilding": "Barracks",
 		"uniques": [
-			"New [Military] units start with [15] Experience [in this city]",
+			"New [Military] units start with [15] XP [in this city]",
 			"Destroyed when the city is captured"
 		],
 		"requiredTech": "Politics"
@@ -1167,7 +1167,7 @@
 		"maintenance": 2,
 		"requiredTech": "Festivals",
 		"uniques": [
-			"New [Military] units start with [15] Experience [in this city]",
+			"New [Military] units start with [15] XP [in this city]",
 			"Destroyed when the city is captured"
 		]
 	},
@@ -1190,7 +1190,7 @@
 		"requiredTech": "Politics",
 		"requiredBuilding": "Castle",
 		"uniques": [
-			"New [Military] units start with [15] Experience [in this city]",
+			"New [Military] units start with [15] XP [in this city]",
 			"Destroyed when the city is captured"
 		]
 	},
@@ -1353,7 +1353,7 @@
 		"maintenance": 2,
 		"requiredBuilding": "Armory",
 		"uniques": [
-			"New [Military] units start with [15] Experience [in this city]",
+			"New [Military] units start with [15] XP [in this city]",
 			"Destroyed when the city is captured"
 		],
 		"requiredTech": "Military Science"
@@ -2128,7 +2128,7 @@
 		"cost": 2000,
 		"isNationalWonder": true,
 		"uniques": [
-			"Hidden until [5] social policy branches have been completed",
+			"Unavailable <when number of [Completed Policy branches] is less than [5]>",
 			"Triggers a global alert upon build start",
 			"Triggers a Cultural Victory upon completion",
 			"Only available <when [Cultural] Victory is enabled>",
