@@ -678,7 +678,7 @@
 		"resourceType": "Luxury",
 		"uniques": [
 			"Not shown on world screen",
-			"[-1] Sight <when below [0] Happiness>",
+			"[-1] Sight <when below [0] [Happiness]>",
 			"[+15]% Strength <while the empire is happy> <for [All] units>",
 			"Comment [(Cards don't give any Happiness, except in Easy difficulty)]",
 			"[-4 Happiness] <hidden from users>",
