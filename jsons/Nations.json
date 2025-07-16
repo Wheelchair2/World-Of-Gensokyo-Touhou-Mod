@@ -720,7 +720,7 @@
 		"uniqueName": "Constant War",
 		"uniques": [
 			"Starts with [Fermented Alcohol]",
-			"Rebel units may spawn <when below [5] Happiness>",
+			"Rebel units may spawn <when below [5] [Happiness]>",
 			"[All] units gain the [Youkai] promotion",
 			"[All] units gain the [Oni] promotion",
 			"Great General provides double combat bonus",
