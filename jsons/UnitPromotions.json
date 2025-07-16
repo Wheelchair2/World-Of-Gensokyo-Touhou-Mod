@@ -1661,7 +1661,7 @@
 		],
 		"uniques": [
 			"Comment [Yukari Yakumo's ability to let you freely warp between map edges for Scout. It will activates when you have this card.]",
-			"May Paradrop up to [100] tiles from inside friendly territory <if it hasn't used other actions yet> <for [Scout] units>",
+			"May Paradrop to [Land] tiles up to [100] tiles away <in [{Friendly} {Land}] tiles> <if it hasn't used other actions yet> <for [Scout] units>",
 			"[This Unit] loses the [Card - Screen Border] promotion <upon turn end> <without [Ability Card; Screen Border]>"
 		]
 	},
