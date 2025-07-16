@@ -321,7 +321,7 @@
 		"name": "Phantasm",
 		"uniques": [
 			"Supplementary",
-			"May Paradrop up to [4] tiles from inside friendly territory <if it hasn't used other actions yet> <for units without [Card - Screen Border]>"
+			"May Paradrop to [Land] tiles up to [3] tiles away <if it hasn't used other actions yet> <for units without [Card - Screen Border]>"
 		]
 	},
 	{
