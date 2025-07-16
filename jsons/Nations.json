@@ -980,7 +980,7 @@
 		"neutralHello": "Hello",
 		"hateHello": "Oh, it's you.",
 		"tradeRequest": "It would be great if you agree to this...",
-		"outerColor": [256, 221, 259],
+		"outerColor": [255, 221, 255],
 		"innerColor": [89, 3, 150],
 		"uniqueName": "Manager Of The Afterlife Realm",
 		"uniques": [
