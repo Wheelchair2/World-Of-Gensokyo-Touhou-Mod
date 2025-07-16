@@ -619,7 +619,7 @@
       {
         "name": "Totalitarianism",
         "uniques": [
-          "Quantity of strategic resources produced by the empire +[100]%",
+          "[+100]% [Strategic] resource production",
           "[+2] Movement <for [Great General] units>"
         ],
         "requires": [
@@ -707,7 +707,7 @@
         "name": "Parliament",
         "requires": ["Planned Economy"],
         "uniques": [
-          "[-15]% maintenance cost for buildings [in all cities]"
+          "[-15]% maintenance cost for [all] buildings [in all cities]"
         ],
         "row": 2,
         "column": 3
