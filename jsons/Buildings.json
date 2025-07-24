@@ -23,16 +23,17 @@
 			"Provides [1] [Wonder Slot] <in cities with at least [5] [Population]>"
 		]
 	},
+	/*
 	{
 		"name": "Monument",
 		"isNationalWonder": true,
 		"cost": 120,
 		"hurryCostModifier": 12,
-		"maintenance": 1,
 		"uniques": [
 			"Comment [+1 XP per turn for Hero units]"
 		]
 	},
+	*/
 	{ //not always available 
 		"name": "Granary",
 		"specialistSlots": {
