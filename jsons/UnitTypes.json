@@ -59,8 +59,7 @@
   },
   {
     "name": "Civilian Water",
-    "movementType": "Water",
-	"uniques": ["Consumes [1] [Manpower]", "Consumes [1] [Manpower] <starting from the [Meiji era]>"]
+    "movementType": "Water"
   },
   {
     "name": "Melee Water",

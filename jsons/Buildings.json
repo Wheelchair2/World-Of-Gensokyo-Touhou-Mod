@@ -30,7 +30,8 @@
 			"Unsellable",
 			"Unbuildable",
 			"Consumes [5] [Manpower]",
-			"Destroyed when the city is captured"
+			"Destroyed when the city is captured",
+			"Will not be displayed in Civilopedia"
 		]
 	},
 	{
@@ -852,7 +853,6 @@
 		"specialistSlots": {
 			"Carpenter": 2
 		},
-		"cost": 75,
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"uniques": [
@@ -951,7 +951,6 @@
 	},
 	{
 		"name": "Market",
-		"cost": 100,
 		"gold": 3,
 		"specialistSlots": {
 			"Merchant": 2

@@ -145,8 +145,8 @@
 		"columnNumber": 3,
 		"era": "Youkai Expansion Project",
 		"techCost": 90,
-		"buildingCost": 420,
-		"wonderCost": 850,
+		"buildingCost": 250,
+		"wonderCost": 560,
 		"techs": [
 			{
 				"name": "Sailing",
@@ -224,8 +224,8 @@
 		"columnNumber": 4,
 		"era": "Youkai Expansion Project",
 		"techCost": 160,
-		"buildingCost": 480,
-		"wonderCost": 1200,
+		"buildingCost": 380,
+		"wonderCost": 560,
 		"techs": [
 			{
 				"name": "Hot Spring",
