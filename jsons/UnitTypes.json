@@ -1,51 +1,76 @@
 [
+	// Hero
+  { 
+    "name": "Fighter Hero",
+    "movementType": "Land",
+	"uniques": ["[+25]% Strength <vs [non-[Hero]] units>"]
+  },
+  {
+    "name": "Support Hero",
+    "movementType": "Land"
+	"uniques": ["[+10]% Strength <vs [non-[Hero]] units>"]
+  },
+  
+  /////////
+  
   {
     "name": "Civilian",
     "movementType": "Land"
   },
   {
     "name": "Sword",
-    "movementType": "Land"
+    "movementType": "Land",
+	"uniques": ["Consumes [1] [Manpower]", "Consumes [1] [Manpower] <starting from the [Meiji era]>"]
   },
   {
     "name": "Gunpowder",
-    "movementType": "Land"
+    "movementType": "Land",
+	"uniques": ["Consumes [1] [Manpower]", "Consumes [1] [Manpower] <starting from the [Meiji era]>"]
   },
   {
     "name": "Archery",
-    "movementType": "Land"
+    "movementType": "Land",
+	"uniques": ["Consumes [1] [Manpower]", "Consumes [1] [Manpower] <starting from the [Meiji era]>"]
   },
   {
     "name": "Ranged Gunpowder",
-    "movementType": "Land"
+    "movementType": "Land",
+	"uniques": ["Consumes [1] [Manpower]", "Consumes [1] [Manpower] <starting from the [Meiji era]>"]
   },
   {
     "name": "Scout",
-    "movementType": "Land"
+    "movementType": "Land",
+	"uniques": ["Consumes [1] [Manpower]", "Consumes [1] [Manpower] <starting from the [Meiji era]>"]
   },
   {
     "name": "Mounted",
-    "movementType": "Land"
+    "movementType": "Land",
+	"uniques": ["Consumes [1] [Manpower]", "Consumes [1] [Manpower] <starting from the [Meiji era]>"]
   },
   {
     "name": "Armored",
-    "movementType": "Land"
+    "movementType": "Land",
+	"uniques": ["Consumes [1] [Manpower]", "Consumes [1] [Manpower] <starting from the [Meiji era]>"]
   },
   {
     "name": "Siege",
-    "movementType": "Land"
+    "movementType": "Land",
+	"uniques": ["Consumes [1] [Manpower]", "Consumes [1] [Manpower] <starting from the [Meiji era]>"]
   },
   {
     "name": "Civilian Water",
-    "movementType": "Water"
+    "movementType": "Water",
+	"uniques": ["Consumes [1] [Manpower]", "Consumes [1] [Manpower] <starting from the [Meiji era]>"]
   },
   {
     "name": "Melee Water",
-    "movementType": "Water"
+    "movementType": "Water",
+	"uniques": ["Consumes [1] [Manpower]", "Consumes [1] [Manpower] <starting from the [Meiji era]>"]
   },
   {
     "name": "Ranged Water",
-    "movementType": "Water"
+    "movementType": "Water",
+	"uniques": ["Consumes [1] [Manpower]", "Consumes [1] [Manpower] <starting from the [Meiji era]>"]
   },
   {
     "name": "Submarine",
@@ -53,17 +78,20 @@
     "uniques": [
       "Can enter ice tiles",
       "Invisible to non-adjacent units",
+	  "Consumes [1] [Manpower]", "Consumes [1] [Manpower] <starting from the [Meiji era]>",
       "Can see invisible [Submarine] units"
     ]
   },
   {
     "name": "Aircraft Carrier",
     "movementType": "Water"
+	"uniques": ["Consumes [1] [Manpower]", "Consumes [1] [Manpower] <starting from the [Meiji era]>"]
   },
   {
     "name": "Fighter",
     "movementType": "Air",
     "uniques": [
+	  "Consumes [1] [Manpower]", "Consumes [1] [Manpower] <starting from the [Meiji era]>"
       "Aircraft",
       "[+4] Sight",
       "Can see over obstacles",
@@ -73,25 +101,26 @@
   {
     "name": "Bomber",
     "movementType": "Air",
-    "uniques": ["Aircraft"]
+    "uniques": ["Aircraft", "Consumes [1] [Manpower]", "Consumes [1] [Manpower] <starting from the [Meiji era]>"]
   },
   {
     "name": "Atomic Bomber",
     "movementType": "Air",
-    "uniques": ["Aircraft"]
+    "uniques": ["Aircraft", "Consumes [1] [Manpower]", "Consumes [1] [Manpower] <starting from the [Meiji era]>"]
   },
   {
     "name": "Missile",
     "movementType": "Air",
     "uniques": [
       "Self-destructs when attacking",
-      "Cannot be intercepted"
+      "Cannot be intercepted",
+	  "Consumes [1] [Manpower]", "Consumes [1] [Manpower] <starting from the [Meiji era]>"
     ]
   },
   {
     "name": "Helicopter",
     "movementType": "Land",
-    "uniques": ["Can pass through impassable tiles"]
+    "uniques": ["Can pass through impassable tiles", "Consumes [1] [Manpower]", "Consumes [1] [Manpower] <starting from the [Meiji era]>"]
   },
   // Gensokyo Mod Types
   {
@@ -100,11 +129,13 @@
   },
   {
     "name": "Melee Sorcery",
-    "movementType": "Land"
+    "movementType": "Land",
+	"uniques": ["Consumes [1] [Manpower]", "Consumes [1] [Manpower] <starting from the [Meiji era]>"]
   },
   {
     "name": "Ranged Sorcery",
-    "movementType": "Land"
+    "movementType": "Land",
+	"uniques": ["Consumes [1] [Manpower]", "Consumes [1] [Manpower] <starting from the [Meiji era]>"]
   },
   // Deprecated unit types required for mods without a UnitTypes.json file to work
   {
@@ -113,7 +144,7 @@
   },
   {
     "name": "Ranged",
-    "movementType": "Land"
+    "movementType": "Land",
   },
   {
     "name": "Armor",

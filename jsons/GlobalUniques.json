@@ -1,6 +1,20 @@
 {
   "name": "Global uniques",
   "uniques": [
+	// Manpower
+	"[+20]% [Food] [in all cities] <when above [20] [Manpower]>",
+	"[+20]% [Production] [in all cities] <when above [15] [Manpower]>",
+	"[+5] Happiness from each type of luxury resource <when above [20] [Manpower]>",
+	"[+50]% Production when constructing [Military] units [in all cities] <when above [20] [Manpower]>",
+	
+	"[-30]% [Production] [in all cities] <when below [10] [Manpower]>",
+	"[+150]% maintenance cost for [All] buildings [in all cities]  <when below [10] [Manpower]>",
+	"[-30]% Strength <for [Military] units> <when below [0] [Manpower]>",
+	
+	"Provides [25] [Manpower]",
+	
+	"Cannot build [Hero] units",
+ 
     "Gain a free [System] [in all cities]",
     "[-75]% growth [in all cities] <when between [-10] and [-1] [Happiness]> <for [non-[Hakurei Faction]] Civilizations>",
     "Nullifies Growth [in all cities] <when below [-10] [Happiness]> <for [non-[Hakurei Faction]] Civilizations>",
@@ -13,7 +27,6 @@
     "[-1] Movement <for [Water] units> <in [Ocean] tiles> <before discovering [Navigation]>",
     "Cannot build [Ingredient] units <in cities without a [Perfect Beer Program]>",
     "May buy [Mercenary] units with [Gold] for [2] times their normal Production cost",
-    "[+30]% Strength <for [Human] units> <during the [Youkai Expansion Project]>",
     "[+50]% Strength <for [Military] units> <vs [Mounted] units> <when defending> <in [Barricades] tiles>",
     "[-1 Happiness] per [2] population [in all cities] <for [AI player] Civilizations>",
     //"[-2 Happiness] [in all cities] <for [AI player]>",
@@ -81,4 +94,10 @@
     "Triggers a [Kaguya White] event <upon turn end> <when number of [turns] is between [200] and [201]> <when number of [turns] is less than [201]> <without [White Switch Open]> <for [Major] Civilizations>",
     "Triggers a [Kaguya Black] event <upon turn end> <when number of [turns] is between [205] and [206]> <when number of [turns] is less than [206]> <without [Black Switch Open]> <for [Major] Civilizations>"
   ]
+  /*
+   "unitUniques": [
+   "Consumes [1] [Manpower]"
+   
+   ]
+   */
 }

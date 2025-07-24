@@ -13,9 +13,17 @@
 				"uniques": [
 					"Starting tech",
 					"Comment [Military units suffers from -50% Strength before the discovery of Professional Army]",
+					"Comment [------------------------------------]",
 					"Comment [-1 Movement for Water units when moving in Ocean tiles before the discovery of Navigation]",
+					"Comment [------------------------------------]",
 					"Comment [You will gain 1 [Wonder Slot] for every city you have that has at least 5 population, this can mostly be used to construct improvements on Natural Wonders]",
-					"Comment [Humans have an immunity from the youkais during the Youkai Expansion Project, which will neutralize their -30% Strength debuff with a temporary +30% Strength bonus]"
+					"Comment [------------------------------------]",
+					"Comment [When above 20 [Manpower], you gain +20% [Food] in all cities. When above 15 [Manpower], you gain +20% [Production] in all cities. When above 20 [Manpower], +5 [Happiness] from each type of luxury resource.]",
+					"Comment [------------------------------------]",
+					"Comment [When above 20 [Manpower], you build Military units with +50% [Production]]",
+					"Comment [------------------------------------]",
+					"Comment [When below 10 [Manpower], -30% [Production] in all cities]",
+					"Comment [When below 10 [Manpower], +150% building maintenance costs]",
 				]
 				//"Be wary of Chimata's nation, Land Of Wealth, she can construct an improvement that will completely take away your Gold tile yields within 3 tiles away of it" (no longer applicable)
 			}
@@ -43,7 +51,21 @@
 				"name": "Scientific Knowledge",
 				"row": 6,
 				"prerequisites": ["Things To Know"],
-				"quote": "The Touhou Project series while being primarily based on the religion known as Shinto it is not unusual to see many functions of the Touhou world to rely on modern science (Gendaikagaku)."
+				"quote": "The Touhou Project series while being primarily based on the religion known as Shinto it is not unusual to see many functions of the Touhou world to rely on modern science (Gendaikagaku).",
+				"uniques": [
+					"[+5 Production, +5 Food] from every specialist [in all cities] <when number of [Cities] is less than [5]> <starting from the [Edo period]>",
+					"Comment [------------------------------------]",
+					"Provides [5] [Manpower] <when number of [Cities] is less than [5]>",
+					"Comment [------------------------------------]",
+					"[+50]% growth [in all cities] <when number of [Cities] is less than [5]>",
+					"Comment [------------------------------------]",
+					"[-50]% Unhappiness from [Population] [in all cities] <when number of [Cities] is less than [5]>",
+					"Comment [------------------------------------]",
+					//"[-1 Happiness] per [2] population [in all cities]  <when below [10] [Manpower]>",
+					//"Comment [------------------------------------]",
+					"[100]% of excess happiness converted to [Gold] <when above [50] Happiness>"
+					"Comment [------------------------------------]",
+					]
 			}
 		]
 	},
@@ -64,14 +86,20 @@
 				"name": "Calendar",
 				"row": 9,
 				"prerequisites": ["Scientific Knowledge"],
-				"quote": "'Remembering the melancholy of human existence. Even ghosts stray from the path of righteousness.' - Yuyuko Saigyouji."
+				"quote": "'Remembering the melancholy of human existence. Even ghosts stray from the path of righteousness.' - Yuyuko Saigyouji.",
+				"uniques": [
+				""
+				]
 			},
 			{
 				"name": "Paid Service",
 				"cost": 15,
 				"row": 7,
 				"prerequisites": ["Scientific Knowledge"],
-				"quote": "Even Mystia's Izakaya doesn't have this."
+				"quote": "Even Mystia's Izakaya doesn't have this.",
+				"uniques": [
+				"[+15]% Production when constructing [All] buildings [in all cities] <when above [15] [Manpower]>"
+				]
 			},
 			{
 				"name": "Authority",
@@ -159,7 +187,7 @@
 				"row": 10,
 				"prerequisites": ["Education"],
 				"quote": "'pls rember that wen u feel scare or frigten never forget ttimes wen u feeled happy. wen day is dark alway rember happy day' - A quote that will surely make your day.",
-				"uniques": ["Enables Open Borders agreements"]
+				"uniques": ["Enables Open Borders agreements", "Enables Defensive Pacts"]
 			},
 			//// 1 (first)
 			{
@@ -210,7 +238,8 @@
 				"name": "State Government",
 				"row": 5,
 				"prerequisites": ["Authority", "Professional Army"],
-				"quote": "'Shooting, cutting, stabbing, hitting, killing...It's all useless against me.' - Yukari Yakumo; not only is she not scared of physics, but of logic as well."
+				"quote": "'Shooting, cutting, stabbing, hitting, killing...It's all useless against me.' - Yukari Yakumo; not only is she not scared of physics, but of logic as well.",
+				"uniques": ["[+50]% growth [in all cities] <when above [25] [Manpower]>"]
 			},
 			{
 				"name": "Printing",
@@ -269,8 +298,8 @@
 		"columnNumber": 5,
 		"era": "Youkai Expansion Project",
 		"techCost": 250,
-		"buildingCost": 125,
-		"wonderCost": 250,
+		"buildingCost": 250,
+		"wonderCost": 450,
 		"techs": [
 			{
 				"name": "Cormorant Fishing",
@@ -326,7 +355,8 @@
 				],
 				"uniques": [
 					"Enables conversion of city production to [Gold]",
-					"Roads connect tiles across rivers"
+					"Roads connect tiles across rivers",
+					"Improves movement speed on roads",
 				],
 				"quote": "'The Ability Cards? I don't just 'know' about them. I created them, as a matter of fact!' - Megumu Iizunamaru."
 			},
@@ -367,8 +397,8 @@
 		"columnNumber": 6,
 		"era": "Edo period",
 		"techCost": 375,
-		"buildingCost": 160,
-		"wonderCost": 400,
+		"buildingCost": 420,
+		"wonderCost": 850,
 		"techs": [
 			{
 				"name": "Metal Farming Tools",
@@ -399,8 +429,8 @@
 				],
 				"quote": "Crow Tengu (karasu-tengu), the 'nimble information corps,' are similar to anthropomorphic crows with a humanoid body structure. Since they're responsible for writing and distributing newspapers, they're the only type of tengu that ventures to the foothills.",
 				"uniques": [
-					"Improves movement speed on roads",
-					"Enables Defensive Pacts"
+					"Provides [5] [Manpower] <when number of [Cities] is more than [8]>",
+					"Provides [5] [Manpower] <when number of [Cities] is more than [14]>"
 				]
 			},
 			{
@@ -460,8 +490,8 @@
 		"columnNumber": 7,
 		"era": "Edo period",
 		"techCost": 485,
-		"buildingCost": 160,
-		"wonderCost": 400,
+		"buildingCost": 480,
+		"wonderCost": 850,
 		"techs": [
 			{
 				"name": "Heavy Plough",
@@ -503,7 +533,7 @@
 					"Philosophy"
 				],
 				"quote": "Religion plays a major role in Gensokyo, as Gods literally exist in the Touhou series.",
-				"uniques": ["[+1 Happiness] [in all cities in which the majority religion is a major religion]"]
+				"uniques": ["[+1 Happiness] [in all cities in which the majority religion is a major religion]", "May buy [{Military} {Land}] units with [Faith] for [4] times their normal Production cost <starting from the [Meiji era]> <before adopting [Holy Warriors]>"]
 			},
 			{
 				"name": "Field Of Summoning",
@@ -535,7 +565,7 @@
 		"columnNumber": 8,
 		"era": "Edo period",
 		"techCost": 780,
-		"buildingCost": 400,
+		"buildingCost": 520,
 		"wonderCost": 1000,
 		"techs": [
 			{
@@ -618,7 +648,8 @@
 				"name": "Arts And Sculpture",
 				"row": 8,
 				"prerequisites": ["Fertilizer"],
-				"quote": "The Kamakura Period is considered a high point in the history of the Japanese art."
+				"quote": "The Kamakura Period is considered a high point in the history of the Japanese art.",
+				"uniques": ["[+10]% [Happiness] <when number of [Cities] is less than [5]> <starting from the [Meiji era]>",]
 			},
 			{
 				"name": "Economics",
@@ -628,7 +659,8 @@
 					"Forage Crops Utilization",
 					"Culinary Arts"
 				],
-				"quote": "There is a youkai with the ability to stack rocks perfectly."
+				"quote": "There is a youkai with the ability to stack rocks perfectly.",
+				"uniques": ["[+100]% growth [in all cities] <when number of [Cities] is less than [5]> <starting from the [Meiji era]>",]
 			}
 		]
 	},
@@ -662,8 +694,8 @@
 		"columnNumber": 12,
 		"era": "Meiji era",
 		"techCost": 5000,
-		"buildingCost": 600,
-		"wonderCost": 1500,
+		"buildingCost": 1600,
+		"wonderCost": 4000,
 		"techs": [
 			/*
 			{
@@ -702,8 +734,8 @@
 		"columnNumber": 13,
 		"era": "Meiji era",
 		"techCost": 6800,
-		"buildingCost": 800,
-		"wonderCost": 2000,
+		"buildingCost": 1750,
+		"wonderCost": 4500,
 		"techs": [
 			{
 				"name": "Public Education",
@@ -742,8 +774,8 @@
 		"columnNumber": 14,
 		"era": "Meiji era",
 		"techCost": 12800,
-		"buildingCost": 1000,
-		"wonderCost": 2000,
+		"buildingCost": 2000,
+		"wonderCost": 5000,
 		"techs": [
 			{
 				"name": "Woodblock Printing",
@@ -784,8 +816,8 @@
 		"columnNumber": 15,
 		"era": "Meiji era",
 		"techCost": 15400,
-		"buildingCost": 1500,
-		"wonderCost": 2500,
+		"buildingCost": 2400,
+		"wonderCost": 5000,
 		"techs": [
 			{
 				"name": "Carpentry",
@@ -818,8 +850,8 @@
 		"columnNumber": 16,
 		"era": "Modern era",
 		"techCost": 17600,
-		"buildingCost": 2000,
-		"wonderCost": 3000,
+		"buildingCost": 2800,
+		"wonderCost": 5500,
 		"techs": [
 			{
 				"name": "Outside World Awareness",
@@ -855,8 +887,8 @@
 		"columnNumber": 17,
 		"era": "Modern era",
 		"techCost": 19000,
-		"buildingCost": 2000,
-		"wonderCost": 3000,
+		"buildingCost": 3600,
+		"wonderCost": 6500,
 		"techs": [
 			{
 				"name": "Forgotten Items",
@@ -891,8 +923,8 @@
 		"columnNumber": 18,
 		"era": "Present era",
 		"techCost": 24000,
-		"buildingCost": 2500,
-		"wonderCost": 3500,
+		"buildingCost": 4800,
+		"wonderCost": 6500,
 		"techs": [
 			{
 				"name": "Medicine",
@@ -927,8 +959,8 @@
 		"columnNumber": 19,
 		"era": "Present era",
 		"techCost": 30000,
-		"buildingCost": 2500,
-		"wonderCost": 3500,
+		"buildingCost": 5000,
+		"wonderCost": 8000,
 		"techs": [
 			{
 				"name": "ZUN's Perfect Beer",

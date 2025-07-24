@@ -176,8 +176,8 @@
 		"uniqueName": "Manipulation Of Eternity",
 		"uniques": [
 			"[All] units gain the [Lunarian] promotion",
-			"[+15]% Production when constructing [All] buildings [in all cities]",
-			"[-50]% maintenance costs",
+			"[+20]% Production when constructing [All] buildings [in all cities]",
+			"[-50]% maintenance cost for [All] buildings [in all cities]",
 			"[-20]% construction time for [All] improvements"
 		],
 		"cities": [

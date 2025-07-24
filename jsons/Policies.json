@@ -12,7 +12,7 @@
     "uniques": [
       "[+3 Culture] [in capital]",
       "[-25]% Culture cost of natural border growth [in all cities]",
-      "[+2 Food] from every [Natural Wonder]"
+      "[+4 Food] from every [Natural Wonder]"
     ],
     "policies": [
       {
@@ -82,7 +82,7 @@
     },
     "uniques": [
       "[+1 Culture] [in all cities]",
-      "[+2 Science] from every [Natural Wonder]"
+      "[+4 Science] from every [Natural Wonder]"
     ],
     "policies": [
       {
@@ -153,7 +153,7 @@
       "[+55]% Strength <vs [Barbarian] units>",
       "Earn [100]% of killed [Barbarian] unit's [Strength] as [Culture]",
       "Notified of new Barbarian encampments",
-      "[+3 Culture] from every [Natural Wonder]"
+      "[+5 Culture] from every [Natural Wonder]"
     ],
     "policies": [
       {
@@ -229,7 +229,7 @@
     "uniques": [
       "May choose [1] additional [Follower] beliefs when [founding] a religion",
       "May choose [1] additional [Founder] beliefs when [founding] a religion",
-      "[+3 Faith] from every [Natural Wonder]",
+      "[+5 Faith] from every [Natural Wonder]",
       "Only available <before adopting [Rationalism]>"
     ],
     "policies": [
@@ -324,7 +324,7 @@
       {
         "name": "Scholasticism",
         "uniques": [
-          "Allied City-States provide [Science] equal to [50]% of what they produce for themselves"
+          "Allied City-States provide [Science] equal to [10]% of what they produce for themselves"
         ],
         "requires": ["Philantropy"],
         "row": 2,
@@ -619,7 +619,8 @@
       {
         "name": "Totalitarianism",
         "uniques": [
-          "[+100]% [Strategic] resource production",
+          "[+100]% [Horse] resource production",
+		  "[+100]% [Iron] resource production",
           "[+2] Movement <for [Great General] units>"
         ],
         "requires": [

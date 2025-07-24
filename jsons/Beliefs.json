@@ -332,7 +332,7 @@
       "type": "Follower",
       "uniques": [
         "May buy [{Military} {Land}] units with [Faith] for [2] times their normal Production cost <before the [Meiji era]>",
-        "May buy [{Military} {Land}] units with [Faith] for [4] times their normal Production cost <starting from the [Meiji era]>"
+        "May buy [{Military} {Land}] units with [Faith] for [3] times their normal Production cost <starting from the [Meiji era]>"
       ]
     },
     {

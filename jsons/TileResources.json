@@ -1,4 +1,15 @@
 [
+	// Manpower
+	{
+		"name": "Manpower",
+		"resourceType": "Strategic",
+		"uniques": [
+			"Cannot be traded",
+			"Comment [When above 20 [Manpower], you gain +20% [Food] in all cities. When above 15 [Manpower], you gain +20% [Production] in all cities. When above 20 [Manpower], +5 [Happiness] from each type of luxury resource.]",
+			"Comment [When above 20 [Manpower], you build Military units with +50% [Production]]"
+		],
+	}
+	
 	// Bonus resources
 	{
 		"name": "Cattle",

@@ -165,6 +165,50 @@
 	},
 	*/
 	// Old Promotions
+	
+	// Status Promotions
+	{
+		"name": "Prepared",
+		"uniques": ["[+30]% Strength"]
+	},
+	{
+		"name": "Eternally Awaiting",
+		"uniques": ["[-1] Movement", "[-10]% Strength"]
+	},
+	{
+		"name": "Unzan's Fists",
+		"uniques": ["[+20]% Strength"]
+	},
+	{
+		"name": "Unzan's Fists II",
+		"uniques": ["[+40]% Strength"]
+	},
+	{
+		"name": "Time Stopped",
+		"uniques": ["[+5] Movement", "Ignores Zone of Control", "Can move after attacking"]
+	},
+	{
+		"name": "Shikigami (Level 1)",
+		"uniques": ["Free [Kitsune Summon (Level 1)] appears"]
+	},
+	{
+		"name": "Shikigami (Level 2)",
+		"uniques": ["Free [Kitsune Summon (Level 2)] appears"]
+	},
+	{
+		"name": "Shikigami (Level 3)",
+		"uniques": ["Free [Kitsune Summon (Level 3)] appears"]
+	},
+	{
+		"name": "Shikigami (Level 4)",
+		"uniques": ["Free [Kitsune Summon (Level 4)] appears"]
+	},
+	{
+		"name": "Shikigami (Level 5)",
+		"uniques": ["Free [Kitsune Summon (Level 5)] appears"]
+	},
+	
+	// Base Promotions
 	{
 		"name": "Fairy",
 		"uniques": [
@@ -298,9 +342,8 @@
 		"uniques": [
 			"Human",
 			"Racial",
-			"[-30]% Strength",
-			"[-15]% Strength <when adjacent to a [Oni] unit>",
-			"Comment [Humans have an immunity from the youkais during the Youkai Expansion Project, which will neutralize their -30% Strength debuff with a temporary +30% Strength bonus]"
+			"[-10]% Strength",
+			"[-10]% Strength <when adjacent to a [Oni] unit>",
 		]
 	},
 	{

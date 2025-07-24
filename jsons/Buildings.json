@@ -25,16 +25,19 @@
 	},
 	{
 		"name": "Monument",
-		"culture": 2,
-		"cost": 40,
+		"isNationalWonder": true,
+		"cost": 120,
 		"hurryCostModifier": 12,
 		"maintenance": 1,
 		"uniques": [
-			"Destroyed when the city is captured"
+			"Comment [+1 XP per turn for Hero units]"
 		]
 	},
 	{ //not always available 
 		"name": "Granary",
+		"specialistSlots": {
+					"Cook": 2
+		},
 		"cost": 60,
 		"food": 2,
 		"hurryCostModifier": 25,
@@ -513,6 +516,9 @@
 	// Normal Buildings And Wonders
 	{
 		"name": "Aqueduct",
+		"specialistSlots": {
+					"Carpenter": 2
+		},
 		"cost": 100,
 		"maintenance": 1,
 		"hurryCostModifier": 25,
@@ -523,6 +529,9 @@
 	},
 	{
 		"name": "Library",
+		"specialistSlots": {
+					"Carpenter": 2
+		},
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"uniques": [
@@ -556,6 +565,9 @@
 	},
 	{
 		"name": "Onsen",
+		"specialistSlots": {
+					"Entertainer": 2
+		},
 		"cost": 100,
 		"maintenance": 1,
 		"happiness": 2,
@@ -572,6 +584,7 @@
 		],
 		"hurryCostModifier": 25,
 		"uniques": [
+			"Provides [1] [Horses]",
 			"[+15]% Production when constructing [Mounted] units [in this city]",
 			"[+1 Production] from [Cattle] tiles [in this city]",
 			"[+1 Production] from [Horses] tiles [in this city]",
@@ -642,8 +655,12 @@
 	},
 	{
 		"name": "Fortifications",
+		"specialistSlots": {
+					"Carpenter": 1
+		},
 		"cost": 40,
 		"cityStrength": 10,
+		"cityHealth": 100,
 		"requiredTech": "Authority",
 		"uniques": [
 			"Destroyed when the city is captured"
@@ -653,9 +670,9 @@
 		"name": "Walls",
 		"cost": 75,
 		"cityStrength": 5,
-		"cityHealth": 50,
+		"cityHealth": 200,
 		"hurryCostModifier": 25,
-		"requiredTech": "State Government",
+		"requiredTech": "Authority",
 		"uniques": [
 			"Destroyed when the city is captured"
 		]
@@ -666,7 +683,7 @@
 		"uniqueTo": "Human Village",
 		"replaces": "Walls",
 		"cityStrength": 7,
-		"cityHealth": 100,
+		"cityHealth": 300,
 		"hurryCostModifier": 25,
 		"requiredTech": "State Government",
 		"uniques": [
@@ -675,12 +692,15 @@
 	},
 	{
 		"name": "Observatory",
+		"specialistSlots": {
+			"Scientist": 3
+		},
 		"cost": 200,
 		"maintenance": 3,
 		"hurryCostModifier": 25,
 		"science": 4,
 		"percentStatBonus": {
-			"science": 50
+			"science": 20
 		},
 		"requiredBuilding": "Library",
 		"uniques": [
@@ -714,6 +734,9 @@
 	},
 	{
 		"name": "Water Mill",
+		"specialistSlots": {
+			"Carpenter": 1
+		},
 		"maintenance": 2,
 		"food": 2,
 		"production": 1,
@@ -736,6 +759,9 @@
 	},
 	{
 		"name": "Stone Works",
+		"specialistSlots": {
+			"Carpenter": 2
+		},
 		"happiness": 1,
 		"production": 1,
 		"requiredNearbyImprovedResources": [
@@ -753,6 +779,9 @@
 	},
 	{
 		"name": "Winery",
+		"specialistSlots": {
+			"Cook": 2
+		},
 		"happiness": 2,
 		"maintenance": 0,
 		"hurryCostModifier": 12,
@@ -764,21 +793,27 @@
 	},
 	{
 		"name": "Rice Wine",
+		"specialistSlots": {
+					"Cook": 2
+		},
 		"cost": 75,
 		"maintenance": 1,
 		"happiness": 1,
-		"production": 1,
+		"production": 2,
 		"hurryCostModifier": 15,
 		"requiredTech": "Fermented Alcohol"
 	},
 	{
 		"name": "Nihonshu Sake",
+		"specialistSlots": {
+					"Cook": 2
+		},
 		"cost": 40,
 		"uniqueTo": "Oni Clans",
 		"replaces": "Rice Wine",
 		"maintenance": 0,
 		"happiness": 1,
-		"production": 2,
+		"production": 3,
 		"hurryCostModifier": 12,
 		"requiredTech": "Fermented Alcohol"
 	},
@@ -808,6 +843,9 @@
 	},
 	{
 		"name": "Lighthouse",
+		"specialistSlots": {
+			"Carpenter": 2
+		},
 		"cost": 75,
 		"hurryCostModifier": 25,
 		"maintenance": 1,
@@ -894,6 +932,9 @@
 	},
 	{
 		"name": "Water Wheel",
+		"specialistSlots": {
+			"Engineer": 2
+		},
 		"hurryCostModifier": 0,
 		"maintenance": 3,
 		"uniques": [
@@ -907,7 +948,7 @@
 		"cost": 100,
 		"gold": 3,
 		"specialistSlots": {
-			"Merchant": 1
+			"Merchant": 2
 		},
 		"hurryCostModifier": 25,
 		"percentStatBonus": {
@@ -917,6 +958,9 @@
 	},
 	{
 		"name": "Mint",
+		"specialistSlots": {
+			"Merchant": 1
+		},
 		"cost": 100,
 		"maintenance": 0,
 		"requiredNearbyImprovedResources": [
@@ -932,6 +976,9 @@
 	},
 	{
 		"name": "Jewelry Shop",
+		"specialistSlots": {
+			"Merchant": 1
+		},
 		"happiness": 2,
 		"maintenance": 0,
 		"requiredNearbyImprovedResources": [
@@ -947,6 +994,9 @@
 	},
 	{
 		"name": "Sculpture",
+		"specialistSlots": {
+			"Artist": 3
+		},
 		"maintenance": 0,
 		"requiredNearbyImprovedResources": [
 			"Marbles"
@@ -959,6 +1009,9 @@
 	},
 	{
 		"name": "Fountain",
+		"specialistSlots": {
+					"Entertainer": 2
+		},
 		"maintenance": 2,
 		"hurryCostModifier": 25,
 		"uniques": [
@@ -968,6 +1021,9 @@
 	},
 	{
 		"name": "Cotton Farm",
+		"specialistSlots": {
+			"Cook": 2
+		},
 		"maintenance": 3,
 		"requiredNearbyImprovedResources": [
 			"Cotton"
@@ -1017,7 +1073,7 @@
 			"[+1 Food, +1 Production, +1 Gold] from [Desert] tiles without [Flood plains] [in this city]",
 			"[+6 Culture] [in this city] <after discovering [Arts And Sculpture]>"
 		],
-		"requiredTech": "Improved Trade",
+		"requiredTech": "Embassy",
 		"quote": "In the middle of a war as harsh as the cruelest summer, a fountain sprouts miracle water that can refresh even the most sorrowful souls."
 	},
 	{
@@ -1037,17 +1093,15 @@
 		"uniques": [
 			"[+1 Production] from every specialist [in this city]"
 		],
-		"requiredBuilding": "Paper Maker",
 		"requiredTech": "Architecture"
 	},
 	{
 		"name": "Paper Maker",
+		"cost": 125,
+		"isNationalWonder": true,
 		"hurryCostModifier": 25,
-		"science": 2,
-		"specialistSlots": {
-			"Scientist": 1
-		},
-		"maintenance": 2,
+		"science": 5,
+		"uniques": ["[+50]% [Science] [in all cities] <when between [20] and [25] [Manpower]>", "[+100]% [Science] [in all cities] <when above [25] [Manpower]>"],
 		"requiredTech": "Printing"
 	},
 	{
@@ -1078,7 +1132,7 @@
 		"maintenance": 2,
 		"production": 2,
 		"specialistSlots": {
-			"Engineer": 1
+			"Engineer": 2
 		},
 		"hurryCostModifier": 25,
 		"percentStatBonus": {
@@ -1102,6 +1156,9 @@
 	},
 	{
 		"name": "Blast Furnace",
+		"specialistSlots": {
+					"Engineer": 2
+		},
 		"production": 4,
 		"maintenance": 3,
 		"hurryCostModifier": 25,
@@ -1159,6 +1216,9 @@
 	},
 	{
 		"name": "Puppet Theatre",
+		"specialistSlots": {
+					"Entertainer": 5
+		},
 		"cost": 125,
 		"uniqueTo": "The Unified Doll Front",
 		"replaces": "Circus",
@@ -1173,8 +1233,11 @@
 	},
 	{
 		"name": "Castle",
-		"cityStrength": 7,
-		"cityHealth": 75,
+		"specialistSlots": {
+					"Carpenter": 1
+		},
+		"cityStrength": 10,
+		"cityHealth": 100,
 		"hurryCostModifier": 20,
 		"requiredTech": "Maintained Society",
 		"requiredBuilding": "Walls",
@@ -1184,8 +1247,11 @@
 	},
 	{
 		"name": "Fortress",
+		"specialistSlots": {
+					"Carpenter": 1
+		},
 		"cityStrength": 20,
-		"cityHealth": 75,
+		"cityHealth": 150,
 		"hurryCostModifier": 20,
 		"requiredTech": "Politics",
 		"requiredBuilding": "Castle",
@@ -1197,7 +1263,7 @@
 	{
 		"name": "High Walls",
 		"happiness": 2,
-		"cost": 100,
+		"cost": 300,
 		"cityHealth": 75,
 		"hurryCostModifier": 20,
 		"requiredTech": "Shogunate",
@@ -1266,7 +1332,8 @@
 		"name": "Amphitheater",
 		"culture": 3,
 		"specialistSlots": {
-			"Artist": 1
+			"Artist": 2
+			
 		},
 		"requiredBuilding": "Monument",
 		"maintenance": 2,
@@ -1372,17 +1439,15 @@
 			"[+1 Gold] from [Luxury resource] tiles [in this city]"
 		],
 		"requiredBuilding": "Market",
-		"requiredTech": "Economics"
+		"requiredTech": "Improved Trade"
 	},
 	{
 		"name": "University",
 		"maintenance": 2,
 		"hurryCostModifier": 25,
-		"percentStatBonus": {
-			"science": 33
-		},
 		"specialistSlots": {
-			"Scientist": 2
+			"Scientist": 2,
+			"Carpenter": 2
 		},
 		"requiredBuilding": "Library",
 		"uniques": [
@@ -1451,6 +1516,9 @@
 	},
 	{
 		"name": "Circus",
+		"specialistSlots": {
+					"Entertainer": 5
+		},
 		"cost": 125,
 		"requiredNearbyImprovedResources": [
 			"Ivory",
@@ -1589,6 +1657,9 @@
 	},
 	{
 		"name": "Furniture Shop",
+		"specialistSlots": {
+					"Merchant": 2
+		},
 		"gold": 5,
 		"hurryCostModifier": 15,
 		"requiredBuilding": "Bank",
@@ -1689,6 +1760,9 @@
 	},
 	{
 		"name": "Barn",
+		"specialistSlots": {
+					"Cook": 3
+		},
 		"requiredBuilding": "Granary",
 		"maintenance": 2,
 		"hurryCostModifier": 0,
@@ -1702,6 +1776,10 @@
 	},
 	{
 		"name": "Storehouse",
+		"specialistSlots": {
+					"Cook": 2
+					"Carpenter": 5
+		},
 		"food": 6,
 		"requiredBuilding": "Granary",
 		"maintenance": 2,
@@ -1726,8 +1804,10 @@
 		"name": "Magic Cauldron",
 		"cost": 45,
 		"maintenance": 1,
-		"science": 1,
-		"production": 1,
+		"science": 2,
+		"specialistSlots": {
+			"Scientist": 1
+		},
 		"hurryCostModifier": 25,
 		"requiredTech": "Simple Alchemy"
 	},
@@ -1739,7 +1819,7 @@
 		"gold": 2,
 		"hurryCostModifier": 25,
 		"uniques": [
-			"Must have an owned [Forest Of Magic] within [3] tiles"
+			"Must have an owned [Forest] within [3] tiles"
 		],
 		"requiredTech": "Simple Alchemy"
 	},
@@ -1763,8 +1843,11 @@
 	},
 	{
 		"name": "Experiment Room",
+		"specialistSlots": {
+			"Scientist": 1
+		},
 		"cost": 120,
-		"science": 1,
+		"science": 4,
 		"maintenance": 1,
 		"hurryCostModifier": 10,
 		"uniques": [
@@ -1866,6 +1949,9 @@
 	},
 	{
 		"name": "Temple",
+		"specialistSlots": {
+			"Priestess": 1
+		},
 		"faith": 2,
 		"cost": 100,
 		"maintenance": 2,
@@ -1935,6 +2021,9 @@
 	},
 	{
 		"name": "Donation Box",
+		"specialistSlots": {
+			"Priestess": 1
+		},
 		"cost": 40,
 		"hurryCostModifier": 2,
 		"gold": 2,
@@ -1947,6 +2036,9 @@
 	},
 	{
 		"name": "Charity House",
+		"specialistSlots": {
+			"Priestess": 1
+		},
 		"cost": 75,
 		"hurryCostModifier": 10,
 		"maintenance": 2,
@@ -1989,6 +2081,9 @@
 		"name": "Spiritual Home",
 		"cost": 100,
 		"faith": 4,
+		"specialistSlots": {
+			"Priestess": 2
+		},
 		"maintenance": 2,
 		"requiredTech": "Philosophy",
 		"requiredBuilding": "Temple",
@@ -2017,6 +2112,9 @@
 	},
 	{
 		"name": "Fodder Manufactory",
+		"specialistSlots": {
+			"Cook": 2
+		},
 		"maintenance": 3,
 		"uniques": [
 			"[+1 Food] from [Pasture] tiles [in this city]",
@@ -2051,7 +2149,7 @@
 		"culture": 3,
 		"happiness": 1,
 		"specialistSlots": {
-			"Artist": 1
+			"Priestess": 3
 		},
 		"uniques": [
 			"Unbuildable",
@@ -2063,6 +2161,9 @@
 		"cost": 0,
 		"culture": 2,
 		"faith": 2,
+		"specialistSlots": {
+			"Priestess": 3
+		},
 		"uniques": [
 			"[+1 Culture, +1 Faith] from [Wine] tiles [in this city]",
 			"[+1 Culture, +1 Faith] from [Incense] tiles [in this city]",
@@ -2077,6 +2178,9 @@
 		"culture": 2,
 		"faith": 3,
 		"happiness": 1,
+		"specialistSlots": {
+			"Priestess": 3
+		},
 		"uniques": [
 			"Unbuildable",
 			"Only available <when religion is enabled>"
@@ -2088,6 +2192,9 @@
 		"culture": 2,
 		"faith": 2,
 		"happiness": 2,
+		"specialistSlots": {
+			"Priestess": 3
+		},
 		"uniques": [
 			"Unbuildable",
 			"Only available <when religion is enabled>"
