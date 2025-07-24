@@ -145,8 +145,8 @@
 		"columnNumber": 3,
 		"era": "Youkai Expansion Project",
 		"techCost": 90,
-		"buildingCost": 90,
-		"wonderCost": 185,
+		"buildingCost": 420,
+		"wonderCost": 1200,
 		"techs": [
 			{
 				"name": "Sailing",
@@ -224,8 +224,8 @@
 		"columnNumber": 4,
 		"era": "Youkai Expansion Project",
 		"techCost": 160,
-		"buildingCost": 125,
-		"wonderCost": 250,
+		"buildingCost": 480,
+		"wonderCost": 1800,
 		"techs": [
 			{
 				"name": "Hot Spring",
@@ -298,8 +298,8 @@
 		"columnNumber": 5,
 		"era": "Youkai Expansion Project",
 		"techCost": 250,
-		"buildingCost": 250,
-		"wonderCost": 450,
+		"buildingCost": 600,
+		"wonderCost": 2000,
 		"techs": [
 			{
 				"name": "Cormorant Fishing",
@@ -397,8 +397,8 @@
 		"columnNumber": 6,
 		"era": "Edo period",
 		"techCost": 375,
-		"buildingCost": 420,
-		"wonderCost": 850,
+		"buildingCost": 680,
+		"wonderCost": 2000,
 		"techs": [
 			{
 				"name": "Metal Farming Tools",
@@ -490,8 +490,8 @@
 		"columnNumber": 7,
 		"era": "Edo period",
 		"techCost": 485,
-		"buildingCost": 480,
-		"wonderCost": 850,
+		"buildingCost": 700,
+		"wonderCost": 2000,
 		"techs": [
 			{
 				"name": "Heavy Plough",
@@ -565,8 +565,8 @@
 		"columnNumber": 8,
 		"era": "Edo period",
 		"techCost": 780,
-		"buildingCost": 520,
-		"wonderCost": 1000,
+		"buildingCost": 850,
+		"wonderCost": 2200,
 		"techs": [
 			{
 				"name": "Multicropping System",
@@ -599,8 +599,8 @@
 		"columnNumber": 9,
 		"era": "Edo period",
 		"techCost": 1000,
-		"buildingCost": 600,
-		"wonderCost": 1500,
+		"buildingCost": 900,
+		"wonderCost": 2200,
 		"techs": [
 			{
 				"name": "Culinary Arts",
@@ -641,8 +641,8 @@
 		"columnNumber": 10,
 		"era": "Edo period",
 		"techCost": 1550,
-		"buildingCost": 600,
-		"wonderCost": 1500,
+		"buildingCost": 1200,
+		"wonderCost": 2000,
 		"techs": [
 			{
 				"name": "Arts And Sculpture",
@@ -668,8 +668,8 @@
 		"columnNumber": 11,
 		"era": "Meiji era",
 		"techCost": 3800,
-		"buildingCost": 400,
-		"wonderCost": 600,
+		"buildingCost": 1500,
+		"wonderCost": 2000,
 		"techs": [
 			{
 				"name": "Technology Limit",

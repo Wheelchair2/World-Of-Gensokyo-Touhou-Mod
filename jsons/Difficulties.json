@@ -135,7 +135,7 @@
 		"name": "Lunatic",
 		"baseHappiness": 15,
 		"extraHappinessPerLuxury": 0,
-		"researchCostModifier": 1.1,
+		"researchCostModifier": 1.0,
 		"unitCostModifier": 1.2,
 		"unitSupplyBase": 10,
 		"unitSupplyPerCity": 4,
@@ -173,6 +173,7 @@
 		"aiUnhappinessModifier": 0.6,
 		"aisExchangeTechs": true,
 		"turnBarbariansCanEnterPlayerTiles": 0,
-		"clearBarbarianCampReward": 25
+		"clearBarbarianCampReward": 25,
+		"uniques": ["Consumes [5] [Manpower] <for [AI player] Civilizations>"]
 	}
 ]
