@@ -64,12 +64,12 @@
   {
     "name": "Melee Water",
     "movementType": "Water",
-	"uniques": ["Consumes [1] [Manpower]", "Consumes [1] [Manpower] <starting from the [Meiji era]>"]
+	"uniques": ["[+50]% Strength <vs [Embarked] units>", "Consumes [1] [Manpower]", "Consumes [1] [Manpower] <starting from the [Meiji era]>"]
   },
   {
     "name": "Ranged Water",
     "movementType": "Water",
-	"uniques": ["Consumes [1] [Manpower]", "Consumes [1] [Manpower] <starting from the [Meiji era]>"]
+	"uniques": ["[+50]% Strength <vs [Embarked] units>", "Consumes [1] [Manpower]", "Consumes [1] [Manpower] <starting from the [Meiji era]>"]
   },
   {
     "name": "Submarine",

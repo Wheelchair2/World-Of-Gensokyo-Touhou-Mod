@@ -15,6 +15,7 @@
 	
 	"Cannot build [Hero] units",
 	
+	"[-50]% [Production] [in all cities] <for [City-State] Civilizations> <starting from the [Edo period]>",
 	"[-100]% growth [in all cities] <for [City-State] Civilizations>",
 	//"[-50]% [Science] [in all cities] <for [City-State] Civilizations>",
  
@@ -99,8 +100,7 @@
   ]
   /*
    "unitUniques": [
-   "Consumes [1] [Manpower]"
-   
+   //"[+5000]% maintenance costs <starting from the [Edo period]>"
    ]
    */
 }
