@@ -63,7 +63,7 @@
 					"Comment [------------------------------------]",
 					//"[-1 Happiness] per [2] population [in all cities]  <when below [10] [Manpower]>",
 					//"Comment [------------------------------------]",
-					"[100]% of excess happiness converted to [Gold] <when above [50] Happiness>"
+					"[100]% of excess happiness converted to [Gold] <when above [50] [Happiness]>"
 					"Comment [------------------------------------]",
 					]
 			}
@@ -98,7 +98,7 @@
 				"prerequisites": ["Scientific Knowledge"],
 				"quote": "Even Mystia's Izakaya doesn't have this.",
 				"uniques": [
-				"[+15]% Production when constructing [All] buildings [in all cities] <when above [15] [Manpower]>"
+				"[+50]% Production towards any buildings that already exist in the Capital <when above [15] [Manpower]>"
 				]
 			},
 			{
@@ -146,7 +146,7 @@
 		"era": "Youkai Expansion Project",
 		"techCost": 90,
 		"buildingCost": 420,
-		"wonderCost": 1200,
+		"wonderCost": 850,
 		"techs": [
 			{
 				"name": "Sailing",
@@ -225,7 +225,7 @@
 		"era": "Youkai Expansion Project",
 		"techCost": 160,
 		"buildingCost": 480,
-		"wonderCost": 1800,
+		"wonderCost": 1200,
 		"techs": [
 			{
 				"name": "Hot Spring",
@@ -299,7 +299,7 @@
 		"era": "Youkai Expansion Project",
 		"techCost": 250,
 		"buildingCost": 600,
-		"wonderCost": 2000,
+		"wonderCost": 1200,
 		"techs": [
 			{
 				"name": "Cormorant Fishing",
@@ -398,7 +398,7 @@
 		"era": "Edo period",
 		"techCost": 375,
 		"buildingCost": 680,
-		"wonderCost": 2000,
+		"wonderCost": 1200,
 		"techs": [
 			{
 				"name": "Metal Farming Tools",

@@ -619,7 +619,7 @@
       {
         "name": "Totalitarianism",
         "uniques": [
-          "[+100]% [Horse] resource production",
+          "[+100]% [Horses] resource production",
 		  "[+100]% [Iron] resource production",
           "[+2] Movement <for [Great General] units>"
         ],

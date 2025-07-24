@@ -23,17 +23,24 @@
 			"Provides [1] [Wonder Slot] <in cities with at least [5] [Population]>"
 		]
 	},
-	/*
 	{
-		"name": "Monument",
-		"isNationalWonder": true,
-		"cost": 120,
-		"hurryCostModifier": 12,
+		"name": "AI Debuff",
+		"cost": 1,
 		"uniques": [
-			"Comment [+1 XP per turn for Hero units]"
+			"Unsellable",
+			"Unbuildable",
+			"Consumes [5] [Manpower]",
+			"Destroyed when the city is captured"
 		]
 	},
-	*/
+	{
+		"name": "Monument",
+		"culture": 5,
+		"cost": 120,
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		//"uniques": ["Comment [+1 XP per turn for Hero units]"]
+	},
 	{ //not always available 
 		"name": "Granary",
 		"specialistSlots": {
@@ -585,7 +592,6 @@
 		],
 		"hurryCostModifier": 25,
 		"uniques": [
-			"Provides [1] [Horses]",
 			"[+15]% Production when constructing [Mounted] units [in this city]",
 			"[+1 Production] from [Cattle] tiles [in this city]",
 			"[+1 Production] from [Horses] tiles [in this city]",
@@ -604,6 +610,7 @@
 		],
 		"hurryCostModifier": 25,
 		"uniques": [
+			"Provides [1] [Horses]",
 			"[+1 Production] from [Pasture] tiles [in this city]",
 			"[+1 Production] from [Camp] tiles [in this city]"
 		],
@@ -797,7 +804,6 @@
 		"specialistSlots": {
 					"Cook": 2
 		},
-		"cost": 75,
 		"maintenance": 1,
 		"happiness": 1,
 		"production": 2,
@@ -809,7 +815,6 @@
 		"specialistSlots": {
 					"Cook": 2
 		},
-		"cost": 40,
 		"uniqueTo": "Oni Clans",
 		"replaces": "Rice Wine",
 		"maintenance": 0,
@@ -827,7 +832,7 @@
 		"requiredTech": "Fermented Alcohol",
 		"uniques": [
 			"Only available <if [Rice Wine] is constructed in all [non-[Puppeted]] cities>",
-			"Cost increases by [30] per owned city"
+			"Cost increases by [200] per owned city"
 		],
 		"quote": "'I've been watching all of you this whole time. You all responded to my 'foregathering ability' without noticing, and came to these feasts. Do you know what this means? It means none of you can defeat me.' -Suika Ibuki."
 	},
@@ -1043,7 +1048,7 @@
 		"isNationalWonder": true,
 		"uniques": [
 			"Only available <if [Market] is constructed in all [non-[Puppeted]] cities>",
-			"Cost increases by [30] per owned city"
+			"Cost increases by [200] per owned city"
 		],
 		"requiredTech": "Currency",
 		"quote": "'Maybe you'd be happier slipping into the crowd and then, I dunno, dropping dead?' - Joon Yorigami."
@@ -1113,13 +1118,12 @@
 		"uniques": [
 			"Only available <if [Barracks] is constructed in all [non-[Puppeted]] cities>",
 			"All newly-trained [non-air] units [in this city] receive the [Morale] promotion",
-			"Cost increases by [30] per owned city"
+			"Cost increases by [200] per owned city"
 		],
 		"requiredTech": "Iron Working"
 	},
 	{
 		"name": "Kiln",
-		"cost": 75,
 		"maintenance": 1,
 		"production": 2,
 		"hurryCostModifier": 25,
@@ -1298,7 +1302,7 @@
 		},
 		"uniques": [
 			"Only available <if [Library] is constructed in all [non-[Puppeted]] cities>",
-			"Cost increases by [30] per owned city"
+			"Cost increases by [200] per owned city"
 		],
 		"requiredTech": "Physics"
 	},
@@ -1312,7 +1316,7 @@
 		"isNationalWonder": true,
 		"uniques": [
 			"Only available <if [Opera House] is constructed in all [non-[Puppeted]] cities>",
-			"Cost increases by [30] per owned city"
+			"Cost increases by [200] per owned city"
 		],
 		"requiredTech": "Arts And Sculpture"
 	},
@@ -1476,7 +1480,7 @@
 		"isNationalWonder": true,
 		"uniques": [
 			"[-5]% Unhappiness from [Population] [in all non-occupied cities]",
-			"Cost increases by [30] per owned city"
+			"Cost increases by [200] per owned city"
 		],
 		"requiredTech": "Law And Order"
 	},
@@ -1488,7 +1492,7 @@
 		"isNationalWonder": true,
 		"uniques": [
 			"[-50]% unhappiness from the number of cities",
-			"Cost increases by [30] per owned city"
+			"Cost increases by [200] per owned city"
 		],
 		"requiredTech": "Law And Order"
 	},
@@ -1498,7 +1502,7 @@
 		"isNationalWonder": true,
 		"uniques": [
 			"[30]% of excess happiness converted to [Gold]",
-			"Cost increases by [30] per owned city"
+			"Cost increases by [200] per owned city"
 		],
 		"requiredTech": "Law And Order"
 	},
@@ -1537,7 +1541,7 @@
 		"isNationalWonder": true,
 		"uniques": [
 			"Only available <if [Workshop] is constructed in all [non-[Puppeted]] cities>",
-			"Cost increases by [30] per owned city"
+			"Cost increases by [200] per owned city"
 		],
 		"requiredTech": "Machinery"
 	},
@@ -1561,7 +1565,7 @@
 		"isNationalWonder": true,
 		"uniques": [
 			"[+2 Production] [in all cities]",
-			"Cost increases by [30] per owned city"
+			"Cost increases by [200] per owned city"
 		],
 		"requiredTech": "Lantern Clock"
 	},
@@ -1997,7 +2001,7 @@
 		"uniques": [
 			"Only available <if [Major Religions In Gensokyo] is constructed>",
 			"Only available <if [Temple] is constructed in all [non-[Puppeted]] cities>",
-			"Cost increases by [30] per owned city",
+			"Cost increases by [200] per owned city",
 			"[+100]% Natural religion spread [in this city]",
 			"Only available <when religion is enabled>",
 			"Can only be built <in [Holy] cities>"
@@ -2012,7 +2016,7 @@
 		"uniques": [
 			"Only available <if [Major Religions In Gensokyo] is constructed>",
 			"Only available <if [Shrine] is constructed in all [non-[Puppeted]] cities>",
-			"Cost increases by [30] per owned city",
+			"Cost increases by [200] per owned city",
 			"[+30]% [Faith] [in all cities] <while the empire is happy>",
 			"Only available <when religion is enabled>",
 			"Can only be built <in [Holy] cities>"
@@ -2054,7 +2058,7 @@
 		"isNationalWonder": true,
 		"uniques": [
 			"[+1 Culture] from every [Tea House]",
-			"Cost increases by [30] per owned city"
+			"Cost increases by [200] per owned city"
 		],
 		"requiredTech": "Rituals"
 	},
