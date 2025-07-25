@@ -36,10 +36,9 @@
 	},
 	{
 		"name": "Monument",
-		"isNationalWonder": true,
-		"culture": 5,
-		"cost": 125,
-		"uniques": ["Comment [+1 XP per turn for Hero units]", "Cost increases by [50] per owned city"]
+		"cost": 40,
+		"culture": 2,
+		"maintenance": 1
 	},
 	{
 		"name": "Granary",
