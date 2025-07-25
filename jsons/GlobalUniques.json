@@ -17,8 +17,6 @@
 	
 	"[+50]% Strength <for [Hero] units> <when number of [[Hero] Units] is equal to [1]>",
 	
-	"[+20 Production] [in all cities] <for [Human player] Civilizations>",
-	
 	//"Cannot build [Hero] units",
 	
 	"[-50]% [Production] [in all cities] <for [City-State] Civilizations> <starting from the [Edo period]>",
