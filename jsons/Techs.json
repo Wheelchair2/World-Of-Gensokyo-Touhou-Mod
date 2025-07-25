@@ -54,21 +54,7 @@
 				"name": "Scientific Knowledge",
 				"row": 6,
 				"prerequisites": ["Things To Know"],
-				"quote": "The Touhou Project series while being primarily based on the religion known as Shinto it is not unusual to see many functions of the Touhou world to rely on modern science (Gendaikagaku).",
-				"uniques": [
-					"[+1 Production, +1 Food] from every specialist [in all cities] <when number of [Cities] is less than [5]> <starting from the [Edo period]>",
-					"Comment [------------------------------------]",
-					"Provides [5] [Manpower] <when number of [Cities] is less than [5]>",
-					"Comment [------------------------------------]",
-					"[+50]% growth [in all cities] <when number of [Cities] is less than [5]>",
-					"Comment [------------------------------------]",
-					"[-50]% Unhappiness from [Population] [in all cities] <when number of [Cities] is less than [5]>",
-					"Comment [------------------------------------]",
-					//"[-1 Happiness] per [2] population [in all cities]  <when below [10] [Manpower]>",
-					//"Comment [------------------------------------]",
-					"[100]% of excess happiness converted to [Gold] <when above [50] [Happiness]>"
-					"Comment [------------------------------------]",
-					]
+				"quote": "The Touhou Project series while being primarily based on the religion known as Shinto it is not unusual to see many functions of the Touhou world to rely on modern science (Gendaikagaku)."
 			}
 		]
 	},
@@ -96,16 +82,14 @@
 				"cost": 15,
 				"row": 7,
 				"prerequisites": ["Scientific Knowledge"],
-				"quote": "Even Mystia's Izakaya doesn't have this.",
-				"uniques": [
-				"[+50]% Production towards any buildings that already exist in the Capital <when above [15] [Manpower]>"
-				]
+				"quote": "Even Mystia's Izakaya doesn't have this."
 			},
 			{
 				"name": "Authority",
 				"row": 5,
 				"prerequisites": ["Scientific Knowledge"],
-				"quote": "'I'll tell you a secret. My weakness is... nothing.' - Yukari Yakumo."
+				"quote": "'I'll tell you a secret. My weakness is... nothing.' - Yukari Yakumo.",
+				"uniques": ["Cities are razed [2] times as fast"]
 			},
 			{
 				"name": "Agriculture",
@@ -407,7 +391,7 @@
 					"Cormorant Fishing",
 					"Metal Casting"
 				],
-				"uniques": ["[-15]% construction time for [Farm] improvements"],
+				"uniques": ["[-15]% construction time for [Farm] improvements", "[+100]% Yield from every [Bonus resource]"],
 				"quote": "Blessings of the countryside, gifts from the earth."
 			},
 			{
@@ -497,7 +481,7 @@
 				"name": "Heavy Plough",
 				"row": 4,
 				"prerequisites": ["Metal Farming Tools"],
-				"uniques": ["[+1 Production] from every [Plantation]"],
+				"uniques": ["[+1 Production] from every [Plantation]", "[+100]% Yield from every [Luxury resource]"],
 				"quote": "Rice cultivation is Japan's heart; food is Japan's life."
 			},
 			{
@@ -572,7 +556,7 @@
 				"name": "Multicropping System",
 				"row": 4,
 				"prerequisites": ["Heavy Plough"],
-				"uniques": ["[+10]% [Food] from every [Farm]"],
+				"uniques": ["[+50]% [Food] from every [Farm]"],
 				"quote": "Rice cultivation is Japan's heart; food is Japan's life."
 			},
 			{
@@ -606,7 +590,8 @@
 				"name": "Culinary Arts",
 				"row": 3,
 				"prerequisites": ["Multicropping System"],
-				"quote": "I tried sashimi, I don't think I need my taste buds ever again..."
+				"quote": "I tried sashimi, I don't think I need my taste buds ever again...",
+				"uniques": ["[+2 Food] from [Bonus resource] tiles [in all cities]"]
 			},
 			{
 				"name": "Forage Crops Utilization",

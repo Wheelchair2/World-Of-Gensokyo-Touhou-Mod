@@ -393,7 +393,7 @@
 			"[All] units gain the [Youkai] promotion",
 			"[Land] units gain the [Vampire] promotion",
 			"No damage penalty for wounded units",
-			"Cities are razed [2] times as fast"
+			"Cities are razed [5] times as fast"
 		],
 		"cities": [
 			"Sanguinaria",
@@ -1026,7 +1026,7 @@
 			"Starts with [Forbidden Sorcery]",
 			"[All] units gain the [Youkai] promotion",
 			"[Land] units gain the [Doll Construct] promotion",
-			"[+2 Production, -2 Gold] from every [Doll Lumber House]",
+			"[+4 Production, -2 Gold] from every [Doll Lumber House]",
 			"[+1 Production] from every [Doll Lumber House] <after discovering [Machinery]>"
 		],
 		"cities": [

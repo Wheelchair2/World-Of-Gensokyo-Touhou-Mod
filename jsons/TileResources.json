@@ -477,7 +477,7 @@
 		"resourceType": "Luxury",
 		"uniques": [
 			"Not shown on world screen",
-			"[+1 Gold, +2 Production, +2 Food] from [Mountain] tiles [in all cities]",
+			"[+1 Gold, +4 Production, +4 Food] from [Mountain] tiles [in all cities]",
 			"[+1] Sight <for [Scout] units>",
 			"Comment [(Cards don't give any Happiness, except in Easy difficulty)]",
 			"[-4 Happiness] <hidden from users>",

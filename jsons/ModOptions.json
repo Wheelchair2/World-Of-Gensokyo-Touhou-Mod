@@ -8,5 +8,6 @@
 		"unitSupplyPerPopulation": 0.2,
 		"naturalWonderCountMultiplier": 0.2,
 		"religionLimitMultiplier": 1,
+		"minimumWarDuration": 20,
 	}
 }

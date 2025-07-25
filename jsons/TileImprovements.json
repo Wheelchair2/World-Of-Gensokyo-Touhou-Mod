@@ -12,8 +12,23 @@
 		"techRequired": "Agriculture",
 		"uniques": [
 			"Can also be built on tiles adjacent to fresh water",
-			"[+1 Food] from [Fresh water] tiles <after discovering [State Government]>",
+			"[+2 Food] from [Fresh water] tiles <after discovering [State Government]>",
 			"[+1 Food] from [non-fresh water] tiles <after discovering [Fertilizer]>",
+			"Pillaging this improvement yields approximately [+18 Gold]"
+		],
+		"shortcutKey": "F"
+	},
+	{
+		"name": "Traps",
+		"terrainsCanBeBuiltOn": [
+			"Tundra",
+			"Snow"
+		],
+		"food": 1,
+		"turnsToBuild": 7,
+		"techRequired": "Calendar",
+		"uniques": [
+			"[+2 Food, +2 Production] <after discovering [Metal Farming Tools]>",
 			"Pillaging this improvement yields approximately [+18 Gold]"
 		],
 		"shortcutKey": "F"
@@ -24,11 +39,11 @@
 			"Forest",
 			"Olive Tree"
 		],
-		"production": 1,
+		"production": 2,
 		"turnsToBuild": 7,
 		"techRequired": "Authority",
 		"uniques": [
-			"[+3 Production] <after discovering [Carpentry]>",
+			"[+5 Production] <after discovering [Carpentry]>",
 			"Pillaging this improvement yields approximately [+10 Gold]"
 		],
 		"shortcutKey": "L"
@@ -36,7 +51,7 @@
 	{
 		"name": "Mine",
 		"terrainsCanBeBuiltOn": ["Hill"],
-		"production": 1,
+		"production": 2,
 		"turnsToBuild": 7,
 		"techRequired": "Education",
 		"uniques": [

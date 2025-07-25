@@ -15,6 +15,61 @@
 		]
 	},
 	{
+		"name": "Sovereign Government",
+		"isNationalWonder": true,
+		"cost": 1,
+		"uniques": [
+					"Unbuildable <hidden from users>", "Cannot be purchased <hidden from users>", "Unsellable <hidden from users>", "Remove [Monarchy Government] [in capital] <hidden from users>",
+					"[+2 Production, +5 Food] from every specialist [in all cities] <when number of [[Annexed] Cities] is less than [4]>",
+					"Comment [------------------------------------]",
+					"Provides [5] [Manpower] <when number of [[Annexed] Cities] is less than [4]>",
+					"Comment [------------------------------------]",
+					"[+50]% growth [in all cities] <when number of [[Annexed] Cities] is less than [4]>",
+					"Comment [------------------------------------]",
+					"[-50]% Unhappiness from [Population] [in all cities] <when number of [[Annexed] Cities] is less than [4]>",
+					"Comment [------------------------------------]",
+				"Cannot build [Settler] units <when number of [[Annexed] Cities] is more than [3]>",
+				"May not annex cities <for [AI player] Civilizations>"
+		]
+	},
+	{
+		"name": "Monarchy Government",
+		"isNationalWonder": true,
+		"cost": 1,
+		"uniques": [
+					"Unbuildable <hidden from users>", "Cannot be purchased <hidden from users>", "Unsellable <hidden from users>", "Remove [Sovereign Government] [in capital] <hidden from users>",
+					"[+100]% Production towards any buildings that already exist in the Capital <when above [15] [Manpower]>"
+					"Comment [------------------------------------]",
+					"[+100]% Yield from every [{improved} {Land}]",
+					"Comment [------------------------------------]",
+					"[+2 Production, +1 Food] from every specialist [in all cities connected to capital]",
+					"Comment [------------------------------------]",
+					"[+2 Production, +3 Food] from every specialist [in capital]",
+					"Comment [------------------------------------]",
+					"[-50]% Unhappiness from [Population] [in all cities] <when above [20] [Manpower]>",
+					"Comment [------------------------------------]",
+					"[+30]% growth [in all cities] <when above [20] [Manpower]>"
+					"Comment [------------------------------------]",
+				"Can build [All] improvements at a [+50]% rate"
+		]
+	},
+	{
+		"name": "Change Government",
+		"cost": 200,
+		"uniques": [
+				"Comment [Allows you to choose a Type of Government again with a cost.]",
+			"Unavailable <before adopting [Type Of Government]> <hidden from users>",
+			"Unsellable <hidden from users>",
+			"Unbuildable <hidden from users>",
+			"Free Social Policy <hidden from users>",
+			"Remove [Sovereignty] <hidden from users>",
+			"Remove [Monarchical] <hidden from users>",
+			"Remove [Sovereign Government] [in capital] <hidden from users>",
+			"Remove [Monarchy Government] [in capital] <hidden from users>",
+			"Destroyed when the city is captured <hidden from users>"
+		]
+	},
+	{
 		"name": "System",
 		"cost": 1,
 		"uniques": [
