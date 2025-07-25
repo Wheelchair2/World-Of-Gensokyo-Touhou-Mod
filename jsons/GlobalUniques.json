@@ -297,7 +297,6 @@
 	"Cannot build [Alice Margatroid (Level 1)] units <when number of [[Alice Margatroid (Level 4)] Units] is equal to [1]>",
 	"Cannot build [Alice Margatroid (Level 1)] units <when number of [[Alice Margatroid (Level 5)] Units] is equal to [1]>",
 	
-  "[5] free [Settler] units appear <for [Human player] Civilizations>",
 	// Manpower
 	"[+20]% [Food] [in all cities] <when above [20] [Manpower]>",
 	"[+20]% [Production] [in all cities] <when above [15] [Manpower]>",
