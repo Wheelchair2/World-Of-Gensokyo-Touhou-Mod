@@ -21,10 +21,8 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[+20]% Strength <vs [Youkai] units>",
 			
@@ -45,10 +43,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[+20]% Strength <vs [Youkai] units>",
 			
@@ -69,10 +65,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[+20]% Strength <vs [Youkai] units>",
 			
@@ -93,10 +87,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[+20]% Strength <vs [Youkai] units>",
 			
@@ -116,10 +108,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[+50]% Strength <vs [Youkai] units>",
 			
@@ -142,10 +132,8 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[-30]% Strength <when attacking>",
 			"[+50]% Strength <when defending>",
@@ -170,10 +158,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[-30]% Strength <when attacking>",
 			"[+50]% Strength <when defending>",
@@ -195,10 +181,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[-30]% Strength <when attacking>",
 			"[+50]% Strength <when defending>",
@@ -220,10 +204,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[-30]% Strength <when attacking>",
 			"[+50]% Strength <when defending>",
@@ -244,10 +226,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Present era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[-30]% Strength <when attacking>",
 			"[+70]% Strength <when defending>",
@@ -271,10 +251,8 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[+100]% to Flank Attack bonuses",
 			
@@ -298,10 +276,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[+100]% to Flank Attack bonuses",
 			
@@ -322,10 +298,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[+100]% to Flank Attack bonuses",
 			
@@ -346,10 +320,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[+100]% to Flank Attack bonuses",
 			
@@ -370,10 +342,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Present era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[+200]% to Flank Attack bonuses",
 			
@@ -396,10 +366,8 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"Invisible to others <when [Wounded]>",
 			"Cannot attack <when [Wounded]>",
@@ -422,10 +390,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"Invisible to others <when [Wounded]>",
 			"Cannot attack <when [Wounded]>",
@@ -448,10 +414,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"Invisible to others <when [Wounded]>",
 			"Cannot attack <when [Wounded]>",
@@ -474,10 +438,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"Invisible to others <when [Wounded]>",
 			"Cannot attack <when [Wounded]>",
@@ -499,10 +461,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"Invisible to others <when [Wounded]>",
 			"Cannot attack <when [Wounded]>",
@@ -529,10 +489,8 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[+30]% Strength <when attacking>",
 			"[+1] Movement",
@@ -555,10 +513,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[+30]% Strength <when attacking>",
 			"[+1] Movement",
@@ -581,10 +537,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[+30]% Strength <when attacking>",
 			"[+1] Movement",
@@ -607,10 +561,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[+30]% Strength <when attacking>",
 			"[+1] Movement",
@@ -632,10 +584,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Present era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[+50]% Strength <when attacking>",
 			"[+2] Movement",
@@ -659,10 +609,8 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[Target Unit] loses [3] movement <upon damaging a [All] unit>",
 			
@@ -686,10 +634,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[Target Unit] loses [3] movement <upon damaging a [All] unit>",
 			
@@ -710,10 +656,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[Target Unit] loses [3] movement <upon damaging a [All] unit>",
 			
@@ -734,10 +678,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[Target Unit] loses [3] movement <upon damaging a [All] unit>",
 			
@@ -757,10 +699,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[Target Unit] loses [10] movement <upon damaging a [All] unit>",
 			
@@ -783,10 +723,8 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[-20]% Strength for enemy [All] units in adjacent [Land] tiles",
 			
@@ -807,10 +745,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[-20]% Strength for enemy [All] units in adjacent [Land] tiles",
 			
@@ -831,10 +767,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[-20]% Strength for enemy [All] units in adjacent [Land] tiles",
 			
@@ -855,10 +789,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[-20]% Strength for enemy [All] units in adjacent [Land] tiles",
 			
@@ -878,10 +810,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[-50]% Strength for enemy [All] units in adjacent [Land] tiles",
 			
@@ -904,10 +834,8 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[-10]% Strength for enemy [All] units in adjacent [Land] tiles",
 			"Invisible to non-adjacent units",
@@ -929,10 +857,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[-10]% Strength for enemy [All] units in adjacent [Land] tiles",
 			"Invisible to non-adjacent units",
@@ -954,10 +880,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[-10]% Strength for enemy [All] units in adjacent [Land] tiles",
 			"Invisible to non-adjacent units",
@@ -979,10 +903,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[-10]% Strength for enemy [All] units in adjacent [Land] tiles",
 			"Invisible to non-adjacent units",
@@ -1003,10 +925,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[-30]% Strength for enemy [All] units in adjacent [Land] tiles",
 			"Invisible to non-adjacent units",
@@ -1030,10 +950,8 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"Can see invisible [All] units",
 			"[+2] Movement",
@@ -1056,10 +974,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"Can see invisible [All] units",
 			"[+2] Movement",
@@ -1082,10 +998,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"Can see invisible [All] units",
 			"[+2] Movement",
@@ -1108,10 +1022,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"Can see invisible [All] units",
 			"[+2] Movement",
@@ -1133,10 +1045,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"Can see invisible [All] units",
 			"[+3] Movement",
@@ -1161,10 +1071,8 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"Turn this tile into a [Forest] tile <in [Friendly Land] tiles> <for all movement>",
 			"[+30]% Strength <in [Forest] tiles>",
@@ -1186,10 +1094,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"Turn this tile into a [Forest] tile <in [Friendly Land] tiles> <for all movement>",
 			"[+30]% Strength <in [Forest] tiles>",
@@ -1211,10 +1117,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"Turn this tile into a [Forest] tile <in [Friendly Land] tiles> <for all movement>",
 			"[+30]% Strength <in [Forest] tiles>",
@@ -1236,10 +1140,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"Turn this tile into a [Forest] tile <in [Friendly Land] tiles> <for all movement>",
 			"[+30]% Strength <in [Forest] tiles>",
@@ -1260,10 +1162,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"Turn this tile into a [Forest] tile <in [Friendly Land] tiles> <for all movement>",
 			"[+50]% Strength <in [Forest] tiles>",
@@ -1288,10 +1188,8 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[Target Unit] gains the [Eternally Awaiting] status for [10] turn(s) <upon damaging a [Military] unit>",
 			"[+20]% Strength <vs [Eternally Awaiting] units>",
@@ -1316,10 +1214,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"Lunarian",
 			
@@ -1344,10 +1240,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"Lunarian",
 			
@@ -1372,10 +1266,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"Lunarian",
 			
@@ -1399,10 +1291,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"Lunarian",
 			
@@ -1429,10 +1319,8 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[+30]% Strength <when attacking>",
 			"[+1] Range",
@@ -1455,10 +1343,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[+30]% Strength <when attacking>",
 			"[+1] Range",
@@ -1481,10 +1367,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[+30]% Strength <when attacking>",
 			"[+1] Range",
@@ -1507,10 +1391,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[+30]% Strength <when attacking>",
 			"[+1] Range",
@@ -1532,10 +1414,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[+50]% Strength <when attacking>",
 			"[+2] Range",
@@ -1559,10 +1439,8 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[+3] Movement"
 			"Can move after attacking",
@@ -1584,10 +1462,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[+3] Movement"
 			"Can move after attacking",
@@ -1609,10 +1485,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[+3] Movement"
 			"Can move after attacking",
@@ -1634,10 +1508,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[+3] Movement"
 			"Can move after attacking",
@@ -1658,10 +1530,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[3] additional attacks per turn",
 			"Can move after attacking",
@@ -1688,10 +1558,8 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[This Unit] heals [2] HP <upon damaging a [Military] unit>",
 			
@@ -1715,10 +1583,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[This Unit] heals [2] HP <upon damaging a [Military] unit>",
 			
@@ -1740,10 +1606,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[This Unit] heals [2] HP <upon damaging a [Military] unit>",
 			
@@ -1765,10 +1629,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[This Unit] heals [2] HP <upon damaging a [Military] unit>",
 			
@@ -1789,10 +1651,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[This Unit] heals [5] HP <upon damaging a [Military] unit>",
 			
@@ -1815,10 +1675,8 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[-30]% Strength for enemy [Military] units in adjacent [Land] tiles",
 			
@@ -1839,10 +1697,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[-30]% Strength for enemy [Military] units in adjacent [Land] tiles",
 			
@@ -1863,10 +1719,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[-30]% Strength for enemy [Military] units in adjacent [Land] tiles",
 			
@@ -1887,10 +1741,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[-30]% Strength for enemy [Military] units in adjacent [Land] tiles",
 			
@@ -1910,10 +1762,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[-60]% Strength for enemy [Military] units in adjacent [Land] tiles",
 			
@@ -1936,10 +1786,8 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"Invisible to non-adjacent units",
 			"Ignores Zone of Control",
@@ -1961,10 +1809,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"Invisible to non-adjacent units",
 			"Ignores Zone of Control",
@@ -1986,10 +1832,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"Invisible to non-adjacent units",
 			"Ignores Zone of Control",
@@ -2011,10 +1855,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"Invisible to non-adjacent units",
 			"Ignores Zone of Control",
@@ -2035,10 +1877,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"Invisible to non-adjacent units",
 			"Ignores Zone of Control",
@@ -2063,10 +1903,8 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"Ignores terrain cost",
 			"[+10]% Strength <when fighting in [Rough terrain] tiles>",
@@ -2088,10 +1926,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"Ignores terrain cost",
 			"[+10]% Strength <when fighting in [Rough terrain] tiles>",
@@ -2113,10 +1949,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"Ignores terrain cost",
 			"[+10]% Strength <when fighting in [Rough terrain] tiles>",
@@ -2138,10 +1972,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"Ignores terrain cost",
 			"[+10]% Strength <when fighting in [Rough terrain] tiles>",
@@ -2162,10 +1994,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"Ignores terrain cost",
 			"[+30]% Strength <when fighting in [Rough terrain] tiles>",
@@ -2190,10 +2020,8 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"Can see over obstacles",
 			"[+5] Sight",
@@ -2216,10 +2044,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"Can see over obstacles",
 			"[+5] Sight",
@@ -2242,10 +2068,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"Can see over obstacles",
 			"[+5] Sight",
@@ -2268,10 +2092,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"Can see over obstacles",
 			"[+5] Sight",
@@ -2293,10 +2115,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"Can see over obstacles",
 			"[+5] Sight",
@@ -2322,10 +2142,8 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"Withdraws before melee combat <with [40]% chance>",
 			"[+2] Movement",
@@ -2348,10 +2166,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"Withdraws before melee combat <with [40]% chance>",
 			"[+2] Movement",
@@ -2374,10 +2190,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"Withdraws before melee combat <with [40]% chance>",
 			"[+2] Movement",
@@ -2400,10 +2214,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"Withdraws before melee combat <with [40]% chance>",
 			"[+2] Movement",
@@ -2425,10 +2237,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"Withdraws before melee combat <with [40]% chance>",
 			"[+2] Movement",
@@ -2453,10 +2263,8 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"Earn [50]% of the damage done to [Military] units as [Gold]",
 			
@@ -2480,10 +2288,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"Earn [50]% of the damage done to [Military] units as [Gold]",
 			
@@ -2504,10 +2310,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"Earn [50]% of the damage done to [Military] units as [Gold]",
 			
@@ -2528,10 +2332,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"Earn [50]% of the damage done to [Military] units as [Gold]",
 			
@@ -2551,10 +2353,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"Earn [100]% of the damage done to [Military] units as [Gold]",
 			
@@ -2576,10 +2376,8 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[+33]% to Flank Attack bonuses",
 			
@@ -2604,10 +2402,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[+33]% to Flank Attack bonuses",
 			
@@ -2628,10 +2424,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[+33]% to Flank Attack bonuses",
 			
@@ -2652,10 +2446,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",  "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[+33]% to Flank Attack bonuses",
 			
@@ -2675,10 +2467,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[+50]% to Flank Attack bonuses",
 			
@@ -2701,10 +2491,8 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"Ignores Zone of Control",
 			"[+1] Movement",
@@ -2726,10 +2514,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"Ignores Zone of Control",
 			"[+1] Movement",
@@ -2754,10 +2540,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"Ignores Zone of Control",
 			"[+1] Movement",
@@ -2779,10 +2563,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"Ignores Zone of Control",
 			"[+1] Movement",
@@ -2803,10 +2585,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"Ignores Zone of Control",
 			"[+3] Movement",
@@ -2830,10 +2610,8 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[+50]% Strength <vs [Wounded] units>",
 			
@@ -2854,10 +2632,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[+50]% Strength <vs [Wounded] units>",
 			
@@ -2878,10 +2654,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[+50]% Strength <vs [Wounded] units>",
 			
@@ -2902,10 +2676,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[+50]% Strength <vs [Wounded] units>",
 			
@@ -2925,10 +2697,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[+100]% Strength <vs [Wounded] units>",
 			
@@ -2951,10 +2721,8 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[This Unit] gains the [Time Stopped] status for [1] turn(s) <upon entering combat>",
 			
@@ -2979,10 +2747,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[This Unit] gains the [Time Stopped] status for [1] turn(s) <upon entering combat>",
 			
@@ -3003,10 +2769,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[This Unit] gains the [Time Stopped] status for [1] turn(s) <upon entering combat>",
 			
@@ -3027,10 +2791,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[This Unit] gains the [Time Stopped] status for [1] turn(s) <upon entering combat>",
 			
@@ -3050,10 +2812,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[This Unit] gains the [Time Stopped] status for [1] turn(s) <upon entering combat>",
 			"[+20]% Strength <when [Time Stopped]>",
@@ -3079,10 +2839,8 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[+35]% Strength <when attacking>",
 			
@@ -3107,10 +2865,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[+35]% Strength <when attacking>",
 			
@@ -3132,10 +2888,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[+35]% Strength <when attacking>",
 			
@@ -3157,10 +2911,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[+35]% Strength <when attacking>",
 			
@@ -3181,10 +2933,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[+80]% Strength <when attacking>",
 			
@@ -3207,10 +2957,8 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[+2] Sight",
 			"Can see invisible [All] units",
@@ -3234,10 +2982,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[+2] Sight",
 			"Can see invisible [All] units",
@@ -3259,10 +3005,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[+2] Sight",
 			"Can see invisible [All] units",
@@ -3284,10 +3028,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[+2] Sight",
 			"Can see invisible [All] units",
@@ -3308,10 +3050,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[+5] Sight",
 			"[+2] Movement",
@@ -3336,10 +3076,8 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[Target Unit] is destroyed <with [10]% chance> <upon damaging a [Military] unit>",
 			
@@ -3360,10 +3098,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[Target Unit] is destroyed <with [10]% chance> <upon damaging a [Military] unit>",
 			
@@ -3384,10 +3120,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[Target Unit] is destroyed <with [10]% chance> <upon damaging a [Military] unit>",
 			
@@ -3408,10 +3142,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[Target Unit] is destroyed <with [10]% chance> <upon damaging a [Military] unit>",
 			
@@ -3431,10 +3163,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[Target Unit] is destroyed <with [25]% chance> <upon damaging a [Military] unit>",
 			
@@ -3457,10 +3187,8 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[+20] HP when healing",
 			
@@ -3484,10 +3212,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[+20] HP when healing",
 			
@@ -3508,10 +3234,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[+20] HP when healing",
 			
@@ -3532,10 +3256,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[+20] HP when healing",
 			
@@ -3555,10 +3277,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[+40] HP when healing",
 			
@@ -3581,10 +3301,8 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[-50]% Strength",
 			"[This Unit] gains [5] XP <upon turn end>",
@@ -3606,10 +3324,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[-50]% Strength",
 			"[This Unit] gains [5] XP <upon turn end>",
@@ -3631,10 +3347,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[-50]% Strength",
 			"[This Unit] gains [5] XP <upon turn end>",
@@ -3656,10 +3370,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[-50]% Strength",
 			"[This Unit] gains [5] XP <upon turn end>",
@@ -3680,10 +3392,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[-50]% Strength",
 			"[This Unit] gains [50] XP <upon turn end>",
@@ -3707,10 +3417,8 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"Earn [100]% of the damage done to [Military] units as [Science]",
 			
@@ -3731,10 +3439,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"Earn [100]% of the damage done to [Military] units as [Science]",
 			
@@ -3755,10 +3461,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"Earn [100]% of the damage done to [Military] units as [Science]",
 			
@@ -3779,10 +3483,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"Earn [100]% of the damage done to [Military] units as [Science]",
 			
@@ -3802,10 +3504,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"Earn [250]% of the damage done to [Military] units as [Science]",
 			"Earn [250]% of the damage done to [Military] units as [Culture]",
@@ -3829,10 +3529,8 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"Withdraws before melee combat <with [30]% chance>",
 			
@@ -3856,10 +3554,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"Withdraws before melee combat <with [30]% chance>",
 			
@@ -3880,10 +3576,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"Withdraws before melee combat <with [30]% chance>",
 			
@@ -3904,10 +3598,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"Withdraws before melee combat <with [30]% chance>",
 			
@@ -3927,10 +3619,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"Withdraws before melee combat <with [50]% chance>",
 			
@@ -3953,10 +3643,8 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"May Paradrop to [Friendly Land] tiles up to [100] tiles away <if it hasn't used other actions yet>",
 			
@@ -3981,10 +3669,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"May Paradrop to [Friendly Land] tiles up to [100] tiles away <if it hasn't used other actions yet>",
 			
@@ -4005,10 +3691,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"May Paradrop to [Friendly Land] tiles up to [100] tiles away <if it hasn't used other actions yet>",
 			
@@ -4029,10 +3713,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"May Paradrop to [Friendly Land] tiles up to [100] tiles away <if it hasn't used other actions yet>",
 			
@@ -4052,7 +3734,7 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			"[-100]% XP gained from combat <hidden from users>",
 			"[This Unit] gains [1] XP <upon turn end> <if [Monument] is constructed> <if it hasn't used other actions yet>",
@@ -4079,10 +3761,8 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[Target Unit] loses [2] movement <upon damaging a [Land] unit>",
 			
@@ -4105,10 +3785,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[Target Unit] loses [2] movement <upon damaging a [Land] unit>",
 			
@@ -4129,10 +3807,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[Target Unit] loses [2] movement <upon damaging a [Land] unit>",
 			
@@ -4153,10 +3829,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[Target Unit] loses [2] movement <upon damaging a [Land] unit>",
 			
@@ -4176,10 +3850,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[Target Unit] loses [10] movement <upon damaging a [Land] unit>",
 			
@@ -4202,10 +3874,8 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[-25]% Strength for enemy [Land] units in adjacent [All] tiles",
 			
@@ -4228,10 +3898,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[-25]% Strength for enemy [Land] units in adjacent [All] tiles",
 			
@@ -4252,10 +3920,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[-25]% Strength for enemy [Land] units in adjacent [All] tiles",
 			
@@ -4276,10 +3942,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[-25]% Strength for enemy [Land] units in adjacent [All] tiles",
 			
@@ -4299,10 +3963,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[-50]% Strength for enemy [Land] units in adjacent [All] tiles",
 			
@@ -4325,10 +3987,8 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"Can pass through impassable tiles",
 			"All tiles cost 1 movement",
@@ -4355,10 +4015,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"Can pass through impassable tiles",
 			"All tiles cost 1 movement",
@@ -4380,10 +4038,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"Can pass through impassable tiles",
 			"All tiles cost 1 movement",
@@ -4405,10 +4061,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"Can pass through impassable tiles",
 			"All tiles cost 1 movement",
@@ -4429,10 +4083,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"Can pass through impassable tiles",
 			"All tiles cost 1 movement",
@@ -4457,10 +4109,8 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"No damage penalty for wounded units",
 			"[-50]% production cost",
@@ -4482,10 +4132,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"No damage penalty for wounded units",
 			"[-50]% production cost",
@@ -4507,10 +4155,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"No damage penalty for wounded units",
 			"[-50]% production cost",
@@ -4532,10 +4178,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"No damage penalty for wounded units",
 			"[-50]% production cost",
@@ -4556,10 +4200,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"No damage penalty for wounded units",
 			"[-100]% production cost",
@@ -4583,10 +4225,8 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[+2] Movement",
 			
@@ -4607,10 +4247,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[+2] Movement",
 			
@@ -4631,10 +4269,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[+2] Movement",
 			
@@ -4655,10 +4291,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[+2] Movement",
 			
@@ -4678,10 +4312,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[+5] Movement",
 			
@@ -4704,10 +4336,8 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[+3] Sight",
 			"Can see over obstacles",
@@ -4730,10 +4360,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[+3] Sight",
 			"Can see over obstacles",
@@ -4756,10 +4384,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[+3] Sight",
 			"Can see over obstacles",
@@ -4782,10 +4408,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[+3] Sight",
 			"Can see over obstacles",
@@ -4807,10 +4431,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[+5] Sight",
 			"Can see over obstacles",
@@ -4835,10 +4457,8 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[+2] Sight",
 			"[1] additional attacks per turn",
@@ -4860,10 +4480,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[+2] Sight",
 			"[1] additional attacks per turn",
@@ -4885,10 +4503,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[+2] Sight",
 			"[1] additional attacks per turn",
@@ -4910,10 +4526,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[+2] Sight",
 			"[1] additional attacks per turn",
@@ -4934,10 +4548,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[+2] Sight",
 			"[3] additional attacks per turn",
@@ -4961,10 +4573,8 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"May Paradrop to [Land] tiles up to [100] tiles away <if it hasn't used other actions yet>",
 			
@@ -4988,10 +4598,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"May Paradrop to [Land] tiles up to [100] tiles away <if it hasn't used other actions yet>",
 			
@@ -5012,10 +4620,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"May Paradrop to [Land] tiles up to [100] tiles away <if it hasn't used other actions yet>",
 			
@@ -5036,10 +4642,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"May Paradrop to [Land] tiles up to [100] tiles away <if it hasn't used other actions yet>",
 			
@@ -5059,10 +4663,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"May Paradrop to [Land] tiles up to [100] tiles away",
 			"May enter foreign tiles without open borders",
@@ -5086,10 +4688,8 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[This Unit] gains the [Shikigami Summoning (Level 1)] status for [5] turn(s) <upon entering combat>",
 			
@@ -5112,10 +4712,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[This Unit] gains the [Shikigami Summoning (Level 2)] status for [5] turn(s) <upon entering combat>",
 			
@@ -5136,10 +4734,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[This Unit] gains the [Shikigami Summoning (Level 3)] status for [5] turn(s) <upon entering combat>",
 			
@@ -5160,10 +4756,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[This Unit] gains the [Shikigami Summoning (Level 4)] status for [5] turn(s) <upon entering combat>",
 			
@@ -5183,10 +4777,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[This Unit] gains the [Shikigami Summoning (Level 5)] status for [3] turn(s) <upon entering combat>",
 			
@@ -5211,10 +4803,8 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"Ignores Zone of Control",
 			
@@ -5238,10 +4828,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"Ignores Zone of Control",
 			
@@ -5263,10 +4851,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"Ignores Zone of Control",
 			
@@ -5288,10 +4874,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"Ignores Zone of Control",
 			
@@ -5312,10 +4896,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Present era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"Ignores Zone of Control",
 			"[+2] Movement",
@@ -5339,10 +4921,8 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[+35]% Strength",
 			"Rough terrain penalty",
@@ -5364,10 +4944,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[+35]% Strength",
 			"Rough terrain penalty",
@@ -5389,10 +4967,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[+35]% Strength",
 			"Rough terrain penalty",
@@ -5414,10 +4990,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[+35]% Strength",
 			"Rough terrain penalty",
@@ -5438,10 +5012,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[+70]% Strength",
 			"Rough terrain penalty",
@@ -5465,10 +5037,8 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"Invisible to non-adjacent units <in [Water] tiles>",
 			"[+20]% Strength <within [3] tiles of a [Coast]>",
@@ -5490,10 +5060,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"Invisible to non-adjacent units <in [Water] tiles>",
 			"[+20]% Strength <within [3] tiles of a [Coast]>",
@@ -5515,10 +5083,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"Invisible to non-adjacent units <in [Water] tiles>",
 			"[+20]% Strength <within [3] tiles of a [Coast]>",
@@ -5540,10 +5106,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"Invisible to non-adjacent units <in [Water] tiles>",
 			"[+20]% Strength <within [3] tiles of a [Coast]>",
@@ -5564,10 +5128,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"Invisible to non-adjacent units <in [Water] tiles>",
 			"[+60]% Strength <within [3] tiles of a [Coast]>",
@@ -5591,10 +5153,8 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[+2] Movement",
 			
@@ -5618,10 +5178,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[+2] Movement",
 			
@@ -5642,10 +5200,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[+2] Movement",
 			
@@ -5666,10 +5222,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[+2] Movement",
 			
@@ -5689,10 +5243,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[+5] Movement",
 			
@@ -5717,10 +5269,8 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[This Unit] heals [50] HP <upon losing at least [1] HP in a single attack> <with [10]% chance>",
 			
@@ -5742,10 +5292,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[This Unit] heals [50] HP <upon losing at least [1] HP in a single attack> <with [10]% chance>",
 			
@@ -5767,10 +5315,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[This Unit] heals [50] HP <upon losing at least [1] HP in a single attack> <with [10]% chance>",
 			
@@ -5792,10 +5338,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[This Unit] heals [50] HP <upon losing at least [1] HP in a single attack> <with [10]% chance>",
 			
@@ -5816,10 +5360,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Present era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[This Unit] heals [100] HP <upon losing at least [1] HP in a single attack> <with [20]% chance>",
 			
@@ -5842,10 +5384,8 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[-50]% Strength for enemy [Military] units in adjacent [Hill] tiles",
 			
@@ -5869,10 +5409,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[-50]% Strength for enemy [Military] units in adjacent [Hill] tiles",
 			
@@ -5893,10 +5431,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[-50]% Strength for enemy [Military] units in adjacent [Hill] tiles",
 			
@@ -5917,10 +5453,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[-50]% Strength for enemy [Military] units in adjacent [Hill] tiles",
 			
@@ -5940,10 +5474,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[-100]% Strength for enemy [Military] units in adjacent [Hill] tiles",
 			
@@ -5967,10 +5499,8 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[+1] Movement",
 			"All tiles cost 1 movement",
@@ -5996,10 +5526,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[+1] Movement",
 			"All tiles cost 1 movement",
@@ -6022,10 +5550,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[+1] Movement",
 			"All tiles cost 1 movement",
@@ -6048,10 +5574,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[+1] Movement",
 			"All tiles cost 1 movement",
@@ -6073,10 +5597,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Present era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[+1] Movement",
 			"All tiles cost 1 movement",
@@ -6101,10 +5623,8 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[+20]% Strength bonus for [Youkai] units within [2] tiles",
 			
@@ -6127,10 +5647,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[+20]% Strength bonus for [Youkai] units within [2] tiles",
 			
@@ -6151,10 +5669,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[+20]% Strength bonus for [Youkai] units within [2] tiles",
 			
@@ -6175,10 +5691,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[+20]% Strength bonus for [Youkai] units within [2] tiles",
 			
@@ -6198,10 +5712,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[+40]% Strength bonus for [Youkai] units within [2] tiles",
 			
@@ -6224,10 +5736,8 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[This Unit] gains the [Unzan's Fists] status for [5] turn(s) <upon entering combat>",
 			
@@ -6248,10 +5758,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[This Unit] gains the [Unzan's Fists] status for [5] turn(s) <upon entering combat>",
 			
@@ -6272,10 +5780,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[This Unit] gains the [Unzan's Fists] status for [5] turn(s) <upon entering combat>",
 			
@@ -6296,10 +5802,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[This Unit] gains the [Unzan's Fists] status for [5] turn(s) <upon entering combat>",
 			
@@ -6319,10 +5823,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[This Unit] gains the [Unzan's Fists II] status for [5] turn(s) <upon entering combat>",
 			
@@ -6345,10 +5847,8 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[+50]% Strength <vs [Water] units>",
 			
@@ -6371,10 +5871,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[+50]% Strength <vs [Water] units>",
 			
@@ -6395,10 +5893,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[+50]% Strength <vs [Water] units>",
 			
@@ -6419,10 +5915,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[+50]% Strength <vs [Water] units>",
 			
@@ -6442,10 +5936,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[+100]% Strength <vs [Water] units>",
 			
@@ -6469,10 +5961,8 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[Target Unit] takes [5] damage",
 			
@@ -6498,10 +5988,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[Target Unit] takes [5] damage",
 			
@@ -6523,10 +6011,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[Target Unit] takes [5] damage",
 			
@@ -6548,10 +6034,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[Target Unit] takes [5] damage",
 			
@@ -6572,10 +6056,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Present era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[Target Unit] takes [15] damage",
 			
@@ -6598,10 +6080,8 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"Can build [Land] improvements on tiles",
 			"[-50]% construction time for [All] improvements",
@@ -6625,10 +6105,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"Can build [Land] improvements on tiles",
 			"[-50]% construction time for [All] improvements",
@@ -6650,10 +6128,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"Can build [Land] improvements on tiles",
 			"[-50]% construction time for [All] improvements",
@@ -6675,10 +6151,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"Can build [Land] improvements on tiles",
 			"[-50]% construction time for [All] improvements",
@@ -6699,10 +6173,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"Can build [Land] improvements on tiles",
 			"[-100]% construction time for [All] improvements",
@@ -6726,10 +6198,8 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[This Unit] gains the [Prepared] status for [5] turn(s) <upon entering a [Doll Lumber House] tile>",
 			"[This Unit] gains the [Prepared] status for [10] turn(s) <upon entering a [City center] tile>",
@@ -6754,10 +6224,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[This Unit] gains the [Prepared] status for [5] turn(s) <upon entering a [Doll Lumber House] tile>",
 			"[This Unit] gains the [Prepared] status for [10] turn(s) <upon entering a [City center] tile>",
@@ -6779,10 +6247,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[This Unit] gains the [Prepared] status for [5] turn(s) <upon entering a [Doll Lumber House] tile>",
 			"[This Unit] gains the [Prepared] status for [10] turn(s) <upon entering a [City center] tile>",
@@ -6804,10 +6270,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[This Unit] gains the [Prepared] status for [5] turn(s) <upon entering a [Doll Lumber House] tile>",
 			"[This Unit] gains the [Prepared] status for [10] turn(s) <upon entering a [City center] tile>",
@@ -6828,10 +6292,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[This Unit] gains the [Prepared] status for [10] turn(s) <upon entering a [Doll Lumber House] tile>",
 			"[This Unit] gains the [Prepared] status for [30] turn(s) <upon entering a [City center] tile>",
@@ -6855,10 +6317,8 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"Free [Yuyuko Saigyouji (Level 1)] appears <upon being defeated> <if [Resurrection Butterfly] is constructed>",
 			"Remove [Resurrection Butterfly] [in capital] <upon being defeated>",
@@ -6883,10 +6343,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"Free [Yuyuko Saigyouji (Level 2)] appears <upon being defeated> <if [Resurrection Butterfly] is constructed>",
 			"Remove [Resurrection Butterfly] [in capital] <upon being defeated>",
@@ -6908,10 +6366,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"Free [Yuyuko Saigyouji (Level 3)] appears <upon being defeated> <if [Resurrection Butterfly] is constructed>",
 			"Remove [Resurrection Butterfly] [in capital] <upon being defeated>",
@@ -6933,10 +6389,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"Free [Yuyuko Saigyouji (Level 4)] appears <upon being defeated> <if [Resurrection Butterfly] is constructed>",
 			"Remove [Resurrection Butterfly] [in capital] <upon being defeated>",
@@ -6957,10 +6411,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"Free [Yuyuko Saigyouji (Level 5)] appears <upon being defeated> <if [Resurrection Butterfly] is constructed>",
 			"Remove [Resurrection Butterfly] [in capital] <upon being defeated>",
@@ -6985,10 +6437,8 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[Target Unit] takes [30] damage <with [50]% chance> <upon damaging a [Land] unit>",
 			
@@ -7012,10 +6462,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[Target Unit] takes [30] damage <with [50]% chance> <upon damaging a [Land] unit>",
 			
@@ -7036,10 +6484,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[Target Unit] takes [30] damage <with [50]% chance> <upon damaging a [Land] unit>",
 			
@@ -7060,10 +6506,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[Target Unit] takes [30] damage <with [50]% chance> <upon damaging a [Land] unit>",
 			
@@ -7083,10 +6527,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[Target Unit] takes [40] damage <with [55]% chance> <upon damaging a [Land] unit>",
 			
@@ -7109,10 +6551,8 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"Withdraws before melee combat <with [40]% chance> <when [Wounded]>",
 			
@@ -7135,10 +6575,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"Withdraws before melee combat <with [40]% chance> <when [Wounded]>",
 			
@@ -7159,10 +6597,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"Withdraws before melee combat <with [40]% chance> <when [Wounded]>",
 			
@@ -7183,10 +6619,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"Withdraws before melee combat <with [40]% chance> <when [Wounded]>",
 			
@@ -7206,10 +6640,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"Withdraws before melee combat <with [65]% chance> <when [Wounded]>",
 			
@@ -7232,10 +6664,8 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"Seija",
 			"[Target Unit] gains the [Confused] status for [2] turn(s) <upon damaging a [Land] unit>",
@@ -7259,10 +6689,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"Seija",
 			"[Target Unit] gains the [Confused] status for [2] turn(s) <upon damaging a [Land] unit>",
@@ -7284,10 +6712,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"Seija",
 			"[Target Unit] gains the [Confused] status for [2] turn(s) <upon damaging a [Land] unit>",
@@ -7309,10 +6735,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"Seija",
 			"[Target Unit] gains the [Confused] status for [2] turn(s) <upon damaging a [Land] unit>",
@@ -7333,10 +6757,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"Seija",
 			"[Target Unit] gains the [Confused II] status for [2] turn(s) <upon damaging a [Land] unit>",
@@ -7360,10 +6782,8 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[+40]% Strength <within [2] tiles of a [River]>",
 			
@@ -7384,10 +6804,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[+40]% Strength <within [2] tiles of a [River]>",
 			
@@ -7408,10 +6826,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[+40]% Strength <within [2] tiles of a [River]>",
 			
@@ -7432,10 +6848,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[+40]% Strength <within [2] tiles of a [River]>",
 			
@@ -7455,10 +6869,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[+80]% Strength <within [2] tiles of a [River]>",
 			
@@ -7481,10 +6893,8 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[This Unit] gains [1] XP <upon ending a turn in a [Friendly Land] tile>",
 			
@@ -7508,10 +6918,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[This Unit] gains [1] XP <upon ending a turn in a [Friendly Land] tile>",
 			
@@ -7532,10 +6940,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[This Unit] gains [1] XP <upon ending a turn in a [Friendly Land] tile>",
 			
@@ -7556,10 +6962,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[This Unit] gains [1] XP <upon ending a turn in a [Friendly Land] tile>",
 			
@@ -7579,10 +6983,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[This Unit] gains [10] XP <upon ending a turn in a [Friendly Land] tile>",
 			
@@ -7604,10 +7006,8 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[Target Unit] takes [10] damage <with [33]% chance> <upon damaging a [Land] unit>",
 			
@@ -7630,10 +7030,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[Target Unit] takes [10] damage <with [33]% chance> <upon damaging a [Land] unit>",
 			
@@ -7654,10 +7052,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[Target Unit] takes [10] damage <with [33]% chance> <upon damaging a [Land] unit>",
 			
@@ -7678,10 +7074,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[Target Unit] takes [10] damage <with [33]% chance> <upon damaging a [Land] unit>",
 			
@@ -7701,10 +7095,8 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
-			"Comment [Hero units don't gain XP from combat, but gain a base of +2 XP per turn]",
+			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
 			
 			"[Target Unit] takes [40] damage <with [33]% chance> <upon damaging a [Land] unit>",
 			
