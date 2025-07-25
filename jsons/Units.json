@@ -17,6 +17,7 @@
 		"upgradesTo": "Reimu Hakurei (Level 2)",
 		"attackSound": "nonmetalhit",
 		"uniques": [
+		"Unavailable <",
 			"Comment [──────★]",
 			"Hero",
 			"Comment [──────★]",
@@ -5256,7 +5257,7 @@
 	{
 		"name": "Sanae Kochiya (Level 1)",
 		"uniqueTo": "Moriya Faction",
-		"uniqueTo": "The Borderless Realm",
+		"uniqueTo": "Moriya Faction",
 		"unitType": "Support Hero",
 		"movement": 2,
 		"strength": 7,
