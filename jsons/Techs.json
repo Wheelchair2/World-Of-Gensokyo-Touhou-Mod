@@ -56,7 +56,7 @@
 				"prerequisites": ["Things To Know"],
 				"quote": "The Touhou Project series while being primarily based on the religion known as Shinto it is not unusual to see many functions of the Touhou world to rely on modern science (Gendaikagaku).",
 				"uniques": [
-					"[+3 Production, +5 Food] from every specialist [in all cities] <when number of [Cities] is less than [5]> <starting from the [Edo period]>",
+					"[+1 Production, +1 Food] from every specialist [in all cities] <when number of [Cities] is less than [5]> <starting from the [Edo period]>",
 					"Comment [------------------------------------]",
 					"Provides [5] [Manpower] <when number of [Cities] is less than [5]>",
 					"Comment [------------------------------------]",

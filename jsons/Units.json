@@ -42,7 +42,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -64,7 +64,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -86,7 +86,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -107,7 +107,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -157,7 +157,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -180,7 +180,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -203,7 +203,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -225,7 +225,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Present era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Present era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -275,7 +275,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -297,7 +297,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -319,7 +319,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -341,7 +341,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Present era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Present era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -389,7 +389,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -413,7 +413,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -437,7 +437,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -460,7 +460,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -512,7 +512,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -536,7 +536,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -560,7 +560,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -583,7 +583,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Present era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Present era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -633,7 +633,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -655,7 +655,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -677,7 +677,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -698,7 +698,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -744,7 +744,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -766,7 +766,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -788,7 +788,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -809,7 +809,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -856,7 +856,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -879,7 +879,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -902,7 +902,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -924,7 +924,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -973,7 +973,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -997,7 +997,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -1021,7 +1021,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -1044,7 +1044,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -1093,7 +1093,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -1116,7 +1116,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -1139,7 +1139,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -1161,7 +1161,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -1213,7 +1213,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -1239,7 +1239,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -1265,7 +1265,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -1290,7 +1290,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -1342,7 +1342,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -1366,7 +1366,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -1390,7 +1390,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -1413,7 +1413,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -1461,7 +1461,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -1484,7 +1484,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -1507,7 +1507,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -1529,7 +1529,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -1582,7 +1582,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -1605,7 +1605,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -1628,7 +1628,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -1650,7 +1650,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -1696,7 +1696,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -1718,7 +1718,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -1740,7 +1740,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -1761,7 +1761,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -1808,7 +1808,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -1831,7 +1831,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -1854,7 +1854,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -1876,7 +1876,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -1925,7 +1925,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -1948,7 +1948,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -1971,7 +1971,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -1993,7 +1993,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -2043,7 +2043,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -2067,7 +2067,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -2091,7 +2091,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -2114,7 +2114,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -2165,7 +2165,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -2189,7 +2189,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -2213,7 +2213,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -2236,7 +2236,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -2287,7 +2287,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -2309,7 +2309,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -2331,7 +2331,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -2352,7 +2352,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -2401,7 +2401,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -2423,7 +2423,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -2445,7 +2445,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",  "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",  "Unbuildable", "Will not be displayed in Civilopedia",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -2466,7 +2466,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -2513,7 +2513,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -2539,7 +2539,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -2562,7 +2562,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -2584,7 +2584,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -2631,7 +2631,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -2653,7 +2653,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -2675,7 +2675,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -2696,7 +2696,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -2746,7 +2746,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -2768,7 +2768,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -2790,7 +2790,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -2811,7 +2811,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -2864,7 +2864,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -2887,7 +2887,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -2910,7 +2910,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -2932,7 +2932,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -2981,7 +2981,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -3004,7 +3004,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -3027,7 +3027,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -3049,7 +3049,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -3097,7 +3097,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -3119,7 +3119,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -3141,7 +3141,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -3162,7 +3162,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -3211,7 +3211,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -3233,7 +3233,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -3255,7 +3255,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -3276,7 +3276,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -3323,7 +3323,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -3346,7 +3346,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -3369,7 +3369,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -3391,7 +3391,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -3438,7 +3438,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -3460,7 +3460,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -3482,7 +3482,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -3503,7 +3503,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -3553,7 +3553,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -3575,7 +3575,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -3597,7 +3597,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -3618,7 +3618,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -3668,7 +3668,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -3690,7 +3690,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -3712,7 +3712,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -3733,7 +3733,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			"[-100]% XP gained from combat <hidden from users>",
@@ -3784,7 +3784,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -3806,7 +3806,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -3828,7 +3828,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -3849,7 +3849,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -3897,7 +3897,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -3919,7 +3919,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -3941,7 +3941,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -3962,7 +3962,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -4014,7 +4014,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -4037,7 +4037,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -4060,7 +4060,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -4082,7 +4082,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -4131,7 +4131,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -4154,7 +4154,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -4177,7 +4177,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -4199,7 +4199,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -4246,7 +4246,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -4268,7 +4268,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -4290,7 +4290,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -4311,7 +4311,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -4359,7 +4359,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -4383,7 +4383,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -4407,7 +4407,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -4430,7 +4430,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -4479,7 +4479,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -4502,7 +4502,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -4525,7 +4525,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -4547,7 +4547,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -4597,7 +4597,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -4619,7 +4619,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -4641,7 +4641,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -4662,7 +4662,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -4711,7 +4711,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -4733,7 +4733,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -4755,7 +4755,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -4776,7 +4776,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -4827,7 +4827,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -4850,7 +4850,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -4873,7 +4873,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -4895,7 +4895,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Present era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Present era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -4943,7 +4943,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -4966,7 +4966,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -4989,7 +4989,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -5011,7 +5011,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -5059,7 +5059,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -5082,7 +5082,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -5105,7 +5105,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -5127,7 +5127,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -5177,7 +5177,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -5199,7 +5199,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -5221,7 +5221,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -5242,7 +5242,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -5291,7 +5291,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -5314,7 +5314,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -5337,7 +5337,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -5359,7 +5359,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Present era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Present era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -5408,7 +5408,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -5430,7 +5430,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -5452,7 +5452,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -5473,7 +5473,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -5525,7 +5525,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -5549,7 +5549,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -5573,7 +5573,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -5596,7 +5596,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Present era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Present era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -5646,7 +5646,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -5668,7 +5668,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -5690,7 +5690,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -5711,7 +5711,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -5757,7 +5757,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -5779,7 +5779,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -5801,7 +5801,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -5822,7 +5822,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -5870,7 +5870,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -5892,7 +5892,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -5914,7 +5914,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -5935,7 +5935,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -5987,7 +5987,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -6010,7 +6010,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -6033,7 +6033,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -6055,7 +6055,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Present era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Present era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -6104,7 +6104,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -6127,7 +6127,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -6150,7 +6150,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -6172,7 +6172,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -6223,7 +6223,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -6246,7 +6246,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -6269,7 +6269,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -6291,7 +6291,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -6342,7 +6342,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -6365,7 +6365,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -6388,7 +6388,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -6410,7 +6410,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -6461,7 +6461,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -6483,7 +6483,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -6505,7 +6505,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -6526,7 +6526,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -6574,7 +6574,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -6596,7 +6596,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -6618,7 +6618,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -6639,7 +6639,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -6688,7 +6688,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -6711,7 +6711,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -6734,7 +6734,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -6756,7 +6756,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -6803,7 +6803,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -6825,7 +6825,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -6847,7 +6847,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -6868,7 +6868,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -6917,7 +6917,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -6939,7 +6939,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -6961,7 +6961,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -6982,7 +6982,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -7029,7 +7029,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -7051,7 +7051,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -7073,7 +7073,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -7094,7 +7094,7 @@
 			"Hero",
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia",
+			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 			
@@ -8122,6 +8122,21 @@
 			"[+50]% Strength <vs [{Military} {Water}] units> <when attacking>",
 			"May capture killed [Water] units",
 			"Never appears as a Barbarian unit"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "nonmetalhit"
+	},
+	{ // Barbarian
+		"name": "Ghost Ship",
+		"uniqueTo": "Barbarians",
+		"unitType": "Melee Water",
+		"movement": 2,
+		"strength": 27,
+		"cost": 600,
+		"requiredTech": "Gunpowder",
+		"uniques": [
+			"[+50]% Strength <vs [{Military} {Water}] units> <when attacking>",
+			"May capture killed [Water] units",
 		],
 		"hurryCostModifier": 20,
 		"attackSound": "nonmetalhit"

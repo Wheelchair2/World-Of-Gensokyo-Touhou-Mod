@@ -2,7 +2,7 @@
 	// Hero Promotions
 	{
 		"name": "Studious I",
-		"uniques": ["[This Unit] gains [+1] XP <upon turn end>", "Not shown on world screen"],
+		"uniques": ["[This Unit] gains [+1] XP <upon turn end>", "Not shown on world screen", "[-100]% weight to this choice for AI decisions"],
 		"unitTypes": ["Fighter Hero", "Support Hero"],
         "column": 27,
         "row": 2
@@ -26,7 +26,7 @@
 	
 	{
 		"name": "Harass I",
-		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
+		"uniques": ["Comment [Experimental]"],
 		"unitTypes": ["Support Hero"],
         "column": 27,
         "row": 4
@@ -34,7 +34,7 @@
 	{
 		"name": "Harass II",
 		"prerequisites": ["Harass I"],
-		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
+		"uniques": ["Comment [Experimental]"],
 		"unitTypes": ["Support Hero"],
         "column": 28,
         "row": 4
@@ -42,7 +42,7 @@
 	{
 		"name": "Harass III",
 		"prerequisites": ["Harass II"],
-		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
+		"uniques": ["Comment [Experimental]"],
 		"unitTypes": ["Support Hero"],
         "column": 29,
         "row":  4
@@ -50,7 +50,7 @@
 	
 	{
 		"name": "Offense I",
-		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
+		"uniques": ["Comment [Experimental]"],
 		"unitTypes": ["Fighter Hero"],
         "column": 30,
         "row": 4
@@ -58,7 +58,7 @@
 	{
 		"name": "Offense II",
 		"prerequisites": ["Offense I"],
-		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
+		"uniques": ["Comment [Experimental]"]
 		"unitTypes": ["Fighter Hero"],
         "column": 31,
         "row": 4
@@ -66,7 +66,7 @@
 	{
 		"name": "Offense III",
 		"prerequisites": ["Offense II"],
-		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
+		"uniques": ["Comment [Experimental]"],
 		"unitTypes": ["Fighter Hero"],
         "column": 32,
         "row":  4
@@ -75,7 +75,7 @@
 	{
 		"name": "Incursion",
 		"prerequisites": ["Harass III"],
-		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
+		"uniques": ["Comment [Experimental]"],
 		"unitTypes": ["Support Hero"],
         "column": 30,
         "row":  5
@@ -83,7 +83,7 @@
 	{
 		"name": "Sniping",
 		"prerequisites": ["Harass III", "Offense III", "Studious III"],
-		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
+		"uniques": ["Comment [Experimental]"],
 		"unitTypes": ["Fighter Hero", "Support Hero"],
         "column": 33,
         "row":  1
@@ -91,7 +91,7 @@
 	{
 		"name": "Versatility",
 		"prerequisites": ["Harass III", "Offense III", "Studious III"],
-		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
+		"uniques": ["Comment [Experimental]"],
 		"unitTypes": ["Fighter Hero", "Support Hero"],
         "column": 33,
         "row":  3
@@ -99,14 +99,14 @@
 	{
 		"name": "Blitzgrieg",
 		"prerequisites": ["Offense III"],
-		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
+		"uniques": ["Comment [Experimental]"],
 		"unitTypes": ["Fighter Hero"],
         "column": 33,
         "row":  5
     },
 	{
 		"name": "Dexterity I",
-		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
+		"uniques": ["Comment [Experimental]"],
 		"prerequisites": ["Sniping", "Versatility", "Blitzgrieg", "Incursion"],
 		"unitTypes": ["Support Hero"],
         "column": 34,
@@ -115,7 +115,7 @@
 	{
 		"name": "Dexterity II",
 		"prerequisites": ["Dexterity I"],
-		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
+		"uniques": ["Comment [Experimental]"],
 		"unitTypes": ["Support Hero"],
         "column": 35,
         "row": 2
@@ -123,7 +123,7 @@
 	{
 		"name": "Dexterity III",
 		"prerequisites": ["Dexterity II"],
-		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
+		"uniques": ["Comment [Experimental]"],
 		"unitTypes": ["Support Hero"],
         "column": 36,
         "row":  3
@@ -131,7 +131,7 @@
 	{
 		"name": "Wielding I",
 		"prerequisites": ["Sniping", "Versatility", "Blitzgrieg", "Incursion"],
-		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
+		"uniques": ["Comment [Experimental]"],
 		"unitTypes": ["Fighter Hero"],
         "column": 37,
         "row": 3
@@ -139,7 +139,7 @@
 	{
 		"name": "Wielding II",
 		"prerequisites": ["Wielding I"],
-		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
+		"uniques": ["Comment [Experimental]"],
 		"unitTypes": ["Fighter Hero"],
         "column": 38,
         "row": 3
@@ -147,7 +147,7 @@
 	{
 		"name": "Wielding III",
 		"prerequisites": ["Wielding II"],
-		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
+		"uniques": ["Comment [Experimental]"],
 		"unitTypes": ["Fighter Hero"],
         "column": 39,
         "row":  3
@@ -155,7 +155,7 @@
 	{
 		"name": "Mastery",
 		"prerequisites": ["Wielding III", "Dexterity III"],
-		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
+		"uniques": ["Comment [Experimental]"],
 		"unitTypes": ["Fighter Hero", "Support Hero"],
         "column": 40,
         "row":  3
