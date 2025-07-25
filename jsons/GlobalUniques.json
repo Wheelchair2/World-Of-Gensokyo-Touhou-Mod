@@ -1,6 +1,303 @@
 {
   "name": "Global uniques",
   "uniques": [
+	// Hero Upgrades
+	"Cannot build [Reimu Hakurei (Level 1)] units <when number of [[Reimu Hakurei (Level 2)] Units] is equal to [1]>",
+	"Cannot build [Reimu Hakurei (Level 1)] units <when number of [[Reimu Hakurei (Level 3)] Units] is equal to [1]>",
+	"Cannot build [Reimu Hakurei (Level 1)] units <when number of [[Reimu Hakurei (Level 4)] Units] is equal to [1]>",
+	"Cannot build [Reimu Hakurei (Level 1)] units <when number of [[Reimu Hakurei (Level 5)] Units] is equal to [1]>",
+	
+	"Cannot build [Aunn (Level 1)] units <when number of [[Aunn (Level 2)] Units] is equal to [1]>",
+	"Cannot build [Aunn (Level 1)] units <when number of [[Aunn (Level 3)] Units] is equal to [1]>",
+	"Cannot build [Aunn (Level 1)] units <when number of [[Aunn (Level 4)] Units] is equal to [1]>",
+	"Cannot build [Aunn (Level 1)] units <when number of [[Aunn (Level 5)] Units] is equal to [1]>",
+	
+	"Cannot build [Kogasa (Level 1)] units <when number of [[Kogasa (Level 2)] Units] is equal to [1]>",
+	"Cannot build [Kogasa (Level 1)] units <when number of [[Kogasa (Level 3)] Units] is equal to [1]>",
+	"Cannot build [Kogasa (Level 1)] units <when number of [[Kogasa (Level 4)] Units] is equal to [1]>",
+	"Cannot build [Kogasa (Level 1)] units <when number of [[Kogasa (Level 5)] Units] is equal to [1]>",
+	
+	"Cannot build [Chimata Tenkyuu (Level 1)] units <when number of [[Chimata Tenkyuu (Level 2)] Units] is equal to [1]>",
+	"Cannot build [Chimata Tenkyuu (Level 1)] units <when number of [[Chimata Tenkyuu (Level 3)] Units] is equal to [1]>",
+	"Cannot build [Chimata Tenkyuu (Level 1)] units <when number of [[Chimata Tenkyuu (Level 4)] Units] is equal to [1]>",
+	"Cannot build [Chimata Tenkyuu (Level 1)] units <when number of [[Chimata Tenkyuu (Level 5)] Units] is equal to [1]>",
+	
+	"Cannot build [Megumu (Level 1)] units <when number of [[Megumu (Level 2)] Units] is equal to [1]>",
+	"Cannot build [Megumu (Level 1)] units <when number of [[Megumu (Level 3)] Units] is equal to [1]>",
+	"Cannot build [Megumu (Level 1)] units <when number of [[Megumu (Level 4)] Units] is equal to [1]>",
+	"Cannot build [Megumu (Level 1)] units <when number of [[Megumu (Level 5)] Units] is equal to [1]>",
+	
+	"Cannot build [Tsukasa (Level 1)] units <when number of [[Tsukasa (Level 2)] Units] is equal to [1]>",
+	"Cannot build [Tsukasa (Level 1)] units <when number of [[Tsukasa (Level 3)] Units] is equal to [1]>",
+	"Cannot build [Tsukasa (Level 1)] units <when number of [[Tsukasa (Level 4)] Units] is equal to [1]>",
+	"Cannot build [Tsukasa (Level 1)] units <when number of [[Tsukasa (Level 5)] Units] is equal to [1]>",
+	
+	"Cannot build [Tenshi Hinanawi (Level 1)] units <when number of [[Tenshi Hinanawi (Level 2)] Units] is equal to [1]>",
+	"Cannot build [Tenshi Hinanawi (Level 1)] units <when number of [[Tenshi Hinanawi (Level 3)] Units] is equal to [1]>",
+	"Cannot build [Tenshi Hinanawi (Level 1)] units <when number of [[Tenshi Hinanawi (Level 4)] Units] is equal to [1]>",
+	"Cannot build [Tenshi Hinanawi (Level 1)] units <when number of [[Tenshi Hinanawi (Level 5)] Units] is equal to [1]>",
+	
+	"Cannot build [Iku Nagae (Level 1)] units <when number of [[Iku Nagae (Level 2)] Units] is equal to [1]>",
+	"Cannot build [Iku Nagae (Level 1)] units <when number of [[Iku Nagae (Level 3)] Units] is equal to [1]>",
+	"Cannot build [Iku Nagae (Level 1)] units <when number of [[Iku Nagae (Level 4)] Units] is equal to [1]>",
+	"Cannot build [Iku Nagae (Level 1)] units <when number of [[Iku Nagae (Level 5)] Units] is equal to [1]>",
+	
+	"Cannot build [Satori Komeiji (Level 1)] units <when number of [[Satori Komeiji (Level 2)] Units] is equal to [1]>",
+	"Cannot build [Satori Komeiji (Level 1)] units <when number of [[Satori Komeiji (Level 3)] Units] is equal to [1]>",
+	"Cannot build [Satori Komeiji (Level 1)] units <when number of [[Satori Komeiji (Level 4)] Units] is equal to [1]>",
+	"Cannot build [Satori Komeiji (Level 1)] units <when number of [[Satori Komeiji (Level 5)] Units] is equal to [1]>",
+	
+	"Cannot build [Koishi Komeiji (Level 1)] units <when number of [[Koishi Komeiji (Level 2)] Units] is equal to [1]>",
+	"Cannot build [Koishi Komeiji (Level 1)] units <when number of [[Koishi Komeiji (Level 3)] Units] is equal to [1]>",
+	"Cannot build [Koishi Komeiji (Level 1)] units <when number of [[Koishi Komeiji (Level 4)] Units] is equal to [1]>",
+	"Cannot build [Koishi Komeiji (Level 1)] units <when number of [[Koishi Komeiji (Level 5)] Units] is equal to [1]>",
+	
+	"Cannot build [Rumia (Level 1)] units <when number of [[Rumia (Level 2)] Units] is equal to [1]>",
+	"Cannot build [Rumia (Level 1)] units <when number of [[Rumia (Level 3)] Units] is equal to [1]>",
+	"Cannot build [Rumia (Level 1)] units <when number of [[Rumia (Level 4)] Units] is equal to [1]>",
+	"Cannot build [Rumia (Level 1)] units <when number of [[Rumia (Level 5)] Units] is equal to [1]>",
+	
+	"Cannot build [Kaguya Houraisan (Level 1)] units <when number of [[Kaguya Houraisan (Level 2)] Units] is equal to [1]>",
+	"Cannot build [Kaguya Houraisan (Level 1)] units <when number of [[Kaguya Houraisan (Level 3)] Units] is equal to [1]>",
+	"Cannot build [Kaguya Houraisan (Level 1)] units <when number of [[Kaguya Houraisan (Level 4)] Units] is equal to [1]>",
+	"Cannot build [Kaguya Houraisan (Level 1)] units <when number of [[Kaguya Houraisan (Level 5)] Units] is equal to [1]>",
+	
+	"Cannot build [Reisen (Level 1)] units <when number of [[Reisen (Level 2)] Units] is equal to [1]>",
+	"Cannot build [Reisen (Level 1)] units <when number of [[Reisen (Level 3)] Units] is equal to [1]>",
+	"Cannot build [Reisen (Level 1)] units <when number of [[Reisen (Level 4)] Units] is equal to [1]>",
+	"Cannot build [Reisen (Level 1)] units <when number of [[Reisen (Level 5)] Units] is equal to [1]>",
+	
+	"Cannot build [Tewi (Level 1)] units <when number of [[Tewi (Level 2)] Units] is equal to [1]>",
+	"Cannot build [Tewi (Level 1)] units <when number of [[Tewi (Level 3)] Units] is equal to [1]>",
+	"Cannot build [Tewi (Level 1)] units <when number of [[Tewi (Level 4)] Units] is equal to [1]>",
+	"Cannot build [Tewi (Level 1)] units <when number of [[Tewi (Level 5)] Units] is equal to [1]>",
+	
+	"Cannot build [Lily White (Level 1)] units <when number of [[Lily White (Level 2)] Units] is equal to [1]>",
+	"Cannot build [Lily White (Level 1)] units <when number of [[Lily White (Level 3)] Units] is equal to [1]>",
+	"Cannot build [Lily White (Level 1)] units <when number of [[Lily White (Level 4)] Units] is equal to [1]>",
+	"Cannot build [Lily White (Level 1)] units <when number of [[Lily White (Level 5)] Units] is equal to [1]>",
+	
+	"Cannot build [Cirno (Level 1)] units <when number of [[Cirno (Level 2)] Units] is equal to [1]>",
+	"Cannot build [Cirno (Level 1)] units <when number of [[Cirno (Level 3)] Units] is equal to [1]>",
+	"Cannot build [Cirno (Level 1)] units <when number of [[Cirno (Level 4)] Units] is equal to [1]>",
+	"Cannot build [Cirno (Level 1)] units <when number of [[Cirno (Level 5)] Units] is equal to [1]>",
+	
+	"Cannot build [Luna Child (Level 1)] units <when number of [[Luna Child (Level 2)] Units] is equal to [1]>",
+	"Cannot build [Luna Child (Level 1)] units <when number of [[Luna Child (Level 3)] Units] is equal to [1]>",
+	"Cannot build [Luna Child (Level 1)] units <when number of [[Luna Child (Level 4)] Units] is equal to [1]>",
+	"Cannot build [Luna Child (Level 1)] units <when number of [[Luna Child (Level 5)] Units] is equal to [1]>",
+	
+	"Cannot build [Sunny Milk (Level 1)] units <when number of [[Sunny Milk (Level 2)] Units] is equal to [1]>",
+	"Cannot build [Sunny Milk (Level 1)] units <when number of [[Sunny Milk (Level 3)] Units] is equal to [1]>",
+	"Cannot build [Sunny Milk (Level 1)] units <when number of [[Sunny Milk (Level 4)] Units] is equal to [1]>",
+	"Cannot build [Sunny Milk (Level 1)] units <when number of [[Sunny Milk (Level 5)] Units] is equal to [1]>",
+	
+	"Cannot build [Star Sapphire (Level 1)] units <when number of [[Star Sapphire (Level 2)] Units] is equal to [1]>",
+	"Cannot build [Star Sapphire (Level 1)] units <when number of [[Star Sapphire (Level 3)] Units] is equal to [1]>",
+	"Cannot build [Star Sapphire (Level 1)] units <when number of [[Star Sapphire (Level 4)] Units] is equal to [1]>",
+	"Cannot build [Star Sapphire (Level 1)] units <when number of [[Star Sapphire (Level 5)] Units] is equal to [1]>",
+	
+	"Cannot build [Daiyousei (Level 1)] units <when number of [[Daiyousei (Level 2)] Units] is equal to [1]>",
+	"Cannot build [Daiyousei (Level 1)] units <when number of [[Daiyousei (Level 3)] Units] is equal to [1]>",
+	"Cannot build [Daiyousei (Level 1)] units <when number of [[Daiyousei (Level 4)] Units] is equal to [1]>",
+	"Cannot build [Daiyousei (Level 1)] units <when number of [[Daiyousei (Level 5)] Units] is equal to [1]>",
+	
+	"Cannot build [Remilia Scarlet (Level 1)] units <when number of [[Remilia Scarlet (Level 2)] Units] is equal to [1]>",
+	"Cannot build [Remilia Scarlet (Level 1)] units <when number of [[Remilia Scarlet (Level 3)] Units] is equal to [1]>",
+	"Cannot build [Remilia Scarlet (Level 1)] units <when number of [[Remilia Scarlet (Level 4)] Units] is equal to [1]>",
+	"Cannot build [Remilia Scarlet (Level 1)] units <when number of [[Remilia Scarlet (Level 5)] Units] is equal to [1]>",
+	
+	"Cannot build [Sakuya Izayoi (Level 1)] units <when number of [[Sakuya Izayoi (Level 2)] Units] is equal to [1]>",
+	"Cannot build [Sakuya Izayoi (Level 1)] units <when number of [[Sakuya Izayoi (Level 3)] Units] is equal to [1]>",
+	"Cannot build [Sakuya Izayoi (Level 1)] units <when number of [[Sakuya Izayoi (Level 4)] Units] is equal to [1]>",
+	"Cannot build [Sakuya Izayoi (Level 1)] units <when number of [[Sakuya Izayoi (Level 5)] Units] is equal to [1]>",
+	
+	"Cannot build [Patchouli (Level 1)] units <when number of [[Patchouli (Level 2)] Units] is equal to [1]>",
+	"Cannot build [Patchouli (Level 1)] units <when number of [[Patchouli (Level 3)] Units] is equal to [1]>",
+	"Cannot build [Patchouli (Level 1)] units <when number of [[Patchouli (Level 4)] Units] is equal to [1]>",
+	"Cannot build [Patchouli (Level 1)] units <when number of [[Patchouli (Level 5)] Units] is equal to [1]>",
+	
+	"Cannot build [Koakuma (Level 1)] units <when number of [[Koakuma (Level 2)] Units] is equal to [1]>",
+	"Cannot build [Koakuma (Level 1)] units <when number of [[Koakuma (Level 3)] Units] is equal to [1]>",
+	"Cannot build [Koakuma (Level 1)] units <when number of [[Koakuma (Level 4)] Units] is equal to [1]>",
+	"Cannot build [Koakuma (Level 1)] units <when number of [[Koakuma (Level 5)] Units] is equal to [1]>",
+	
+	"Cannot build [Flandre Scarlet (Level 1)] units <when number of [[Flandre Scarlet (Level 2)] Units] is equal to [1]>",
+	"Cannot build [Flandre Scarlet (Level 1)] units <when number of [[Flandre Scarlet (Level 3)] Units] is equal to [1]>",
+	"Cannot build [Flandre Scarlet (Level 1)] units <when number of [[Flandre Scarlet (Level 4)] Units] is equal to [1]>",
+	"Cannot build [Flandre Scarlet (Level 1)] units <when number of [[Flandre Scarlet (Level 5)] Units] is equal to [1]>",
+	
+	"Cannot build [Keine Kamishirasawa (Level 1)] units <when number of [[Keine Kamishirasawa (Level 2)] Units] is equal to [1]>",
+	"Cannot build [Keine Kamishirasawa (Level 1)] units <when number of [[Keine Kamishirasawa (Level 3)] Units] is equal to [1]>",
+	"Cannot build [Keine Kamishirasawa (Level 1)] units <when number of [[Keine Kamishirasawa (Level 4)] Units] is equal to [1]>",
+	"Cannot build [Keine Kamishirasawa (Level 1)] units <when number of [[Keine Kamishirasawa (Level 5)] Units] is equal to [1]>",
+	
+	"Cannot build [Akyuu (Level 1)] units <when number of [[Akyuu (Level 2)] Units] is equal to [1]>",
+	"Cannot build [Akyuu (Level 1)] units <when number of [[Akyuu (Level 3)] Units] is equal to [1]>",
+	"Cannot build [Akyuu (Level 1)] units <when number of [[Akyuu (Level 4)] Units] is equal to [1]>",
+	"Cannot build [Akyuu (Level 1)] units <when number of [[Akyuu (Level 5)] Units] is equal to [1]>",
+	
+	"Cannot build [Kozusu (Level 1)] units <when number of [[Kozusu (Level 2)] Units] is equal to [1]>",
+	"Cannot build [Kozusu (Level 1)] units <when number of [[Kozusu (Level 3)] Units] is equal to [1]>",
+	"Cannot build [Kozusu (Level 1)] units <when number of [[Kozusu (Level 4)] Units] is equal to [1]>",
+	"Cannot build [Kozusu (Level 1)] units <when number of [[Kozusu (Level 5)] Units] is equal to [1]>",
+	
+	"Cannot build [Okina Matara (Level 1)] units <when number of [[Okina Matara (Level 2)] Units] is equal to [1]>",
+	"Cannot build [Okina Matara (Level 1)] units <when number of [[Okina Matara (Level 3)] Units] is equal to [1]>",
+	"Cannot build [Okina Matara (Level 1)] units <when number of [[Okina Matara (Level 4)] Units] is equal to [1]>",
+	"Cannot build [Okina Matara (Level 1)] units <when number of [[Okina Matara (Level 5)] Units] is equal to [1]>",
+	
+	"Cannot build [Mai (Level 1)] units <when number of [[Mai (Level 2)] Units] is equal to [1]>",
+	"Cannot build [Mai (Level 1)] units <when number of [[Mai (Level 3)] Units] is equal to [1]>",
+	"Cannot build [Mai (Level 1)] units <when number of [[Mai (Level 4)] Units] is equal to [1]>",
+	"Cannot build [Mai (Level 1)] units <when number of [[Mai (Level 5)] Units] is equal to [1]>",
+	
+	"Cannot build [Satono (Level 1)] units <when number of [[Satono (Level 2)] Units] is equal to [1]>",
+	"Cannot build [Satono (Level 1)] units <when number of [[Satono (Level 3)] Units] is equal to [1]>",
+	"Cannot build [Satono (Level 1)] units <when number of [[Satono (Level 4)] Units] is equal to [1]>",
+	"Cannot build [Satono (Level 1)] units <when number of [[Satono (Level 5)] Units] is equal to [1]>",
+	
+	"Cannot build [Seiga Kaku (Level 1)] units <when number of [[Seiga Kaku (Level 2)] Units] is equal to [1]>",
+	"Cannot build [Seiga Kaku (Level 1)] units <when number of [[Seiga Kaku (Level 3)] Units] is equal to [1]>",
+	"Cannot build [Seiga Kaku (Level 1)] units <when number of [[Seiga Kaku (Level 4)] Units] is equal to [1]>",
+	"Cannot build [Seiga Kaku (Level 1)] units <when number of [[Seiga Kaku (Level 5)] Units] is equal to [1]>",
+	
+	"Cannot build [Yoshika (Level 1)] units <when number of [[Yoshika (Level 2)] Units] is equal to [1]>",
+	"Cannot build [Yoshika (Level 1)] units <when number of [[Yoshika (Level 3)] Units] is equal to [1]>",
+	"Cannot build [Yoshika (Level 1)] units <when number of [[Yoshika (Level 4)] Units] is equal to [1]>",
+	"Cannot build [Yoshika (Level 1)] units <when number of [[Yoshika (Level 5)] Units] is equal to [1]>",
+	
+	"Cannot build [Aya Shameimaru (Level 1)] units <when number of [[Aya Shameimaru (Level 2)] Units] is equal to [1]>",
+	"Cannot build [Aya Shameimaru (Level 1)] units <when number of [[Aya Shameimaru (Level 3)] Units] is equal to [1]>",
+	"Cannot build [Aya Shameimaru (Level 1)] units <when number of [[Aya Shameimaru (Level 4)] Units] is equal to [1]>",
+	"Cannot build [Aya Shameimaru (Level 1)] units <when number of [[Aya Shameimaru (Level 5)] Units] is equal to [1]>",
+	
+	"Cannot build [Hatate Himekaidou (Level 1)] units <when number of [[Hatate Himekaidou (Level 2)] Units] is equal to [1]>",
+	"Cannot build [Hatate Himekaidou (Level 1)] units <when number of [[Hatate Himekaidou (Level 3)] Units] is equal to [1]>",
+	"Cannot build [Hatate Himekaidou (Level 1)] units <when number of [[Hatate Himekaidou (Level 4)] Units] is equal to [1]>",
+	"Cannot build [Hatate Himekaidou (Level 1)] units <when number of [[Hatate Himekaidou (Level 5)] Units] is equal to [1]>",
+	
+	"Cannot build [Wakasagihime (Level 1)] units <when number of [[Wakasagihime (Level 2)] Units] is equal to [1]>",
+	"Cannot build [Wakasagihime (Level 1)] units <when number of [[Wakasagihime (Level 3)] Units] is equal to [1]>",
+	"Cannot build [Wakasagihime (Level 1)] units <when number of [[Wakasagihime (Level 4)] Units] is equal to [1]>",
+	"Cannot build [Wakasagihime (Level 1)] units <when number of [[Wakasagihime (Level 5)] Units] is equal to [1]>",
+	
+	"Cannot build [Kagerou (Level 1)] units <when number of [[Kagerou (Level 2)] Units] is equal to [1]>",
+	"Cannot build [Kagerou (Level 1)] units <when number of [[Kagerou (Level 3)] Units] is equal to [1]>",
+	"Cannot build [Kagerou (Level 1)] units <when number of [[Kagerou (Level 4)] Units] is equal to [1]>",
+	"Cannot build [Kagerou (Level 1)] units <when number of [[Kagerou (Level 5)] Units] is equal to [1]>",
+	
+	"Cannot build [Sanae Kochiya (Level 1)] units <when number of [[Sanae Kochiya (Level 2)] Units] is equal to [1]>",
+	"Cannot build [Sanae Kochiya (Level 1)] units <when number of [[Sanae Kochiya (Level 3)] Units] is equal to [1]>",
+	"Cannot build [Sanae Kochiya (Level 1)] units <when number of [[Sanae Kochiya (Level 4)] Units] is equal to [1]>",
+	"Cannot build [Sanae Kochiya (Level 1)] units <when number of [[Sanae Kochiya (Level 5)] Units] is equal to [1]>",
+	
+	"Cannot build [Suwako Moriya (Level 1)] units <when number of [[Suwako Moriya (Level 2)] Units] is equal to [1]>",
+	"Cannot build [Suwako Moriya (Level 1)] units <when number of [[Suwako Moriya (Level 3)] Units] is equal to [1]>",
+	"Cannot build [Suwako Moriya (Level 1)] units <when number of [[Suwako Moriya (Level 4)] Units] is equal to [1]>",
+	"Cannot build [Suwako Moriya (Level 1)] units <when number of [[Suwako Moriya (Level 5)] Units] is equal to [1]>",
+	
+	"Cannot build [Kanako Yasaka (Level 1)] units <when number of [[Kanako Yasaka (Level 2)] Units] is equal to [1]>",
+	"Cannot build [Kanako Yasaka (Level 1)] units <when number of [[Kanako Yasaka (Level 3)] Units] is equal to [1]>",
+	"Cannot build [Kanako Yasaka (Level 1)] units <when number of [[Kanako Yasaka (Level 4)] Units] is equal to [1]>",
+	"Cannot build [Kanako Yasaka (Level 1)] units <when number of [[Kanako Yasaka (Level 5)] Units] is equal to [1]>",
+	
+	"Cannot build [Byakuren Hijiri (Level 1)] units <when number of [[Byakuren Hijiri (Level 2)] Units] is equal to [1]>",
+	"Cannot build [Byakuren Hijiri (Level 1)] units <when number of [[Byakuren Hijiri (Level 3)] Units] is equal to [1]>",
+	"Cannot build [Byakuren Hijiri (Level 1)] units <when number of [[Byakuren Hijiri (Level 4)] Units] is equal to [1]>",
+	"Cannot build [Byakuren Hijiri (Level 1)] units <when number of [[Byakuren Hijiri (Level 5)] Units] is equal to [1]>",
+	
+	"Cannot build [Ichirin (Level 1)] units <when number of [[Ichirin (Level 2)] Units] is equal to [1]>",
+	"Cannot build [Ichirin (Level 1)] units <when number of [[Ichirin (Level 3)] Units] is equal to [1]>",
+	"Cannot build [Ichirin (Level 1)] units <when number of [[Ichirin (Level 4)] Units] is equal to [1]>",
+	"Cannot build [Ichirin (Level 1)] units <when number of [[Ichirin (Level 5)] Units] is equal to [1]>",
+	
+	"Cannot build [Minamitsu (Level 1)] units <when number of [[Minamitsu (Level 2)] Units] is equal to [1]>",
+	"Cannot build [Minamitsu (Level 1)] units <when number of [[Minamitsu (Level 3)] Units] is equal to [1]>",
+	"Cannot build [Minamitsu (Level 1)] units <when number of [[Minamitsu (Level 4)] Units] is equal to [1]>",
+	"Cannot build [Minamitsu (Level 1)] units <when number of [[Minamitsu (Level 5)] Units] is equal to [1]>",
+	
+	"Cannot build [Shou (Level 1)] units <when number of [[Shou (Level 2)] Units] is equal to [1]>",
+	"Cannot build [Shou (Level 1)] units <when number of [[Shou (Level 3)] Units] is equal to [1]>",
+	"Cannot build [Shou (Level 1)] units <when number of [[Shou (Level 4)] Units] is equal to [1]>",
+	"Cannot build [Shou (Level 1)] units <when number of [[Shou (Level 5)] Units] is equal to [1]>",
+	
+	"Cannot build [Kyouko (Level 1)] units <when number of [[Kyouko (Level 2)] Units] is equal to [1]>",
+	"Cannot build [Kyouko (Level 1)] units <when number of [[Kyouko (Level 3)] Units] is equal to [1]>",
+	"Cannot build [Kyouko (Level 1)] units <when number of [[Kyouko (Level 4)] Units] is equal to [1]>",
+	"Cannot build [Kyouko (Level 1)] units <when number of [[Kyouko (Level 5)] Units] is equal to [1]>",
+	
+	"Cannot build [Suika Ibuki (Level 1)] units <when number of [[Suika Ibuki (Level 2)] Units] is equal to [1]>",
+	"Cannot build [Suika Ibuki (Level 1)] units <when number of [[Suika Ibuki (Level 3)] Units] is equal to [1]>",
+	"Cannot build [Suika Ibuki (Level 1)] units <when number of [[Suika Ibuki (Level 4)] Units] is equal to [1]>",
+	"Cannot build [Suika Ibuki (Level 1)] units <when number of [[Suika Ibuki (Level 5)] Units] is equal to [1]>",
+	
+	"Cannot build [Marisa Kirisame (Level 1)] units <when number of [[Marisa Kirisame (Level 2)] Units] is equal to [1]>",
+	"Cannot build [Marisa Kirisame (Level 1)] units <when number of [[Marisa Kirisame (Level 3)] Units] is equal to [1]>",
+	"Cannot build [Marisa Kirisame (Level 1)] units <when number of [[Marisa Kirisame (Level 4)] Units] is equal to [1]>",
+	"Cannot build [Marisa Kirisame (Level 1)] units <when number of [[Marisa Kirisame (Level 5)] Units] is equal to [1]>",
+	
+	"Cannot build [Nitori Kawashiro (Level 1)] units <when number of [[Nitori Kawashiro (Level 2)] Units] is equal to [1]>",
+	"Cannot build [Nitori Kawashiro (Level 1)] units <when number of [[Nitori Kawashiro (Level 3)] Units] is equal to [1]>",
+	"Cannot build [Nitori Kawashiro (Level 1)] units <when number of [[Nitori Kawashiro (Level 4)] Units] is equal to [1]>",
+	"Cannot build [Nitori Kawashiro (Level 1)] units <when number of [[Nitori Kawashiro (Level 5)] Units] is equal to [1]>",
+	
+	"Cannot build [Toyosatomimi (Level 1)] units <when number of [[Toyosatomimi (Level 2)] Units] is equal to [1]>",
+	"Cannot build [Toyosatomimi (Level 1)] units <when number of [[Toyosatomimi (Level 3)] Units] is equal to [1]>",
+	"Cannot build [Toyosatomimi (Level 1)] units <when number of [[Toyosatomimi (Level 4)] Units] is equal to [1]>",
+	"Cannot build [Toyosatomimi (Level 1)] units <when number of [[Toyosatomimi (Level 5)] Units] is equal to [1]>",
+	
+	"Cannot build [Tojiko (Level 1)] units <when number of [[Tojiko (Level 2)] Units] is equal to [1]>",
+	"Cannot build [Tojiko (Level 1)] units <when number of [[Tojiko (Level 3)] Units] is equal to [1]>",
+	"Cannot build [Tojiko (Level 1)] units <when number of [[Tojiko (Level 4)] Units] is equal to [1]>",
+	"Cannot build [Tojiko (Level 1)] units <when number of [[Tojiko (Level 5)] Units] is equal to [1]>",
+	
+	"Cannot build [Shinmyoumaru (Level 1)] units <when number of [[Shinmyoumaru (Level 2)] Units] is equal to [1]>",
+	"Cannot build [Shinmyoumaru (Level 1)] units <when number of [[Shinmyoumaru (Level 3)] Units] is equal to [1]>",
+	"Cannot build [Shinmyoumaru (Level 1)] units <when number of [[Shinmyoumaru (Level 4)] Units] is equal to [1]>",
+	"Cannot build [Shinmyoumaru (Level 1)] units <when number of [[Shinmyoumaru (Level 5)] Units] is equal to [1]>",
+	
+	"Cannot build [Seija (Level 1)] units <when number of [[Seija (Level 2)] Units] is equal to [1]>",
+	"Cannot build [Seija (Level 1)] units <when number of [[Seija (Level 3)] Units] is equal to [1]>",
+	"Cannot build [Seija (Level 1)] units <when number of [[Seija (Level 4)] Units] is equal to [1]>",
+	"Cannot build [Seija (Level 1)] units <when number of [[Seija (Level 5)] Units] is equal to [1]>",
+	
+	"Cannot build [Momiji Inubashiri (Level 1)] units <when number of [[Momiji Inubashiri (Level 2)] Units] is equal to [1]>",
+	"Cannot build [Momiji Inubashiri (Level 1)] units <when number of [[Momiji Inubashiri (Level 3)] Units] is equal to [1]>",
+	"Cannot build [Momiji Inubashiri (Level 1)] units <when number of [[Momiji Inubashiri (Level 4)] Units] is equal to [1]>",
+	"Cannot build [Momiji Inubashiri (Level 1)] units <when number of [[Momiji Inubashiri (Level 5)] Units] is equal to [1]>",
+	
+	"Cannot build [Yukari Yakumo (Level 1)] units <when number of [[Yukari Yakumo (Level 2)] Units] is equal to [1]>",
+	"Cannot build [Yukari Yakumo (Level 1)] units <when number of [[Yukari Yakumo (Level 3)] Units] is equal to [1]>",
+	"Cannot build [Yukari Yakumo (Level 1)] units <when number of [[Yukari Yakumo (Level 4)] Units] is equal to [1]>",
+	"Cannot build [Yukari Yakumo (Level 1)] units <when number of [[Yukari Yakumo (Level 5)] Units] is equal to [1]>",
+	
+	"Cannot build [Ran (Level 1)] units <when number of [[Ran (Level 2)] Units] is equal to [1]>",
+	"Cannot build [Ran (Level 1)] units <when number of [[Ran (Level 3)] Units] is equal to [1]>",
+	"Cannot build [Ran (Level 1)] units <when number of [[Ran (Level 4)] Units] is equal to [1]>",
+	"Cannot build [Ran (Level 1)] units <when number of [[Ran (Level 5)] Units] is equal to [1]>",
+	
+	"Cannot build [Chen (Level 1)] units <when number of [[Chen (Level 2)] Units] is equal to [1]>",
+	"Cannot build [Chen (Level 1)] units <when number of [[Chen (Level 3)] Units] is equal to [1]>",
+	"Cannot build [Chen (Level 1)] units <when number of [[Chen (Level 4)] Units] is equal to [1]>",
+	"Cannot build [Chen (Level 1)] units <when number of [[Chen (Level 5)] Units] is equal to [1]>",
+	
+	"Cannot build [Yuyuko Saigyouji (Level 1)] units <when number of [[Yuyuko Saigyouji (Level 2)] Units] is equal to [1]>",
+	"Cannot build [Yuyuko Saigyouji (Level 1)] units <when number of [[Yuyuko Saigyouji (Level 3)] Units] is equal to [1]>",
+	"Cannot build [Yuyuko Saigyouji (Level 1)] units <when number of [[Yuyuko Saigyouji (Level 4)] Units] is equal to [1]>",
+	"Cannot build [Yuyuko Saigyouji (Level 1)] units <when number of [[Yuyuko Saigyouji (Level 5)] Units] is equal to [1]>",
+	
+	"Cannot build [Youmu Konpaku (Level 1)] units <when number of [[Youmu Konpaku (Level 2)] Units] is equal to [1]>",
+	"Cannot build [Youmu Konpaku (Level 1)] units <when number of [[Youmu Konpaku (Level 3)] Units] is equal to [1]>",
+	"Cannot build [Youmu Konpaku (Level 1)] units <when number of [[Youmu Konpaku (Level 4)] Units] is equal to [1]>",
+	"Cannot build [Youmu Konpaku (Level 1)] units <when number of [[Youmu Konpaku (Level 5)] Units] is equal to [1]>",
+	
+	"Cannot build [Alice Margatroid (Level 1)] units <when number of [[Alice Margatroid (Level 2)] Units] is equal to [1]>",
+	"Cannot build [Alice Margatroid (Level 1)] units <when number of [[Alice Margatroid (Level 3)] Units] is equal to [1]>",
+	"Cannot build [Alice Margatroid (Level 1)] units <when number of [[Alice Margatroid (Level 4)] Units] is equal to [1]>",
+	"Cannot build [Alice Margatroid (Level 1)] units <when number of [[Alice Margatroid (Level 5)] Units] is equal to [1]>",
+	
+  
 	// Manpower
 	"[+20]% [Food] [in all cities] <when above [20] [Manpower]>",
 	"[+20]% [Production] [in all cities] <when above [15] [Manpower]>",
@@ -30,6 +327,7 @@
 	"Gain a free [Sovereign Government] [in capital] <for [City-State] Civilizations>",
 	//"[-50]% [Science] [in all cities] <for [City-State] Civilizations>",
  
+	//Vanilla
     "Gain a free [System] [in all cities]",
     "[-75]% growth [in all cities] <when between [-10] and [-1] [Happiness]> <for [non-[Hakurei Faction]] Civilizations>",
     "Nullifies Growth [in all cities] <when below [-10] [Happiness]> <for [non-[Hakurei Faction]] Civilizations>",

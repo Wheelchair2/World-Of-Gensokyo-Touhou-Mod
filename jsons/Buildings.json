@@ -20,15 +20,15 @@
 		"cost": 1,
 		"uniques": [
 					"Unbuildable <hidden from users>", "Cannot be purchased <hidden from users>", "Unsellable <hidden from users>", "Remove [Monarchy Government] [in capital] <hidden from users>",
-					"[+2 Production, +5 Food] from every specialist [in all cities] <when number of [[Annexed] Cities] is less than [4]>",
+					"[+2 Production, +5 Food] from every specialist [in all cities] <when number of [[non-[Puppeted]] Cities] is less than [4]>",
 					"Comment [------------------------------------]",
-					"Provides [5] [Manpower] <when number of [[Annexed] Cities] is less than [4]>",
+					"Provides [5] [Manpower] <when number of [[non-[Puppeted]] Cities] is less than [4]>",
 					"Comment [------------------------------------]",
-					"[+50]% growth [in all cities] <when number of [[Annexed] Cities] is less than [4]>",
+					"[+50]% growth [in all cities] <when number of [[non-[Puppeted]] Cities] is less than [4]>",
 					"Comment [------------------------------------]",
-					"[-50]% Unhappiness from [Population] [in all cities] <when number of [[Annexed] Cities] is less than [4]>",
+					"[-50]% Unhappiness from [Population] [in all cities] <when number of [[non-[Puppeted]] Cities] is less than [4]>",
 					"Comment [------------------------------------]",
-				"Cannot build [Settler] units <when number of [[Annexed] Cities] is more than [3]>",
+				"Cannot build [Settler] units <when number of [[non-[Puppeted]] Cities] is more than [3]>",
 				"May not annex cities <for [AI player] Civilizations>"
 		]
 	},

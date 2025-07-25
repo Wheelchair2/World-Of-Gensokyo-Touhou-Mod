@@ -335,7 +335,7 @@
 	{
 		"name": "Ice Fairy",
 		"uniques": [
-			"Apparition",
+			"Apparition <hidden from users>",
 			"Fairy",
 			"Youkai",
 			"Unit will heal every turn, even if it performs an action",
@@ -485,11 +485,11 @@
 	},
 	{
 		"name": "Confused",
-		"uniques": ["[-10]% Strength", "[-20]% Strength <vs [Seija] units>"]
+		"uniques": ["[-10]% Strength", "[-20]% Strength <vs [Seija Hero] units>"]
 	},
 	{
 		"name": "Confused II",
-		"uniques": ["[-20]% Strength", "[-50]% Strength <vs [Seija] units>"]
+		"uniques": ["[-20]% Strength", "[-50]% Strength <vs [Seija Hero] units>"]
 	},
 	{
 		"name": "Prepared",
