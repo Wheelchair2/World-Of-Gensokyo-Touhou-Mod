@@ -2821,6 +2821,125 @@
 		]
 	},
 	
+	// Meiling
+{
+		"name": "Meiling (Level 1)",
+		"uniqueTo": "Fated Kingdom",
+		"unitType": "Fighter Hero",
+		"movement": 2,
+		"strength": 17,
+		"cost": 125,
+		"upgradesTo": "Meiling (Level 2)",
+		"attackSound": "nonmetalhit",
+		"uniques": [ "Level 1 <hidden from users>",
+			"Comment [──────★]",
+			"Hero",
+			"Comment [──────★]",
+			"Limited to [1] per Civilization <hidden from users>",
+			"Comment [Hero units can upgrade after each era]",
+			"Meiling Hero",
+			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
+			
+			"[+30]% Strength <when fighting in [Friendly Land] tiles>",
+			
+			"[This Unit] loses the [Vampire] promotion <hidden from users>",
+			"[This Unit] gains the [Martial Artist] promotion <hidden from users>",
+			
+			"Never appears as a Barbarian unit"
+		]
+	},
+	{
+		"name": "Meiling (Level 2)",
+		"unitType": "Fighter Hero",
+		"movement": 2,
+		"strength": 27,
+		"cost": 280,
+		"upgradesTo": "Meiling (Level 3)",
+		"attackSound": "nonmetalhit",
+		"uniques": [ "Level 2 <hidden from users>",
+			"Comment [──────★]",
+			"Hero",
+			"Comment [──────★]",
+			"Limited to [1] per Civilization <hidden from users>",
+			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
+			"Comment [Hero units can upgrade after each era]",
+			"Meiling Hero",
+			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
+			
+			"[+30]% Strength <when fighting in [Friendly Land] tiles>",
+			
+			"Never appears as a Barbarian unit"
+		]
+	},
+	{
+		"name": "Meiling (Level 3)",
+		"unitType": "Fighter Hero",
+		"movement": 2,
+		"strength": 74,
+		"cost": 450,
+		"upgradesTo": "Meiling (Level 4)",
+		"attackSound": "nonmetalhit",
+		"uniques": [ "Level 3 <hidden from users>",
+			"Comment [──────★]",
+			"Hero",
+			"Comment [──────★]",
+			"Limited to [1] per Civilization <hidden from users>",
+			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
+			"Comment [Hero units can upgrade after each era]",
+			"Meiling Hero",
+			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
+			
+			"[+30]% Strength <when fighting in [Friendly Land] tiles>",
+			
+			"Never appears as a Barbarian unit"
+		]
+	},
+	{
+		"name": "Meiling (Level 4)",
+		"unitType": "Fighter Hero",
+		"movement": 2,
+		"strength": 86,
+		"cost": 900,
+		"upgradesTo": "Meiling (Level 5)",
+		"attackSound": "nonmetalhit",
+		"uniques": [ "Level 4 <hidden from users>",
+			"Comment [──────★]",
+			"Hero",
+			"Comment [──────★]",
+			"Limited to [1] per Civilization <hidden from users>",
+			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
+			"Comment [Hero units can upgrade after each era]",
+			"Meiling Hero",
+			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
+			
+			"[+30]% Strength <when fighting in [Friendly Land] tiles>",
+			
+			"Never appears as a Barbarian unit"
+		]
+	},
+	{
+		"name": "Meiling (Level 5)",
+		"unitType": "Fighter Hero",
+		"movement": 2,
+		"strength": 90,
+		"cost": 1200,
+		"attackSound": "nonmetalhit",
+		"uniques": [ "Level 5 <hidden from users>",
+			"Comment [──────★]",
+			"Hero",
+			"Comment [──────★]",
+			"Limited to [1] per Civilization <hidden from users>",
+			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
+			"Comment [Hero units can upgrade after each era]",
+			"Meiling Hero",
+			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
+			
+			"[+60]% Strength <when fighting in [Friendly Land] tiles>",
+			
+			"Never appears as a Barbarian unit"
+		]
+	},
+	
 		// Sakuya Izayoi
 	{
 		"name": "Sakuya Izayoi (Level 1)",
@@ -6936,7 +7055,7 @@
 	},
 	
 	// Seija
-{
+	{
 		"name": "Seija (Level 1)",
 		"uniqueTo": "Shining Needle Castle",
 		"unitType": "Fighter Hero",

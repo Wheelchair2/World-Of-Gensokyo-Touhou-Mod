@@ -476,6 +476,13 @@
 			"Withdraws before melee combat <with [20]% chance>"
 		]
 	},
+	{
+		"name": "Martial Artist",
+		"uniques": [
+			"Supplementary",
+			"[+10]% Strength"
+		]
+	},
 	
 	
 	// Status Promotions
