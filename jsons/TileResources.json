@@ -370,6 +370,7 @@
 		"name": "Wonder Slot", // For Natural Wonders Improvement
 		"resourceType": "Strategic",
 		"uniques": [
+			"Not shown on world screen",
 			"Cannot be traded",
 			"Excluded from map editor"
 		]
@@ -553,7 +554,7 @@
 		"resourceType": "Luxury",
 		"uniques": [
 			"Not shown on world screen",
-			"Earn [50]% of killed [Military] unit's [Strength] as [Gold] <for [All] units>",
+			"Earn [100]% of killed [Military] unit's [Cost] as [Gold] <for [All] units>",
 			"Comment [(Cards don't give any Happiness, except in Easy difficulty)]",
 			"[-4 Happiness] <hidden from users>",
 			"Excluded from map editor"

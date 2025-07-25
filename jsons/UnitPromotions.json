@@ -1,4 +1,168 @@
 [
+	// Hero Promotions
+	{
+		"name": "Studious I",
+		"uniques": ["[This Unit] gains [+1] XP <upon turn end>", "Not shown on world screen"],
+		"unitTypes": ["Fighter Hero", "Support Hero"],
+        "column": 27,
+        "row": 2
+    },
+	{
+		"name": "Studious II",
+		"prerequisites": ["Studious I"],
+		"uniques": ["[This Unit] gains [+1] XP <upon turn end>", "Not shown on world screen"],
+		"unitTypes": ["Fighter Hero", "Support Hero"],
+        "column": 28,
+        "row": 2
+    },
+	{
+		"name": "Studious III",
+		"prerequisites": ["Studious II"],
+		"uniques": ["[This Unit] gains [+1] XP <upon turn end>", "Not shown on world screen"],
+		"unitTypes": ["Fighter Hero", "Support Hero"],
+        "column": 29,
+        "row":  2
+    },
+	
+	{
+		"name": "Harass I",
+		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
+		"unitTypes": ["Support Hero"],
+        "column": 27,
+        "row": 4
+    },
+	{
+		"name": "Harass II",
+		"prerequisites": ["Harass I"],
+		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
+		"unitTypes": ["Support Hero"],
+        "column": 28,
+        "row": 4
+    },
+	{
+		"name": "Harass III",
+		"prerequisites": ["Harass II"],
+		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
+		"unitTypes": ["Support Hero"],
+        "column": 29,
+        "row":  4
+    },
+	
+	{
+		"name": "Offense I",
+		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
+		"unitTypes": ["Fighter Hero"],
+        "column": 30,
+        "row": 4
+    },
+	{
+		"name": "Offense II",
+		"prerequisites": ["Offense I"],
+		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
+		"unitTypes": ["Fighter Hero"],
+        "column": 31,
+        "row": 4
+    },
+	{
+		"name": "Offense III",
+		"prerequisites": ["Offense II"],
+		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
+		"unitTypes": ["Fighter Hero"],
+        "column": 32,
+        "row":  4
+    },
+	
+	{
+		"name": "Incursion",
+		"prerequisites": ["Harass III"],
+		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
+		"unitTypes": ["Support Hero"],
+        "column": 30,
+        "row":  5
+    },
+	{
+		"name": "Sniping",
+		"prerequisites": ["Harass III", "Offense III", "Studious III"],
+		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
+		"unitTypes": ["Fighter Hero", "Support Hero"],
+        "column": 33,
+        "row":  1
+    },
+	{
+		"name": "Versatility",
+		"prerequisites": ["Harass III", "Offense III", "Studious III"],
+		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
+		"unitTypes": ["Fighter Hero", "Support Hero"],
+        "column": 33,
+        "row":  3
+    },
+	{
+		"name": "Blitzgrieg",
+		"prerequisites": ["Offense III"],
+		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
+		"unitTypes": ["Fighter Hero"],
+        "column": 33,
+        "row":  5
+    },
+	{
+		"name": "Dexterity I",
+		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
+		"prerequisites": ["Sniping", "Versatility", "Blitzgrieg", "Incursion"],
+		"unitTypes": ["Support Hero"],
+        "column": 34,
+        "row": 2
+    },
+	{
+		"name": "Dexterity II",
+		"prerequisites": ["Dexterity I"],
+		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
+		"unitTypes": ["Support Hero"],
+        "column": 35,
+        "row": 2
+    },
+	{
+		"name": "Dexterity III",
+		"prerequisites": ["Dexterity II"],
+		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
+		"unitTypes": ["Support Hero"],
+        "column": 36,
+        "row":  3
+    },
+	{
+		"name": "Wielding I",
+		"prerequisites": ["Sniping", "Versatility", "Blitzgrieg", "Incursion"],
+		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
+		"unitTypes": ["Fighter Hero"],
+        "column": 37,
+        "row": 3
+    },
+	{
+		"name": "Wielding II",
+		"prerequisites": ["Wielding I"],
+		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
+		"unitTypes": ["Fighter Hero"],
+        "column": 38,
+        "row": 3
+    },
+	{
+		"name": "Wielding III",
+		"prerequisites": ["Wielding II"],
+		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
+		"unitTypes": ["Fighter Hero"],
+        "column": 39,
+        "row":  3
+    },
+	{
+		"name": "Mastery",
+		"prerequisites": ["Wielding III", "Dexterity III"],
+		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
+		"unitTypes": ["Fighter Hero", "Support Hero"],
+        "column": 40,
+        "row":  3
+    },
+	
+	//////////////////////////////////////////////////////////////////////
+	
 	{
 		"name": "Heal Instantly",
 		"uniques": [
@@ -164,9 +328,169 @@
  		"uniques": ["Spirit", "Ignores Zone of Control"]
 	},
 	*/
-	// Old Promotions
+	// Base Promotions
+	
+	// Extra Hero Promotions
+	
+	{
+		"name": "Ice Fairy",
+		"uniques": [
+			"Apparition",
+			"Fairy",
+			"Youkai",
+			"Unit will heal every turn, even if it performs an action",
+			"[Target Unit] gains the [Slowed] status for [3] turn(s) <upon damaging a [All] unit>"
+		]
+	},
+	{
+		"name": "Goddess",
+		"uniques": [
+			"Racial",
+			"[+5] HP when healing",
+			"[+20]% Strength"
+		]
+	},
+	{
+		"name": "Hourai Immortal",
+		"uniques": [
+			"Racial",
+			"[This Unit] heals [2] HP <upon losing at least [1] HP in a single attack>"
+		]
+	},
+	{
+		"name": "Komainu",
+		"uniques": [
+			"Apparition",
+			"[+10]% Strength <when defending>"
+		]
+	},
+	{
+		"name": "Maid",
+		"uniques": [
+			"Racial",
+			"Can build [Land] improvements on tiles"
+		]
+	},
+	{
+		"name": "Witch",
+		"uniques": [
+			"Racial",
+			"Magician",
+			"Youkai",
+			"[+10]% Strength <when attacking>"
+		]
+	},
+	{
+		"name": "Were-Hakutaku",
+		"uniques": [
+			"Racial",
+			"[+10]% Strength"
+		]
+	},
+	{
+		"name": "Half-Human",
+		"uniques": [
+			"Racial",
+			"Youkai"
+		]
+	},
+	{
+		"name": "Hermit",
+		"uniques": [
+			"Racial",
+			"[This Unit] gains [1] XP <upon turn end>"
+		]
+	},
+	{
+		"name": "Sage",
+		"uniques": [
+			"Supplementary",
+			"[This Unit] gains [1] XP <upon turn end>"
+		]
+	},
+	{
+		"name": "Shikigami",
+		"uniques": [
+			"Racial",
+			"Ignores Zone of Control"
+		]
+	},
+	{
+		"name": "Werewolf",
+		"uniques": [
+			"Racial",
+			"[+10]% Strength <when attacking>"
+		]
+	},
+	{
+		"name": "Buddhist Magician",
+		"uniques": [
+			"Magician",
+			"[+10]% Strength"
+		]
+	},
+	{
+		"name": "Yamabiko",
+		"uniques": [
+			"Racial",
+			"[+1] Sight"
+		]
+	},
+	{
+		"name": "Avatar Of Bishamonten",
+		"uniques": [
+			"Supplementary",
+			"[+5]% Strength"
+		]
+	},
+	{
+		"name": "Spirit Princess",
+		"uniques": [
+			"Apparition",
+			"Ignores terrain cost",
+			"Can pass through impassable tiles",
+			"Ignores Zone of Control",
+			"May capture killed [Land] units"
+		]
+	},
+	{
+		"name": "Half-Human Half-Phantom",
+		"uniques": [
+			"Apparition",
+			"Ignores Zone of Control"
+		]
+	},
+	{
+		"name": "Inchling",
+		"uniques": [
+			"Racial",
+			"[-20]% Strength",
+			"[+1] additional attacks per turn",
+			"Can move after attacking"
+		]
+	},
+	{
+		"name": "Amanojaku",
+		"uniques": [
+			"Racial",
+			"Withdraws before melee combat <with [20]% chance>"
+		]
+	},
+	
 	
 	// Status Promotions
+	{
+		"name": "Slowed",
+		"uniques": ["[-1] Movement"]
+	},
+	{
+		"name": "Confused",
+		"uniques": ["[-10]% Strength", "[-20]% Strength <vs [Seija] units>"]
+	},
+	{
+		"name": "Confused II",
+		"uniques": ["[-20]% Strength", "[-50]% Strength <vs [Seija] units>"]
+	},
 	{
 		"name": "Prepared",
 		"uniques": ["[+30]% Strength"]
@@ -188,23 +512,23 @@
 		"uniques": ["[+5] Movement", "Ignores Zone of Control", "Can move after attacking"]
 	},
 	{
-		"name": "Shikigami (Level 1)",
+		"name": "Shikigami Summoning (Level 1)",
 		"uniques": ["Free [Kitsune Summon (Level 1)] appears"]
 	},
 	{
-		"name": "Shikigami (Level 2)",
+		"name": "Shikigami Summoning (Level 2)",
 		"uniques": ["Free [Kitsune Summon (Level 2)] appears"]
 	},
 	{
-		"name": "Shikigami (Level 3)",
+		"name": "Shikigami Summoning (Level 3)",
 		"uniques": ["Free [Kitsune Summon (Level 3)] appears"]
 	},
 	{
-		"name": "Shikigami (Level 4)",
+		"name": "Shikigami Summoning (Level 4)",
 		"uniques": ["Free [Kitsune Summon (Level 4)] appears"]
 	},
 	{
-		"name": "Shikigami (Level 5)",
+		"name": "Shikigami Summoning (Level 5)",
 		"uniques": ["Free [Kitsune Summon (Level 5)] appears"]
 	},
 	
@@ -213,6 +537,7 @@
 		"name": "Fairy",
 		"uniques": [
 			"Apparition",
+			"Youkai",
 			"Unit will heal every turn, even if it performs an action",
 			"[-5] HP when healing",
 			"[-5] HP when healing <in [Friendly Land] tiles>"
@@ -312,7 +637,11 @@
 	},
 	{
 		"name": "Celestial",
-		"uniques": ["Racial"]
+		"uniques": [
+				"Racial",
+				"[+10]% Strength decreasing with distance from the capital",
+				"[-10]% Strength <vs [Youkai] units>"
+			]
 	},
 	{
 		"name": "Dark Youkai",

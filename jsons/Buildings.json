@@ -36,13 +36,12 @@
 	},
 	{
 		"name": "Monument",
+		"isNationalWonder": true,
 		"culture": 5,
-		"cost": 120,
-		"hurryCostModifier": 25,
-		"maintenance": 1,
-		//"uniques": ["Comment [+1 XP per turn for Hero units]"]
+		"cost": 125,
+		"uniques": ["Comment [+1 XP per turn for Hero units]", "Cost increases by [50] per owned city"]
 	},
-	{ //not always available 
+	{
 		"name": "Granary",
 		"specialistSlots": {
 					"Cook": 2
@@ -522,7 +521,23 @@
 		"quote": "'Let's see... How to take out the black thing in front of me without having to do anything...' - Patchouli to Marisa."
 	},
 	*/
+	
 	// Normal Buildings And Wonders
+	
+	{ //YUYUKO
+		"name": "Resurrection Butterfly",
+		"isNationalWonder": true,
+		"percentStatBonus": {
+			"culture": 20,
+			"production": 10,
+		},
+		"uniqueTo": "The Netherworld",
+		"cost": 125,
+		"uniques": [
+			"Unsellable",
+			"Cost increases by [200] per owned city"
+		]
+	},
 	{
 		"name": "Aqueduct",
 		"specialistSlots": {

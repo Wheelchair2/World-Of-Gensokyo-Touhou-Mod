@@ -3,12 +3,20 @@
   { 
     "name": "Fighter Hero",
     "movementType": "Land",
-	"uniques": ["[+25]% Strength <vs [non-[Hero]] units>"]
+	"uniques": [
+		"[This Unit] gains [1] XP <upon turn end> <if [Monument] is constructed> <hidden from users>",
+		"Consumes [3] [Manpower] <when number of [[Hero] Units] is equal to [1]>", "Consumes [2] [Manpower] <when number of [[Hero] Units] is equal to [2]>", "Consumes [1] [Manpower] <when number of [[Hero] Units] is more than [2]>",
+		"[+25]% Strength <vs [non-[Hero]] units>", "[+3000]% Gold cost of upgrading"
+	]
   },
   {
     "name": "Support Hero",
     "movementType": "Land"
-	"uniques": ["[+10]% Strength <vs [non-[Hero]] units>"]
+	"uniques": [
+		"[This Unit] gains [1] XP <upon turn end> <if [Monument] is constructed> <hidden from users>",
+		"Consumes [3] [Manpower] <when number of [[Hero] Units] is equal to [1]>", "Consumes [2] [Manpower] <when number of [[Hero] Units] is equal to [2]>", "Consumes [1] [Manpower] <when number of [[Hero] Units] is more than [2]>",
+		"[+10]% Strength <vs [non-[Hero]] units>", "[+3000]% Gold cost of upgrading"
+	]
   },
   
   /////////
