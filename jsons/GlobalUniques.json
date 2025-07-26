@@ -308,6 +308,7 @@
 	"[-30]% Strength <for [Military] units> <when below [0] [Manpower]>",
 	
 	//Government mechanic
+	"May not annex cities <for [AI player] Civilizations> <if [Monarchy Government] is constructed>",
 	"May buy [Change Government] buildings for [500] [Gold] [in capital] <during the [Youkai Expansion Project]>",
 	"May buy [Change Government] buildings for [1000] [Gold] [in capital] <during the [Edo period]>",
 	"May buy [Change Government] buildings for [3000] [Gold] [in capital] <during the [Meiji era]>",
@@ -321,8 +322,8 @@
 	"[+50]% Strength <for [Hero] units> <when number of [[Hero] Units] is equal to [1]>",
 	
 	// City-State adjustment
-	"[-50]% [Production] [in all cities] <for [City-State] Civilizations> <starting from the [Edo period]>",
-	"[-100]% growth [in all cities] <for [City-State] Civilizations>",
+	"[-30]% [Production] [in all cities] <for [City-State] Civilizations> <starting from the [Edo period]>",
+	"[-70]% growth [in all cities] <for [City-State] Civilizations>",
 	"Gain a free [Sovereign Government] [in capital] <for [City-State] Civilizations>",
 	//"[-50]% [Science] [in all cities] <for [City-State] Civilizations>",
  
@@ -335,6 +336,8 @@
     "Cannot build [Settler] units <when below [-10] [Happiness]> <for [non-[Hakurei Faction]] Civilizations>",
     "Rebel units may spawn <when below [-20] [Happiness]> <for [non-[Hakurei Faction]] Civilizations>",
     "[-1] Sight <for [Embarked] units>",
+	
+	// From tech tree
     "[-50]% Strength <for [Military] units> <vs [Military] units> <before discovering [Professional Army]>",
     "[-1] Movement <for [Water] units> <in [Ocean] tiles> <before discovering [Navigation]>",
     "Cannot build [Ingredient] units <in cities without a [Perfect Beer Program]>",
@@ -347,7 +350,8 @@
       "[-3] Movement <for [Winged] units> <when adjacent to a [Bird Net] unit>",
       "[-3] Movement <for [Mermaid] units> <when adjacent to a [Mermaid Net] unit>",
     */
-    //Ability Card triggerable uniques OLD
+	
+    //Ability Card triggerable uniques (OBSOLETE)
     //"[1] free [Shanghai Labor Doll] units appear <with [Ability Card; Shanghai Doll]>",
     //"Gain [300]-[500] [Gold] <with [Ability Card; Princess Kaguya's Secret Stash]>",
     //"Gain [250] [Gold] <upon entering a Golden Age> <with [Ability Card; Item Season]>"

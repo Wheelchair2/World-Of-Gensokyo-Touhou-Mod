@@ -28,8 +28,7 @@
 					"Comment [------------------------------------]",
 					"[-50]% Unhappiness from [Population] [in all cities] <when number of [[non-[Puppeted]] Cities] is less than [4]>",
 					"Comment [------------------------------------]",
-				"Cannot build [Settler] units <when number of [[non-[Puppeted]] Cities] is more than [3]>",
-				"May not annex cities <for [AI player] Civilizations>"
+				"Cannot build [Settler] units <when number of [[non-[Puppeted]] Cities] is more than [3]>"
 		]
 	},
 	{
@@ -1559,7 +1558,7 @@
 		"cost": 125,
 		"isNationalWonder": true,
 		"uniques": [
-			"[-50]% unhappiness from the number of cities",
+			"[-20]% Unhappiness from [Population] [in all non-occupied cities]",
 			"Cost increases by [200] per owned city"
 		],
 		"requiredTech": "Law And Order"
@@ -1949,7 +1948,8 @@
 		"name": "Major Religions In Gensokyo",
 		"cost": 1,
 		"uniques": [
-			"Unbuildable",
+			"Unsellable",
+			"Unbuildable <hidden from users>",
 			"Only available <when religion is enabled>"
 		]
 	},
@@ -1962,7 +1962,8 @@
 			"Automatically built in all cities where it is buildable",
 			"Comment [-1 [Gold] +2 [Faith] from every [Donation Box] increasing for each city with a [Hakurei Shrine]]",
 			"[-1 Gold, +2 Faith] from every [Donation Box] <hidden from users>",
-			"Unsellable"
+			"Unsellable",
+			"Only available <when religion is enabled>"
 		]
 	},
 	{
@@ -1973,7 +1974,8 @@
 		"uniques": [
 			"Automatically built in all cities where it is buildable",
 			"[10]% Great Person generation [in this city]",
-			"Unsellable"
+			"Unsellable",
+			"Only available <when religion is enabled>"
 		]
 	},
 	{
@@ -1984,6 +1986,7 @@
 		"uniques": [
 			"Automatically built in all cities where it is buildable",
 			"Unsellable",
+			"Only available <when religion is enabled>",
 			"Comment [+1 [Science] for every known Natural Wonder increasing by 1 [Science] for each city with this building constructed]",
 			"[+1 Science] for every known Natural Wonder <hidden from users>"
 		]
@@ -1996,6 +1999,7 @@
 		"uniques": [
 			"Automatically built in all cities where it is buildable",
 			"Unsellable",
+			"Only available <when religion is enabled>",
 			"[20]% Natural religion spread [in this city]"
 		]
 	},
@@ -2007,6 +2011,7 @@
 		"uniques": [
 			"Automatically built in all cities where it is buildable",
 			"Unsellable",
+			"Only available <when religion is enabled>",
 			"[+2 Faith] from every specialist [in this city]"
 		]
 	},
@@ -2023,7 +2028,7 @@
 	{
 		"name": "Temple",
 		"specialistSlots": {
-			"Priestess": 1
+			"Priestess": 2
 		},
 		"faith": 2,
 		"cost": 100,

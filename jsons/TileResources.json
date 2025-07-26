@@ -18,7 +18,7 @@
 		"food": 1,
 		"improvement": "Pasture",
 		"improvementStats": {
-			"production": 1
+			"production": 2
 		},
 		"uniques": [
 			"Generated on every [18] tiles <in [{Featureless} {Grassland}] tiles>",
@@ -32,7 +32,7 @@
 		"food": 1,
 		"improvement": "Pasture",
 		"improvementStats": {
-			"food": 1
+			"food": 2
 		},
 		"uniques": [
 			"Generated on every [13] tiles <in [Hill] tiles> <in tiles without [Forest]> <in tiles without [Jungle]>",
@@ -49,7 +49,7 @@
 		"food": 1,
 		"improvement": "Camp",
 		"improvementStats": {
-			"production": 1
+			"production": 2
 		},
 		"uniques": [
 			"Generated on every [8] tiles <in [{Tundra} {Forest}] tiles>",
@@ -104,7 +104,7 @@
 		"production": 1,
 		"improvement": "Quarry",
 		"improvementStats": {
-			"production": 1
+			"production": 3
 		},
 		"uniques": [
 			"Generated on every [20] tiles <in [{Featureless} {Grassland}] tiles> <in tiles without [Fresh Water]>",
@@ -145,7 +145,7 @@
 		"production": 1,
 		"improvement": "Pasture",
 		"improvementStats": {
-			"production": 1
+			"production": 2
 		},
 		"uniques": [
 			"Guaranteed with Strategic Balance resource option",
@@ -477,7 +477,7 @@
 		"resourceType": "Luxury",
 		"uniques": [
 			"Not shown on world screen",
-			"[+1 Gold, +4 Production, +4 Food] from [Mountain] tiles [in all cities]",
+			"[+1 Gold, +10 Production, +5 Food] from [Mountain] tiles [in all cities]",
 			"[+1] Sight <for [Scout] units>",
 			"Comment [(Cards don't give any Happiness, except in Easy difficulty)]",
 			"[-4 Happiness] <hidden from users>",
@@ -588,7 +588,7 @@
 		"resourceType": "Luxury",
 		"uniques": [
 			"Not shown on world screen",
-			"Gifts of Gold to City-States generate [20]% more Influence",
+			"Gifts of Gold to City-States generate [100]% more Influence",
 			"[+40]% Strength <for [Military] units> <vs [Barbarian] units>",
 			"Comment [(Cards don't give any Happiness, except in Easy difficulty)]",
 			"[-4 Happiness] <hidden from users>",
@@ -776,8 +776,8 @@
 		"resourceType": "Luxury",
 		"uniques": [
 			"Not shown on world screen",
-			"[+1 Happiness] [in all cities]",
-			"Comment [Gain 250 [Gold] upon entering a Golden Age]",
+			"[+10 Happiness] [in all cities]",
+			"Comment [Gain 500 [Gold] upon entering a Golden Age]",
 			"Comment [(Cards don't give any Happiness, except in Easy difficulty)]",
 			"[-4 Happiness] <hidden from users>",
 			"Excluded from map editor"

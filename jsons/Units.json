@@ -1607,16 +1607,16 @@
 	
 	
 	
-		// Eirin Yagakoro
+		// Eirin Yagokoro
 	{
-		"name": "Eirin Yagakoro (Level 1)",
+		"name": "Eirin Yagokoro (Level 1)",
 		"uniqueTo": "Eientei Residents",
 		"unitType": "Fighter Hero",
 		"movement": 2,
 		"strength": 7,
 		"rangedStrength": 11,
 		"cost": 125,
-		"upgradesTo": "Eirin Yagakoro (Level 2)",
+		"upgradesTo": "Eirin Yagokoro (Level 2)",
 		"attackSound": "nonmetalhit",
 		"uniques": [ "Level 1 <hidden from users>",
 			"Comment [──────★]",
@@ -1624,7 +1624,7 @@
 			"Comment [──────★]",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Comment [Hero units can upgrade after each era]",
-			"Eirin Yagakoro Hero",
+			"Eirin Yagokoro Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
 			
 			"[This Unit] heals [2] HP <upon damaging a [Military] unit>",
@@ -1635,13 +1635,13 @@
 		]
 	},
 	{
-		"name": "Eirin Yagakoro (Level 2)",
+		"name": "Eirin Yagokoro (Level 2)",
 		"unitType": "Fighter Hero",
 		"movement": 2,
 		"strength": 17,
 		"rangedStrength": 27,
 		"cost": 280,
-		"upgradesTo": "Eirin Yagakoro (Level 3)",
+		"upgradesTo": "Eirin Yagokoro (Level 3)",
 		"attackSound": "nonmetalhit",
 		"uniques": [ "Level 2 <hidden from users>",
 			"Comment [──────★]",
@@ -1650,7 +1650,7 @@
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
-			"Eirin Yagakoro Hero",
+			"Eirin Yagokoro Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
 			
 			"[This Unit] heals [2] HP <upon damaging a [Military] unit>",
@@ -1659,13 +1659,13 @@
 		]
 	},
 	{
-		"name": "Eirin Yagakoro (Level 3)",
+		"name": "Eirin Yagokoro (Level 3)",
 		"unitType": "Fighter Hero",
 		"movement": 2,
 		"strength": 64,
 		"rangedStrength": 74,
 		"cost": 450,
-		"upgradesTo": "Eirin Yagakoro (Level 4)",
+		"upgradesTo": "Eirin Yagokoro (Level 4)",
 		"attackSound": "nonmetalhit",
 		"uniques": [ "Level 3 <hidden from users>",
 			"Comment [──────★]",
@@ -1674,7 +1674,7 @@
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
-			"Eirin Yagakoro Hero",
+			"Eirin Yagokoro Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
 			
 			"[This Unit] heals [2] HP <upon damaging a [Military] unit>",
@@ -1683,13 +1683,13 @@
 		]
 	},
 	{
-		"name": "Eirin Yagakoro (Level 4)",
+		"name": "Eirin Yagokoro (Level 4)",
 		"unitType": "Fighter Hero",
 		"movement": 2,
 		"strength": 74,
 		"rangedStrength": 86,
 		"cost": 900,
-		"upgradesTo": "Eirin Yagakoro (Level 5)",
+		"upgradesTo": "Eirin Yagokoro (Level 5)",
 		"attackSound": "nonmetalhit",
 		"uniques": [ "Level 4 <hidden from users>",
 			"Comment [──────★]",
@@ -1698,7 +1698,7 @@
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
-			"Eirin Yagakoro Hero",
+			"Eirin Yagokoro Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
 			
 			"[This Unit] heals [2] HP <upon damaging a [Military] unit>",
@@ -1707,7 +1707,7 @@
 		]
 	},
 	{
-		"name": "Eirin Yagakoro (Level 5)",
+		"name": "Eirin Yagokoro (Level 5)",
 		"unitType": "Fighter Hero",
 		"movement": 2,
 		"strength": 84,
@@ -1721,7 +1721,7 @@
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
 			"Comment [Hero units can upgrade after each era]",
-			"Eirin Yagakoro Hero",
+			"Eirin Yagokoro Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
 			
 			"[This Unit] heals [5] HP <upon damaging a [Military] unit>",
@@ -5237,7 +5237,7 @@
 	},
 	
 	// Suika Ibuki
-{
+	{
 		"name": "Suika Ibuki (Level 1)",
 		"uniqueTo": "Oni Clans",
 		"unitType": "Fighter Hero",
@@ -5356,9 +5356,132 @@
 			"Never appears as a Barbarian unit"
 		]
 	},
+	// Yuugi
+{
+		"name": "Yuugi (Level 1)",
+		"uniqueTo": "Oni Clans",
+		"unitType": "Fighter Hero",
+		"movement": 2,
+		"strength": 17,
+		"cost": 125,
+		"upgradesTo": "Yuugi (Level 2)",
+		"attackSound": "nonmetalhit",
+		"uniques": [ "Level 1 <hidden from users>",
+			"Comment [──────★]",
+			"Hero",
+			"Comment [──────★]",
+			"Limited to [1] per Civilization <hidden from users>",
+			"Comment [Hero units can upgrade after each era]",
+			"Yuugi Hero",
+			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
+			
+			"[+25]% Strength",
+			"[+10] HP when healing",
+			
+			"[This Unit] loses the [Vampire] promotion <hidden from users>",
+			"[This Unit] gains the [Martial Artist] promotion <hidden from users>",
+			
+			"Never appears as a Barbarian unit"
+		]
+	},
+	{
+		"name": "Yuugi (Level 2)",
+		"unitType": "Fighter Hero",
+		"movement": 2,
+		"strength": 27,
+		"cost": 280,
+		"upgradesTo": "Yuugi (Level 3)",
+		"attackSound": "nonmetalhit",
+		"uniques": [ "Level 2 <hidden from users>",
+			"Comment [──────★]",
+			"Hero",
+			"Comment [──────★]",
+			"Limited to [1] per Civilization <hidden from users>",
+			"Unavailable <before the [Edo period]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
+			"Comment [Hero units can upgrade after each era]",
+			"Yuugi Hero",
+			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
+			
+			"[+25]% Strength",
+			"[+10] HP when healing",
+			
+			"Never appears as a Barbarian unit"
+		]
+	},
+	{
+		"name": "Yuugi (Level 3)",
+		"unitType": "Fighter Hero",
+		"movement": 2,
+		"strength": 74,
+		"cost": 450,
+		"upgradesTo": "Yuugi (Level 4)",
+		"attackSound": "nonmetalhit",
+		"uniques": [ "Level 3 <hidden from users>",
+			"Comment [──────★]",
+			"Hero",
+			"Comment [──────★]",
+			"Limited to [1] per Civilization <hidden from users>",
+			"Unavailable <before the [Meiji era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
+			"Comment [Hero units can upgrade after each era]",
+			"Yuugi Hero",
+			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
+			
+			"[+25]% Strength",
+			"[+10] HP when healing",
+			
+			"Never appears as a Barbarian unit"
+		]
+	},
+	{
+		"name": "Yuugi (Level 4)",
+		"unitType": "Fighter Hero",
+		"movement": 2,
+		"strength": 86,
+		"cost": 900,
+		"upgradesTo": "Yuugi (Level 5)",
+		"attackSound": "nonmetalhit",
+		"uniques": [ "Level 4 <hidden from users>",
+			"Comment [──────★]",
+			"Hero",
+			"Comment [──────★]",
+			"Limited to [1] per Civilization <hidden from users>",
+			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
+			"Comment [Hero units can upgrade after each era]",
+			"Yuugi Hero",
+			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
+			
+			"[+25]% Strength",
+			"[+10] HP when healing",
+			
+			"Never appears as a Barbarian unit"
+		]
+	},
+	{
+		"name": "Yuugi (Level 5)",
+		"unitType": "Fighter Hero",
+		"movement": 2,
+		"strength": 90,
+		"cost": 1200,
+		"attackSound": "nonmetalhit",
+		"uniques": [ "Level 5 <hidden from users>",
+			"Comment [──────★]",
+			"Hero",
+			"Comment [──────★]",
+			"Limited to [1] per Civilization <hidden from users>",
+			"Unavailable <before the [Modern era]>", "Unbuildable", "Will not be displayed in Civilopedia", "Cannot be purchased",
+			"Comment [Hero units can upgrade after each era]",
+			"Yuugi Hero",
+			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
+			
+			"[+45]% Strength",
+			"[+30] HP when healing",
+			
+			"Never appears as a Barbarian unit"
+		]
+	},
 	
 	// Wakasagihime
-{
+	{
 		"name": "Wakasagihime (Level 1)",
 		"uniqueTo": "Mermaids Of The Lake",
 		"unitType": "Fighter Hero",
@@ -5479,7 +5602,7 @@
 	},
 	
 	// Kagerou
-{
+	{
 		"name": "Kagerou (Level 1)",
 		"uniqueTo": "Mermaids Of The Lake",
 		"unitType": "Fighter Hero",

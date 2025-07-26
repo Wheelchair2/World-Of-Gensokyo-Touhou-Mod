@@ -757,13 +757,14 @@
 		"innerColor": [255, 255, 255],
 		"uniqueName": "Master Spark",
 		"uniques": [
-			"Comment [Human Magician units aren't affected by the -30% Strength [Human Race] debuff, retaining their immunity from the [Youkai Expansion Project]]",
+			"Comment [Human Magician units aren't affected by the -10% Strength [Human Race] debuff.]",
 			"Comment [------------------]",
 			"[All] units gain the [Human Race] promotion",
 			"Starts with [Research For Magic]",
 			"Starts with [Simple Alchemy]",
 			"[+10]% Strength <for [{Human} {Magician}] units>",
-			"[+30]% Strength <for [{Human} {Magician}] units> <starting from the [Edo period]> <hidden from users>"
+			"[+30]% Strength <for [{Human} {Magician}] units> <starting from the [Edo period]> <hidden from users>",
+			"[+200]% Strength <for [{Human} {Magician}] units> <starting from the [Meiji era]> <hidden from users>"
 		],
 		"cities": [
 			"Arcanopolis",
@@ -891,7 +892,7 @@
 	},
 	{
 		"name": "Tengu Union",
-		"leaderName": "Lord Tenma",
+		"leaderName": "Momiji Inubashiri",
 		"startBias": ["Youkai Forest"],
 		"adjective": ["Tengu"],
 		"preferredVictoryType": "Neutral",

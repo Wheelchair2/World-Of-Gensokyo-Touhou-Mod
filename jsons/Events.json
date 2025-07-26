@@ -57,7 +57,7 @@
 			{
 				"text": "Esteemed Authority Card",
 				"uniques": ["Comment [Ability Card; Esteemed Authority]",
-				"Comment [Gifts of Gold to City-States generate 20% more Influence]",
+				"Comment [Gifts of Gold to City-States generate 100% more Influence]",
 				"Comment [+40% Strength for Military units vs Barbarian units]",
 				"Gain a free [Esteemed Authority Card Holder] [in capital] <hidden from users>"],
 			},
@@ -77,8 +77,8 @@
 			{
 				"text": "Item Season Card",
 				"uniques": ["Comment [Ability Card; Item Season]",
-				"Comment [Gain 250 [Gold] upon entering a Golden Age]",
-				"Comment [+1 [Happiness] in all cities]",
+				"Comment [Gain 500 [Gold] upon entering a Golden Age]",
+				"Comment [+10 [Happiness] in all cities]",
 				"Gain a free [Item Season Card Holder] [in capital] <hidden from users>"
 				],
 			},
@@ -97,13 +97,13 @@
 			{
 				"text": "Miracle Mallet Card",
 				"uniques": ["Comment [Ability Card; Miracle Mallet]",
-				"Comment [Earn 50% of killed Military unit's Strength as [Gold] for All units]",
+				"Comment [Earn 50% of killed Military unit's Cost as [Gold] for All units]",
 				"Gain a free [Miracle Mallet Card Holder] [in capital] <hidden from users>"],
 			},
 			{
 				"text": "Offerings To A Sacred Mountain Card",
 				"uniques": ["Comment [Ability Card; Offerings To A Sacred Mountain]",
-				"Comment [+1 [Gold], +2 [Production], +2 [Food]  from [Mountain] tiles in all cities]","Comment [+1 Sight for [Scout] units]",
+				"Comment [+1 [Gold], +10 [Production], +5 [Food]  from [Mountain] tiles in all cities]","Comment [+1 Sight for [Scout] units]",
 				"Gain a free [Offerings To A Sacred Mountain Card Holder] [in capital] <hidden from users>"],
 			},
 			{
