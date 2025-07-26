@@ -342,8 +342,8 @@
 	{
 		"name": "Olive Tree",
 		"type": "TerrainFeature",
-		"food": 1,
-		"production": 1,
+		"food": 2,
+		"production": 2,
 		"movementCost": 2,
 		"unbuildable": true,
 		"defenceBonus": 0.25,
