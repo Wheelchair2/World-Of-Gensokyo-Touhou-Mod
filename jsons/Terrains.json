@@ -402,7 +402,7 @@
 		"name": "Youkai Mountain",
 		"type": "NaturalWonder",
 		"defenceBonus": 0.5,
-		"production": 2,
+		"production": 20,
 		"occursOn": [
 			"Grassland",
 			"Plains",
@@ -424,7 +424,8 @@
 	{
 		"name": "Saigyou Ayakashi",
 		"type": "NaturalWonder",
-		"production": 2,
+		"production": 5
+		"culture": 15,
 		"occursOn": [
 			"Grassland",
 			"Plains"
@@ -444,7 +445,8 @@
 	{
 		"name": "Nameless Hill",
 		"type": "NaturalWonder",
-		"production": 2,
+		"production": 5,
+		"science": 10,
 		"movementCost": 2,
 		"defenceBonus": 0.15,
 		"overrideStats": true,
@@ -461,7 +463,7 @@
 	{
 		"name": "Garden Of The Sun",
 		"type": "NaturalWonder",
-		"food": 2,
+		"food": 10,
 		"movementCost": 2,
 		"defenceBonus": -0.1,
 		"overrideStats": true,
@@ -477,8 +479,7 @@
 	{
 		"name": "Misty Lake",
 		"type": "NaturalWonder",
-		"food": 2,
-		"gold": 1,
+		"happiness": 20,
 		"movementCost": 2,
 		"overrideStats": true,
 		"occursOn": [
@@ -498,8 +499,8 @@
 	{
 		"name": "Youkai Forest",
 		"type": "NaturalWonder",
-		"food": 1,
-		"production": 1,
+		"food": 10,
+		"production": 10,
 		"defenceBonus": 0.25,
 		"movementCost": 2,
 		"overrideStats": true,
@@ -518,7 +519,8 @@
 	{
 		"name": "Makai",
 		"type": "NaturalWonder",
-		"production": 2,
+		"production": 10,
+		"science": 20,
 		"movementCost": 2,
 		"overrideStats": true,
 		"occursOn": [
@@ -536,7 +538,7 @@
 	{
 		"name": "Giant Toad's Pond",
 		"type": "NaturalWonder",
-		"food": 2,
+		"food": 20,
 		"movementCost": 2,
 		"overrideStats": true,
 		"occursOn": [
@@ -555,7 +557,8 @@
 	{
 		"name": "Bamboo Forest",
 		"type": "NaturalWonder",
-		"food": 2,
+		"food": 10,
+		"culture": 10,
 		"defenceBonus": -0.50,
 		"movementCost": 2,
 		"overrideStats": true,
@@ -571,8 +574,10 @@
 	{
 		"name": "Forest Of Magic",
 		"type": "NaturalWonder",
-		"food": 1,
-		"production": 1,
+		"food": 10,
+		"production": 10,
+		"science": 10,
+		"gold": 10,
 		"defenceBonus": 0.25,
 		"movementCost": 2,
 		"overrideStats": true,
@@ -588,8 +593,8 @@
 	{
 		"name": "Chikushokai",
 		"type": "NaturalWonder",
-		"food": 1,
-		"production": 1,
+		"culture": 10,
+		"production": 15,
 		"defenceBonus": 0.50,
 		"movementCost": 2,
 		"overrideStats": true,

@@ -70,7 +70,6 @@
     "uniques": [
       "[+3 Culture] [in capital]",
       "[-25]% Culture cost of natural border growth [in all cities]",
-      "[+4 Food] from every [Natural Wonder]",
 	   "Only available <after adopting [Type Of Government Complete]> <hidden from users>"
     ],
     "policies": [
@@ -141,7 +140,6 @@
     },
     "uniques": [
       "[+1 Culture] [in all cities]",
-      "[+4 Science] from every [Natural Wonder]",
 	  "Only available <after adopting [Type Of Government Complete]> <hidden from users>"
     ],
     "policies": [
