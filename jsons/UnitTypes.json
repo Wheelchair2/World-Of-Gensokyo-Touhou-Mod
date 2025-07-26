@@ -148,10 +148,24 @@
   {
     "name": "Melee",
     "movementType": "Land"
+	"uniques": [
+		"[+100]% maintenance costs <when [Hero]>",
+		"[+50]% maintenance costs <when [Racial]>",
+		"[+20]% maintenance costs <when [Apparition]>",
+		"[+10]% maintenance costs <when [Supplementary]>",
+		"[-100]% maintenance costs <when [Summon]>"
+	],
   },
   {
     "name": "Ranged",
     "movementType": "Land",
+	"uniques": [
+		"[+100]% maintenance costs <when [Hero]>",
+		"[+50]% maintenance costs <when [Racial]>",
+		"[+20]% maintenance costs <when [Apparition]>",
+		"[+10]% maintenance costs <when [Supplementary]>",
+		"[-100]% maintenance costs <when [Summon]>"
+	],
   },
   {
     "name": "Armor",

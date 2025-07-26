@@ -17,7 +17,10 @@
     "policies": [
       {
         "name": "Sovereignty",
-        "uniques": [ "Gain a free [Sovereign Government] [in capital] <before adopting [Monarchical]>", "Remove [Change Government] [in capital] <hidden from users>",
+        "uniques": [
+				"Comment [Summary: Your nation is stronger with less cities.]",
+				"Comment [				Choose this if you want to play tall.]",
+				"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
 					"Comment [+2 [Production] +5 [Food] from every specialist in all cities when number of non-Puppeted Cities is less than 4]",
 					"Comment [------------------------------------]",
 					"Comment [Provides 5 [Manpower] when number of non-Puppeted Cities is less than 4]",
@@ -26,27 +29,36 @@
 					"Comment [------------------------------------]",
 					"Comment [-50% Unhappiness from Population in all cities when number of non-Puppeted Cities is less than 4]",
 					"Comment [------------------------------------]",
-				"Comment [Cannot build Settler units when number of non-Puppeted Cities is more than 3]",
+				"Comment [Cannot build [Settler] units when number of non-Puppeted cities is more than 2]",
+			"Gain a free [Sovereign Government] [in capital]",
+			"Unavailable <after adopting [Monarchical]> <hidden from users>",
+			"Remove [Change Government] [in capital] <hidden from users>", "Adopt [Type Of Government Complete] <hidden from users>"
         ],
         "row": 2,
         "column": 1
       },
       {
         "name": "Monarchical",
-        "uniques": [ "Gain a free [Monarchy Government] [in capital] <before adopting [Sovereignty]>", "Remove [Change Government] [in capital] <hidden from users>",
+        "uniques": [
+				"Comment [Summary: All your improved land have twice the Yield. Benefit from this by expanding you land.]",
+				"Comment [				Choose this if you want to play wide.]",
+				 "Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
 					"Comment [+100% Production towards any buildings that already exist in the Capital when above 15 [Manpower]]"
 					"Comment [------------------------------------]",
 					"Comment [+100% Yield from every improved Land]",
 					"Comment [------------------------------------]",
 					"Comment [+2 [Production], +1 [Food] from every specialist in all cities connected to capital]",
 					"Comment [------------------------------------]",
-					"Comment [+2 [Production], +3 [Food] from every specialist in capital]",
+					"Comment [+2 [Production], +2 [Food] from every specialist in capital]",
 					"Comment [------------------------------------]"
 					"Comment [-50% Unhappiness from Population in all cities when above 20 [Manpower]]",
 					"Comment [------------------------------------]",
 					"Comment [+30% growth [in all cities] when above 20 [Manpower]]"
 					"Comment [------------------------------------]"
-				"Comment [Can build Land improvements at a +50% rate]"
+				"Comment [Can build Land improvements at a +50% rate]",
+			"Gain a free [Monarchy Government] [in capital]",
+			"Unavailable <after adopting [Sovereignty]> <hidden from users>",
+			"Remove [Change Government] [in capital] <hidden from users>", "Adopt [Type Of Government Complete] <hidden from users>"
 			"[+90]% weight to this choice for AI decisions"
         ],
         "row": 2,
@@ -70,7 +82,7 @@
     "uniques": [
       "[+3 Culture] [in capital]",
       "[-25]% Culture cost of natural border growth [in all cities]",
-	   "Only available <after adopting [Type Of Government Complete]> <hidden from users>"
+	   "Only available <after adopting [Type Of Government Complete]>"
     ],
     "policies": [
       {
@@ -140,7 +152,7 @@
     },
     "uniques": [
       "[+1 Culture] [in all cities]",
-	  "Only available <after adopting [Type Of Government Complete]> <hidden from users>"
+	  "Only available <after adopting [Type Of Government Complete]>"
     ],
     "policies": [
       {
@@ -211,7 +223,7 @@
       "[+55]% Strength <vs [Barbarian] units>",
       "Earn [100]% of killed [Barbarian] unit's [Strength] as [Culture]",
       "Notified of new Barbarian encampments",
-	  "Only available <after adopting [Type Of Government Complete]> <hidden from users>"
+	  "Only available <after adopting [Type Of Government Complete]>"
     ],
     "policies": [
       {
@@ -288,7 +300,7 @@
       "May choose [1] additional [Follower] beliefs when [founding] a religion",
       "May choose [1] additional [Founder] beliefs when [founding] a religion",
       "Only available <before adopting [Rationalism]>",
-	  "Only available <after adopting [Type Of Government Complete]> <hidden from users>"
+	  "Only available <after adopting [Type Of Government Complete]>"
     ],
     "policies": [
       {
@@ -360,7 +372,7 @@
     },
     "uniques": [
       "[-25]% City-State Influence degradation",
-	  "Only available <after adopting [Type Of Government Complete]> <hidden from users>"
+	  "Only available <after adopting [Type Of Government Complete]>"
     ],
     "policies": [
       {
@@ -432,7 +444,7 @@
     "uniques": [
       "[+25]% [Gold] [in capital]",
       "May buy items in puppet cities",
-	  "Only available <after adopting [Type Of Government Complete]> <hidden from users>"
+	  "Only available <after adopting [Type Of Government Complete]>"
     ],
     "policies": [
       {
@@ -514,7 +526,7 @@
       "[+15]% [Science] <while the empire is happy>",
       "[Great Scientist] is earned [+50]% faster",
       "Only available <before adopting [Piety]>",
-	  "Only available <after adopting [Type Of Government Complete]> <hidden from users>"
+	  "Only available <after adopting [Type Of Government Complete]>"
     ],
     "policies": [
       {
@@ -588,7 +600,7 @@
       "[+25]% Great Person generation [in all cities]",
       "Only available <before adopting [Autocracy]>",
       "Only available <before adopting [Order]>",
-	  "Only available <after adopting [Type Of Government Complete]> <hidden from users>"
+	  "Only available <after adopting [Type Of Government Complete]>"
     ],
     "policies": [
       {
@@ -659,7 +671,7 @@
       "Upon capturing a city, receive [10] times its [Culture] production as [Culture] immediately",
       "Only available <before adopting [Order]>",
       "Only available <before adopting [Freedom]>",
-	  "Only available <after adopting [Type Of Government Complete]> <hidden from users>"
+	  "Only available <after adopting [Type Of Government Complete]>"
     ],
     "policies": [
       {
@@ -739,7 +751,7 @@
       "[+1 Happiness] [in all cities]",
       "Only available <before adopting [Autocracy]>",
       "Only available <before adopting [Freedom]>",
-	  "Only available <after adopting [Type Of Government Complete]> <hidden from users>"
+	  "Only available <after adopting [Type Of Government Complete]>"
     ],
     "policies": [
       {

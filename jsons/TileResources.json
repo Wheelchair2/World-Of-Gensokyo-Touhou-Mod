@@ -477,7 +477,7 @@
 		"resourceType": "Luxury",
 		"uniques": [
 			"Not shown on world screen",
-			"[+1 Gold, +10 Production, +5 Food] from [Mountain] tiles [in all cities]",
+			"[+1 Gold, +5 Production, +5 Food] from [Mountain] tiles [in all cities]",
 			"[+1] Sight <for [Scout] units>",
 			"Comment [(Cards don't give any Happiness, except in Easy difficulty)]",
 			"[-4 Happiness] <hidden from users>",
@@ -1018,7 +1018,7 @@
 		],
 		"food": 2,
 		"gold": 2,
-		"improvedBy": ["Camp"],
+		"improvedBy": ["Traps"],
 		"uniques": [
 			"Generated with weight [5] <in [Tundra] Regions>",
 			"Generated with weight [5] <in [Forest] Regions>",
@@ -1040,7 +1040,7 @@
 		],
 		"food": 1,
 		"gold": 2,
-		"improvedBy": ["Camp"],
+		"improvedBy": ["Traps"],
 		"uniques": [
 			"Generated with weight [5] <in [Tundra] Regions>",
 			"Generated with weight [25] <in [Forest] Regions>",

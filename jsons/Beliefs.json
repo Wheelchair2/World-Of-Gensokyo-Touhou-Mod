@@ -374,7 +374,7 @@
       "name": "Religious Community",
       "type": "Follower",
       "uniques": [
-        "[+1]% [Production] from every follower, up to [20]%"
+        "[+1]% [Production] from every follower, up to [15]%"
       ]
     },
     {
@@ -391,7 +391,7 @@
       "uniques": [
         "Only available <if [Major Religions In Gensokyo] is constructed> <hidden from users>",
         "Comment [[Major Religions In Gensokyo] required]",
-        "[+1]% [Production] from every follower, up to [50]%",
+        "[+1 Production] per [1] population [in this city]",
       ]
     },
     {

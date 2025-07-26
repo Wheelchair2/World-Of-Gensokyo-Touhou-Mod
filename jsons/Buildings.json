@@ -19,7 +19,7 @@
 		"isNationalWonder": true,
 		"cost": 1,
 		"uniques": [
-					"Unbuildable <hidden from users>", "Cannot be purchased <hidden from users>", "Unsellable <hidden from users>", "Remove [Monarchy Government] [in capital] <hidden from users>",
+					"Unbuildable <hidden from users>", "Cannot be purchased <hidden from users>", "Unsellable <hidden from users>",
 					"[+2 Production, +5 Food] from every specialist [in all cities] <when number of [[non-[Puppeted]] Cities] is less than [4]>",
 					"Comment [------------------------------------]",
 					"Provides [5] [Manpower] <when number of [[non-[Puppeted]] Cities] is less than [4]>",
@@ -28,7 +28,7 @@
 					"Comment [------------------------------------]",
 					"[-50]% Unhappiness from [Population] [in all cities] <when number of [[non-[Puppeted]] Cities] is less than [4]>",
 					"Comment [------------------------------------]",
-				"Cannot build [Settler] units <when number of [[non-[Puppeted]] Cities] is more than [3]>"
+				"Cannot build [Settler] units <when number of [[non-[Puppeted]] Cities] is more than [2]>"
 		]
 	},
 	{
@@ -36,14 +36,12 @@
 		"isNationalWonder": true,
 		"cost": 1,
 		"uniques": [
-					"Unbuildable <hidden from users>", "Cannot be purchased <hidden from users>", "Unsellable <hidden from users>", "Remove [Sovereign Government] [in capital] <hidden from users>",
+					"Unbuildable <hidden from users>", "Cannot be purchased <hidden from users>", "Unsellable <hidden from users>",
 					"[+100]% Production towards any buildings that already exist in the Capital <when above [15] [Manpower]>"
 					"Comment [------------------------------------]",
 					"[+100]% Yield from every [{improved} {Land}]",
 					"Comment [------------------------------------]",
-					"[+2 Production, +1 Food] from every specialist [in all cities connected to capital]",
-					"Comment [------------------------------------]",
-					"[+2 Production, +3 Food] from every specialist [in capital]",
+					"[+2 Production, +2 Food] from every specialist [in all cities connected to capital]",
 					"Comment [------------------------------------]",
 					"[-50]% Unhappiness from [Population] [in all cities] <when above [20] [Manpower]>",
 					"Comment [------------------------------------]",
@@ -52,15 +50,17 @@
 				"Can build [All] improvements at a [+50]% rate"
 		]
 	},
+	
 	{
 		"name": "Change Government",
-		"cost": 200,
+		"cost": 1,
 		"uniques": [
 				"Comment [Allows you to choose a Type of Government again with a cost.]",
-			"Unavailable <before adopting [Type Of Government]> <hidden from users>",
+			"Unavailable <before adopting [Type Of Government Complete]> <hidden from users>",
 			"Unsellable <hidden from users>",
 			"Unbuildable <hidden from users>",
 			"Free Social Policy <hidden from users>",
+			"Remove [Type Of Government Complete] <hidden from users>",
 			"Remove [Sovereignty] <hidden from users>",
 			"Remove [Monarchical] <hidden from users>",
 			"Remove [Sovereign Government] [in capital] <hidden from users>",
@@ -163,7 +163,7 @@
 		"uniques": [
 			"Special Wonder",
 			"[-100]% maintenance cost for [all] buildings [in this city]",
-			"[-50]% maintenance costs <for [All] units>"
+			"[-100]% maintenance costs <for [All] units>"
 		],
 		"quote": "Every month on the night of the full moon, the residents of Eientei hold a Moon Festival (Reigetsusai), offering mochi with medicinal herbs pounded into them."
 	},

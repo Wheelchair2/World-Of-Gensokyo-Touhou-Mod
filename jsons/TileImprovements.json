@@ -24,11 +24,11 @@
 			"Tundra",
 			"Snow"
 		],
-		"food": 1,
 		"turnsToBuild": 7,
 		"techRequired": "Calendar",
-		"uniques": [
+		"uniques": [ "[+1 Food] from [Snow] tiles", "[+1 Food] from [Tundra] tiles",
 			"[+2 Food, +2 Production] <after discovering [Metal Farming Tools]>",
+			"[+3 Food, +3 Production] <after discovering [Carpentry]>",
 			"Pillaging this improvement yields approximately [+18 Gold]"
 		],
 		"shortcutKey": "F"
@@ -86,6 +86,7 @@
 		"name": "Camp",
 		"turnsToBuild": 7,
 		"techRequired": "Agriculture",
+		"production": 1,
 		"uniques": [
 			"Does not need removal of [Forest]",
 			"Does not need removal of [Jungle]",
@@ -541,7 +542,7 @@
 		"uniques": [
 			"Unpillagable",
 			"Unbuildable",
-			"Will be replaced by automated workers"
+			"Comment [Will be replaced by automated workers]"
 		],
 		"civilopediaText": [
 			{

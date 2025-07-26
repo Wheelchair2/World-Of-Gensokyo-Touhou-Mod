@@ -335,7 +335,7 @@
 	{
 		"name": "Ice Fairy",
 		"uniques": [
-			"Apparition <hidden from users>",
+			"Apparition",
 			"Fairy",
 			"Youkai",
 			"Unit will heal every turn, even if it performs an action",
@@ -423,7 +423,7 @@
 		]
 	},
 	{
-		"name": "Buddhist Magician",
+		"name": "Magic Mastery",
 		"uniques": [
 			"Magician",
 			"[+10]% Strength"
@@ -500,7 +500,7 @@
 	},
 	{
 		"name": "Prepared",
-		"uniques": ["[+30]% Strength"]
+		"uniques": ["[+20]% Strength"]
 	},
 	{
 		"name": "Eternally Awaiting",
@@ -508,7 +508,7 @@
 	},
 	{
 		"name": "Unzan's Fists",
-		"uniques": ["[+20]% Strength"]
+		"uniques": ["[+15]% Strength"]
 	},
 	{
 		"name": "Unzan's Fists II",
