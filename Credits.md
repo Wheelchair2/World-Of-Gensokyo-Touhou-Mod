@@ -31,4 +31,7 @@
 - Tenkyuu Chimata: [kaoling](https://danbooru.donmai.us/posts/4580135)
 - Kaku Seiga: [うらないし](https://www.pixiv.net/en/artworks/47533143)
 
+**Hero Units Icons and Portraits**
+- [dairi](https://x.com/dairi155)
+
 Thanks to these wonderful artists, and thank you for playing the mod!
