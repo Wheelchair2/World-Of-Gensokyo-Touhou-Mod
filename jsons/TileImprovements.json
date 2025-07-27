@@ -25,9 +25,8 @@
 			"Snow"
 		],
 		"turnsToBuild": 7,
-		"food": 1,
 		"techRequired": "Calendar",
-		"uniques": [
+		"uniques": [ "[+1 Food] from [Tundra] tiles",  "[+1 Food] from [Snow] tiles",
 			"[+2 Food, +2 Production] <after discovering [Metal Farming Tools]>",
 			"[+3 Food, +3 Production] <after discovering [Carpentry]>",
 			"Pillaging this improvement yields approximately [+18 Gold]"
@@ -87,11 +86,10 @@
 		"name": "Camp",
 		"turnsToBuild": 7,
 		"techRequired": "Agriculture",
-		"production": 1,
 		"uniques": [
 			"Does not need removal of [Forest]",
 			"Does not need removal of [Jungle]",
-			"[+1 Gold] <after discovering [Economics]>",
+			"[+5 Gold] <after discovering [Economics]>",
 			"Can only be built to improve a resource",
 			"Pillaging this improvement yields approximately [+10 Gold]"
 		],
@@ -125,7 +123,7 @@
 		"turnsToBuild": 8,
 		"techRequired": "Agriculture",
 		"uniques": [
-			"[+1 Food] <after discovering [Fertilizer]>",
+			"[+3 Food] <after discovering [Fertilizer]>",
 			"Can only be built to improve a resource",
 			"Pillaging this improvement yields approximately [+10 Gold]"
 		],
