@@ -622,6 +622,7 @@
 		"maintenance": 1,
 		"uniques": [
 			"New [Military] units start with [15] XP [in this city]",
+			"New [Hero] units start with [30] XP [in this city]",
 			"Destroyed when the city is captured"
 		],
 		"requiredTech": "Professional Army"
@@ -634,6 +635,7 @@
 		"maintenance": 1,
 		"uniques": [
 			"New [Military] units start with [15] XP [in this city]",
+			"New [Hero] units start with [30] XP [in this city]",
 			"All newly-trained [Military] units [in this city] receive the [Anti-Youkai] promotion",
 			"Destroyed when the city is captured"
 		],
@@ -1172,6 +1174,7 @@
 		"requiredBuilding": "Barracks",
 		"uniques": [
 			"New [Military] units start with [15] XP [in this city]",
+			"New [Hero] units start with [30] XP [in this city]",
 			"Destroyed when the city is captured"
 		],
 		"requiredTech": "Politics"
@@ -1384,6 +1387,7 @@
 		"requiredBuilding": "Armory",
 		"uniques": [
 			"New [Military] units start with [15] XP [in this city]",
+			"New [Hero] units start with [60] XP [in this city]",
 			"Destroyed when the city is captured"
 		],
 		"requiredTech": "Military Science"

@@ -178,9 +178,9 @@
 		"name": "Fishing Boats",
 		"terrainsCanBeBuiltOn": ["Fish"],
 		"food": 1,
-		"techRequired": "Sailing",
+		//"techRequired": "Sailing",
 		"uniques": [
-			"[+1 Food] <after discovering [Navigation]>",
+			"[+1 Food, +1 Production] <after discovering [Navigation]>",
 			"Pillaging this improvement yields approximately [+10 Gold]"
 		],
 		"shortcutKey": "F"
@@ -188,10 +188,10 @@
 	{
 		"name": "Fishing Vessel",
 		"terrainsCanBeBuiltOn": ["Coast"],
-		"gold": 2,
-		"techRequired": "Sailing",
+		"gold": 4,
+		//"techRequired": "Sailing",
 		"uniques": [
-			"[+1 Gold] <after discovering [Compass]>",
+			"[+5 Gold, +1 Production] <after discovering [Compass]>",
 			"Can only be built to improve a resource",
 			"Pillaging this improvement yields approximately [+10 Gold]"
 		],
@@ -489,7 +489,7 @@
 		"name": "Citadel",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": [
-		"[+20 Culture] <after discovering [Military Predominance]>",
+		"[+20 Culture] <after discovering [Military Logistics]>",
 			"Great Improvement",
 			"Gives a defensive bonus of [100]%",
 			"Adjacent enemy units ending their turn take [30] damage",

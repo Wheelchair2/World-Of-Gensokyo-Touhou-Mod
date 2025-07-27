@@ -413,7 +413,6 @@
 		],
 		"uniques": [
 			"Must be adjacent to [1] to [6] [Mountain] tiles",
-			"Units ending their turn on this terrain take [5] damage",
 			"Rough terrain"
 		],
 		"turnsInto": "Mountain",
@@ -454,7 +453,6 @@
 		"turnsInto": "Grassland",
 		"unbuildable": true,
 		"uniques": [
-			"Units ending their turn on this terrain take [20] damage",
 			"Rough terrain",
 			"Must be adjacent to [1] to [6] [Grassland] tiles"
 		],

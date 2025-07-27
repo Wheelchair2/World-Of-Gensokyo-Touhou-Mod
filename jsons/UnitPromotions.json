@@ -2,7 +2,7 @@
 	// Hero Promotions
 	{
 		"name": "Studious I",
-		//"uniques": ["[This Unit] gains [+1] XP <upon turn end>", "Not shown on world screen", "[-100]% weight to this choice for AI decisions"],
+		"uniques": ["[+15]% XP gained from combat", "Not shown on world screen"],
 		"unitTypes": ["Fighter Hero", "Support Hero"],
         "column": 27,
         "row": 2
@@ -10,7 +10,7 @@
 	{
 		"name": "Studious II",
 		"prerequisites": ["Studious I"],
-		//"uniques": ["[This Unit] gains [+1] XP <upon turn end>", "Not shown on world screen"],
+		"uniques": ["[+15]% XP gained from combat", "Not shown on world screen"],
 		"unitTypes": ["Fighter Hero", "Support Hero"],
         "column": 28,
         "row": 2
@@ -18,31 +18,31 @@
 	{
 		"name": "Studious III",
 		"prerequisites": ["Studious II"],
-		//"uniques": ["[This Unit] gains [+1] XP <upon turn end>", "Not shown on world screen"],
+		"uniques": ["[+20]% XP gained from combat", "Not shown on world screen"],
 		"unitTypes": ["Fighter Hero", "Support Hero"],
         "column": 29,
         "row":  2
     },
 	
 	{
-		"name": "Harass I",
-		"uniques": ["Comment [Experimental]"],
+		"name": "Support I",
+		"uniques": ["[+15]% Strength bonus for [Hero] units within [2] tiles", "Not shown on world screen"],
 		"unitTypes": ["Support Hero"],
         "column": 27,
         "row": 4
     },
 	{
-		"name": "Harass II",
-		"prerequisites": ["Harass I"],
-		"uniques": ["Comment [Experimental]"],
+		"name": "Support II",
+		"prerequisites": ["Support I"],
+		"uniques": ["[-10]% Strength for enemy [Military] units in adjacent [Land] tiles", "Not shown on world screen"],
 		"unitTypes": ["Support Hero"],
         "column": 28,
         "row": 4
     },
 	{
-		"name": "Harass III",
-		"prerequisites": ["Harass II"],
-		"uniques": ["Comment [Experimental]"],
+		"name": "Support III",
+		"prerequisites": ["Support II"],
+		"uniques": ["[+1] Range <for [Ranged] units>", "[+1] Movement <for [Melee] units>", "Not shown on world screen"],
 		"unitTypes": ["Support Hero"],
         "column": 29,
         "row":  4
@@ -50,7 +50,7 @@
 	
 	{
 		"name": "Offense I",
-		"uniques": ["Comment [Experimental]"],
+		"uniques": ["[+15]% Strength <vs [non-[Hero]] units>", "Not shown on world screen"],
 		"unitTypes": ["Fighter Hero"],
         "column": 30,
         "row": 4
@@ -58,7 +58,7 @@
 	{
 		"name": "Offense II",
 		"prerequisites": ["Offense I"],
-		"uniques": ["Comment [Experimental]"]
+		"uniques": ["[+10]% Strength <vs [Hero] units>", "Not shown on world screen"]
 		"unitTypes": ["Fighter Hero"],
         "column": 31,
         "row": 4
@@ -66,32 +66,32 @@
 	{
 		"name": "Offense III",
 		"prerequisites": ["Offense II"],
-		"uniques": ["Comment [Experimental]"],
+		"uniques": ["[+1] Range <for [Ranged] units>", "[+1] additional attacks per turn <for [Melee] units>", "Not shown on world screen"],
 		"unitTypes": ["Fighter Hero"],
         "column": 32,
         "row":  4
     },
 	
 	{
-		"name": "Incursion",
-		"prerequisites": ["Harass III"],
-		"uniques": ["Comment [Experimental]"],
+		"name": "Supply Aid",
+		"prerequisites": ["Support III"],
+		"uniques": ["All adjacent units heal [+10] HP when healing", "Not shown on world screen"],
 		"unitTypes": ["Support Hero"],
         "column": 30,
         "row":  5
     },
 	{
-		"name": "Sniping",
-		"prerequisites": ["Harass III", "Offense III", "Studious III"],
-		"uniques": ["Comment [Experimental]"],
+		"name": "Precision",
+		"prerequisites": ["Support III", "Offense III", "Studious III"],
+		"uniques": ["[+15]% Strength <when attacking>", "[+1] Sight", "Not shown on world screen"],
 		"unitTypes": ["Fighter Hero", "Support Hero"],
         "column": 33,
         "row":  1
     },
 	{
 		"name": "Versatility",
-		"prerequisites": ["Harass III", "Offense III", "Studious III"],
-		"uniques": ["Comment [Experimental]"],
+		"prerequisites": ["Support III", "Offense III", "Studious III"],
+		"uniques": ["[+15]% Strength <when defending>", "[+10] HP when healing", "Not shown on world screen"],
 		"unitTypes": ["Fighter Hero", "Support Hero"],
         "column": 33,
         "row":  3
@@ -99,39 +99,39 @@
 	{
 		"name": "Blitzgrieg",
 		"prerequisites": ["Offense III"],
-		"uniques": ["Comment [Experimental]"],
+		"uniques": ["[+20]% Strength <vs cities>", "Not shown on world screen"],
 		"unitTypes": ["Fighter Hero"],
         "column": 33,
         "row":  5
     },
 	{
-		"name": "Dexterity I",
-		"uniques": ["Comment [Experimental]"],
-		"prerequisites": ["Sniping", "Versatility", "Blitzgrieg", "Incursion"],
+		"name": "Encouragement I",
+		"uniques": ["[+15]% Strength bonus for [Military] units within [2] tiles", "Not shown on world screen"],
+		"prerequisites": ["Precision", "Versatility", "Blitzgrieg", "Supply Aid"],
 		"unitTypes": ["Support Hero"],
         "column": 34,
         "row": 2
     },
 	{
-		"name": "Dexterity II",
-		"prerequisites": ["Dexterity I"],
-		"uniques": ["Comment [Experimental]"],
+		"name": "Encouragement II",
+		"prerequisites": ["Encouragement I"],
+		"uniques": ["Unit will heal every turn, even if it performs an action"],
 		"unitTypes": ["Support Hero"],
         "column": 35,
         "row": 2
     },
 	{
-		"name": "Dexterity III",
-		"prerequisites": ["Dexterity II"],
-		"uniques": ["Comment [Experimental]"],
+		"name": "Encouragement III",
+		"prerequisites": ["Encouragement II"],
+		"uniques": ["Great General provides double combat bonus"],
 		"unitTypes": ["Support Hero"],
         "column": 36,
         "row":  3
     },
 	{
 		"name": "Wielding I",
-		"prerequisites": ["Sniping", "Versatility", "Blitzgrieg", "Incursion"],
-		"uniques": ["Comment [Experimental]"],
+		"prerequisites": ["Precision", "Versatility", "Blitzgrieg", "Supply Aid"],
+		"uniques": ["[+100]% XP gained from combat"],
 		"unitTypes": ["Fighter Hero"],
         "column": 37,
         "row": 3
@@ -153,9 +153,9 @@
         "row":  3
     },
 	{
-		"name": "Mastery",
-		"prerequisites": ["Wielding III", "Dexterity III"],
-		"uniques": ["Comment [Experimental]"],
+		"name": "Wisdom",
+		"prerequisites": ["Wielding III", "Encouragement III"],
+		"uniques": ["May capture killed [Hero] units"],
 		"unitTypes": ["Fighter Hero", "Support Hero"],
         "column": 40,
         "row":  3
