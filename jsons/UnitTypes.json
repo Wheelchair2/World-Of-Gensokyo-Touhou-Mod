@@ -28,42 +28,42 @@
   {
     "name": "Sword",
     "movementType": "Land",
-	"uniques": ["Consumes [1] [Manpower]", "Consumes [1] [Manpower] <starting from the [Meiji era]>", "Consumes [1] [Manpower] <when number of [Cities] is more than [7]>", "Consumes [1] [Manpower] <when number of [Cities] is more than [7]>"]
+	"uniques": ["Consumes [1] [Manpower]", "Consumes [1] [Manpower] <starting from the [Meiji era]>", "Consumes [1] [Manpower] <when number of [Cities] is more than [7]>", "Consumes [1] [Manpower] <when number of [Cities] is more than [12]>", "Consumes [1] [Manpower] <when number of [Cities] is more than [7]>"]
   },
   {
     "name": "Gunpowder",
     "movementType": "Land",
-	"uniques": ["Consumes [1] [Manpower]", "Consumes [1] [Manpower] <starting from the [Meiji era]>", "Consumes [1] [Manpower] <when number of [Cities] is more than [7]>"]
+	"uniques": ["Consumes [1] [Manpower]", "Consumes [1] [Manpower] <starting from the [Meiji era]>", "Consumes [1] [Manpower] <when number of [Cities] is more than [7]>", "Consumes [1] [Manpower] <when number of [Cities] is more than [12]>"]
   },
   {
     "name": "Archery",
     "movementType": "Land",
-	"uniques": ["Consumes [1] [Manpower]", "Consumes [1] [Manpower] <starting from the [Meiji era]>", "Consumes [1] [Manpower] <when number of [Cities] is more than [7]>"]
+	"uniques": ["Consumes [1] [Manpower]", "Consumes [1] [Manpower] <starting from the [Meiji era]>", "Consumes [1] [Manpower] <when number of [Cities] is more than [7]>", "Consumes [1] [Manpower] <when number of [Cities] is more than [12]>"]
   },
   {
     "name": "Ranged Gunpowder",
     "movementType": "Land",
-	"uniques": ["Consumes [1] [Manpower]", "Consumes [1] [Manpower] <starting from the [Meiji era]>", "Consumes [1] [Manpower] <when number of [Cities] is more than [7]>"]
+	"uniques": ["Consumes [1] [Manpower]", "Consumes [1] [Manpower] <starting from the [Meiji era]>", "Consumes [1] [Manpower] <when number of [Cities] is more than [7]>", "Consumes [1] [Manpower] <when number of [Cities] is more than [12]>"]
   },
   {
     "name": "Scout",
     "movementType": "Land",
-	"uniques": ["Consumes [1] [Manpower]", "Consumes [1] [Manpower] <starting from the [Meiji era]>", "Consumes [1] [Manpower] <when number of [Cities] is more than [7]>"]
+	"uniques": ["Consumes [1] [Manpower]", "Consumes [1] [Manpower] <starting from the [Meiji era]>", "Consumes [1] [Manpower] <when number of [Cities] is more than [7]>", "Consumes [1] [Manpower] <when number of [Cities] is more than [12]>"]
   },
   {
     "name": "Mounted",
     "movementType": "Land",
-	"uniques": ["Consumes [1] [Manpower]", "Consumes [1] [Manpower] <starting from the [Meiji era]>", "Consumes [1] [Manpower] <when number of [Cities] is more than [7]>"]
+	"uniques": ["Consumes [1] [Manpower]", "Consumes [1] [Manpower] <starting from the [Meiji era]>", "Consumes [1] [Manpower] <when number of [Cities] is more than [7]>", "Consumes [1] [Manpower] <when number of [Cities] is more than [12]>"]
   },
   {
     "name": "Armored",
     "movementType": "Land",
-	"uniques": ["Consumes [1] [Manpower]", "Consumes [1] [Manpower] <starting from the [Meiji era]>", "Consumes [1] [Manpower] <when number of [Cities] is more than [7]>"]
+	"uniques": ["Consumes [1] [Manpower]", "Consumes [1] [Manpower] <starting from the [Meiji era]>", "Consumes [1] [Manpower] <when number of [Cities] is more than [7]>", "Consumes [1] [Manpower] <when number of [Cities] is more than [12]>"]
   },
   {
     "name": "Siege",
     "movementType": "Land",
-	"uniques": ["Consumes [1] [Manpower]", "Consumes [1] [Manpower] <starting from the [Meiji era]>", "Consumes [1] [Manpower] <when number of [Cities] is more than [7]>"]
+	"uniques": ["Consumes [1] [Manpower]", "Consumes [1] [Manpower] <starting from the [Meiji era]>", "Consumes [1] [Manpower] <when number of [Cities] is more than [7]>", "Consumes [1] [Manpower] <when number of [Cities] is more than [12]>"]
   },
   {
     "name": "Civilian Water",
@@ -72,12 +72,12 @@
   {
     "name": "Melee Water",
     "movementType": "Water",
-	"uniques": ["[+50]% Strength <vs [Embarked] units>", "Consumes [1] [Manpower]", "Consumes [1] [Manpower] <starting from the [Meiji era]>", "Consumes [1] [Manpower] <when number of [Cities] is more than [7]>"]
+	"uniques": ["[+50]% Strength <vs [Embarked] units>", "Consumes [1] [Manpower]", "Consumes [1] [Manpower] <starting from the [Meiji era]>", "Consumes [1] [Manpower] <when number of [Cities] is more than [7]>", "Consumes [1] [Manpower] <when number of [Cities] is more than [12]>"]
   },
   {
     "name": "Ranged Water",
     "movementType": "Water",
-	"uniques": ["[+50]% Strength <vs [Embarked] units>", "Consumes [1] [Manpower]", "Consumes [1] [Manpower] <starting from the [Meiji era]>", "Consumes [1] [Manpower] <when number of [Cities] is more than [7]>"]
+	"uniques": ["[+50]% Strength <vs [Embarked] units>", "Consumes [1] [Manpower]", "Consumes [1] [Manpower] <starting from the [Meiji era]>", "Consumes [1] [Manpower] <when number of [Cities] is more than [7]>", "Consumes [1] [Manpower] <when number of [Cities] is more than [12]>"]
   },
   {
     "name": "Submarine",
@@ -85,20 +85,20 @@
     "uniques": [
       "Can enter ice tiles",
       "Invisible to non-adjacent units",
-	  "Consumes [1] [Manpower]", "Consumes [1] [Manpower] <starting from the [Meiji era]>", "Consumes [1] [Manpower] <when number of [Cities] is more than [7]>",
+	  "Consumes [1] [Manpower]", "Consumes [1] [Manpower] <starting from the [Meiji era]>", "Consumes [1] [Manpower] <when number of [Cities] is more than [7]>", "Consumes [1] [Manpower] <when number of [Cities] is more than [12]>",
       "Can see invisible [Submarine] units"
     ]
   },
   {
     "name": "Aircraft Carrier",
     "movementType": "Water"
-	"uniques": ["Consumes [1] [Manpower]", "Consumes [1] [Manpower] <starting from the [Meiji era]>", "Consumes [1] [Manpower] <when number of [Cities] is more than [7]>"]
+	"uniques": ["Consumes [1] [Manpower]", "Consumes [1] [Manpower] <starting from the [Meiji era]>", "Consumes [1] [Manpower] <when number of [Cities] is more than [7]>", "Consumes [1] [Manpower] <when number of [Cities] is more than [12]>"]
   },
   {
     "name": "Fighter",
     "movementType": "Air",
     "uniques": [
-	  "Consumes [1] [Manpower]", "Consumes [1] [Manpower] <starting from the [Meiji era]>", "Consumes [1] [Manpower] <when number of [Cities] is more than [7]>"
+	  "Consumes [1] [Manpower]", "Consumes [1] [Manpower] <starting from the [Meiji era]>", "Consumes [1] [Manpower] <when number of [Cities] is more than [7]>", "Consumes [1] [Manpower] <when number of [Cities] is more than [12]>"
       "Aircraft",
       "[+4] Sight",
       "Can see over obstacles",
@@ -108,12 +108,12 @@
   {
     "name": "Bomber",
     "movementType": "Air",
-    "uniques": ["Aircraft", "Consumes [1] [Manpower]", "Consumes [1] [Manpower] <starting from the [Meiji era]>", "Consumes [1] [Manpower] <when number of [Cities] is more than [7]>"]
+    "uniques": ["Aircraft", "Consumes [1] [Manpower]", "Consumes [1] [Manpower] <starting from the [Meiji era]>", "Consumes [1] [Manpower] <when number of [Cities] is more than [7]>", "Consumes [1] [Manpower] <when number of [Cities] is more than [12]>"]
   },
   {
     "name": "Atomic Bomber",
     "movementType": "Air",
-    "uniques": ["Aircraft", "Consumes [1] [Manpower]", "Consumes [1] [Manpower] <starting from the [Meiji era]>", "Consumes [1] [Manpower] <when number of [Cities] is more than [7]>"]
+    "uniques": ["Aircraft", "Consumes [1] [Manpower]", "Consumes [1] [Manpower] <starting from the [Meiji era]>", "Consumes [1] [Manpower] <when number of [Cities] is more than [7]>", "Consumes [1] [Manpower] <when number of [Cities] is more than [12]>"]
   },
   {
     "name": "Missile",
@@ -121,13 +121,13 @@
     "uniques": [
       "Self-destructs when attacking",
       "Cannot be intercepted",
-	  "Consumes [1] [Manpower]", "Consumes [1] [Manpower] <starting from the [Meiji era]>", "Consumes [1] [Manpower] <when number of [Cities] is more than [7]>"
+	  "Consumes [1] [Manpower]", "Consumes [1] [Manpower] <starting from the [Meiji era]>", "Consumes [1] [Manpower] <when number of [Cities] is more than [7]>", "Consumes [1] [Manpower] <when number of [Cities] is more than [12]>"
     ]
   },
   {
     "name": "Helicopter",
     "movementType": "Land",
-    "uniques": ["Can pass through impassable tiles", "Consumes [1] [Manpower]", "Consumes [1] [Manpower] <starting from the [Meiji era]>", "Consumes [1] [Manpower] <when number of [Cities] is more than [7]>"]
+    "uniques": ["Can pass through impassable tiles", "Consumes [1] [Manpower]", "Consumes [1] [Manpower] <starting from the [Meiji era]>", "Consumes [1] [Manpower] <when number of [Cities] is more than [7]>", "Consumes [1] [Manpower] <when number of [Cities] is more than [12]>"]
   },
   // Gensokyo Mod Types
   {
@@ -137,12 +137,12 @@
   {
     "name": "Melee Sorcery",
     "movementType": "Land",
-	"uniques": ["Consumes [1] [Manpower]", "Consumes [1] [Manpower] <starting from the [Meiji era]>", "Consumes [1] [Manpower] <when number of [Cities] is more than [7]>"]
+	"uniques": ["Consumes [1] [Manpower]", "Consumes [1] [Manpower] <starting from the [Meiji era]>", "Consumes [1] [Manpower] <when number of [Cities] is more than [7]>", "Consumes [1] [Manpower] <when number of [Cities] is more than [12]>"]
   },
   {
     "name": "Ranged Sorcery",
     "movementType": "Land",
-	"uniques": ["Consumes [1] [Manpower]", "Consumes [1] [Manpower] <starting from the [Meiji era]>", "Consumes [1] [Manpower] <when number of [Cities] is more than [7]>"]
+	"uniques": ["Consumes [1] [Manpower]", "Consumes [1] [Manpower] <starting from the [Meiji era]>", "Consumes [1] [Manpower] <when number of [Cities] is more than [7]>", "Consumes [1] [Manpower] <when number of [Cities] is more than [12]>"]
   },
   // Deprecated unit types required for mods without a UnitTypes.json file to work
   {

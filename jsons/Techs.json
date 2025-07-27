@@ -433,7 +433,7 @@
 				"quote": "Crow Tengu (karasu-tengu), the 'nimble information corps,' are similar to anthropomorphic crows with a humanoid body structure. Since they're responsible for writing and distributing newspapers, they're the only type of tengu that ventures to the foothills.",
 				"uniques": [
 					"Provides [15] [Manpower] <when number of [Cities] is more than [7]>",
-					"Provides [15] [Manpower] <when number of [Cities] is more than [14]>"
+					"Provides [30] [Manpower] <when number of [Cities] is more than [12]>"
 				]
 			},
 			{
