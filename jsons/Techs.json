@@ -812,7 +812,7 @@
 	{
 		"columnNumber": 15,
 		"era": "Meiji era",
-		"techCost": 2680,
+		"techCost": 2500,
 		"buildingCost": 520,
 		"wonderCost": 1500,
 		"techs": [
@@ -846,7 +846,7 @@
 	{
 		"columnNumber": 16,
 		"era": "Modern era",
-		"techCost": 2720,
+		"techCost": 2600,
 		"buildingCost": 560,
 		"wonderCost": 1500,
 		"techs": [
@@ -865,7 +865,7 @@
 					"Carpentry"
 				],
 				"quote": "It is unknown when, how, or why the mansion was originally constructed, but Remilia Scarlet has been its mistress for about 500 years, and Flandre Scarlet has been in the basement for about 495 years.",
-				"uniques": ["[+1 Production] <in tiles adjacent to [Town] tiles>"],
+				"uniques": ["[+2 Production] <in tiles adjacent to [Town] tiles>"],
 			},
 			{
 				"name": "Espionage",
@@ -884,7 +884,7 @@
 	{
 		"columnNumber": 17,
 		"era": "Modern era",
-		"techCost": 2800,
+		"techCost": 2750,
 		"buildingCost": 580,
 		"wonderCost": 1200,
 		"techs": [
@@ -920,7 +920,7 @@
 	{
 		"columnNumber": 18,
 		"era": "Present era",
-		"techCost": 3000,
+		"techCost": 2920,
 		"buildingCost": 620,
 		"wonderCost": 1500,
 		"techs": [

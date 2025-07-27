@@ -8,7 +8,7 @@
 			"Tundra",
 			"Snow"
 		],
-		"production": 5,
+		"production": 4,
 		"food": 4,
 		"culture": 1,
 		"turnsToBuild": 7,
@@ -42,7 +42,7 @@
 			"Tundra",
 			"Snow"
 		],
-		"turnsToBuild": 7,
+		"turnsToBuild": 5,
 		"techRequired": "Calendar",
 		"uniques": [ "[+1 Food] from [Tundra] tiles",  "[+1 Food] from [Snow] tiles",
 			"[+1 Food, +1 Production] <after discovering [Metal Farming Tools]>",
@@ -95,7 +95,7 @@
 		"turnsToBuild": 7,
 		"techRequired": "Improved Trade",
 		"uniques": [
-			"[+1 Gold] <after discovering [Economics]>",
+			"[+10 Gold] <after discovering [Economics]>",
 			"Pillaging this improvement yields approximately [+20 Gold]"
 		],
 		"shortcutKey": "T"
@@ -109,6 +109,7 @@
 			"Does not need removal of [Forest]",
 			"Does not need removal of [Jungle]",
 			"[+5 Gold] <after discovering [Economics]>",
+			"[+3 Productio, +1 Culture] <after discovering [Woodblock Printing]>",
 			"Can only be built to improve a resource",
 			"Pillaging this improvement yields approximately [+10 Gold]"
 		],
@@ -143,6 +144,7 @@
 		"techRequired": "Agriculture",
 		"uniques": [
 			"[+3 Food] <after discovering [Fertilizer]>",
+			"[+3 Production, +1 Culture] <after discovering [Woodblock Printing]>",
 			"Can only be built to improve a resource",
 			"Pillaging this improvement yields approximately [+10 Gold]"
 		],
@@ -455,8 +457,8 @@
 		"production": 20,
 		"uniques": [
 			"Great Improvement",
-			"[+1 Production] <after discovering [Chemistry]>",
-			"[+1 Production] <after discovering [Machinery]>",
+			"[+10 Production] <after discovering [Chemistry]>",
+			"[+10 Production] <after discovering [Machinery]>",
 			"Removes removable features when built",
 			"Pillaging this improvement yields approximately [+200 Gold]"
 		]
