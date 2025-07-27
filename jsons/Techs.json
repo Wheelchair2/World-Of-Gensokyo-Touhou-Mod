@@ -63,8 +63,9 @@
 				"Comment [Summary: You benefit from having only a few cities. But if you have at least 8 cities, you can get more [Manpower] which gives more bonuses, but units become more expensive.]",
 				"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 					"[+2 Production, +2 Food] from every specialist [in all cities] <when number of [[non-[Puppeted]] Cities] is less than [5]>",
-					"Comment [Or]"
-					"[+3 Production, +1 Food] from every specialist [in all cities] <when number of [[non-[Puppeted]] Cities] is more than [7]>",
+					"Comment [			Or]"
+					"[+3 Production, +1 Food] from every specialist [in all cities] <when number of [Cities] is more than [7]>",
+					"[+100]% Yield from every [{improved} {Land}] <when number of [Cities] is more than [7]>",
 					"Comment [------------------------------------]",
 					"Provides [5] [Manpower] <when number of [[non-[Puppeted]] Cities] is less than [5]>",
 					"Comment [------------------------------------]",
