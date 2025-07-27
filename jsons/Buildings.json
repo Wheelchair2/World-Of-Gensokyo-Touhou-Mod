@@ -2094,10 +2094,7 @@
 		"name": "Secret Hermit World",
 		"cost": 185,
 		"isWonder": true,
-		"culture": 3,
-		"uniques": [
-			"[5] free [Mountain Hermit] units appear"
-		],
+		"culture": 10,
 		"quote": "Senkai (hermit world) is a sealed secret world suited for hermits, which even Gensokyo did not know of before the events of Ten Desires.",
 		"requiredTech": "Culture Preservation"
 	},

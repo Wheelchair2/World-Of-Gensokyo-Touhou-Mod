@@ -1020,7 +1020,7 @@
 		],
 		"food": 2,
 		"gold": 2,
-		"improvedBy": ["Traps"],
+		"improvedBy": ["Camp"],
 		"uniques": [
 			"Generated with weight [5] <in [Tundra] Regions>",
 			"Generated with weight [5] <in [Forest] Regions>",
@@ -1042,7 +1042,7 @@
 		],
 		"food": 1,
 		"gold": 2,
-		"improvedBy": ["Traps"],
+		"improvedBy": ["Camp"],
 		"uniques": [
 			"Generated with weight [5] <in [Tundra] Regions>",
 			"Generated with weight [25] <in [Forest] Regions>",

@@ -28,7 +28,7 @@
   {
     "name": "Sword",
     "movementType": "Land",
-	"uniques": ["Consumes [1] [Manpower]", "Consumes [1] [Manpower] <starting from the [Meiji era]>", "Consumes [1] [Manpower] <when number of [Cities] is more than [7]>"]
+	"uniques": ["Consumes [1] [Manpower]", "Consumes [1] [Manpower] <starting from the [Meiji era]>", "Consumes [1] [Manpower] <when number of [Cities] is more than [7]>", "Consumes [1] [Manpower] <when number of [Cities] is more than [7]>"]
   },
   {
     "name": "Gunpowder",
