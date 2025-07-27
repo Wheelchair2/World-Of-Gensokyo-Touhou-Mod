@@ -430,6 +430,13 @@
 		]
 	},
 	{
+		"name": "Buddhist Monk",
+		"uniques": [
+			"Monk",
+			"[+10] HP when healing"
+		]
+	},
+	{
 		"name": "Yamabiko",
 		"uniques": [
 			"Racial",
