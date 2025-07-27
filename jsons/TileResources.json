@@ -7,7 +7,7 @@
 			"Cannot be traded",
 			"Comment [When above 20 [Manpower], you gain +20% [Food] in all cities. When above 15 [Manpower], you gain +20% [Production] in all cities. When above 20 [Manpower], +5 [Happiness] from each type of luxury resource.]",
 			"Comment [When above 20 [Manpower], you build Military units with +50% [Production]]",
-			"Comment [+50% growth in all cities when above 30 [Manpower]]",
+			//"Comment [+50% growth in all cities when above 30 [Manpower]]",
 			"Comment [-50% Unhappiness from Population in all cities when above 30 [Manpower]]"
 		],
 	}
@@ -479,7 +479,7 @@
 		"resourceType": "Luxury",
 		"uniques": [
 			"Not shown on world screen",
-			"[+1 Gold, +5 Production, +5 Food] from [Mountain] tiles [in all cities]",
+			"[+5 Gold, +5 Production] from [Mountain] tiles [in all cities]",
 			"[+1] Sight <for [Scout] units>",
 			"Comment [(Cards don't give any Happiness, except in Easy difficulty)]",
 			"[-4 Happiness] <hidden from users>",

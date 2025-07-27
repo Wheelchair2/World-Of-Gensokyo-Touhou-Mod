@@ -968,7 +968,7 @@
 	{
 		"name": "The Netherworld",
 		"leaderName": "Yuyuko Saigyouji",
-		"startBias": ["Saigyou Ayakashi"],
+		"startBias": ["Snow"],
 		"adjective": ["Ghost"],
 		"preferredVictoryType": "Cultural",
 		"startIntroPart1": ".",
@@ -1408,8 +1408,7 @@
 		"uniques": [
 			"Can only heal by pillaging",
 			"[All] units gain the [Youkai] promotion",
-			"Enables [Ghost Ship] units to enter ocean tiles <starting from the [Youkai Expansion Project]>",
-			"[5] free [Ghost Ship] units appear <upon entering the [Edo period]>",
+			"Enables [Ghost Ship] units to enter ocean tiles <starting from the [Youkai Expansion Project]>"
 		]
 	}
 ]

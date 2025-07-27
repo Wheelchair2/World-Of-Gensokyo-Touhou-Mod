@@ -13,7 +13,7 @@
 		"barbarianBonus": 0.75,
 		"barbarianSpawnDelay": 8,
 		"playerBonusStartingUnits": [], // Note that the units from Eras.json are added to this pool. This should only contain bonus starting units.
-		"aiCityGrowthModifier": 2, // that is to say it'll take them 1.6 times as long to grow the city
+		"aiCityGrowthModifier": 1.6, // that is to say it'll take them 1.6 times as long to grow the city
 		"aiUnitCostModifier": 1.75,
 		"aiBuildingCostModifier": 1.6,
 		"aiWonderCostModifier": 1.6,
@@ -44,7 +44,7 @@
 		"barbarianBonus": 0.33,
 		"barbarianSpawnDelay": 0,
 		"playerBonusStartingUnits": [],
-		"aiCityGrowthModifier": 2,
+		"aiCityGrowthModifier": 1,
 		"aiUnitCostModifier": 1,
 		"aiBuildingCostModifier": 1,
 		"aiWonderCostModifier": 1,
@@ -73,7 +73,7 @@
 		"barbarianBonus": 0.25,
 		"barbarianSpawnDelay": 0,
 		"playerBonusStartingUnits": [],
-		"aiCityGrowthModifier": 2,
+		"aiCityGrowthModifier": 0.9,
 		"aiUnitCostModifier": 0.85,
 		"aiBuildingCostModifier": 0.85,
 		"aiWonderCostModifier": 1,
@@ -106,7 +106,7 @@
 		"barbarianBonus": 0.2,
 		"barbarianSpawnDelay": 0,
 		"playerBonusStartingUnits": [],
-		"aiCityGrowthModifier": 1.9,
+		"aiCityGrowthModifier": 0.85,
 		"aiUnitCostModifier": 0.8,
 		"aiBuildingCostModifier": 0.8,
 		"aiWonderCostModifier": 1,
@@ -145,7 +145,7 @@
 		"barbarianBonus": 0,
 		"barbarianSpawnDelay": 0,
 		"playerBonusStartingUnits": [],
-		"aiCityGrowthModifier": 1.9,
+		"aiCityGrowthModifier": 0.6,
 		"aiUnitCostModifier": 0.5,
 		"aiBuildingCostModifier": 0.5,
 		"aiWonderCostModifier": 3,
@@ -173,7 +173,6 @@
 		"aiUnhappinessModifier": 0.6,
 		"aisExchangeTechs": true,
 		"turnBarbariansCanEnterPlayerTiles": 0,
-		"clearBarbarianCampReward": 25,
-		//"uniques": ["Gain a free [AI Debuff] [in capital] <for [AI player] Civilizations>"]
+		"clearBarbarianCampReward": 25
 	}
 ]

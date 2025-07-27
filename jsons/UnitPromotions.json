@@ -647,7 +647,11 @@
 	},
 	{
 		"name": "Lunarian",
-		"uniques": ["Racial"]
+		"uniques": [
+			"Racial",
+			"[-10]% Strength <when defending>",
+			"[+10]% Strength <when attacking>",
+		]
 	},
 	{
 		"name": "Celestial",

@@ -70,7 +70,6 @@
         "uniques": [
             "May buy [Great Prophet] units for [200] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([100])",
             "Every major Civilization gains a spy once a civilization enters this era",
-            "[-10]% [Science] [in all cities]"
         ]
     },
     {
@@ -94,7 +93,6 @@
         "uniques": [
             "May buy [Great Prophet] units for [300] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([100])",
             "Every major Civilization gains a spy once a civilization enters this era",
-            "[-10]% [Science] [in all cities]"
         ]
     }
 ]

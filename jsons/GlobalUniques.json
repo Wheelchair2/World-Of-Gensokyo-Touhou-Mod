@@ -321,15 +321,15 @@
 	"[+10]% Production when constructing [Special Wonder] buildings [in all cities] <starting from the [Youkai Expansion Project]>",
 	
 	// Manpower
-	"[+20]% [Food] [in all cities] <when above [20] [Manpower]>",
 	"[+20]% [Production] [in all cities] <when above [15] [Manpower]>",
-	"[+5] Happiness from each type of luxury resource <when above [20] [Manpower]>",
+	"[+1] Happiness from each type of luxury resource <when above [20] [Manpower]>",
 	"[+50]% Production when constructing [Military] units [in all cities] <when above [20] [Manpower]>",
-	"[+50]% growth [in all cities] <when above [30] [Manpower]>",
-	"[+10] Happiness from each type of luxury resource <when above [30] [Manpower]>",
+	"[+100]% Production towards any buildings that already exist in the Capital <when above [20] [Manpower]>",
+
+	//"[+10] Happiness from each type of luxury resource <when above [30] [Manpower]>",
 	
 	"[-30]% [Production] [in all cities] <when below [10] [Manpower]>",
-	"[+150]% maintenance cost for [All] buildings [in all cities]  <when below [10] [Manpower]>",
+	//"[+150]% maintenance cost for [All] buildings [in all cities]  <when below [10] [Manpower]>",
 	"[-30]% Strength <for [Military] units> <when below [0] [Manpower]>",
 	
 	"Provides [25] [Manpower]",
@@ -339,8 +339,8 @@
 	"[+50]% Strength <for [Hero] units> <when number of [[Hero] Units] is equal to [1]>",
 	
 	// City-State adjustment
-	"[-30]% [Production] [in all cities] <for [City-State] Civilizations> <starting from the [Edo period]>",
-	"[-70]% growth [in all cities] <for [City-State] Civilizations>",
+	//"[-30]% [Production] [in all cities] <for [City-State] Civilizations> <starting from the [Edo period]>",
+	//"[-70]% growth [in all cities] <for [City-State] Civilizations>",
 	//"[-50]% [Science] [in all cities] <for [City-State] Civilizations>",
  
 	//Vanilla
