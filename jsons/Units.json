@@ -8252,6 +8252,7 @@
 		"rangedStrength": 24,
 		"cost": 280,
 		"requiredTech": "Gunpowder",
+		"obsoleteTech": "Law Enforcement",
 		"attackSound": "shot",
 		"uniques": [
 			"[+60]% Strength <vs [Armor] units> <when attacking>",

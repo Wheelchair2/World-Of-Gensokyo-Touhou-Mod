@@ -64,7 +64,7 @@
         "startYear": 1600,
         "turns": [
             {"yearsPerTurn": 1.5, "untilTurn": 100},
-            {"yearsPerTurn": 0.5, "untilTurn": 350},
+            {"yearsPerTurn": 1.0, "untilTurn": 350},
             {"yearsPerTurn": 0.5, "untilTurn": 500},
             {"yearsPerTurn": 0.2, "untilTurn": 600},
             {"yearsPerTurn": 0.1, "untilTurn": 700},

@@ -1756,35 +1756,35 @@ UnitIcons/Suika Ibuki (Level 5)
   index: -1
 UnitIcons/Sunny Milk (Level 1)
   rotate: false
-  xy: 1300, 112
+  xy: 1192, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Sunny Milk (Level 2)
   rotate: false
-  xy: 1300, 112
+  xy: 1192, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Sunny Milk (Level 3)
   rotate: false
-  xy: 1300, 112
+  xy: 1192, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Sunny Milk (Level 4)
   rotate: false
-  xy: 1300, 112
+  xy: 1192, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Sunny Milk (Level 5)
   rotate: false
-  xy: 1300, 112
+  xy: 1192, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0

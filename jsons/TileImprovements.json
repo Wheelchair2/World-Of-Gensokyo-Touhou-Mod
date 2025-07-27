@@ -10,7 +10,7 @@
 		],
 		"production": 5,
 		"food": 4,
-		"culture": 4,
+		"culture": 1,
 		"turnsToBuild": 7,
 		"techRequired": "Architecture",
 		"uniques": [
@@ -46,7 +46,8 @@
 		"techRequired": "Calendar",
 		"uniques": [ "[+1 Food] from [Tundra] tiles",  "[+1 Food] from [Snow] tiles",
 			"[+1 Food, +1 Production] <after discovering [Metal Farming Tools]>",
-			"[+2 Food, +2 Production] <after discovering [Carpentry]>",
+			"[+1 Food, +2 Production] <after discovering [Carpentry]>",
+			 "[+4 Gold] from [Snow] tiles <after discovering [Carpentry]>",
 			"Pillaging this improvement yields approximately [+18 Gold]"
 		],
 		"shortcutKey": "F"
@@ -501,6 +502,7 @@
 		"gold": 2,
 		"turnsToBuild": 7,
 		"uniques": [
+			"[+5 Production, +3 Culture] <after discovering [Woodblock Printing]>",
 			"Pillaging this improvement yields approximately [+18 Gold]"
 		]
 	},
