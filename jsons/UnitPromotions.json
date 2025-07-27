@@ -105,7 +105,7 @@
         "row":  5
     },
 	{
-		"name": "Encouragement I",
+		"name": "Encourage I",
 		"uniques": ["[+15]% Strength bonus for [Military] units within [2] tiles", "Not shown on world screen"],
 		"prerequisites": ["Precision", "Versatility", "Blitzgrieg", "Supply Aid"],
 		"unitTypes": ["Support Hero"],
@@ -113,16 +113,16 @@
         "row": 2
     },
 	{
-		"name": "Encouragement II",
-		"prerequisites": ["Encouragement I"],
+		"name": "Encourage II",
+		"prerequisites": ["Encourage I"],
 		"uniques": ["Unit will heal every turn, even if it performs an action", "Not shown on world screen"],
 		"unitTypes": ["Support Hero"],
         "column": 35,
         "row": 2
     },
 	{
-		"name": "Encouragement III",
-		"prerequisites": ["Encouragement II"],
+		"name": "Encourage III",
+		"prerequisites": ["Encourage II"],
 		"uniques": ["Great General provides double combat bonus", "Not shown on world screen"],
 		"unitTypes": ["Support Hero"],
         "column": 36,
@@ -154,7 +154,7 @@
     },
 	{
 		"name": "Combat Mastery",
-		"prerequisites": ["Wielding III", "Encouragement III"],
+		"prerequisites": ["Wielding III", "Encourage III"],
 		"uniques": ["[+50]% Strength", "Not shown on world screen"],
 		"unitTypes": ["Fighter Hero", "Support Hero"],
         "column": 40,

@@ -2670,7 +2670,7 @@ UnitPromotionIcons/Doll Construct
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Encouragement
+UnitPromotionIcons/Encourage
   rotate: false
   xy: 1840, 1184
   size: 100, 100
