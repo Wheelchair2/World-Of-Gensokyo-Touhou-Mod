@@ -1661,7 +1661,7 @@
 		"uniques": [
 			"[+1 Production] from every specialist [in all cities]"
 		],
-		"requiredTech": "Architecture",
+		"requiredTech": "Espionage",
 		"quote": "The Ruined Western Mansion (Haiyoukan) is a mansion where the echoes of ensemble rehearsals can be heard, yet none can be seen. It is home to three poltergeists, the Prismriver Sisters."
 	},
 	{

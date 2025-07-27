@@ -67,7 +67,7 @@
 					"Comment [------------------------------------]",
 					"[+100]% [Science] [in all cities] <when number of [[non-[Puppeted]] Cities] is less than [4]> <starting from the [Edo period]>",
 					"Comment [------------------------------------]",
-					"[+200 Science] [in capital] <when number of [[non-[Puppeted]] Cities] is less than [4]> <starting from the [Meiji era]>",
+					"[+200]% [Science] [in all cities] <when number of [[non-[Puppeted]] Cities] is less than [4]> <starting from the [Meiji era]>",
 					"Comment [------------------------------------]",
 					"[+50 Production] [in all cities] <when number of [[non-[Puppeted]] Cities] is less than [4]> <starting from the [Meiji era]>",
 					"Comment [------------------------------------]",
@@ -864,7 +864,8 @@
 					"Lantern Clock",
 					"Carpentry"
 				],
-				"quote": "It is unknown when, how, or why the mansion was originally constructed, but Remilia Scarlet has been its mistress for about 500 years, and Flandre Scarlet has been in the basement for about 495 years."
+				"quote": "It is unknown when, how, or why the mansion was originally constructed, but Remilia Scarlet has been its mistress for about 500 years, and Flandre Scarlet has been in the basement for about 495 years.",
+				"uniques": ["[+1 Production] <in tiles adjacent to [Town] tiles>"],
 			},
 			{
 				"name": "Espionage",
