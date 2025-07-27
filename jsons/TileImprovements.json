@@ -95,7 +95,7 @@
 		"turnsToBuild": 7,
 		"techRequired": "Improved Trade",
 		"uniques": [
-			"[+10 Gold] <after discovering [Economics]>",
+			"[+1 Gold] <after discovering [Economics]>",
 			"Pillaging this improvement yields approximately [+20 Gold]"
 		],
 		"shortcutKey": "T"
@@ -178,9 +178,9 @@
 		"name": "Fishing Boats",
 		"terrainsCanBeBuiltOn": ["Fish"],
 		"food": 1,
-		//"techRequired": "Sailing",
+		"techRequired": "Sailing",
 		"uniques": [
-			"[+1 Food, +1 Production] <after discovering [Navigation]>",
+			"[+1 Production] <after discovering [Navigation]>",
 			"Pillaging this improvement yields approximately [+10 Gold]"
 		],
 		"shortcutKey": "F"
@@ -188,8 +188,8 @@
 	{
 		"name": "Fishing Vessel",
 		"terrainsCanBeBuiltOn": ["Coast"],
-		"gold": 4,
-		//"techRequired": "Sailing",
+		"gold": 3,
+		"techRequired": "Sailing",
 		"uniques": [
 			"[+5 Gold, +1 Production] <after discovering [Compass]>",
 			"Can only be built to improve a resource",

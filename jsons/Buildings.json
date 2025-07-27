@@ -838,7 +838,7 @@
 			"Must be next to [Coast]",
 			"[+1 Food] from [Ocean] tiles [in this city]",
 			"[+1 Food] from [Coast] tiles [in this city]",
-			"[+1 Food] from [Fish] tiles [in this city]"
+			"[+1 Production] from [Fish] tiles [in this city]"
 		],
 		"requiredTech": "Sailing"
 	},

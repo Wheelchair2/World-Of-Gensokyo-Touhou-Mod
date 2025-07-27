@@ -99,7 +99,7 @@
 	{
 		"name": "Blitzgrieg",
 		"prerequisites": ["Offense III"],
-		"uniques": ["[+20]% Strength <vs cities>", "Not shown on world screen"],
+		"uniques": ["[+50]% Strength <vs cities>", "[+30]% Strength <when defending> <vs [Ranged] units>", "Not shown on world screen"],
 		"unitTypes": ["Fighter Hero"],
         "column": 33,
         "row":  5
@@ -115,7 +115,7 @@
 	{
 		"name": "Encouragement II",
 		"prerequisites": ["Encouragement I"],
-		"uniques": ["Unit will heal every turn, even if it performs an action"],
+		"uniques": ["Unit will heal every turn, even if it performs an action", "Not shown on world screen"],
 		"unitTypes": ["Support Hero"],
         "column": 35,
         "row": 2
@@ -123,7 +123,7 @@
 	{
 		"name": "Encouragement III",
 		"prerequisites": ["Encouragement II"],
-		"uniques": ["Great General provides double combat bonus"],
+		"uniques": ["Great General provides double combat bonus", "Not shown on world screen"],
 		"unitTypes": ["Support Hero"],
         "column": 36,
         "row":  3
@@ -131,7 +131,7 @@
 	{
 		"name": "Wielding I",
 		"prerequisites": ["Precision", "Versatility", "Blitzgrieg", "Supply Aid"],
-		"uniques": ["[+100]% XP gained from combat"],
+		"uniques": ["[+100]% XP gained from combat", "Not shown on world screen"],
 		"unitTypes": ["Fighter Hero"],
         "column": 37,
         "row": 3
@@ -139,7 +139,7 @@
 	{
 		"name": "Wielding II",
 		"prerequisites": ["Wielding I"],
-		"uniques": ["Comment [Experimental]"],
+		"uniques": ["No movement cost to pillage", "Not shown on world screen"],
 		"unitTypes": ["Fighter Hero"],
         "column": 38,
         "row": 3
@@ -147,15 +147,15 @@
 	{
 		"name": "Wielding III",
 		"prerequisites": ["Wielding II"],
-		"uniques": ["Comment [Experimental]"],
+		"uniques": ["[+1] additional attacks per turn", "Not shown on world screen"],
 		"unitTypes": ["Fighter Hero"],
         "column": 39,
         "row":  3
     },
 	{
-		"name": "Wisdom",
+		"name": "Combat Mastery",
 		"prerequisites": ["Wielding III", "Encouragement III"],
-		"uniques": ["May capture killed [Hero] units"],
+		"uniques": ["[+50]% Strength", "Not shown on world screen"],
 		"unitTypes": ["Fighter Hero", "Support Hero"],
         "column": 40,
         "row":  3

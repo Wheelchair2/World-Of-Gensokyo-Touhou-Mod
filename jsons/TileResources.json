@@ -796,10 +796,6 @@
 			"Fishing Boats",
 			"Fishing Vessel"
 		],
-		"improvementStats": {
-			"food": 1,
-			"gold": 1
-		},
 		"uniques": [
 			"Generated on every [3] tiles <in [Fish] tiles>",
 			"Generated on every [2] tiles <in [Fish] tiles> <in [Grassland] Regions>",
@@ -815,10 +811,6 @@
 			"Fishing Boats",
 			"Fishing Vessel"
 		],
-		"improvementStats": {
-			"food": 1,
-			"gold": 1
-		},
 		"uniques": [
 			"Generated on every [3] tiles <in [Fish] tiles>",
 			"Generated on every [3] tiles <in [Lakes] tiles>",
@@ -837,10 +829,6 @@
 			"Fishing Boats",
 			"Fishing Vessel"
 		],
-		"improvementStats": {
-			"food": 1,
-			"gold": 1
-		},
 		"uniques": [
 			"Generated on every [3] tiles <in [Fish] tiles>",
 			"Generated on every [3] tiles <in [Lakes] tiles>",
@@ -856,32 +844,8 @@
 			"Fishing Boats",
 			"Fishing Vessel"
 		],
-		"improvementStats": {
-			"food": 1,
-			"gold": 1
-		},
 		"uniques": [
 			"Generated on every [1] tiles <in [Lakes] tiles>"
-		]
-	},
-	{
-		"name": "Tuna",
-		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Fish"],
-		"food": 1,
-		"gold": 1,
-		"improvedBy": [
-			"Fishing Boats",
-			"Fishing Vessel"
-		],
-		"uniques": [
-			"Generated with weight [35] <in [Tundra] Regions>",
-			"Generated with weight [25] <in [Forest] Regions>",
-			"Generated with weight [25] <in [Hill] Regions>",
-			"Generated with weight [5] <in [Plains] Regions>",
-			"Generated with weight [5] <in [Grassland] Regions>",
-			"Generated with weight [10] <in [Hybrid] Regions>",
-			"Generated near City States with weight [20]"
 		]
 	},
 	// Luxury resources
