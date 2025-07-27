@@ -25,6 +25,10 @@
 					"Comment [------------------------------------]",
 					"Comment [When above 20 [Manpower], you build Military units with +50% [Production]]",
 					"Comment [------------------------------------]",
+					"Comment [+50% growth in all cities when above 30 [Manpower]]",
+					"Comment [------------------------------------]",
+					"Comment [-50% Unhappiness from Population in all cities when above 30 [Manpower]]",
+					"Comment [------------------------------------]",
 					"Comment [When below 10 [Manpower], -30% [Production] in all cities]",
 					"Comment [When below 10 [Manpower], +150% building maintenance costs]",
 				]
@@ -54,7 +58,20 @@
 				"name": "Scientific Knowledge",
 				"row": 6,
 				"prerequisites": ["Things To Know"],
-				"quote": "The Touhou Project series while being primarily based on the religion known as Shinto it is not unusual to see many functions of the Touhou world to rely on modern science (Gendaikagaku)."
+				"quote": "The Touhou Project series while being primarily based on the religion known as Shinto it is not unusual to see many functions of the Touhou world to rely on modern science (Gendaikagaku).",
+				"uniques": [
+				"Comment [Summary: You benefit from having only a few cities. But if you have at least 8 cities, you can get more [Manpower] which gives more bonuses, but units become more expensive.]",
+				"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
+					"[+2 Production, +2 Food] from every specialist [in all cities] <when number of [[non-[Puppeted]] Cities] is less than [5]>",
+					"Comment [------------------------------------]",
+					"Provides [5] [Manpower] <when number of [[non-[Puppeted]] Cities] is less than [5]>",
+					"Comment [------------------------------------]",
+					"[+50]% growth [in all cities] <when number of [[non-[Puppeted]] Cities] is less than [5]>",
+					"Comment [------------------------------------]",
+					"[-50]% Unhappiness from [Population] [in all cities] <when number of [[non-[Puppeted]] Cities] is less than [5]>",
+					"Comment [------------------------------------]",
+					"Cities are razed [2] times as fast"
+				]
 			}
 		]
 	},
@@ -88,8 +105,7 @@
 				"name": "Authority",
 				"row": 5,
 				"prerequisites": ["Scientific Knowledge"],
-				"quote": "'I'll tell you a secret. My weakness is... nothing.' - Yukari Yakumo.",
-				"uniques": ["Cities are razed [2] times as fast"]
+				"quote": "'I'll tell you a secret. My weakness is... nothing.' - Yukari Yakumo."
 			},
 			{
 				"name": "Agriculture",
@@ -413,8 +429,8 @@
 				],
 				"quote": "Crow Tengu (karasu-tengu), the 'nimble information corps,' are similar to anthropomorphic crows with a humanoid body structure. Since they're responsible for writing and distributing newspapers, they're the only type of tengu that ventures to the foothills.",
 				"uniques": [
-					"Provides [5] [Manpower] <when number of [Cities] is more than [7]>",
-					"Provides [5] [Manpower] <when number of [Cities] is more than [14]>"
+					"Provides [15] [Manpower] <when number of [Cities] is more than [7]>",
+					"Provides [15] [Manpower] <when number of [Cities] is more than [14]>"
 				]
 			},
 			{

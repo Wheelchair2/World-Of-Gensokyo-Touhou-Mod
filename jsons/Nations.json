@@ -762,9 +762,7 @@
 			"[All] units gain the [Human Race] promotion",
 			"Starts with [Research For Magic]",
 			"Starts with [Simple Alchemy]",
-			"[+10]% Strength <for [{Human} {Magician}] units>",
-			"[+30]% Strength <for [{Human} {Magician}] units> <starting from the [Edo period]> <hidden from users>",
-			"[+200]% Strength <for [{Human} {Magician}] units> <starting from the [Meiji era]> <hidden from users>"
+			"[+20]% Strength <for [{Human} {Magician}] units>"
 		],
 		"cities": [
 			"Arcanopolis",

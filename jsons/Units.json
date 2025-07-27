@@ -7716,7 +7716,6 @@
 		"movement": 2,
 		"cost": 110,
 		"uniques": [
-		"Limited to [1] per Civilization <for [AI player] Civilizations> <if [Sovereign Government] is constructed> <hidden from users>",
 			"Founds a new city <by consuming this unit>",
 			"Excess Food converted to Production when under construction"
 		],
@@ -7730,7 +7729,6 @@
 		"movement": 2,
 		"cost": 90,
 		"uniques": [
-		"Limited to [1] per Civilization <for [AI player] Civilizations> <if [Sovereign Government] is constructed> <hidden from users>",
 			"[+1] Movement <in [Land] tiles>",
 			"Founds a new city <by consuming this unit>",
 			"Excess Food converted to Production when under construction"

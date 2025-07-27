@@ -25,12 +25,12 @@
 	},
     {
 		"name":"Cook",
-		"food": 1,
+		"food": 2,
 		"color": [162,255,150]
 	},
 	{
 		"name":"Carpenter",
-		"production": 1,
+		"production": 2,
 		"color": [229,167,87]
 	},
 	{

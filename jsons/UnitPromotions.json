@@ -2,7 +2,7 @@
 	// Hero Promotions
 	{
 		"name": "Studious I",
-		"uniques": ["[This Unit] gains [+1] XP <upon turn end>", "Not shown on world screen", "[-100]% weight to this choice for AI decisions"],
+		//"uniques": ["[This Unit] gains [+1] XP <upon turn end>", "Not shown on world screen", "[-100]% weight to this choice for AI decisions"],
 		"unitTypes": ["Fighter Hero", "Support Hero"],
         "column": 27,
         "row": 2
@@ -10,7 +10,7 @@
 	{
 		"name": "Studious II",
 		"prerequisites": ["Studious I"],
-		"uniques": ["[This Unit] gains [+1] XP <upon turn end>", "Not shown on world screen"],
+		//"uniques": ["[This Unit] gains [+1] XP <upon turn end>", "Not shown on world screen"],
 		"unitTypes": ["Fighter Hero", "Support Hero"],
         "column": 28,
         "row": 2
@@ -18,7 +18,7 @@
 	{
 		"name": "Studious III",
 		"prerequisites": ["Studious II"],
-		"uniques": ["[This Unit] gains [+1] XP <upon turn end>", "Not shown on world screen"],
+		//"uniques": ["[This Unit] gains [+1] XP <upon turn end>", "Not shown on world screen"],
 		"unitTypes": ["Fighter Hero", "Support Hero"],
         "column": 29,
         "row":  2

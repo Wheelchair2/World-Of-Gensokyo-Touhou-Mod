@@ -1,4 +1,5 @@
 [
+	/*
   {
     "name": "Type Of Government",
     "era": "Youkai Expansion Project",
@@ -69,6 +70,7 @@
 	  },
 	 ]
   },
+  */
   {
     "name": "Tradition",
     "era": "Youkai Expansion Project",
@@ -81,8 +83,7 @@
     },
     "uniques": [
       "[+3 Culture] [in capital]",
-      "[-25]% Culture cost of natural border growth [in all cities]",
-	   "Only available <after adopting [Type Of Government Complete]>"
+      "[-25]% Culture cost of natural border growth [in all cities]"
     ],
     "policies": [
       {
@@ -151,8 +152,7 @@
       "Scientific": 10
     },
     "uniques": [
-      "[+1 Culture] [in all cities]",
-	  "Only available <after adopting [Type Of Government Complete]>"
+      "[+1 Culture] [in all cities]"
     ],
     "policies": [
       {
@@ -222,8 +222,7 @@
     "uniques": [
       "[+55]% Strength <vs [Barbarian] units>",
       "Earn [100]% of killed [Barbarian] unit's [Strength] as [Culture]",
-      "Notified of new Barbarian encampments",
-	  "Only available <after adopting [Type Of Government Complete]>"
+      "Notified of new Barbarian encampments"
     ],
     "policies": [
       {
@@ -299,8 +298,7 @@
     "uniques": [
       "May choose [1] additional [Follower] beliefs when [founding] a religion",
       "May choose [1] additional [Founder] beliefs when [founding] a religion",
-      "Only available <before adopting [Rationalism]>",
-	  "Only available <after adopting [Type Of Government Complete]>"
+      "Only available <before adopting [Rationalism]>"
     ],
     "policies": [
       {
@@ -372,7 +370,7 @@
     },
     "uniques": [
       "[-25]% City-State Influence degradation",
-	  "Only available <after adopting [Type Of Government Complete]>"
+	  
     ],
     "policies": [
       {
@@ -443,8 +441,7 @@
     },
     "uniques": [
       "[+25]% [Gold] [in capital]",
-      "May buy items in puppet cities",
-	  "Only available <after adopting [Type Of Government Complete]>"
+      "May buy items in puppet cities"
     ],
     "policies": [
       {
@@ -525,8 +522,7 @@
     "uniques": [
       "[+15]% [Science] <while the empire is happy>",
       "[Great Scientist] is earned [+50]% faster",
-      "Only available <before adopting [Piety]>",
-	  "Only available <after adopting [Type Of Government Complete]>"
+      "Only available <before adopting [Piety]>"
     ],
     "policies": [
       {
@@ -560,7 +556,7 @@
         "column": 2
       },
       {
-        "name": "Research Funding",
+        "name": "Sovereignty",
         "uniques": [
           "[+100]% Production when constructing [Science] buildings [in all cities]"
         ],
@@ -599,8 +595,7 @@
     "uniques": [
       "[+25]% Great Person generation [in all cities]",
       "Only available <before adopting [Autocracy]>",
-      "Only available <before adopting [Order]>",
-	  "Only available <after adopting [Type Of Government Complete]>"
+      "Only available <before adopting [Order]>"
     ],
     "policies": [
       {
@@ -670,8 +665,7 @@
       "[-33]% maintenance costs <for [All] units>",
       "Upon capturing a city, receive [10] times its [Culture] production as [Culture] immediately",
       "Only available <before adopting [Order]>",
-      "Only available <before adopting [Freedom]>",
-	  "Only available <after adopting [Type Of Government Complete]>"
+      "Only available <before adopting [Freedom]>"
     ],
     "policies": [
       {
@@ -750,8 +744,7 @@
     "uniques": [
       "[+1 Happiness] [in all cities]",
       "Only available <before adopting [Autocracy]>",
-      "Only available <before adopting [Freedom]>",
-	  "Only available <after adopting [Type Of Government Complete]>"
+      "Only available <before adopting [Freedom]>"
     ],
     "policies": [
       {
