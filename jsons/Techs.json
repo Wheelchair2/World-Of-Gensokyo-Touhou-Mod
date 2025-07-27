@@ -67,7 +67,7 @@
 					"Comment [------------------------------------]",
 					"[+100]% [Science] [in all cities] <when number of [[non-[Puppeted]] Cities] is less than [4]> <starting from the [Edo period]>",
 					"Comment [------------------------------------]",
-					"[+200 Science] [in capita;] <when number of [[non-[Puppeted]] Cities] is less than [4]> <starting from the [Meiji era]>",
+					"[+200 Science] [in capital] <when number of [[non-[Puppeted]] Cities] is less than [4]> <starting from the [Meiji era]>",
 					"Comment [------------------------------------]",
 					"[+50 Production] [in all cities] <when number of [[non-[Puppeted]] Cities] is less than [4]> <starting from the [Meiji era]>",
 					"Comment [------------------------------------]",
@@ -616,10 +616,10 @@
 				"row": 5,
 				"prerequisites": ["Multicropping System"],
 				"uniques": [
-					"[+2 Food] from every [{unimproved} {Grassland}]",
-					"[+2 Food] from every [{unimproved} {Plains}]",
-					"[+2 Food] from every [{unimproved} {Tundra}]",
-					"[+1 Food, +1 Gold] from every [Lakes]"
+					"[+1 Food] from every [{unimproved} {Grassland}]",
+					"[+1 Food] from every [{unimproved} {Plains}]",
+					"[+1 Food] from every [{unimproved} {Tundra}]",
+					"[+1 Food, +4 Gold] from every [Lakes]"
 				],
 				"quote": "The blessings of the field pave the way to richness of the heart."
 			},
@@ -938,7 +938,7 @@
 				"row": 7,
 				"prerequisites": ["Modern Knowledge"],
 				"quote": "There are still electricity in Gensokyo, you know.",
-				"uniques": ["[+50]% Production towards any buildings that already exist in the Capital"]
+				"uniques": ["[+100]% Production towards any buildings that already exist in the Capital"]
 			},
 			{
 				"name": "Scientific Theory",
