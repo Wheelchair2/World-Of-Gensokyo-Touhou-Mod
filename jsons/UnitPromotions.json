@@ -346,7 +346,7 @@
 		"name": "Goddess",
 		"uniques": [
 			"Racial",
-			"[+5] HP when healing",
+			"[+10] HP when healing",
 			"[+15]% Strength"
 		]
 	},
@@ -377,7 +377,7 @@
 			"Racial",
 			"Magician",
 			"Youkai",
-			"[+5]% Strength <when attacking>"
+			"[+1] Sight"
 		]
 	},
 	{
