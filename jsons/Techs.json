@@ -27,7 +27,7 @@
 					"Comment [------------------------------------]",
 					"Comment [+100% Production towards any buildings that already exist in the Capital when above 20 [Manpower]]",
 					"Comment [------------------------------------]",
-					"Comment [When below 10 [Manpower], -5% Strength for Military units",
+					"Comment [When below 10 [Manpower], -5% Strength for Military units]",
 					"Comment [When below 10 [Manpower], -30% [Production] in all cities]",
 					
 					//"Comment [When below 10 [Manpower], +150% building maintenance costs]",
@@ -436,7 +436,8 @@
 				"uniques": [
 					"[+10 Production] [in all cities] <when number of [Cities] is more than [6]>",
 					"Provides [15] [Manpower] <when number of [Cities] is more than [6]>",
-					"Provides [30] [Manpower] <when number of [Cities] is more than [10]>"
+					"Provides [30] [Manpower] <when number of [Cities] is more than [10]>",
+					"Provides [50] [Manpower] <when number of [Cities] is more than [15]>",
 				]
 			},
 			{
