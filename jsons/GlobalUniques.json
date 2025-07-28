@@ -336,7 +336,7 @@
 	
 	"Cannot build [{non-[Hero]} {Military}] units <in [in all cities] cities> <for [AI player] Civilizations> <when number of [[Hero] Units] is equal to [0]>",
 	
-	"[+50]% Strength <for [Hero] units> <when number of [[Hero] Units] is equal to [1]>",
+	"[+20]% Strength <for [Hero] units> <when number of [[Hero] Units] is equal to [1]>",
 	
 	// City-State adjustment
 	//"[-30]% [Production] [in all cities] <for [City-State] Civilizations> <starting from the [Edo period]>",
