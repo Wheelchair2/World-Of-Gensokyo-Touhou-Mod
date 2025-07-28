@@ -8142,7 +8142,7 @@
 		"unitType": "Sword",
 		"movement": 2,
 		"strength": 60,
-		"cost": 2500,
+		"cost": 1400,
 		"requiredResource": "Iron",
 		"requiredTech": "Civil Service",
 		"obsoleteTech": "Nobility",
@@ -8160,7 +8160,7 @@
 		"unitType": "Sword",
 		"movement": 2,
 		"strength": 80,
-		"cost": 4000,
+		"cost": 2800,
 		"requiredResource": "Iron",
 		"requiredTech": "Nobility",
 		"uniques": [
@@ -8579,8 +8579,8 @@
 		"unitType": "Siege",
 		"movement": 2,
 		"strength": 85,
-		"rangedStrength": 50,
-		"cost": 1500,
+		"rangedStrength": 72,
+		"cost": 1800,
 		"requiredTech": "Nobility",
 		"uniques": [
 			"[+200]% Strength <vs cities> <when attacking>",
