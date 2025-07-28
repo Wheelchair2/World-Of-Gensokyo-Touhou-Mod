@@ -1968,6 +1968,7 @@
 		"maintenance": 2,
 		"food": 4,
 		"happiness": 2,
+		"faith": 2,
 		"requiredTech": "Rituals"
 	},
 	{
