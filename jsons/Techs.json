@@ -383,7 +383,7 @@
 				"row": 14,
 				"prerequisites": ["Advanced Magic"],
 				"quote": "'Sonanoka?' - Rumia.",
-				"uniques": ["[+5]% Strength <for [Apparition] units>"]
+				"uniques": ["[+5]% Strength <for [{non-[Hero]} {Apparition}] units>"]
 			},
 			{
 				"name": "Magical Science",
@@ -430,9 +430,9 @@
 				],
 				"quote": "Crow Tengu (karasu-tengu), the 'nimble information corps,' are similar to anthropomorphic crows with a humanoid body structure. Since they're responsible for writing and distributing newspapers, they're the only type of tengu that ventures to the foothills.",
 				"uniques": [
-					"[+10 Production] [in all cities] <when number of [Cities] is more than [7]>",
-					"Provides [15] [Manpower] <when number of [Cities] is more than [7]>",
-					"Provides [30] [Manpower] <when number of [Cities] is more than [12]>"
+					"[+10 Production] [in all cities] <when number of [Cities] is more than [6]>",
+					"Provides [15] [Manpower] <when number of [Cities] is more than [6]>",
+					"Provides [30] [Manpower] <when number of [Cities] is more than [10]>"
 				]
 			},
 			{
