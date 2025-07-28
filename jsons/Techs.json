@@ -27,6 +27,7 @@
 					"Comment [------------------------------------]",
 					"Comment [+100% Production towards any buildings that already exist in the Capital when above 20 [Manpower]]",
 					"Comment [------------------------------------]",
+					"Comment [When below 10 [Manpower], -5% Strength for Military units",
 					"Comment [When below 10 [Manpower], -30% [Production] in all cities]",
 					
 					//"Comment [When below 10 [Manpower], +150% building maintenance costs]",
@@ -66,12 +67,15 @@
 					"[+100]% [Production] [in all cities] <when number of [[non-[Puppeted]] Cities] is less than [4]> <starting from the [Edo period]>",
 					"Comment [------------------------------------]",
 					"[+100]% [Science] [in all cities] <when number of [[non-[Puppeted]] Cities] is less than [4]> <starting from the [Edo period]>",
+					"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
+					"Provides [30] [Manpower] <when number of [[non-[Puppeted]] Cities] is less than [4]>  <starting from the [Meiji era]>",
 					"Comment [------------------------------------]",
-					"[+200]% [Science] [in all cities] <when number of [[non-[Puppeted]] Cities] is less than [4]> <starting from the [Meiji era]>",
+					"[+500]% [Science] [in all cities] <when number of [[non-[Puppeted]] Cities] is less than [4]> <starting from the [Meiji era]>",
 					"Comment [------------------------------------]",
-					"[+50 Production] [in all cities] <when number of [[non-[Puppeted]] Cities] is less than [4]> <starting from the [Meiji era]>",
+					"[+500]% [Production] [in all cities] <when number of [[non-[Puppeted]] Cities] is less than [4]> <starting from the [Meiji era]>",
 					"Comment [------------------------------------]",
 					"Comment [Extra [Manpower] in [Maintained Society] tech]"
+					"Comment [----------------------------⋆⋅☆⋅⋆----------------------------]",
 				]
 			}
 		]
