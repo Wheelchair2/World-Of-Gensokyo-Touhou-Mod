@@ -168,6 +168,8 @@
 			"Aunn Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
 			
+			"[This Unit] loses the [Human Race] promotion <hidden from users>",
+			
 			"[-15]% Strength <when attacking>",
 			"[+20]% Strength <when defending>",
 			
@@ -195,6 +197,8 @@
 			"[-15]% Strength <when attacking>",
 			"[+20]% Strength <when defending>",
 			
+			"[This Unit] loses the [Human Race] promotion <hidden from users>",
+			
 			"Never appears as a Barbarian unit"
 		]
 	},
@@ -219,6 +223,8 @@
 			"[-15]% Strength <when attacking>",
 			"[+20]% Strength <when defending>",
 			
+			"[This Unit] loses the [Human Race] promotion <hidden from users>",
+			
 			"Never appears as a Barbarian unit"
 		]
 	},
@@ -241,6 +247,8 @@
 			
 			"[-15]% Strength <when attacking>",
 			"[+50]% Strength <when defending>",
+			
+			"[This Unit] loses the [Human Race] promotion <hidden from users>",
 			
 			"Never appears as a Barbarian unit"
 		]
@@ -291,6 +299,8 @@
 			"Kogasa Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
 			
+			"[This Unit] loses the [Human Race] promotion <hidden from users>",
+			
 			"[+33]% to Flank Attack bonuses",
 			
 			"Never appears as a Barbarian unit"
@@ -313,6 +323,8 @@
 			"Comment [Hero units can upgrade after each era]",
 			"Kogasa Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
+			
+			"[This Unit] loses the [Human Race] promotion <hidden from users>",
 			
 			"[+33]% to Flank Attack bonuses",
 			
@@ -337,6 +349,8 @@
 			"Kogasa Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
 			
+			"[This Unit] loses the [Human Race] promotion <hidden from users>",
+			
 			"[+33]% to Flank Attack bonuses",
 			
 			"Never appears as a Barbarian unit",
@@ -359,6 +373,8 @@
 			"Comment [Hero units can upgrade after each era]",
 			"Kogasa Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
+			
+			"[This Unit] loses the [Human Race] promotion <hidden from users>",
 			
 			"[+100]% to Flank Attack bonuses",
 			
@@ -666,6 +682,8 @@
 			"Cirno Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
 			
+			"[This Unit] loses the [Fairy] promotion <hidden from users>",
+			
 			"[Target Unit] loses [3] movement <upon damaging a [All] unit>",
 			
 			"Never appears as a Barbarian unit"
@@ -688,6 +706,8 @@
 			"Comment [Hero units can upgrade after each era]",
 			"Cirno Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
+			
+			"[This Unit] loses the [Fairy] promotion <hidden from users>",
 			
 			"[Target Unit] loses [3] movement <upon damaging a [All] unit>",
 			
@@ -712,6 +732,8 @@
 			"Cirno Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
 			
+			"[This Unit] loses the [Fairy] promotion <hidden from users>",
+			
 			"[Target Unit] loses [3] movement <upon damaging a [All] unit>",
 			
 			"Never appears as a Barbarian unit"
@@ -733,6 +755,8 @@
 			"Comment [Hero units can upgrade after each era]",
 			"Cirno Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
+			
+			"[This Unit] loses the [Fairy] promotion <hidden from users>",
 			
 			"[Target Unit] loses [10] movement <upon damaging a [All] unit>",
 			
@@ -2390,6 +2414,8 @@
 			"Chimata Tenkyuu Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
 			
+			"[This Unit] loses the [Divine Blessing] promotion <hidden from users>",
+			
 			"Earn [50]% of the damage done to [Military] units as [Gold]",
 			
 			"Never appears as a Barbarian unit"
@@ -2412,6 +2438,8 @@
 			"Comment [Hero units can upgrade after each era]",
 			"Chimata Tenkyuu Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
+			
+			"[This Unit] loses the [Divine Blessing] promotion <hidden from users>",
 			
 			"Earn [50]% of the damage done to [Military] units as [Gold]",
 			
@@ -2436,6 +2464,8 @@
 			"Chimata Tenkyuu Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
 			
+			"[This Unit] loses the [Divine Blessing] promotion <hidden from users>",
+			
 			"Earn [50]% of the damage done to [Military] units as [Gold]",
 			
 			"Never appears as a Barbarian unit"
@@ -2457,6 +2487,8 @@
 			"Comment [Hero units can upgrade after each era]",
 			"Chimata Tenkyuu Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
+			
+			"[This Unit] loses the [Divine Blessing] promotion <hidden from users>",
 			
 			"Earn [100]% of the damage done to [Military] units as [Gold]",
 			
@@ -2509,6 +2541,8 @@
 			"Megumu Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
 			
+			"[This Unit] loses the [Divine Blessing] promotion <hidden from users>",
+			
 			"[+33]% to Flank Attack bonuses",
 			
 			"Never appears as a Barbarian unit"
@@ -2531,6 +2565,8 @@
 			"Comment [Hero units can upgrade after each era]",
 			"Megumu Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
+			
+			"[This Unit] loses the [Divine Blessing] promotion <hidden from users>",
 			
 			"[+33]% to Flank Attack bonuses",
 			
@@ -2555,6 +2591,8 @@
 			"Megumu Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
 			
+			"[This Unit] loses the [Divine Blessing] promotion <hidden from users>",
+			
 			"[+33]% to Flank Attack bonuses",
 			
 			"Never appears as a Barbarian unit"
@@ -2576,6 +2614,8 @@
 			"Comment [Hero units can upgrade after each era]",
 			"Megumu Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
+			
+			"[This Unit] loses the [Divine Blessing] promotion <hidden from users>",
 			
 			"[+50]% to Flank Attack bonuses",
 			
@@ -2601,6 +2641,9 @@
 			"Comment [Hero units can upgrade after each era]",
 			"Tsukasa Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
+			
+			"[This Unit] loses the [Divine Blessing] promotion <hidden from users>",
+			"[This Unit] gains the [Youkai] promotion <hidden from users>",
 			
 			"Ignores Zone of Control",
 			"[+1] Movement",
@@ -2630,7 +2673,6 @@
 			"[+1] Movement",
 			
 			"[This Unit] loses the [Divine Blessing] promotion <hidden from users>",
-			"[This Unit] gains the [Youkai] promotion <hidden from users>",
 			
 			"Never appears as a Barbarian unit"
 		]
@@ -2652,6 +2694,8 @@
 			"Comment [Hero units can upgrade after each era]",
 			"Tsukasa Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
+			
+			"[This Unit] loses the [Divine Blessing] promotion <hidden from users>",
 			
 			"Ignores Zone of Control",
 			"[+1] Movement",
@@ -2677,6 +2721,8 @@
 			"Tsukasa Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
 			
+			"[This Unit] loses the [Divine Blessing] promotion <hidden from users>",
+			
 			"Ignores Zone of Control",
 			"[+1] Movement",
 			
@@ -2699,6 +2745,8 @@
 			"Comment [Hero units can upgrade after each era]",
 			"Tsukasa Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
+			
+			"[This Unit] loses the [Divine Blessing] promotion <hidden from users>",
 			
 			"Ignores Zone of Control",
 			"[+3] Movement",
@@ -2870,6 +2918,8 @@
 			
 			"[+15]% Strength <when fighting in [Friendly Land] tiles>",
 			
+			"[This Unit] loses the [Vampire] promotion <hidden from users>",
+			
 			"Never appears as a Barbarian unit"
 		]
 	},
@@ -2890,6 +2940,8 @@
 			"Comment [Hero units can upgrade after each era]",
 			"Meiling Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
+			
+			"[This Unit] loses the [Vampire] promotion <hidden from users>",
 			
 			"[+15]% Strength <when fighting in [Friendly Land] tiles>",
 			
@@ -2914,6 +2966,8 @@
 			"Meiling Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
 			
+			"[This Unit] loses the [Vampire] promotion <hidden from users>",
+			
 			"[+15]% Strength <when fighting in [Friendly Land] tiles>",
 			
 			"Never appears as a Barbarian unit"
@@ -2935,6 +2989,8 @@
 			"Comment [Hero units can upgrade after each era]",
 			"Meiling Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
+			
+			"[This Unit] loses the [Vampire] promotion <hidden from users>",
 			
 			"[+60]% Strength <when fighting in [Friendly Land] tiles>",
 			
@@ -2988,6 +3044,9 @@
 			"Sakuya Izayoi Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
 			
+			"[This Unit] loses the [Vampire] promotion <hidden from users>",
+			"[This Unit] loses the [Youkai] promotion <hidden from users>",
+			
 			"[This Unit] gains the [Time Stopped] status for [1] turn(s) <upon entering combat>",
 			
 			"Never appears as a Barbarian unit"
@@ -3010,6 +3069,9 @@
 			"Comment [Hero units can upgrade after each era]",
 			"Sakuya Izayoi Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
+			
+			"[This Unit] loses the [Vampire] promotion <hidden from users>",
+			"[This Unit] loses the [Youkai] promotion <hidden from users>",
 			
 			"[This Unit] gains the [Time Stopped] status for [1] turn(s) <upon entering combat>",
 			
@@ -3034,6 +3096,9 @@
 			"Sakuya Izayoi Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
 			
+			"[This Unit] loses the [Vampire] promotion <hidden from users>",
+			"[This Unit] loses the [Youkai] promotion <hidden from users>",
+			
 			"[This Unit] gains the [Time Stopped] status for [1] turn(s) <upon entering combat>",
 			
 			"Never appears as a Barbarian unit"
@@ -3055,6 +3120,9 @@
 			"Comment [Hero units can upgrade after each era]",
 			"Sakuya Izayoi Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
+			
+			"[This Unit] loses the [Vampire] promotion <hidden from users>",
+			"[This Unit] loses the [Youkai] promotion <hidden from users>",
 			
 			"[This Unit] gains the [Time Stopped] status for [1] turn(s) <upon entering combat>",
 			"[+20]% Strength <when [Time Stopped]>",
@@ -3113,6 +3181,8 @@
 			"Patchouli Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
 			
+			"[This Unit] loses the [Vampire] promotion <hidden from users>",
+			
 			"[+15]% Strength <when attacking>",
 			
 			"Never appears as a Barbarian unit"
@@ -3136,6 +3206,8 @@
 			"Comment [Hero units can upgrade after each era]",
 			"Patchouli Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
+			
+			"[This Unit] loses the [Vampire] promotion <hidden from users>",
 			
 			"[+15]% Strength <when attacking>",
 			
@@ -3161,6 +3233,8 @@
 			"Patchouli Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
 			
+			"[This Unit] loses the [Vampire] promotion <hidden from users>",
+			
 			"[+15]% Strength <when attacking>",
 			
 			"Never appears as a Barbarian unit"
@@ -3183,6 +3257,8 @@
 			"Comment [Hero units can upgrade after each era]",
 			"Patchouli Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
+			
+			"[This Unit] loses the [Vampire] promotion <hidden from users>",
 			
 			"[+50]% Strength <when attacking>",
 			
@@ -3208,6 +3284,8 @@
 			"Comment [Hero units can upgrade after each era]",
 			"Koakuma Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
+			
+			"[This Unit] loses the [Vampire] promotion <hidden from users>",
 			
 			"[+2] Sight",
 			"Can see invisible [All] units",
@@ -3235,6 +3313,8 @@
 			"Koakuma Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
 			
+			"[This Unit] loses the [Vampire] promotion <hidden from users>",
+			
 			"[+2] Sight",
 			"Can see invisible [All] units",
 			
@@ -3258,6 +3338,8 @@
 			"Comment [Hero units can upgrade after each era]",
 			"Koakuma Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
+			
+			"[This Unit] loses the [Vampire] promotion <hidden from users>",
 			
 			"[+2] Sight",
 			"Can see invisible [All] units",
@@ -3283,6 +3365,8 @@
 			"Koakuma Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
 			
+			"[This Unit] loses the [Vampire] promotion <hidden from users>",
+			
 			"[+2] Sight",
 			"Can see invisible [All] units",
 			
@@ -3305,6 +3389,8 @@
 			"Comment [Hero units can upgrade after each era]",
 			"Koakuma Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
+			
+			"[This Unit] loses the [Vampire] promotion <hidden from users>",
 			
 			"[+5] Sight",
 			"[+2] Movement",
@@ -3475,6 +3561,8 @@
 			"Keine Kamishirasawa Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
 			
+			"[This Unit] loses the [Human Race] promotion <hidden from users>",
+			
 			"[+20] HP when healing",
 			
 			"Never appears as a Barbarian unit"
@@ -3497,6 +3585,8 @@
 			"Comment [Hero units can upgrade after each era]",
 			"Keine Kamishirasawa Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
+			
+			"[This Unit] loses the [Human Race] promotion <hidden from users>",
 			
 			"[+20] HP when healing",
 			
@@ -3521,6 +3611,8 @@
 			"Keine Kamishirasawa Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
 			
+			"[This Unit] loses the [Human Race] promotion <hidden from users>",
+			
 			"[+20] HP when healing",
 			
 			"Never appears as a Barbarian unit"
@@ -3542,6 +3634,8 @@
 			"Comment [Hero units can upgrade after each era]",
 			"Keine Kamishirasawa Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
+			
+			"[This Unit] loses the [Human Race] promotion <hidden from users>",
 			
 			"[+40] HP when healing",
 			
@@ -3832,6 +3926,8 @@
 			"Mamizou Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
 			
+			"[This Unit] loses the [Human Race] promotion <hidden from users>",
+			
 			"Withdraws before melee combat <with [30]% chance>",
 			
 			"Never appears as a Barbarian unit"
@@ -3854,6 +3950,8 @@
 			"Comment [Hero units can upgrade after each era]",
 			"Mamizou Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
+			
+			"[This Unit] loses the [Human Race] promotion <hidden from users>",
 			
 			"Withdraws before melee combat <with [30]% chance>",
 			
@@ -3878,6 +3976,8 @@
 			"Mamizou Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
 			
+			"[This Unit] loses the [Human Race] promotion <hidden from users>",
+			
 			"Withdraws before melee combat <with [30]% chance>",
 			
 			"Never appears as a Barbarian unit"
@@ -3899,6 +3999,8 @@
 			"Comment [Hero units can upgrade after each era]",
 			"Mamizou Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
+			
+			"[This Unit] loses the [Human Race] promotion <hidden from users>",
 			
 			"Withdraws before melee combat <with [50]% chance>",
 			
@@ -3952,6 +4054,8 @@
 			"Okina Matara Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
 			
+			"[This Unit] loses the [Divine Blessing] promotion <hidden from users>",
+			
 			"May Paradrop to [Friendly Land] tiles up to [100] tiles away <if it hasn't used other actions yet>",
 			
 			"Never appears as a Barbarian unit"
@@ -3974,6 +4078,8 @@
 			"Comment [Hero units can upgrade after each era]",
 			"Okina Matara Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
+			
+			"[This Unit] loses the [Divine Blessing] promotion <hidden from users>",
 			
 			"May Paradrop to [Friendly Land] tiles up to [100] tiles away <if it hasn't used other actions yet>",
 			
@@ -3998,6 +4104,8 @@
 			"Okina Matara Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
 			
+			"[This Unit] loses the [Divine Blessing] promotion <hidden from users>",
+			
 			"May Paradrop to [Friendly Land] tiles up to [100] tiles away <if it hasn't used other actions yet>",
 			
 			"Never appears as a Barbarian unit"
@@ -4019,6 +4127,8 @@
 			"Comment [Hero units can upgrade after each era]",
 			"Okina Matara Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
+			
+			"[This Unit] loses the [Divine Blessing] promotion <hidden from users>",
 			
 			"May Paradrop to [Friendly Land] tiles up to [100] tiles away",
 			
@@ -4310,6 +4420,10 @@
 			"Seiga Kaku Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
 			
+			"[This Unit] loses the [Corpse] promotion <hidden from users>",
+			"[This Unit] loses the [Youkai] promotion <hidden from users>",
+			"[This Unit] loses the [Jiangshi] promotion <hidden from users>",
+			
 			"Can pass through impassable tiles",
 			"All tiles cost 1 movement",
 			
@@ -4333,6 +4447,10 @@
 			"Comment [Hero units can upgrade after each era]",
 			"Seiga Kaku Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
+			
+			"[This Unit] loses the [Corpse] promotion <hidden from users>",
+			"[This Unit] loses the [Youkai] promotion <hidden from users>",
+			"[This Unit] loses the [Jiangshi] promotion <hidden from users>",
 			
 			"Can pass through impassable tiles",
 			"All tiles cost 1 movement",
@@ -4358,6 +4476,10 @@
 			"Seiga Kaku Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
 			
+			"[This Unit] loses the [Corpse] promotion <hidden from users>",
+			"[This Unit] loses the [Youkai] promotion <hidden from users>",
+			"[This Unit] loses the [Jiangshi] promotion <hidden from users>",
+			
 			"Can pass through impassable tiles",
 			"All tiles cost 1 movement",
 			
@@ -4380,6 +4502,10 @@
 			"Comment [Hero units can upgrade after each era]",
 			"Seiga Kaku Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
+			
+			"[This Unit] loses the [Corpse] promotion <hidden from users>",
+			"[This Unit] loses the [Youkai] promotion <hidden from users>",
+			"[This Unit] loses the [Jiangshi] promotion <hidden from users>",
 			
 			"Can pass through impassable tiles",
 			"All tiles cost 1 movement",
@@ -4918,6 +5044,8 @@
 			"Yukari Yakumo Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
 			
+			"[This Unit] loses the [Phantasm] promotion <hidden from users>",
+			
 			"May Paradrop to [Land] tiles up to [100] tiles away <if it hasn't used other actions yet>",
 			
 			"Never appears as a Barbarian unit"
@@ -4940,6 +5068,8 @@
 			"Comment [Hero units can upgrade after each era]",
 			"Yukari Yakumo Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
+			
+			"[This Unit] loses the [Phantasm] promotion <hidden from users>",
 			
 			"May Paradrop to [Land] tiles up to [100] tiles away <if it hasn't used other actions yet>",
 			
@@ -4964,6 +5094,8 @@
 			"Yukari Yakumo Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
 			
+			"[This Unit] loses the [Phantasm] promotion <hidden from users>",
+			
 			"May Paradrop to [Land] tiles up to [100] tiles away <if it hasn't used other actions yet>",
 			
 			"Never appears as a Barbarian unit"
@@ -4985,6 +5117,8 @@
 			"Comment [Hero units can upgrade after each era]",
 			"Yukari Yakumo Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
+			
+			"[This Unit] loses the [Phantasm] promotion <hidden from users>",
 			
 			"May Paradrop to [Land] tiles up to [100] tiles away",
 			"May enter foreign tiles without open borders",
@@ -5378,9 +5512,6 @@
 			"[+10]% Strength",
 			"[+10] HP when healing",
 			
-			"[This Unit] loses the [Vampire] promotion <hidden from users>",
-			"[This Unit] gains the [Martial Artist] promotion <hidden from users>",
-			
 			"Never appears as a Barbarian unit"
 		]
 	},
@@ -5646,6 +5777,8 @@
 			"Kagerou Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
 			
+			"[This Unit] loses the [Mermaid] promotion <hidden from users>",
+			
 			"[+2] Movement",
 			
 			"Never appears as a Barbarian unit"
@@ -5668,6 +5801,8 @@
 			"Comment [Hero units can upgrade after each era]",
 			"Kagerou Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
+			
+			"[This Unit] loses the [Mermaid] promotion <hidden from users>",
 			
 			"[+2] Movement",
 			
@@ -5692,6 +5827,8 @@
 			"Kagerou Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
 			
+			"[This Unit] loses the [Mermaid] promotion <hidden from users>",
+			
 			"[+2] Movement",
 			
 			"Never appears as a Barbarian unit"
@@ -5713,6 +5850,8 @@
 			"Comment [Hero units can upgrade after each era]",
 			"Kagerou Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
+			
+			"[This Unit] loses the [Mermaid] promotion <hidden from users>",
 			
 			"[+5] Movement",
 			
@@ -5887,6 +6026,8 @@
 			"Suwako Moriya Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
 			
+			"[This Unit] loses the [Human Race] promotion <hidden from users>",
+			
 			"[-50]% Strength for enemy [Military] units in adjacent [Hill] tiles",
 			
 			"Never appears as a Barbarian unit"
@@ -5909,6 +6050,8 @@
 			"Comment [Hero units can upgrade after each era]",
 			"Suwako Moriya Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
+			
+			"[This Unit] loses the [Human Race] promotion <hidden from users>",
 			
 			"[-50]% Strength for enemy [Military] units in adjacent [Hill] tiles",
 			
@@ -5933,6 +6076,8 @@
 			"Suwako Moriya Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
 			
+			"[This Unit] loses the [Human Race] promotion <hidden from users>",
+			
 			"[-50]% Strength for enemy [Military] units in adjacent [Hill] tiles",
 			
 			"Never appears as a Barbarian unit"
@@ -5954,6 +6099,8 @@
 			"Comment [Hero units can upgrade after each era]",
 			"Suwako Moriya Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
+			
+			"[This Unit] loses the [Human Race] promotion <hidden from users>",
 			
 			"[-100]% Strength for enemy [Military] units in adjacent [Hill] tiles",
 			
@@ -6009,6 +6156,8 @@
 			"Kanako Yasaka Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
 			
+			"[This Unit] loses the [Human Race] promotion <hidden from users>",
+			
 			"[+1] Movement",
 			"All tiles cost 1 movement",
 			
@@ -6033,6 +6182,8 @@
 			"Comment [Hero units can upgrade after each era]",
 			"Kanako Yasaka Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
+			
+			"[This Unit] loses the [Human Race] promotion <hidden from users>",
 			
 			"[+1] Movement",
 			"All tiles cost 1 movement",
@@ -6059,6 +6210,8 @@
 			"Kanako Yasaka Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
 			
+			"[This Unit] loses the [Human Race] promotion <hidden from users>",
+			
 			"[+1] Movement",
 			"All tiles cost 1 movement",
 			
@@ -6082,6 +6235,8 @@
 			"Comment [Hero units can upgrade after each era]",
 			"Kanako Yasaka Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
+			
+			"[This Unit] loses the [Human Race] promotion <hidden from users>",
 			
 			"[+1] Movement",
 			"All tiles cost 1 movement",
@@ -6136,6 +6291,9 @@
 			"Byakuren Hijiri Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
 			
+			"[This Unit] gains the [Magic Mastery] promotion <hidden from users>",
+			"[This Unit] gains the [Buddhist Monk] promotion <hidden from users>",
+			
 			"[+15]% Strength bonus for [Youkai] units within [2] tiles",
 			
 			"Never appears as a Barbarian unit"
@@ -6158,6 +6316,9 @@
 			"Comment [Hero units can upgrade after each era]",
 			"Byakuren Hijiri Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
+			
+			"[This Unit] gains the [Magic Mastery] promotion <hidden from users>",
+			"[This Unit] gains the [Buddhist Monk] promotion <hidden from users>",
 			
 			"[+15]% Strength bonus for [Youkai] units within [2] tiles",
 			
@@ -6182,6 +6343,9 @@
 			"Byakuren Hijiri Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
 			
+			"[This Unit] gains the [Magic Mastery] promotion <hidden from users>",
+			"[This Unit] gains the [Buddhist Monk] promotion <hidden from users>",
+			
 			"[+15]% Strength bonus for [Youkai] units within [2] tiles",
 			
 			"Never appears as a Barbarian unit"
@@ -6203,6 +6367,9 @@
 			"Comment [Hero units can upgrade after each era]",
 			"Byakuren Hijiri Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
+			
+			"[This Unit] gains the [Magic Mastery] promotion <hidden from users>",
+			"[This Unit] gains the [Buddhist Monk] promotion <hidden from users>",
 			
 			"[+40]% Strength bonus for [Youkai] units within [2] tiles",
 			
@@ -6742,6 +6909,8 @@
 			"Alice Margatroid Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
 			
+			"[This Unit] loses the [Doll Construct] promotion <hidden from users>",
+			
 			"[This Unit] gains the [Prepared] status for [5] turn(s) <upon entering a [Doll Lumber House] tile>",
 			"[This Unit] gains the [Prepared] status for [10] turn(s) <upon entering a [City center] tile>",
 			
@@ -6765,6 +6934,8 @@
 			"Comment [Hero units can upgrade after each era]",
 			"Alice Margatroid Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
+			
+			"[This Unit] loses the [Doll Construct] promotion <hidden from users>",
 			
 			"[This Unit] gains the [Prepared] status for [5] turn(s) <upon entering a [Doll Lumber House] tile>",
 			"[This Unit] gains the [Prepared] status for [10] turn(s) <upon entering a [City center] tile>",
@@ -6790,6 +6961,8 @@
 			"Alice Margatroid Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
 			
+			"[This Unit] loses the [Doll Construct] promotion <hidden from users>",
+			
 			"[This Unit] gains the [Prepared] status for [5] turn(s) <upon entering a [Doll Lumber House] tile>",
 			"[This Unit] gains the [Prepared] status for [10] turn(s) <upon entering a [City center] tile>",
 			
@@ -6812,6 +6985,8 @@
 			"Comment [Hero units can upgrade after each era]",
 			"Alice Margatroid Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
+			
+			"[This Unit] loses the [Doll Construct] promotion <hidden from users>",
 			
 			"[This Unit] gains the [Prepared] status for [10] turn(s) <upon entering a [Doll Lumber House] tile>",
 			"[This Unit] gains the [Prepared] status for [30] turn(s) <upon entering a [City center] tile>",
@@ -6866,6 +7041,9 @@
 			"Yuyuko Saigyouji Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
 			
+			"[This Unit] loses the [Spirit] promotion <hidden from users>",
+			"[This Unit] gains the [Spirit Princess] promotion <hidden from users>",
+			
 			"Free [Yuyuko Saigyouji (Level 2)] appears <upon being defeated> <if [Resurrection Butterfly] is constructed>",
 			"Remove [Resurrection Butterfly] [in capital] <upon being defeated>",
 			
@@ -6889,6 +7067,9 @@
 			"Comment [Hero units can upgrade after each era]",
 			"Yuyuko Saigyouji Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
+			
+			"[This Unit] loses the [Spirit] promotion <hidden from users>",
+			"[This Unit] gains the [Spirit Princess] promotion <hidden from users>",
 			
 			"Free [Yuyuko Saigyouji (Level 3)] appears <upon being defeated> <if [Resurrection Butterfly] is constructed>",
 			"Remove [Resurrection Butterfly] [in capital] <upon being defeated>",
@@ -6914,6 +7095,9 @@
 			"Yuyuko Saigyouji Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
 			
+			"[This Unit] loses the [Spirit] promotion <hidden from users>",
+			"[This Unit] gains the [Spirit Princess] promotion <hidden from users>",
+			
 			"Free [Yuyuko Saigyouji (Level 4)] appears <upon being defeated> <if [Resurrection Butterfly] is constructed>",
 			"Remove [Resurrection Butterfly] [in capital] <upon being defeated>",
 			
@@ -6936,6 +7120,9 @@
 			"Comment [Hero units can upgrade after each era]",
 			"Yuyuko Saigyouji Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
+			
+			"[This Unit] loses the [Spirit] promotion <hidden from users>",
+			"[This Unit] gains the [Spirit Princess] promotion <hidden from users>",
 			
 			"Free [Yuyuko Saigyouji (Level 5)] appears <upon being defeated> <if [Resurrection Butterfly] is constructed>",
 			"Remove [Resurrection Butterfly] [in capital] <upon being defeated>",
@@ -6990,6 +7177,8 @@
 			"Youmu Konpaku Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
 			
+			"[This Unit] loses the [Spirit] promotion <hidden from users>",
+			
 			"[Target Unit] takes [30] damage <with [50]% chance> <upon damaging a [Land] unit>",
 			
 			"Never appears as a Barbarian unit"
@@ -7012,6 +7201,8 @@
 			"Comment [Hero units can upgrade after each era]",
 			"Youmu Konpaku Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
+			
+			"[This Unit] loses the [Spirit] promotion <hidden from users>",
 			
 			"[Target Unit] takes [30] damage <with [50]% chance> <upon damaging a [Land] unit>",
 			
@@ -7036,6 +7227,8 @@
 			"Youmu Konpaku Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
 			
+			"[This Unit] loses the [Spirit] promotion <hidden from users>",
+			
 			"[Target Unit] takes [30] damage <with [50]% chance> <upon damaging a [Land] unit>",
 			
 			"Never appears as a Barbarian unit"
@@ -7057,6 +7250,8 @@
 			"Comment [Hero units can upgrade after each era]",
 			"Youmu Konpaku Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
+			
+			"[This Unit] loses the [Spirit] promotion <hidden from users>",
 			
 			"[Target Unit] takes [40] damage <with [55]% chance> <upon damaging a [Land] unit>",
 			
@@ -7461,6 +7656,8 @@
 			"Toyosatomimi Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
 			
+			"[This Unit] loses the [Youkai] promotion <hidden from users>",
+			
 			"[This Unit] gains [1] XP <upon ending a turn in a [Friendly Land] tile>",
 			
 			"Never appears as a Barbarian unit"
@@ -7483,6 +7680,8 @@
 			"Comment [Hero units can upgrade after each era]",
 			"Toyosatomimi Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
+			
+			"[This Unit] loses the [Youkai] promotion <hidden from users>",
 			
 			"[This Unit] gains [1] XP <upon ending a turn in a [Friendly Land] tile>",
 			
@@ -7507,6 +7706,8 @@
 			"Toyosatomimi Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
 			
+			"[This Unit] loses the [Youkai] promotion <hidden from users>",
+			
 			"[This Unit] gains [1] XP <upon ending a turn in a [Friendly Land] tile>",
 			
 			"Never appears as a Barbarian unit"
@@ -7528,6 +7729,8 @@
 			"Comment [Hero units can upgrade after each era]",
 			"Toyosatomimi Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
+			
+			"[This Unit] loses the [Youkai] promotion <hidden from users>",
 			
 			"[This Unit] gains [10] XP <upon ending a turn in a [Friendly Land] tile>",
 			
@@ -8586,6 +8789,7 @@
 			"[+200]% Strength <vs cities> <when attacking>",
 			"[+100]% Strength <vs [Military] units> <when attacking>",
 			"Must set up to ranged attack",
+			"Ranged attacks may be performed over obstacles",
 			"[-1] Sight",
 			"Never appears as a Barbarian unit"
 		],
