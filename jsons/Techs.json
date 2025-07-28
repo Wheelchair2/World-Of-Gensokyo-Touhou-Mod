@@ -619,7 +619,7 @@
 					"[+1 Food] from every [{unimproved} {Grassland}]",
 					"[+1 Food] from every [{unimproved} {Plains}]",
 					"[+1 Food] from every [{unimproved} {Tundra}]",
-					"[+1 Food, +4 Gold] from every [Lakes]"
+					"[+1 Production, +4 Gold] from every [Lakes]"
 				],
 				"quote": "The blessings of the field pave the way to richness of the heart."
 			},
