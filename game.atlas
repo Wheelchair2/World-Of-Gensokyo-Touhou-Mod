@@ -3432,14 +3432,14 @@ TileSets/FantasyHex/Tiles/Citadel
   orig: 32, 32
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/City cenetr-Edo period
+TileSets/FantasyHex/Tiles/City center-Edo period
   rotate: false
   xy: 284, 18
   size: 32, 29
   orig: 32, 29
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/City center-Edo period
+TileSets/HexaRealm/Tiles/City center-Edo period
   rotate: false
   xy: 284, 18
   size: 32, 29
@@ -3461,6 +3461,27 @@ TileSets/FantasyHex/Tiles/City center-Modern era
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/City center-Present era
+  rotate: false
+  xy: 1984, 769
+  size: 32, 38
+  orig: 32, 38
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/City center-Meiji era
+  rotate: false
+  xy: 1984, 769
+  size: 32, 38
+  orig: 32, 38
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/City center-Modern era
+  rotate: false
+  xy: 1984, 769
+  size: 32, 38
+  orig: 32, 38
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/City center-Present era
   rotate: false
   xy: 1984, 769
   size: 32, 38
@@ -3929,35 +3950,35 @@ TileSets/HexaRealm/Tiles/Citadel
   orig: 64, 67
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Tiles/City center
+TileSets/HexaRealm/Tiles/City center-Hakurei Faction
   rotate: false
   xy: 1516, 315
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Tiles/City center-Hakurei Faction
-  rotate: false
-  xy: 1624, 423
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
 TileSets/HexaRealm/Tiles/City center-Moriya Faction
   rotate: false
-  xy: 1624, 423
+  xy: 1516, 315
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/City center-Myouren-Faction
   rotate: false
-  xy: 1732, 531
+  xy: 1624, 423
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/City center-Senkai
+  rotate: false
+  xy: 1624, 423
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/City center-Youkai Expansion Project
   rotate: false
   xy: 1732, 531
   size: 64, 56
