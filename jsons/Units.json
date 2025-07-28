@@ -141,8 +141,8 @@
 			"Aunn Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
 			
-			"[-30]% Strength <when attacking>",
-			"[+50]% Strength <when defending>",
+			"[-15]% Strength <when attacking>",
+			"[+20]% Strength <when defending>",
 			
 			"[This Unit] loses the [Human Race] promotion <hidden from users>",
 			"[This Unit] gains the [Komainu] promotion <hidden from users>",
@@ -168,8 +168,8 @@
 			"Aunn Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
 			
-			"[-30]% Strength <when attacking>",
-			"[+50]% Strength <when defending>",
+			"[-15]% Strength <when attacking>",
+			"[+20]% Strength <when defending>",
 			
 			"Never appears as a Barbarian unit"
 		]
@@ -192,8 +192,8 @@
 			"Aunn Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
 			
-			"[-30]% Strength <when attacking>",
-			"[+50]% Strength <when defending>",
+			"[-15]% Strength <when attacking>",
+			"[+20]% Strength <when defending>",
 			
 			"Never appears as a Barbarian unit"
 		]
@@ -216,8 +216,8 @@
 			"Aunn Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
 			
-			"[-30]% Strength <when attacking>",
-			"[+50]% Strength <when defending>",
+			"[-15]% Strength <when attacking>",
+			"[+20]% Strength <when defending>",
 			
 			"Never appears as a Barbarian unit"
 		]
@@ -239,8 +239,8 @@
 			"Aunn Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
 			
-			"[-30]% Strength <when attacking>",
-			"[+70]% Strength <when defending>",
+			"[-15]% Strength <when attacking>",
+			"[+50]% Strength <when defending>",
 			
 			"Never appears as a Barbarian unit"
 		]
@@ -265,7 +265,7 @@
 			"Kogasa Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
 			
-			"[+100]% to Flank Attack bonuses",
+			"[+33]% to Flank Attack bonuses",
 			
 			"[This Unit] loses the [Human Race] promotion <hidden from users>",
 			"[This Unit] gains the [Youkai] promotion <hidden from users>",
@@ -291,7 +291,7 @@
 			"Kogasa Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
 			
-			"[+100]% to Flank Attack bonuses",
+			"[+33]% to Flank Attack bonuses",
 			
 			"Never appears as a Barbarian unit"
 		]
@@ -314,7 +314,7 @@
 			"Kogasa Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
 			
-			"[+100]% to Flank Attack bonuses",
+			"[+33]% to Flank Attack bonuses",
 			
 			"Never appears as a Barbarian unit"
 		]
@@ -337,7 +337,7 @@
 			"Kogasa Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
 			
-			"[+100]% to Flank Attack bonuses",
+			"[+33]% to Flank Attack bonuses",
 			
 			"Never appears as a Barbarian unit",
 			
@@ -360,7 +360,7 @@
 			"Kogasa Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
 			
-			"[+200]% to Flank Attack bonuses",
+			"[+100]% to Flank Attack bonuses",
 			
 			"Never appears as a Barbarian unit"
 		]
@@ -513,7 +513,7 @@
 			"Marisa Kirisame Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
 			
-			"[+30]% Strength <when attacking>",
+			"[+15]% Strength <when attacking>",
 			"[+1] Movement",
 			
 			"[This Unit] gains the [Magic Mastery] promotion <hidden from users>",
@@ -540,7 +540,7 @@
 			"Marisa Kirisame Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
 			
-			"[+30]% Strength <when attacking>",
+			"[+15]% Strength <when attacking>",
 			"[+1] Movement",
 			
 			"Never appears as a Barbarian unit"
@@ -565,7 +565,7 @@
 			"Marisa Kirisame Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
 			
-			"[+30]% Strength <when attacking>",
+			"[+15]% Strength <when attacking>",
 			"[+1] Movement",
 			
 			"Never appears as a Barbarian unit"
@@ -590,7 +590,7 @@
 			"Marisa Kirisame Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
 			
-			"[+30]% Strength <when attacking>",
+			"[+40]% Strength <when attacking>",
 			"[+1] Movement",
 			
 			"Never appears as a Barbarian unit"
@@ -759,7 +759,7 @@
 			"Luna Child Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
 			
-			"[-20]% Strength for enemy [All] units in adjacent [Land] tiles",
+			"[-15]% Strength for enemy [All] units in adjacent [Land] tiles",
 			
 			"Never appears as a Barbarian unit"
 		]
@@ -782,7 +782,7 @@
 			"Luna Child Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
 			
-			"[-20]% Strength for enemy [All] units in adjacent [Land] tiles",
+			"[-15]% Strength for enemy [All] units in adjacent [Land] tiles",
 			
 			"Never appears as a Barbarian unit"
 		]
@@ -805,7 +805,7 @@
 			"Luna Child Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
 			
-			"[-20]% Strength for enemy [All] units in adjacent [Land] tiles",
+			"[-15]% Strength for enemy [All] units in adjacent [Land] tiles",
 			
 			"Never appears as a Barbarian unit"
 		]
@@ -828,7 +828,7 @@
 			"Luna Child Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
 			
-			"[-20]% Strength for enemy [All] units in adjacent [Land] tiles",
+			"[-15]% Strength for enemy [All] units in adjacent [Land] tiles",
 			
 			"Never appears as a Barbarian unit"
 		]
@@ -1123,7 +1123,7 @@
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
 			
 			"Turn this tile into a [Forest] tile <in [Friendly Land] tiles> <for all movement>",
-			"[+30]% Strength <in [Forest] tiles>",
+			"[+20]% Strength <in [Forest] tiles>",
 			
 			"Never appears as a Barbarian unit"
 		]
@@ -1147,7 +1147,7 @@
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
 			
 			"Turn this tile into a [Forest] tile <in [Friendly Land] tiles> <for all movement>",
-			"[+30]% Strength <in [Forest] tiles>",
+			"[+20]% Strength <when fighting in [Forest] tiles>",
 			
 			"Never appears as a Barbarian unit"
 		]
@@ -1171,7 +1171,7 @@
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
 			
 			"Turn this tile into a [Forest] tile <in [Friendly Land] tiles> <for all movement>",
-			"[+30]% Strength <in [Forest] tiles>",
+			"[+20]% Strength <when fighting in [Forest] tiles>",
 			
 			"Never appears as a Barbarian unit"
 		]
@@ -1195,7 +1195,7 @@
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
 			
 			"Turn this tile into a [Forest] tile <in [Friendly Land] tiles> <for all movement>",
-			"[+30]% Strength <in [Forest] tiles>",
+			"[+20]% Strength <when fighting in [Forest] tiles>",
 			
 			"Never appears as a Barbarian unit"
 		]
@@ -1218,7 +1218,7 @@
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
 			
 			"Turn this tile into a [Forest] tile <in [Friendly Land] tiles> <for all movement>",
-			"[+50]% Strength <in [Forest] tiles>",
+			"[+50]% Strength <when fighting in [Forest] tiles>",
 			
 			"Never appears as a Barbarian unit"
 		]
@@ -1380,7 +1380,7 @@
 			"Reisen Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
 			
-			"[+30]% Strength <when attacking>",
+			"[+10]% Strength <when attacking>",
 			"[+1] Range",
 			
 			"Never appears as a Barbarian unit"
@@ -1405,7 +1405,7 @@
 			"Reisen Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
 			
-			"[+30]% Strength <when attacking>",
+			"[+10]% Strength <when attacking>",
 			"[+1] Range",
 			
 			"Never appears as a Barbarian unit"
@@ -1430,7 +1430,7 @@
 			"Reisen Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
 			
-			"[+30]% Strength <when attacking>",
+			"[+10]% Strength <when attacking>",
 			"[+1] Range",
 			
 			"Never appears as a Barbarian unit"
@@ -1455,7 +1455,7 @@
 			"Reisen Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
 			
-			"[+30]% Strength <when attacking>",
+			"[+10]% Strength <when attacking>",
 			"[+1] Range",
 			
 			"Never appears as a Barbarian unit"
@@ -1751,7 +1751,7 @@
 			"Satori Komeiji Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
 			
-			"[-30]% Strength for enemy [Military] units in adjacent [Land] tiles",
+			"[-10]% Strength for enemy [Military] units in adjacent [Land] tiles",
 			
 			"Never appears as a Barbarian unit"
 		]
@@ -1774,7 +1774,7 @@
 			"Satori Komeiji Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
 			
-			"[-30]% Strength for enemy [Military] units in adjacent [Land] tiles",
+			"[-10]% Strength for enemy [Military] units in adjacent [Land] tiles",
 			
 			"Never appears as a Barbarian unit"
 		]
@@ -1797,7 +1797,7 @@
 			"Satori Komeiji Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
 			
-			"[-30]% Strength for enemy [Military] units in adjacent [Land] tiles",
+			"[-10]% Strength for enemy [Military] units in adjacent [Land] tiles",
 			
 			"Never appears as a Barbarian unit"
 		]
@@ -1820,7 +1820,7 @@
 			"Satori Komeiji Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
 			
-			"[-30]% Strength for enemy [Military] units in adjacent [Land] tiles",
+			"[-10]% Strength for enemy [Military] units in adjacent [Land] tiles",
 			
 			"Never appears as a Barbarian unit"
 		]
@@ -2842,7 +2842,7 @@
 			"Meiling Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
 			
-			"[+30]% Strength <when fighting in [Friendly Land] tiles>",
+			"[+15]% Strength <when fighting in [Friendly Land] tiles>",
 			
 			"[This Unit] loses the [Vampire] promotion <hidden from users>",
 			"[This Unit] gains the [Martial Artist] promotion <hidden from users>",
@@ -2868,7 +2868,7 @@
 			"Meiling Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
 			
-			"[+30]% Strength <when fighting in [Friendly Land] tiles>",
+			"[+15]% Strength <when fighting in [Friendly Land] tiles>",
 			
 			"Never appears as a Barbarian unit"
 		]
@@ -2891,7 +2891,7 @@
 			"Meiling Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
 			
-			"[+30]% Strength <when fighting in [Friendly Land] tiles>",
+			"[+15]% Strength <when fighting in [Friendly Land] tiles>",
 			
 			"Never appears as a Barbarian unit"
 		]
@@ -2914,7 +2914,7 @@
 			"Meiling Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
 			
-			"[+30]% Strength <when fighting in [Friendly Land] tiles>",
+			"[+15]% Strength <when fighting in [Friendly Land] tiles>",
 			
 			"Never appears as a Barbarian unit"
 		]
@@ -3084,7 +3084,7 @@
 			"Patchouli Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
 			
-			"[+35]% Strength <when attacking>",
+			"[+15]% Strength <when attacking>",
 			
 			"[This Unit] loses the [Vampire] promotion <hidden from users>",
 			"[This Unit] gains the [Witch] promotion <hidden from users>",
@@ -3113,7 +3113,7 @@
 			"Patchouli Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
 			
-			"[+35]% Strength <when attacking>",
+			"[+15]% Strength <when attacking>",
 			
 			"Never appears as a Barbarian unit"
 		]
@@ -3137,7 +3137,7 @@
 			"Patchouli Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
 			
-			"[+35]% Strength <when attacking>",
+			"[+15]% Strength <when attacking>",
 			
 			"Never appears as a Barbarian unit"
 		]
@@ -3161,7 +3161,7 @@
 			"Patchouli Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
 			
-			"[+35]% Strength <when attacking>",
+			"[+15]% Strength <when attacking>",
 			
 			"Never appears as a Barbarian unit"
 		]
@@ -3184,7 +3184,7 @@
 			"Patchouli Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
 			
-			"[+80]% Strength <when attacking>",
+			"[+50]% Strength <when attacking>",
 			
 			"Never appears as a Barbarian unit"
 		]
@@ -3568,8 +3568,8 @@
 			"Akyuu Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
 			
-			"[-50]% Strength",
-			"[This Unit] gains [5] XP <upon turn end>",
+			"[-30]% Strength",
+			"[+8] XP gained from combat",
 			
 			"Never appears as a Barbarian unit"
 		]
@@ -3592,8 +3592,8 @@
 			"Akyuu Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
 			
-			"[-50]% Strength",
-			"[This Unit] gains [5] XP <upon turn end>",
+			"[-30]% Strength",
+			"[+8] XP gained from combat",
 			
 			"Never appears as a Barbarian unit"
 		]
@@ -3616,8 +3616,8 @@
 			"Akyuu Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
 			
-			"[-50]% Strength",
-			"[This Unit] gains [5] XP <upon turn end>",
+			"[-30]% Strength",
+			"[+8] XP gained from combat",
 			
 			"Never appears as a Barbarian unit"
 		]
@@ -3640,8 +3640,8 @@
 			"Akyuu Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
 			
-			"[-50]% Strength",
-			"[This Unit] gains [5] XP <upon turn end>",
+			"[-30]% Strength",
+			"[+8] XP gained from combat",
 			
 			"Never appears as a Barbarian unit"
 		]
@@ -3663,8 +3663,8 @@
 			"Akyuu Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
 			
-			"[-50]% Strength",
-			"[This Unit] gains [50] XP <upon turn end>",
+			"[-25]% Strength",
+			"[+20] XP gained from combat",
 			
 			"Never appears as a Barbarian unit"
 		]
@@ -4020,10 +4020,6 @@
 			"Okina Matara Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
 			
-			"[-100]% XP gained from combat <hidden from users>",
-			"[This Unit] gains [1] XP <upon turn end> <if [Monument] is constructed> <if it hasn't used other actions yet>",
-			"[This Unit] gains [2] XP <upon turn end> <hidden from users>",
-			
 			"May Paradrop to [Friendly Land] tiles up to [100] tiles away",
 			
 			"Never appears as a Barbarian unit"
@@ -4167,7 +4163,7 @@
 			"Satono Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
 			
-			"[-25]% Strength for enemy [Land] units in adjacent [All] tiles",
+			"[-20]% Strength for enemy [Land] units in adjacent [All] tiles",
 			
 			"[This Unit] gains the [Half-Human] promotion <hidden from users>",
 			
@@ -4192,7 +4188,7 @@
 			"Satono Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
 			
-			"[-25]% Strength for enemy [Land] units in adjacent [All] tiles",
+			"[-20]% Strength for enemy [Land] units in adjacent [All] tiles",
 			
 			"Never appears as a Barbarian unit"
 		]
@@ -4215,7 +4211,7 @@
 			"Satono Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
 			
-			"[-25]% Strength for enemy [Land] units in adjacent [All] tiles",
+			"[-20]% Strength for enemy [Land] units in adjacent [All] tiles",
 			
 			"Never appears as a Barbarian unit"
 		]
@@ -4238,7 +4234,7 @@
 			"Satono Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
 			
-			"[-25]% Strength for enemy [Land] units in adjacent [All] tiles",
+			"[-20]% Strength for enemy [Land] units in adjacent [All] tiles",
 			
 			"Never appears as a Barbarian unit"
 		]
@@ -5259,7 +5255,7 @@
 			"Suika Ibuki Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
 			
-			"[+35]% Strength",
+			"[+15]% Strength",
 			"Rough terrain penalty",
 			
 			"Never appears as a Barbarian unit"
@@ -5283,7 +5279,7 @@
 			"Suika Ibuki Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
 			
-			"[+35]% Strength",
+			"[+15]% Strength",
 			"Rough terrain penalty",
 			
 			"Never appears as a Barbarian unit"
@@ -5307,7 +5303,7 @@
 			"Suika Ibuki Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
 			
-			"[+35]% Strength",
+			"[+15]% Strength",
 			"Rough terrain penalty",
 			
 			"Never appears as a Barbarian unit"
@@ -5331,7 +5327,7 @@
 			"Suika Ibuki Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
 			
-			"[+35]% Strength",
+			"[+15]% Strength",
 			"Rough terrain penalty",
 			
 			"Never appears as a Barbarian unit"
@@ -5379,7 +5375,7 @@
 			"Yuugi Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
 			
-			"[+25]% Strength",
+			"[+10]% Strength",
 			"[+10] HP when healing",
 			
 			"[This Unit] loses the [Vampire] promotion <hidden from users>",
@@ -5406,7 +5402,7 @@
 			"Yuugi Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
 			
-			"[+25]% Strength",
+			"[+10]% Strength",
 			"[+10] HP when healing",
 			
 			"Never appears as a Barbarian unit"
@@ -5430,7 +5426,7 @@
 			"Yuugi Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
 			
-			"[+25]% Strength",
+			"[+10]% Strength",
 			"[+10] HP when healing",
 			
 			"Never appears as a Barbarian unit"
@@ -5454,7 +5450,7 @@
 			"Yuugi Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
 			
-			"[+25]% Strength",
+			"[+10]% Strength",
 			"[+10] HP when healing",
 			
 			"Never appears as a Barbarian unit"
@@ -5504,7 +5500,7 @@
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
 			
 			"Invisible to non-adjacent units <in [Water] tiles>",
-			"[+20]% Strength <within [3] tiles of a [Coast]>",
+			"[+10]% Strength <within [3] tiles of a [Coast]>",
 			
 			"Never appears as a Barbarian unit"
 		]
@@ -5528,7 +5524,7 @@
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
 			
 			"Invisible to non-adjacent units <in [Water] tiles>",
-			"[+20]% Strength <within [3] tiles of a [Coast]>",
+			"[+10]% Strength <within [3] tiles of a [Coast]>",
 			
 			"Never appears as a Barbarian unit"
 		]
@@ -5552,7 +5548,7 @@
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
 			
 			"Invisible to non-adjacent units <in [Water] tiles>",
-			"[+20]% Strength <within [3] tiles of a [Coast]>",
+			"[+10]% Strength <within [3] tiles of a [Coast]>",
 			
 			"Never appears as a Barbarian unit"
 		]
@@ -5576,7 +5572,7 @@
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
 			
 			"Invisible to non-adjacent units <in [Water] tiles>",
-			"[+20]% Strength <within [3] tiles of a [Coast]>",
+			"[+10]% Strength <within [3] tiles of a [Coast]>",
 			
 			"Never appears as a Barbarian unit"
 		]
@@ -5599,7 +5595,7 @@
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
 			
 			"Invisible to non-adjacent units <in [Water] tiles>",
-			"[+60]% Strength <within [3] tiles of a [Coast]>",
+			"[+30]% Strength <within [3] tiles of a [Coast]>",
 			
 			"Never appears as a Barbarian unit"
 		]
@@ -6114,7 +6110,7 @@
 			"Byakuren Hijiri Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
 			
-			"[+20]% Strength bonus for [Youkai] units within [2] tiles",
+			"[+15]% Strength bonus for [Youkai] units within [2] tiles",
 			
 			"[This Unit] gains the [Magic Mastery] promotion <hidden from users>",
 			"[This Unit] gains the [Buddhist Monk] promotion <hidden from users>",
@@ -6140,7 +6136,7 @@
 			"Byakuren Hijiri Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
 			
-			"[+20]% Strength bonus for [Youkai] units within [2] tiles",
+			"[+15]% Strength bonus for [Youkai] units within [2] tiles",
 			
 			"Never appears as a Barbarian unit"
 		]
@@ -6163,7 +6159,7 @@
 			"Byakuren Hijiri Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
 			
-			"[+20]% Strength bonus for [Youkai] units within [2] tiles",
+			"[+15]% Strength bonus for [Youkai] units within [2] tiles",
 			
 			"Never appears as a Barbarian unit"
 		]
@@ -6186,7 +6182,7 @@
 			"Byakuren Hijiri Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
 			
-			"[+20]% Strength bonus for [Youkai] units within [2] tiles",
+			"[+15]% Strength bonus for [Youkai] units within [2] tiles",
 			
 			"Never appears as a Barbarian unit"
 		]
@@ -6350,6 +6346,7 @@
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
 			
 			"[+50]% Strength <vs [Water] units>",
+			"May travel on Water tiles without embarking",
 			
 			"[This Unit] gains the [Phantom] promotion <hidden from users>",
 			
@@ -6375,6 +6372,7 @@
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
 			
 			"[+50]% Strength <vs [Water] units>",
+			"May travel on Water tiles without embarking",
 			
 			"Never appears as a Barbarian unit"
 		]
@@ -6398,6 +6396,7 @@
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
 			
 			"[+50]% Strength <vs [Water] units>",
+			"May travel on Water tiles without embarking",
 			
 			"Never appears as a Barbarian unit"
 		]
@@ -6421,6 +6420,7 @@
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
 			
 			"[+50]% Strength <vs [Water] units>",
+			"May travel on Water tiles without embarking",
 			
 			"Never appears as a Barbarian unit"
 		]
@@ -6443,6 +6443,7 @@
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
 			
 			"[+100]% Strength <vs [Water] units>",
+			"May travel on Water tiles without embarking",
 			
 			"Never appears as a Barbarian unit"
 		]
@@ -6469,8 +6470,6 @@
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
 			
 			"[Target Unit] takes [5] damage",
-			
-			"[This Unit] heals [50] HP <upon losing at least [1] HP in a single attack> <with [10]% chance>",
 			
 			"[This Unit] gains the [Avatar Of Bishamonten] promotion <hidden from users>",
 			
@@ -6940,7 +6939,7 @@
 			
 			"Free [Yuyuko Saigyouji (Level 5)] appears <upon being defeated> <if [Resurrection Butterfly] is constructed>",
 			"Remove [Resurrection Butterfly] [in capital] <upon being defeated>",
-			"[This Unit] gains [250] XP",
+			"May capture killed [non-[Hero]] units",
 			
 			"Never appears as a Barbarian unit"
 		]
@@ -7320,7 +7319,7 @@
 			"Nitori Kawashiro Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
 			
-			"[+40]% Strength <within [2] tiles of a [River]>",
+			"[+20]% Strength <within [2] tiles of a [River]>",
 			
 			"Never appears as a Barbarian unit"
 		]
@@ -7343,7 +7342,7 @@
 			"Nitori Kawashiro Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
 			
-			"[+40]% Strength <within [2] tiles of a [River]>",
+			"[+20]% Strength <within [2] tiles of a [River]>",
 			
 			"Never appears as a Barbarian unit"
 		]
@@ -7366,7 +7365,7 @@
 			"Nitori Kawashiro Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
 			
-			"[+40]% Strength <within [2] tiles of a [River]>",
+			"[+20]% Strength <within [2] tiles of a [River]>",
 			
 			"Never appears as a Barbarian unit"
 		]
@@ -7389,7 +7388,7 @@
 			"Nitori Kawashiro Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
 			
-			"[+40]% Strength <within [2] tiles of a [River]>",
+			"[+20]% Strength <within [2] tiles of a [River]>",
 			
 			"Never appears as a Barbarian unit"
 		]
@@ -7411,7 +7410,7 @@
 			"Nitori Kawashiro Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
 			
-			"[+80]% Strength <within [2] tiles of a [River]>",
+			"[+40]% Strength <within [2] tiles of a [River]>",
 			
 			"Never appears as a Barbarian unit"
 		]

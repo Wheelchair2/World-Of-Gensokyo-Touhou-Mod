@@ -347,7 +347,7 @@
 		"uniques": [
 			"Racial",
 			"[+5] HP when healing",
-			"[+20]% Strength"
+			"[+15]% Strength"
 		]
 	},
 	{
@@ -377,14 +377,14 @@
 			"Racial",
 			"Magician",
 			"Youkai",
-			"[+10]% Strength <when attacking>"
+			"[+5]% Strength <when attacking>"
 		]
 	},
 	{
 		"name": "Were-Hakutaku",
 		"uniques": [
 			"Racial",
-			"[+10]% Strength"
+			"[+5]% Strength"
 		]
 	},
 	{
@@ -426,7 +426,7 @@
 		"name": "Magic Mastery",
 		"uniques": [
 			"Magician",
-			"[+10]% Strength"
+			"[+5]% Strength"
 		]
 	},
 	{
@@ -487,7 +487,7 @@
 		"name": "Martial Artist",
 		"uniques": [
 			"Supplementary",
-			"[+10]% Strength"
+			"[+5]% Strength"
 		]
 	},
 	
@@ -507,7 +507,7 @@
 	},
 	{
 		"name": "Prepared",
-		"uniques": ["[+20]% Strength"]
+		"uniques": ["[+5]% Strength", "[+10] HP when healing"]
 	},
 	{
 		"name": "Eternally Awaiting",
@@ -515,7 +515,7 @@
 	},
 	{
 		"name": "Unzan's Fists",
-		"uniques": ["[+15]% Strength"]
+		"uniques": ["[+10]% Strength"]
 	},
 	{
 		"name": "Unzan's Fists II",
