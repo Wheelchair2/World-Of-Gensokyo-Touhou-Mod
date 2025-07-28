@@ -19,8 +19,6 @@
 					"Comment [------------------------------------]",
 					"Comment [-1 Movement for Water units when moving in Ocean tiles before the discovery of Navigation]",
 					"Comment [------------------------------------]",
-					"Comment [You will gain 1 [Wonder Slot] for every city you have that has at least 5 population, this can mostly be used to construct improvements on Natural Wonders]",
-					"Comment [------------------------------------]",
 					"Comment [When above 15 [Manpower], you gain +20% [Production] in all cities. When above 20 [Manpower], +1 [Happiness] from each type of luxury resource.]",
 					"Comment [------------------------------------]",
 					"Comment [When above 20 [Manpower], you build Military units with +50% [Production]]",
@@ -869,8 +867,7 @@
 					"Lantern Clock",
 					"Carpentry"
 				],
-				"quote": "It is unknown when, how, or why the mansion was originally constructed, but Remilia Scarlet has been its mistress for about 500 years, and Flandre Scarlet has been in the basement for about 495 years.",
-				"uniques": ["[+2 Production] <in tiles adjacent to [Town] tiles>"],
+				"quote": "It is unknown when, how, or why the mansion was originally constructed, but Remilia Scarlet has been its mistress for about 500 years, and Flandre Scarlet has been in the basement for about 495 years."
 			},
 			{
 				"name": "Espionage",

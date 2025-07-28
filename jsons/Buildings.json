@@ -15,26 +15,6 @@
 		]
 	},
 	{
-		"name": "System",
-		"cost": 1,
-		"uniques": [
-			"Unsellable",
-			"Unbuildable",
-			"Provides [1] [Wonder Slot] <in cities with at least [5] [Population]>"
-		]
-	},
-	{
-		"name": "AI Debuff",
-		"cost": 1,
-		"uniques": [
-			"Unsellable",
-			"Unbuildable",
-			"Consumes [5] [Manpower]",
-			"Destroyed when the city is captured",
-			"Will not be displayed in Civilopedia"
-		]
-	},
-	{
 		"name": "Monument",
 		"cost": 40,
 		"culture": 2,

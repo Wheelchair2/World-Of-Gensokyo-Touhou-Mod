@@ -212,6 +212,7 @@
 			"abundant": 5
 		}
 	},
+	/*
 	{
 		"name": "Coal",
 		"resourceType": "Strategic",
@@ -367,6 +368,8 @@
 			"abundant": 3
 		}
 	},
+	*/
+	/*
 	// Other resources
 	{
 		"name": "Wonder Slot", // For Natural Wonders Improvement
@@ -377,6 +380,7 @@
 			"Excluded from map editor"
 		]
 	},
+	*/
 	////////////////////////////////////////////// ABILITY CARDS ///////////////////////////////////////////////////////////////////
 	{
 		"name": "Blank Card",
@@ -791,7 +795,7 @@
 		"name": "Tuna",
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Fish"],
-		"food": 1,
+		"production": 1,
 		"improvedBy": [
 			"Fishing Boats",
 			"Fishing Vessel"
@@ -806,7 +810,7 @@
 		"name": "Shrimp",
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Fish"],
-		"food": 1,
+		"production": 1,
 		"improvedBy": [
 			"Fishing Boats",
 			"Fishing Vessel"
@@ -824,7 +828,7 @@
 			"Fish",
 			"Lakes"
 		],
-		"food": 1,
+		"production": 1,
 		"improvedBy": [
 			"Fishing Boats",
 			"Fishing Vessel"
@@ -839,7 +843,7 @@
 		"name": "Carp",
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Lakes"],
-		"food": 1,
+		"production": 1,
 		"improvedBy": [
 			"Fishing Boats",
 			"Fishing Vessel"
@@ -911,68 +915,6 @@
 			"Comment [Is this even Japanese food?]"
 		]
 	},
-	/*
-	{
-		"name": "Tuna",
-		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Fish"],
-		"food": 1,
-		"gold": 1,
-		"improvedBy": ["Fishing Boats", "Fishing Vessel"],
-		"uniques": ["Generated with weight [35] <in [Tundra] Regions>",
-					"Generated with weight [25] <in [Forest] Regions>",
-					"Generated with weight [25] <in [Hill] Regions>",
-					"Generated with weight [5] <in [Plains] Regions>",
-					"Generated with weight [5] <in [Grassland] Regions>",
-					"Generated with weight [10] <in [Hybrid] Regions>",
-					"Generated near City States with weight [20]"]
-	},
-	{
-		"name": "Salmon",
-		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Fish", "Lakes"],
-		"food": 1,
-		"gold": 1,
-		"improvedBy": ["Fishing Boats", "Fishing Vessel"],
-		"uniques": ["Generated with weight [5] <in [Tundra] Regions>",
-					"Generated with weight [25] <in [Forest] Regions>",
-					"Generated with weight [25] <in [Hill] Regions>",
-					"Generated with weight [35] <in [Plains] Regions>",
-					"Generated with weight [35] <in [Grassland] Regions>",
-					"Generated with weight [5] <in [Hybrid] Regions>",
-					"Generated near City States with weight [20]"]
-	},
-	{
-		"name": "Shrimp",
-		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Fish"],
-		"food": 1,
-		"gold": 1,
-		"improvedBy": ["Fishing Boats", "Fishing Vessel"],
-		"uniques": ["Generated with weight [25] <in [Tundra] Regions>",
-					"Generated with weight [5] <in [Forest] Regions>",
-					"Generated with weight [25] <in [Hill] Regions>",
-					"Generated with weight [15] <in [Plains] Regions>",
-					"Generated with weight [15] <in [Grassland] Regions>",
-					"Generated with weight [5] <in [Hybrid] Regions>",
-					"Generated near City States with weight [20]"]
-	},
-	{
-		"name": "Carp",
-		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Lakes"],
-		"food": 1,
-		"gold": 1,
-		"improvedBy": ["Fishing Boats", "Fishing Vessel"],
-		"uniques": ["Generated with weight [5] <in [Tundra] Regions>",
-					"Generated with weight [10] <in [Forest] Regions>",
-					"Generated with weight [25] <in [Hill] Regions>",
-					"Generated with weight [5] <in [Plains] Regions>",
-					"Generated with weight [10] <in [Grassland] Regions>",
-					"Generated with weight [20] <in [Hybrid] Regions>",
-					"Generated near City States with weight [25]"]
-	},
-	*/
 	{
 		"name": "Pelt",
 		"resourceType": "Luxury",
@@ -985,6 +927,9 @@
 		"food": 2,
 		"gold": 2,
 		"improvedBy": ["Camp"],
+		"improvementStats": {
+			"gold": 2
+		},
 		"uniques": [
 			"Generated with weight [5] <in [Tundra] Regions>",
 			"Generated with weight [5] <in [Forest] Regions>",
@@ -1007,6 +952,9 @@
 		"food": 1,
 		"gold": 2,
 		"improvedBy": ["Camp"],
+		"improvementStats": {
+			"gold": 2
+		},
 		"uniques": [
 			"Generated with weight [5] <in [Tundra] Regions>",
 			"Generated with weight [25] <in [Forest] Regions>",

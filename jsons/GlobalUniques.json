@@ -345,7 +345,6 @@
 	//"[-50]% [Science] [in all cities] <for [City-State] Civilizations>",
  
 	//Vanilla
-    "Gain a free [System] [in all cities]",
     "[-75]% growth [in all cities] <when between [-10] and [-1] [Happiness]> <for [non-[Hakurei Faction]] Civilizations>",
     "Nullifies Growth [in all cities] <when below [-10] [Happiness]> <for [non-[Hakurei Faction]] Civilizations>",
     "[-50]% [Production] [in all cities] <when below [-10] [Happiness]> <for [non-[Hakurei Faction]] Civilizations>",
