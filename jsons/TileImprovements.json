@@ -149,7 +149,7 @@
 		"techRequired": "Agriculture",
 		"uniques": [
 		"[+1 Production] for each adjacent [Town]",
-			"[+3 Food] <after discovering [Fertilizer]>",
+			"[+1 Food, +1 Production] <after discovering [Fertilizer]>",
 			"[+3 Production, +1 Culture] <after discovering [Woodblock Printing]>",
 			"Can only be built to improve a resource",
 			"Pillaging this improvement yields approximately [+10 Gold]"
