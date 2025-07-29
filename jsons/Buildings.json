@@ -1122,7 +1122,7 @@
 		"production": 2,
 		"maintenance": 3,
 		"hurryCostModifier": 25,
-		"requiredTech": "Metallurgy",
+		"requiredTech": "Steel",
 		"uniques": [
 			"Provides [2] [Iron]"
 		],

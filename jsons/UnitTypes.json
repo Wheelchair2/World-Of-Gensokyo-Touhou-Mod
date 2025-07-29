@@ -6,7 +6,7 @@
 	"uniques": [
 		//"[This Unit] gains [1] XP <upon turn end> <if [Monument] is constructed> <hidden from users>",
 		"Consumes [3] [Manpower] <when number of [[Hero] Units] is equal to [1]>", "Consumes [2] [Manpower] <when number of [[Hero] Units] is equal to [2]>", "Consumes [1] [Manpower] <when number of [[Hero] Units] is more than [2]>",
-		"[+75]% Strength <vs [non-[Hero]] units>", "[+3000]% Gold cost of upgrading"
+		"[+75]% Strength <vs [non-[Hero]] units>", "[+1000]% Gold cost of upgrading"
 	]
   },
   {
@@ -15,7 +15,7 @@
 	"uniques": [
 		//"[This Unit] gains [1] XP <upon turn end> <if [Monument] is constructed> <hidden from users>",
 		"Consumes [3] [Manpower] <when number of [[Hero] Units] is equal to [1]>", "Consumes [2] [Manpower] <when number of [[Hero] Units] is equal to [2]>", "Consumes [1] [Manpower] <when number of [[Hero] Units] is more than [2]>",
-		"[+50]% Strength <vs [non-[Hero]] units>", "[+3000]% Gold cost of upgrading"
+		"[+50]% Strength <vs [non-[Hero]] units>", "[+1000]% Gold cost of upgrading"
 	]
   },
   

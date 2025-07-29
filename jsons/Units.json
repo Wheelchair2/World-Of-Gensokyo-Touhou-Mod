@@ -7853,6 +7853,10 @@
 		"unitType": "Civilian",
 		"movement": 2,
 		"uniques": [
+		"Limited to [6] per Civilization",
+		"[-25]% construction time for [All] improvements <during the [Edo period]>",
+		"[-50]% construction time for [All] improvements <starting from the [Meiji era]>",
+		"[+1] Movement <starting from the [Meiji era]>",
 			"Can build [Land] improvements on tiles",
 			"Can instantly construct a [Fishing Vessel] improvement <in [Lakes] tiles> <after discovering [Cormorant Fishing]>",
 			"Automation is a primary action"
@@ -7866,6 +7870,10 @@
 		"unitType": "Civilian",
 		"movement": 2,
 		"uniques": [
+		"Limited to [6] per Civilization",
+		"[-25]% construction time for [All] improvements <during the [Edo period]>",
+		"[-50]% construction time for [All] improvements <starting from the [Meiji era]>",
+		"[+1] Movement <starting from the [Meiji era]>",
 			"[+1] Movement <in [Land] tiles>",
 			"May create improvements on water resources",
 			"Can build [Land] improvements on tiles",
@@ -7879,6 +7887,10 @@
 		"unitType": "Civilian",
 		"movement": 2,
 		"uniques": [
+		"Limited to [6] per Civilization",
+		"[-25]% construction time for [All] improvements <during the [Edo period]>",
+		"[-30]% construction time for [All] improvements <starting from the [Meiji era]>",
+		"[+1] Movement <starting from the [Meiji era]>",
 			"[-50]% construction time for [All] improvements",
 			"Can build [Land] improvements on tiles",
 			"Can instantly construct a [Fishing Vessel] improvement <in [Lakes] tiles> <after discovering [Cormorant Fishing]>",
