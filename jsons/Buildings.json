@@ -741,7 +741,7 @@
 	},
 	{
 		"name": "Stone Works",
-		"happiness": 1,
+		"happiness": 4,
 		"production": 1,
 		"requiredNearbyImprovedResources": [
 			"Marble",
@@ -758,7 +758,7 @@
 	},
 	{
 		"name": "Winery",
-		"happiness": 2,
+		"happiness": 4,
 		"maintenance": 0,
 		"hurryCostModifier": 12,
 		"uniques": [
@@ -770,7 +770,7 @@
 	{
 		"name": "Rice Wine",
 		"maintenance": 1,
-		"happiness": 1,
+		"happiness": 2,
 		"production": 2,
 		"hurryCostModifier": 15,
 		"requiredTech": "Fermented Alcohol"
@@ -780,7 +780,7 @@
 		"uniqueTo": "Oni Clans",
 		"replaces": "Rice Wine",
 		"maintenance": 0,
-		"happiness": 1,
+		"happiness": 2,
 		"production": 3,
 		"hurryCostModifier": 12,
 		"requiredTech": "Fermented Alcohol"
@@ -789,7 +789,7 @@
 		"name": "Barrels Of Alcohol",
 		"cost": 125,
 		"happiness": 5,
-		"culture": 1,
+		"culture": 3,
 		"isNationalWonder": true,
 		"requiredTech": "Fermented Alcohol",
 		"uniques": [
@@ -800,8 +800,8 @@
 	},
 	{
 		"name": "Geidontei Bar",
-		"happiness": 2,
-		"culture": 1,
+		"happiness": 5,
+		"culture": 3,
 		"isWonder": true,
 		"requiredTech": "Fermented Alcohol",
 		"uniques": [
@@ -824,8 +824,8 @@
 	},
 	{
 		"name": "Japanese Tuna Salad",
-		"cost": 100,
-		"happiness": 1,
+		"cost": 400,
+		"happiness": 5,
 		"requiredNearbyImprovedResources": [
 			"Tuna"
 		],
@@ -838,12 +838,12 @@
 	},
 	{
 		"name": "Japanese Sushi",
-		"cost": 100,
-		"happiness": 1,
+		"cost": 400,
+		"happiness": 5,
 		"requiredNearbyImprovedResources": [
 			"Salmon"
 		],
-		"maintenance": 1,
+		"maintenance": 5,
 		"hurryCostModifier": 0,
 		"uniques": [
 			"Provides [1] [Sushi]"
@@ -852,8 +852,8 @@
 	},
 	{
 		"name": "Japanese Shrimp Fried Rice",
-		"cost": 100,
-		"happiness": 1,
+		"cost": 400,
+		"happiness": 5,
 		"requiredNearbyImprovedResources": [
 			"Shrimp"
 		],
@@ -890,7 +890,7 @@
 		"isWonder": true,
 		"uniques": [
 			"Must be next to [Coast]",
-			"[+2 Gold] from [Water] tiles [in this city]"
+			"[+2 Gold, +1 Culture] from [Water] tiles [in this city]"
 		],
 		"requiredTech": "Navigation",
 		"quote": "Minamitsu is a ship phantom (funa yuurei), the ghost of a girl who drowned at sea. These types of ghosts are famous in Japanese folklore for capsizing and sinking ships, which inspired her character background and spell cards."
@@ -940,7 +940,7 @@
 		"specialistSlots": {
 			"Merchant": 1
 		},
-		"happiness": 2,
+		"happiness": 4,
 		"maintenance": 0,
 		"requiredNearbyImprovedResources": [
 			"Gems",
@@ -970,11 +970,9 @@
 	},
 	{
 		"name": "Fountain",
+		"happiness": 3,
 		"maintenance": 2,
 		"hurryCostModifier": 25,
-		"uniques": [
-			"[-10]% Unhappiness from [Population] [in this city]"
-		],
 		"requiredTech": "Arts And Sculpture"
 	},
 	{
@@ -1174,7 +1172,7 @@
 		"cost": 125,
 		"uniqueTo": "The Unified Doll Front",
 		"replaces": "Circus",
-		"happiness": 2,
+		"happiness": 4,
 		"hurryCostModifier": 25,
 		"maintenance": 2,
 		"requiredTech": "Festivals",
@@ -1208,7 +1206,7 @@
 	},
 	{
 		"name": "High Walls",
-		"happiness": 2,
+		"happiness": 4,
 		"cost": 300,
 		"cityHealth": 75,
 		"hurryCostModifier": 20,
@@ -1429,7 +1427,7 @@
 		"cost": 125,
 		"isNationalWonder": true,
 		"uniques": [
-			"[-20]% Unhappiness from [Population] [in all non-occupied cities]",
+			"[-10]% Unhappiness from [Population] [in all non-occupied cities]",
 			"Cost increases by [40] per owned city"
 		],
 		"requiredTech": "Law And Order"
@@ -1452,7 +1450,7 @@
 			"Great Artist": 1
 		},
 		"uniques": [
-			"[-10]% Unhappiness from [Population] [in all cities]"
+			"[-5]% Unhappiness from [Population] [in all cities]"
 		],
 		"requiredTech": "Law And Order",
 		"quote": "A location in Makai where Elis, a bat-transforming youkai, was found by Reimu. Somehow, she's not considered a vampire."

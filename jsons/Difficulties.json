@@ -40,7 +40,7 @@
 		"unitSupplyPerCity": 2,
 		"buildingCostModifier": 1,
 		"policyCostModifier": 1,
-		"unhappinessModifier": 1,
+		"unhappinessModifier": 3,
 		"barbarianBonus": 0.33,
 		"barbarianSpawnDelay": 0,
 		"playerBonusStartingUnits": [],
