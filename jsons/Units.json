@@ -654,8 +654,6 @@
 			"Limited to [1] per Civilization <hidden from users>",
 			"Comment [Hero units can upgrade after each era]",
 			
-			"[Target Unit] loses [3] movement <upon damaging a [All] unit>",
-			
 			"[This Unit] loses the [Fairy] promotion <hidden from users>",
 			"[This Unit] gains the [Ice Fairy] promotion <hidden from users>",
 			"Cirno Hero",
@@ -684,8 +682,6 @@
 			
 			"[This Unit] loses the [Fairy] promotion <hidden from users>",
 			
-			"[Target Unit] loses [3] movement <upon damaging a [All] unit>",
-			
 			"Never appears as a Barbarian unit"
 		]
 	},
@@ -708,8 +704,6 @@
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
 			
 			"[This Unit] loses the [Fairy] promotion <hidden from users>",
-			
-			"[Target Unit] loses [3] movement <upon damaging a [All] unit>",
 			
 			"Never appears as a Barbarian unit"
 		]
@@ -734,8 +728,6 @@
 			
 			"[This Unit] loses the [Fairy] promotion <hidden from users>",
 			
-			"[Target Unit] loses [3] movement <upon damaging a [All] unit>",
-			
 			"Never appears as a Barbarian unit"
 		]
 	},
@@ -757,8 +749,6 @@
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
 			
 			"[This Unit] loses the [Fairy] promotion <hidden from users>",
-			
-			"[Target Unit] loses [10] movement <upon damaging a [All] unit>",
 			
 			"Never appears as a Barbarian unit"
 		]

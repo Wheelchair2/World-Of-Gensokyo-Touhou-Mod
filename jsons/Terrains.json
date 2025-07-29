@@ -491,6 +491,7 @@
 		"uniques": [
 			"Fresh water",
 			"Grants [Rejuvenation] ([all healing effects doubled]) to adjacent [{Military} {Land}] units for the rest of the game",
+			"Tile provides yield without assigned population",
 			"Must be adjacent to [0] [Coast] tiles"
 		],
 		"weight": 1
@@ -510,6 +511,7 @@
 		"turnsInto": "Plains",
 		"unbuildable": true,
 		"uniques": [
+			"Units ending their turn on this terrain take [15] damage",
 			"Rough terrain"
 		], //<for [Military] units> doesn't work for the terrain damage unique
 		"weight": 5

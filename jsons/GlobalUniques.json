@@ -331,6 +331,7 @@
 	"[-30]% [Production] [in all cities] <when below [10] [Manpower]>",
 	//"[+150]% maintenance cost for [All] buildings [in all cities]  <when below [10] [Manpower]>",
 	"[-30]% Strength <for [Military] units> <when below [0] [Manpower]>",
+	"[-50]% Strength <for [Military] units> <when below [-30] [Manpower]>",
 	"[-5]% Strength <for [Military] units> <when below [10] [Manpower]>",
 	
 	"Provides [25] [Manpower]",

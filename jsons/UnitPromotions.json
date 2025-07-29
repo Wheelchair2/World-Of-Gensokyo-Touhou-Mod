@@ -579,7 +579,7 @@
 		"name": "Jiangshi",
 		"uniques": [
 			"Apparition",
-			"May capture killed [Military] units",
+			"May capture killed [non-[Hero]] units",
 			"[-10] HP when healing",
 			"[+20]% Strength <when attacking> <vs [Wounded] units>",
 			"[This Unit] loses the [Corpse] promotion"
