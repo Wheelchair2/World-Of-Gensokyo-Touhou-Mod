@@ -675,7 +675,7 @@
 	{
 		"columnNumber": 11,
 		"era": "Meiji era",
-		"techCost": 420,
+		"techCost": 820,
 		"buildingCost": 400,
 		"wonderCost": 1200,
 		"techs": [
@@ -696,7 +696,7 @@
 	{
 		"columnNumber": 12,
 		"era": "Meiji era",
-		"techCost": 480,
+		"techCost": 880,
 		"buildingCost": 420,
 		"wonderCost": 1200,
 		"techs": [
@@ -710,7 +710,7 @@
 			*/
 			{
 				"name": "Military Logistics",
-				"cost": 420,
+				"cost": 720,
 				"row": 5,
 				"prerequisites": ["Technology Limit"],
 				"quote": "Yukari probably kept humans from technologically advancing in Gensokyo."
@@ -736,7 +736,7 @@
 	{
 		"columnNumber": 13,
 		"era": "Meiji era",
-		"techCost": 500,
+		"techCost": 900,
 		"buildingCost": 480,
 		"wonderCost": 1200,
 		"techs": [
@@ -818,7 +818,7 @@
 	{
 		"columnNumber": 15,
 		"era": "Meiji era",
-		"techCost": 2500,
+		"techCost": 3500,
 		"buildingCost": 520,
 		"wonderCost": 1500,
 		"techs": [
@@ -852,7 +852,7 @@
 	{
 		"columnNumber": 16,
 		"era": "Modern era",
-		"techCost": 2600,
+		"techCost": 3600,
 		"buildingCost": 560,
 		"wonderCost": 1500,
 		"techs": [
@@ -889,7 +889,7 @@
 	{
 		"columnNumber": 17,
 		"era": "Modern era",
-		"techCost": 2750,
+		"techCost": 4750,
 		"buildingCost": 580,
 		"wonderCost": 1200,
 		"techs": [
@@ -925,7 +925,7 @@
 	{
 		"columnNumber": 18,
 		"era": "Present era",
-		"techCost": 2920,
+		"techCost": 8920,
 		"buildingCost": 620,
 		"wonderCost": 1500,
 		"techs": [
@@ -961,7 +961,7 @@
 	{
 		"columnNumber": 19,
 		"era": "Present era",
-		"techCost": 4000,
+		"techCost": 12000,
 		"buildingCost": 680,
 		"wonderCost": 1500,
 		"techs": [
