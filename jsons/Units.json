@@ -4145,7 +4145,7 @@
 			"Mai Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
 			
-			"[Target Unit] loses [2] movement <upon damaging a [Land] unit>",
+			"[Target Unit] gains the [Slowed] status for [4] turn(s) <upon damaging a [All] unit>"
 			
 			"[This Unit] gains the [Half-Human] promotion <hidden from users>",
 			
@@ -4170,7 +4170,7 @@
 			"Mai Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
 			
-			"[Target Unit] loses [2] movement <upon damaging a [Land] unit>",
+			"[Target Unit] gains the [Slowed] status for [4] turn(s) <upon damaging a [All] unit>"
 			
 			"Never appears as a Barbarian unit"
 		]
@@ -4193,7 +4193,7 @@
 			"Mai Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
 			
-			"[Target Unit] loses [2] movement <upon damaging a [Land] unit>",
+			"[Target Unit] gains the [Slowed] status for [4] turn(s) <upon damaging a [All] unit>"
 			
 			"Never appears as a Barbarian unit"
 		]
@@ -4216,7 +4216,7 @@
 			"Mai Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
 			
-			"[Target Unit] loses [2] movement <upon damaging a [Land] unit>",
+			"[Target Unit] gains the [Slowed] status for [4] turn(s) <upon damaging a [All] unit>"
 			
 			"Never appears as a Barbarian unit"
 		]
@@ -4238,7 +4238,7 @@
 			"Mai Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
 			
-			"[Target Unit] loses [10] movement <upon damaging a [Land] unit>",
+			"[Target Unit] gains the [Slowed] status for [8] turn(s) <upon damaging a [All] unit>"
 			
 			"Never appears as a Barbarian unit"
 		]
