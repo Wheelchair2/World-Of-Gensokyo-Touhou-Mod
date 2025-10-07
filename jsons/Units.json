@@ -9784,11 +9784,12 @@
 		"name": "Royal Sentinel",
 		"unitType": "Sword",
 		"movement": 2,
-		"strength": 1200,
+		"strength": 84,
 		"cost": 3200,
 		"requiredTech": "Literature",
 		"attackSound": "metalhit",
 		"uniques": [
+			"[+30]% Strength <when fighting in [Friendly Land] tiles>",
 			"Mercenary",
 			"Armor",
 			"Unbuildable"
