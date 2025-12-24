@@ -322,9 +322,10 @@
 	
 	/////// MANPOWER ///////
 	"[+20]% [Production] [in all cities] <when above [15] [Manpower]>",
-	"[+1] Happiness from each type of luxury resource <when above [20] [Manpower]>",
+	//"[+1] Happiness from each type of luxury resource <when above [20] [Manpower]>",
 	"[+50]% Production when constructing [Military] units [in all cities] <when above [20] [Manpower]>",
 	"[+100]% Production towards any buildings that already exist in the Capital <when above [20] [Manpower]>",
+
 
 	//"[+10] Happiness from each type of luxury resource <when above [30] [Manpower]>",
 	
@@ -376,7 +377,7 @@
 
     ////////AMBASSADOR///////////
     "Instantly provides [1] [Ambassador] <upon declaring friendship>",
-    "Instantly consumes [1] [Ambassador] <upon declaring war with a major Civilization>",
+    "Instantly consumes [1] [Ambassador] <upon declaring war on [Major] Civilizations>",
     "[+4 Happiness] <for every [Ambassador]> <after discovering [Embassy]>",
 
     ////////EVENTS///////////
@@ -426,6 +427,7 @@
     "Triggers a [Kaguya White] event <upon turn end> <when number of [turns] is between [200] and [201]> <when number of [turns] is less than [201]> <without [White Switch Open]> <for [Major] Civilizations>",
     "Triggers a [Kaguya Black] event <upon turn end> <when number of [turns] is between [205] and [206]> <when number of [turns] is less than [206]> <without [Black Switch Open]> <for [Major] Civilizations>"
   ]
+  
   /*
    "unitUniques": [
 		"[-1] Unit Supply",
