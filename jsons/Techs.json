@@ -124,7 +124,7 @@
 			{
 				"name": "Religion",
 				"row": 17,
-				"quote": "There are three main religions in Gensokyo: Buddhism, Taoism, Shintoism.",
+				"quote": "Buddhism, Taoism, Shintoism. These are the main religions of Gensokyo.",
 				"uniques": [
 					//"Only available <for [Hakurei Faction]>",
 					//"Only available <for [Moriya Faction]>",
@@ -159,7 +159,7 @@
 				"cost": 60,
 				"row": 2,
 				"prerequisites": ["Agriculture"],
-				"quote": "Apparently, there is no sea in Gensokyo.",
+				"quote": "There should be no sea in Gensokyo! Still, this might prove useful...",
 				"uniques": ["Enables embarkation for land units"]
 			},
 			{
@@ -186,7 +186,7 @@
 				"name": "Herbal Medicine",
 				"row": 9,
 				"prerequisites": ["Calendar"],
-				"quote": "Fun fact: the bark of a willow tree is one of the oldest ancient medicine that are still used today."
+				"quote": "They may not be able to match Eirin's medicines but recipes available to common folk will surely help many"
 			},
 			{
 				"name": "Negotiations",
@@ -289,7 +289,7 @@
 				"cost": 120,
 				"row": 12,
 				"prerequisites": ["Forbidden Sorcery"],
-				"quote": "Koakuma & Daiyousei's names were created by the community."
+				"quote": "Some magic is better left untouched. If not for the sake of innocent casualities, for your sake..."
 			},
 			{
 				"name": "Brewing Mastery",
@@ -489,7 +489,7 @@
 				"cost": 275,
 				"row": 15,
 				"prerequisites": ["Magical Science"],
-				"quote": "Sumireko is cute. Did you expected a Touhou quote or something?",
+				"quote": "World is vast! We can only taste so many experiences if we give it our all.",
 				"uniques": ["[+25]% XP gained from combat <for units without [Martial Arts]> <before adopting [Military Tradition]> <before the [Meiji era]>"]
 			}
 		]
@@ -555,7 +555,7 @@
 				"cost": 280,
 				"row": 13,
 				"prerequisites": ["Dark Magic"],
-				"quote": "I was about to put Satori's quote here, but then I realised that there is a more valuable information for you to hear: Satori is cute.",
+				"quote": "Satori is cute.", //Gotta cut to the chase
 				"uniques": ["[-5]% Unhappiness from [Population] [in annexed cities]"]
 			}
 			/*
@@ -713,13 +713,13 @@
 				"cost": 720,
 				"row": 5,
 				"prerequisites": ["Technology Limit"],
-				"quote": "Yukari probably kept humans from technologically advancing in Gensokyo."
+				"quote": "\"The line between disorder and order lies in logistics\" -Sun Tzu"
 			},
 			{
 				"name": "Steel",
 				"row": 7,
 				"prerequisites": ["Technology Limit"],
-				"quote": "Religion plays a major role in Gensokyo, as Gods literally exist in the Touhou series.",
+				"quote": "These new armors shall block many opponents!",
 				"uniques": [
 					"[+10]% Strength <for [Armor] units> <when defending>",
 					"[+15]% Strength <for [Ashigaru] units> <when attacking>"
@@ -744,13 +744,13 @@
 				"name": "Public Education",
 				"row": 10,
 				"prerequisites": ["Civil Service"],
-				"quote": "Yukari probably kept humans from technologically advancing in Gensokyo."
+				"quote": "Vast sea of knowledge can only be conquered by collective effort from both the elite and common folk alike. We can not allow this pursuit to stay exclusive!"
 			},
 			{
 				"name": "Metallurgy",
 				"row": 8,
 				"prerequisites": ["Steel"],
-				"quote": "Yukari probably kept humans from technologically advancing in Gensokyo.",
+				"quote": "Two metals may seperately be useless but add a little intellect to the process and you will get something nice",
 				"uniques": ["All newly-trained [{Military} {Land}] units [in all cities] receive the [Refine Armor I] promotion"]
 			},
 			{
@@ -758,14 +758,14 @@
 				"cost": 480,
 				"row": 6,
 				"prerequisites": ["Military Logistics"],
-				"quote": "Religion plays a major role in Gensokyo, as Gods literally exist in the Touhou series.",
+				"quote": "To effectively protect our nation, needs of common folk may occasionally be breached",
 				"uniques": ["[+1] Movement <for [Mounted] units>"]
 			},
 			{
 				"name": "Naval Warfare",
 				"row": 4,
 				"prerequisites": ["Military Logistics"],
-				"quote": "Religion plays a major role in Gensokyo, as Gods literally exist in the Touhou series.",
+				"quote": "\"Sea remembers the day Peter built his first boat and said, There will be a fleet!\"",
 				"uniques": [
 					"[+1] Movement <for [{Military} {Water}] units>",
 					"[+1] Movement <for [Embarked] units>"
@@ -832,20 +832,20 @@
 				"name": "Lantern Clock",
 				"row": 8,
 				"prerequisites": ["Machinery"],
-				"quote": "Religion plays a major role in Gensokyo, as Gods literally exist in the Touhou series.",
+				"quote": "Sharing a common time among people shall improve efficiency of our nation greatly",
 				"uniques": ["[+1 Production] [in all cities]"]
 			},
 			{
 				"name": "Nobility",
 				"row": 6,
 				"prerequisites": ["Vassal States"],
-				"quote": "Religion plays a major role in Gensokyo, as Gods literally exist in the Touhou series."
+				"quote": "Contributions of some people are just extordinary! These people who clearly love this nation shall be rewarded in a way which also benefits the nation"
 			},
 			{
 				"name": "Literature",
 				"row": 4,
 				"prerequisites": ["Official Navy"],
-				"quote": "Religion plays a major role in Gensokyo, as Gods literally exist in the Touhou series."
+				"quote": "\"A reader lives a thousand lives before he dies. The man who never reads lives only one\" -George R.R. Martin"
 			}
 		]
 	},
@@ -912,13 +912,13 @@
 				"name": "Military Science",
 				"row": 6,
 				"prerequisites": ["Espionage"],
-				"quote": "."
+				"quote": "Military matters almost as much as civil science. Its about time to separate its institutes"
 			},
 			{
 				"name": "History Preservation",
 				"row": 4,
 				"prerequisites": ["Peace To Gensokyo"],
-				"quote": "A gentle pat should do the trick."
+				"quote": "\"Those who cannot remember the past are condemned to repeat it.\" -George Santayana"
 			}
 		]
 	},
@@ -936,7 +936,7 @@
 					"Forgotten Items",
 					"Modern Knowledge"
 				],
-				"quote": ".",
+				"quote": "Though I suspect their compositions differ greatly, common institutes are close to matching Eirin now",
 				"uniques": ["[+15]% Strength <when defending> <for [Military] units> <when adjacent to a [Field Medic] unit>"]
 			},
 			{
