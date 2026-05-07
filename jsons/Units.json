@@ -658,6 +658,7 @@
 			"[This Unit] gains the [Ice Fairy] promotion <hidden from users>",
 			"Cirno Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
+			"Comment [Slows down target units]",
 			
 			"Never appears as a Barbarian unit"
 		]
@@ -679,6 +680,7 @@
 			"Comment [Hero units can upgrade after each era]",
 			"Cirno Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
+			"Comment [Slows down target units]",
 			
 			"[This Unit] loses the [Fairy] promotion <hidden from users>",
 			
@@ -704,6 +706,7 @@
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
 			
 			"[This Unit] loses the [Fairy] promotion <hidden from users>",
+			"Comment [Slows down target units]",
 			
 			"Never appears as a Barbarian unit"
 		]
@@ -727,6 +730,7 @@
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
 			
 			"[This Unit] loses the [Fairy] promotion <hidden from users>",
+			"Comment [Slows down target units]",
 			
 			"Never appears as a Barbarian unit"
 		]
@@ -749,6 +753,7 @@
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
 			
 			"[This Unit] loses the [Fairy] promotion <hidden from users>",
+			"Comment [Slows down target units]",
 			
 			"Never appears as a Barbarian unit"
 		]
@@ -1136,6 +1141,7 @@
 			"Daiyousei Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
 			
+			"Comment [Has the ability grow Forests in tiles]",
 			"Turn this tile into a [Forest] tile <in [Friendly Land] tiles> <for all movement>",
 			"[+20]% Strength <in [Forest] tiles>",
 			
@@ -1160,6 +1166,7 @@
 			"Daiyousei Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
 			
+			"Comment [Has the ability grow Forests in tiles]",
 			"Turn this tile into a [Forest] tile <in [Friendly Land] tiles> <for all movement>",
 			"[+20]% Strength <when fighting in [Forest] tiles>",
 			
@@ -1184,6 +1191,7 @@
 			"Daiyousei Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
 			
+			"Comment [Has the ability grow Forests in tiles]",
 			"Turn this tile into a [Forest] tile <in [Friendly Land] tiles> <for all movement>",
 			"[+20]% Strength <when fighting in [Forest] tiles>",
 			
@@ -1208,6 +1216,7 @@
 			"Daiyousei Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
 			
+			"Comment [Has the ability grow Forests in tiles]",
 			"Turn this tile into a [Forest] tile <in [Friendly Land] tiles> <for all movement>",
 			"[+20]% Strength <when fighting in [Forest] tiles>",
 			
@@ -1231,6 +1240,7 @@
 			"Daiyousei Hero",
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
 			
+			"Comment [Has the ability grow Forests in tiles]",
 			"Turn this tile into a [Forest] tile <in [Friendly Land] tiles> <for all movement>",
 			"[+50]% Strength <when fighting in [Forest] tiles>",
 			
@@ -3653,7 +3663,7 @@
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
 			
 			"[-30]% Strength",
-			"[+8] XP gained from combat",
+			"[+15] XP gained from combat",
 			
 			"Never appears as a Barbarian unit"
 		]
@@ -7009,6 +7019,7 @@
 			
 			"[This Unit] loses the [Spirit] promotion <hidden from users>",
 			"[This Unit] gains the [Spirit Princess] promotion <hidden from users>",
+			"May capture killed [non-[Hero]] units",
 			
 			"Never appears as a Barbarian unit"
 		]
@@ -7035,7 +7046,8 @@
 			"[This Unit] gains the [Spirit Princess] promotion <hidden from users>",
 			
 			"Free [Yuyuko Saigyouji (Level 2)] appears <upon being defeated> <if [Resurrection Butterfly] is constructed>",
-			"Remove [Resurrection Butterfly] [in capital] <upon being defeated>",
+			"Remove [Resurrection Butterfly] [in all cities] <upon being defeated>",
+			"May capture killed [non-[Hero]] units",
 			
 			"Never appears as a Barbarian unit"
 		]
@@ -7062,7 +7074,8 @@
 			"[This Unit] gains the [Spirit Princess] promotion <hidden from users>",
 			
 			"Free [Yuyuko Saigyouji (Level 3)] appears <upon being defeated> <if [Resurrection Butterfly] is constructed>",
-			"Remove [Resurrection Butterfly] [in capital] <upon being defeated>",
+			"Remove [Resurrection Butterfly] [in all cities] <upon being defeated>",
+			"May capture killed [non-[Hero]] units",
 			
 			"Never appears as a Barbarian unit"
 		]
@@ -7089,7 +7102,8 @@
 			"[This Unit] gains the [Spirit Princess] promotion <hidden from users>",
 			
 			"Free [Yuyuko Saigyouji (Level 4)] appears <upon being defeated> <if [Resurrection Butterfly] is constructed>",
-			"Remove [Resurrection Butterfly] [in capital] <upon being defeated>",
+			"Remove [Resurrection Butterfly] [in all cities] <upon being defeated>",
+			"May capture killed [non-[Hero]] units",
 			
 			"Never appears as a Barbarian unit"
 		]
@@ -7115,7 +7129,7 @@
 			"[This Unit] gains the [Spirit Princess] promotion <hidden from users>",
 			
 			"Free [Yuyuko Saigyouji (Level 5)] appears <upon being defeated> <if [Resurrection Butterfly] is constructed>",
-			"Remove [Resurrection Butterfly] [in capital] <upon being defeated>",
+			"Remove [Resurrection Butterfly] [in all cities] <upon being defeated>",
 			"May capture killed [non-[Hero]] units",
 			
 			"Never appears as a Barbarian unit"
@@ -7142,6 +7156,8 @@
 			"Comment [----------------------------⋆⋅☆⋅⋆----------------------------+]",
 			
 			"[Target Unit] takes [30] damage <with [50]% chance> <upon damaging a [Land] unit>",
+			"[-50]% Strength <when attacking> <vs [Land] units>",
+			"[+2] additional attacks per turn",
 			
 			"[This Unit] loses the [Spirit] promotion <hidden from users>",
 			"[This Unit] gains the [Half-Human Half-Phantom] promotion <hidden from users>",
@@ -7170,6 +7186,8 @@
 			"[This Unit] loses the [Spirit] promotion <hidden from users>",
 			
 			"[Target Unit] takes [30] damage <with [50]% chance> <upon damaging a [Land] unit>",
+			"[-50]% Strength <when attacking> <vs [Land] units>",
+			"[+2] additional attacks per turn",
 			
 			"Never appears as a Barbarian unit"
 		]
@@ -7195,6 +7213,8 @@
 			"[This Unit] loses the [Spirit] promotion <hidden from users>",
 			
 			"[Target Unit] takes [30] damage <with [50]% chance> <upon damaging a [Land] unit>",
+			"[-50]% Strength <when attacking> <vs [Land] units>",
+			"[+2] additional attacks per turn",
 			
 			"Never appears as a Barbarian unit"
 		]
@@ -7220,6 +7240,8 @@
 			"[This Unit] loses the [Spirit] promotion <hidden from users>",
 			
 			"[Target Unit] takes [30] damage <with [50]% chance> <upon damaging a [Land] unit>",
+			"[-50]% Strength <when attacking> <vs [Land] units>",
+			"[+2] additional attacks per turn",
 			
 			"Never appears as a Barbarian unit"
 		]
@@ -7244,6 +7266,8 @@
 			"[This Unit] loses the [Spirit] promotion <hidden from users>",
 			
 			"[Target Unit] takes [40] damage <with [55]% chance> <upon damaging a [Land] unit>",
+			"[-50]% Strength <when attacking> <vs [Land] units>",
+			"[+3] additional attacks per turn",
 			
 			"Never appears as a Barbarian unit"
 		]

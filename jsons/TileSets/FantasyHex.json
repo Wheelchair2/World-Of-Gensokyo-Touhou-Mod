@@ -9,9 +9,9 @@
 		"Desert+Farm": ["DesertFarm"],
 		"Desert+Flood plains+Farm": ["DesertFloodplainsFarm"],
 
-		"Plains+Wheat+Farm": ["PlainsFarm", "Wheat"],
+		//"Plains+Wheat+Farm": ["PlainsFarm", "Wheat"],
 		"Desert+Wheat+Farm": ["DesertFarm", "Wheat"],
-		"Desert+Flood plains+Wheat+Farm": ["DesertFarm", "Wheat"],
+		"Desert+Flood plains+Wheat+Farm": ["DesertFloodplainsFarm", "Wheat"],
 
 		"Tundra+Olive Tree": ["Tundra", "Olive Tree Tundra"]
 	}

@@ -2,7 +2,7 @@
 	// Hero Promotions
 	{
 		"name": "Studious I",
-		"uniques": ["[+15]% XP gained from combat", "Not shown on world screen"],
+		"uniques": ["[+2] XP gained from combat", "Not shown on world screen"],
 		"unitTypes": ["Fighter Hero", "Support Hero"],
         "column": 27,
         "row": 2
@@ -10,7 +10,7 @@
 	{
 		"name": "Studious II",
 		"prerequisites": ["Studious I"],
-		"uniques": ["[+15]% XP gained from combat", "Not shown on world screen"],
+		"uniques": ["[+50]% XP gained from combat", "Not shown on world screen"],
 		"unitTypes": ["Fighter Hero", "Support Hero"],
         "column": 28,
         "row": 2
@@ -18,7 +18,7 @@
 	{
 		"name": "Studious III",
 		"prerequisites": ["Studious II"],
-		"uniques": ["[+20]% XP gained from combat", "Not shown on world screen"],
+		"uniques": ["[+3] XP gained from combat", "Not shown on world screen"],
 		"unitTypes": ["Fighter Hero", "Support Hero"],
         "column": 29,
         "row":  2
@@ -456,8 +456,7 @@
 			"Apparition",
 			"Ignores terrain cost",
 			"Can pass through impassable tiles",
-			"Ignores Zone of Control",
-			"May capture killed [Land] units"
+			"Ignores Zone of Control"
 		]
 	},
 	{

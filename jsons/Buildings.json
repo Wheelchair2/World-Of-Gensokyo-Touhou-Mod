@@ -262,7 +262,7 @@
 		"isNationalWonder": true,
 		"uniques": [
 			"Special Wonder",
-			"Earn [50]% of killed [Military] unit's [Strength] as [Faith]"
+			"Earn [100]% of killed [Military] unit's [Strength] as [Faith]"
 		],
 		"greatPersonPoints": {
 			"Great Engineer": 1
@@ -352,6 +352,7 @@
 		"isNationalWonder": true,
 		"uniques": [
 			"Special Wonder",
+			"Gain [1200] [Gold]",
 			"[Gold] cost of purchasing [All] buildings [-80]% <for [1] turns>",
 			"[Gold] cost of purchasing [All] units [-80]% <for [1] turns>"
 		],
@@ -1427,7 +1428,7 @@
 		"cost": 125,
 		"isNationalWonder": true,
 		"uniques": [
-			"[-10]% Unhappiness from [Population] [in all non-occupied cities]",
+			"[+10]% Strength <for [Monk] units>",
 			"Cost increases by [40] per owned city"
 		],
 		"requiredTech": "Law And Order"
