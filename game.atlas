@@ -3523,14 +3523,14 @@ TileSets/FantasyHex/Tiles/DesertFarm
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/DesertHillFarm
+TileSets/FantasyHex/Tiles/DesertFloodplainsFarm
   rotate: false
   xy: 404, 18
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/DessertFloodplainsFarm
+TileSets/FantasyHex/Tiles/DesertHillFarm
   rotate: false
   xy: 444, 18
   size: 32, 28

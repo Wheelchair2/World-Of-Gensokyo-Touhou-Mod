@@ -614,7 +614,7 @@
       {
         "name": "Civil Society",
         "uniques": [
-          "[-50]% Food consumption by specialists [in all cities]",
+          "[-50]% Food consumption by [Specialists] [in all cities]",
           "[-10]% Unhappiness from [Population] [in all cities]"
         ],
         "row": 1,
